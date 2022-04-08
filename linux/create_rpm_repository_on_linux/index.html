@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.lug.ustc.edu.cn/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="linux环境下创建rpm仓库环境说明：centos 7.7 简要说明：第一步：首先配置本地可以安装的rpm仓库 第二步：然后安装apache将仓库export出去， 第三步：让局域网上其他计算机其他计算机可以使用自己创建的rpm仓库，也可以称为yum源。 第四步：如果能让internet上其他计算机可以访问该yum源，需要公网IP，如果方便用户记忆需要配置dns解析。(本文由于篇幅所限，不讲解此">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux环境下创建rpm仓库">
+<meta property="og:url" content="http://www.pengshu.net/linux/create_rpm_repository_on_linux/index.html">
+<meta property="og:site_name" content="鹏叔的博客空间">
+<meta property="og:description" content="linux环境下创建rpm仓库环境说明：centos 7.7 简要说明：第一步：首先配置本地可以安装的rpm仓库 第二步：然后安装apache将仓库export出去， 第三步：让局域网上其他计算机其他计算机可以使用自己创建的rpm仓库，也可以称为yum源。 第四步：如果能让internet上其他计算机可以访问该yum源，需要公网IP，如果方便用户记忆需要配置dns解析。(本文由于篇幅所限，不讲解此">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img2020.cnblogs.com/blog/629465/202102/629465-20210205202244120-686761353.png">
+<meta property="article:published_time" content="2021-10-27T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-04-02T10:26:51.155Z">
+<meta property="article:author" content="Eagle Guo">
+<meta property="article:tag" content="Linux">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img2020.cnblogs.com/blog/629465/202102/629465-20210205202244120-686761353.png">
+
+
+<link rel="canonical" href="http://www.pengshu.net/linux/create_rpm_repository_on_linux/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/linux/create_rpm_repository_on_linux/","path":"linux/create_rpm_repository_on_linux/","title":"linux环境下创建rpm仓库"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>linux环境下创建rpm仓库 | 鹏叔的博客空间</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?ce195fba88faa19898935f9dfcaef62"></script>
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">鹏叔的博客空间</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li>
+        <li class="menu-item menu-item-vscode"><a href="/vscode/" rel="section"><i class="fa fa-th fa-fw"></i>vscode</a></li>
+        <li class="menu-item menu-item-hexo"><a href="/hexo/" rel="section"><i class="fa fa-sitemap fa-fw"></i>hexo</a></li>
+        <li class="menu-item menu-item-java"><a href="/java/" rel="section"><i class="fa fa-coffee fa-fw"></i>java</a></li>
+        <li class="menu-item menu-item-rust"><a href="/rust/" rel="section"><i class="fa fa-cube fa-fw"></i>rust</a></li>
+        <li class="menu-item menu-item-golang"><a href="/golang/" rel="section"><i class="fa fa-cloud fa-fw"></i>golang</a></li>
+        <li class="menu-item menu-item-frontend"><a href="/frontend/" rel="section"><i class="fa fa-mobile fa-fw"></i>frontend</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%88%9B%E5%BB%BArpm%E4%BB%93%E5%BA%93"><span class="nav-number">1.</span> <span class="nav-text">linux环境下创建rpm仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E8%AF%B4%E6%98%8E%EF%BC%9A"><span class="nav-number">1.1.</span> <span class="nav-text">环境说明：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E8%A6%81%E8%AF%B4%E6%98%8E%EF%BC%9A"><span class="nav-number">1.2.</span> <span class="nav-text">简要说明：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0RPM%E4%BB%93%E5%BA%93"><span class="nav-number">1.3.</span> <span class="nav-text">配置本地RPM仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%B7%A5%E5%85%B7createrepo"><span class="nav-number">1.3.1.</span> <span class="nav-text">安装工具createrepo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BARPM%E4%BB%93%E5%BA%93"><span class="nav-number">1.3.2.</span> <span class="nav-text">创建RPM仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%B7%E8%B4%9DRPM%E5%8C%85%E5%88%B0RPM%E4%BB%93%E5%BA%93"><span class="nav-number">1.3.3.</span> <span class="nav-text">拷贝RPM包到RPM仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%85%83%E6%95%B0%E6%8D%AE"><span class="nav-number">1.3.4.</span> <span class="nav-text">创建元数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95%E6%9C%AC%E5%9C%B0yum%E6%BA%90"><span class="nav-number">1.3.5.</span> <span class="nav-text">测试本地yum源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%85%E9%99%A4yum%E7%BC%93%E5%AD%98%EF%BC%8C%E6%9F%A5%E7%9C%8B%E4%BB%93%E5%BA%93%E5%88%97%E8%A1%A8"><span class="nav-number">1.3.6.</span> <span class="nav-text">清除yum缓存，查看仓库列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91rpm%E4%BB%93%E5%BA%93"><span class="nav-number">1.4.</span> <span class="nav-text">搭建局域网rpm仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85apache-web%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">1.4.1.</span> <span class="nav-text">安装apache web服务器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEapache-web-%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">1.4.2.</span> <span class="nav-text">配置apache web 服务器* *</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8apach-web-%E6%9C%8D%E5%8A%A1"><span class="nav-number">1.4.3.</span> <span class="nav-text">启动apach web 服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E6%88%96%E6%B7%BB%E5%8A%A0yum%E6%BA%90%E6%B5%8B%E8%AF%95"><span class="nav-number">1.4.4.</span> <span class="nav-text">修改或添加yum源测试</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">1.5.</span> <span class="nav-text">参考文档</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Eagle Guo</p>
+  <div class="site-description" itemprop="description">鹏叔的博客空间</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">53</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">22</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">32</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/guoapeng" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;guoapeng" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:guoapeng@gmail.com" title="E-Mail → mailto:guoapeng@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/u/1972651593" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;1972651593" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="Back to top">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-cn">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/create_rpm_repository_on_linux/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          linux环境下创建rpm仓库
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-10-28 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-28T00:00:00+08:00">2021-10-28</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>3.8k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="linux环境下创建rpm仓库"><a href="#linux环境下创建rpm仓库" class="headerlink" title="linux环境下创建rpm仓库"></a>linux环境下创建rpm仓库</h1><h2 id="环境说明："><a href="#环境说明：" class="headerlink" title="环境说明："></a>环境说明：</h2><p>centos 7.7</p>
+<h2 id="简要说明："><a href="#简要说明：" class="headerlink" title="简要说明："></a>简要说明：</h2><p>第一步：首先配置本地可以安装的rpm仓库</p>
+<p>第二步：然后安装apache将仓库export出去，</p>
+<p>第三步：让局域网上其他计算机其他计算机可以使用自己创建的rpm仓库，也可以称为yum源。</p>
+<p>第四步：如果能让internet上其他计算机可以访问该yum源，需要公网IP，如果方便用户记忆需要配置dns解析。(本文由于篇幅所限，不讲解此步骤, 可自行百度了解, 如何配置DNS解析)</p>
+<span id="more"></span>
+<h2 id="配置本地RPM仓库"><a href="#配置本地RPM仓库" class="headerlink" title="配置本地RPM仓库"></a>配置本地RPM仓库</h2><h3 id="安装工具createrepo"><a href="#安装工具createrepo" class="headerlink" title="安装工具createrepo"></a>安装工具createrepo</h3><p>检查是否以及createrepo，这是配置本地rpm仓库唯一需要安装的工具，其作用是创建rpm仓库的元数据，创建元数据的目的是让包管理器客户端比如yum能方便的获得rpm仓库的索引，以及rpm包之间的依赖关系, 而不必扫描整个仓库获得rpm包信息，及分析依赖。</p>
+<p>检查是否以及安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$rpm</span> -q createrepo</span><br><span class="line">package createrepo is not installed</span><br></pre></td></tr></table></figure>
+
+<p>如果没有，执行以下命令安装 createrepo 工具</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> yum install -y createrepo</span><br></pre></td></tr></table></figure>
+
+<p> 检查是否安装成功</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$rpm</span> -q createrepo</span><br><span class="line">createrepo-0.9.9-28.el7.noarch</span><br><span class="line"></span><br><span class="line"><span class="variable">$createrepo</span> --version</span><br><span class="line">createrepo 0.9.9</span><br></pre></td></tr></table></figure>
+
+<p>查看帮助</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$createrepo</span> --<span class="built_in">help</span></span><br><span class="line">Usage: genpkgmetadata.py [options]</span><br><span class="line"></span><br><span class="line">Options:</span><br><span class="line">  --version             show program<span class="string">&#x27;s version number and exit</span></span><br><span class="line"><span class="string">  -h, --help            show this help message and exit</span></span><br><span class="line"><span class="string">  -q, --quiet           output nothing except for serious errors</span></span><br><span class="line"><span class="string">  -v, --verbose         output more debugging info.</span></span><br><span class="line"><span class="string">  --profile             output timing/profile info.</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="创建RPM仓库"><a href="#创建RPM仓库" class="headerlink" title="创建RPM仓库"></a>创建RPM仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> mkdir -pv /rpm/centos/&#123;6,7&#125;/os/x86_64mkdir: created directory ‘/rpm’</span><br><span class="line">mkdir: created directory ‘/rpm/centos’</span><br><span class="line">mkdir: created directory ‘/rpm/centos/6’</span><br><span class="line">mkdir: created directory ‘/rpm/centos/6/os’</span><br><span class="line">mkdir: created directory ‘/rpm/centos/6/os/x86_64’</span><br><span class="line">mkdir: created directory ‘/rpm/centos/7’</span><br><span class="line">mkdir: created directory ‘/rpm/centos/7/os’</span><br><span class="line">mkdir: created directory ‘/rpm/centos/7/os/x86_64’</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="拷贝RPM包到RPM仓库"><a href="#拷贝RPM包到RPM仓库" class="headerlink" title="拷贝RPM包到RPM仓库"></a>拷贝RPM包到RPM仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cp /root/vsftpd-2.2.2-24.el6.x86_64.rpm /rpm/centos/6/os/x86_64</span><br><span class="line">cp /root/tomcat-7.0.76-2.el7.noarch.rpm  /rpm/centos/7/os/x86_64</span><br></pre></td></tr></table></figure>
+
+<h3 id="创建元数据"><a href="#创建元数据" class="headerlink" title="创建元数据"></a>创建元数据</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> createrepo /rpm/centos/6/os/x86_64/</span><br><span class="line"><span class="variable">$sudo</span> createrepo /rpm/centos/7/os/x86_64/</span><br></pre></td></tr></table></figure>
+
+<p>注：通过执行以上命令， createrepo将会在以上目录下分别根据目录下的rpm生成元数据并保存在repodata下;</p>
+<p>如果rpm包有更新，需要运行 以下命令更新元数据</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> createrepo --update /rpm/centos/6/os/x86_64/</span><br><span class="line"><span class="variable">$sudo</span> createrepo --update /rpm/centos/7/os/x86_64/</span><br></pre></td></tr></table></figure>
+
+<p>完成以上配置，一个本地yum源已经配置成功，下面对本地yum源进行测试</p>
+<h3 id="测试本地yum源"><a href="#测试本地yum源" class="headerlink" title="测试本地yum源"></a><strong>测试本地yum源</strong></h3><p>添加本地yum源</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> vi /etc/yum.repos.d/CentOS-Local.repo</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 文件内容如下# CentOS-7-localRepo.repo</span><br><span class="line"></span><br><span class="line">[local_base]</span><br><span class="line">name=CentOS-$releasever-localRepo - Base</span><br><span class="line">baseurl=file:///rpm/centos/$releasever/os/$basearch</span><br><span class="line">gpgcheck=0</span><br></pre></td></tr></table></figure>
+
+<p>说明：</p>
+<p>第一个[ ]中括号里表示仓库的名字，通常这个名字可以自己决定，以方便记忆和理解为原则，但是一般不建议里面带空格，</p>
+<p>name：表示仓库的简要说明，</p>
+<p>baseurl= 表示仓库的路径，也就是repodata所在的目录的父目录，</p>
+<p>gpgcheck=0表示不检查包的gpg验证，若gpgcheck=1表示要验证。</p>
+<p>添加以上内容我们客户端就可以根据以上定义的baseurl去服务器仓库里找相应的包。</p>
+<h3 id="清除yum缓存，查看仓库列表"><a href="#清除yum缓存，查看仓库列表" class="headerlink" title="清除yum缓存，查看仓库列表"></a>清除yum缓存，查看仓库列表</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#清除yum缓存</span><br><span class="line">$ sudo yum clean all</span><br><span class="line">#查看yum源列表</span><br><span class="line">$yum repolist</span><br><span class="line">Loaded plugins: fastestmirror</span><br><span class="line">Determining fastest mirrors</span><br><span class="line">* base: mirrors.cqu.edu.cn</span><br><span class="line">* extras: mirrors.tuna.tsinghua.edu.cn</span><br><span class="line">* updates: mirrors.cqu.edu.cn</span><br><span class="line">base | 3.6 kB 00:00:00</span><br><span class="line"></span><br><span class="line">extras | 2.9 kB 00:00:00</span><br><span class="line"></span><br><span class="line">my_base | 2.9 kB 00:00:00</span><br><span class="line"></span><br><span class="line">updates | 2.9 kB 00:00:00</span><br><span class="line"></span><br><span class="line">(1/5): my_base/7/x86_64/primary_db | 3.1 kB 00:00:00</span><br></pre></td></tr></table></figure>
+
+<p>安装软rpm<br>以vsftpd为例</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$yum install vsftpd</span><br><span class="line">Loaded plugins: fastestmirror, security</span><br><span class="line">Setting up Install Process</span><br><span class="line">Loading mirror speeds from cached hostfile</span><br><span class="line">Resolving Dependencies</span><br><span class="line">--&gt; Running transaction check</span><br><span class="line">---&gt; Package vsftpd.x86_64 0:2.2.2-24.el6 will be installed</span><br><span class="line">--&gt; Finished Dependency Resolution</span><br></pre></td></tr></table></figure>
+
+<h2 id="搭建局域网rpm仓库"><a href="#搭建局域网rpm仓库" class="headerlink" title="搭建局域网rpm仓库"></a>搭建局域网rpm仓库</h2><h3 id="安装apache-web服务器"><a href="#安装apache-web服务器" class="headerlink" title="安装apache web服务器"></a>安装apache web服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 检查是否以及安装httpd$rpm -q httpd</span></span><br><span class="line">package httpd is not installed</span><br><span class="line"><span class="comment"># 如果没有安装, 则执行以下命令安装</span></span><br><span class="line"><span class="variable">$sudo</span> yum -y install httpd </span><br></pre></td></tr></table></figure>
+
+<p>说明：httpd默认工作路径在/var/www/html/ 下，也就是放html网页代码的地方。</p>
+<h3 id="配置apache-web-服务器"><a href="#配置apache-web-服务器" class="headerlink" title="配置apache web 服务器* *"></a>配置apache web 服务器* *</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建软连接指向，之前安装的yum repo:/rpm/centos</span></span><br><span class="line"><span class="variable">$sudo</span> ln -s  /rpm/centos /var/www/html/centos</span><br></pre></td></tr></table></figure>
+
+<p>由于我的80端口以及被另一个进程占用，所以我需要修改 apache的配置让其监听在另一个端口上</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> vi /etc/httpd/conf/httpd.conf</span><br><span class="line">Listen 8085</span><br></pre></td></tr></table></figure>
+
+<h3 id="启动apach-web-服务"><a href="#启动apach-web-服务" class="headerlink" title="启动apach web 服务"></a>启动apach web 服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$systemctl</span> start httpd</span><br><span class="line"></span><br><span class="line"><span class="variable">$systemctl</span> status httpd</span><br><span class="line">   httpd.service - The Apache HTTP Server</span><br><span class="line">   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; vendor preset: disabled)</span><br><span class="line">   Active: active (running) since Fri 2021-02-05 20:12:27 CST; 1min 53s ago</span><br><span class="line">     Docs: man:httpd(8)</span><br><span class="line">           man:apachectl(8) <span class="comment">#设置为开机启动$systemctl enable httpd</span></span><br></pre></td></tr></table></figure>
+<p>打开浏览器访问 <a target="_blank" rel="noopener" href="http://192.168.x.x:8085/centos/">http://192.168.x.x:8085/centos/</a> 这里的 ip 替换成自己的服务器ip</p>
+<p><img src="https://img2020.cnblogs.com/blog/629465/202102/629465-20210205202244120-686761353.png" alt="img"></p>
+<h3 id="修改或添加yum源测试"><a href="#修改或添加yum源测试" class="headerlink" title="修改或添加yum源测试"></a>修改或添加yum源测试</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> vi /etc/yum.repos.d/CentOS-Local.repo</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 文件内容如下# CentOS-7-localRepo.repo</span></span><br><span class="line"></span><br><span class="line">[local_base]</span><br><span class="line">name=CentOS-<span class="variable">$releasever</span>-localRepo - Base</span><br><span class="line">baseurl=http://192.168.x.x:8085/centos/<span class="variable">$releasever</span>/os/<span class="variable">$basearch</span></span><br><span class="line">gpgcheck=0</span><br></pre></td></tr></table></figure>
+
+<p>修改之前创建的CentOS-Local.repo 中的baseurl为<a target="_blank" rel="noopener" href="http://192.168.x.x:8085/centos/$releasever/os/$basearch">http://192.168.x.x:8085/centos/$releasever/os/$basearch</a> </p>
+<p>清空缓存 yum clean all </p>
+<p>这样就可以使用局域网yum源了，可以在局域网内的任意一台centos, fedora 或redhat上使用此 yum源了</p>
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/qiuhom-1874/archive/2019/09/08/11487456.html">Linux系统之rpm仓库搭建</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Eagle Guo
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://www.pengshu.net/linux/create_rpm_repository_on_linux/" title="linux环境下创建rpm仓库">http://www.pengshu.net/linux/create_rpm_repository_on_linux/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/linux/how_to_create_rpm_package/" rel="prev" title="如何制作RPM包">
+                  <i class="fa fa-chevron-left"></i> 如何制作RPM包
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/hexo/hexo_cli/" rel="next" title="Hexo命令详解">
+                  Hexo命令详解 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments utterances-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Eagle Guo</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>Symbols count total: </span>
+    <span title="Symbols count total">250k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>Reading time total &asymp;</span>
+    <span title="Reading time total">3:48</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+  <div class="addthis_inline_share_toolbox">
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-615fe625918d4f20" async="async"></script>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.2/dist/mermaid.min.js","integrity":"sha256-UIQPVkGifpwMvDH5yGgORJ9sSTDq38zz6BGU6dNaKhM="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"guoapeng/guoapeng.github.io","issue_term":"pathname","theme":"github-light","cdn":"https://utteranc.es/client.js"}</script>
+<script src="/js/third-party/comments/utterances.js"></script>
+
+</body>
+</html>

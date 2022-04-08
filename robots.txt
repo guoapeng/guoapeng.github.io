@@ -1,0 +1,35 @@
+# welcome to eagle's blog space
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /hexo/
+Allow: /java/
+Allow: /linux/
+Allow: /nodejs/
+Allow: /webpack/
+Allow: /windows/
+Allow: /sass/
+Allow: /k8s/
+Allow: /golang/
+Allow: /gitlab/
+Allow: /git/
+Allow: /tags/
+Allow: /frontend/
+Allow: /javascript/
+Allow: /rust/
+Allow: /web/
+Allow: /vscode/
+Allow: /about/
+Allow: /linux/centos7_install_git_via_sourcecode/
+Allow: /linux/Linux_FHS/
+Allow: /others/wake_your_ass_up/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /lib/
+
+Sitemap: https://www.pengshu.net/sitemap.xml
+Sitemap: https://www.pengshu.net/baidusitemap.xml
