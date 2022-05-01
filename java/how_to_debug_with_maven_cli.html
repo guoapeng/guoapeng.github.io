@@ -19,15 +19,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="如何Maven结合IDEA进行Debug介绍由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进">
+<meta name="description" content="介绍由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进行编译，更新index这些极其耗时的工作">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何Maven结合IDEA进行Debug">
 <meta property="og:url" content="http://www.pengshu.net/java/how_to_debug_with_maven_cli.html">
 <meta property="og:site_name" content="鹏叔的博客空间">
-<meta property="og:description" content="如何Maven结合IDEA进行Debug介绍由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进">
+<meta property="og:description" content="介绍由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进行编译，更新index这些极其耗时的工作">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-12-21T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-05T17:19:16.581Z">
+<meta property="article:modified_time" content="2022-05-01T13:58:15.050Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Java">
 <meta property="article:tag" content="maven">
@@ -156,7 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A6%82%E4%BD%95Maven%E7%BB%93%E5%90%88IDEA%E8%BF%9B%E8%A1%8CDebug"><span class="nav-number">1.</span> <span class="nav-text">如何Maven结合IDEA进行Debug</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95"><span class="nav-number">1.2.</span> <span class="nav-text">创建一个测试</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8mmaven%E6%B5%8B%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E5%9C%A8debug%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.</span> <span class="nav-text">启动mmaven测试并运行在debug模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEremote-JVM-debug%E6%A8%A1%E6%9D%BF"><span class="nav-number">1.4.</span> <span class="nav-text">配置remote JVM debug模板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8remote-JVM-debug%E8%BF%9B%E7%A8%8B"><span class="nav-number">1.5.</span> <span class="nav-text">启动remote JVM debug进程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%96%AD%E7%82%B9"><span class="nav-number">1.6.</span> <span class="nav-text">设置断点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">1.7.</span> <span class="nav-text">其他</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95-debug-maven-%E6%8F%92%E4%BB%B6"><span class="nav-number">1.7.1.</span> <span class="nav-text">如何 debug maven 插件?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">1.8.</span> <span class="nav-text">参考文档</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95"><span class="nav-number">2.</span> <span class="nav-text">创建一个测试</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8mmaven%E6%B5%8B%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E5%9C%A8debug%E6%A8%A1%E5%BC%8F"><span class="nav-number">3.</span> <span class="nav-text">启动mmaven测试并运行在debug模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEremote-JVM-debug%E6%A8%A1%E6%9D%BF"><span class="nav-number">4.</span> <span class="nav-text">配置remote JVM debug模板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8remote-JVM-debug%E8%BF%9B%E7%A8%8B"><span class="nav-number">5.</span> <span class="nav-text">启动remote JVM debug进程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%96%AD%E7%82%B9"><span class="nav-number">6.</span> <span class="nav-text">设置断点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">7.</span> <span class="nav-text">其他</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95-debug-maven-%E6%8F%92%E4%BB%B6"><span class="nav-number">7.1.</span> <span class="nav-text">如何 debug maven 插件?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">8.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -169,7 +169,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -274,7 +274,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:19:16" itemprop="dateModified" datetime="2022-04-06T01:19:16+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 21:58:15" itemprop="dateModified" datetime="2022-05-01T21:58:15+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -318,10 +318,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="如何Maven结合IDEA进行Debug"><a href="#如何Maven结合IDEA进行Debug" class="headerlink" title="如何Maven结合IDEA进行Debug"></a>如何Maven结合IDEA进行Debug</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。<br>在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进行编译，更新index这些极其耗时的工作。</p>
+        <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。<br>在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进行编译，更新index这些极其耗时的工作。</p>
 <span id="more"></span>
 
-<h2 id="创建一个测试"><a href="#创建一个测试" class="headerlink" title="创建一个测试"></a>创建一个测试</h2><p>假设我们已经创建了一个工程maven_debug, 并且创建了一个测试类MySuperClassTest </p>
+<h2 id="创建一个测试"><a href="#创建一个测试" class="headerlink" title="创建一个测试"></a>创建一个测试</h2><p>假设我们已经创建了一个工程maven_debug, 并且创建了一个测试类MySuperClassTest</p>
 <h2 id="启动mmaven测试并运行在debug模式"><a href="#启动mmaven测试并运行在debug模式" class="headerlink" title="启动mmaven测试并运行在debug模式"></a>启动mmaven测试并运行在debug模式</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn -Dtest=MySuperClassTest -Dmaven.surefire.debug <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
 
 <ul>
@@ -429,14 +429,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

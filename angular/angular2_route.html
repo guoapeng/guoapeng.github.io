@@ -27,7 +27,7 @@
 <meta property="og:description" content="Angular2中的路由Angular2中建立路由的5个步骤. 安装@angular&#x2F;router首先第一件事，我们需要安装 Angular Router。你可以通过运行以下命令进行安装. 1npm i --save @angular&#x2F;router  以上命令执行后，将会自动下载 @angular&#x2F;router 模块到 node_modules 文件夹中。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-03-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-05T17:55:33.223Z">
+<meta property="article:modified_time" content="2022-05-01T14:31:27.878Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="web">
 <meta property="article:tag" content="angular">
@@ -155,7 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Angular2%E4%B8%AD%E7%9A%84%E8%B7%AF%E7%94%B1"><span class="nav-number">1.</span> <span class="nav-text">Angular2中的路由</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-angular-router"><span class="nav-number">1.1.</span> <span class="nav-text">安装@angular&#x2F;router</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E8%B7%AF%E7%94%B1"><span class="nav-number">1.2.</span> <span class="nav-text">配置路由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A0%E8%BD%BD%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE"><span class="nav-number">1.3.</span> <span class="nav-text">加载路由配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%BB%84%E4%BB%B6%E5%AD%98%E6%94%BE%E7%9A%84%E5%8C%BA%E5%9F%9F"><span class="nav-number">1.4.</span> <span class="nav-text">添加组件存放的区域</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC"><span class="nav-number">1.5.</span> <span class="nav-text">路由跳转</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">1.6.</span> <span class="nav-text">参考文档</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Angular2%E4%B8%AD%E7%9A%84%E8%B7%AF%E7%94%B1"><span class="nav-number">1.</span> <span class="nav-text">Angular2中的路由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-angular-router"><span class="nav-number">2.</span> <span class="nav-text">安装@angular&#x2F;router</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E8%B7%AF%E7%94%B1"><span class="nav-number">3.</span> <span class="nav-text">配置路由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A0%E8%BD%BD%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">加载路由配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%BB%84%E4%BB%B6%E5%AD%98%E6%94%BE%E7%9A%84%E5%8C%BA%E5%9F%9F"><span class="nav-number">5.</span> <span class="nav-text">添加组件存放的区域</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC"><span class="nav-number">6.</span> <span class="nav-text">路由跳转</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">7.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -168,7 +168,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -273,7 +273,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:55:33" itemprop="dateModified" datetime="2022-04-06T01:55:33+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:31:27" itemprop="dateModified" datetime="2022-05-01T22:31:27+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -317,7 +317,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Angular2中的路由"><a href="#Angular2中的路由" class="headerlink" title="Angular2中的路由"></a>Angular2中的路由</h1><p>Angular2中建立路由的5个步骤.</p>
+        <h2 id="Angular2中的路由"><a href="#Angular2中的路由" class="headerlink" title="Angular2中的路由"></a>Angular2中的路由</h2><p>Angular2中建立路由的5个步骤.</p>
 <h2 id="安装-angular-router"><a href="#安装-angular-router" class="headerlink" title="安装@angular/router"></a>安装@angular/router</h2><p>首先第一件事，我们需要安装 Angular Router。你可以通过运行以下命令进行安装.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save @angular/router</span><br></pre></td></tr></table></figure>
 
@@ -384,8 +384,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/angular/angular2_installation.html" rel="next" title="Angular环境搭建">
-                  Angular环境搭建 <i class="fa fa-chevron-right"></i>
+                <a href="/angular/angular2_installation.html" rel="next" title="Angular CLI 安装和使用">
+                  Angular CLI 安装和使用 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -420,14 +420,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

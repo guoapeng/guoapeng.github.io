@@ -19,15 +19,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="背景介绍 本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．">
+<meta name="description" content="背景介绍 本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．  说明：我的工作环境是deepin　linux, 处于安全性考虑一直运行在普通用户下, 如果你的安装环境是Mac 或者windows，请理解每一步骤的含义后执行调整命令或参数.或者在我的博客下面留言，我有空的时候会统一回复．  说说我为什么选择Hexo, 目前比">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用Hexo搭建自己的博客网站">
 <meta property="og:url" content="http://www.pengshu.net/hexo/hexo_create_site.html">
 <meta property="og:site_name" content="鹏叔的博客空间">
-<meta property="og:description" content="背景介绍 本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．">
+<meta property="og:description" content="背景介绍 本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．  说明：我的工作环境是deepin　linux, 处于安全性考虑一直运行在普通用户下, 如果你的安装环境是Mac 或者windows，请理解每一步骤的含义后执行调整命令或参数.或者在我的博客下面留言，我有空的时候会统一回复．  说说我为什么选择Hexo, 目前比">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-08T03:57:17.610Z">
+<meta property="article:modified_time" content="2022-05-01T14:02:39.880Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -167,7 +167,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -272,7 +272,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-08 11:57:17" itemprop="dateModified" datetime="2022-04-08T11:57:17+08:00">2022-04-08</time>
+        <time title="Modified: 2022-05-01 22:02:39" itemprop="dateModified" datetime="2022-05-01T22:02:39+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -317,9 +317,12 @@
     
     <div class="post-body" itemprop="articleBody">
         <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><ul>
-<li>本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．<span id="more"></span></li>
-<li>说明：我的工作环境是deepin　linux, 处于安全性考虑一直运行在普通用户下, 如果你的安装环境是Mac 或者windows，请理解每一步骤的含义后执行调整命令或参数.<br>或者在我的博客下面留言，我有空的时候会统一回复．</li>
-<li>说说我为什么选择Hexo, 目前比较主流的博客生成系统有三个hexo, jekyll和hugo，jekyll 是老牌的博客生成系统，搜到了github官方的支持，　但是是用的ruby的技术栈，<br>我是技术出生ruby一直不在我的技术栈范围之内，至于jekyll和github在部署的时候的结合度更高的问题，我想对于一个做技术的人来说应该不是什么难事，应该比较容易处理．<br>相比之下hexo使用的nodejs技术栈，hugo 是golang技术栈这两块技术栈我都比较熟悉，主要在这两个博客生成器系统之间徘徊．  hugo固然速度更快，github上获得的星星数量也更多一些．由于考虑到博客系统更偏向于前端技术，这一块是nodejs特长，很多库都可以重用，从自己的职业嗅觉，我觉得一个博客系统或博客生成器采用nodejs技术栈更合适一点，另外很重要的一点Hexo Theme显得更成熟一些，所以我选择Hexo, hexo和hugo现在也很难说谁会在这一领域最终胜出．调查了一下，即使将来hugo胜出，迁移到hugo成本也不会太高．就我目前的个人需求和兴趣点来说，我还是比较偏向Hexo.</li>
+<li><p>本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．</p>
+</li>
+<li><p>说明：我的工作环境是deepin　linux, 处于安全性考虑一直运行在普通用户下, 如果你的安装环境是Mac 或者windows，请理解每一步骤的含义后执行调整命令或参数.<br>或者在我的博客下面留言，我有空的时候会统一回复．</p>
+</li>
+<li><p>说说我为什么选择Hexo, 目前比较主流的博客生成系统有三个hexo, jekyll和hugo，jekyll 是老牌的博客生成系统，搜到了github官方的支持，　但是是用的ruby的技术栈，<br>我是技术出生ruby一直不在我的技术栈范围之内，至于jekyll和github在部署的时候的结合度更高的问题，我想对于一个做技术的人来说应该不是什么难事，应该比较容易处理．<br>相比之下hexo使用的nodejs技术栈，hugo 是golang技术栈这两块技术栈我都比较熟悉，主要在这两个博客生成器系统之间徘徊．  hugo固然速度更快，github上获得的星星数量也更多一些．由于考虑到博客系统更偏向于前端技术，这一块是nodejs特长，很多库都可以重用，从自己的职业嗅觉，我觉得一个博客系统或博客生成器采用nodejs技术栈更合适一点，另外很重要的一点Hexo Theme显得更成熟一些，所以我选择Hexo, hexo和hugo现在也很难说谁会在这一领域最终胜出．调查了一下，即使将来hugo胜出，迁移到hugo成本也不会太高．就我目前的个人需求和兴趣点来说，我还是比较偏向Hexo.</p>
+<span id="more"></span></li>
 </ul>
 <h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul>
 <li><p>安装Hexo之前需要安装nodejs, 可以参考我的博文<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/750060ede101">安装并配置nodejs</a></p>
@@ -470,13 +473,13 @@
 <ol>
 <li>git url</li>
 </ol>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:your_github_id/your_github_id.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:your_github_id/your_github_id.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
 
-<p>这里建议配置为git　url  </p>
+<p>  这里建议配置为git　url  </p>
 <ol start="2">
 <li>http url</li>
 </ol>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:your_github_id/your_github_id.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:your_github_id/your_github_id.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
 
 <ol start="3">
 <li>在repo https url上要添加授权方式和token</li>
@@ -596,14 +599,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

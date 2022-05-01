@@ -19,26 +19,28 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="鹏叔的博客空间">
-<meta property="og:type" content="website">
-<meta property="og:title" content="鹏叔的博客空间">
-<meta property="og:url" content="http://www.pengshu.net/">
+<meta name="description" content="Gitlab CI&#x2F;CD 基础课程主要内容  为什么要做CI&#x2F;CD? GitLab CI&#x2F;CD GitLabCI vs JenkinsCI  为什么要做CI&#x2F;CD?传统应用发布署模式 开发团队 在开发环境中完成软件开发，单元测试，测试通过，提交到代码版本管理库   运维团队 把应用部署到测试环境，供QA团队测试，测试通过后部署生产环境．   QA团队 进行测试，测试通过后通知部署人员发布到生产环境">
+<meta property="og:type" content="article">
+<meta property="og:title" content="gitlab CICD">
+<meta property="og:url" content="http://www.pengshu.net/gitlab/gitlab-CICD.html">
 <meta property="og:site_name" content="鹏叔的博客空间">
-<meta property="og:description" content="鹏叔的博客空间">
+<meta property="og:description" content="Gitlab CI&#x2F;CD 基础课程主要内容  为什么要做CI&#x2F;CD? GitLab CI&#x2F;CD GitLabCI vs JenkinsCI  为什么要做CI&#x2F;CD?传统应用发布署模式 开发团队 在开发环境中完成软件开发，单元测试，测试通过，提交到代码版本管理库   运维团队 把应用部署到测试环境，供QA团队测试，测试通过后部署生产环境．   QA团队 进行测试，测试通过后通知部署人员发布到生产环境">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-04-30T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-05-01T14:38:55.553Z">
 <meta property="article:author" content="Eagle Guo">
-<meta property="article:tag" content="Eagle">
+<meta property="article:tag" content="gitlab">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://www.pengshu.net/">
+<link rel="canonical" href="http://www.pengshu.net/gitlab/gitlab-CICD.html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-cn","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/gitlab/gitlab-CICD.html","path":"gitlab/gitlab-CICD.html","title":"gitlab CICD"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>鹏叔的博客空间</title>
+<title>gitlab CICD | 鹏叔的博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -139,7 +141,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -152,6 +154,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Gitlab-CI-CD-%E5%9F%BA%E7%A1%80"><span class="nav-number">1.</span> <span class="nav-text">Gitlab CI&#x2F;CD 基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%81%9ACI-CD"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要做CI&#x2F;CD?</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BC%A0%E7%BB%9F%E5%BA%94%E7%94%A8%E5%8F%91%E5%B8%83%E7%BD%B2%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.1.</span> <span class="nav-text">传统应用发布署模式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BC%A0%E7%BB%9F%E5%BA%94%E7%94%A8%E5%8F%91%E5%B8%83%E7%BD%B2%E6%A8%A1%E5%BC%8F%E9%9D%A2%E4%B8%B4%E7%9A%84%E6%8C%91%E6%88%98"><span class="nav-number">1.1.2.</span> <span class="nav-text">传统应用发布署模式面临的挑战</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#CI-CD"><span class="nav-number">1.1.3.</span> <span class="nav-text">CI&#x2F;CD</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86-GITLAB"><span class="nav-number">1.1.4.</span> <span class="nav-text">代码版本管理 - GITLAB</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitLab-CI-CD-%E7%89%B9%E6%80%A7"><span class="nav-number">2.</span> <span class="nav-text">GitLab　CI&#x2F;CD 特性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#GitLab%E5%86%85%E7%BD%AE%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90"><span class="nav-number">2.1.</span> <span class="nav-text">GitLab内置持续集成</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-CI-CD-%E4%BC%98%E5%8A%BF"><span class="nav-number">2.2.</span> <span class="nav-text">Gitlab CI&#x2F;CD 优势</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-CI-CD-%E7%89%B9%E7%82%B9"><span class="nav-number">2.3.</span> <span class="nav-text">Gitlab CI&#x2F;CD 特点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GitLab-CI-CD%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="nav-number">2.4.</span> <span class="nav-text">GitLab CI&#x2F;CD工作原理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gitlab-CI%E4%B8%8EJenkins%E5%AF%B9%E6%AF%94"><span class="nav-number">3.</span> <span class="nav-text">Gitlab CI与Jenkins对比</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E7%82%B91-%E5%88%86%E6%94%AF%E5%8F%AF%E9%85%8D%E7%BD%AE%E6%80%A7"><span class="nav-number">3.1.</span> <span class="nav-text">对比点1- 分支可配置性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E7%82%B92-%E5%AE%9A%E6%97%B6%E6%89%A7%E8%A1%8C%E6%9E%84%E5%BB%BA"><span class="nav-number">3.2.</span> <span class="nav-text">对比点2- 定时执行构建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E7%82%B93-%E6%8B%89%E5%8F%96%E8%AF%B7%E6%B1%82%E6%94%AF%E6%8C%81"><span class="nav-number">3.3.</span> <span class="nav-text">对比点3- 拉取请求支持</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E7%82%B9%EF%BC%94-%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86"><span class="nav-number">3.4.</span> <span class="nav-text">对比点４- 权限管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E7%82%B9%EF%BC%95-%E5%AD%98%E5%82%A8%E5%BA%93%E4%BA%A4%E4%BA%92"><span class="nav-number">3.5.</span> <span class="nav-text">对比点５- 存储库交互</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E7%82%B96-%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="nav-number">3.6.</span> <span class="nav-text">对比点6 - 插件管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.7.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2Gitlab"><span class="nav-number">4.</span> <span class="nav-text">安装部署Gitlab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gitlab-Runner"><span class="nav-number">5.</span> <span class="nav-text">Gitlab Runner</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-runner%E7%AE%80%E4%BB%8B"><span class="nav-number">5.1.</span> <span class="nav-text">Gitlab runner简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-runner%E7%89%B9%E7%82%B9"><span class="nav-number">5.2.</span> <span class="nav-text">Gitlab runner特点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-runner%E7%B1%BB%E5%9E%8B%E4%B8%8E%E7%8A%B6%E6%80%81"><span class="nav-number">5.3.</span> <span class="nav-text">Gitlab runner类型与状态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-Runner%E5%AE%89%E8%A3%85"><span class="nav-number">5.4.</span> <span class="nav-text">Gitlab Runner安装</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Gitlab-Runner%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83"><span class="nav-number">5.4.1.</span> <span class="nav-text">Gitlab Runner安装环境</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitlab-Runner%E6%B3%A8%E5%86%8C"><span class="nav-number">5.5.</span> <span class="nav-text">Gitlab Runner注册</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#timeout-%E8%B6%85%E6%97%B6"><span class="nav-number">5.5.1.</span> <span class="nav-text">timeout 超时</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#parallel-%E5%B9%B6%E8%A1%8C%E4%BD%9C%E4%B8%9A"><span class="nav-number">5.5.2.</span> <span class="nav-text">parallel 并行作业</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#only-amp-excpet-%E9%99%90%E5%88%B6%E5%88%86%E6%94%AF%E6%A0%87%E7%AD%BE"><span class="nav-number">5.5.3.</span> <span class="nav-text">only &amp; excpet 限制分支标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#rules-%E6%9E%84%E5%BB%BA%E8%A7%84%E5%88%99"><span class="nav-number">5.5.4.</span> <span class="nav-text">rules 构建规则</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#rules-if-%E5%A6%82%E6%9E%9C%E6%9D%A1%E4%BB%B6%E5%8C%B9%E9%85%8D"><span class="nav-number">5.5.4.1.</span> <span class="nav-text">rules - if (如果条件匹配)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#rules-changs-%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E5%8F%91%E7%94%9F%E5%8F%98%E5%8C%96"><span class="nav-number">5.5.4.2.</span> <span class="nav-text">rules - changs (指定文件发生变化)</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#rules-allow-failure"><span class="nav-number">5.5.5.</span> <span class="nav-text">rules - allow_failure</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#workflow-%E7%BB%93%E5%90%88rules-%E8%BF%9B%E8%A1%8C%E7%AE%A1%E9%81%93%E5%88%9B%E5%BB%BA"><span class="nav-number">5.5.6.</span> <span class="nav-text">workflow 结合rules 进行管道创建</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cache-%E7%BC%93%E5%AD%98"><span class="nav-number">5.5.7.</span> <span class="nav-text">cache 缓存</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#cache-key-%E7%BC%93%E5%AD%98%E6%A0%87%E8%AE%B0"><span class="nav-number">5.5.7.1.</span> <span class="nav-text">cache: key 缓存标记</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#cache-key-files-%E6%96%87%E4%BB%B6%E5%8F%98%E5%8C%96%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BA%E7%BC%93%E5%AD%98"><span class="nav-number">5.5.7.2.</span> <span class="nav-text">cache: key: files 文件变化自动创建缓存</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#cache-policy-%E7%BC%93%E5%AD%98%E7%AD%96%E7%95%A5"><span class="nav-number">5.5.7.3.</span> <span class="nav-text">cache: policy - 缓存策略</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">6.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -227,16 +230,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-cn">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/gitlab/gitlab-CICD.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -249,9 +253,9 @@
       <meta itemprop="name" content="鹏叔的博客空间">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/gitlab/gitlab-CICD.html" class="post-title-link" itemprop="url">gitlab CICD</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          gitlab CICD
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -283,6 +287,13 @@
     </span>
 
   
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
     <span class="post-meta-break"></span>
     <span class="post-meta-item" title="Symbols count in article">
       <span class="post-meta-item-icon">
@@ -307,7 +318,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Gitlab-CI-CD-基础"><a href="#Gitlab-CI-CD-基础" class="headerlink" title="Gitlab CI/CD 基础"></a>Gitlab CI/CD 基础</h2><p>课程主要内容</p>
+        <h2 id="Gitlab-CI-CD-基础"><a href="#Gitlab-CI-CD-基础" class="headerlink" title="Gitlab CI/CD 基础"></a>Gitlab CI/CD 基础</h2><p>课程主要内容</p>
 <ul>
 <li>为什么要做CI/CD?</li>
 <li>GitLab CI/CD</li>
@@ -557,7 +568,6 @@
 
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18y4y1S7VC?spm_id_from=333.999.0.0">黑马程序员-Gitlab CICD</a></p>
 
-      
     </div>
 
     
@@ -565,519 +575,38 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
+          
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/Elevation.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/Elevation.html" class="post-title-link" itemprop="url">Material Design 基础 - Elevation（面距）</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-04-30 00:00:00 / Modified: 10:56:35" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>3k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="1-Elevation（面距）"><a href="#1-Elevation（面距）" class="headerlink" title="1. Elevation（面距）"></a>1. Elevation（面距）</h2><p>Elevation（面距）是沿 z 轴的两个Surface之间的相对距离。</p>
-<h2 id="2-测量面距"><a href="#2-测量面距" class="headerlink" title="2. 测量面距"></a>2. 测量面距</h2><p>Material Design中的面距为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/Elevation.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/Responsive_layout_grid.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/Responsive_layout_grid.html" class="post-title-link" itemprop="url">Material Design基础 - 响应式布局网格</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-04-30 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 11:22:30" itemprop="dateModified" datetime="2022-05-01T11:22:30+08:00">2022-05-01</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.3k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="响应式布局网格"><a href="#响应式布局网格" class="headerlink" title="响应式布局网格"></a>响应式布局网格</h2><p>Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。</p>
-<h3 id="Columns-gutters-and-margins"><a href="#Columns-gutters-and-margins" class="headerlink" title="Columns, gutters, and margins"></a>Columns, gutters, and margins</h3><p>响应式布局网格由三个元素组成：Columns, gutters, 和 margins。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/Responsive_layout_grid.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/Spacing_methods.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/Spacing_methods.html" class="post-title-link" itemprop="url">Material Design基础 - spacing methods</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-04-30 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 01:52:54" itemprop="dateModified" datetime="2022-05-01T01:52:54+08:00">2022-05-01</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>179</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="spacing-methods"><a href="#spacing-methods" class="headerlink" title="spacing methods"></a>spacing methods</h2><p>spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。</p>
-<h3 id="基准网格"><a href="#基准网格" class="headerlink" title="基准网格"></a>基准网格</h3><h4 id="8dp网格"><a href="#8dp网格" class="headerlink" title="8dp网格"></a>8dp网格</h4><p>所有组件都与移动设备、平板电脑和台式机的8dp方形基线网格对齐。</p>
-<h4 id="4dp网格"><a href="#4dp网格" class="headerlink" title="4dp网格"></a>4dp网格</h4><p>组件中的图标、type和某些元素可以与4dp网格对齐。</p>
-<h3 id="间距方法"><a href="#间距方法" class="headerlink" title="间距方法"></a>间距方法</h3><p>间距方法比响应式布局网格更精细。间距方法是一组关于如何在布局和构件中放置元素的规则。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/layout.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/layout.html" class="post-title-link" itemprop="url">Material Design基础 - Layout</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-04-30 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 11:23:55" itemprop="dateModified" datetime="2022-05-01T11:23:55+08:00">2022-05-01</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="理解layout"><a href="#理解layout" class="headerlink" title="理解layout"></a>理解layout</h2><p>material设计布局使用统一的元素和间距，以鼓励在多种平台、环境和屏幕尺寸之间的一致性。</p>
-<h3 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h3><ul>
-<li><p>Predictable(可预测的)  使用直观且可预测的布局，并具有一致的UI区域和空间组织。  </p>
-</li>
-<li><p>Consistent(一致的) 布局应始终使用网格、关键线和填充。</p>
-</li>
-<li><p>Responsive(响应的) 布局是自适应的。它们对用户、设备和屏幕元素的输入做出反应。</p>
-</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/layout.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/introduction.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/introduction.html" class="post-title-link" itemprop="url">Material Design简介</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-04-30 00:00:00 / Modified: 12:54:15" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。</p>
-<h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><h3 id="材料是隐喻"><a href="#材料是隐喻" class="headerlink" title="材料是隐喻"></a>材料是隐喻</h3><p>Material design的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces重新构想了纸张和墨水的介质。</p>
+<div class="post-copyright">
 <ul>
-<li><p>Bold, graphic, intentional<br>材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。</p>
-</li>
-<li><p>Motion provides meaning<br>Motion通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。</p>
-</li>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Eagle Guo
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://www.pengshu.net/gitlab/gitlab-CICD.html" title="gitlab CICD">http://www.pengshu.net/gitlab/gitlab-CICD.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
 </ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/introduction.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/gitlab/" rel="tag"><i class="fa fa-tag"></i> gitlab</a>
+          </div>
+
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/material/Elevation.html" rel="prev" title="Material Design 基础 - Elevation（面距）">
+                  <i class="fa fa-chevron-left"></i> Material Design 基础 - Elevation（面距）
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -1085,412 +614,9 @@
 
 
 
-    
 
 
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/light_shadow.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/light_shadow.html" class="post-title-link" itemprop="url">Material Design基础 - Light and shadows</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-04-30 00:00:00 / Modified: 18:28:50" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>650</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="光线和阴影"><a href="#光线和阴影" class="headerlink" title="光线和阴影"></a>光线和阴影</h2><p>material surface阻挡光源时会投射阴影。</p>
-<p>在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/light_shadow.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/pixel_density.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/pixel_density.html" class="post-title-link" itemprop="url">Material Design基础 - Pixel Density</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-04-30 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 11:23:24" itemprop="dateModified" datetime="2022-05-01T11:23:24+08:00">2022-05-01</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.1k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="像素密度-Pixel-Density"><a href="#像素密度-Pixel-Density" class="headerlink" title="像素密度(Pixel Density)"></a>像素密度(Pixel Density)</h2><p>一英寸屏幕上存在的像素数称为像素密度。</p>
-<p>屏幕像素密度和分辨率因平台而异。</p>
-<h3 id="屏幕密度变化"><a href="#屏幕密度变化" class="headerlink" title="屏幕密度变化"></a>屏幕密度变化</h3><p>高密度屏幕的每英寸像素数比低密度屏幕的多。因此，相同像素尺寸的UI元素在低密度屏幕上显示得更大，而在高密度屏幕上显示得更小。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/pixel_density.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/surfaces.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/surfaces.html" class="post-title-link" itemprop="url">Material Design基础 - Surfaces</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-04-30 00:00:00 / Modified: 12:54:02" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.1k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="Material-Surfaces"><a href="#Material-Surfaces" class="headerlink" title="Material Surfaces"></a>Material Surfaces</h2><p>Material设计具有三个维度的品质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。</p>
-<h3 id="Material-environment"><a href="#Material-environment" class="headerlink" title="Material environment"></a>Material environment</h3><p>在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。</p>
-<p>Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中移动的方式进行通信。此空间模型还可以跨应用程序一致地应用。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/surfaces.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/golang/install_golang.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/golang/install_golang.html" class="post-title-link" itemprop="url">安装Golang</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-04-22 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-22T00:00:00+08:00">2022-04-22</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:35:45" itemprop="dateModified" datetime="2022-05-01T22:35:45+08:00">2022-05-01</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.6k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。Go是基于Inferno操作系统所开发的。Go于2009年11月正式宣布推出，成为开放源代码项目，并在Linux及Mac OS X平台上进行了实现，后来追加了Windows系统下的实现。在2016年，Go被软件评价公司TIOBE 选为“TIOBE 2016 年最佳语言”。 目前，Go每半年发布一个二级版本（即从a.x升级到a.y）</p>
-<p>Go的语法接近C语言，但对于变量的声明有所不同。Go支持垃圾回收功能。Go的并行模型是以东尼·霍尔的通信顺序进程（CSP）为基础，采取类似模型的其他语言包括Occam和Limbo，但它也具有Pi运算的特征，比如通道传输。在1.8版本中开放插件（Plugin）的支持，这意味着现在能从Go中动态加载部分函数。 与C++相比，Go并不包括如枚举、异常处理、继承、泛型、断言、虚函数等功能，但增加了 切片(Slice) 型、并发、管道、垃圾回收、接口（Interface）等特性的语言级支持。Go 2.0版本将支持泛型，对于断言的存在，则持负面态度，同时也为自己不提供类型继承来辩护。 不同于Java，Go内嵌了关联数组（也称为哈希表（Hashes）或字典（Dictionaries）），就像字符串类型一样。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/golang/install_golang.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
-  </nav>
-
+    <div class="comments utterances-container"></div>
 </div>
   </main>
 

@@ -19,15 +19,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="安装 virtualBox 首先下载oracle_vbox.asc文件到本地：  wget -q https:&#x2F;&#x2F;www.virtualbox.org&#x2F;download&#x2F;oracle_vbox.asc 再执行import： 1sudo rpm --import oracle_vbox.asc  cd 进入目录：&#x2F;etc&#x2F;yum.repos.d新建一个文件virtualbox.repo 123456">
+<meta name="description" content="安装 virtualBox 首先下载oracle_vbox.asc文件到本地：  wget -q https:&#x2F;&#x2F;www.virtualbox.org&#x2F;download&#x2F;oracle_vbox.asc 再执行import： 1sudo rpm --import oracle_vbox.asc   cd 进入目录：&#x2F;etc&#x2F;yum.repos.d新建一个文件virtualbox.repo  1234">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在fedora35上安装virtualbox">
 <meta property="og:url" content="http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html">
 <meta property="og:site_name" content="鹏叔的博客空间">
-<meta property="og:description" content="安装 virtualBox 首先下载oracle_vbox.asc文件到本地：  wget -q https:&#x2F;&#x2F;www.virtualbox.org&#x2F;download&#x2F;oracle_vbox.asc 再执行import： 1sudo rpm --import oracle_vbox.asc  cd 进入目录：&#x2F;etc&#x2F;yum.repos.d新建一个文件virtualbox.repo 123456">
+<meta property="og:description" content="安装 virtualBox 首先下载oracle_vbox.asc文件到本地：  wget -q https:&#x2F;&#x2F;www.virtualbox.org&#x2F;download&#x2F;oracle_vbox.asc 再执行import： 1sudo rpm --import oracle_vbox.asc   cd 进入目录：&#x2F;etc&#x2F;yum.repos.d新建一个文件virtualbox.repo  1234">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-01-09T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-02T10:26:51.165Z">
+<meta property="article:modified_time" content="2022-05-01T14:11:52.701Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="virualbox">
@@ -168,7 +168,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -273,7 +273,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:11:52" itemprop="dateModified" datetime="2022-05-01T22:11:52+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -323,26 +323,37 @@
 <p>wget -q <a target="_blank" rel="noopener" href="https://www.virtualbox.org/download/oracle_vbox.asc">https://www.virtualbox.org/download/oracle_vbox.asc</a></p>
 <p>再执行import：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm --import oracle_vbox.asc</span><br></pre></td></tr></table></figure>
+
 <ol start="2">
-<li><p>cd 进入目录：/etc/yum.repos.d<br>新建一个文件virtualbox.repo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo cat &lt;&lt; <span class="string">EOF &gt; /etc/yum.repos.d/virtualbox.repo</span></span><br><span class="line"><span class="string">[virtualbox]</span></span><br><span class="line"><span class="string">name=Oracle Linux / RHEL / fedora-\$releasever / \$basearch - VirtualBox</span></span><br><span class="line"><span class="string">baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/\$releasever/\$basearch</span></span><br><span class="line"><span class="string">enabled=1</span></span><br><span class="line"><span class="string">gpgcheck=1</span></span><br><span class="line"><span class="string">repo_gpgcheck=1</span></span><br><span class="line"><span class="string">gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure></li>
-<li><p>更新缓存</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf check-update</span><br></pre></td></tr></table></figure></li>
-<li><p>查询可安装版本</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf list virtualbox-6.1 --showduplicates</span><br></pre></td></tr></table></figure></li>
+<li>cd 进入目录：/etc/yum.repos.d<br>新建一个文件virtualbox.repo</li>
 </ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo cat &lt;&lt; <span class="string">EOF &gt; /etc/yum.repos.d/virtualbox.repo</span></span><br><span class="line"><span class="string">[virtualbox]</span></span><br><span class="line"><span class="string">name=Oracle Linux / RHEL / fedora-\$releasever / \$basearch - VirtualBox</span></span><br><span class="line"><span class="string">baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/\$releasever/\$basearch</span></span><br><span class="line"><span class="string">enabled=1</span></span><br><span class="line"><span class="string">gpgcheck=1</span></span><br><span class="line"><span class="string">repo_gpgcheck=1</span></span><br><span class="line"><span class="string">gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>更新缓存</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf check-update</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>查询可安装版本</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf list virtualbox-6.1 --showduplicates</span><br></pre></td></tr></table></figure>
+
 <p>然后执行命令行</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install VirtualBox-6.1</span><br></pre></td></tr></table></figure>
-<ol start="6">
-<li><p>安装kernal-devel</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install kernel-devel-5.14.10-300.fc35 </span><br></pre></td></tr></table></figure>
-<p>版本应该与当前内核版本一致</p>
-</li>
-<li><p>更新virtualbox配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /sbin/vboxconfig </span><br></pre></td></tr></table></figure>
-<h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3></li>
+
+<ol start="5">
+<li>安装kernal-devel</li>
 </ol>
-<p><a target="_blank" rel="noopener" href="https://www.virtualbox.org/wiki/Downloads">virtualbox 官方wiki</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install kernel-devel-5.14.10-300.fc35 </span><br></pre></td></tr></table></figure>
+
+<p>版本应该与当前内核版本一致</p>
+<ol start="6">
+<li>更新virtualbox配置</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /sbin/vboxconfig </span><br></pre></td></tr></table></figure>
+
+<h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://www.virtualbox.org/wiki/Downloads">virtualbox 官方wiki</a></p>
 
     </div>
 
@@ -418,14 +429,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

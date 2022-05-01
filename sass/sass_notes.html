@@ -19,16 +19,16 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="sass安装1cnpm install -g sass 检查是否安装成功 12$ sass --version1.42.1 compiled with dart2js 2.14.2">
+<meta name="description" content="sass安装1cnpm install -g sass  检查是否安装成功 12$ sass --version1.42.1 compiled with dart2js 2.14.2">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sass学习笔记">
 <meta property="og:url" content="http://www.pengshu.net/sass/sass_notes.html">
 <meta property="og:site_name" content="鹏叔的博客空间">
-<meta property="og:description" content="sass安装1cnpm install -g sass 检查是否安装成功 12$ sass --version1.42.1 compiled with dart2js 2.14.2">
+<meta property="og:description" content="sass安装1cnpm install -g sass  检查是否安装成功 12$ sass --version1.42.1 compiled with dart2js 2.14.2">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19646030-8f97fde9961bca97.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="article:published_time" content="2021-10-07T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-02T10:26:51.165Z">
+<meta property="article:modified_time" content="2022-05-01T14:25:06.348Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Rust">
 <meta name="twitter:card" content="summary">
@@ -169,7 +169,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -274,7 +274,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:25:06" itemprop="dateModified" datetime="2022-05-01T22:25:06+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -319,21 +319,24 @@
     
     <div class="post-body" itemprop="articleBody">
         <h2 id="sass安装"><a href="#sass安装" class="headerlink" title="sass安装"></a>sass安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g sass</span><br></pre></td></tr></table></figure>
+
 <p>检查是否安装成功</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sass --version</span><br><span class="line">1.42.1 compiled with dart2js 2.14.2</span><br></pre></td></tr></table></figure>
 <span id="more"></span>
 
 <h2 id="把sass编译成css"><a href="#把sass编译成css" class="headerlink" title="把sass编译成css"></a>把sass编译成css</h2><p>进入sass项目所在目录<br>项目结构</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">C:sass_study</span><br><span class="line">├─css</span><br><span class="line">│</span><br><span class="line">└─scss</span><br><span class="line">        style.scss</span><br></pre></td></tr></table></figure>
+
 <p>编译sass</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sass scss/style.scss:css/style.css</span><br></pre></td></tr></table></figure>
+
 <p>说明: 冒号左边为要编译的文件, 冒号右边为编译后的输出文件.</p>
 <h2 id="自动编译sass"><a href="#自动编译sass" class="headerlink" title="自动编译sass"></a>自动编译sass</h2><p>可以使用–watch选项监视一个目录, 当目录中的文件发生变化以后, 自动将变化的文件编译后保存到css目录</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sass --watch scss:css</span><br><span class="line">Sass is watching <span class="keyword">for</span> changes. Press Ctrl-C to stop.</span><br></pre></td></tr></table></figure>
 
 <h2 id="修改编译输出的css格式"><a href="#修改编译输出的css格式" class="headerlink" title="修改编译输出的css格式"></a>修改编译输出的css格式</h2><p>sass输出有四种格式:<br>nested 嵌套<br>compact 紧凑<br>expanded 扩展<br>compressed 压缩</p>
 <p>例如使用扩展, 这种样式常常用在开发模式下</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sass --watch scss:css --style expanded</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sass --watch scss:css --style expanded</span><br></pre></td></tr></table></figure>
 
 <h2 id="sass-和-scss的区别"><a href="#sass-和-scss的区别" class="headerlink" title=".sass 和 .scss的区别"></a>.sass 和 .scss的区别</h2><p>从sass3.0 以后sass的语法发生了较大的变化,<br>新的样式被称为sassy css, 区别主要在以下方面.</p>
 <p>首先这两种文件的扩展名不一样<br>两种文件的注释方式不一样<br>scss语法比较接近css, sass是缩进式语法<br>scss import是需要在文件名上添加引号, sass不需要<br>scss mixin需要使用@, sass mixin需要使用前面需要=号<br>其他见下图<br><img src="https://upload-images.jianshu.io/upload_images/19646030-8f97fde9961bca97.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="scssvssass.PNG"></p>
@@ -347,8 +350,9 @@
 
 <p>变量名字中可以包含中划线(-), 也可以使用下划线(_), 最好是根据团队的编程规范进行统一命名规范.</p>
 <h2 id="嵌套-Nesting"><a href="#嵌套-Nesting" class="headerlink" title="嵌套 Nesting"></a>嵌套 Nesting</h2><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav</span> &#123;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100px</span>;</span><br><span class="line">    <span class="selector-tag">ul</span> &#123;</span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">        <span class="selector-tag">li</span> &#123;</span><br><span class="line">            <span class="attribute">float</span>: left;</span><br><span class="line">            <span class="attribute">list-style</span>: none;</span><br><span class="line">            <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>以上嵌套写法对应的css输出样式如下</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.nav &#123;</span><br><span class="line">  height: 100px;</span><br><span class="line">&#125;</span><br><span class="line">.nav ul &#123;</span><br><span class="line">  margin: 0;</span><br><span class="line">&#125;</span><br><span class="line">.nav ul li &#123;</span><br><span class="line">  float: left;</span><br><span class="line">  list-style: none;</span><br><span class="line">  padding: 5px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.nav</span> <span class="selector-tag">ul</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.nav</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">list-style</span>: none;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>伪类选择嵌套写法</p>
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span>&#123;</span><br><span class="line">    <span class="attribute">display</span>: block;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#820</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">    &amp;<span class="selector-pseudo">:hover</span>  &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: <span class="number">#082f7e</span>;</span><br><span class="line">        <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -358,16 +362,19 @@
 
 <p>引用父选择器的例子</p>
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav</span> &#123;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100px</span>;</span><br><span class="line">    &amp; &amp;-text &#123;</span><br><span class="line">        <span class="attribute">font-size</span>: <span class="number">15px</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>css输出</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.nav</span> <span class="selector-class">.nav-text</span> &#123;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">15px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="嵌套属性"><a href="#嵌套属性" class="headerlink" title="嵌套属性"></a>嵌套属性</h2><p>示例1:</p>
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">font</span>: &#123;</span><br><span class="line">        family: Arial;</span><br><span class="line">        size: <span class="number">15px</span>;</span><br><span class="line">        weight: normal;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>输出的css</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Arial;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: normal;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>示例2:</p>
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solide <span class="number">#020</span> &#123;</span><br><span class="line">        left: <span class="number">0</span>;</span><br><span class="line">        <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>输出的css</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solide <span class="number">#020</span>;</span><br><span class="line">  <span class="attribute">border-left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border-right</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -401,7 +408,6 @@
 <p>scss属于类型有:<br>数值型: number<br>字符串: string<br>列表: list<br>颜色: color</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">$ sass -i</span><br><span class="line">&gt;&gt; type-of(5)</span><br><span class="line">&gt;&gt; number</span><br><span class="line">&gt;&gt; type-of(5px)</span><br><span class="line">&gt;&gt; number</span><br><span class="line">&gt;&gt; type-of(hello)</span><br><span class="line">&gt;&gt; string</span><br><span class="line">&gt;&gt; type-of(1px solid red)</span><br><span class="line">&gt;&gt; list</span><br><span class="line">&gt;&gt; type-of(10px 5px)</span><br><span class="line">&gt;&gt; list</span><br><span class="line">&gt;&gt; type-of(<span class="comment">#123456)</span></span><br><span class="line">&gt;&gt; color</span><br><span class="line">&gt;&gt; type-of(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line">&gt;&gt; string</span><br><span class="line">&gt;&gt; type-of(<span class="variable">$colors</span>)</span><br><span class="line">&gt;&gt; map</span><br></pre></td></tr></table></figure>
 
-
 <h2 id="数值运算"><a href="#数值运算" class="headerlink" title="数值运算"></a>数值运算</h2><h3 id="加法运算"><a href="#加法运算" class="headerlink" title="加法运算"></a>加法运算</h3><p>2+8  结果 10<br>5px + 5px 结果 10px</p>
 <h3 id="减法"><a href="#减法" class="headerlink" title="减法"></a>减法</h3><p>8-2 结果 6<br>5px -2 结构 3px</p>
 <h3 id="乘法"><a href="#乘法" class="headerlink" title="乘法"></a>乘法</h3><p>2<em>8  结果 16<br>5px</em>2 结果 10px<br>5px*2px 结果 10px*px<br>注意: 虽然有结果, 但是px*px不是css能识别的单位</p>
@@ -421,6 +427,7 @@
 <p>可以使用操作符处理颜色值, 也可以使用函数操作颜色</p>
 <p>颜色操作函数:<br>lighten, darken: 增减颜色的亮度</p>
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$base-color</span>: hsl(<span class="number">222</span>, <span class="number">100%</span>, <span class="number">50%</span>)</span><br><span class="line"><span class="variable">$light-color</span>:  lighten(<span class="variable">$base-color</span>, <span class="number">30%</span>)</span><br><span class="line"><span class="variable">$dark-color</span>: darken(<span class="variable">$base-color</span>, <span class="number">20%</span>);</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.alert</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="variable">$dark-color</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>列表和列表函数<br>append<br>length<br>index<br>join</p>
 <h2 id="map类型的数据"><a href="#map类型的数据" class="headerlink" title="map类型的数据"></a>map类型的数据</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">$ sass -i</span><br><span class="line">&gt;&gt; <span class="variable">$colors</span>: (light:<span class="comment">#123456)</span></span><br><span class="line">&gt;&gt; (light: <span class="comment">#123456)</span></span><br><span class="line">&gt;&gt; <span class="variable">$colors</span>: (light:<span class="comment">#123456, dark:#000000)</span></span><br><span class="line">&gt;&gt; (light: <span class="comment">#123456, dark: #000000)</span></span><br><span class="line"><span class="variable">$colors</span></span><br><span class="line">&gt;&gt; (light: <span class="comment">#123456, dark: #000000)</span></span><br><span class="line">&gt;&gt; length(<span class="variable">$colors</span>)</span><br><span class="line">&gt;&gt; 2</span><br><span class="line">&gt;&gt; map-get(<span class="variable">$colors</span>, light)</span><br><span class="line">&gt;&gt; <span class="comment">#123456</span></span><br><span class="line">&gt;&gt; map-keys(<span class="variable">$colors</span>)</span><br><span class="line">&gt;&gt; light, dark</span><br><span class="line">&gt;&gt; map-values(<span class="variable">$colors</span>)</span><br><span class="line">&gt;&gt; <span class="comment">#123456, #000000</span></span><br><span class="line">map-has-key(<span class="variable">$colors</span>, light)</span><br><span class="line">&gt;&gt; <span class="literal">true</span></span><br><span class="line">map-merge(<span class="variable">$colors</span>, (light-gray: <span class="comment">#e5e5e5))</span></span><br><span class="line">&gt;&gt; (light: <span class="comment">#123456, dark: #000000, light-gray: #e5e5e5)</span></span><br></pre></td></tr></table></figure>
 
@@ -442,9 +449,7 @@
 
 <h2 id="each循环"><a href="#each循环" class="headerlink" title="each循环"></a>each循环</h2><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$icons</span>: success error warning;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@each</span> <span class="variable">$icon</span> in <span class="variable">$icons</span> &#123;</span><br><span class="line">  <span class="selector-class">.icon-</span>#&#123;<span class="variable">$icon</span>&#125; &#123;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h2 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h2><h2 id="用户自定义函数"><a href="#用户自定义函数" class="headerlink" title="用户自定义函数"></a>用户自定义函数</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">语法</span><br><span class="line">@function 名称 (参数1, 参数2) &#123;</span><br><span class="line">  @return </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
+<h2 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h2><h2 id="用户自定义函数"><a href="#用户自定义函数" class="headerlink" title="用户自定义函数"></a>用户自定义函数</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">语法</span><br><span class="line"><span class="keyword">@function</span> 名称 (参数<span class="number">1</span>, 参数<span class="number">2</span>) &#123;</span><br><span class="line">  <span class="keyword">@return</span> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -519,14 +524,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

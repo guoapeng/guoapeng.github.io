@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab-CICD.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular_platforms.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/golang/install_golang.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/git/windows_install_git.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/git/install_setup_git_server.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular2_route.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular2_migration.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular2_installation.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular2_create_project.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular_platformBrowserDynamic.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/webpack/webpack-env-variables.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/sass/sass_notes.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/rust/rust_study.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/nodejs/how_to_publish_node_modules.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/tmux.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/linux-expect-explanation.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/linux_shell_ifconfig.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/how_to_create_rpm_package.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/Linux_FHS.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/linux_connect_wifi.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/create_rpm_repository_on_linux.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/javascript/js-builtin-object.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/javascript/js_this_explanation.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/hexo/hexo_create_site.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/hexo/hexo_advance_apply_next_theme.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/hexo/hexo_cli.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/java/how_to_debug_with_maven_cli.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/hexo/hexo_mermaid_plugin.html</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
@@ -37,10 +157,6 @@
     <lastmod>2022-04-30</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/golang/install_golang.html</loc>
-    <lastmod>2022-04-24</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/linux/linux_shell_rsync.html</loc>
     <lastmod>2022-04-24</lastmod>
   </url>
@@ -49,27 +165,11 @@
     <lastmod>2022-04-14</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/hexo/hexo_cli.html</loc>
-    <lastmod>2022-04-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/angular/angular_platformBrowserDynamic.html</loc>
-    <lastmod>2022-04-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/hexo/hexo_create_site.html</loc>
-    <lastmod>2022-04-08</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/windows/cygwin-install-and-configuration.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/windows/chocolatey_installation.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/webpack/webpack-env-variables.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
@@ -81,31 +181,11 @@
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/angular/angular2_route.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/angular/angular2_ngmodule.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/angular/angular2_migration.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/angular/angular2_installation.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/angular/angular2_guard.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/angular/angular2_create_project.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/angular/angular_platforms.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
@@ -125,31 +205,11 @@
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/hexo/hexo_mermaid_plugin.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/hexo/hexo_blog_comments.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/hexo/hexo_advance_apply_next_theme.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/javascript/js-builtin-object.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/javascript/js_this_explanation.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/java/jdk17_installation.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/java/how_to_debug_with_maven_cli.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
@@ -161,19 +221,11 @@
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/nodejs/how_to_publish_node_modules.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/nodejs/how_to_create_a_node_module.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/others/wake_your_ass_up.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/rust/rust_study.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
@@ -199,53 +251,5 @@
   <url>
     <loc>http://www.pengshu.net/angular/angular2_auth.html</loc>
     <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/how_to_create_rpm_package.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/linux_shell_ifconfig.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/tmux.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/linux-expect-explanation.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/linux_connect_wifi.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/sass/sass_notes.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/git/windows_install_git.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/git/install_setup_git_server.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/Linux_FHS.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/create_rpm_repository_on_linux.html</loc>
-    <lastmod>2022-04-02</lastmod>
   </url>
 </urlset> 

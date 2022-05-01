@@ -19,15 +19,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="Angular CLI 安装和使用1. Angular 介绍关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular； CLI是Command Line Interface的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。">
+<meta name="description" content="1. Angular 介绍关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular； CLI是Command Line Interface的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Angular环境搭建">
+<meta property="og:title" content="Angular CLI 安装和使用">
 <meta property="og:url" content="http://www.pengshu.net/angular/angular2_installation.html">
 <meta property="og:site_name" content="鹏叔的博客空间">
-<meta property="og:description" content="Angular CLI 安装和使用1. Angular 介绍关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular； CLI是Command Line Interface的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。">
+<meta property="og:description" content="1. Angular 介绍关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular； CLI是Command Line Interface的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-03-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-05T17:53:30.876Z">
+<meta property="article:modified_time" content="2022-05-01T14:30:50.183Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="web">
 <meta property="article:tag" content="angular">
@@ -38,10 +38,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/angular/angular2_installation.html","path":"angular/angular2_installation.html","title":"Angular环境搭建"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/angular/angular2_installation.html","path":"angular/angular2_installation.html","title":"Angular CLI 安装和使用"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Angular环境搭建 | 鹏叔的博客空间</title>
+<title>Angular CLI 安装和使用 | 鹏叔的博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -155,7 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Angular-CLI-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">Angular CLI 安装和使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Angular-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">1. Angular 介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">2. 安装前的准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E9%A6%96%E5%85%88%E7%A1%AE%E8%AE%A4%E5%AE%89%E8%A3%85%E4%BA%86node-js%E5%92%8Cnpm-cnpm"><span class="nav-number">1.2.1.</span> <span class="nav-text">2.1 首先确认安装了node.js和npm,cnpm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E7%A1%AE%E8%AE%A4%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E4%BA%86git"><span class="nav-number">1.2.2.</span> <span class="nav-text">2.2 确认是否安装了git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85typescript%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="nav-number">1.2.3.</span> <span class="nav-text">2.3 全局安装typescript（可选）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%AE%89%E8%A3%85Angular-CLI"><span class="nav-number">1.3.</span> <span class="nav-text">3. 安装Angular CLI</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E5%AE%89%E8%A3%85Angular-CLI"><span class="nav-number">1.3.1.</span> <span class="nav-text">3.1 安装Angular CLI</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%8D%B8%E8%BD%BDAngular-CLI"><span class="nav-number">1.4.</span> <span class="nav-text">4. 卸载Angular CLI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">1.5.</span> <span class="nav-text">5. 参考文档</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Angular-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">1. Angular 介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">2.</span> <span class="nav-text">2. 安装前的准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E9%A6%96%E5%85%88%E7%A1%AE%E8%AE%A4%E5%AE%89%E8%A3%85%E4%BA%86node-js%E5%92%8Cnpm-cnpm"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 首先确认安装了node.js和npm,cnpm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E7%A1%AE%E8%AE%A4%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E4%BA%86git"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 确认是否安装了git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85typescript%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 全局安装typescript（可选）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%AE%89%E8%A3%85Angular-CLI"><span class="nav-number">3.</span> <span class="nav-text">3. 安装Angular CLI</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E5%AE%89%E8%A3%85Angular-CLI"><span class="nav-number">3.1.</span> <span class="nav-text">3.1 安装Angular CLI</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%8D%B8%E8%BD%BDAngular-CLI"><span class="nav-number">4.</span> <span class="nav-text">4. 卸载Angular CLI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">5.</span> <span class="nav-text">5. 参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -168,7 +168,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -255,7 +255,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Angular环境搭建
+          Angular CLI 安装和使用
         </h1>
 
         <div class="post-meta-container">
@@ -273,7 +273,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:53:30" itemprop="dateModified" datetime="2022-04-06T01:53:30+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:30:50" itemprop="dateModified" datetime="2022-05-01T22:30:50+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -317,7 +317,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Angular-CLI-安装和使用"><a href="#Angular-CLI-安装和使用" class="headerlink" title="Angular CLI 安装和使用"></a>Angular CLI 安装和使用</h1><h2 id="1-Angular-介绍"><a href="#1-Angular-介绍" class="headerlink" title="1. Angular 介绍"></a>1. Angular 介绍</h2><p>关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular；</p>
+        <h2 id="1-Angular-介绍"><a href="#1-Angular-介绍" class="headerlink" title="1. Angular 介绍"></a>1. Angular 介绍</h2><p>关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular；</p>
 <p>CLI是Command Line Interface的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。</p>
 <span id="more"></span>
 
@@ -362,7 +362,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="http://www.pengshu.net/angular/angular2_installation.html" title="Angular环境搭建">http://www.pengshu.net/angular/angular2_installation.html</a>
+      <a href="http://www.pengshu.net/angular/angular2_installation.html" title="Angular CLI 安装和使用">http://www.pengshu.net/angular/angular2_installation.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -420,14 +420,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

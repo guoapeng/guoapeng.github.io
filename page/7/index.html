@@ -164,7 +164,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -237,6 +237,109 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/hexo/hexo_blog_comments.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/hexo/hexo_blog_comments.html" class="post-title-link" itemprop="url">Hexo博客添加评论功能</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-10-04 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-04T00:00:00+08:00">2021-10-04</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-04-06 01:38:47" itemprop="dateModified" datetime="2022-04-06T01:38:47+08:00">2022-04-06</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tools/" itemprop="url" rel="index"><span itemprop="name">tools</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="背景说明"><a href="#背景说明" class="headerlink" title="背景说明"></a>背景说明</h2><ul>
+<li>考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/hexo/hexo_blog_comments.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/hexo/hexo_create_site.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -268,7 +371,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-08 11:57:17" itemprop="dateModified" datetime="2022-04-08T11:57:17+08:00">2022-04-08</time>
+        <time title="Modified: 2022-05-01 22:02:39" itemprop="dateModified" datetime="2022-05-01T22:02:39+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -306,7 +409,11 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><ul>
-<li>本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．
+<li><p>本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．</p>
+</li>
+<li><p>说明：我的工作环境是deepin　linux, 处于安全性考虑一直运行在普通用户下, 如果你的安装环境是Mac 或者windows，请理解每一步骤的含义后执行调整命令或参数.<br>或者在我的博客下面留言，我有空的时候会统一回复．</p>
+</li>
+<li><p>说说我为什么选择Hexo, 目前比较主流的博客生成系统有三个hexo, jekyll和hugo，jekyll 是老牌的博客生成系统，搜到了github官方的支持，　但是是用的ruby的技术栈，<br>我是技术出生ruby一直不在我的技术栈范围之内，至于jekyll和github在部署的时候的结合度更高的问题，我想对于一个做技术的人来说应该不是什么难事，应该比较容易处理．<br>相比之下hexo使用的nodejs技术栈，hugo 是golang技术栈这两块技术栈我都比较熟悉，主要在这两个博客生成器系统之间徘徊．  hugo固然速度更快，github上获得的星星数量也更多一些．由于考虑到博客系统更偏向于前端技术，这一块是nodejs特长，很多库都可以重用，从自己的职业嗅觉，我觉得一个博客系统或博客生成器采用nodejs技术栈更合适一点，另外很重要的一点Hexo Theme显得更成熟一些，所以我选择Hexo, hexo和hugo现在也很难说谁会在这一领域最终胜出．调查了一下，即使将来hugo胜出，迁移到hugo成本也不会太高．就我目前的个人需求和兴趣点来说，我还是比较偏向Hexo.</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/hexo/hexo_create_site.html#more" rel="contents">
@@ -371,7 +478,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 00:48:16" itemprop="dateModified" datetime="2022-04-06T00:48:16+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:18:33" itemprop="dateModified" datetime="2022-05-01T22:18:33+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -459,14 +566,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

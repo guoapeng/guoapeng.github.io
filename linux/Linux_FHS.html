@@ -27,7 +27,7 @@
 <meta property="og:description" content="FHS是什么?Filesystem Hierarchy Standard（文件系统层次化标准）的缩写，多数Linux版本采用这种文件组织形式，类似于Windows操作系统中c盘的文件目录，FHS采用树形结构组织文件。FHS定义了系统中每个区域的用途、所需要的最小构成的文件和目录，同时还给出了例外处理与矛盾处理。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-12-01T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-02T10:26:51.155Z">
+<meta property="article:modified_time" content="2022-05-01T14:12:59.143Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
@@ -154,7 +154,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#FHS%E6%98%AF%E4%BB%80%E4%B9%88"><span class="nav-number">1.</span> <span class="nav-text">FHS是什么?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89FHS"><span class="nav-number">2.</span> <span class="nav-text">为什么要有FHS?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FHS%E7%9B%AE%E5%BD%95%E7%9A%84%E6%9E%B6%E6%9E%84%E9%83%BD%E6%9C%89%E4%BA%9B%E5%95%A5"><span class="nav-number">3.</span> <span class="nav-text">FHS目录的架构都有些啥?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%A6%E8%A7%A3%E4%B9%8B%E5%89%8D"><span class="nav-number">4.</span> <span class="nav-text">详解之前</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A8%8B%E5%BA%8F%E6%98%AF%E7%94%B1%E4%BB%80%E4%B9%88%E6%9E%84%E6%88%90%E7%9A%84"><span class="nav-number">4.1.</span> <span class="nav-text">程序是由什么构成的?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%88%86%E7%B1%BB"><span class="nav-number">4.2.</span> <span class="nav-text">软件如何分类?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">4.3.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95%E8%AF%A6%E8%A7%A3"><span class="nav-number">5.</span> <span class="nav-text">目录详解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E7%96%91%E9%97%AE"><span class="nav-number">6.</span> <span class="nav-text">一些疑问</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#linux%E4%B8%8B-bin%E5%92%8C-usr-bin%E5%92%8C-usr-local-bin%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-number">6.1.</span> <span class="nav-text">linux下&#x2F;bin和&#x2F;usr&#x2F;bin和&#x2F;usr&#x2F;local&#x2F;bin的区别?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">6.2.</span> <span class="nav-text">参考文档</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#FHS%E6%98%AF%E4%BB%80%E4%B9%88"><span class="nav-number">1.</span> <span class="nav-text">FHS是什么?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89FHS"><span class="nav-number">2.</span> <span class="nav-text">为什么要有FHS?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FHS%E7%9B%AE%E5%BD%95%E7%9A%84%E6%9E%B6%E6%9E%84%E9%83%BD%E6%9C%89%E4%BA%9B%E5%95%A5"><span class="nav-number">3.</span> <span class="nav-text">FHS目录的架构都有些啥?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%A6%E8%A7%A3%E4%B9%8B%E5%89%8D"><span class="nav-number">4.</span> <span class="nav-text">详解之前</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A8%8B%E5%BA%8F%E6%98%AF%E7%94%B1%E4%BB%80%E4%B9%88%E6%9E%84%E6%88%90%E7%9A%84"><span class="nav-number">4.1.</span> <span class="nav-text">程序是由什么构成的?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%88%86%E7%B1%BB"><span class="nav-number">4.2.</span> <span class="nav-text">软件如何分类?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95%E8%AF%A6%E8%A7%A3"><span class="nav-number">5.</span> <span class="nav-text">目录详解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E7%96%91%E9%97%AE"><span class="nav-number">6.</span> <span class="nav-text">一些疑问</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#linux%E4%B8%8B-bin%E5%92%8C-usr-bin%E5%92%8C-usr-local-bin%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-number">6.1.</span> <span class="nav-text">linux下&#x2F;bin和&#x2F;usr&#x2F;bin和&#x2F;usr&#x2F;local&#x2F;bin的区别?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">6.2.</span> <span class="nav-text">参考文档</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -167,7 +167,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -272,7 +272,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:12:59" itemprop="dateModified" datetime="2022-05-01T22:12:59+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -325,34 +325,35 @@
 <h2 id="FHS目录的架构都有些啥"><a href="#FHS目录的架构都有些啥" class="headerlink" title="FHS目录的架构都有些啥?"></a>FHS目录的架构都有些啥?</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">/</span><br><span class="line">├── bin -&gt; usr/bin</span><br><span class="line">├── boot</span><br><span class="line">├── dev</span><br><span class="line">├── etc</span><br><span class="line">├── home</span><br><span class="line">├── lib -&gt; usr/lib</span><br><span class="line">├── lib32 -&gt; usr/lib32</span><br><span class="line">├── lib64 -&gt; usr/lib64</span><br><span class="line">├── libx32 -&gt; usr/libx32</span><br><span class="line">├── media</span><br><span class="line">├── mnt</span><br><span class="line">├── opt</span><br><span class="line">├── proc</span><br><span class="line">├── root</span><br><span class="line">├── run</span><br><span class="line">├── sbin -&gt; usr/sbin</span><br><span class="line">├── srv</span><br><span class="line">├── sys</span><br><span class="line">├── tmp</span><br><span class="line">├── usr</span><br><span class="line">      ├── bin</span><br><span class="line">      ├── include</span><br><span class="line">      ├── lib</span><br><span class="line">      ├── lib32</span><br><span class="line">      ├── lib64</span><br><span class="line">      ├── libexec</span><br><span class="line">      ├── libx32</span><br><span class="line">      ├── <span class="built_in">local</span></span><br><span class="line">      ├── sbin</span><br><span class="line">      ├── share</span><br><span class="line">      └── src</span><br><span class="line">└── var</span><br><span class="line">        ├── cache</span><br><span class="line">        ├── lib</span><br><span class="line">        ├── <span class="built_in">local</span></span><br><span class="line">        ├── lock -&gt; /run/lock</span><br><span class="line">        ├── <span class="built_in">log</span></span><br><span class="line">        ├── mail</span><br><span class="line">        ├── opt</span><br><span class="line">        ├── run -&gt; /run</span><br><span class="line">        ├── spool</span><br><span class="line">        └── tmp</span><br></pre></td></tr></table></figure>
 
 <h2 id="详解之前"><a href="#详解之前" class="headerlink" title="详解之前"></a>详解之前</h2><p>在进入详解之前, 我们来思考一个问题, 这个问题对我们理解目录结构将会非常有帮助.  </p>
-<h3 id="程序是由什么构成的"><a href="#程序是由什么构成的" class="headerlink" title="程序是由什么构成的?"></a>程序是由什么构成的?</h3><p>一个完整的程序或软件通常由以下四部分组成, </p>
+<h3 id="程序是由什么构成的"><a href="#程序是由什么构成的" class="headerlink" title="程序是由什么构成的?"></a>程序是由什么构成的?</h3><p>一个完整的程序或软件通常由以下四部分组成,</p>
 <ol>
 <li>可执行文件.<br>这些文件一般是可执行的二进制文件(binary), 当然也有例外, 比如shell脚本, 它也是可执行的文件, 这些统称可执行文件.<br>它有个显著的特点就是就是它有不可变性, 当然这里的不可变性是相对的, 不是绝对的. 什么含义? 就是软件一旦安装, 在它的生命周期中, 这些可执行文件几乎是不怎么改变的, 直到升级到新的版本, 或者被卸载. 正因为它有不变性, 我们在备份的时候, 可以不考虑可执行程序, 或者以较低的频率备份可执行文件. 因为他们能够很容易的被重建起来.<br>另外正因为它们有不可变性, 使得他们有较高的共享价值, 即可以在一台机器上只安装一份可执行程序, 所有用户共享一份可执行程序. 甚至我们可以在一个网络中只安装一份可执行程序, 整个网络中共享一份可执行程序. 例如我们可以在NFS服务器上保存可执行程序, 其他主机通过NFS远程挂载的方式挂载到本地主机, 这样我们不必每个主机逐一安装同一软件.<br>另外它的特点是可执行的, 这也是它区别与其它类型文件的显著区别. 什么含义?  即它是可以独立加载进内存, 被CPU执行的. 正因为它有这个特点, 我们要特别小心这些可执行文件, 要防止它们被病毒感染或被恶意程序篡改. 所以针对这类程序的我们进行病毒查杀的频率要高.</li>
 <li>库文件<br>程序执行时依赖的一些动态或静态类库, 如一些dll文件. 有时多应用程序可能共享同一份类库. 一些基础类库可能会被很多的软件所依赖. 有时同一家公司的产品可能会共用一份库文件. 有时一份软件有它特有的依赖库. 这类文件, 我们在删除的时候一定要非常小心, 因为意外删除可能导致多款软件运转失灵. 安装时也可能因为新版本覆盖旧版本导致,其它软件出现兼容性问题. 所以我们在进行复杂的升级, 安装前要记得备份这些库文件. 所以这类文件备份频率要高于可执行文件, 以便当系统崩溃时从备份中恢复.<br>另外, 虽然它们不是直接可执行的文件, 但是它们也会被可执行程序, 或系统调用加载到内存被CPU执行, 也需要频繁地进行病毒查杀.</li>
 <li>配置文件<br>这类文件通常是文本文件, 例如apache的配置, tomcat的配置. 这类文件通常不具有可共享性, 每个系统之所以会表现出不同的特性, 通常是有配置文件决定的. 不同主机, 用户都有不同的配置文件. 他们具有可变性和不可共享性.</li>
-<li>数据<br>数据是一个企业或最重要的资产, 通常情况下数据会随着业务的发展逐渐增长. 这类数据具有高可变性. 所以对备份要求较高, 有些需要定期备份甚至实时备份. 当然数据也分为很多种类, 对于数据种类的研究可以另开一篇专题了, 比如日志类型的数据, 要定期归档, 清理.  <h3 id="软件如何分类"><a href="#软件如何分类" class="headerlink" title="软件如何分类?"></a>软件如何分类?</h3>从系统管理的角度, 软件可以分为系统软件和应用软件.<br>系统软件一般是支撑整个系统运行的必要软件, 比如磁盘管理工具, 网络工具, shell等.  用于构成整个计算机的infrastrure 或用于维护, 如果以使用者角色划分的话, 他们是系统管理员经常使用的软件.<br>应用软件是指运行在系统之上特供特定功能的软件, 比如办公软件, 音频视频播放软件等. 以使用者角色划分的话, 他们是用户经常使用的软件.<br>这里为什么要谈论软件分类, 因为我们在规划目录结构时, 要考虑将系统管理员使用的软件与用户使用到的软件及配置要分割开来. 保证应用软件的运行不会导致整个系统的崩溃.</li>
+<li>数据<br>数据是一个企业或最重要的资产, 通常情况下数据会随着业务的发展逐渐增长. 这类数据具有高可变性. 所以对备份要求较高, 有些需要定期备份甚至实时备份. 当然数据也分为很多种类, 对于数据种类的研究可以另开一篇专题了, 比如日志类型的数据, 要定期归档, 清理.  </li>
 </ol>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="目录详解"><a href="#目录详解" class="headerlink" title="目录详解"></a>目录详解</h2><p>/ 根目录<br>根目录的意思与内容根目录是整个系统最重要的一个目录，因为不但所有的目录都是由根目录衍生出来的。同时根目录也是开机、关闭、系统修复等功能有关的。由于系统开机时需要特定的开机软件，核心文件，开机程序所需的程序，函数库等文件数据。因为根目录很重要，所以在FHS要求方面，它希望根目录不要放在非常大的分区上面，因为越大的分区，你会存储更多的数据，如此一来根目录所在的分区就可能会有较大发生错误的机会。依据FHS的建议：根目录所在的分区越小越好，且应用程序所安装的软件最好不要与根目录放在一个分区中，保持根目录越小越好。</p>
-<p>/usr<br>/usr的意义与内容依据FHS的基本定义，/usr里面存放的数据属于可分享的与不可变动的（shareable、static），如果你知道如果通过网络进行分区的挂载（例如：NFS服务器），那么/usr确实可以分享给全局网络内的其他主机还是用啦。很多人都误会/usr为user的缩写，其实usr是Unix software Resourece的缩写，也就是Unix操作系统软件资源所存放的目录。FHS建议所有软件开发者，将他们的数据合理的分别放到这个目录的次目录连，而不是自行独立创建目录。因为所有系统默认的软件（distributions发布者提供的软件）都会放到/usr目录下。就像我们windows系统下的windows文件夹和program files文件夹这两个文件夹的结合体。这个目录占用最多的磁盘空间。<br>本地安装的程序和其他东西在/usr/local 下.这样可能在升级新版系统或新distribution时无须重新安装全部程序. </p>
+<h3 id="软件如何分类"><a href="#软件如何分类" class="headerlink" title="软件如何分类?"></a>软件如何分类?</h3><p>   从系统管理的角度, 软件可以分为系统软件和应用软件.<br>   系统软件一般是支撑整个系统运行的必要软件, 比如磁盘管理工具, 网络工具, shell等.  用于构成整个计算机的infrastrure 或用于维护, 如果以使用者角色划分的话, 他们是系统管理员经常使用的软件.<br>   应用软件是指运行在系统之上特供特定功能的软件, 比如办公软件, 音频视频播放软件等. 以使用者角色划分的话, 他们是用户经常使用的软件.<br>   这里为什么要谈论软件分类, 因为我们在规划目录结构时, 要考虑将系统管理员使用的软件与用户使用到的软件及配置要分割开来. 保证应用软件的运行不会导致整个系统的崩溃.</p>
+<h2 id="目录详解"><a href="#目录详解" class="headerlink" title="目录详解"></a>目录详解</h2><p>/ 根目录<br>根目录的意思与内容根目录是整个系统最重要的一个目录，因为不但所有的目录都是由根目录衍生出来的。同时根目录也是开机、关闭、系统修复等功能有关的。由于系统开机时需要特定的开机软件，核心文件，开机程序所需的程序，函数库等文件数据。因为根目录很重要，所以在FHS要求方面，它希望根目录不要放在非常大的分区上面，因为越大的分区，你会存储更多的数据，如此一来根目录所在的分区就可能会有较大发生错误的机会。依据FHS的建议：根目录所在的分区越小越好，且应用程序所安装的软件最好不要与根目录放在一个分区中，保持根目录越小越好。</p>
+<p>/usr<br>/usr的意义与内容依据FHS的基本定义，/usr里面存放的数据属于可分享的与不可变动的（shareable、static），如果你知道如果通过网络进行分区的挂载（例如：NFS服务器），那么/usr确实可以分享给全局网络内的其他主机还是用啦。很多人都误会/usr为user的缩写，其实usr是Unix software Resourece的缩写，也就是Unix操作系统软件资源所存放的目录。FHS建议所有软件开发者，将他们的数据合理的分别放到这个目录的次目录连，而不是自行独立创建目录。因为所有系统默认的软件（distributions发布者提供的软件）都会放到/usr目录下。就像我们windows系统下的windows文件夹和program files文件夹这两个文件夹的结合体。这个目录占用最多的磁盘空间。<br>本地安装的程序和其他东西在/usr/local 下.这样可能在升级新版系统或新distribution时无须重新安装全部程序.</p>
 <!-- more -->
 <p>/usr/X11R6<br>X Window系统的所有文件.为简化X的开发和安装，X的文件没有集成到系统中. X自己在/usr/X11R6 下类似/usr .  </p>
 <p>/usr/X386<br>类似/usr/X11R6 ，但是给X11 Release 5的.  </p>
-<p>/usr/bin<br>几乎所有用户命令.有些命令在/bin 或/usr/local/bin 中. </p>
+<p>/usr/bin<br>几乎所有用户命令.有些命令在/bin 或/usr/local/bin 中.</p>
 <p>/usr/sbin<br>根文件系统必要的系统管理命令，例如多数服务程序.  </p>
 <p>/usr/man , /usr/info , /usr/doc<br>手册页、GNU信息文档和各种其他文档文件.  </p>
-<p>/usr/include<br>C编程语言的头文件.为了一致性这实际上应该在/usr/lib 下，但传统上支持这个名字. </p>
+<p>/usr/include<br>C编程语言的头文件.为了一致性这实际上应该在/usr/lib 下，但传统上支持这个名字.</p>
 <p>/usr/lib<br>程序或子系统的不变的数据文件，包括一些site-wide配置文件.名字lib来源于库(library); 编程的原始库存在/usr/lib 里.  </p>
 <p>/usr/local<br>本地安装的软件和其他文件放在这里.  用户自己编译的软件默认会安装到这个目录下。这里主要存放那些手动安装的软件，即不是通过“新立得”或apt-get安装的软件。它和/usr目录具有相类似的目录结构。让软件包管理器来管理/usr目录，而把自定义的脚本(scripts)放到/usr/local目录下面</p>
 <p>/var文件系统<br>/var的意义与内容如果/var 是安装的时候会占用比较大的硬盘容量的目录，那么/var就是在系统运行后才会渐渐占用磁盘容量的目录。因为/var目录主要针对常态变动的文件，包括缓存（cache）、登录文件（log file）以及某些软件运行所产生的文件。包括程序文件（log file、run file）。如mysql数据库的文件等。</p>
 <p>/var 包括系统一般运行时要改变的数据.每个系统是特定的，即不通过网络与其他计算机共享.  </p>
-<p>/var/catman<br>当要求格式化时的man页的cache.man页的源文件一般存在/usr/man/man* 中；有些man页可能有预格式化的版本，存在/usr/man/cat* 中.而其他的man页在第一次看时需要格式化，格式化完的版本存在/var/man 中，这样其他人再看相同的页时就无须等待格式化了. (/var/catman 经常被清除，就象清除临时目录一样.)  </p>
+<p>/var/catman<br>当要求格式化时的man页的cache.man页的源文件一般存在/usr/man/man<em>中；有些man页可能有预格式化的版本，存在/usr/man/cat</em> 中.而其他的man页在第一次看时需要格式化，格式化完的版本存在/var/man 中，这样其他人再看相同的页时就无须等待格式化了. (/var/catman 经常被清除，就象清除临时目录一样.)  </p>
 <p>/var/lib<br>系统正常运行时要改变的文件.  </p>
 <p>/var/local<br>/usr/local 中安装的程序的可变数据(即系统管理员安装的程序).注意，如果必要，即使本地安装的程序也会使用其他/var 目录，例如/var/lock .  </p>
 <p>/var/lock<br>锁定文件.许多程序遵循在/var/lock 中产生一个锁定文件的约定，以支持他们正在使用某个特定的设备或文件.其他程序注意到这个锁定文件，将不试图使用这个设备或文件.  </p>
 <p>/var/log<br>各种程序的Log文件，特别是login  (/var/log/wtmp log所有到系统的登录和注销) 和syslog (/var/log/messages 里存储所有核心和系统程序信息. /var/log 里的文件经常不确定地增长，应该定期清除.  </p>
-<p>/var/run<br>保存到下次引导前有效的关于系统的信息文件.例如， /var/run/utmp 包含当前登录的用户的信息. </p>
+<p>/var/run<br>保存到下次引导前有效的关于系统的信息文件.例如， /var/run/utmp 包含当前登录的用户的信息.</p>
 <p>/var/spool<br>mail, news, 打印队列和其他队列工作的目录.每个不同的spool在/var/spool 下有自己的子目录，例如，用户的邮箱在/var/spool/mail 中.  </p>
-<p>/var/tmp<br>比/tmp 允许的大或需要存在较长时间的临时文件. (虽然系统管理员可能不允许/var/tmp 有很旧的文件.) </p>
+<p>/var/tmp<br>比/tmp 允许的大或需要存在较长时间的临时文件. (虽然系统管理员可能不允许/var/tmp 有很旧的文件.)</p>
 <p>/opt：用户级的程序目录<br>这里主要存放那些可选的程序。你想尝试最新的firefox测试版吗?那就装到/opt目录下吧，这样，当你尝试完，想删掉firefox的时候，你就可 以直接删除它，而不影响系统其他任何设置。安装到/opt目录下的程序，它所有的数据、库文件等等都是放在同个目录下面。<br>举个例子：刚才装的测试版firefox，就可以装到/opt/firefox_beta目录下，/opt/firefox_beta目录下面就包含了运 行firefox所需要的所有文件、库、数据等等。要删除firefox的时候，你只需删除/opt/firefox_beta目录即可，非常简单。<br>在硬盘容量不够时，也可将/opt单独挂载到其他磁盘上使用。</p>
 <h2 id="一些疑问"><a href="#一些疑问" class="headerlink" title="一些疑问"></a>一些疑问</h2><h3 id="linux下-bin和-usr-bin和-usr-local-bin的区别"><a href="#linux下-bin和-usr-bin和-usr-local-bin的区别" class="headerlink" title="linux下/bin和/usr/bin和/usr/local/bin的区别?"></a>linux下/bin和/usr/bin和/usr/local/bin的区别?</h3><p>/bin 是所有用户都可以访问并执行的可执行程序。包括超级用户及一般用户。<br>/usr/bin 是系统安装时自带的一些可执行程序。即系统程序，轻易不要去动里面的东西，容易入坑。<br>/usr/local/bin 是用户自行编译安装时默认的可执行程序的安装位置，这个不小心误删点什么，不会影响大局。</p>
 <h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/lesroad/p/9737954.html">linux中的/usr,/var,/opt目录详解</a></p>
@@ -430,14 +431,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

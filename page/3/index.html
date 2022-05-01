@@ -164,7 +164,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -237,6 +237,122 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/git/windows_install_git.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/git/windows_install_git.html" class="post-title-link" itemprop="url">Windows上安装git2.x</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-03-06 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-06T00:00:00+08:00">2022-03-06</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-05-01 22:33:07" itemprop="dateModified" datetime="2022-05-01T22:33:07+08:00">2022-05-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>341</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Windows上安装git2-x"><a href="#Windows上安装git2-x" class="headerlink" title="Windows上安装git2.x"></a>Windows上安装git2.x</h2><ul>
+<li><p>转到<a target="_blank" rel="noopener" href="https://git-scm.com/">Git download page</a>并根据您的机器配置下载安装程序。</p>
+</li>
+<li><p>执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。</p>
+</li>
+<li><p>验证是否已使用此命令安装了节点。</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.17.1.windows.2</span><br></pre></td></tr></table></figure></li>
+<li><p>另外，运行以下命令来设置您的git身份, 这些信息会写入每次commit中, 以标明代码作者的身份, 以及联系方式.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Use your git email id</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;you@example.com&quot;</span></span><br><span class="line"><span class="comment"># Use your git name</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;Your Name&quot;</span>         </span><br></pre></td></tr></table></figure></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -268,7 +384,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:11:52" itemprop="dateModified" datetime="2022-05-01T22:11:52+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -311,26 +427,37 @@
 <p>wget -q <a target="_blank" rel="noopener" href="https://www.virtualbox.org/download/oracle_vbox.asc">https://www.virtualbox.org/download/oracle_vbox.asc</a></p>
 <p>再执行import：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm --import oracle_vbox.asc</span><br></pre></td></tr></table></figure>
+
 <ol start="2">
-<li><p>cd 进入目录：/etc/yum.repos.d<br>新建一个文件virtualbox.repo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo cat &lt;&lt; <span class="string">EOF &gt; /etc/yum.repos.d/virtualbox.repo</span></span><br><span class="line"><span class="string">[virtualbox]</span></span><br><span class="line"><span class="string">name=Oracle Linux / RHEL / fedora-\$releasever / \$basearch - VirtualBox</span></span><br><span class="line"><span class="string">baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/\$releasever/\$basearch</span></span><br><span class="line"><span class="string">enabled=1</span></span><br><span class="line"><span class="string">gpgcheck=1</span></span><br><span class="line"><span class="string">repo_gpgcheck=1</span></span><br><span class="line"><span class="string">gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure></li>
-<li><p>更新缓存</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf check-update</span><br></pre></td></tr></table></figure></li>
-<li><p>查询可安装版本</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf list virtualbox-6.1 --showduplicates</span><br></pre></td></tr></table></figure></li>
+<li>cd 进入目录：/etc/yum.repos.d<br>新建一个文件virtualbox.repo</li>
 </ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo cat &lt;&lt; <span class="string">EOF &gt; /etc/yum.repos.d/virtualbox.repo</span></span><br><span class="line"><span class="string">[virtualbox]</span></span><br><span class="line"><span class="string">name=Oracle Linux / RHEL / fedora-\$releasever / \$basearch - VirtualBox</span></span><br><span class="line"><span class="string">baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/\$releasever/\$basearch</span></span><br><span class="line"><span class="string">enabled=1</span></span><br><span class="line"><span class="string">gpgcheck=1</span></span><br><span class="line"><span class="string">repo_gpgcheck=1</span></span><br><span class="line"><span class="string">gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>更新缓存</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf check-update</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>查询可安装版本</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf list virtualbox-6.1 --showduplicates</span><br></pre></td></tr></table></figure>
+
 <p>然后执行命令行</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install VirtualBox-6.1</span><br></pre></td></tr></table></figure>
-<ol start="6">
-<li><p>安装kernal-devel</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install kernel-devel-5.14.10-300.fc35 </span><br></pre></td></tr></table></figure>
-<p>版本应该与当前内核版本一致</p>
-</li>
-<li><p>更新virtualbox配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /sbin/vboxconfig </span><br></pre></td></tr></table></figure>
-<h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3></li>
+
+<ol start="5">
+<li>安装kernal-devel</li>
 </ol>
-<p><a target="_blank" rel="noopener" href="https://www.virtualbox.org/wiki/Downloads">virtualbox 官方wiki</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install kernel-devel-5.14.10-300.fc35 </span><br></pre></td></tr></table></figure>
+
+<p>版本应该与当前内核版本一致</p>
+<ol start="6">
+<li>更新virtualbox配置</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /sbin/vboxconfig </span><br></pre></td></tr></table></figure>
+
+<h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://www.virtualbox.org/wiki/Downloads">virtualbox 官方wiki</a></p>
 
       
     </div>
@@ -499,7 +626,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:55:08" itemprop="dateModified" datetime="2022-04-06T01:55:08+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:31:06" itemprop="dateModified" datetime="2022-05-01T22:31:06+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -536,7 +663,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="如何从Angularjs-升级到-Angular（译文）"><a href="#如何从Angularjs-升级到-Angular（译文）" class="headerlink" title="如何从Angularjs 升级到 Angular（译文）"></a>如何从Angularjs 升级到 Angular（译文）</h1><p>原文: <a target="_blank" rel="noopener" href="https://angular.io/guide/upgrade#using-angularjs-component-directives-from-angular-code">Upgrading from AngularJS to Angular</a></p>
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>原文: <a target="_blank" rel="noopener" href="https://angular.io/guide/upgrade#using-angularjs-component-directives-from-angular-code">Upgrading from AngularJS to Angular</a></p>
 <p>Author: AngularJS 官方</p>
 <p>译者：philoenglish.com 团队</p>
 <p>关键字： Angularjs Angular Angular1.x Angular2.x migration 迁移， 升级</p>
@@ -605,7 +732,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 02:02:02" itemprop="dateModified" datetime="2022-04-06T02:02:02+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:25:38" itemprop="dateModified" datetime="2022-05-01T22:25:38+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -707,7 +834,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:15:03" itemprop="dateModified" datetime="2022-05-01T22:15:03+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -730,7 +857,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>4.6k</span>
+      <span>4.5k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -748,7 +875,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="linux上ifconfig命令详解"><a href="#linux上ifconfig命令详解" class="headerlink" title="linux上ifconfig命令详解"></a>linux上ifconfig命令详解</h1><h2 id="ifconfig-简介"><a href="#ifconfig-简介" class="headerlink" title="ifconfig 简介"></a>ifconfig 简介</h2><p>用于显示或设置网络设备</p>
+          <h2 id="ifconfig-简介"><a href="#ifconfig-简介" class="headerlink" title="ifconfig 简介"></a>ifconfig 简介</h2><p>用于显示或设置网络设备</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/linux/linux_shell_ifconfig.html#more" rel="contents">
@@ -924,7 +1051,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:19:16" itemprop="dateModified" datetime="2022-04-06T01:19:16+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 21:58:15" itemprop="dateModified" datetime="2022-05-01T21:58:15+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -961,7 +1088,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="如何Maven结合IDEA进行Debug"><a href="#如何Maven结合IDEA进行Debug" class="headerlink" title="如何Maven结合IDEA进行Debug"></a>如何Maven结合IDEA进行Debug</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。<br>在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进行编译，更新index这些极其耗时的工作。</p>
+          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>由于Idea和Maven class loading的规则不同， 同样的测试使用Maven运行和使用Idea运行可能会得到不同的结果。 而我们的CI(持续集成)往往是使用maven 命令去运行的。<br>在此情况下， 将测试使用maven运行起来， 然后结合IDEA强大的debug能力就显得非常必要。如果熟练掌握此种debug方式， 也可以减少我们依赖idea进行编译，更新index这些极其耗时的工作。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/java/how_to_debug_with_maven_cli.html#more" rel="contents">
@@ -1131,7 +1258,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:32:04" itemprop="dateModified" datetime="2022-05-01T22:32:04+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1180,122 +1307,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Centos7-源码安装git2-x"><a href="#Centos7-源码安装git2-x" class="headerlink" title="Centos7 源码安装git2.x"></a>Centos7 源码安装git2.x</h1><h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>由于运行gitlab pipeline job遇到如下错误</p>
+          <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>由于运行gitlab pipeline job遇到如下错误</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fatal: git fetch-pack: expected shallow list</span><br><span class="line">ERROR: Job failed: <span class="built_in">exit</span> status 1</span><br></pre></td></tr></table></figure>
+
 <p>网上搜索原因, 是因为git的版本过低, 经查询确认, 确实很低还是1.x的git版本. 想通过yum源升级, 发现yum源上的最新版也才1.8.3.1<br>到目前2021-12-14为止要在centos7上安装2.x的 git还是要通过源码安装, 以下是源码安装git的全过程.</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/git/centos7_install_git_via_sourcecode.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/git/install_setup_git_server.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/git/install_setup_git_server.html" class="post-title-link" itemprop="url">Centos7上搭建git服务器</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-12-16 00:00:00" itemprop="dateCreated datePublished" datetime="2021-12-16T00:00:00+08:00">2021-12-16</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.7k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="Centos7上搭建git服务器"><a href="#Centos7上搭建git服务器" class="headerlink" title="Centos7上搭建git服务器"></a>Centos7上搭建git服务器</h1><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。<br>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。<br>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。<br>虽然git不必依赖一个中心化的仓库来工作, 但是中心化的仓库也能带来很多好处, 比如方便团队写作, 本文主要讲述, 如何配置git服务器, 让多人通过ssh协议的方式访问服务器端的代码仓库.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/git/install_setup_git_server.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -1343,14 +1361,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -27,7 +27,7 @@
 <meta property="og:description" content="Expect简介 Expect是Unix系统中用来进行自动化控制和测试的软件工具，由Don Libes制作，作为Tcl(Tool Command Language)脚本语言的一个扩展，应用在交互式软件中如telnet，ftp，passwd，fsck，rlogin，tip，ssh等等。该工具利用Unix伪终端包装其子进程，允许任意程序通过终端接入进行自动化控制；也可利用Tk工具，将交互程序包装在X1">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-08T22:47:22.000Z">
-<meta property="article:modified_time" content="2022-04-02T10:26:51.165Z">
+<meta property="article:modified_time" content="2022-05-01T14:15:22.175Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
@@ -167,7 +167,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -272,7 +272,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
+        <time title="Modified: 2022-05-01 22:15:22" itemprop="dateModified" datetime="2022-05-01T22:15:22+08:00">2022-05-01</time>
       </span>
 
   
@@ -315,34 +315,44 @@
 <h2 id="安装expect"><a href="#安装expect" class="headerlink" title="安装expect"></a>安装expect</h2><p>首先检查系统是否自带了expect程序， 一般在 系统的/usr/bin目录下， 如果没有自带expect, 那么需要自行安装expect. 这里仅介绍ubuntu和redhat系列linux的安装方法。<br>ubuntu系列</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install expect</span><br></pre></td></tr></table></figure>
 
-<p>redhat系列 </p>
+<p>redhat系列</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install expect</span><br></pre></td></tr></table></figure>
 
 <h2 id="一个简单的ssh登录远程服务器的例子"><a href="#一个简单的ssh登录远程服务器的例子" class="headerlink" title="一个简单的ssh登录远程服务器的例子"></a>一个简单的ssh登录远程服务器的例子</h2><ul>
-<li>创建一个ssh_auto_login.exp脚本文件<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/expect</span></span><br><span class="line"><span class="built_in">set</span> timeout 30 </span><br><span class="line">spawn ssh -l username 192.168.1.1 </span><br><span class="line">expect <span class="string">&quot;password:&quot;</span> </span><br><span class="line">send <span class="string">&quot;ispass\r&quot;</span></span><br><span class="line">interact </span><br></pre></td></tr></table></figure>
-说明：  </li>
-<li>第一行 #!/usr/bin/expect 与执行方式有关， 当我么以 <code>./ssh_auto_login.exp</code>，我们必须通过第一行告诉操作系统，脚本需要通过/usr/bin/expect程序来运行，而且我们还要授予文件可执行权限。<br>如果我们以下面这种方式执行ssh_auto_login.exp， 也可以不用写第一行， 而且不必授予其可执行权限。  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">expect ssh_auto_login.exp</span><br></pre></td></tr></table></figure></li>
-<li>第二行 set timeout 30 设置命令的命令的超时时间， 单位是秒。</li>
-<li>第三行 spawn ssh -l username 192.168.1.1，后面的ssh登录命令很好理解，这里主要解释前面为什么需要添加一个spawn, spawn是expect程序的一个内置命令，使用它将我们需要执行的各种shell命令包裹起来，这样就shell命令注入了和自动化脚本expect, send交互的能力。只有包裹后程序才有机会获取shell命令的输出，并根据输出做出反应。它是expect的灵魂所在。不清楚软件作者这里为什么要使用spawn这个单词，这里有些晦涩难懂，spawn作动词主要是产卵， 繁殖的意思，我始终不能把产卵和spawn在expect程序中的行为和作用联系起来。我只能发挥想象把spawn想象成一个大卵泡， 卵泡里面包裹的DNA物质就是我们正真执行的核心程序，脚本通过这个巨大的卵泡与核心程序进行交互。</li>
-<li>第四行expect “password:”<br>这里的expect是expect的一个内部命令, 是不是有点晕，此expect非彼expect， 彼expect是指第一行中的#!/usr/bin/expect, 或者expect ssh_auto_login.exp 中的expect, 彼expect是一个shell命令， 而此expect是/usr/bin/expect内部的一个子命令。 有点像一个叫expect的妈妈怀了一个叫expect的小崽子。是不是更晕了， 如果更晕了，那就对了， 慢慢体会。 我真搞不懂英语中那么多表示期望期待的单词词组，作者为什么要卯着这一个词用，害苦了这帮后入行的程序员， 一代比一代脱发厉害:)。  <ul>
-<li>回归正题， 这个命令的意思是判断上次输出结果里是否包含“password:”的字符串<br>如果有则立即返回否则就等待一段时间后返回这里等待时长就是前面设置的30秒。</li>
+<li>创建一个ssh_auto_login.exp脚本文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/expect</span></span><br><span class="line"><span class="built_in">set</span> timeout 30 </span><br><span class="line">spawn ssh -l username 192.168.1.1 </span><br><span class="line">expect <span class="string">&quot;password:&quot;</span> </span><br><span class="line">send <span class="string">&quot;ispass\r&quot;</span></span><br><span class="line">interact </span><br></pre></td></tr></table></figure>
+
+<p>说明：  </p>
+<ul>
+<li><p>第一行 #!/usr/bin/expect 与执行方式有关， 当我么以 <code>./ssh_auto_login.exp</code>，我们必须通过第一行告诉操作系统，脚本需要通过/usr/bin/expect程序来运行，而且我们还要授予文件可执行权限。<br>如果我们以下面这种方式执行ssh_auto_login.exp， 也可以不用写第一行， 而且不必授予其可执行权限。</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">expect ssh_auto_login.exp</span><br></pre></td></tr></table></figure></li>
+<li><p>第二行 set timeout 30 设置命令的命令的超时时间， 单位是秒。</p>
+</li>
+<li><p>第三行 spawn ssh -l username 192.168.1.1，后面的ssh登录命令很好理解，这里主要解释前面为什么需要添加一个spawn, spawn是expect程序的一个内置命令，使用它将我们需要执行的各种shell命令包裹起来，这样就shell命令注入了和自动化脚本expect, send交互的能力。只有包裹后程序才有机会获取shell命令的输出，并根据输出做出反应。它是expect的灵魂所在。不清楚软件作者这里为什么要使用spawn这个单词，这里有些晦涩难懂，spawn作动词主要是产卵， 繁殖的意思，我始终不能把产卵和spawn在expect程序中的行为和作用联系起来。我只能发挥想象把spawn想象成一个大卵泡， 卵泡里面包裹的DNA物质就是我们正真执行的核心程序，脚本通过这个巨大的卵泡与核心程序进行交互。</p>
+</li>
+<li><p>第四行expect “password:”<br>这里的expect是expect的一个内部命令, 是不是有点晕，此expect非彼expect， 彼expect是指第一行中的#!/usr/bin/expect, 或者expect ssh_auto_login.exp 中的expect, 彼expect是一个shell命令， 而此expect是/usr/bin/expect内部的一个子命令。 有点像一个叫expect的妈妈怀了一个叫expect的小崽子。是不是更晕了， 如果更晕了，那就对了， 慢慢体会。 我真搞不懂英语中那么多表示期望期待的单词词组，作者为什么要卯着这一个词用，害苦了这帮后入行的程序员， 一代比一代脱发厉害:)。  </p>
+<ul>
+<li>回归正题， 这个命令的意思是判断上次输出结果里是否包含“password:”的字符串<br>  如果有则立即返回否则就等待一段时间后返回这里等待时长就是前面设置的30秒。</li>
 <li>注意这里的用词是包含，也就是如果完整输出是”please in put your password:”也算中，河南话中，普通话也算满足期待的条件，哪个简洁? :)</li>
 <li>输出是千变万化的，比如不同的主机，ssh过去它的提示信息可能都不一样，难道我们的我们expect程序就要认怂嘛，这才第四行代码当然不能，expect 后面可以接收正则表达式, 这样无论提示符号是pwd, passwd, password, 正则表达式都能搞定它，正则就是如来佛的手掌心。</li>
 <li>这里的输出是指哪里的输出， 这里的输出是指控制台的输出不是文件输出，控制台有正常输出和错误输出，怎么算？留个思考题</li>
 </ul>
 </li>
-<li>第五行  send “ispass\r”<ul>
-<li>当expect接收到“password:”提示符，所以上面的expect实际是在等待“password:”提示符出现，使用等待多好，wait, 等待“password:”提示符出现后继续往后执行，紧接着地就是send命令， send将密码发送到控制台，这里是输入通道。 </li>
+<li><p>第五行  send “ispass\r”</p>
+<ul>
+<li>当expect接收到“password:”提示符，所以上面的expect实际是在等待“password:”提示符出现，使用等待多好，wait, 等待“password:”提示符出现后继续往后执行，紧接着地就是send命令， send将密码发送到控制台，这里是输入通道。</li>
 <li>写到这里想象善于思考的朋友，肯定会想到，如果前面的expect命令等待超时了，即没有出现输入密码提示，这里的send 会不会被执行？代码不长，大家可以自己动手测试一下。只有把这个搞清楚了， 第二行代码的作用才算彻底弄明白。</li>
 <li>这里再留个思考题，代码这样写密码是不是很容易泄露，有什么办法即使脚本被截获，密码不泄露？</li>
 </ul>
 </li>
-<li>第六行 interact  <ul>
-<li>前面几行都是本地机器和远程机器自动的在交互，自动程序帮你把电脑开机了，服务器登录了，空调开启了，茶泡好了(假设程序能泡茶，可以想象一下)，接下来控制权还是要交给人类， 这里的interact即使将控制权由机器控制转换为人机交互， 由人来接管。<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2></li>
+<li><p>第六行 interact  </p>
+<ul>
+<li>前面几行都是本地机器和远程机器自动的在交互，自动程序帮你把电脑开机了，服务器登录了，空调开启了，茶泡好了(假设程序能泡茶，可以想象一下)，接下来控制权还是要交给人类， 这里的interact即使将控制权由机器控制转换为人机交互， 由人来接管。</li>
 </ul>
 </li>
 </ul>
-<p><a target="_blank" rel="noopener" href="https://ipcmen.com/expect">Expect—百科篇命令</a></p>
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://ipcmen.com/expect">Expect—百科篇命令</a></p>
 <p><a target="_blank" rel="noopener" href="https://linux.die.net/man/1/expect">expect(1) - Linux man page</a></p>
 
     </div>
@@ -418,14 +428,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

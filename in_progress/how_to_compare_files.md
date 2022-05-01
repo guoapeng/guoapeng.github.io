@@ -9,9 +9,9 @@ tags:
 
 1. 方法一: 使用命令行工具
 
-```bash
-  code -d path_to_file1 path_to_file2
-```
+  ```bash
+    code -d path_to_file1 path_to_file2
+  ```
 
 2. 方法二: 使用图形节面
 

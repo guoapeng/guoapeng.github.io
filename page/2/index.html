@@ -164,7 +164,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -353,6 +353,107 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular2_guard.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/angular/angular2_guard.html" class="post-title-link" itemprop="url">Angular guard介绍</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-04-03 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-03T00:00:00+08:00">2022-04-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-04-06 01:53:19" itemprop="dateModified" datetime="2022-04-06T01:53:19+08:00">2022-04-06</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>888</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我们在开发web应用时，在服务器端都会控制某种或某个用户是否有权限调用某个接口。在前端，我们除了根据用户的角色或其他特性来控制一些页面元素是否显示以外，也需要控制用户是否能够进入某些页面（例如通过直接输入URL的方式直接进入）。要控制是否显示，我们可以使用 *ngIf 、 [hidden] 等方式。而对于控制用户能否进入某个页面，Angular2的路由框架也提供了非常方便的方式来实现这个功能。</p>
+<p>Angular2提供了2种组件， Guard 和 Resolve 。 Guard 顾名思义就是用来保护一个路径。可以用来判断用户只有在满足一定的条件的情况下才能打开这个路径对应的页面。 Resolve 用来在进入某个路径之前先获取数据。</p>
+<h2 id="Guard"><a href="#Guard" class="headerlink" title="Guard"></a>Guard</h2><p>Guard 其实是一系列接口，只要你实现了它的方法，配置了这些 Guard ，Angular路由框架就会根据这个方法返回的 true 或 false 来判断是否激活这个路由。它包括几种类型：</p>
+<p>1、CanActivate<br>这种类型的 Guard 用来控制是否允许进入当前的路径。<br>2、CanActivateChild<br>这种类型的 Guard 用来控制是否允许进入当前路径的所有子路径。<br>3、CanDeactivate<br>用来控制是否能离开当前页面进入别的路径<br>4、CanLoad<br>用于控制一个异步加载的子模块是否允许被加载。<br>以 CanActivate 为例，这个接口的定义如下：</p>
+<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">exportinterface CanActivate &#123;</span><br><span class="line"> canActivate(route: ActivatedRouteSnapshot, <span class="attr">state</span>: RouterStateSnapshot): Observable&lt;<span class="built_in">boolean</span>&gt; | <span class="built_in">Promise</span>&lt;<span class="built_in">boolean</span>&gt; | <span class="built_in">boolean</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这个接口定义了一个方法，当你实现这个接口，并把它配置到某一个路由上以后，当用户进入这个路由的路径之前，就会调用它里面的 canActivate() 方法，它第一个参数，就是将要激活的路由，第二个参数是路由器当前的状态。它返回一个布尔型的结果，或者是布尔型的 Promise 或 Observable 。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular2_ngmodule.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -428,110 +529,6 @@
 
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shitoupi/p/6641230.html">ANGULAR2 NGMODULE 模块详解</a></p>
 
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_platformBrowserDynamic.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular_platformBrowserDynamic.html" class="post-title-link" itemprop="url">深度刨析@angular/platform-browser-dynamic</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-04-03 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-03T00:00:00+08:00">2022-04-03</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-08 12:03:03" itemprop="dateModified" datetime="2022-04-08T12:03:03+08:00">2022-04-08</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>6.3k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>6 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="深度刨析-angular-platform-browser-dynamic"><a href="#深度刨析-angular-platform-browser-dynamic" class="headerlink" title="深度刨析@angular/platform-browser-dynamic"></a>深度刨析@angular/platform-browser-dynamic</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为angular应用的入口模块，了解他的重要性是显而易见的！</p>
-<h2 id="angular之main-ts"><a href="#angular之main-ts" class="headerlink" title="angular之main.ts"></a>angular之main.ts</h2><p>main.ts是这个样子的，下面我就去解开platformBrowserDynamic神秘面纱！</p>
-<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">platformBrowserDynamic().bootstrapModule(AppModule)</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> <span class="built_in">console</span>.error(err));</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/angular/angular_platformBrowserDynamic.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
       
     </div>
 
@@ -690,7 +687,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:52:50" itemprop="dateModified" datetime="2022-04-06T01:52:50+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:36:03" itemprop="dateModified" datetime="2022-05-01T22:36:03+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -727,12 +724,116 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="angular-platform是什么"><a href="#angular-platform是什么" class="headerlink" title="angular platform是什么?"></a>angular platform是什么?</h1><p>原文: <a target="_blank" rel="noopener" href="https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms">Angular Platforms in depth. Part 1. What are Angular Platforms?</a></p>
+          <h2 id="angular-platform是什么"><a href="#angular-platform是什么" class="headerlink" title="angular platform是什么?"></a>angular platform是什么?</h2><p>原文: <a target="_blank" rel="noopener" href="https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms">Angular Platforms in depth. Part 1. What are Angular Platforms?</a></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在这一系列文章中，我将向你们揭示Angular应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义Angular Platforms使用ASCII图形呈现系统终端内的应用程序。</p>
 <p>Angular框架被设计成平台独立的。即允许在不同的环境中执行Angular应用程序 — 浏览器、服务器、web-worker，甚至移动设备。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/angular/angular_platforms.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_platformBrowserDynamic.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/angular/angular_platformBrowserDynamic.html" class="post-title-link" itemprop="url">深度刨析@angular/platform-browser-dynamic</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-04-03 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-03T00:00:00+08:00">2022-04-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-05-01 22:29:17" itemprop="dateModified" datetime="2022-05-01T22:29:17+08:00">2022-05-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>6.3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>6 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为angular应用的入口模块，了解他的重要性是显而易见的！</p>
+<h2 id="angular之main-ts"><a href="#angular之main-ts" class="headerlink" title="angular之main.ts"></a>angular之main.ts</h2><p>main.ts是这个样子的，下面我就去解开platformBrowserDynamic神秘面纱！</p>
+<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">platformBrowserDynamic().bootstrapModule(AppModule)</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> <span class="built_in">console</span>.error(err));</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/angular_platformBrowserDynamic.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -889,7 +990,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:53:09" itemprop="dateModified" datetime="2022-04-06T01:53:09+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:30:14" itemprop="dateModified" datetime="2022-05-01T22:30:14+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -926,7 +1027,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="创建angular项目"><a href="#创建angular项目" class="headerlink" title="创建angular项目"></a>创建angular项目</h1>
+          <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>本项目使用的angular, nodejs, npm, cnpm版本如下</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/angular/angular2_create_project.html#more" rel="contents">
@@ -973,7 +1074,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular2_installation.html" class="post-title-link" itemprop="url">Angular环境搭建</a>
+          <a href="/angular/angular2_installation.html" class="post-title-link" itemprop="url">Angular CLI 安装和使用</a>
         </h2>
 
         <div class="post-meta-container">
@@ -991,7 +1092,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:53:30" itemprop="dateModified" datetime="2022-04-06T01:53:30+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:30:50" itemprop="dateModified" datetime="2022-05-01T22:30:50+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1028,7 +1129,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Angular-CLI-安装和使用"><a href="#Angular-CLI-安装和使用" class="headerlink" title="Angular CLI 安装和使用"></a>Angular CLI 安装和使用</h1><h2 id="1-Angular-介绍"><a href="#1-Angular-介绍" class="headerlink" title="1. Angular 介绍"></a>1. Angular 介绍</h2><p>关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular；</p>
+          <h2 id="1-Angular-介绍"><a href="#1-Angular-介绍" class="headerlink" title="1. Angular 介绍"></a>1. Angular 介绍</h2><p>关于Angular版本，Angular官方已经统一命名Angular 1.x同一为Angular JS；Angular 2.x及以上统称Angular；</p>
 <p>CLI是Command Line Interface的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。</p>
           <!--noindex-->
             <div class="post-button">
@@ -1094,7 +1195,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:55:33" itemprop="dateModified" datetime="2022-04-06T01:55:33+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:31:27" itemprop="dateModified" datetime="2022-05-01T22:31:27+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1131,7 +1232,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Angular2中的路由"><a href="#Angular2中的路由" class="headerlink" title="Angular2中的路由"></a>Angular2中的路由</h1><p>Angular2中建立路由的5个步骤.</p>
+          <h2 id="Angular2中的路由"><a href="#Angular2中的路由" class="headerlink" title="Angular2中的路由"></a>Angular2中的路由</h2><p>Angular2中建立路由的5个步骤.</p>
 <h2 id="安装-angular-router"><a href="#安装-angular-router" class="headerlink" title="安装@angular/router"></a>安装@angular/router</h2><p>首先第一件事，我们需要安装 Angular Router。你可以通过运行以下命令进行安装.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save @angular/router</span><br></pre></td></tr></table></figure>
 
@@ -1144,118 +1245,6 @@
             </div>
           <!--/noindex-->
         
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/git/windows_install_git.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/git/windows_install_git.html" class="post-title-link" itemprop="url">Windows上安装git2.x</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-03-06 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-06T00:00:00+08:00">2022-03-06</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-02 18:26:51" itemprop="dateModified" datetime="2022-04-02T18:26:51+08:00">2022-04-02</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>341</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="Windows上安装git2-x"><a href="#Windows上安装git2-x" class="headerlink" title="Windows上安装git2.x"></a>Windows上安装git2.x</h1><ul>
-<li>转到<a target="_blank" rel="noopener" href="https://git-scm.com/">Git download page</a>并根据您的机器配置下载安装程序。</li>
-<li>执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。</li>
-<li>验证是否已使用此命令安装了节点。  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.17.1.windows.2</span><br></pre></td></tr></table></figure></li>
-<li>另外，运行以下命令来设置您的git身份, 这些信息会写入每次commit中, 以标明代码作者的身份, 以及联系方式.<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Use your git email id</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;you@example.com&quot;</span></span><br><span class="line"><span class="comment"># Use your git name</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;Your Name&quot;</span>         </span><br></pre></td></tr></table></figure></li>
-</ul>
-
       
     </div>
 
@@ -1298,14 +1287,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -27,7 +27,7 @@
 <meta property="og:description" content="背景介绍在开发过程中，常常被javascript中的this搞晕，直到自己静下心来系统的把他梳理清楚，下面是由浅如深的理解this关键字.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-24T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-05T17:21:48.084Z">
+<meta property="article:modified_time" content="2022-05-01T14:03:03.839Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="javascript">
 <meta name="twitter:card" content="summary">
@@ -167,7 +167,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-count">63</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -272,7 +272,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:21:48" itemprop="dateModified" datetime="2022-04-06T01:21:48+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:03:03" itemprop="dateModified" datetime="2022-05-01T22:03:03+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -333,7 +333,7 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">        <span class="keyword">var</span> a = <span class="number">9999</span>;</span></span><br><span class="line"><span class="javascript">        <span class="function"><span class="keyword">function</span> <span class="title">explainThis</span>(<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">            <span class="comment">//在函数内部访问全局变量</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(a);　<span class="comment">//output: 9999</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(<span class="built_in">this</span>.a);　<span class="comment">//output: 9999</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(<span class="built_in">window</span>.a); <span class="comment">//output: 9999</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(<span class="built_in">this</span>);     <span class="comment">//output: window对象</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(<span class="built_in">window</span>.a === <span class="built_in">this</span>.a); <span class="comment">//output: true</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(<span class="built_in">window</span>.a === a); <span class="comment">//output: true</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(<span class="built_in">window</span> === <span class="built_in">this</span>);  <span class="comment">//output: true</span></span></span><br><span class="line"><span class="javascript">        &#125;</span></span><br><span class="line"><span class="javascript">        explainThis();</span></span><br><span class="line"><span class="javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>说明：　<ul>
+<li>说明  <ul>
 <li><p>在这个例子中我们在函数外部定义了一个变量，我们尝试在函数内部访问这个变量，能访问到该变量及其值，这很好理解，因为很多语言中都有全局变量，此时a相当于一个全局变量．</p>
 </li>
 <li><p>然后我们通过this关键字来访问a变量, 也能访问到a, 这里就有些疑惑了，这里的this在语义上到底指什么，this翻译为中文为＂这个，这里＂，这个是哪个？　这里是哪里？而且this在其他编程语言中是指方法所属对象，我们此处还还没有涉及到对象的概念，当前还是是面向过程编程，但是现在居然有this可以用了．什么乱七八糟的，我们知道有这么回事就好了，到后面我们会继续探究这里的this．</p>
@@ -443,14 +443,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">265k</span>
+    <span title="Symbols count total">273k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:01</span>
+    <span title="Reading time total">4:08</span>
   </span>
 </div>
 <div class="busuanzi-count">
