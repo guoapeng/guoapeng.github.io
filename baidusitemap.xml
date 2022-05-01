@@ -205,11 +205,11 @@
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/linux/linux-expect-explanation.html</loc>
+    <loc>http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html</loc>
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html</loc>
+    <loc>http://www.pengshu.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
@@ -217,7 +217,7 @@
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/linux/linux_connect_wifi.html</loc>
+    <loc>http://www.pengshu.net/linux/linux-expect-explanation.html</loc>
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
@@ -229,7 +229,7 @@
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/git/install_setup_git_server.html</loc>
+    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode.html</loc>
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
@@ -237,15 +237,15 @@
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode.html</loc>
-    <lastmod>2022-04-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/create_rpm_repository_on_linux.html</loc>
+    <loc>http://www.pengshu.net/git/install_setup_git_server.html</loc>
     <lastmod>2022-04-02</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/linux/Linux_FHS.html</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/create_rpm_repository_on_linux.html</loc>
     <lastmod>2022-04-02</lastmod>
   </url>
 </urlset> 
