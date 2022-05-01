@@ -5,7 +5,6 @@ Allow: /archives/
 Allow: /categories/
 Allow: /hexo/
 Allow: /java/
-Allow: /linux/
 Allow: /nodejs/
 Allow: /webpack/
 Allow: /windows/
@@ -19,11 +18,13 @@ Allow: /frontend/
 Allow: /javascript/
 Allow: /rust/
 Allow: /web/
+Allow: /webpack/
 Allow: /vscode/
 Allow: /about/
-Allow: /linux/centos7_install_git_via_sourcecode/
-Allow: /linux/Linux_FHS/
-Allow: /others/wake_your_ass_up/
+Allow: /linux/
+Allow: /material/
+Allow: /rust/
+Allow: /others/
 
 Disallow: /js/
 Disallow: /css/

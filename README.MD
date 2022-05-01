@@ -1,3 +1,10 @@
-# the is eagle's blog space
 
-# the blog can be accessed at http://www.pengshu.net
+# 这是鹏叔的博客空间源码
+
+## 介绍
+
+鹏叔的博客是以技术博客为主, 主要用于记录开发中使用的前后端技术.
+
+## 鹏叔的博客发布在 <http://www.pengshu.net>
+
+## 鹏叔的博客采用by-nc-sa 4.0 协议开放
