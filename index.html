@@ -262,7 +262,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2022-05-01 00:00:00 / Modified: 22:38:55" itemprop="dateCreated datePublished" datetime="2022-05-01T00:00:00+08:00">2022-05-01</time>
+      <time title="Created: 2022-05-01 00:00:00 / Modified: 22:46:49" itemprop="dateCreated datePublished" datetime="2022-05-01T00:00:00+08:00">2022-05-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -313,250 +313,14 @@
 <li>GitLab CI/CD</li>
 <li>GitLabCI vs JenkinsCI</li>
 </ul>
-<h3 id="为什么要做CI-CD"><a href="#为什么要做CI-CD" class="headerlink" title="为什么要做CI/CD?"></a>为什么要做CI/CD?</h3><h4 id="传统应用发布署模式"><a href="#传统应用发布署模式" class="headerlink" title="传统应用发布署模式"></a>传统应用发布署模式</h4><ul>
-<li>开发团队<ul>
-<li>在开发环境中完成软件开发，单元测试，测试通过，提交到代码版本管理库</li>
-</ul>
-</li>
-<li>运维团队<ul>
-<li>把应用部署到测试环境，供QA团队测试，测试通过后部署生产环境．</li>
-</ul>
-</li>
-<li>QA团队<ul>
-<li>进行测试，测试通过后通知部署人员发布到生产环境．</li>
-</ul>
-</li>
-</ul>
-<h4 id="传统应用发布署模式面临的挑战"><a href="#传统应用发布署模式面临的挑战" class="headerlink" title="传统应用发布署模式面临的挑战"></a>传统应用发布署模式面临的挑战</h4><ul>
-<li>错误发现不及时<ul>
-<li>很多错误在项目的早期就存在，到最后集成的时候才发现问题</li>
-</ul>
-</li>
-<li>容易发生人工低级错误<ul>
-<li>产品和服务交付中的关键活动全部需要手动操作</li>
-</ul>
-</li>
-<li>团队工作效率低<ul>
-<li>需要等待他人的工作完成后才能进行自己的工作</li>
-</ul>
-</li>
-<li>开发运维对立<ul>
-<li>开发人员想要快速更新，运维人员追求稳定，各自的针对的方向不同</li>
-</ul>
-</li>
-</ul>
-<h4 id="CI-CD"><a href="#CI-CD" class="headerlink" title="CI/CD"></a>CI/CD</h4><ul>
-<li>持续集成(CI)<ul>
-<li>持续集成的目的：　尽快发现错误或问题，减少集成问题，避免复杂问题</li>
-<li>合并开发人员正在开发编写的所有代码的一种做法</li>
-<li>通常一天内进行多次合并和提交代码．</li>
-<li>从存储库或生产环境中进行构建和自动化测试，以确保没有集成问题并及早发现任何问题．</li>
-</ul>
-</li>
-<li>连续交付(CD)<ul>
-<li>持续交付的目标：每次更改都可发布，降低每次发布风险，更加频繁地交付价值，快速频繁客户反馈</li>
-<li>通常可以通过将更改自动推送到发布系统来随时将软件发布到生产环境中</li>
-<li>持续布署会更进一步，并自动将更改推送到生产中．</li>
-</ul>
-</li>
-</ul>
-<h4 id="代码版本管理-GITLAB"><a href="#代码版本管理-GITLAB" class="headerlink" title="代码版本管理 - GITLAB"></a>代码版本管理 - GITLAB</h4><ul>
-<li>代码审核</li>
-<li>问题追踪</li>
-<li>动态订阅</li>
-<li>易于扩展</li>
-<li>项目wiki</li>
-<li>多角色项目管理</li>
-<li>项目代码在线预览</li>
-<li>CI工具集成</li>
-</ul>
-<h2 id="GitLab-CI-CD-特性"><a href="#GitLab-CI-CD-特性" class="headerlink" title="GitLab　CI/CD 特性"></a>GitLab　CI/CD 特性</h2><h3 id="GitLab内置持续集成"><a href="#GitLab内置持续集成" class="headerlink" title="GitLab内置持续集成"></a>GitLab内置持续集成</h3><p>持续集成(CI)</p>
-<ul>
-<li>集成团队中每个开发人员提交的代码到代码库存储中．</li>
-<li>开发人员merge或者pull请求中合并拉取新代码．</li>
-<li>在提交或者合并更改到代码存储库之前，会触发构建，测试和新代码验证的管道．</li>
-<li>CI可帮助您在开发周期的早期发现并减少错误<br>持续交付(CD)</li>
-<li>可通过结构化的部署管道确保将经过CI验证的代码交付给您的应用程序．</li>
-<li>CD可以将经过验证的代码更快地移至您的应用程序．</li>
-</ul>
-<p>CI/CD一起可以加快团队为客户和利益相关者交付成果的速度．CI和CD必须无缝协作，以使得您的团队快速有效地进行构建，　并且对于确保完全优化的开发实践至关重要．</p>
-<h3 id="Gitlab-CI-CD-优势"><a href="#Gitlab-CI-CD-优势" class="headerlink" title="Gitlab CI/CD 优势"></a>Gitlab CI/CD 优势</h3><ul>
-<li>开源：　CI/CD是开源Gitlab社区和专有Gitlab企业版的一部分．</li>
-<li>易于学习：具有详细的入门文档</li>
-<li>无缝集成：Gitlab CI/CD是Gitlab的一部分，支持从计划到部署，具有出色的用户体验．</li>
-<li>可扩展: 测试可以在单独的计算机上分布式运行，可以根据需要添加任意数量的计算机．</li>
-<li>更快的结果: 每个构建可以拆分为多个作业，这些作业可以在多台计算机上并行运行．</li>
-<li>针对交付进行了优化: 多个阶段，手动部署，环境和变量</li>
-</ul>
-<h3 id="Gitlab-CI-CD-特点"><a href="#Gitlab-CI-CD-特点" class="headerlink" title="Gitlab CI/CD 特点"></a>Gitlab CI/CD 特点</h3><ul>
-<li>多平台：Unix, Windows, macOS和任何其他支持Go的平台上执行构建．</li>
-<li>多语言：构建脚本是命令行驱动的，并且可以与java, PHP, Ruby, C和任何其他语言一起使用．</li>
-<li>稳定构建：构建在与gitlab不同的机器上运行．</li>
-<li>并行构建：Gitlab CI/CD在多台机器上拆分构建，以实现快速执行．</li>
-<li>实时日志记录：合并请求中的链接将您带到动态更新的当前构建日志．</li>
-<li>灵活的管道：您可以在每个阶段定义多个并行作业，并且可以触发其他构建．</li>
-<li>版本管道: 一个.gitlab-ci.yml文件包含你的测试，整个过程的步骤，使每个人都能贡献更改，并确保分支获得所需的管道．</li>
-<li>自动缩放：您可以自动缩放构建机器，以确保立即处理您的构建并将成本降至最低．</li>
-<li>构建工件：　您可以将二进制文件和其他构建工件上载到gitlab并浏览和下载它们．</li>
-<li>Docker支持：可以使用自定义Docker镜像，作为测试的一部分启动服务，　构建新的Docker映像，甚至可以Kubernets上运行．</li>
-<li>容器注册表: 内置的容器注册表，用于存储，共享和使用容器映像</li>
-<li>受保护的变量：　在部署期间使用受每个环境保护的变量安全的存储和使用机密．</li>
-<li>环境: 定义多个环境．</li>
-</ul>
-<h3 id="GitLab-CI-CD工作原理"><a href="#GitLab-CI-CD工作原理" class="headerlink" title="GitLab CI/CD工作原理"></a>GitLab CI/CD工作原理</h3><ul>
-<li>将代码托管到Git存储库．</li>
-<li>在项目根目录创建CI文件.gitlab-ci.yml, 在文件中指定构建，测试，和部署脚本．</li>
-<li>Gitlab将检测到它并使用名为Gitlab Runner的工具运行脚本．</li>
-<li>脚本被分组为作业，它们共同组成了一个管道．</li>
-</ul>
-<h2 id="Gitlab-CI与Jenkins对比"><a href="#Gitlab-CI与Jenkins对比" class="headerlink" title="Gitlab CI与Jenkins对比"></a>Gitlab CI与Jenkins对比</h2><p><strong>Jenkins</strong> 是一个广泛用于持续集成的可视化web自动化工具，Jenkins可以很好的支持各种语言的项目构建，也完全兼容ant, maven, gradle 等多种第三方构建工具，同时跟svn, git能无缝集成，　也支持直接与知名源代码托管网站，比如github, bitbucket直接集成，　并且插件众多，在这么多年的技术积累之后，在国内大部分公司都有使用jenkins.</p>
-<p><strong>gitlab-CI</strong>是gitlab8.0之后自带的一个持续集成系统，中心思想是当每一次push到gitlab的时候，都会触发一次脚本执行，然后脚本的内容包括了测试，编译，部署等一系列自定义的内容．<br>gitlab-Ci的脚本执行，需要自定义安装对应gitlab-runner来执行，代码push之后，webhook检测到代码变化，就会触发gitlab-CI,　分配到各个Runner来运行相应的脚本script. 这些脚本有的测试项目用的，有的是部署用的．</p>
-<h3 id="对比点1-分支可配置性"><a href="#对比点1-分支可配置性" class="headerlink" title="对比点1- 分支可配置性"></a>对比点1- 分支可配置性</h3><p>分支的可配置性  </p>
-<ul>
-<li>使用Gitlab Ci, 新创建的分支无需任何进一步配置即可立即使用CI管道中的已定义作业．</li>
-<li>Jenkins 2 基于gitlab的多分支流水线可以实现，相对配置来说gitlab更加方便一些．</li>
-</ul>
-<h3 id="对比点2-定时执行构建"><a href="#对比点2-定时执行构建" class="headerlink" title="对比点2- 定时执行构建"></a>对比点2- 定时执行构建</h3><p>有时，根据时间触发作业或整个管道会有所帮助，例如，　常规的夜间定时构建．</p>
-<ul>
-<li>使用Jenkins 2可以立即使用，　可以在应执行作业或管道的那一刻以cron 式语法定义．</li>
-<li>Gitlab CI 没有此功能．但是, 可以通过一种变通办法来使用WebAPI使用同一台或另一台服务器上的Cronjob触发作业和管道．<br>尽管使用gitlab CI无法做到这一点，其实如果配置了提交代码即触发流水线，那么最后一次提交触发什么时候没有什么不同，反而减少未提交代码的定时构建资源浪费．</li>
-</ul>
-<h3 id="对比点3-拉取请求支持"><a href="#对比点3-拉取请求支持" class="headerlink" title="对比点3- 拉取请求支持"></a>对比点3- 拉取请求支持</h3><p>拉取请求支持<br>如果很好地集成了存储库管理器和CI/CD平台，您可以看到请求的当前构建状态．使用这种功能，可以避免将代码合并到不起作用或无法正确构建的主分支中．</p>
-<ul>
-<li>Jenkins没有与代码管理系统进一步集成，需要管理员自行写代码或插件实现．</li>
-<li>Gitlab与CI平台紧密集成，可以方便查看每一个打开和关闭拉动请求的运行和完成管道．</li>
-</ul>
-<h3 id="对比点４-权限管理"><a href="#对比点４-权限管理" class="headerlink" title="对比点４- 权限管理"></a>对比点４- 权限管理</h3><p>权限管理<br>从存储管理器继承的权限管理对于不想为每个服务分别设置每个用户权限的大型开发人员或组织团队很有用．大多数情况下，两种情况下的权限都是相同的，因此默认情况下应该将它们配置在一个位置．<br>由于Gitlab与GitlabCi的深度整合，　权限可以统一管理．<br>由于Jenkins 2没有内置的存储库管理器，　因此它无法直接在存储库管理器和CI/CD平台之间合并权限．</p>
-<h3 id="对比点５-存储库交互"><a href="#对比点５-存储库交互" class="headerlink" title="对比点５- 存储库交互"></a>对比点５- 存储库交互</h3><ul>
-<li>gitlab CI是git存储库管理器的固定组件，　因此在CI/CD流程和存储库功能之间提供良好的交互．</li>
-<li>Jenkins 2与存储库管理器都是松散耦合的，因此在选择版本控制系统时它非常灵活．</li>
-<li>此外，就像其前身一样，Jenkins2强调了对插件的支持，以进一步扩展或改善软件的现有功能．</li>
-</ul>
-<h3 id="对比点6-插件管理"><a href="#对比点6-插件管理" class="headerlink" title="对比点6 - 插件管理"></a>对比点6 - 插件管理</h3><ul>
-<li>扩展Jenkins的本机功能是通过插件完成的．插件的维护，保护和升级成本很高．</li>
-<li>Gitlab是开放式的，任何人都可以直接向代码库贡献更改，一旦合并，它将自动测试并维护每一个更改．</li>
-</ul>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>gitlab CI  </p>
-<ul>
-<li>轻量级，不需要复杂的安装手段．</li>
-<li>配置简单，　与gitlab可直接适配．</li>
-<li>实时日志十分清晰UI交互体验很好．</li>
-<li>使用YAML进行配置，任何人都可以很方便的使用．</li>
-<li>没有统一的管理界面，无法统筹管理所有项目</li>
-<li>配置依赖于代码仓库，耦合度没有Jenkins低</li>
-</ul>
-<p>Jenkins  </p>
-<ul>
-<li>编译服务和代码仓库分离，耦合度低;</li>
-<li>插件丰富，支持语言众多．</li>
-<li>有统一的web管理界面．</li>
-<li>插件以及自身安装较为复杂．</li>
-<li>体量较大，不是很适合小型团队．</li>
-</ul>
-<p>GitLabCI有助于DevOps人员，例如敏捷开发中，开发与运维是同一个人，最便捷的开发方式．<br>JenkinsCI适合在多角色团队中，职责分明，配置和代码分离，插件丰富．</p>
-<h2 id="安装部署Gitlab"><a href="#安装部署Gitlab" class="headerlink" title="安装部署Gitlab"></a>安装部署Gitlab</h2><p>gitlab 三种按照方式</p>
-<ul>
-<li>yum 安装</li>
-<li>docker镜像安装</li>
-<li>k8s安装</li>
-</ul>
-<h2 id="Gitlab-Runner"><a href="#Gitlab-Runner" class="headerlink" title="Gitlab Runner"></a>Gitlab Runner</h2><h3 id="Gitlab-runner简介"><a href="#Gitlab-runner简介" class="headerlink" title="Gitlab runner简介"></a>Gitlab runner简介</h3><ul>
-<li>Gitlab Runner是一个开源项目，　用于运行作业并将结果发送回gitlab.</li>
-<li>与GitlabCI结合使用，GitlabCI是Gitlab随附的用于协调作业的开源持续集成服务．</li>
-<li>Gitlab Runner是用Go编写的，可以在Linux, macOS和Windows操作系统上运行</li>
-<li>容器部署需要使用最新Docker版本，GitLab Runner需要至少Docker v1.13.0</li>
-<li>GitLab Runner版本应与Gitlab版本同步(避免版本不一致导致不兼容)</li>
-<li>可以根据需要配置任意数量的Runner<br>GitLabRunner类似于Jenkins的agent, 执行CI持续集成，构建的脚本任务．</li>
-</ul>
-<h3 id="Gitlab-runner特点"><a href="#Gitlab-runner特点" class="headerlink" title="Gitlab runner特点"></a>Gitlab runner特点</h3><ul>
-<li>作业运行控制：同时执行多个作业</li>
-<li>作业运行环境：<ul>
-<li>在本地，使用docker容器，使用Docker容器并通过SSH执行作业．</li>
-<li>使用Docker容器在不同的云和虚拟化管理程序上自动缩放．</li>
-<li>连接到远程SSH服务器．</li>
-</ul>
-</li>
-<li>支持bash, Windows batch和Windows PowerShell</li>
-<li>允许自定义作业运行环境</li>
-<li>自动重新加载配置，无需重启．</li>
-<li>易于安装，可作为Linux, macOS和Windows的服务</li>
-</ul>
-<h3 id="Gitlab-runner类型与状态"><a href="#Gitlab-runner类型与状态" class="headerlink" title="Gitlab runner类型与状态"></a>Gitlab runner类型与状态</h3><ul>
-<li>类型<ul>
-<li>shared　共享类型，运行整个平台项目的作业(gitlab)</li>
-<li>group　项目组类型，运行特点group下的所有项目的作业(group)</li>
-<li>specific 项目类型，运行指定的项目作业(project)</li>
-</ul>
-</li>
-<li>状态<ul>
-<li>locked：锁定状态，无法运行项目作业</li>
-<li>paused：暂停状态，暂时不会接受新的作业</li>
-</ul>
-</li>
-</ul>
-<h3 id="Gitlab-Runner安装"><a href="#Gitlab-Runner安装" class="headerlink" title="Gitlab Runner安装"></a>Gitlab Runner安装</h3><h4 id="Gitlab-Runner安装环境"><a href="#Gitlab-Runner安装环境" class="headerlink" title="Gitlab Runner安装环境"></a>Gitlab Runner安装环境</h4><ul>
-<li>系统环境：可以在Linux, macOS, FreeBSD和Windows上安装和使用Gitlab Runner</li>
-<li>部署方式: 二进制文件，rpm/deb软件包，Docker, Kubernetes</li>
-</ul>
-<h3 id="Gitlab-Runner注册"><a href="#Gitlab-Runner注册" class="headerlink" title="Gitlab Runner注册"></a>Gitlab Runner注册</h3><h4 id="timeout-超时"><a href="#timeout-超时" class="headerlink" title="timeout 超时"></a>timeout 超时</h4><p>作业级别的超时可以超过项目级别超时, 但不能超过Runner特定的超时.<br>runner 超时时间在runner的配置里面设置<br>项目的超时在项目的配置中设置<br>job的超时时间在yaml配置文件中定义<br>example</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">build.sh</span></span><br><span class="line">  <span class="attr">timeout:</span> <span class="number">3</span> <span class="string">hours</span> <span class="number">30</span> <span class="string">munutes</span></span><br><span class="line"></span><br><span class="line"><span class="attr">test:</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">repec</span></span><br><span class="line">  <span class="attr">timeout:</span> <span class="string">3h</span> <span class="string">30m</span></span><br></pre></td></tr></table></figure>
-
-<p>示例1: runner超时大于项目超时<br>runner超时设置为24小时, 项目的CI/CD超时设置为2小时.<br>该job将在2小时后超时</p>
-<p>示例2: 未配置runner超时<br>runner不设置超时时间, 项目的CI/CD超时设置为2小时<br>该job将在2小时后超时.</p>
-<p>示例3: runner超时小于项目超时<br>runner超时时间设置为30分钟, 项目的CI/CD超时设置为2小时<br>该job将在30分钟后超时.</p>
-<p>runner超时如果小于项目定义的超时时间将具有优先权. 此功能可用于通过设置大超时(例如一个星期)来防止Shared Runner被项目占用. 未配置时, Runner超时设置将不会覆盖项目超时.</p>
-<h4 id="parallel-并行作业"><a href="#parallel-并行作业" class="headerlink" title="parallel 并行作业"></a>parallel 并行作业</h4><p>配置要并行运行的作业实例数, 此值必须大于或等于2并且小于或等于50.<br>这将创建N个并行运行的同一作业实例. 它们从job_name 1/N 到job_name N/N依次命名.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">codescan:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">codescan</span></span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">build</span></span><br><span class="line">  <span class="attr">only:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">master</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">echo</span> <span class="string">&quot;codescan&quot;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">sleep:</span> <span class="number">5</span></span><br><span class="line">  <span class="attr">parallel:</span> <span class="number">5</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="only-amp-excpet-限制分支标签"><a href="#only-amp-excpet-限制分支标签" class="headerlink" title="only &amp; excpet 限制分支标签"></a>only &amp; excpet 限制分支标签</h4><ul>
-<li>only和except用分支策略来限制jobs构建:<ul>
-<li>only定义哪些分支和标签的git项目将会执行该job</li>
-<li>except定义哪些分支和标签的git项目将不会执行该job</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">job:</span></span><br><span class="line">  <span class="comment"># use regexp</span></span><br><span class="line">  <span class="attr">only:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">/^issue-.*$</span></span><br><span class="line">  <span class="comment"># use special keyword</span></span><br><span class="line">  <span class="attr">except:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">branches</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="rules-构建规则"><a href="#rules-构建规则" class="headerlink" title="rules 构建规则"></a>rules 构建规则</h4><ul>
-<li>rules允许按顺序评估单个规则, 直到匹配并为作业动态提供属性.  </li>
-<li>rules不能与only/except组合使用.</li>
-</ul>
-<p>可用的规则:<br>if (如果条件匹配)<br>changs (指定文件发生变化)<br>exists (指定文件存在)</p>
-<h5 id="rules-if-如果条件匹配"><a href="#rules-if-如果条件匹配" class="headerlink" title="rules - if (如果条件匹配)"></a>rules - if (如果条件匹配)</h5><p>例子:<br>如果domain的值匹配对应的if条件, 则执行对应的运行方式<br>默认为on_success<br>条件判断从上到下, 匹配即停止<br>多条件匹配可以使用&amp;&amp; ||</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">variables:</span> </span><br><span class="line">  <span class="attr">DOMAIN:</span> <span class="string">example.com</span></span><br><span class="line"></span><br><span class="line"><span class="attr">codescan:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">codescan</span></span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">build</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">echo</span> <span class="string">&quot;codescan&quot;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sleep</span> <span class="number">5</span></span><br><span class="line">  <span class="attr">rules:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">if:</span> <span class="string">&#x27;$DOMAIN == &quot;example.com&quot;&#x27;</span></span><br><span class="line">      <span class="attr">when:</span> <span class="string">manual</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">if:</span> <span class="string">&#x27;$DOMAIN == &quot;xyz.com&quot;&#x27;</span></span><br><span class="line">      <span class="attr">when:</span> <span class="string">delayed</span></span><br><span class="line">      <span class="attr">start_in:</span> <span class="string">&#x27;5&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">when :</span> <span class="string">on_success</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="rules-changs-指定文件发生变化"><a href="#rules-changs-指定文件发生变化" class="headerlink" title="rules - changs (指定文件发生变化)"></a>rules - changs (指定文件发生变化)</h5><p>接受文件路径数组.<br>如果提交中Dockerfile文件发生变化则为true</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">variables:</span> </span><br><span class="line">  <span class="attr">DOMAIN:</span> <span class="string">example.com</span></span><br><span class="line"></span><br><span class="line"><span class="attr">codescan:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">codescan</span></span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">build</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">echo</span> <span class="string">&quot;codescan&quot;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sleep</span> <span class="number">5</span></span><br><span class="line">  <span class="attr">rules:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">changes:</span> </span><br><span class="line">      <span class="bullet">-</span> <span class="string">Dockerfile</span></span><br><span class="line">      <span class="attr">when:</span> <span class="string">manual</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">if:</span> <span class="string">&#x27;$DOMAIN == &quot;xyz.com&quot;&#x27;</span></span><br><span class="line">      <span class="attr">when:</span> <span class="string">delayed</span></span><br><span class="line">      <span class="attr">start_in:</span> <span class="string">&#x27;5&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">when :</span> <span class="string">on_success</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="rules-allow-failure"><a href="#rules-allow-failure" class="headerlink" title="rules - allow_failure"></a>rules - allow_failure</h4><p>使用allow_failure: true<br>rules: 在不停止管道本身的情况下允许作业失败或手动作业等待操作.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">job:</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">echo</span> <span class="string">&quot;hello, rules&quot;</span></span><br><span class="line">  <span class="attr">rules:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="attr">if:</span> <span class="string">&quot;$CI_MERGE_REQUEST_TARGET_BRANCH_NAME&quot;</span> <span class="string">==</span> <span class="string">&quot;master&quot;</span></span><br><span class="line">      <span class="attr">when:</span> <span class="string">manual</span></span><br><span class="line">      <span class="attr">allow_failure:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>在此示例中, 如果第一个规则匹配, 则作业将具有以下when: manual和allow_failure: true</p>
-<h4 id="workflow-结合rules-进行管道创建"><a href="#workflow-结合rules-进行管道创建" class="headerlink" title="workflow 结合rules 进行管道创建"></a>workflow 结合rules 进行管道创建</h4><ul>
-<li>顶级workflow关键字适用于整个管道, 并将确定是否创建管道.</li>
-<li>when: 可以设置为always或never, 如果未提供, 则默认值always.</li>
-</ul>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">variables:</span></span><br><span class="line">  <span class="attr">DOMAIN:</span> <span class="string">example.com</span></span><br><span class="line"></span><br><span class="line"><span class="attr">workflow:</span></span><br><span class="line">  <span class="attr">rules:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">if:</span> <span class="string">&#x27;$DOMAIN == &quot;example.ocm&quot;&#x27;</span></span><br><span class="line">      <span class="attr">when:</span> <span class="string">always</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">when:</span> <span class="string">never</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="cache-缓存"><a href="#cache-缓存" class="headerlink" title="cache 缓存"></a>cache 缓存</h4><p>存储编译项目所需的运行时依赖项, 指定项目工作空间中需要在job之间缓存的文件或目录.<br>全局cache定义在job之外, 针对所有job生效, job中的cache优先于全局.<br>job</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">test</span></span><br><span class="line">  <span class="attr">cache:</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">target/*.jar</span></span><br></pre></td></tr></table></figure>
-
-<p>由于缓存是在job之间共享的, 如果不同的job使用不同的路径就出现了缓存覆盖的问题.<br>如何让不同的job缓存不同的cache呢?<br>设置不同的cache: key<br>可以防止缓存覆盖</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">cache:</span></span><br><span class="line">  <span class="attr">paths:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">my/files</span></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">echo</span> <span class="string">&quot;hello&quot;</span></span><br><span class="line">  <span class="attr">cache:</span></span><br><span class="line">    <span class="attr">key:</span> <span class="string">build</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">target/</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="cache-key-缓存标记"><a href="#cache-key-缓存标记" class="headerlink" title="cache: key 缓存标记"></a>cache: key 缓存标记</h5><p>为缓存做个标记, 可以配置job, 分支key来实现分支,作业特定的缓存.<br>为不同job定义了不同的cache:key时, 会为每个job分配一个独立的cache.<br>cache:key变量可以使用任何预定义变量,默认为default<br>从gitlab9.0开始, 默认情况下所有内容都在管道和作业之间共享.</p>
-<p>按分支设置缓存<br> cache:<br>   key: ${CI_COMMIT_REF_SLUG}</p>
-<h5 id="cache-key-files-文件变化自动创建缓存"><a href="#cache-key-files-文件变化自动创建缓存" class="headerlink" title="cache: key: files 文件变化自动创建缓存"></a>cache: key: files 文件变化自动创建缓存</h5><p>files: 文件发生变化自动重新生成缓存files最多指定两个文件, 提交的时候检查指定的文件.<br>根据指定的文件生成密钥计算SHA校验和, 如果文件未改变值为default.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">cache:</span></span><br><span class="line">  <span class="attr">key:</span></span><br><span class="line">    <span class="attr">files:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">Gemfile.clock</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">package.json</span></span><br><span class="line">  <span class="attr">paths:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">vendor/ruby</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">node_modules</span></span><br></pre></td></tr></table></figure>
-
-<p>prefix: 允许给定prefix的值与指定文件生成的密钥组合.<br>在这里定义了全局的cache, 如果文件发生变化则值为rspec-xxx111122222, 未变化为rspec-default</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">cache:</span></span><br><span class="line">  <span class="attr">key:</span></span><br><span class="line">    <span class="attr">files:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">Gemfile.lock</span></span><br><span class="line">    <span class="attr">prefix:</span> <span class="string">$&#123;CI_JOB_NAME&#125;</span></span><br><span class="line">  <span class="attr">paths:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">vendor/ruby</span></span><br><span class="line"></span><br><span class="line"><span class="attr">respec:</span></span><br><span class="line">  <span class="attr">script:</span> </span><br><span class="line">  <span class="bullet">-</span> <span class="string">bundle</span> <span class="string">exec</span> <span class="string">rspec</span></span><br><span class="line">  </span><br></pre></td></tr></table></figure>
-
-<h5 id="cache-policy-缓存策略"><a href="#cache-policy-缓存策略" class="headerlink" title="cache: policy - 缓存策略"></a>cache: policy - 缓存策略</h5><p>默认: 在执行开始时下载文件, 并在结束时重新上传文件.<br>policy: pull跳过下载步骤, policy: push跳过上传步骤.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">cache:</span></span><br><span class="line">  <span class="attr">policy:</span> <span class="string">pull</span> <span class="comment"># 不下载缓存</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18y4y1S7VC?spm_id_from=333.999.0.0">黑马程序员-Gitlab CICD</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/gitlab/gitlab-CICD.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -880,6 +644,109 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/introduction.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/material/introduction.html" class="post-title-link" itemprop="url">Material Design简介</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-04-30 00:00:00 / Modified: 12:54:15" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。</p>
+<h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><h3 id="材料是隐喻"><a href="#材料是隐喻" class="headerlink" title="材料是隐喻"></a>材料是隐喻</h3><p>Material design的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces重新构想了纸张和墨水的介质。</p>
+<ul>
+<li><p>Bold, graphic, intentional<br>材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。</p>
+</li>
+<li><p>Motion provides meaning<br>Motion通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。</p>
+</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/material/introduction.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/layout.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -960,109 +827,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/material/layout.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/introduction.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/introduction.html" class="post-title-link" itemprop="url">Material Design简介</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-04-30 00:00:00 / Modified: 12:54:15" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。</p>
-<h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><h3 id="材料是隐喻"><a href="#材料是隐喻" class="headerlink" title="材料是隐喻"></a>材料是隐喻</h3><p>Material design的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces重新构想了纸张和墨水的介质。</p>
-<ul>
-<li><p>Bold, graphic, intentional<br>材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。</p>
-</li>
-<li><p>Motion provides meaning<br>Motion通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。</p>
-</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/introduction.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -1190,6 +954,104 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/surfaces.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/material/surfaces.html" class="post-title-link" itemprop="url">Material Design基础 - Surfaces</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-04-30 00:00:00 / Modified: 12:54:02" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>2.1k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Material-Surfaces"><a href="#Material-Surfaces" class="headerlink" title="Material Surfaces"></a>Material Surfaces</h2><p>Material设计具有三个维度的品质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。</p>
+<h3 id="Material-environment"><a href="#Material-environment" class="headerlink" title="Material environment"></a>Material environment</h3><p>在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。</p>
+<p>Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中移动的方式进行通信。此空间模型还可以跨应用程序一致地应用。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/material/surfaces.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/pixel_density.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1264,104 +1126,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/material/pixel_density.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/surfaces.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/surfaces.html" class="post-title-link" itemprop="url">Material Design基础 - Surfaces</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-04-30 00:00:00 / Modified: 12:54:02" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.1k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="Material-Surfaces"><a href="#Material-Surfaces" class="headerlink" title="Material Surfaces"></a>Material Surfaces</h2><p>Material设计具有三个维度的品质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。</p>
-<h3 id="Material-environment"><a href="#Material-environment" class="headerlink" title="Material environment"></a>Material environment</h3><p>在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。</p>
-<p>Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中移动的方式进行通信。此空间模型还可以跨应用程序一致地应用。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/surfaces.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>

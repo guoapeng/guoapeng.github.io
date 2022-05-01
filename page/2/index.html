@@ -554,7 +554,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_JIT_AOT.html">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_platformBrowserDynamic.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -567,7 +567,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular_JIT_AOT.html" class="post-title-link" itemprop="url">angular中的JIT与AOT</a>
+          <a href="/angular/angular_platformBrowserDynamic.html" class="post-title-link" itemprop="url">深度刨析@angular/platform-browser-dynamic</a>
         </h2>
 
         <div class="post-meta-container">
@@ -585,7 +585,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:52:10" itemprop="dateModified" datetime="2022-04-06T01:52:10+08:00">2022-04-06</time>
+        <time title="Modified: 2022-05-01 22:29:17" itemprop="dateModified" datetime="2022-05-01T22:29:17+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -604,14 +604,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.9k</span>
+      <span>6.3k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
+      <span>6 mins.</span>
     </span>
 </div>
 
@@ -622,10 +622,12 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文会聊聊两者的区别，及前端框架中AOT的应用。Angular同时提供这两种编译方案，下面我们用Angular举例说明两者的区别。</p>
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为angular应用的入口模块，了解他的重要性是显而易见的！</p>
+<h2 id="angular之main-ts"><a href="#angular之main-ts" class="headerlink" title="angular之main.ts"></a>angular之main.ts</h2><p>main.ts是这个样子的，下面我就去解开platformBrowserDynamic神秘面纱！</p>
+<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">platformBrowserDynamic().bootstrapModule(AppModule)</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> <span class="built_in">console</span>.error(err));</span><br></pre></td></tr></table></figure>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/angular/angular_JIT_AOT.html#more" rel="contents">
+              <a class="btn" href="/angular/angular_platformBrowserDynamic.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -760,7 +762,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_platformBrowserDynamic.html">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_JIT_AOT.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -773,7 +775,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular_platformBrowserDynamic.html" class="post-title-link" itemprop="url">深度刨析@angular/platform-browser-dynamic</a>
+          <a href="/angular/angular_JIT_AOT.html" class="post-title-link" itemprop="url">angular中的JIT与AOT</a>
         </h2>
 
         <div class="post-meta-container">
@@ -791,7 +793,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:29:17" itemprop="dateModified" datetime="2022-05-01T22:29:17+08:00">2022-05-01</time>
+        <time title="Modified: 2022-04-06 01:52:10" itemprop="dateModified" datetime="2022-04-06T01:52:10+08:00">2022-04-06</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -810,14 +812,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>6.3k</span>
+      <span>2.9k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>6 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
@@ -828,12 +830,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为angular应用的入口模块，了解他的重要性是显而易见的！</p>
-<h2 id="angular之main-ts"><a href="#angular之main-ts" class="headerlink" title="angular之main.ts"></a>angular之main.ts</h2><p>main.ts是这个样子的，下面我就去解开platformBrowserDynamic神秘面纱！</p>
-<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">platformBrowserDynamic().bootstrapModule(AppModule)</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> <span class="built_in">console</span>.error(err));</span><br></pre></td></tr></table></figure>
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文会聊聊两者的区别，及前端框架中AOT的应用。Angular同时提供这两种编译方案，下面我们用Angular举例说明两者的区别。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/angular/angular_platformBrowserDynamic.html#more" rel="contents">
+              <a class="btn" href="/angular/angular_JIT_AOT.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
