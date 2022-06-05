@@ -164,7 +164,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">69</span>
+          <span class="site-state-item-count">71</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -228,6 +228,106 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular2_ngmodule/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/angular/angular2_ngmodule/" class="post-title-link" itemprop="url">深度刨析NgModule</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-04-03 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-03T00:00:00+08:00">2022-04-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-04-06 01:55:20" itemprop="dateModified" datetime="2022-04-06T01:55:20+08:00">2022-04-06</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.4k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我们今天要学习的是Angular2的模块系统,一般情况下我们使用一个根模块去启动我们的应用,然后使用许多的功能模块去丰富我们的应用,扩展我们应用的功能.这些全部依靠我们的 NgModule 装饰器,接下来我们就来好好学习一下这个装饰器.当然在这个过程中你会遇到一些新的指令,概念等等;但是别慌,我们会在以后的文章中一个一个的详细讲解呢.</p>
+<h2 id="NgModule-API"><a href="#NgModule-API" class="headerlink" title="NgModule API"></a>NgModule API</h2><p>在进入详细讲解之前, 我们首先来熟悉一下 NgModule 的API.</p>
+<p>NgModule 源码位于angular项目的packages\core\src\metadata\ng_module.ts文件中.</p>
+<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">interface</span> NgModule &#123;</span><br><span class="line">     <span class="comment">// providers: 这个选项是一个数组,需要我们列出我们这个模块的一些需要共用的服务</span></span><br><span class="line">     <span class="comment">//            然后我们就可以在这个模块的各个组件中通过依赖注入使用了.</span></span><br><span class="line">    <span class="attr">providers</span> : Provider[]</span><br><span class="line">     <span class="comment">// declarations: 数组类型的选项, 用来声明属于这个模块的指令,管道等等.</span></span><br><span class="line">     <span class="comment">//               然后我们就可以在这个模块中使用它们了.</span></span><br><span class="line">    <span class="attr">declarations</span> : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">     <span class="comment">// imports: 数组类型的选项,我们的模块需要依赖的一些其他的模块,这样做的目的使我们这个模块</span></span><br><span class="line">     <span class="comment">//          可以直接使用别的模块提供的一些指令,组件等等.</span></span><br><span class="line">    imports : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|ModuleWithProviders|<span class="built_in">any</span>[]&gt;</span><br><span class="line">     <span class="comment">// exports: 数组类型的选项,我们这个模块需要导出的一些组件,指令,模块等;</span></span><br><span class="line">     <span class="comment">//          如果别的模块导入了我们这个模块,</span></span><br><span class="line">     <span class="comment">//          那么别的模块就可以直接使用我们在这里导出的组件,指令模块等.</span></span><br><span class="line">    <span class="built_in">exports</span> : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// entryComponents: 数组类型的选项,指定一系列的组件,这些组件将会在这个模块定义的时候进行编译</span></span><br><span class="line">    <span class="comment">//                  Angular会为每一个组件创建一个ComponentFactory然后把它存储在ComponentFactoryResolver</span></span><br><span class="line">    entryComponents : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// bootstrap: 数组类型选项, 指定了这个模块启动的时候应该启动的组件.当然这些组件会被自动的加入到entryComponents中去</span></span><br><span class="line">    bootstrap : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// schemas: 不属于Angular的组件或者指令的元素或者属性都需要在这里进行声明.</span></span><br><span class="line">    schemas : <span class="built_in">Array</span>&lt;SchemaMetadata|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// id: 字符串类型的选项,模块的隐藏ID,它可以是一个名字或者一个路径;用来在getModuleFactory区别模块,如果这个属性是undefined</span></span><br><span class="line">    <span class="comment">//     那么这个模块将不会被注册.</span></span><br><span class="line">    id : <span class="built_in">string</span></span><br><span class="line">    <span class="comment">// jit存在时，AOT编译器将忽略此模块。</span></span><br><span class="line">    <span class="comment">// 它保留在分布式代码中，JIT编译器会尝试编译它</span></span><br><span class="line">    <span class="comment">// 在运行时，在浏览器中。</span></span><br><span class="line">    <span class="comment">// 为了确保正确的行为，应用程序必须导入“@angular/compiler”。</span></span><br><span class="line">    <span class="attr">jit</span>: <span class="built_in">boolean</span></span><br><span class="line"> &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shitoupi/p/6641230.html">ANGULAR2 NGMODULE 模块详解</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -443,6 +543,110 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_platformBrowserDynamic/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的博客空间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/angular/angular_platformBrowserDynamic/" class="post-title-link" itemprop="url">深度刨析@angular/platform-browser-dynamic</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-04-03 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-03T00:00:00+08:00">2022-04-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-05-01 22:29:17" itemprop="dateModified" datetime="2022-05-01T22:29:17+08:00">2022-05-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>6.3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>6 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为angular应用的入口模块，了解他的重要性是显而易见的！</p>
+<h2 id="angular之main-ts"><a href="#angular之main-ts" class="headerlink" title="angular之main.ts"></a>angular之main.ts</h2><p>main.ts是这个样子的，下面我就去解开platformBrowserDynamic神秘面纱！</p>
+<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">platformBrowserDynamic().bootstrapModule(AppModule)</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> <span class="built_in">console</span>.error(err));</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/angular_platformBrowserDynamic/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/rxjs_introduction/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -569,7 +773,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:30:14" itemprop="dateModified" datetime="2022-05-01T22:30:14+08:00">2022-05-01</time>
+        <time title="Modified: 2022-06-01 21:48:03" itemprop="dateModified" datetime="2022-06-01T21:48:03+08:00">2022-06-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -588,14 +792,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>9.1k</span>
+      <span>9.5k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>8 mins.</span>
+      <span>9 mins.</span>
     </span>
 </div>
 
@@ -1088,225 +1292,8 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vscode/how_to_install_vscode_on_fedora/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/vscode/how_to_install_vscode_on_fedora/" class="post-title-link" itemprop="url">Fedora linux上安装 Visual Studio Code</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-01-02 00:00:00" itemprop="dateCreated datePublished" datetime="2022-01-02T00:00:00+08:00">2022-01-02</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-05 22:33:04" itemprop="dateModified" datetime="2022-04-05T22:33:04+08:00">2022-04-05</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/tools/" itemprop="url" rel="index"><span itemprop="name">tools</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <ul>
-<li><a href="#1-%E4%BB%8B%E7%BB%8D">1. 介绍</a></li>
-<li><a href="#2-%E6%9B%B4%E6%96%B0yum%E6%BA%90">2. 更新yum源</a></li>
-<li><a href="#3-%E5%AE%89%E8%A3%85vscode">3. 安装vscode</a></li>
-<li><a href="#4-%E8%BF%90%E8%A1%8Cvscode">4. 运行vscode</a></li>
-<li><a href="#5-vs-code-%E6%9B%B4%E6%96%B0">5. VS Code 更新</a></li>
-</ul>
-<h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>Visual Studio Code 简称 VS Code 是微软开发的一款跨平台的源代码编辑器。 它具有内置的调试支持，嵌入式 Git 控件，语法突出显示，代码完成，代码重构和代码片段。</p>
-<p>Visual Studio Marketplace 提供了许多插件和扩展来扩展VS代码的功能。</p>
-<p>本教程将指导您如何从 Microsoft 的 VS Code 存储库在Fedora 29/30上安装 VS Code 代码编辑器。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/vscode/how_to_install_vscode_on_fedora/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular2_migration/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular2_migration/" class="post-title-link" itemprop="url">如何从Angularjs 升级到 Angular（译文）</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-01-01 00:00:00" itemprop="dateCreated datePublished" datetime="2022-01-01T00:00:00+08:00">2022-01-01</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:31:06" itemprop="dateModified" datetime="2022-05-01T22:31:06+08:00">2022-05-01</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>18k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>16 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>原文: <a target="_blank" rel="noopener" href="https://angular.io/guide/upgrade#using-angularjs-component-directives-from-angular-code">Upgrading from AngularJS to Angular</a></p>
-<p>Author: AngularJS 官方</p>
-<p>译者：philoenglish.com 团队</p>
-<p>关键字： Angularjs Angular Angular1.x Angular2.x migration 迁移， 升级</p>
-<p>这里的Angular是指Angular 2.x, 而AngularJS 是指AngularJS 1.x版本。 Angular (通常是指 “Angular 2+” 或 “Angular v2 及更高版本”) 是一个基于 TypeScript 的 开源 Web 应用框架 由 Google 的 Angular 团队以及社区共同领导。Angular 是由 AngularJS 的同一个开发团队完全重写的。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/angular/angular2_migration/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
 
 </div>
@@ -1330,14 +1317,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">301k</span>
+    <span title="Symbols count total">315k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:33</span>
+    <span title="Reading time total">4:47</span>
   </span>
 </div>
 <div class="busuanzi-count">

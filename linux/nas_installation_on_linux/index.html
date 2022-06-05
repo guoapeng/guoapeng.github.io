@@ -26,16 +26,16 @@
 <meta property="og:site_name" content="鹏叔的博客空间">
 <meta property="og:description" content="1. 前言1.1. 网络存储技术网络存储技术大概可以分为3种：  DAS：直连式存储（Direct Attached Storage），直接与主机相连的存储设备。它依赖于服务器，本身是硬件的堆叠，不带有任何存储操作系统。现在常见的DAS设备：硬盘座带上 N个硬盘。  NAS：网络连接式存储（Network Attached Storage），存储设备直连网络，NAS设备和DAS设备不同在于，NAS">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://www.pengshu.net/linux/nas_installation_on_linux/imgs/linux/NFS_Protocal.jpg">
+<meta property="og:image" content="http://www.pengshu.net/imgs/linux/NFS_Protocal.jpg">
 <meta property="og:image" content="http://www.pengshu.net/imgs/linux/nfs_connecting_physical_components.png">
 <meta property="og:image" content="http://www.pengshu.net/imgs/linux/nfs_communication_flow.png">
 <meta property="og:image" content="http://www.pengshu.net/imgs/linux/windows_nfs_client_enable.png">
 <meta property="article:published_time" content="2022-05-12T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-13T14:04:20.958Z">
+<meta property="article:modified_time" content="2022-06-05T19:38:09.538Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://www.pengshu.net/linux/nas_installation_on_linux/imgs/linux/NFS_Protocal.jpg">
+<meta name="twitter:image" content="http://www.pengshu.net/imgs/linux/NFS_Protocal.jpg">
 
 
 <link rel="canonical" href="http://www.pengshu.net/linux/nas_installation_on_linux/">
@@ -172,7 +172,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">69</span>
+          <span class="site-state-item-count">71</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -269,10 +269,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2022-05-13 00:00:00 / Modified: 22:04:20" itemprop="dateCreated datePublished" datetime="2022-05-13T00:00:00+08:00">2022-05-13</time>
+      <time title="Created: 2022-05-13 00:00:00" itemprop="dateCreated datePublished" datetime="2022-05-13T00:00:00+08:00">2022-05-13</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-06-06 03:38:09" itemprop="dateModified" datetime="2022-06-06T03:38:09+08:00">2022-06-06</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -340,7 +346,7 @@
 <li><p>CIFS (Common Internet File System protocol)<br>工作在OSI模型的应用/表示层，常用于微软操作系统，但是与平台无关。CIFS运行在TCP/ IP上，使用DNS（域名服务）进行名称解析<br>  CIFS其中包含的状态协议提供如下两个功能：<br> （1）在客户端应用程序具备恢复连接功能时，可以自动恢复连接和重新打开被中断的文件。<br> （2）在客户端应用程序不具备自动连接功能时，用户则必须重新建立CIFS连接</p>
 </li>
 <li><p>NFS  (Network File System protocol)</p>
-<p> NFS的全称是Network File System，即网络文件系统。它使一台电脑可以通过网络访问另外一台电脑上的共享，使用起来就如同本地文件系统一样方便。<br> NFS的开发者就是曾经名震江湖的SUN公司，它已经在2009年被甲骨文收入门下。SUN把NFS的第一个版本NFSv1藏在深闺，就像古墓里的小龙女，从不露面。在江湖上开始流行的是第二版NFSv2了。NFSv2很好用，但是问题也不少，比如它不支持大于2GB的文件，但这在90年代之前还不是大问题。令人费解的是，虽然NFSv3在1995年就面世了，但到今天还有人坚持用NFSv2。其实NFS可以工作在任何OS上。只不过因为OS门派之别，一般只在Linux环境中使用。目前广泛应用的版本还是NFSv3,我们有机会再另文讨论NFSv4。下图展示了多台客户端通过NFS对NAS的访问。<br> <img src="imgs/linux/NFS_Protocal.jpg" alt="NFS server client diagram"><br> NAS在这里充当了NFS服务器的角色，而Linux，Solaris和AIX则是NFS客户机。</p>
+<p> NFS的全称是Network File System，即网络文件系统。它使一台电脑可以通过网络访问另外一台电脑上的共享，使用起来就如同本地文件系统一样方便。<br> NFS的开发者就是曾经名震江湖的SUN公司，它已经在2009年被甲骨文收入门下。SUN把NFS的第一个版本NFSv1藏在深闺，就像古墓里的小龙女，从不露面。在江湖上开始流行的是第二版NFSv2了。NFSv2很好用，但是问题也不少，比如它不支持大于2GB的文件，但这在90年代之前还不是大问题。令人费解的是，虽然NFSv3在1995年就面世了，但到今天还有人坚持用NFSv2。其实NFS可以工作在任何OS上。只不过因为OS门派之别，一般只在Linux环境中使用。目前广泛应用的版本还是NFSv3,我们有机会再另文讨论NFSv4。下图展示了多台客户端通过NFS对NAS的访问。<br> <img src="../../imgs/linux/NFS_Protocal.jpg" alt="NFS server client diagram"><br> NAS在这里充当了NFS服务器的角色，而Linux，Solaris和AIX则是NFS客户机。</p>
 </li>
 <li><p>AFP（Apple Filing Protocol ）<br>AFP是一种专门为 MAC OS X 系统提供文件共享服务的协议，通过开源的 Netatalk 实现 AFP 共享。mac os 物理接口是 雷电 thounderbolt  ,协议就是 AFP.</p>
 </li>
@@ -538,6 +544,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/angular/angular_material_design/" rel="next" title="应用angular material design">
+                  应用angular material design <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -571,14 +580,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">301k</span>
+    <span title="Symbols count total">315k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:33</span>
+    <span title="Reading time total">4:47</span>
   </span>
 </div>
 <div class="busuanzi-count">
