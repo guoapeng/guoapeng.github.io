@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.pengshu.net/linux/nas_installation_on_linux/</loc>
+    <loc>http://www.pengshu.net/material/typography/</loc>
     
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/angular/angular_flex_layout/</loc>
+    <loc>http://www.pengshu.net/web/web_basic_1/</loc>
     
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-01</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.pengshu.net/angular/angular_material_design/</loc>
     
-    <lastmod>2022-06-03</lastmod>
+    <lastmod>2022-06-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/angular/angular_flex_layout/</loc>
+    
+    <lastmod>2022-06-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/others/worth_watching_movies/</loc>
+    
+    <lastmod>2022-06-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/linux/nas_installation_on_linux/</loc>
+    
+    <lastmod>2022-06-05</lastmod>
     
   </url>
   
@@ -51,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/web/web_basic_1/</loc>
-    
-    <lastmod>2022-05-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade/</loc>
     
     <lastmod>2022-05-15</lastmod>
@@ -72,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/material/Spacing_methods/</loc>
+    <loc>http://www.pengshu.net/material/spacing_methods/</loc>
     
     <lastmod>2022-05-13</lastmod>
     
@@ -100,7 +114,7 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/material/Elevation/</loc>
+    <loc>http://www.pengshu.net/material/elevation/</loc>
     
     <lastmod>2022-05-05</lastmod>
     
@@ -114,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/material/Component_behavior/</loc>
+    <loc>http://www.pengshu.net/material/component_behavior/</loc>
     
     <lastmod>2022-05-01</lastmod>
     
@@ -128,7 +142,7 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/material/Responsive_layout_grid/</loc>
+    <loc>http://www.pengshu.net/material/responsive_layout_grid/</loc>
     
     <lastmod>2022-05-01</lastmod>
     
@@ -142,7 +156,7 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab-CICD/</loc>
+    <loc>http://www.pengshu.net/gitlab/gitlab-cicd/</loc>
     
     <lastmod>2022-05-01</lastmod>
     
@@ -450,7 +464,7 @@
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/angular/angular_JIT_AOT/</loc>
+    <loc>http://www.pengshu.net/angular/angular_jit_aot/</loc>
     
     <lastmod>2022-04-05</lastmod>
     
@@ -571,7 +585,7 @@
 
   <url>
     <loc>http://www.pengshu.net/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -579,238 +593,238 @@
   
   <url>
     <loc>http://www.pengshu.net/tags/web/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/angular/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/javascript/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/Hexo/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/shell/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/linux/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/design/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/material-design/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/tags/git/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.pengshu.net/tags/shell/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/tags/Linux/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/source-control/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/Windows/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/gitlab/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.pengshu.net/tags/linux/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/angularjs/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/RxJS/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/gitlab/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/Golang/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/tags/Seo/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.pengshu.net/tags/Linux/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/source-control/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/git/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/Windows/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/Java/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/maven/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/IDEA/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/Seo/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/k8s/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/virualbox/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/Nodejs/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/NPM/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/life/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/English/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/Rust/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/vscode/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/css/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/html/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/less/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/bootstrap/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/tags/OS/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/tags/webpack/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/bootstrap/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/css/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/html/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/less/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/tags/OS/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -819,154 +833,161 @@
   
   <url>
     <loc>http://www.pengshu.net/categories/web/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/frontend/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/tools/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/categories/tools/git/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/categories/OS/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/categories/tools/git/linux/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/backend/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/categories/OS/devops/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/backend/devops/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/categories/OS/devops/backend/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.pengshu.net/categories/OS/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/categories/OS/devops/git/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.pengshu.net/categories/tools/git/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/backend/devops/git/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/OS/devops/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/tools/git/linux/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/cloud/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.pengshu.net/categories/OS/devops/backend/git/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/categories/OS/backend/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.pengshu.net/categories/OS/devops/backend/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/cloud/devops/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/OS/devops/git/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/OS/backend/</loc>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/OS/devops/backend/git/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/devops/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/life/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.pengshu.net/categories/devops/frontend/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/frontend/devops/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/devops/frontend/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/life/English/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.pengshu.net/categories/life/movies/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.pengshu.net/categories/devops/frontend/backend/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
