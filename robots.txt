@@ -26,9 +26,6 @@ Allow: /material/
 Allow: /rust/
 Allow: /others/
 
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /lib/
 

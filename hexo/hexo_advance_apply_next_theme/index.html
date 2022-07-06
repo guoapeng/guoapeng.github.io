@@ -27,7 +27,7 @@
 <meta property="og:description" content="安装环境说明 首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-01T14:02:25.124Z">
+<meta property="article:modified_time" content="2022-07-06T10:02:26.288Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -272,7 +272,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:02:25" itemprop="dateModified" datetime="2022-05-01T22:02:25+08:00">2022-05-01</time>
+        <time title="Modified: 2022-07-06 18:02:26" itemprop="dateModified" datetime="2022-07-06T18:02:26+08:00">2022-07-06</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,7 +298,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>7.4k</span>
+      <span>7.7k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -456,8 +456,11 @@
 <h3 id="收到google的邮件"><a href="#收到google的邮件" class="headerlink" title="收到google的邮件"></a>收到google的邮件</h3><blockquote>
 <p>出现次数最多的问题，我们在您的网站中发现了以下错误：<br>文字太小，无法阅读<br>可点击元素之间的距离太近  </p>
 </blockquote>
-<p>解决办法　修改next的配置文件, 将font.global.size 修改为1.1 相当于18px<br>fonts 设为国内站点<a target="_blank" rel="noopener" href="https://fonts.lug.ustc.edu.cn/">https://fonts.lug.ustc.edu.cn</a></p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">https://fonts.lug.ustc.edu.cn</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span> <span class="number">1.1</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>解决办法　修改next的配置文件, 将font.global.size 修改为1.1 相当于18px<br>fonts 设为国内站点<a target="_blank" rel="noopener" href="https://fonts.lug.ustc.edu.cn/">https://fonts.lug.ustc.edu.cn</a> 或者 <a target="_blank" rel="noopener" href="https://fonts.loli.net/">https://fonts.loli.net</a></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">https://fonts.loli.net</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Noto</span> <span class="string">Serif</span> <span class="string">SC,</span> <span class="string">PingFang</span> <span class="string">SC,</span> <span class="string">Microsoft</span> <span class="string">YaHei,</span> <span class="string">sans-serif,</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span> <span class="number">1.1</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>修改 <code>themes\next\source\css\_variables\base.styl</code></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">$</span><span class="bash">font-family-chinese      = <span class="string">&quot;Noto Serif SC&quot;</span>, <span class="string">&quot;PingFang SC&quot;</span>, <span class="string">&quot;Microsoft YaHei&quot;</span>;</span></span><br><span class="line"><span class="meta">$</span><span class="bash">font-family-base         = <span class="variable">$font</span>-family-chinese, sans-serif;</span></span><br><span class="line"><span class="meta">$</span><span class="bash">font-family-base         = get_font_family(<span class="string">&#x27;global&#x27;</span>), <span class="variable">$font</span>-family-chinese, sans-serif <span class="keyword">if</span> get_font_family(<span class="string">&#x27;global&#x27;</span>);</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>将行间距$line-height-base修改为2.2 默认是２<br>该文件位于next &gt; source &gt; css &gt; base.styl</p>
 <figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">//</span> <span class="string">Global line height</span></span><br><span class="line"><span class="meta">$line-height-base</span>         = <span class="string">2.2;</span></span><br><span class="line"><span class="meta">$line-height-code-block</span>   = <span class="string">1.6; // Can&#x27;t be less than 1.3;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -567,7 +570,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:53</span>
+    <span title="Reading time total">4:54</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/hexo/hexo_advance_apply_next_theme/</loc>
+    <lastmod>2022-07-06</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/others/wake_your_ass_up/</loc>
     <lastmod>2022-07-06</lastmod>
   </url>
@@ -186,10 +190,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/hexo/hexo_create_site/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/hexo/hexo_advance_apply_next_theme/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
