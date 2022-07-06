@@ -237,7 +237,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/git/windows_install_git/">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular2_route/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -250,7 +250,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/git/windows_install_git/" class="post-title-link" itemprop="url">Windows上安装git2.x</a>
+          <a href="/angular/angular2_route/" class="post-title-link" itemprop="url">Angular2中的路由</a>
         </h2>
 
         <div class="post-meta-container">
@@ -268,7 +268,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:33:07" itemprop="dateModified" datetime="2022-05-01T22:33:07+08:00">2022-05-01</time>
+        <time title="Modified: 2022-05-01 22:31:27" itemprop="dateModified" datetime="2022-05-01T22:31:27+08:00">2022-05-01</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -276,19 +276,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
+          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
         </span>
     </span>
 
@@ -299,14 +287,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>341</span>
+      <span>3.4k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
@@ -317,17 +305,19 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Windows上安装git2-x"><a href="#Windows上安装git2-x" class="headerlink" title="Windows上安装git2.x"></a>Windows上安装git2.x</h2><ul>
-<li><p>转到<a target="_blank" rel="noopener" href="https://git-scm.com/">Git download page</a>并根据您的机器配置下载安装程序。</p>
-</li>
-<li><p>执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。</p>
-</li>
-<li><p>验证是否已使用此命令安装了节点。</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.17.1.windows.2</span><br></pre></td></tr></table></figure></li>
-<li><p>另外，运行以下命令来设置您的git身份, 这些信息会写入每次commit中, 以标明代码作者的身份, 以及联系方式.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Use your git email id</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;you@example.com&quot;</span></span><br><span class="line"><span class="comment"># Use your git name</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;Your Name&quot;</span>         </span><br></pre></td></tr></table></figure></li>
-</ul>
+          <h2 id="Angular2中的路由"><a href="#Angular2中的路由" class="headerlink" title="Angular2中的路由"></a>Angular2中的路由</h2><p>Angular2中建立路由的5个步骤.</p>
+<h2 id="安装-angular-router"><a href="#安装-angular-router" class="headerlink" title="安装@angular/router"></a>安装@angular/router</h2><p>首先第一件事，我们需要安装 Angular Router。你可以通过运行以下命令进行安装.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save @angular/router</span><br></pre></td></tr></table></figure>
 
+<p>以上命令执行后，将会自动下载 @angular/router 模块到 node_modules 文件夹中。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/angular2_route/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1153,7 +1143,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:04:19" itemprop="dateModified" datetime="2022-04-06T01:04:19+08:00">2022-04-06</time>
+        <time title="Modified: 2022-07-06 12:58:17" itemprop="dateModified" datetime="2022-07-06T12:58:17+08:00">2022-07-06</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1194,14 +1184,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <span id="more"></span>
-<h2 id="为什么停下"><a href="#为什么停下" class="headerlink" title="为什么停下?"></a>为什么停下?</h2><p>what’s stopping you?<br>是什么在阻碍你?<br>Are you too tired?<br>是太累了吗?<br>Didn’t get enough sleep?<br>睡眠不足?<br>Don’t have enough energy?<br>精力不济?<br>Don’t have enough time?<br>时间不够?<br>Is that what’s stopping you right now?<br>是这些东西阻碍你吗?<br>Don’t have enough money?<br>还是因为缺钱?<br>Is that the thing?<br>是这样吗?<br>Or is the thing that’s stopping you<br>还是说真正阻碍你的<br>you?<br>是你自己?  </p>
-<h2 id="别找借口"><a href="#别找借口" class="headerlink" title="别找借口"></a>别找借口</h2><p>Excuses sound best to the person who’s making them up<br>接口对编造它的人来说总是完美的<br>Stop feeling sorry for yourself<br>不要再可怜自己<br>Get off the pity party<br>别再自怨自艾<br>telling everybody you’re sad<br>别再诉苦<br>and sob stories, trying to get people<br>别再用委屈和眼泪<br>to show up your pity parties and  your pity parades<br>博取同情和怜悯  </p>
-<h2 id="奋进"><a href="#奋进" class="headerlink" title="奋进"></a>奋进</h2><p>if you ever see me in a rolls royce<br>如果你看到我坐在劳斯莱斯里<br>or a 6 or 7 star hotel<br>进出六七星级酒店里<br>living my life to the fullest<br>过着舒适的生活<br>don’t get jealous of me.<br>不要嫉妒我<br>because I worked my ass off to get it.<br>因为这些都是我全力以赴拼命换来的<br>Nobody handed me anything<br>没有人施舍我<br>wake your ass up.<br>醒醒吧<br>Awaken the beast inside<br>唤醒你内心沉睡的猛兽<br>It’s game on.<br>比赛开始了<br>It’s go season<br>赛季已经开始<br>it’s time for you to take advantage of the access<br>是时候主动出击.<br>and the resource that you have<br>抓住一切机会<br>in your country and your community.<br>调用一切资源<br>you got a problem with your life?<br>你觉得生活不公平吗?<br>You got a problem with your environment?<br>对自己的境遇感到不满吗?<br>Do something about it.<br>行动起来<br>if you want it<br>你渴望什么<br>go get it.<br>就放手一搏<br>Recognize<br>你要明白<br>The execuses are not valid.<br>借口毫无意义<br>They’re conjured up<br>它们都是虚幻的<br>They’re fabricated<br>是编造的<br>they’re lies<br>是谎言<br>And how do you stop the lies?<br>怎样战胜谎言?  </p>
-<h2 id="打破谎言-战胜接口"><a href="#打破谎言-战胜接口" class="headerlink" title="打破谎言, 战胜接口"></a>打破谎言, 战胜接口</h2><p>You stop the lies with the truth.<br>用真相击败他们.<br>the truth is you have time.<br>真相是你有时间<br>you have the skill<br>你有技能<br>you have the knowledge and the support  and the willpower and the disipline to get it done.<br>你有达成目标的知识, 支持, 信念, 自律.<br>the fruit of everything good in life<br>生命中所有美好的东西<br>begins with a challenge.<br>都是以挑战开始.<br>Everything is uphill that’s worthwhile.<br>所有奋斗都是值得的<br>And it’s not going to come to you.<br>成功不会自己找上门.<br>and it’s not going to fall in your lap.<br>不会从天而降<br>and it’s not going to be something that, oh my gosh<br>但也不是难于登天<br>it just was so simple<br>道理很简单<br>it’s always going to be difficult.<br>不劳而获<br>if you want it, you gotta go get it.<br>渴望,那就全力以赴<br>This is your chance.<br>这是你的机会<br>This is  your shot<br>这是你的舞台<br>This is your moment.<br>这是你的时刻<br>This is your time.<br>这是你的时代<br>This is your place<br>这是你的地盘<br>This is your opportunity.<br>这是你的机遇  </p>
-<h2 id="付诸行动-马上-excl"><a href="#付诸行动-马上-excl" class="headerlink" title="付诸行动, 马上&excl;"></a>付诸行动, 马上&excl;</h2><p>This is my time.<br>就是此时<br>This is my moment.<br>就是此刻<br>Tomorrow, tomorrow, tomorrow<br>说什么明天, 后天, 大后天<br>ain’t no such thing as tomorrow<br>压根不存在明天这种东西<br>we only got today<br>我们只有今天<br>It’s your dream<br>这是你的梦想<br>if you’re going to have it<br>如果你想实现<br>get your butt up and make it happen<br>马上付诸行动<br>if you’re going to have it<br>如果你想拥有<br>rise and grind<br>就自强不息<br>you still got work to do<br>你还要练习<br>stay on that basketball court<br>留在篮球场上<br>stay on that football field<br>留在橄榄球场上<br>it’s grind season homie.<br>坚持磨练吧, 哥们  </p>
-<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>pity party - 应该为失意, 没人理解, 可怜的意思.<br>ass - 屁股;<br>sob - 啜泣, 呜咽;<br>beast - 野兽, 兽性<br>conjure - 念咒文召唤, 变戏法, 想象; 变戏法, 施魔法;<br>uphill - a. 上坡的, 向上的<br>grind -  n. 磨, 碾, 苦差, 摩擦声, 用功的学生 nvt. 磨擦, 磨碎, 磨光, 折磨, 压榨 nvi. 磨, 磨碎, 苦干</p>
-
+          <h2 id="为什么停下"><a href="#为什么停下" class="headerlink" title="为什么停下?"></a>为什么停下?</h2><p>what’s stopping you?<br>是什么在阻碍你?<br>Are you too tired?<br>是太累了吗?<br>Didn’t get enough sleep?<br>睡眠不足?<br>Don’t have enough energy?<br>精力不济?<br>Don’t have enough time?<br>时间不够?<br>Is that what’s stopping you right now?<br>是这些东西阻碍你吗?<br>Don’t have enough money?<br>还是因为缺钱?<br>Is that the thing?<br>是这样吗?<br>Or is the thing that’s stopping you<br>还是说真正阻碍你的<br>you?<br>是你自己?  </p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/others/wake_your_ass_up/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
