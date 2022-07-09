@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/golang/install_golang/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/install_virtualbox_on_fedora35/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/nas_installation_on_linux/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/linux_shell_rsync/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/linux_shell_ifconfig/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/Linux_FHS/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/linux_connect_wifi/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/how_to_create_rpm_package/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/create_rpm_repository_on_linux/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/git/install_setup_git_server/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/hexo/hexo_advance_apply_next_theme/</loc>
     <lastmod>2022-07-06</lastmod>
   </url>
@@ -29,10 +73,6 @@
     <lastmod>2022-06-18</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/linux/nas_installation_on_linux/</loc>
-    <lastmod>2022-06-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/angular/angular2_create_project/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
@@ -50,10 +90,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade/</loc>
-    <lastmod>2022-05-15</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/Linux_FHS/</loc>
     <lastmod>2022-05-15</lastmod>
   </url>
   <url>
@@ -97,7 +133,7 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab-cicd/</loc>
+    <loc>http://www.pengshu.net/gitlab/gitlab-cicd-basic/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
@@ -105,19 +141,7 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/golang/install_golang/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/git/windows_install_git/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/git/install_setup_git_server/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
@@ -161,26 +185,6 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/linux/linux_shell_ifconfig/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/how_to_create_rpm_package/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/linux_connect_wifi/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/install_virtualbox_on_fedora35/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/linux/create_rpm_repository_on_linux/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/javascript/js-builtin-object/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
@@ -213,10 +217,6 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/linux/linux_shell_rsync/</loc>
-    <lastmod>2022-04-24</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/git/how_to_configure_git_push/</loc>
     <lastmod>2022-04-14</lastmod>
   </url>
@@ -245,7 +245,7 @@
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/angular/angular_jit_aot/</loc>
+    <loc>http://www.pengshu.net/angular/angular_JIT_AOT/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>

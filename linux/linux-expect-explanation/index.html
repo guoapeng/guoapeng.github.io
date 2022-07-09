@@ -12,7 +12,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
 <!-- Clarity tracking code for https://www.pengshu.net/ -->
 <script>    
 (function(c,l,a,r,i,t,y){       
@@ -23,6 +22,9 @@
    y.parentNode.insertBefore(t,y);    
    })(window, document, "clarity", "script", "cnl2uzz0vb");
 </script>
+
+<link rel="stylesheet" href="/css/main.css">
+
 <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CPingFang+SC:300,300italic,400,400italic,700,700italic%7CMicrosoft+YaHei:300,300italic,400,400italic,700,700italic%7Csans-serif:300,300italic,400,400italic,700,700italic%7CLato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
@@ -32,7 +34,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux expect 详解">
 <meta property="og:url" content="http://www.pengshu.net/linux/linux-expect-explanation/">
-<meta property="og:site_name" content="鹏叔的博客空间">
+<meta property="og:site_name" content="鹏叔的IT技术博客空间">
 <meta property="og:description" content="Expect简介 Expect是Unix系统中用来进行自动化控制和测试的软件工具，由Don Libes制作，作为Tcl(Tool Command Language)脚本语言的一个扩展，应用在交互式软件中如telnet，ftp，passwd，fsck，rlogin，tip，ssh等等。该工具利用Unix伪终端包装其子进程，允许任意程序通过终端接入进行自动化控制；也可利用Tk工具，将交互程序包装在X1">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-08T22:47:22.000Z">
@@ -49,7 +51,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/linux/linux-expect-explanation/","path":"linux/linux-expect-explanation/","title":"Linux expect 详解"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Linux expect 详解 | 鹏叔的博客空间</title>
+<title>Linux expect 详解 | 鹏叔的IT技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -80,7 +82,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">鹏叔的博客空间</h1>
+      <div class="site-title h1">鹏叔的IT技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -170,7 +172,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.</div>
+  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
@@ -187,7 +189,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-count">33</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -255,11 +257,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">

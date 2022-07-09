@@ -12,7 +12,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
 <!-- Clarity tracking code for https://www.pengshu.net/ -->
 <script>    
 (function(c,l,a,r,i,t,y){       
@@ -23,6 +22,9 @@
    y.parentNode.insertBefore(t,y);    
    })(window, document, "clarity", "script", "cnl2uzz0vb");
 </script>
+
+<link rel="stylesheet" href="/css/main.css">
+
 <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CPingFang+SC:300,300italic,400,400italic,700,700italic%7CMicrosoft+YaHei:300,300italic,400,400italic,700,700italic%7Csans-serif:300,300italic,400,400italic,700,700italic%7CLato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
@@ -32,7 +34,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Material Design基础 - Surfaces">
 <meta property="og:url" content="http://www.pengshu.net/material/surfaces/">
-<meta property="og:site_name" content="鹏叔的博客空间">
+<meta property="og:site_name" content="鹏叔的IT技术博客空间">
 <meta property="og:description" content="Material SurfacesMaterial设计具有三个维度的品质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。 Material environment在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。 Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-29T16:00:00.000Z">
@@ -50,7 +52,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/material/surfaces/","path":"material/surfaces/","title":"Material Design基础 - Surfaces"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Material Design基础 - Surfaces | 鹏叔的博客空间</title>
+<title>Material Design基础 - Surfaces | 鹏叔的IT技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -81,7 +83,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">鹏叔的博客空间</h1>
+      <div class="site-title h1">鹏叔的IT技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -171,7 +173,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.</div>
+  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
@@ -188,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-count">33</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -256,11 +258,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -396,8 +398,8 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/golang/install_golang/" rel="prev" title="安装Golang">
-                  <i class="fa fa-chevron-left"></i> 安装Golang
+                <a href="/material/elevation/" rel="prev" title="Material Design 基础 - Elevation（标高）">
+                  <i class="fa fa-chevron-left"></i> Material Design 基础 - Elevation（标高）
                 </a>
             </div>
             <div class="post-nav-item">

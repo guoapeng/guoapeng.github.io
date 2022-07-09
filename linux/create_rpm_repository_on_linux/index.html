@@ -12,7 +12,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
 <!-- Clarity tracking code for https://www.pengshu.net/ -->
 <script>    
 (function(c,l,a,r,i,t,y){       
@@ -23,6 +22,9 @@
    y.parentNode.insertBefore(t,y);    
    })(window, document, "clarity", "script", "cnl2uzz0vb");
 </script>
+
+<link rel="stylesheet" href="/css/main.css">
+
 <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CPingFang+SC:300,300italic,400,400italic,700,700italic%7CMicrosoft+YaHei:300,300italic,400,400italic,700,700italic%7Csans-serif:300,300italic,400,400italic,700,700italic%7CLato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
@@ -32,14 +34,14 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux环境下创建rpm仓库">
 <meta property="og:url" content="http://www.pengshu.net/linux/create_rpm_repository_on_linux/">
-<meta property="og:site_name" content="鹏叔的博客空间">
+<meta property="og:site_name" content="鹏叔的IT技术博客空间">
 <meta property="og:description" content="环境说明centos 7.7 简要说明第一步：首先配置本地可以安装的rpm仓库 第二步：然后安装apache将仓库export出去， 第三步：让局域网上其他计算机其他计算机可以使用自己创建的rpm仓库，也可以称为yum源。 第四步：如果能让internet上其他计算机可以访问该yum源，需要公网IP，如果方便用户记忆需要配置dns解析。(本文由于篇幅所限，不讲解此步骤, 可自行百度了解, 如何配置">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img2020.cnblogs.com/blog/629465/202102/629465-20210205202244120-686761353.png">
 <meta property="article:published_time" content="2021-10-27T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-01T14:06:18.931Z">
+<meta property="article:modified_time" content="2022-07-09T10:50:51.000Z">
 <meta property="article:author" content="Eagle Guo">
-<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://img2020.cnblogs.com/blog/629465/202102/629465-20210205202244120-686761353.png">
 
@@ -51,7 +53,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/linux/create_rpm_repository_on_linux/","path":"linux/create_rpm_repository_on_linux/","title":"linux环境下创建rpm仓库"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>linux环境下创建rpm仓库 | 鹏叔的博客空间</title>
+<title>linux环境下创建rpm仓库 | 鹏叔的IT技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -82,7 +84,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">鹏叔的博客空间</h1>
+      <div class="site-title h1">鹏叔的IT技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -172,7 +174,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.</div>
+  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
@@ -189,7 +191,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-count">33</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -257,11 +259,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -283,7 +285,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:06:18" itemprop="dateModified" datetime="2022-05-01T22:06:18+08:00">2022-05-01</time>
+        <time title="Modified: 2022-07-09 18:50:51" itemprop="dateModified" datetime="2022-07-09T18:50:51+08:00">2022-07-09</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -427,7 +429,7 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+              <a href="/tags/linux/" rel="tag"><i class="fa fa-tag"></i> linux</a>
           </div>
 
         

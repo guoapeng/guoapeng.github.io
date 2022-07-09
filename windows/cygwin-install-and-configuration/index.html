@@ -12,7 +12,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
 <!-- Clarity tracking code for https://www.pengshu.net/ -->
 <script>    
 (function(c,l,a,r,i,t,y){       
@@ -23,6 +22,9 @@
    y.parentNode.insertBefore(t,y);    
    })(window, document, "clarity", "script", "cnl2uzz0vb");
 </script>
+
+<link rel="stylesheet" href="/css/main.css">
+
 <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CPingFang+SC:300,300italic,400,400italic,700,700italic%7CMicrosoft+YaHei:300,300italic,400,400italic,700,700italic%7Csans-serif:300,300italic,400,400italic,700,700italic%7CLato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
@@ -32,7 +34,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="cygwin install and configuration">
 <meta property="og:url" content="http://www.pengshu.net/windows/cygwin-install-and-configuration/">
-<meta property="og:site_name" content="鹏叔的博客空间">
+<meta property="og:site_name" content="鹏叔的IT技术博客空间">
 <meta property="og:description" content="cygwin 介绍Cygwin是一个在windows平台上运行的类UNIX模拟环境，是cygnus solutions公司开发的自由软件（该公司开发的著名工具还有eCos，不过现已被Redhat收购）。它对于学习UNIX&#x2F;Linux操作环境，或者从UNIX到Windows的应用程序移植，或者进行某些特殊的开发工作，尤其是使用GNU工具集在Windows上进行嵌入式系统开发，非常有用。随着嵌入式系统">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-12T05:28:22.000Z">
@@ -49,7 +51,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/windows/cygwin-install-and-configuration/","path":"windows/cygwin-install-and-configuration/","title":"cygwin install and configuration"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>cygwin install and configuration | 鹏叔的博客空间</title>
+<title>cygwin install and configuration | 鹏叔的IT技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -80,7 +82,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">鹏叔的博客空间</h1>
+      <div class="site-title h1">鹏叔的IT技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -170,7 +172,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.</div>
+  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
@@ -187,7 +189,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-count">33</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -255,11 +257,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作期间整理的技术博客, 包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等相关内容.">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的博客空间">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
