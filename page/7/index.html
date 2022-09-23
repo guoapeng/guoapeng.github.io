@@ -175,18 +175,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">73</span>
+          <span class="site-state-item-count">75</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">23</span>
+        <span class="site-state-item-count">24</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">33</span>
+        <span class="site-state-item-count">34</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -239,6 +239,234 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vscode/vscode_config_guide/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/vscode/vscode_config_guide/" class="post-title-link" itemprop="url">vscode基本配置指南</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-10-14 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-14T00:00:00+08:00">2021-10-14</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-08-25 16:37:31" itemprop="dateModified" datetime="2022-08-25T16:37:31+08:00">2022-08-25</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tools/" itemprop="url" rel="index"><span itemprop="name">tools</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>5.6k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>5 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <ul>
+<li><a href="#1-%E4%BB%8B%E7%BB%8D">1. 介绍</a></li>
+<li><a href="#2-%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E9%85%8D%E7%BD%AE">2. 如何打开配置</a></li>
+<li><a href="#3-vscode%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE">3. VScode用户设置</a><ul>
+<li><a href="#31-%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F">3.1. 设置字体大小</a></li>
+<li><a href="#32-%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E6%96%B9%E5%BC%8F">3.2. 设置自动保存方式</a></li>
+<li><a href="#33-%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8">3.3. 设置自动补全</a></li>
+<li><a href="#34-%E6%9F%A5%E8%AF%A2%E4%B8%AD%E8%BF%87%E6%BB%A4%E6%8E%89%E9%9D%9E%E5%BF%85%E8%A6%81%E7%9A%84%E6%96%87%E4%BB%B6">3.4. 查询中过滤掉非必要的文件</a></li>
+<li><a href="#35-%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6">3.5. 过滤文件</a></li>
+<li><a href="#36-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E6%9B%B4%E6%96%B0">3.6. 关闭自动检测更新</a></li>
+<li><a href="#37-%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E8%BD%AC%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE">3.7. 配置大小写转换快捷键</a></li>
+<li><a href="#38-%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E9%94%AE">3.8. 配置快捷键</a></li>
+<li><a href="#39-%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E4%B8%BB%E4%BD%93">3.9. 安装与配置主体</a></li>
+<li><a href="#310-%E5%85%B3%E9%97%ADopen-editor">3.10. 关闭Open editor</a></li>
+<li><a href="#311-%E5%9C%A8%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E6%96%87%E4%BB%B6">3.11. 在侧边栏快速定位文件</a></li>
+</ul>
+</li>
+<li><a href="#4-%E5%AE%89%E8%A3%85plugins">4. 安装plugins</a><ul>
+<li><a href="#41-%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8">4.1. 插件列表</a></li>
+</ul>
+</li>
+<li><a href="#5-%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE">5. 完整配置</a></li>
+<li><a href="#6-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3">6. 参考文档</a></li>
+</ul>
+<h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>vscode可以做很多事, 是真正的生产力工具, 但是如何将其配置得好用并符合自己的需求, 却是很复杂的一件事. 它的默认模式就像一辆自动挡的汽车, 不做任何改动也能开着上路, 如果想压榨一下它的生产力, 还是要懂得一些配置相关的知识或技巧.  </p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/vscode/vscode_config_guide/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vscode/vscode_hotkey/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/vscode/vscode_hotkey/" class="post-title-link" itemprop="url">vscode常用快捷键</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-10-14 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-14T00:00:00+08:00">2021-10-14</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-05-19 13:16:18" itemprop="dateModified" datetime="2022-05-19T13:16:18+08:00">2022-05-19</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tools/" itemprop="url" rel="index"><span itemprop="name">tools</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.1k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>本文主要介绍vscode的一些常用快捷键的使用.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/vscode/vscode_hotkey/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -351,6 +579,109 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/linux_connect_wifi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/linux/linux_connect_wifi/" class="post-title-link" itemprop="url">linux命令行连接wifi</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-10-09 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-09T00:00:00+08:00">2021-10-09</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-07-09 18:51:08" itemprop="dateModified" datetime="2022-07-09T18:51:08+08:00">2022-07-09</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="环境描述"><a href="#环境描述" class="headerlink" title="环境描述"></a>环境描述</h2><ul>
+<li>以下是验证本教程使用的环境
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/linux/linux_connect_wifi/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/k8s/setup_k8s_cluster/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -427,109 +758,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/k8s/setup_k8s_cluster/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/linux_connect_wifi/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/linux/linux_connect_wifi/" class="post-title-link" itemprop="url">linux命令行连接wifi</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-10-09 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-09T00:00:00+08:00">2021-10-09</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-09 18:51:08" itemprop="dateModified" datetime="2022-07-09T18:51:08+08:00">2022-07-09</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="环境描述"><a href="#环境描述" class="headerlink" title="环境描述"></a>环境描述</h2><ul>
-<li>以下是验证本教程使用的环境
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/linux/linux_connect_wifi/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -985,116 +1213,6 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/nodejs/install_and_config_nodejs/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/nodejs/install_and_config_nodejs/" class="post-title-link" itemprop="url">安装并配置nodejs</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-10-05 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-05T00:00:00+08:00">2021-10-05</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:14:23" itemprop="dateModified" datetime="2022-04-06T01:14:23+08:00">2022-04-06</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/devops/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/devops/frontend/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.4k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="安装-nodejs"><a href="#安装-nodejs" class="headerlink" title="安装 nodejs"></a>安装 nodejs</h2><p>Node.js是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/nodejs/install_and_config_nodejs/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/nodejs/how_to_publish_node_modules/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1197,109 +1315,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/hexo/hexo_advance_apply_next_theme/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/hexo/hexo_advance_apply_next_theme/" class="post-title-link" itemprop="url">Hexo配置Next主题</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-10-04 00:00:00" itemprop="dateCreated datePublished" datetime="2021-10-04T00:00:00+08:00">2021-10-04</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-06 18:02:26" itemprop="dateModified" datetime="2022-07-06T18:02:26+08:00">2022-07-06</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/tools/" itemprop="url" rel="index"><span itemprop="name">tools</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>7.7k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>7 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="安装环境说明"><a href="#安装环境说明" class="headerlink" title="安装环境说明"></a>安装环境说明</h2><ul>
-<li>首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/hexo/hexo_advance_apply_next_theme/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
@@ -1325,14 +1340,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">323k</span>
+    <span title="Symbols count total">338k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">4:54</span>
+    <span title="Reading time total">5:07</span>
   </span>
 </div>
 <div class="busuanzi-count">
