@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_runner_installation/</loc>
+    <lastmod>2022-10-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade/</loc>
+    <lastmod>2022-10-07</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/product/help_system_design/</loc>
     <lastmod>2022-09-12</lastmod>
   </url>
@@ -109,10 +117,6 @@
     <lastmod>2022-05-19</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade/</loc>
-    <lastmod>2022-05-15</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/material/spacing_methods/</loc>
     <lastmod>2022-05-13</lastmod>
   </url>
@@ -181,7 +185,7 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/webpack/webpack-env-variables/</loc>
+    <loc>http://www.pengshu.net/webpack/webpack_env_variables/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
@@ -258,10 +262,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/angular/angular_JIT_AOT/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab_runner_installation/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
