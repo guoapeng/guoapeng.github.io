@@ -176,18 +176,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">81</span>
+          <span class="site-state-item-count">93</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-count">26</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">37</span>
+        <span class="site-state-item-count">42</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -249,7 +249,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/database/install_mariadb_on_centos7.html">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/java/spring_websocket.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -262,7 +262,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/database/install_mariadb_on_centos7.html" class="post-title-link" itemprop="url">Centos7上安装MariaDB</a>
+          <a href="/java/spring_websocket.html" class="post-title-link" itemprop="url">java实现websocket的五种方式</a>
         </h2>
 
         <div class="post-meta-container">
@@ -273,990 +273,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2022-11-27 00:00:00" itemprop="dateCreated datePublished" datetime="2022-11-27T00:00:00+08:00">2022-11-27</time>
+      <time title="Created: 2023-01-01 00:00:00" itemprop="dateCreated datePublished" datetime="2023-01-01T00:00:00+08:00">2023-01-01</time>
     </span>
       <span class="post-meta-item">
         <span class="post-meta-item-icon">
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-11-28 20:43:45" itemprop="dateModified" datetime="2022-11-28T20:43:45+08:00">2022-11-28</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/postgresql/" itemprop="url" rel="index"><span itemprop="name">postgresql</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.5k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h2><h3 id="1-1-检查是否已安装-mariadb"><a href="#1-1-检查是否已安装-mariadb" class="headerlink" title="1.1. 检查是否已安装 mariadb"></a>1.1. 检查是否已安装 mariadb</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum list installed | grep mariadb</span><br></pre></td></tr></table></figure>
-
-<h3 id="1-2-安装MariaDB"><a href="#1-2-安装MariaDB" class="headerlink" title="1.2. 安装MariaDB"></a>1.2. 安装MariaDB</h3><p>如果未安装，执行以下命令安装命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install mariadb mariadb-server</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/database/install_mariadb_on_centos7.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/database/install_postgresql_on_centos7.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/database/install_postgresql_on_centos7.html" class="post-title-link" itemprop="url">Centos7上安装PostgreSQL 14</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-11-27 00:00:00" itemprop="dateCreated datePublished" datetime="2022-11-27T00:00:00+08:00">2022-11-27</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-11-28 20:44:17" itemprop="dateModified" datetime="2022-11-28T20:44:17+08:00">2022-11-28</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/postgresql/" itemprop="url" rel="index"><span itemprop="name">postgresql</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.8k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="本文主要内容"><a href="#本文主要内容" class="headerlink" title="本文主要内容"></a>本文主要内容</h3><ul>
-<li>PostgreSQL 14 安装(yum)</li>
-<li>PostgreSQL 14 基础配置</li>
-<li>PostgreSQL 14 远程访问配置</li>
-<li>PostgreSQL 基础管理</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/database/install_postgresql_on_centos7.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/database/postgresql_basics.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/database/postgresql_basics.html" class="post-title-link" itemprop="url">PostgreSQL基础</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-11-24 00:00:00" itemprop="dateCreated datePublished" datetime="2022-11-24T00:00:00+08:00">2022-11-24</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-11-28 20:44:57" itemprop="dateModified" datetime="2022-11-28T20:44:57+08:00">2022-11-28</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/devops/backend/postgresql/" itemprop="url" rel="index"><span itemprop="name">postgresql</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>15k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>14 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="1-数据库基础知识"><a href="#1-数据库基础知识" class="headerlink" title="1. 数据库基础知识"></a>1. 数据库基础知识</h2><h3 id="1-1-什么是数据库"><a href="#1-1-什么是数据库" class="headerlink" title="1.1. 什么是数据库"></a>1.1. 什么是数据库</h3><p>数据库(Database, DB)是一个长期存储在计算机内的, 有组织的, 有共享的, 统一管理的数据集合.</p>
-<ul>
-<li>保管数据的”仓库”</li>
-<li>数据管理的方法和技术</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/database/postgresql_basics.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/typescript/typescript_tutorial.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/typescript/typescript_tutorial.html" class="post-title-link" itemprop="url">Angular开发人员学习路线图</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-10-16 00:00:00" itemprop="dateCreated datePublished" datetime="2022-10-16T00:00:00+08:00">2022-10-16</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-22 17:33:32" itemprop="dateModified" datetime="2022-10-22T17:33:32+08:00">2022-10-22</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>7k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>6 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="TS简介"><a href="#TS简介" class="headerlink" title="TS简介"></a>TS简介</h2><h3 id="typescript是什么"><a href="#typescript是什么" class="headerlink" title="typescript是什么?"></a>typescript是什么?</h3><p>以javascript为基础构建的语言<br>可以在任何支持javascript的平台中执行<br>一个javascript的超集<br>typescript扩展了javascript，并添加了类型<br>TS不能被JS解析器直接执行，需要经过编译成javascript后被JS解析器执行。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/typescript/typescript_tutorial.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/gitlab/gitlab_ee_crack.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/gitlab/gitlab_ee_crack.html" class="post-title-link" itemprop="url">破解Gitlab EE 15</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2022-10-06T00:00:00+08:00">2022-10-06</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-22 16:51:42" itemprop="dateModified" datetime="2022-10-22T16:51:42+08:00">2022-10-22</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/backend/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/backend/devops/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>4.5k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="安装gitlab-ee"><a href="#安装gitlab-ee" class="headerlink" title="安装gitlab-ee"></a>安装gitlab-ee</h2><p>参考我的文章 <a href="./gitlab_installation_upgrade.md">鹏叔的IT技术博客空间 - gitlab安装升级及迁移</a></p>
-<h2 id="环境说明"><a href="#环境说明" class="headerlink" title="环境说明"></a>环境说明</h2><p>当前我的gitlab版本及环境如下:</p>
-<p>gitlab-ee版本为: 15.0.2-ee</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/gitlab/gitlab_ee_crack.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/product/help_system_design.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/product/help_system_design.html" class="post-title-link" itemprop="url">Help system tips and examples</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-09-12 00:00:00 / Modified: 23:11:43" itemprop="dateCreated datePublished" datetime="2022-09-12T00:00:00+08:00">2022-09-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/html/" itemprop="url" rel="index"><span itemprop="name">html</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>3.7k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>网站设计师应将每一位访问我们网站的用户视为潜在的新用户，为他们提供足够的指导和指南，以完成他们的任务并熟悉网站。几乎所有类型的网站都必须帮助用户，但方式不同。网站的类型将决定您应该提供的帮助系统的类型。<br>此外，帮助系统的有效性直接关系到网站设计的质量。一个设计不好的帮助系统——无论其内容多么好——都会带来劣质的用户体验。在本文中，我们将通过示例研究设计有效帮助页面的一些方法，这些方法可能会启发您的工作。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/product/help_system_design.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/material_typeahead.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/material_typeahead.html" class="post-title-link" itemprop="url">Angular Material实现typeahead简单示例</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-08-24 00:00:00" itemprop="dateCreated datePublished" datetime="2022-08-24T00:00:00+08:00">2022-08-24</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-09-12 12:05:56" itemprop="dateModified" datetime="2022-09-12T12:05:56+08:00">2022-09-12</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>9k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>8 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>项目中需要一个输入提示框, 之前是使用ng-bootstrap实现的. 但是由于系统框架完全迁移到了material design. 所以所有bootstrap的依赖项都要迁移到angular material design.</p>
-<p>如果您的web表单有一个包含许多选项的下拉列表，那么您可能希望通过提前键入来简化用户的生活。幸运的是，Angular Material组件可以让你很容易地做到这一点。在本指南中，我将向您展示如何实现这一点。</p>
-<p>顺便说一句：如果你不熟悉typeahead(提前输入)，这是一种在下拉列表中过滤结果的方法。用户刚开始在字段中键入字符，列表将缩小为仅以用户键入的字符开头的选项。<br>typeahead是一种用户友好的输入方式，因为用户不必在看似无穷无尽的列表中滚动才能找到他们想要的内容。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/material_typeahead.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/material/typography.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/material/typography.html" class="post-title-link" itemprop="url">Material Design 基础 - 文字排版</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-07-06 00:00:00" itemprop="dateCreated datePublished" datetime="2022-07-06T00:00:00+08:00">2022-07-06</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-22 17:45:09" itemprop="dateModified" datetime="2022-10-22T17:45:09+08:00">2022-10-22</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>6.3k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>6 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="文字系统-（The-type-system）"><a href="#文字系统-（The-type-system）" class="headerlink" title="文字系统 （The type system）"></a>文字系统 （The type system）</h2><p>使用排版尽可能清晰有效地呈现您的设计和内容。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/material/typography.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/others/worth_watching_movies.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/others/worth_watching_movies.html" class="post-title-link" itemprop="url">值得观看的电影</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-06-17 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-17T00:00:00+08:00">2022-06-17</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-06 12:57:22" itemprop="dateModified" datetime="2022-07-06T12:57:22+08:00">2022-07-06</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/life/" itemprop="url" rel="index"><span itemprop="name">life</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/life/movies/" itemprop="url" rel="index"><span itemprop="name">movies</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>296</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="值得观看的电影"><a href="#值得观看的电影" class="headerlink" title="值得观看的电影"></a>值得观看的电影</h2><h3 id="《白日梦想家》"><a href="#《白日梦想家》" class="headerlink" title="《白日梦想家》"></a>《白日梦想家》</h3><h3 id="《辩护人》"><a href="#《辩护人》" class="headerlink" title="《辩护人》"></a>《辩护人》</h3><h3 id="《勇敢的心》"><a href="#《勇敢的心》" class="headerlink" title="《勇敢的心》"></a>《勇敢的心》</h3><h3 id="《阿甘正传》"><a href="#《阿甘正传》" class="headerlink" title="《阿甘正传》"></a>《阿甘正传》</h3>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/others/worth_watching_movies.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_flex_layout.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular_flex_layout.html" class="post-title-link" itemprop="url">Angular Flex Layout使用详解</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-06-05 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-05T00:00:00+08:00">2022-06-05</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-19 20:28:22" itemprop="dateModified" datetime="2022-10-19T20:28:22+08:00">2022-10-19</time>
+        <time title="Modified: 2023-01-02 22:13:29" itemprop="dateModified" datetime="2023-01-02T22:13:29+08:00">2023-01-02</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1275,14 +299,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>3.9k</span>
+      <span>23k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
+      <span>21 mins.</span>
     </span>
 </div>
 
@@ -1293,16 +317,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>要在Angular CLI项目中使用@angular/flex-layout相当简单，只需要两个步骤：</p>
-<ol>
-<li><p>安装组件指令</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save @angular/flex-layout</span><br></pre></td></tr></table></figure></li>
-<li><p>将Angular Flex Layout导入到app.module中</p>
- <figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// src/app/app.module.ts</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">import</span> &#123;NgModule&#125; <span class="keyword">from</span> <span class="string">&#x27;@angular/core&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123;FlexLayoutModule&#125; <span class="keyword">from</span> <span class="string">&#x27;@angular/flex-layout&#x27;</span>;</span><br><span class="line"><span class="meta">@NgModule</span>(&#123;</span><br><span class="line"><span class="attr">imports</span>: [FlexLayoutModule],</span><br><span class="line">...</span><br><span class="line">&#125;)</span><br><span class="line"><span class="keyword">export</span> <span class="class"><span class="keyword">class</span> <span class="title">AppModule</span> </span>&#123;&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
+          <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>本文主要讲述在Java技术领域实现websocket服务的五种方式.</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/angular/angular_flex_layout.html#more" rel="contents">
+              <a class="btn" href="/java/spring_websocket.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -1325,8 +343,1112 @@
 
 
 
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/integrate_springboot_angular_using_gradle.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/angular/integrate_springboot_angular_using_gradle.html" class="post-title-link" itemprop="url">使用Gradle整合angular和Spring boot</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-12-31 00:00:00 / Modified: 12:39:06" itemprop="dateCreated datePublished" datetime="2022-12-31T00:00:00+08:00">2022-12-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/frontend/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文讲述如何使用Gradle搭建一个以springboot技术栈作为后端, 使用Angular作为前端技术栈, 同过gradle将其整合成一个项目的实践经验.</p>
+<p>这里只是作为一种实践, 并不建议在生产环境中将前后端耦合在一起. 本文的目的是拓展Spring在(SPA)Single page Application一种能力, 即将实现项目依赖关系, 测试,打包等等自动化.</p>
+<p>实现思路就是通过Gradle task 触发npm build, 将编译后的静态资源文件, 部署到springboot的静态资源文件目录, 然后沿用后端打包过程, 将前后端应用程序整合在一起.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/integrate_springboot_angular_using_gradle.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/cmder_install_configuration.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/linux/cmder_install_configuration.html" class="post-title-link" itemprop="url">Cmder安装与配置</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-12-22 00:00:00 / Modified: 14:35:34" itemprop="dateCreated datePublished" datetime="2022-12-22T00:00:00+08:00">2022-12-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>882</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>相信很多开发者都在寻找一款在Windows下理想的命令行工具, 因为Windows10包括10之前自带的命令行工具真的是弱爆了, 而且它20多年都不曾经发生过太大的改变. 这种状况在应用软件快速发展的时代对很多人来说是不能忍受的, 即使在Windows 11中自带了一个叫terminal的工具, 虽然很强大但是我仍然没有打算使用它, 请容许我大胆的臆测一下它, 可能是因为WSL推出后微软实在觉得之前命令行工具太过简陋, 然后推出了Windows Powershell, 但是powershell还是难堪大任, 于是模仿市面上流行的终端推出了, terminal这样一款命令行工具. 至于之后会不会跟CMD一样数十年不再改进? 需要打一个大大的问号.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/linux/cmder_install_configuration.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/java/configure_multiple_ds_in_springboot.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/java/configure_multiple_ds_in_springboot.html" class="post-title-link" itemprop="url">如何在springboot中配置多个数据源</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-12-21 00:00:00" itemprop="dateCreated datePublished" datetime="2022-12-21T00:00:00+08:00">2022-12-21</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-01-02 22:55:27" itemprop="dateModified" datetime="2023-01-02T22:55:27+08:00">2023-01-02</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="配置数据库详细信息"><a href="#配置数据库详细信息" class="headerlink" title="配置数据库详细信息"></a>配置数据库详细信息</h2><p>首先，我们将配置多个数据源，在application.properties文件中提供详细信息.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/java/configure_multiple_ds_in_springboot.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/java/how_to_create_springBoot_proj.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/java/how_to_create_springBoot_proj.html" class="post-title-link" itemprop="url">如何手动创建一个springBoot项目</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-12-21 00:00:00 / Modified: 11:41:18" itemprop="dateCreated datePublished" datetime="2022-12-21T00:00:00+08:00">2022-12-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>17k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>15 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>在本文中，您将学习如何创建一个简单的Spring Boot应用程序，以及您需要哪些依赖项和技术需要了解。<br>此外，我们将更深入地了解基本原理。我将解释一些最关键的工作机制，如果你想成为一名专业开发人员，你需要了解这些机制。</p>
+<h2 id="创建一个SpringBoot项目"><a href="#创建一个SpringBoot项目" class="headerlink" title="创建一个SpringBoot项目"></a>创建一个SpringBoot项目</h2><h3 id="先决条件"><a href="#先决条件" class="headerlink" title="先决条件"></a>先决条件</h3><p>要创建新的Spring Boot应用程序，我们需要以下开发环境：</p>
+<p><a target="_blank" rel="noopener" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java 1.8</a>或更高版本</p>
+<p>IDE: Spring STS, Intellij Idea或者vscode</p>
+<p>包管理工具: <a target="_blank" rel="noopener" href="https://maven.apache.org/download.cgi">Maven 3.2+</a> 或者<a target="_blank" rel="noopener" href="http://www.gradle.org/downloads">gradle 4+</a></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/java/how_to_create_springBoot_proj.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vscode/cloud_ide.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/vscode/cloud_ide.html" class="post-title-link" itemprop="url">基于Code-server快速部署自己的云开发环境</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-12-21 00:00:00" itemprop="dateCreated datePublished" datetime="2022-12-21T00:00:00+08:00">2022-12-21</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-12-24 09:23:27" itemprop="dateModified" datetime="2022-12-24T09:23:27+08:00">2022-12-24</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tools/" itemprop="url" rel="index"><span itemprop="name">tools</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>2.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>如果手头上有多个设备，需要经常轮换着使用，又或者经常出门不想带太沉的笔记本电脑，想随时随地写代码，Web IDE 可以帮到你。</p>
+<p>Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台iPad或者华为、小米平板，配上蓝牙键盘，坐在阴凉的动物园树下，边看动物边敲代码，多惬意。</p>
+<p>其实 Web IDE 很早就有，但都只能说是玩具，直到现在才有一些不错的产品推出，比如微软和 Github 的Visual Studio Codespaces、coding.net 的 Cloud Studio、华为云 CloudIDE 等。不过，这些产品要么还在测试，要么免费用会有限制或者价格不低，目前还不是非常方便。</p>
+<p>如果想要低成本愉快使用，自己来搭建一个是不错的方案。对配置要求不高的话，一年几十块一百多块就能买到廉价的 VPS 或者云主机。Web IDE 的部署方案推荐两个，code-server 和 Theia。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/vscode/cloud_ide.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/database/install_postgresql_on_windows.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/database/install_postgresql_on_windows.html" class="post-title-link" itemprop="url">Windows上安装PostgreSQL 14</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-12-05 00:00:00 / Modified: 20:54:47" itemprop="dateCreated datePublished" datetime="2022-12-05T00:00:00+08:00">2022-12-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/postgresql/" itemprop="url" rel="index"><span itemprop="name">postgresql</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>879</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><ol>
+<li><p>双击打开安装向导,点击下一步</p>
+</li>
+<li><p>修改Installation directory或者使用默认安装位置</p>
+</li>
+<li><p>选择需要安装的组件, 默认全选, 初学者可以使用默认配置, 有经验的用户可以根据自己的需求选择要安装的组件</p>
+<ul>
+<li>Postgresql Server</li>
+<li>pgAdmin: Postgresql 客户端工具</li>
+<li>Stack builder</li>
+<li>Command line Tools: 命令行工具</li>
+</ul>
+</li>
+<li><p>选择数据存储目录</p>
+</li>
+<li><p>设置超级管理员密码</p>
+</li>
+<li><p>设置端口, 可使用默认端口5432</p>
+</li>
+<li><p>选择locale, 可以使用默认locale</p>
+</li>
+<li><p>安装程序将会提示安装信息</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Installation Directory: C:\Program Files\PostgreSQL\14</span><br><span class="line">Server Installation Directory: C:\Program Files\PostgreSQL\14</span><br><span class="line">Data Directory: C:\Program Files\PostgreSQL\14\data</span><br><span class="line">Database Port: 5432</span><br><span class="line">Database Superuser: postgres</span><br><span class="line">Operating System Account: NT AUTHORITY\NetworkService</span><br><span class="line">Database Service: postgresql-x64-14</span><br><span class="line">Command Line Tools Installation Directory: C:\Program Files\PostgreSQL\14</span><br><span class="line">pgAdmin4 Installation Directory: C:\Program Files\PostgreSQL\14\pgAdmin 4</span><br><span class="line">Stack Builder Installation Directory: C:\Program Files\PostgreSQL\14</span><br><span class="line">Installation Log: C:\Users\xxxx\AppData\Local\Temp\install-postgresql.log</span><br></pre></td></tr></table></figure></li>
+<li><p>点击下一步, 直到安装完成</p>
+</li>
+</ol>
+<h2 id="开启或关闭postgreSQL服务"><a href="#开启或关闭postgreSQL服务" class="headerlink" title="开启或关闭postgreSQL服务"></a>开启或关闭postgreSQL服务</h2><p>可以在windows服务管理界面, 将PostgreSQL服务设置为手动启动, 自动启动, 或关闭.</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/database/migrate_to_postgressql_from_mariadb.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/database/migrate_to_postgressql_from_mariadb.html" class="post-title-link" itemprop="url">从Mariadb迁移到postgresql</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-12-05 00:00:00" itemprop="dateCreated datePublished" datetime="2022-12-05T00:00:00+08:00">2022-12-05</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-01-02 22:56:47" itemprop="dateModified" datetime="2023-01-02T22:56:47+08:00">2023-01-02</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/postgresql/" itemprop="url" rel="index"><span itemprop="name">postgresql</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文主要实验所用的环境, 后端是golang, gin web框架.</p>
+<p>mysql driver:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">github.com/go-sql-driver/mysql v1.4.1</span><br></pre></td></tr></table></figure>
+
+<p>迁移后PostgreSQL driver:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">github.com/jackc/pgx/v5 v5.1.1</span><br></pre></td></tr></table></figure>
+
+<p>迁移前服务器版本为:<br>mariadb 版本为5.5.68-MariaDB</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">mysql  Ver 15.1 Distrib 5.5.68-MariaDB, <span class="keyword">for</span> Linux (x86_64) using readline 5.1</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/database/migrate_to_postgressql_from_mariadb.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/database/postgresql_advanced.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/database/postgresql_advanced.html" class="post-title-link" itemprop="url">PostgreSQL高级篇</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-12-05 00:00:00" itemprop="dateCreated datePublished" datetime="2022-12-05T00:00:00+08:00">2022-12-05</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-01-02 22:53:41" itemprop="dateModified" datetime="2023-01-02T22:53:41+08:00">2023-01-02</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/" itemprop="url" rel="index"><span itemprop="name">devops</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/devops/backend/postgresql/" itemprop="url" rel="index"><span itemprop="name">postgresql</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>3.3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="PG简介"><a href="#PG简介" class="headerlink" title="PG简介"></a>PG简介</h2><p>PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.<br>PostgreSQL开发者把它念作post-gress-Q-L.<br>PostgreSQL的Slogan是世界上最先进的开源关系型数据库.<br>开源界的Oracle, 去O首选</p>
+<p>PostgreSQL官网<br><a target="_blank" rel="noopener" href="https://www.postgresssql.org/">https://www.postgresssql.org/</a></p>
+<p>PostgreSQL中文社区<br><a target="_blank" rel="noopener" href="https://www.postgres.cn/v2/home">https://www.postgres.cn/v2/home</a></p>
+<p>中国数据库流行度排行<br><a target="_blank" rel="noopener" href="https://www.modb.pro/dbRank">https://www.modb.pro/dbRank</a></p>
+<p>全球数据库流行度趋势<br><a target="_blank" rel="noopener" href="https://db-engines.com/en/ranking">https://db-engines.com/en/ranking</a></p>
+<h3 id="PG的历史"><a href="#PG的历史" class="headerlink" title="PG的历史"></a>PG的历史</h3><p>PostgreSQl最初设想于1986年, 当时被叫做Barkley Postgre Project.</p>
+<p>该项目一直到1994年都处于演讲和修改中, 直到开发人员Andrew Yu和Jolly Chen在Postgres中添加了一个SQL(Structured Query Language, 结构化查询语言)翻译程序, 该版本叫做Postgre95, 在开放源代码社区发放. 开始以社区的形式运作.</p>
+<p>1996年, 再次对Postgre95做了较大的改动, 并将其作为PostgreSQL6.0版本发布. 该版本的Postgre提高了后端的速度, 包括增强型SQL92标准以及重要的后端特性(包括子选择, 默认值, 约束和触发器)</p>
+<p>2005年, 发布8.0版本, 开始支持Windows系统环境</p>
+<p>PostgreSQL 9.0: 支持64位Windows系统, 异步流数据复制, Hot Standby;</p>
+<p>PostgreSQL 9.1: 支持数据同步复制, unlogged tables, serializable snapshot isolation, FDW外部表.</p>
+<p>此版本后, PostgreSQL开始得到中国多个行业用户的关注, 开始有应用于电信, 保险, 制造业等边缘系统.</p>
+<p>目前生产环境主流的版本是PostgreSQL 12</p>
+<p>2021-09-30, PostgreSQL全球开发组宣布, 功能更为强大的开源数据库, PostgreSQL 14版本正式发布!</p>
+<h3 id="PG的社区"><a href="#PG的社区" class="headerlink" title="PG的社区"></a>PG的社区</h3><p>PG为什么没有被商业公司控制?</p>
+<ul>
+<li>纯社区</li>
+</ul>
+<p>Sponsor 占比:</p>
+<ul>
+<li>服务| Daas提供商: 29%</li>
+<li>最终用户: 37%</li>
+<li>数据库厂商: 21%</li>
+<li>云厂商</li>
+</ul>
+<p>最终用户深度参与, 使得PG社区像滚雪球越滚越大.</p>
+<p>AWS -&gt; bigsql<br>MS  -&gt; citus<br>IBM -&gt; redhat</p>
+<p>sponsors:</p>
+<p>Pivotal, 2ndQuadrant, Rackspace, NTTGroup, VMWare, Zalando,<br>Crunchy Data, DALIBO, meetme, CONOVA, EDB, Google, data egret,<br>PGX, Postgres, Yandex, IBM, Fujitsu, Redpill, Amazone.</p>
+<ul>
+<li>他们为什么要贡献核心代码?</li>
+</ul>
+<p>最终用户</p>
+<ul>
+<li>希望社区长久, 期望可以享受免费, 可持续发展的, 开源的, 不被任何商业公司, 不被任何国家控制的企业级数据库. 去O, 去DB2, 去Sybase;</li>
+<li>不靠数据库赚钱;</li>
+<li>PG用到的人越多, 越多人背书, 使用越靠谱(事实也是如此);</li>
+<li>抛砖引玉, 企业投入两个研发持续贡献(一年可能一两百万), 实际上整个PG社区有数千人在共享, 对最终用户来说, 简直是赚到了. 使用商业数据库, 除了License等成本, 依旧需要投管理, 研发, 外包资源, 一年数千万甚至上亿, 公司越大, 越有动力去贡献社区. 从趋势来看, 给PG贡献代码的大客户只会越来越多;</li>
+</ul>
+<p>云厂商</p>
+<ul>
+<li>开源数据库与厂商发生利益冲突, 纷纷改协议;</li>
+<li>数据库市场巨大;</li>
+<li>自研是最佳选择, 但是自研有一些问题: 譬如需要培养生态, 需要市场背书, 需要大量研发资源, 可能需要重复造轮子;</li>
+<li>BASE PG的好处:<ul>
+<li>免去自己培养生态,</li>
+<li>避免重复造轮子,</li>
+<li>PG的代码基础非常不错(开源界的Oracle)</li>
+<li>防止其他厂商控制PG失去市场主导能力(AWS, Google, IBM, 微软都已经成为PG社区的赞助商)</li>
+</ul>
+</li>
+</ul>
+<p>数据库厂商</p>
+<ul>
+<li>推一款新的商业数据库, 通常都需要背书, 小厂产品, 谁为你背书?<ul>
+<li>有技术的厂商, 很难挑战已有的数据库市场格局</li>
+<li>有渠道的厂商, 需要抓住窗口期, 快速占领市场, 避免重复造轮子.<br>需要一款可以无法律风险, 二次分发的开源数据库, 唯有PG. 可以贡献核心代码, 社区所有的用户都可以为之背书.</li>
+</ul>
+</li>
+</ul>
+<p>数据库服务|Daas服务提高商</p>
+<ul>
+<li>开源产品的服务提供商, 能力如何体现?<ul>
+<li>当然是你的架构能力, 优化能力, 管理能力, FIX BUG的能力</li>
+<li>最好能贡献核心代码, 有PG为你背书</li>
+</ul>
+</li>
+</ul>
+<p>主要贡献者列表:</p>
+<p><a target="_blank" rel="noopener" href="https://www.postgresql.org/community/contributors">https://www.postgresql.org/community/contributors</a></p>
+<p>全球赞助商</p>
+<p><a target="_blank" rel="noopener" href="https://www.postgresql.org/about/sponsors">https://www.postgresql.org/about/sponsors</a></p>
+<p>PostgreSQL中文BBS</p>
+<p><a target="_blank" rel="noopener" href="https://bbs.pgsqldb.com/client/index.php">https://bbs.pgsqldb.com/client/index.php</a></p>
+<p>PosgreSQL用户</p>
+<p><a target="_blank" rel="noopener" href="https://www.postgresql.org/about/users">https://www.postgresql.org/about/users</a></p>
+<h3 id="PostgreSQL许可证"><a href="#PostgreSQL许可证" class="headerlink" title="PostgreSQL许可证"></a>PostgreSQL许可证</h3><h3 id="PostgreSQL与MySQL的比较"><a href="#PostgreSQL与MySQL的比较" class="headerlink" title="PostgreSQL与MySQL的比较"></a>PostgreSQL与MySQL的比较</h3><p>PostgreSQL相对于MySQL的优势</p>
+<ol>
+<li>在SQL的标准实现上要比MySQL完善, 而且功能实现比较严谨.</li>
+<li>对表连接支持较完整, 优化器的功能完善, 支持的索引类型很多, 复杂查询能力较强.</li>
+<li>PG主表采用堆表存放, MySQL采用索引组织表, 能够支持比MySQL更大的数据量.</li>
+<li>PG的主设备复制属于物理复制, 相对于MySQL基于binlog的逻辑复制, 数据的一致性更加可靠, 复制性能更高, 对主机性能的影响也更小.</li>
+<li>PostgreSQL支持JSON和其他NoSQL功能, 如本机XML支持和使用HSTORE的键值对. 它还支持索引JSON数据以加快访问速度, 特别是10版本JSONB更是强大.</li>
+<li>PostgreSQL完全免费, 而且是BSD协议, 如果你把PostgreSQL改一改, 然后再拿去卖钱, 也没有人管你, 这一点很重要, 这表明了PostgreSQL数据库不会被其它公司控制. 相反, MySQL现在主要是被Oracle公司控制.</li>
+</ol>
+<p>MySQL相对于PG的优势</p>
+<ol>
+<li>innodb的基于回滚段实现的MVCC机制, 相对PG新老数据一起存放的基于XID的MVCC机制, 是占优势的. 新老数据一起存放, 需要定时触发VACUUM, 会带来多余的IO和数据库对象加锁开销, 引起数据库整体的并发能力下降. 而且VACUUM清理不及时, 还可能引发数据膨胀.</li>
+<li>MySQL采用索引组织表, 这种存储方式非常适合基于主键匹配的查询, 删改操作, 但是对表结构设计存在约束.</li>
+<li>MySQL的优化器比较简单, 系统表, 运算符, 数据类型的实现很精简, 非常适合简单的查询操作.</li>
+<li>MySQL相对于PG在国内的流行度更高, PG在国内显得就有些落寞了.</li>
+<li>MySQL的存储引擎插件化机制, 使得它的应用场景更加广泛, 比如除了innodb适合事务处理场景外, myisam适合静态数据的查询场景.</li>
+</ol>
+<p>总结:</p>
+<p>从应用场景来看, PG更加适合严格的企业应用场景(比如金融, 电信, ERP, CRM), 但不仅仅限制于此, PostgreSQL的json, jsonb, hstore等数据格式, 特别适用于一些大数据格式的分析; 而MySQL更适合业务逻辑相对简单, 数据可靠性要求较低的互联网场景(比如facebook, google, alibaba), 当然现在MySQL引擎的大力发展, 功能表现良好.</p>
+<h2 id="安装PostgreSQL"><a href="#安装PostgreSQL" class="headerlink" title="安装PostgreSQL"></a>安装PostgreSQL</h2><p>Windows安装教程可参考<a href="/database/install_postgresql_on_windows.html" title="Windows上安装PostgreSQL 14">Windows上安装PostgreSQL 14</a><br>Linux安装教程可参考<a href="/database/install_postgresql_on_centos7.html" title="Centos7上安装PostgreSQL 14">Centos7上安装PostgreSQL 14</a></p>
+<h2 id="PostgreSQL的基本使用"><a href="#PostgreSQL的基本使用" class="headerlink" title="PostgreSQL的基本使用"></a>PostgreSQL的基本使用</h2><h3 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># psql -h 服务器 -U 用户名 -d 数据库 -p 端口地址 </span></span><br><span class="line">psql -U dbuser -d exampledb -h 127.0.0.1 -p 5432</span><br><span class="line"></span><br><span class="line">$ psql (连接数据库, 默认用户和数据库都是postgres)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 相对于系统用户postgres以同名数据库用户的身份, 登录数据库, 这是不用输入密码的.</span></span><br><span class="line"><span class="comment"># 如果一切正常, 系统提示符会变成&quot;postgres=#&quot;. 表示这时已经进入数据库控制台.</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a target="_blank" rel="noopener" href="https://db-engines.com/en/ranking">数据库流行度排名</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/golang/go_database_sql.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/golang/go_database_sql.html" class="post-title-link" itemprop="url">Go database/sql 教程</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-11-30 00:00:00" itemprop="dateCreated datePublished" datetime="2022-11-30T00:00:00+08:00">2022-11-30</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2022-12-02 12:08:36" itemprop="dateModified" datetime="2022-12-02T12:08:36+08:00">2022-12-02</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>2.1k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Go使用SQL与类SQL数据库的惯例是通过标准库<a target="_blank" rel="noopener" href="http://golang.org/pkg/database/sql/">database/sql</a>。这是一个对关系型数据库的通用抽象，它提供了标准的、轻量的、面向行的接口。不过<code>database/sql</code>的包文档只讲它做了什么，却对如何使用只字未提。快速指南远比堆砌事实有用，本文讲述了<code>database/sql</code>的使用方法及其注意事项。</p>
+<h2 id="顶层抽象"><a href="#顶层抽象" class="headerlink" title="顶层抽象"></a>顶层抽象</h2><p>在Go中访问数据库需要用到sql.DB接口：它可以创建语句(statement)和事务(transaction)，执行查询，获取结果。</p>
+<p>sql.DB并不是数据库连接，也并未在概念上映射到特定的Database)或schema。它只是一个抽象的接口，不同的具体驱动有着不同的实现方式。通常而言，sql.DB会处理一些重要而麻烦的事情，例如操作具体的驱动打开/关闭实际底层数据库的连接，按需管理连接池。</p>
+<p>sql.DB这一抽象让用户不必考虑如何管理并发访问底层数据库的问题。当一个连接在执行任务时会被标记为正在使用。用完之后会放回连接池中。不过用户如果用完连接后忘记释放，就会产生大量的连接，极可能导致资源耗尽（建立太多连接，打开太多文件，缺少可用网络端口）。</p>
+<h2 id="加载驱动"><a href="#加载驱动" class="headerlink" title="加载驱动"></a>加载驱动</h2><p>使用数据库时，除了database/sql包本身，还需要引入想使用的特定数据库驱动。</p>
+<p>尽管有时候一些数据库特有的功能必需通过驱动的Ad Hoc接口来实现，但通常只要有可能，还是应当尽量只用database/sql中定义的类型。这可以减小用户代码与驱动的耦合，使切换驱动时代码改动最小化，也尽可能地使用户遵循Go的惯用法。本文使用PostgreSQL为例，PostgreSQL的著名的驱动有：</p>
+<ul>
+<li>github.com/lib/pq</li>
+<li>github.com/go-pg/pg</li>
+<li>github.com/jackc/pgx</li>
+</ul>
+<p>这里以pgx为例，它性能表现不俗，并对PostgreSQL诸多特性与类型有着良好的支持。既可使用Ad-Hoc API，也提供了标准数据库接口的实现：github.com/jackc/pgx/stdlib。</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> (</span><br><span class="line">    <span class="string">&quot;database/sql&quot;</span></span><br><span class="line">    _ <span class="string">&quot;github.com/jackx/pgx/stdlib&quot;</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>使用_别名来匿名导入驱动，驱动的导出名字不会出现在当前作用域中。导入时，驱动的初始化函数会调用sql.Register将自己注册在database/sql包的全局变量sql.drivers中，以便以后通过sql.Open访问。</p>
+<p>加载驱动包后，需要使用sql.Open()来创建sql.DB：</p>
+<h2 id="连接数据"><a href="#连接数据" class="headerlink" title="连接数据"></a>连接数据</h2><p>加载驱动包后，需要使用sql.Open()来创建sql.DB：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    db, err := sql.Open(<span class="string">&quot;pgx&quot;</span>,<span class="string">&quot;postgres://localhost:5432/postgres&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">        log.Fatal(err)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">defer</span> db.Close()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>sql.Open有两个参数：</p>
+<ul>
+<li>第一个参数是驱动名称，字符串类型。为避免混淆，一般与包名相同，这里是pgx。</li>
+<li>第二个参数也是字符串，内容依赖于特定驱动的语法。通常是URL的形式，例如postgres://localhost:5432。</li>
+<li>绝大多数情况下都应当检查database/sql操作所返回的错误。</li>
+<li>一般而言，程序需要在退出时通过sql.DB的Close()方法释放数据库连接资源。如果其生命周期不超过函数的范围，则应当使用defer db.Close()</li>
+</ul>
+<p>执行sql.Open()并未实际建立起到数据库的连接，也不会验证驱动参数。第一个实际的连接会惰性求值，延迟到第一次需要时建立。用户应该通过db.Ping()来检查数据库是否实际可用。</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> err = db.Ping(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">    <span class="comment">// do something about db error</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>sql.DB对象是为了长连接而设计的，不要频繁Open()和Close()数据库。而应该为每个待访问的数据库创建一个sql.DB实例，并在用完前一直保留它。需要时可将其作为参数传递，或注册为全局对象。</p>
+<p>如果没有按照database/sql设计的意图，不把sql.DB当成长期对象来用而频繁开关启停，就可能遭遇各式各样的错误：无法复用和共享连接，耗尽网络资源，由于TCP连接保持在TIME_WAIT状态而间断性的失败等……</p>
+<h2 id="执行SQL"><a href="#执行SQL" class="headerlink" title="执行SQL"></a>执行SQL</h2><p>有了sql.DB实例之后就可以开始执行查询语句了。</p>
+<p>Go将数据库操作分为两类：Query与Exec。两者的区别在于前者会返回结果，而后者不会。</p>
+<ul>
+<li>Query表示查询，它会从数据库获取查询结果（一系列行，可能为空）。</li>
+<li>Exec表示执行语句，它不会返回行。</li>
+</ul>
+<p>此外还有两种常见的数据库操作模式：</p>
+<ul>
+<li>QueryRow表示只返回一行的查询，作为Query的一个常见特例。</li>
+<li>Prepare表示准备一个需要多次使用的语句，供后续执行用。</li>
+</ul>
+<h2 id="操作数据"><a href="#操作数据" class="headerlink" title="操作数据"></a>操作数据</h2><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/178898">Go database/sql 教程</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
 
 </div>
@@ -1338,7 +1460,7 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2022</span>
+  <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -1350,14 +1472,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">377k</span>
+    <span title="Symbols count total">437k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">5:42</span>
+    <span title="Reading time total">6:38</span>
   </span>
 </div>
 <div class="busuanzi-count">

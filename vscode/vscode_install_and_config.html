@@ -30,25 +30,25 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="1. 介绍 2. 如何打开配置 3. VScode用户设置 3.1. 设置字体大小 3.2. 设置自动保存方式 3.3. 设置自动补全 3.4. 查询中过滤掉非必要的文件 3.5. 过滤文件 3.6. 关闭自动检测更新 3.7. 配置大小写转换快捷键 3.8. 配置快捷键 3.9. 安装与配置主体 3.10. 关闭Open editor 3.11. 在侧边栏快速定位文件 3.12. vscode">
+<meta name="description" content="1. 介绍 VSCode安装 下载VSCode   2. 如何打开配置 3. VScode用户设置 3.1. 设置字体大小 3.2. 设置自动保存方式 3.3. 设置自动补全 3.4. 查询中过滤掉非必要的文件 3.5. 过滤文件 3.6. 关闭自动检测更新 3.7. 配置大小写转换快捷键 3.8. 配置快捷键 3.9. 安装与配置主体 3.10. 关闭Open editor 3.11. 在侧边">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vscode基本配置指南">
-<meta property="og:url" content="http://www.pengshu.net/vscode/vscode_config_guide.html">
+<meta property="og:url" content="http://www.pengshu.net/vscode/vscode_install_and_config.html">
 <meta property="og:site_name" content="鹏叔的IT技术博客空间">
-<meta property="og:description" content="1. 介绍 2. 如何打开配置 3. VScode用户设置 3.1. 设置字体大小 3.2. 设置自动保存方式 3.3. 设置自动补全 3.4. 查询中过滤掉非必要的文件 3.5. 过滤文件 3.6. 关闭自动检测更新 3.7. 配置大小写转换快捷键 3.8. 配置快捷键 3.9. 安装与配置主体 3.10. 关闭Open editor 3.11. 在侧边栏快速定位文件 3.12. vscode">
+<meta property="og:description" content="1. 介绍 VSCode安装 下载VSCode   2. 如何打开配置 3. VScode用户设置 3.1. 设置字体大小 3.2. 设置自动保存方式 3.3. 设置自动补全 3.4. 查询中过滤掉非必要的文件 3.5. 过滤文件 3.6. 关闭自动检测更新 3.7. 配置大小写转换快捷键 3.8. 配置快捷键 3.9. 安装与配置主体 3.10. 关闭Open editor 3.11. 在侧边">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-13T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-10-19T16:34:47.645Z">
+<meta property="article:modified_time" content="2022-11-29T13:47:36.715Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="vscode">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://www.pengshu.net/vscode/vscode_config_guide.html">
+<link rel="canonical" href="http://www.pengshu.net/vscode/vscode_install_and_config.html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/vscode/vscode_config_guide.html","path":"vscode/vscode_config_guide.html","title":"vscode基本配置指南"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/vscode/vscode_install_and_config.html","path":"vscode/vscode_install_and_config.html","title":"vscode基本配置指南"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>vscode基本配置指南 | 鹏叔的IT技术博客空间</title>
@@ -166,7 +166,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">1. 介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">2. 如何打开配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-VScode%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">3. VScode用户设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F"><span class="nav-number">3.1.</span> <span class="nav-text">3.1. 设置字体大小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E6%96%B9%E5%BC%8F"><span class="nav-number">3.2.</span> <span class="nav-text">3.2. 设置自动保存方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8"><span class="nav-number">3.3.</span> <span class="nav-text">3.3. 设置自动补全</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-4-%E6%9F%A5%E8%AF%A2%E4%B8%AD%E8%BF%87%E6%BB%A4%E6%8E%89%E9%9D%9E%E5%BF%85%E8%A6%81%E7%9A%84%E6%96%87%E4%BB%B6"><span class="nav-number">3.4.</span> <span class="nav-text">3.4. 查询中过滤掉非必要的文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-5-%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6"><span class="nav-number">3.5.</span> <span class="nav-text">3.5. 过滤文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-6-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E6%9B%B4%E6%96%B0"><span class="nav-number">3.6.</span> <span class="nav-text">3.6. 关闭自动检测更新</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-7-%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E8%BD%AC%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">3.7.</span> <span class="nav-text">3.7. 配置大小写转换快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-8-%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">3.8.</span> <span class="nav-text">3.8. 配置快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-9-%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E4%B8%BB%E4%BD%93"><span class="nav-number">3.9.</span> <span class="nav-text">3.9. 安装与配置主体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-10-%E5%85%B3%E9%97%ADOpen-editor"><span class="nav-number">3.10.</span> <span class="nav-text">3.10. 关闭Open editor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-11-%E5%9C%A8%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E6%96%87%E4%BB%B6"><span class="nav-number">3.11.</span> <span class="nav-text">3.11. 在侧边栏快速定位文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-12-vscode%E6%95%B4%E5%90%88gitbash"><span class="nav-number">3.12.</span> <span class="nav-text">3.12. vscode整合gitbash</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%AE%89%E8%A3%85plugins"><span class="nav-number">4.</span> <span class="nav-text">4. 安装plugins</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8"><span class="nav-number">4.1.</span> <span class="nav-text">4.1. 插件列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE"><span class="nav-number">5.</span> <span class="nav-text">5. 完整配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">6.</span> <span class="nav-text">6. 参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">1. 介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#VSCode%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">VSCode安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDVSCode"><span class="nav-number">2.1.</span> <span class="nav-text">下载VSCode</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">2. 如何打开配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-VScode%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">3. VScode用户设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F"><span class="nav-number">4.1.</span> <span class="nav-text">3.1. 设置字体大小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E6%96%B9%E5%BC%8F"><span class="nav-number">4.2.</span> <span class="nav-text">3.2. 设置自动保存方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8"><span class="nav-number">4.3.</span> <span class="nav-text">3.3. 设置自动补全</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-4-%E6%9F%A5%E8%AF%A2%E4%B8%AD%E8%BF%87%E6%BB%A4%E6%8E%89%E9%9D%9E%E5%BF%85%E8%A6%81%E7%9A%84%E6%96%87%E4%BB%B6"><span class="nav-number">4.4.</span> <span class="nav-text">3.4. 查询中过滤掉非必要的文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-5-%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6"><span class="nav-number">4.5.</span> <span class="nav-text">3.5. 过滤文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-6-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E6%9B%B4%E6%96%B0"><span class="nav-number">4.6.</span> <span class="nav-text">3.6. 关闭自动检测更新</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-7-%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E8%BD%AC%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">4.7.</span> <span class="nav-text">3.7. 配置大小写转换快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-8-%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">4.8.</span> <span class="nav-text">3.8. 配置快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-9-%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E4%B8%BB%E4%BD%93"><span class="nav-number">4.9.</span> <span class="nav-text">3.9. 安装与配置主体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-10-%E5%85%B3%E9%97%ADOpen-editor"><span class="nav-number">4.10.</span> <span class="nav-text">3.10. 关闭Open editor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-11-%E5%9C%A8%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E6%96%87%E4%BB%B6"><span class="nav-number">4.11.</span> <span class="nav-text">3.11. 在侧边栏快速定位文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-12-vscode%E6%95%B4%E5%90%88gitbash"><span class="nav-number">4.12.</span> <span class="nav-text">3.12. vscode整合gitbash</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%AE%89%E8%A3%85plugins"><span class="nav-number">5.</span> <span class="nav-text">4. 安装plugins</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8"><span class="nav-number">5.1.</span> <span class="nav-text">4.1. 插件列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE"><span class="nav-number">6.</span> <span class="nav-text">5. 完整配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">7.</span> <span class="nav-text">6. 参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -179,18 +179,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">81</span>
+          <span class="site-state-item-count">93</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-count">26</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">37</span>
+        <span class="site-state-item-count">42</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -253,7 +253,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-cn">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vscode/vscode_config_guide.html">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vscode/vscode_install_and_config.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-20 00:34:47" itemprop="dateModified" datetime="2022-10-20T00:34:47+08:00">2022-10-20</time>
+        <time title="Modified: 2022-11-29 21:47:36" itemprop="dateModified" datetime="2022-11-29T21:47:36+08:00">2022-11-29</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -310,7 +310,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>6.2k</span>
+      <span>6.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -330,6 +330,10 @@
     <div class="post-body" itemprop="articleBody">
         <ul>
 <li><a href="#1-%E4%BB%8B%E7%BB%8D">1. 介绍</a></li>
+<li><a href="#vscode%E5%AE%89%E8%A3%85">VSCode安装</a><ul>
+<li><a href="#%E4%B8%8B%E8%BD%BDvscode">下载VSCode</a></li>
+</ul>
+</li>
 <li><a href="#2-%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E9%85%8D%E7%BD%AE">2. 如何打开配置</a></li>
 <li><a href="#3-vscode%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE">3. VScode用户设置</a><ul>
 <li><a href="#31-%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F">3.1. 设置字体大小</a></li>
@@ -356,6 +360,19 @@
 <h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>vscode可以做很多事, 是真正的生产力工具, 但是如何将其配置得好用并符合自己的需求, 却是很复杂的一件事. 它的默认模式就像一辆自动挡的汽车, 不做任何改动也能开着上路, 如果想压榨一下它的生产力, 还是要懂得一些配置相关的知识或技巧.  </p>
 <span id="more"></span>
 
+<h2 id="VSCode安装"><a href="#VSCode安装" class="headerlink" title="VSCode安装"></a>VSCode安装</h2><h3 id="下载VSCode"><a href="#下载VSCode" class="headerlink" title="下载VSCode"></a>下载VSCode</h3><p>VSCode有两种版本</p>
+<ul>
+<li><p>User Installer版：会安装在当前计算机帐户目录,意味着如果使用另一个帐号登陆计算机将无法使用别人安装的vscode。</p>
+</li>
+<li><p>System Installer版：安装在非用户目录,例如C盘根目录,任何帐户都可以使用。(建议使用此版本)</p>
+</li>
+<li><p>vscode默认提供的User Installer版,大多数人都是用的这个版本。</p>
+</li>
+<li><p>下载地址<a target="_blank" rel="noopener" href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p>
+</li>
+</ul>
+<p>安装步骤:</p>
+<p>双击Installer按指引安装</p>
 <h2 id="2-如何打开配置"><a href="#2-如何打开配置" class="headerlink" title="2. 如何打开配置"></a>2. 如何打开配置</h2><p>vscode的配置入口并不在一个很显眼或很容易找到的地方, 它位于一个与配置不太关联的主菜单下的二级菜单, 这也是为什么此处要单独劈开一节介绍如何打开配置得原因.</p>
 <ul>
 <li>打开方式<ul>
@@ -487,6 +504,12 @@
 <td align="left">ext install golang.go</td>
 <td align="left">Rich Go language support for Visual Studio Code</td>
 </tr>
+<tr>
+<td align="left">rust-analyzer</td>
+<td align="left">v0.3.1301</td>
+<td align="left">ext install rust-lang.rust-analyzer</td>
+<td align="left">this extention provides support for the Rust programming language.</td>
+</tr>
 </tbody></table>
 <blockquote>
 <p>Ctrl+shift+p 或者按F1  打開命令行提示框， 輸入安裝命令進行插件安裝</p>
@@ -511,7 +534,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="http://www.pengshu.net/vscode/vscode_config_guide.html" title="vscode基本配置指南">http://www.pengshu.net/vscode/vscode_config_guide.html</a>
+      <a href="http://www.pengshu.net/vscode/vscode_install_and_config.html" title="vscode基本配置指南">http://www.pengshu.net/vscode/vscode_install_and_config.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -556,7 +579,7 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2022</span>
+  <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -568,14 +591,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">377k</span>
+    <span title="Symbols count total">437k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">5:42</span>
+    <span title="Reading time total">6:38</span>
   </span>
 </div>
 <div class="busuanzi-count">
