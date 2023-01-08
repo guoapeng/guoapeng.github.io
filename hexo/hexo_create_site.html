@@ -38,7 +38,7 @@
 <meta property="og:description" content="背景介绍 本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．  说明：我的工作环境是deepin　linux, 处于安全性考虑一直运行在普通用户下, 如果你的安装环境是Mac 或者windows，请理解每一步骤的含义后执行调整命令或参数.或者在我的博客下面留言，我有空的时候会统一回复．  说说我为什么选择Hexo, 目前比">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-01T14:02:39.880Z">
+<meta property="article:modified_time" content="2023-01-08T03:08:43.866Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">42</span>
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:02:39" itemprop="dateModified" datetime="2022-05-01T22:02:39+08:00">2022-05-01</time>
+        <time title="Modified: 2023-01-08 11:08:43" itemprop="dateModified" datetime="2023-01-08T11:08:43+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -310,7 +310,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>7k</span>
+      <span>7.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -337,7 +337,7 @@
 <span id="more"></span></li>
 </ul>
 <h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul>
-<li><p>安装Hexo之前需要安装nodejs, 可以参考我的博文<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/750060ede101">安装并配置nodejs</a></p>
+<li><p>安装Hexo之前需要安装nodejs, 可以参考我的博文<a href="https://www.pengshu.net/nodejs/install_and_config_nodejs.html">安装并配置nodejs</a></p>
 </li>
 <li><p>安装Hexo命令行工具</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># npm是nodejs 的包管理工具，sudo是linux或unix下将命令以管理员身份运行，install 为npm子命令用于安装工具包或项目依赖</span></span><br><span class="line"><span class="comment"># -g为全局安装，安装一次后，在命令行中处于任何目录位置都能使用，如果不带-g 工具包被安装在当前项目的node_modules，</span></span><br><span class="line"><span class="comment"># 需要借助npx才能执行相关命令，想hexo-cli这样的命令行工具建议全局安装</span></span><br><span class="line"><span class="comment"># 这一步需要管理员权限，sudo即为以超级用户运行安装命令，linux 和mac 安装方法相同</span></span><br><span class="line"><span class="comment"># 如果是windows环境可能需要以管理员身份运行，命令行前不需要sudo</span></span><br><span class="line">sudo npm install hexo-cli -g</span><br><span class="line">    　或者</span><br><span class="line"><span class="comment"># （推荐）如果访问墙外资源较慢，可以是cnpm经过阿里的镜像安装hexo-cli命令行工具，cnpm前面的c即为china的意思，wall内专用nodejs包管理工具</span></span><br><span class="line">sudo cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure></li>
@@ -454,14 +454,17 @@
 
 <p>当提示输入git用户名密码时，输入你的github用户名, 当提升输入密码时，输入上面生成的token</p>
 </li>
-<li><p>浏览器打开自己的博客首页 <a href="https://www.pengshu.net/">https://www.pengshu.net/</a></p>
+<li><p>浏览器打开自己的博客首页 <a target="_blank" rel="noopener" href="https://guoapeng.github.io/">https://guoapeng.github.io/</a></p>
+</li>
+<li><p>由于我设置了dns cname所以实际会跳转到<a href="https://www.pengshu.net/">https://www.pengshu.net/</a></p>
 </li>
 <li><p>回头看一下hexo上传了哪些文件到github, 其实只是上传了编译后的文件</p>
 </li>
 <li><p>所以需要自己将源文件保存到一个私有仓库，或者上传到另一个github仓库</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">2021/10/04/post</span><br><span class="line">archives</span><br><span class="line">css</span><br><span class="line">fancybox</span><br><span class="line">js</span><br><span class="line">tags/Hexo</span><br><span class="line">index.html</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h2 id="进阶-如何开启评论-转发-优化界面等等"><a href="#进阶-如何开启评论-转发-优化界面等等" class="headerlink" title="进阶: 如何开启评论, 转发, 优化界面等等"></a>进阶: 如何开启评论, 转发, 优化界面等等</h2><p>可以参考我的文章  <a href="/hexo/hexo_advance_apply_next_theme.html" title="Hexo配置Next主题">Hexo配置Next主题</a></p>
+<h2 id="进阶-如何开启评论-转发-优化界面等等"><a href="#进阶-如何开启评论-转发-优化界面等等" class="headerlink" title="进阶: 如何开启评论, 转发, 优化界面等等"></a>进阶: 如何开启评论, 转发, 优化界面等等</h2><p>可以参考我的文章  <a href="https://www.pengshu.net/hexo/hexo_blog_comments.html">Hexo博客添加评论功能</a></p>
+<p>更多Hexo相关主题可以访问我的博客hexo主题<a href="https://www.pengshu.net/hexo/">https://www.pengshu.net/hexo/</a></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/docs/">Hexo官方文档</a></p>
 <p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">Hexo 配置文档</a></p>
 <h2 id="trouble-shooting"><a href="#trouble-shooting" class="headerlink" title="trouble shooting"></a>trouble shooting</h2><ul>
@@ -611,14 +614,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">437k</span>
+    <span title="Symbols count total">439k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">6:39</span>
   </span>
 </div>
 <div class="busuanzi-count">

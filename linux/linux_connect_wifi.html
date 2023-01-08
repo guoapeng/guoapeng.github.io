@@ -30,15 +30,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="环境描述 以下是验证本教程使用的环境">
+<meta name="description" content="1. 环境描述 以下是验证本教程使用的环境">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux命令行连接wifi">
 <meta property="og:url" content="http://www.pengshu.net/linux/linux_connect_wifi.html">
 <meta property="og:site_name" content="鹏叔的IT技术博客空间">
-<meta property="og:description" content="环境描述 以下是验证本教程使用的环境">
+<meta property="og:description" content="1. 环境描述 以下是验证本教程使用的环境">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-08T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-07-09T10:51:08.082Z">
+<meta property="article:modified_time" content="2023-01-08T03:46:41.719Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
@@ -166,7 +166,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">环境描述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A1%AE%E8%AE%A4%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E7%8A%B6%E6%80%81"><span class="nav-number">2.</span> <span class="nav-text">确认无线网卡状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%8F%AF%E7%94%A8wifi"><span class="nav-number">3.</span> <span class="nav-text">查看可用wifi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEwifi"><span class="nav-number">4.</span> <span class="nav-text">配置wifi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%BE%E6%8E%A5wifi"><span class="nav-number">5.</span> <span class="nav-text">链接wifi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96ip-%E5%9C%B0%E5%9D%80"><span class="nav-number">6.</span> <span class="nav-text">获取ip 地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%AA%8C%E8%AF%81%E6%98%AF%E5%90%A6%E9%93%BE%E6%8E%A5%E6%88%90%E5%8A%9F"><span class="nav-number">7.</span> <span class="nav-text">验证是否链接成功</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#trouble-shooting"><span class="nav-number">8.</span> <span class="nav-text">trouble shooting</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E7%8E%AF%E5%A2%83%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">1. 环境描述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E7%A1%AE%E8%AE%A4%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E7%8A%B6%E6%80%81"><span class="nav-number">2.</span> <span class="nav-text">2. 确认无线网卡状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%9F%A5%E7%9C%8B%E5%8F%AF%E7%94%A8wifi"><span class="nav-number">3.</span> <span class="nav-text">3. 查看可用wifi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E9%85%8D%E7%BD%AEwifi"><span class="nav-number">4.</span> <span class="nav-text">4. 配置wifi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E9%93%BE%E6%8E%A5wifi"><span class="nav-number">5.</span> <span class="nav-text">5. 链接wifi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E8%8E%B7%E5%8F%96ip-%E5%9C%B0%E5%9D%80"><span class="nav-number">6.</span> <span class="nav-text">6. 获取ip 地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E9%AA%8C%E8%AF%81%E6%98%AF%E5%90%A6%E9%93%BE%E6%8E%A5%E6%88%90%E5%8A%9F"><span class="nav-number">7.</span> <span class="nav-text">7. 验证是否链接成功</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-trouble-shooting"><span class="nav-number">8.</span> <span class="nav-text">8. trouble shooting</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-%E5%90%8E%E7%BB%AD"><span class="nav-number">9.</span> <span class="nav-text">9. 后续</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">42</span>
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-09 18:51:08" itemprop="dateModified" datetime="2022-07-09T18:51:08+08:00">2022-07-09</time>
+        <time title="Modified: 2023-01-08 11:46:41" itemprop="dateModified" datetime="2023-01-08T11:46:41+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -328,11 +328,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="环境描述"><a href="#环境描述" class="headerlink" title="环境描述"></a>环境描述</h2><ul>
+        <h2 id="1-环境描述"><a href="#1-环境描述" class="headerlink" title="1. 环境描述"></a>1. 环境描述</h2><ul>
 <li>以下是验证本教程使用的环境<span id="more"></span>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$uname</span> -a</span><br><span class="line"> Linux computer_name 5.4.70-amd64-desktop <span class="comment">#1 SMP Wed Oct 14 15:24:23 CST 2020 x86_64 GNU/Linux</span></span><br><span class="line"></span><br><span class="line"> <span class="variable">$cat</span> /proc/version</span><br><span class="line"> Linux version 5.4.70-amd64-desktop (deepin@deepin-PC) (gcc version 8.3.0 (Uos 8.3.0.3-3+rebuild)) <span class="comment">#1 SMP Wed Oct 14 15:24:23 CST 2020</span></span><br></pre></td></tr></table></figure></li>
 </ul>
-<h2 id="确认无线网卡状态"><a href="#确认无线网卡状态" class="headerlink" title="确认无线网卡状态"></a>确认无线网卡状态</h2><ul>
+<h2 id="2-确认无线网卡状态"><a href="#2-确认无线网卡状态" class="headerlink" title="2. 确认无线网卡状态"></a>2. 确认无线网卡状态</h2><ul>
 <li><p>使用 iwconfig 命令查询当前网卡状态</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$iwconfig</span></span><br><span class="line"><span class="variable">$iwconfig</span></span><br><span class="line">wlp3s0    IEEE 802.11  ESSID:<span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -344,22 +344,22 @@
 </ul>
 </li>
 </ul>
-<h2 id="查看可用wifi"><a href="#查看可用wifi" class="headerlink" title="查看可用wifi"></a>查看可用wifi</h2><p>扫描可用wifi</p>
+<h2 id="3-查看可用wifi"><a href="#3-查看可用wifi" class="headerlink" title="3. 查看可用wifi"></a>3. 查看可用wifi</h2><p>扫描可用wifi</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo iw wlp3s0 scan|grep SSID</span><br></pre></td></tr></table></figure>
 
-<h2 id="配置wifi"><a href="#配置wifi" class="headerlink" title="配置wifi"></a>配置wifi</h2><p>说明：本人连接的是企业版wifi,需要验证用户名和密码。如果是个人版，配置文件会和下面不一样<br>以管理员身份修改/etc/wpa_supplicant/wpa_supplicant.conf</p>
+<h2 id="4-配置wifi"><a href="#4-配置wifi" class="headerlink" title="4. 配置wifi"></a>4. 配置wifi</h2><p>说明：本人连接的是企业版wifi,需要验证用户名和密码。如果是个人版，配置文件会和下面不一样<br>以管理员身份修改/etc/wpa_supplicant/wpa_supplicant.conf</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">network=&#123;</span><br><span class="line">ssid=&quot;wifi name&quot;</span><br><span class="line">scan_ssid=1</span><br><span class="line">key_mgmt=WPA-EAP</span><br><span class="line">eap=PEAP</span><br><span class="line">identity=&quot;your login id&quot;</span><br><span class="line">password=&quot;your password&quot;</span><br><span class="line">priority=1</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="链接wifi"><a href="#链接wifi" class="headerlink" title="链接wifi"></a>链接wifi</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo wpa_supplicant -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf</span><br><span class="line"><span class="comment">#或者启动为守护进程</span></span><br><span class="line">sudo wpa_supplicant -B -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf</span><br></pre></td></tr></table></figure>
+<h2 id="5-链接wifi"><a href="#5-链接wifi" class="headerlink" title="5. 链接wifi"></a>5. 链接wifi</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo wpa_supplicant -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf</span><br><span class="line"><span class="comment">#或者启动为守护进程</span></span><br><span class="line">sudo wpa_supplicant -B -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf</span><br></pre></td></tr></table></figure>
 
-<h2 id="获取ip-地址"><a href="#获取ip-地址" class="headerlink" title="获取ip 地址"></a>获取ip 地址</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dhclient wlp3s0</span><br></pre></td></tr></table></figure>
+<h2 id="6-获取ip-地址"><a href="#6-获取ip-地址" class="headerlink" title="6. 获取ip 地址"></a>6. 获取ip 地址</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dhclient wlp3s0</span><br></pre></td></tr></table></figure>
 
-<h2 id="验证是否链接成功"><a href="#验证是否链接成功" class="headerlink" title="验证是否链接成功"></a>验证是否链接成功</h2><ul>
+<h2 id="7-验证是否链接成功"><a href="#7-验证是否链接成功" class="headerlink" title="7. 验证是否链接成功"></a>7. 验证是否链接成功</h2><ul>
 <li>检查是否成功连接到wifi 获取到ip 地址</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br><span class="line">或者</span><br><span class="line">ip address</span><br></pre></td></tr></table></figure>
 
-<h2 id="trouble-shooting"><a href="#trouble-shooting" class="headerlink" title="trouble shooting"></a>trouble shooting</h2><ul>
+<h2 id="8-trouble-shooting"><a href="#8-trouble-shooting" class="headerlink" title="8. trouble shooting"></a>8. trouble shooting</h2><ul>
 <li><p>issue 1:<br>如果遇到类似下面这样的问题， 可以考虑关闭wpa_applicant 进程，再重新连接<br>wlp3s0: Associated with 6c:8b:d3:<br>wlp3s0: CTRL-EVENT-EAP-STARTED EAP authentication started<br>wlp3s0: CTRL-EVENT-DISCONNECTED bssid=6c:8b:d3:c7: reason=3 locally_generated=1</p>
 <ul>
 <li><p>solution:</p>
@@ -367,6 +367,7 @@
 </ul>
 </li>
 </ul>
+<h2 id="9-后续"><a href="#9-后续" class="headerlink" title="9. 后续"></a>9. 后续</h2><p>更多linux相关知识, 请参考<a href="https://www.pengshu.net/tags/linux/">鹏叔的技术博客linux tag</a>, 获取实时更新的Linux文章.</p>
 
     </div>
 
@@ -400,13 +401,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/windows/chocolatey_installation.html" rel="prev" title="chocolatey安装和使用">
-                  <i class="fa fa-chevron-left"></i> chocolatey安装和使用
+                <a href="/k8s/setup_k8s_cluster.html" rel="prev" title="创建k8s集群">
+                  <i class="fa fa-chevron-left"></i> 创建k8s集群
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/k8s/setup_k8s_cluster.html" rel="next" title="创建k8s集群">
-                  创建k8s集群 <i class="fa fa-chevron-right"></i>
+                <a href="/java/jdk17_installation.html" rel="next" title="JDK17安装">
+                  JDK17安装 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -441,14 +442,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">437k</span>
+    <span title="Symbols count total">439k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">6:39</span>
   </span>
 </div>
 <div class="busuanzi-count">

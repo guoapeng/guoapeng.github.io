@@ -38,7 +38,7 @@
 <meta property="og:description" content="背景介绍本文主要讲解hexo cli的使用和详细信息，以及相关示例．">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-30T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-01T14:01:03.633Z">
+<meta property="article:modified_time" content="2023-01-08T03:30:50.863Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">42</span>
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:01:03" itemprop="dateModified" datetime="2022-05-01T22:01:03+08:00">2022-05-01</time>
+        <time title="Modified: 2023-01-08 11:30:50" itemprop="dateModified" datetime="2023-01-08T11:30:50+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -349,15 +349,36 @@
 <p>Hexo 有三种默认版面：post、page 和 draft，它们分别对应不同的路径，而您自定义的其他版面和 post 相同，都将储存到 source/_posts 文件夹。<br><strong>这里的title是必须指定的</strong>，如果标题包含空格的话，请使用引号括起来。例如：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> new <span class="string">&quot;post title with whitespace&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>new 指令还有一些选项可供使用<br>| 参数 | 描述 |<br>| —-  | —- |<br>|-p, –path | 自定义新文章的路径 |<br>| -r, –replace | 如果存在同名文章，将其替换 |<br>| -s, –slug | 文章的 Slug，作为新文章的文件名和发布后的 URL |<br>说明：  </p>
+<p>new 指令还有一些选项可供使用</p>
+<table>
+<thead>
+<tr>
+<th align="left">参数</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">-p, –path</td>
+<td align="left">自定义新文章的路径</td>
+</tr>
+<tr>
+<td align="left">-r, –replace</td>
+<td align="left">如果存在同名文章，将其替换</td>
+</tr>
+<tr>
+<td align="left">-s, –slug</td>
+<td align="left">文章的 Slug，作为新文章的文件名和发布后的 URL</td>
+</tr>
+</tbody></table>
+<p>说明：  </p>
 <ul>
-<li><p>这里的slug也是印刷术语，而且是上一代印刷术铅字印刷术中的一个术语，意为铅字条，即把单个铅字组成一长条，其用途百度了很久也不知道和这里的文件名有何联系，如果知道的欢迎在原文下面留言．  </p>
-</li>
-<li><p>默认情况下，Hexo 会使用文章的标题来决定文章文件的路径。对于独立页面来说，Hexo 会创建一个以标题为名字的目录，并在目录中放置一个 index.md 文件。你可以使用 –path 参数来覆盖上述行为、自行决定文件的目录：</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page --path about/me <span class="string">&quot;About me&quot;</span></span><br></pre></td></tr></table></figure>
+<li>这里的slug也是印刷术语，而且是上一代印刷术铅字印刷术中的一个术语，意为铅字条，即把单个铅字组成一长条，其用途百度了很久也不知道和这里的文件名有何联系，如果知道的欢迎在原文下面留言．  </li>
+<li>默认情况下，Hexo 会使用文章的标题来决定文章文件的路径。对于独立页面来说，Hexo 会创建一个以标题为名字的目录，并在目录中放置一个 index.md 文件。你可以使用 –path 参数来覆盖上述行为、自行决定文件的目录：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page --path about/me <span class="string">&quot;About me&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>以上命令会创建一个 source/about/me.md 文件，同时 Front Matter 中的 title 为 “About me”  </p>
-</li>
+<ul>
 <li><p>注意！title 是必须指定的！如果不指定title, 例如在下面的例子中：</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page --path about/me</span><br></pre></td></tr></table></figure>
 
@@ -514,14 +535,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">437k</span>
+    <span title="Symbols count total">439k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">6:39</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -187,7 +187,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">42</span>
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -249,6 +249,107 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/install_gradle_on_linux.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/linux/install_gradle_on_linux.html" class="post-title-link" itemprop="url">Linux下安装gradle</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-01-10 00:00:00" itemprop="dateCreated datePublished" datetime="2022-01-10T00:00:00+08:00">2022-01-10</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-01-08 12:37:06" itemprop="dateModified" datetime="2023-01-08T12:37:06+08:00">2023-01-08</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>619</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具</p>
+<p>下面就描述一下如何在linux环境下安装配置gradle环境</p>
+<h2 id="前置条件"><a href="#前置条件" class="headerlink" title="前置条件"></a>前置条件</h2><h3 id="需要先安装Java8-或更高版本"><a href="#需要先安装Java8-或更高版本" class="headerlink" title="需要先安装Java8 或更高版本"></a>需要先安装Java8 或更高版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">java -version</span><br><span class="line">Picked up _JAVA_OPTIONS:   -Dawt.useSystemAAFontSettings=gasp</span><br><span class="line">openjdk version <span class="string">&quot;1.8.0_171&quot;</span></span><br><span class="line">OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2-b11)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$sudo</span> mkdir /opt/gradle</span><br><span class="line"><span class="variable">$cd</span> /opt/gradle</span><br><span class="line"><span class="variable">$sudo</span> wget https://services.gradle.org/distributions/gradle-5.3.1-all.zip</span><br><span class="line"><span class="variable">$sudo</span> unzip -d /opt/gradle gradle-5.3.1-all.zip</span><br><span class="line"><span class="variable">$ls</span> /opt/gradle/gradle-5.3.1</span><br><span class="line"></span><br><span class="line">bin docs getting-started.html init.d lib LICENSE media NOTICE samples src</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>更多linux相关知识, 请参考<a href="https://www.pengshu.net/tags/linux/">鹏叔的技术博客linux tag</a>, 获取实时更新的Linux文章.</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/install_virtualbox_on_fedora35.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -280,7 +381,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-09 18:52:10" itemprop="dateModified" datetime="2022-07-09T18:52:10+08:00">2022-07-09</time>
+        <time title="Modified: 2023-01-08 11:47:03" itemprop="dateModified" datetime="2023-01-08T11:47:03+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -299,7 +400,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>719</span>
+      <span>769</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -354,107 +455,8 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /sbin/vboxconfig </span><br></pre></td></tr></table></figure>
 
 <h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://www.virtualbox.org/wiki/Downloads">virtualbox 官方wiki</a></p>
+<h2 id="9-后续"><a href="#9-后续" class="headerlink" title="9. 后续"></a>9. 后续</h2><p>更多linux相关知识, 请参考<a href="https://www.pengshu.net/tags/linux/">鹏叔的技术博客linux tag</a>, 获取实时更新的Linux文章.</p>
 
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/linux/install_gradle_on_linux.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/linux/install_gradle_on_linux.html" class="post-title-link" itemprop="url">Linux下安装gradle</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-01-10 00:00:00" itemprop="dateCreated datePublished" datetime="2022-01-10T00:00:00+08:00">2022-01-10</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-11-28 20:03:13" itemprop="dateModified" datetime="2022-11-28T20:03:13+08:00">2022-11-28</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/OS/" itemprop="url" rel="index"><span itemprop="name">OS</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>575</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具</p>
-<p>下面就描述一下如何在linux环境下安装配置gradle环境</p>
-<h2 id="前置条件"><a href="#前置条件" class="headerlink" title="前置条件"></a>前置条件</h2><h3 id="需要先安装Java8-或更高版本"><a href="#需要先安装Java8-或更高版本" class="headerlink" title="需要先安装Java8 或更高版本"></a>需要先安装Java8 或更高版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">java -version</span><br><span class="line">Picked up _JAVA_OPTIONS:   -Dawt.useSystemAAFontSettings=gasp</span><br><span class="line">openjdk version <span class="string">&quot;1.8.0_171&quot;</span></span><br><span class="line">OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2-b11)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$sudo</span> mkdir /opt/gradle</span><br><span class="line"><span class="variable">$cd</span> /opt/gradle</span><br><span class="line"><span class="variable">$sudo</span> wget https://services.gradle.org/distributions/gradle-5.3.1-all.zip</span><br><span class="line"><span class="variable">$sudo</span> unzip -d /opt/gradle gradle-5.3.1-all.zip</span><br><span class="line"><span class="variable">$ls</span> /opt/gradle/gradle-5.3.1</span><br><span class="line"></span><br><span class="line">bin docs getting-started.html init.d lib LICENSE media NOTICE samples src</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2>
       
     </div>
 
@@ -710,7 +712,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/webpack/webpack_env_variables.html" class="post-title-link" itemprop="url">webpack_env_variables</a>
+          <a href="/webpack/webpack_env_variables.html" class="post-title-link" itemprop="url">webpack中使用环境变量</a>
         </h2>
 
         <div class="post-meta-container">
@@ -721,14 +723,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-12-25 09:57:57" itemprop="dateCreated datePublished" datetime="2021-12-25T09:57:57+08:00">2021-12-25</time>
+      <time title="Created: 2021-12-25 00:00:00" itemprop="dateCreated datePublished" datetime="2021-12-25T00:00:00+08:00">2021-12-25</time>
     </span>
       <span class="post-meta-item">
         <span class="post-meta-item-icon">
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-01 22:25:38" itemprop="dateModified" datetime="2022-05-01T22:25:38+08:00">2022-05-01</time>
+        <time title="Modified: 2023-01-08 12:35:35" itemprop="dateModified" datetime="2023-01-08T12:35:35+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -747,7 +749,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.1k</span>
+      <span>2.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -765,7 +767,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>由于前端项目在不同的阶段需要连接不同的后端服务器, 在没有引入环境变量前, 需要手动修改服务器地址. 经常容易出错, 而且不利于便于自动化打包. 所以这里引入DefinePlugin便于引入环境变量进行环境区分.</p>
+          <h2 id="1-背景介绍"><a href="#1-背景介绍" class="headerlink" title="1. 背景介绍"></a>1. 背景介绍</h2><p>由于前端项目在不同的阶段需要连接不同的后端服务器, 在没有引入环境变量前, 需要手动修改服务器地址. 经常容易出错, 而且不利于便于自动化打包. 所以这里引入DefinePlugin便于引入环境变量进行环境区分.</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/webpack/webpack_env_variables.html#more" rel="contents">
@@ -830,7 +832,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-09 18:51:18" itemprop="dateModified" datetime="2022-07-09T18:51:18+08:00">2022-07-09</time>
+        <time title="Modified: 2023-01-08 11:45:10" itemprop="dateModified" datetime="2023-01-08T11:45:10+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -853,14 +855,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>4.5k</span>
+      <span>5k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
+      <span>5 mins.</span>
     </span>
 </div>
 
@@ -871,7 +873,35 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="ifconfig-简介"><a href="#ifconfig-简介" class="headerlink" title="ifconfig 简介"></a>ifconfig 简介</h2><p>用于显示或设置网络设备</p>
+          <ul>
+<li><a href="#1-ifconfig-%E7%AE%80%E4%BB%8B">1. ifconfig 简介</a></li>
+<li><a href="#2-%E7%94%A8%E6%B3%95">2. 用法</a></li>
+<li><a href="#3-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E">3. 参数说明</a><ul>
+<li><a href="#31-%E9%80%89%E9%A1%B9%E4%BB%8B%E7%BB%8D">3.1. 选项介绍</a></li>
+<li><a href="#32-%E7%A1%AC%E4%BB%B6%E7%B1%BB%E5%9E%8B">3.2. 硬件类型</a></li>
+<li><a href="#33-%E5%9C%B0%E5%9D%80%E6%97%8F%E5%88%97%E8%A1%A8">3.3. 地址族列表</a><ul>
+<li><a href="#331-%E8%AF%B4%E6%98%8E">3.3.1. 说明</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#4-%E7%A4%BA%E4%BE%8B">4. 示例</a><ul>
+<li><a href="#41-%E7%A4%BA%E4%BE%8B-1-%E5%A6%82%E4%BD%95%E9%87%8D%E5%90%AF%E7%BD%91%E5%8D%A1">4.1. 示例 1: 如何重启网卡?</a></li>
+<li><a href="#42-%E7%A4%BA%E4%BE%8B-2-%E9%85%8D%E7%BD%AE%E7%BD%91%E5%8D%A1eno16777736%E7%9A%84ip%E5%9C%B0%E5%9D%80%E5%90%8C%E6%97%B6%E6%BF%80%E6%B4%BB%E8%AF%A5%E8%AE%BE%E5%A4%87">4.2. 示例 2: 配置网卡eno16777736的IP地址，同时激活该设备</a></li>
+<li><a href="#43-%E7%A4%BA%E4%BE%8B-3-%E9%85%8D%E7%BD%AE%E7%BD%91%E5%8D%A1eno16777736%E7%9A%84%E5%88%AB%E5%90%8D%E8%AE%BE%E5%A4%87eno167777361%E7%9A%84ip%E5%9C%B0%E5%9D%80-%E6%9C%AA%E6%BF%80%E6%B4%BB">4.3. 示例 3: 配置网卡eno16777736的别名设备eno16777736:1的IP地址 (未激活)</a></li>
+<li><a href="#44-%E7%A4%BA%E4%BE%8B-4-%E6%BF%80%E6%B4%BB%E7%BD%91%E5%8D%A1eno167777361%E8%AE%BE%E5%A4%87">4.4. 示例 4: 激活网卡eno16777736:1设备</a></li>
+<li><a href="#45-%E7%A4%BA%E4%BE%8B-5-%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%8D%A1eno16777736%E8%AE%BE%E5%A4%87%E7%9A%84%E9%85%8D%E7%BD%AE">4.5. 示例 5: 查看网卡eno16777736设备的配置</a></li>
+<li><a href="#46-%E7%A4%BA%E4%BE%8B-6-%E5%85%B3%E9%97%AD%E7%BD%91%E5%8D%A1eno167777361%E8%AE%BE%E5%A4%87">4.6. 示例 6: 关闭网卡eno16777736:1设备</a></li>
+<li><a href="#47-%E7%A4%BA%E4%BE%8B-7-%E4%B8%BA%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE%E5%92%8C%E5%88%A0%E9%99%A4ipv6%E5%9C%B0%E5%9D%80">4.7. 示例 7: 为网卡配置和删除IPv6地址</a></li>
+<li><a href="#48-%E7%A4%BA%E4%BE%8B-8-%E7%94%A8ifconfig%E4%BF%AE%E6%94%B9mac%E5%9C%B0%E5%9D%80">4.8. 示例 8: 用ifconfig修改MAC地址</a></li>
+<li><a href="#49-%E7%A4%BA%E4%BE%8B-9-%E9%85%8D%E7%BD%AEip%E5%9C%B0%E5%9D%80">4.9. 示例 9: 配置IP地址</a></li>
+<li><a href="#410-%E7%A4%BA%E4%BE%8B-10-%E5%90%AF%E7%94%A8%E5%92%8C%E5%85%B3%E9%97%ADarp%E5%8D%8F%E8%AE%AE">4.10. 示例 10: 启用和关闭ARP协议</a></li>
+<li><a href="#411-%E7%A4%BA%E4%BE%8B-11-%E8%AE%BE%E7%BD%AE%E6%9C%80%E5%A4%A7%E4%BC%A0%E8%BE%93%E5%8D%95%E5%85%83">4.11. 示例 11: 设置最大传输单元</a></li>
+</ul>
+</li>
+<li><a href="#5-%E5%90%8E%E7%BB%AD">5. 后续</a></li>
+</ul>
+<h2 id="1-ifconfig-简介"><a href="#1-ifconfig-简介" class="headerlink" title="1. ifconfig 简介"></a>1. ifconfig 简介</h2><p>用于显示或设置网络设备</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/linux/linux_shell_ifconfig.html#more" rel="contents">
@@ -936,7 +966,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-02 22:20:12" itemprop="dateModified" datetime="2023-01-02T22:20:12+08:00">2023-01-02</time>
+        <time title="Modified: 2023-01-08 11:42:17" itemprop="dateModified" datetime="2023-01-08T11:42:17+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -959,7 +989,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>8k</span>
+      <span>8.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -1000,6 +1030,7 @@
 </ul>
 </li>
 <li><a href="#5-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3">5. 参考文档</a></li>
+<li><a href="#6-%E5%90%8E%E7%BB%AD">6. 后续</a></li>
 </ul>
 <h2 id="1-rsync-简介"><a href="#1-rsync-简介" class="headerlink" title="1. rsync 简介"></a>1. rsync 简介</h2><p>rsync 就是远程同步的意思remote sync.<br>rsync 被用在UNIX / Linux执行备份操作操作.<br>rsync 工具包被用来从一个位置到另一个位置高效地同步文件和文件夹. rsync可以实现在同一台机器的不同文件直接备份,也可以跨服务器备份.</p>
 <h2 id="2-rsync的重要特性"><a href="#2-rsync的重要特性" class="headerlink" title="2. rsync的重要特性"></a>2. rsync的重要特性</h2><ul>
@@ -1382,14 +1413,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">437k</span>
+    <span title="Symbols count total">439k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">6:39</span>
   </span>
 </div>
 <div class="busuanzi-count">
