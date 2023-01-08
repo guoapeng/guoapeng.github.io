@@ -280,7 +280,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-08 12:37:06" itemprop="dateModified" datetime="2023-01-08T12:37:06+08:00">2023-01-08</time>
+        <time title="Modified: 2023-01-08 17:32:20" itemprop="dateModified" datetime="2023-01-08T17:32:20+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -299,7 +299,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>619</span>
+      <span>620</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -318,13 +318,15 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具</p>
-<p>下面就描述一下如何在linux环境下安装配置gradle环境</p>
-<h2 id="前置条件"><a href="#前置条件" class="headerlink" title="前置条件"></a>前置条件</h2><h3 id="需要先安装Java8-或更高版本"><a href="#需要先安装Java8-或更高版本" class="headerlink" title="需要先安装Java8 或更高版本"></a>需要先安装Java8 或更高版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">java -version</span><br><span class="line">Picked up _JAVA_OPTIONS:   -Dawt.useSystemAAFontSettings=gasp</span><br><span class="line">openjdk version <span class="string">&quot;1.8.0_171&quot;</span></span><br><span class="line">OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2-b11)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$sudo</span> mkdir /opt/gradle</span><br><span class="line"><span class="variable">$cd</span> /opt/gradle</span><br><span class="line"><span class="variable">$sudo</span> wget https://services.gradle.org/distributions/gradle-5.3.1-all.zip</span><br><span class="line"><span class="variable">$sudo</span> unzip -d /opt/gradle gradle-5.3.1-all.zip</span><br><span class="line"><span class="variable">$ls</span> /opt/gradle/gradle-5.3.1</span><br><span class="line"></span><br><span class="line">bin docs getting-started.html init.d lib LICENSE media NOTICE samples src</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>更多linux相关知识, 请参考<a href="https://www.pengshu.net/tags/linux/">鹏叔的技术博客linux tag</a>, 获取实时更新的Linux文章.</p>
-
+<p>下面就描述一下如何在linux环境下安装配置gradle环境.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/linux/install_gradle_on_linux.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -381,7 +383,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-08 11:47:03" itemprop="dateModified" datetime="2023-01-08T11:47:03+08:00">2023-01-08</time>
+        <time title="Modified: 2023-01-08 17:32:51" itemprop="dateModified" datetime="2023-01-08T17:32:51+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -424,39 +426,14 @@
 <p>wget -q <a target="_blank" rel="noopener" href="https://www.virtualbox.org/download/oracle_vbox.asc">https://www.virtualbox.org/download/oracle_vbox.asc</a></p>
 <p>再执行import：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm --import oracle_vbox.asc</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>cd 进入目录：/etc/yum.repos.d<br>新建一个文件virtualbox.repo</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo cat &lt;&lt; <span class="string">EOF &gt; /etc/yum.repos.d/virtualbox.repo</span></span><br><span class="line"><span class="string">[virtualbox]</span></span><br><span class="line"><span class="string">name=Oracle Linux / RHEL / fedora-\$releasever / \$basearch - VirtualBox</span></span><br><span class="line"><span class="string">baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/\$releasever/\$basearch</span></span><br><span class="line"><span class="string">enabled=1</span></span><br><span class="line"><span class="string">gpgcheck=1</span></span><br><span class="line"><span class="string">repo_gpgcheck=1</span></span><br><span class="line"><span class="string">gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>更新缓存</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf check-update</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li>查询可安装版本</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf list virtualbox-6.1 --showduplicates</span><br></pre></td></tr></table></figure>
-
-<p>然后执行命令行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install VirtualBox-6.1</span><br></pre></td></tr></table></figure>
-
-<ol start="5">
-<li>安装kernal-devel</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install kernel-devel-5.14.10-300.fc35 </span><br></pre></td></tr></table></figure>
-
-<p>版本应该与当前内核版本一致</p>
-<ol start="6">
-<li>更新virtualbox配置</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /sbin/vboxconfig </span><br></pre></td></tr></table></figure>
-
-<h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://www.virtualbox.org/wiki/Downloads">virtualbox 官方wiki</a></p>
-<h2 id="9-后续"><a href="#9-后续" class="headerlink" title="9. 后续"></a>9. 后续</h2><p>更多linux相关知识, 请参考<a href="https://www.pengshu.net/tags/linux/">鹏叔的技术博客linux tag</a>, 获取实时更新的Linux文章.</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/linux/install_virtualbox_on_fedora35.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -832,7 +809,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-08 11:45:10" itemprop="dateModified" datetime="2023-01-08T11:45:10+08:00">2023-01-08</time>
+        <time title="Modified: 2023-01-08 17:33:30" itemprop="dateModified" datetime="2023-01-08T17:33:30+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -855,14 +832,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>5k</span>
+      <span>4.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>5 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
@@ -873,35 +850,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <ul>
-<li><a href="#1-ifconfig-%E7%AE%80%E4%BB%8B">1. ifconfig 简介</a></li>
-<li><a href="#2-%E7%94%A8%E6%B3%95">2. 用法</a></li>
-<li><a href="#3-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E">3. 参数说明</a><ul>
-<li><a href="#31-%E9%80%89%E9%A1%B9%E4%BB%8B%E7%BB%8D">3.1. 选项介绍</a></li>
-<li><a href="#32-%E7%A1%AC%E4%BB%B6%E7%B1%BB%E5%9E%8B">3.2. 硬件类型</a></li>
-<li><a href="#33-%E5%9C%B0%E5%9D%80%E6%97%8F%E5%88%97%E8%A1%A8">3.3. 地址族列表</a><ul>
-<li><a href="#331-%E8%AF%B4%E6%98%8E">3.3.1. 说明</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#4-%E7%A4%BA%E4%BE%8B">4. 示例</a><ul>
-<li><a href="#41-%E7%A4%BA%E4%BE%8B-1-%E5%A6%82%E4%BD%95%E9%87%8D%E5%90%AF%E7%BD%91%E5%8D%A1">4.1. 示例 1: 如何重启网卡?</a></li>
-<li><a href="#42-%E7%A4%BA%E4%BE%8B-2-%E9%85%8D%E7%BD%AE%E7%BD%91%E5%8D%A1eno16777736%E7%9A%84ip%E5%9C%B0%E5%9D%80%E5%90%8C%E6%97%B6%E6%BF%80%E6%B4%BB%E8%AF%A5%E8%AE%BE%E5%A4%87">4.2. 示例 2: 配置网卡eno16777736的IP地址，同时激活该设备</a></li>
-<li><a href="#43-%E7%A4%BA%E4%BE%8B-3-%E9%85%8D%E7%BD%AE%E7%BD%91%E5%8D%A1eno16777736%E7%9A%84%E5%88%AB%E5%90%8D%E8%AE%BE%E5%A4%87eno167777361%E7%9A%84ip%E5%9C%B0%E5%9D%80-%E6%9C%AA%E6%BF%80%E6%B4%BB">4.3. 示例 3: 配置网卡eno16777736的别名设备eno16777736:1的IP地址 (未激活)</a></li>
-<li><a href="#44-%E7%A4%BA%E4%BE%8B-4-%E6%BF%80%E6%B4%BB%E7%BD%91%E5%8D%A1eno167777361%E8%AE%BE%E5%A4%87">4.4. 示例 4: 激活网卡eno16777736:1设备</a></li>
-<li><a href="#45-%E7%A4%BA%E4%BE%8B-5-%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%8D%A1eno16777736%E8%AE%BE%E5%A4%87%E7%9A%84%E9%85%8D%E7%BD%AE">4.5. 示例 5: 查看网卡eno16777736设备的配置</a></li>
-<li><a href="#46-%E7%A4%BA%E4%BE%8B-6-%E5%85%B3%E9%97%AD%E7%BD%91%E5%8D%A1eno167777361%E8%AE%BE%E5%A4%87">4.6. 示例 6: 关闭网卡eno16777736:1设备</a></li>
-<li><a href="#47-%E7%A4%BA%E4%BE%8B-7-%E4%B8%BA%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE%E5%92%8C%E5%88%A0%E9%99%A4ipv6%E5%9C%B0%E5%9D%80">4.7. 示例 7: 为网卡配置和删除IPv6地址</a></li>
-<li><a href="#48-%E7%A4%BA%E4%BE%8B-8-%E7%94%A8ifconfig%E4%BF%AE%E6%94%B9mac%E5%9C%B0%E5%9D%80">4.8. 示例 8: 用ifconfig修改MAC地址</a></li>
-<li><a href="#49-%E7%A4%BA%E4%BE%8B-9-%E9%85%8D%E7%BD%AEip%E5%9C%B0%E5%9D%80">4.9. 示例 9: 配置IP地址</a></li>
-<li><a href="#410-%E7%A4%BA%E4%BE%8B-10-%E5%90%AF%E7%94%A8%E5%92%8C%E5%85%B3%E9%97%ADarp%E5%8D%8F%E8%AE%AE">4.10. 示例 10: 启用和关闭ARP协议</a></li>
-<li><a href="#411-%E7%A4%BA%E4%BE%8B-11-%E8%AE%BE%E7%BD%AE%E6%9C%80%E5%A4%A7%E4%BC%A0%E8%BE%93%E5%8D%95%E5%85%83">4.11. 示例 11: 设置最大传输单元</a></li>
-</ul>
-</li>
-<li><a href="#5-%E5%90%8E%E7%BB%AD">5. 后续</a></li>
-</ul>
-<h2 id="1-ifconfig-简介"><a href="#1-ifconfig-简介" class="headerlink" title="1. ifconfig 简介"></a>1. ifconfig 简介</h2><p>用于显示或设置网络设备</p>
+          <h2 id="1-ifconfig-简介"><a href="#1-ifconfig-简介" class="headerlink" title="1. ifconfig 简介"></a>1. ifconfig 简介</h2><p>用于显示或设置网络设备</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/linux/linux_shell_ifconfig.html#more" rel="contents">
@@ -1413,14 +1362,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">439k</span>
+    <span title="Symbols count total">438k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:39</span>
+    <span title="Reading time total">6:38</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -280,7 +280,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:53:19" itemprop="dateModified" datetime="2022-04-06T01:53:19+08:00">2022-04-06</time>
+        <time title="Modified: 2023-01-08 17:31:05" itemprop="dateModified" datetime="2023-01-08T17:31:05+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -319,12 +319,14 @@
     <div class="post-body" itemprop="articleBody">
           <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我们在开发web应用时，在服务器端都会控制某种或某个用户是否有权限调用某个接口。在前端，我们除了根据用户的角色或其他特性来控制一些页面元素是否显示以外，也需要控制用户是否能够进入某些页面（例如通过直接输入URL的方式直接进入）。要控制是否显示，我们可以使用 *ngIf 、 [hidden] 等方式。而对于控制用户能否进入某个页面，Angular2的路由框架也提供了非常方便的方式来实现这个功能。</p>
 <p>Angular2提供了2种组件， Guard 和 Resolve 。 Guard 顾名思义就是用来保护一个路径。可以用来判断用户只有在满足一定的条件的情况下才能打开这个路径对应的页面。 Resolve 用来在进入某个路径之前先获取数据。</p>
-<h2 id="Guard"><a href="#Guard" class="headerlink" title="Guard"></a>Guard</h2><p>Guard 其实是一系列接口，只要你实现了它的方法，配置了这些 Guard ，Angular路由框架就会根据这个方法返回的 true 或 false 来判断是否激活这个路由。它包括几种类型：</p>
-<p>1、CanActivate<br>这种类型的 Guard 用来控制是否允许进入当前的路径。<br>2、CanActivateChild<br>这种类型的 Guard 用来控制是否允许进入当前路径的所有子路径。<br>3、CanDeactivate<br>用来控制是否能离开当前页面进入别的路径<br>4、CanLoad<br>用于控制一个异步加载的子模块是否允许被加载。<br>以 CanActivate 为例，这个接口的定义如下：</p>
-<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">exportinterface CanActivate &#123;</span><br><span class="line"> canActivate(route: ActivatedRouteSnapshot, <span class="attr">state</span>: RouterStateSnapshot): Observable&lt;<span class="built_in">boolean</span>&gt; | <span class="built_in">Promise</span>&lt;<span class="built_in">boolean</span>&gt; | <span class="built_in">boolean</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这个接口定义了一个方法，当你实现这个接口，并把它配置到某一个路由上以后，当用户进入这个路由的路径之前，就会调用它里面的 canActivate() 方法，它第一个参数，就是将要激活的路由，第二个参数是路由器当前的状态。它返回一个布尔型的结果，或者是布尔型的 Promise 或 Observable 。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/angular2_guard.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -381,7 +383,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-08-22 19:34:00" itemprop="dateModified" datetime="2022-08-22T19:34:00+08:00">2022-08-22</time>
+        <time title="Modified: 2023-01-08 17:31:35" itemprop="dateModified" datetime="2023-01-08T17:31:35+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -419,12 +421,14 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我们今天要学习的是Angular2的模块系统,一般情况下我们使用一个根模块去启动我们的应用,然后使用许多的功能模块去丰富我们的应用,扩展我们应用的功能.这些全部依靠我们的 NgModule 装饰器,接下来我们就来好好学习一下这个装饰器. 当然在这个过程中你会遇到一些新的指令,概念等等;但是别慌,我们会在以后的文章中一个一个的详细讲解呢.</p>
-<h2 id="NgModule-API"><a href="#NgModule-API" class="headerlink" title="NgModule API"></a>NgModule API</h2><p>在进入详细讲解之前, 我们首先来熟悉一下 NgModule 的API.</p>
-<p>NgModule 源码位于angular项目的packages\core\src\metadata\ng_module.ts文件中.</p>
-<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">interface</span> NgModule &#123;</span><br><span class="line">     <span class="comment">// providers: 这个选项是一个数组,需要我们列出我们这个模块的一些需要共用的服务</span></span><br><span class="line">     <span class="comment">//            然后我们就可以在这个模块的各个组件中通过依赖注入使用了.</span></span><br><span class="line">    <span class="attr">providers</span> : Provider[]</span><br><span class="line">     <span class="comment">// declarations: 数组类型的选项, 用来声明属于这个模块的指令,管道等等.</span></span><br><span class="line">     <span class="comment">//               然后我们就可以在这个模块中使用它们了.</span></span><br><span class="line">    <span class="attr">declarations</span> : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">     <span class="comment">// imports: 数组类型的选项,我们的模块需要依赖的一些其他的模块,这样做的目的使我们这个模块</span></span><br><span class="line">     <span class="comment">//          可以直接使用别的模块提供的一些指令,组件等等.</span></span><br><span class="line">    imports : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|ModuleWithProviders|<span class="built_in">any</span>[]&gt;</span><br><span class="line">     <span class="comment">// exports: 数组类型的选项,我们这个模块需要导出的一些组件,指令,模块等;</span></span><br><span class="line">     <span class="comment">//          如果别的模块导入了我们这个模块,</span></span><br><span class="line">     <span class="comment">//          那么别的模块就可以直接使用我们在这里导出的组件,指令模块等.</span></span><br><span class="line">    <span class="built_in">exports</span> : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// entryComponents: 数组类型的选项,指定一系列的组件,这些组件将会在这个模块定义的时候进行编译</span></span><br><span class="line">    <span class="comment">//                  Angular会为每一个组件创建一个ComponentFactory然后把它存储在ComponentFactoryResolver</span></span><br><span class="line">    entryComponents : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// bootstrap: 数组类型选项, 指定了这个模块启动的时候应该启动的组件.当然这些组件会被自动的加入到entryComponents中去</span></span><br><span class="line">    bootstrap : <span class="built_in">Array</span>&lt;Type&lt;<span class="built_in">any</span>&gt;|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// schemas: 不属于Angular的组件或者指令的元素或者属性都需要在这里进行声明.</span></span><br><span class="line">    schemas : <span class="built_in">Array</span>&lt;SchemaMetadata|<span class="built_in">any</span>[]&gt;</span><br><span class="line">    <span class="comment">// id: 字符串类型的选项,模块的隐藏ID,它可以是一个名字或者一个路径;用来在getModuleFactory区别模块,如果这个属性是undefined</span></span><br><span class="line">    <span class="comment">//     那么这个模块将不会被注册.</span></span><br><span class="line">    id : <span class="built_in">string</span></span><br><span class="line">    <span class="comment">// jit存在时，AOT编译器将忽略此模块。</span></span><br><span class="line">    <span class="comment">// 它保留在分布式代码中，JIT编译器会尝试编译它</span></span><br><span class="line">    <span class="comment">// 在运行时，在浏览器中。</span></span><br><span class="line">    <span class="comment">// 为了确保正确的行为，应用程序必须导入“@angular/compiler”。</span></span><br><span class="line">    <span class="attr">jit</span>: <span class="built_in">boolean</span></span><br><span class="line"> &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shitoupi/p/6641230.html">ANGULAR2 NGMODULE 模块详解</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/angular2_ngmodule.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1306,14 +1310,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">439k</span>
+    <span title="Symbols count total">438k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:39</span>
+    <span title="Reading time total">6:38</span>
   </span>
 </div>
 <div class="busuanzi-count">

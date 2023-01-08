@@ -280,7 +280,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-12-02 12:08:51" itemprop="dateModified" datetime="2022-12-02T12:08:51+08:00">2022-12-02</time>
+        <time title="Modified: 2023-01-08 17:29:17" itemprop="dateModified" datetime="2023-01-08T17:29:17+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -324,7 +324,8 @@
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://sh.rustup.rs -sSf| sh</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>windows: 按<a target="_blank" rel="noopener" href="https://www.rust-lang.org/tools/install">官网安装指引操作</a><ul>
+<li><p>windows: 按<a target="_blank" rel="noopener" href="https://www.rust-lang.org/tools/install">官网安装指引操作</a></p>
+<ul>
 <li><p>下载安装程序，<a target="_blank" rel="noopener" href="https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe">下载RUSTUP-INIT.exe 32位安装程序</a> 或 <a target="_blank" rel="noopener" href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe">下载RUSTUP-INIT.exe 64位安装程序</a></p>
 </li>
 <li><p>然后运行程序并按照屏幕上的说明进行操作。</p>
@@ -335,38 +336,16 @@
 </li>
 </ul>
 </li>
-<li>windows subsystem for Linux:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="配置Rust"><a href="#配置Rust" class="headerlink" title="配置Rust"></a>配置Rust</h2><h3 id="替换镜像"><a href="#替换镜像" class="headerlink" title="替换镜像"></a>替换镜像</h3><p>安装完成后需要将crates.io替换成国内镜像.</p>
-<p><a target="_blank" rel="noopener" href="https://crates.io/">https://crates.io</a> 的访问非常缓慢，github 的仓库也经常不能访问，建议大家切换到国内镜像站。镜像站实时缓存，托管在码云的 gitee 仓库每隔30分钟与 github 同步。</p>
-<p>配置方式</p>
-<ul>
-<li>在 .cargo 目录新建文件config</li>
-</ul>
-<blockquote>
-<p>注意：新安装的机器没有这个文件，需要新建，并且该文件没有后缀名</p>
-</blockquote>
-<p>编辑文件内容：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[source.crates-io]</span><br><span class="line">registry=<span class="string">&quot;https://github.com/rust-lang/crates.io-index&quot;</span> <span class="comment"># 这行可以不要,只是说明原始地址</span></span><br><span class="line">replace-with=<span class="string">&#x27;crates-cn&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.crates-cn]</span><br><span class="line">registry=<span class="string">&quot;https://gitee.com/crates/crates.io-index.git&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果使用中科大USTC的镜像</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">[source.crates-io]</span><br><span class="line">replace-with=<span class="string">&#x27;ustc&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.ustc]</span><br><span class="line">registry=<span class="string">&quot;https://mirrors.ustc.edu.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>修改完保存后执行build即可</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cargo build</span><br></pre></td></tr></table></figure>
-
-<h2 id="更新Rust"><a href="#更新Rust" class="headerlink" title="更新Rust"></a>更新Rust</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rustup update</span><br></pre></td></tr></table></figure>
-
-<h2 id="卸载Rust"><a href="#卸载Rust" class="headerlink" title="卸载Rust"></a>卸载Rust</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rustup self uninstall</span><br></pre></td></tr></table></figure>
-
-<h2 id="验证安装是否成功"><a href="#验证安装是否成功" class="headerlink" title="验证安装是否成功"></a>验证安装是否成功</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rustc --version</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>结果格式: rustc x.y. z (abcabcabc yyyy-mm-dd)</li>
-<li>会显示最新稳定版的: 版本号, commit hash, commit日期</li>
-<li>当前我安装的版本为 rustc 1.56.1 (59eed8a2a 2021-11-01)</li>
-</ul>
-
+<li><p>windows subsystem for Linux:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/rust/install_rust_on_windows.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1302,7 +1281,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-12-19 11:47:22" itemprop="dateModified" datetime="2022-12-19T11:47:22+08:00">2022-12-19</time>
+        <time title="Modified: 2023-01-08 17:30:02" itemprop="dateModified" datetime="2023-01-08T17:30:02+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1321,7 +1300,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>7.1k</span>
+      <span>6.5k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -1339,83 +1318,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <ul>
-<li><a href="#1-%E6%96%87%E5%AD%97%E7%B3%BB%E7%BB%9F-the-type-system">1. 文字系统 （The type system）</a><ul>
-<li><a href="#11-%E6%96%87%E5%AD%97%E7%B1%BB%E5%9E%8B%E6%A0%87%E5%B0%BAtype-scale">1.1. 文字类型标尺(Type scale)</a></li>
-<li><a href="#12-%E6%96%87%E5%AD%97%E7%B1%BB%E5%9E%8B%E6%A0%87%E5%B0%BA%E7%94%9F%E6%88%90%E5%99%A8">1.2. 文字类型标尺生成器</a></li>
-<li><a href="#13-%E6%96%87%E5%AD%97%E7%B1%BB%E5%9E%8B%E6%A0%87%E5%B0%BA%E6%A0%B7%E4%BE%8B">1.3. 文字类型标尺样例</a></li>
-<li><a href="#14-%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F%E5%8D%95%E4%BD%8D">1.4. 字体大小单位</a></li>
-<li><a href="#15-%E5%AD%97%E6%AF%8D%E9%97%B4%E8%B7%9D">1.5. 字母间距</a></li>
-</ul>
-</li>
-<li><a href="#2-%E5%BA%94%E7%94%A8%E6%96%87%E5%AD%97%E7%B1%BB%E5%9E%8B%E6%A0%87%E5%B0%BA">2. 应用文字类型标尺</a><ul>
-<li><a href="#21-%E6%A0%87%E9%A2%98headlines">2.1. 标题（headlines）</a></li>
-<li><a href="#22-%E5%AD%90%E6%A0%87%E9%A2%98subtitles">2.2. 子标题(subtitles)</a></li>
-<li><a href="#23-%E6%AD%A3%E6%96%87">2.3. 正文</a></li>
-<li><a href="#24-%E8%AF%B4%E6%98%8E%E6%96%87%E5%AD%97%E5%92%8C%E4%B8%8A%E5%88%92%E7%BA%BF%E6%96%87%E6%9C%AC">2.4. 说明文字和上划线文本</a></li>
-<li><a href="#25-%E6%8C%89%E9%92%AE%E6%96%87%E6%9C%AC">2.5. 按钮文本</a></li>
-</ul>
-</li>
-<li><a href="#3-%E7%90%86%E8%A7%A3%E6%8E%92%E7%89%88">3. 理解排版</a><ul>
-<li><a href="#31-%E6%96%87%E5%AD%97%E5%B1%9E%E6%80%A7">3.1. 文字属性</a></li>
-<li><a href="#32-%E5%9F%BA%E7%BA%BFbaseline">3.2. 基线(baseline)</a><ul>
-<li><a href="#321-%E4%BB%8E%E5%9F%BA%E7%BA%BF%E6%B5%8B%E9%87%8F">3.2.1. 从基线测量</a></li>
-</ul>
-</li>
-<li><a href="#33-%E5%A4%A7%E5%86%99%E5%AD%97%E6%AF%8D%E9%AB%98%E5%BA%A6cap-height">3.3. 大写字母高度（Cap height）</a></li>
-<li><a href="#34-x%E9%AB%98%E5%BA%A6">3.4. X高度</a></li>
-<li><a href="#35-%E9%A1%B6%E7%BA%BF%E5%92%8C%E5%BA%95%E7%BA%BFascenders-%E5%92%8C-descenders">3.5. 顶线和底线(Ascenders 和 descenders)</a></li>
-<li><a href="#36-%E5%AD%97%E4%BD%93%E7%B2%97%E7%BB%86weight">3.6. 字体粗细(Weight)</a></li>
-</ul>
-</li>
-<li><a href="#4-%E5%AD%97%E4%BD%93%E5%88%86%E7%B1%BB">4. 字体分类</a><ul>
-<li><a href="#41-%E8%A1%AC%E7%BA%BF%E4%BD%93serif">4.1. 衬线体(Serif)</a></li>
-<li><a href="#42-%E6%97%A0%E8%A1%AC%E7%BA%BF%E4%BD%93sans-serif">4.2. 无衬线体(sans serif)</a></li>
-<li><a href="#43-%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93monospace">4.3. 等宽字体(Monospace)</a></li>
-<li><a href="#44-%E6%89%8B%E5%86%99%E4%BD%93">4.4. 手写体</a></li>
-<li><a href="#45-%E8%89%BA%E6%9C%AF%E4%BD%93">4.5. 艺术体</a></li>
-</ul>
-</li>
-<li><a href="#5-%E5%8F%AF%E8%AF%BB%E6%80%A7">5. 可读性</a><ul>
-<li><a href="#51-%E5%AD%97%E6%AF%8D%E9%97%B4%E8%B7%9D-letter-spacing">5.1. 字母间距 Letter-spacing</a></li>
-<li><a href="#52-%E8%A1%A8%E6%A0%BC%E6%95%B0%E5%AD%97">5.2. 表格数字</a></li>
-<li><a href="#53-%E8%A1%8C%E9%95%BFline-length">5.3. 行长（Line Length）</a></li>
-<li><a href="#54-%E8%A1%8C%E9%AB%98line-height">5.4. 行高(Line Height)</a></li>
-<li><a href="#55-%E6%AE%B5%E8%90%BD%E9%97%B4%E8%B7%9Dparagraph-spacing">5.5. 段落间距(Paragraph spacing)</a></li>
-<li><a href="#56-%E7%B1%BB%E5%9E%8B%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F">5.6. 类型对齐方式</a><ul>
-<li><a href="#561-%E5%B7%A6%E5%AF%B9%E9%BD%90">5.6.1. 左对齐</a></li>
-<li><a href="#562-%E5%8F%B3%E5%AF%B9%E9%BD%90">5.6.2. 右对齐</a></li>
-<li><a href="#563-%E5%B1%85%E4%B8%AD%E5%AF%B9%E9%BD%90">5.6.3. 居中对齐</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#6-%E7%B3%BB%E7%BB%9F%E5%AD%97%E4%BD%93">6. 系统字体</a><ul>
-<li><a href="#61-%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E5%AD%97%E4%BD%93">6.1. 使用系统字体</a></li>
-</ul>
-</li>
-<li><a href="#7-%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81">7. 语言支持</a><ul>
-<li><a href="#71-%E8%AF%AD%E8%A8%80%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">7.1. 语言注意事项</a></li>
-<li><a href="#72-%E5%AD%97%E5%BD%A2glyphs">7.2. 字形（glyphs）</a></li>
-<li><a href="#73-%E9%95%BF%E5%BA%A6">7.3. 长度</a></li>
-<li><a href="#74-%E5%AF%B9%E9%BD%90">7.4. 对齐</a></li>
-<li><a href="#75-%E9%AB%98%E5%BA%A6">7.5. 高度</a></li>
-<li><a href="#76-%E7%AB%8B%E5%BC%8F%E6%8E%92%E7%89%88">7.6. 立式排版</a></li>
-<li><a href="#77-%E8%AF%AD%E8%A8%80%E9%80%89%E9%A1%B9">7.7. 语言选项</a><ul>
-<li><a href="#771-%E7%B1%BB%E4%BC%BC%E8%8B%B1%E8%AF%AD%E7%9A%84%E5%AD%97%E4%BD%93">7.7.1. 类似英语的字体</a></li>
-<li><a href="#772-%E9%AB%98%E5%AD%97%E4%BD%93">7.7.2. 高字体</a></li>
-<li><a href="#773-%E5%AF%86%E9%9B%86%E5%AD%97%E4%BD%93">7.7.3. 密集字体</a></li>
-</ul>
-</li>
-<li><a href="#78-noto%E6%8C%87%E5%AF%BC">7.8. Noto指导</a></li>
-<li><a href="#79-%E5%AF%86%E9%9B%86%E8%84%9A%E6%9C%AC%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">7.9. 密集脚本注意事项</a></li>
-<li><a href="#710-%E5%BB%8B%E9%AB%98%E6%96%87%E5%AD%97%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">7.10. 廋高文字注意事项</a></li>
-<li><a href="#711-%E8%AF%AD%E8%A8%80%E7%B1%BB%E5%88%AB%E5%8F%82%E8%80%83">7.11. 语言类别参考</a></li>
-</ul>
-</li>
-<li><a href="#8-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3">8. 参考文档</a></li>
-</ul>
-<h2 id="1-文字系统-（The-type-system）"><a href="#1-文字系统-（The-type-system）" class="headerlink" title="1. 文字系统 （The type system）"></a>1. 文字系统 （The type system）</h2><p>使用排版尽可能清晰有效地呈现您的设计和内容。</p>
+          <h2 id="1-文字系统-（The-type-system）"><a href="#1-文字系统-（The-type-system）" class="headerlink" title="1. 文字系统 （The type system）"></a>1. 文字系统 （The type system）</h2><p>使用排版尽可能清晰有效地呈现您的设计和内容。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/material/typography.html#more" rel="contents">
@@ -1466,14 +1369,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">439k</span>
+    <span title="Symbols count total">438k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:39</span>
+    <span title="Reading time total">6:38</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -1268,7 +1268,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-12-02 12:08:36" itemprop="dateModified" datetime="2022-12-02T12:08:36+08:00">2022-12-02</time>
+        <time title="Modified: 2023-01-08 17:28:49" itemprop="dateModified" datetime="2023-01-08T17:28:49+08:00">2023-01-08</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1306,49 +1306,14 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Go使用SQL与类SQL数据库的惯例是通过标准库<a target="_blank" rel="noopener" href="http://golang.org/pkg/database/sql/">database/sql</a>。这是一个对关系型数据库的通用抽象，它提供了标准的、轻量的、面向行的接口。不过<code>database/sql</code>的包文档只讲它做了什么，却对如何使用只字未提。快速指南远比堆砌事实有用，本文讲述了<code>database/sql</code>的使用方法及其注意事项。</p>
-<h2 id="顶层抽象"><a href="#顶层抽象" class="headerlink" title="顶层抽象"></a>顶层抽象</h2><p>在Go中访问数据库需要用到sql.DB接口：它可以创建语句(statement)和事务(transaction)，执行查询，获取结果。</p>
-<p>sql.DB并不是数据库连接，也并未在概念上映射到特定的Database)或schema。它只是一个抽象的接口，不同的具体驱动有着不同的实现方式。通常而言，sql.DB会处理一些重要而麻烦的事情，例如操作具体的驱动打开/关闭实际底层数据库的连接，按需管理连接池。</p>
-<p>sql.DB这一抽象让用户不必考虑如何管理并发访问底层数据库的问题。当一个连接在执行任务时会被标记为正在使用。用完之后会放回连接池中。不过用户如果用完连接后忘记释放，就会产生大量的连接，极可能导致资源耗尽（建立太多连接，打开太多文件，缺少可用网络端口）。</p>
-<h2 id="加载驱动"><a href="#加载驱动" class="headerlink" title="加载驱动"></a>加载驱动</h2><p>使用数据库时，除了database/sql包本身，还需要引入想使用的特定数据库驱动。</p>
-<p>尽管有时候一些数据库特有的功能必需通过驱动的Ad Hoc接口来实现，但通常只要有可能，还是应当尽量只用database/sql中定义的类型。这可以减小用户代码与驱动的耦合，使切换驱动时代码改动最小化，也尽可能地使用户遵循Go的惯用法。本文使用PostgreSQL为例，PostgreSQL的著名的驱动有：</p>
-<ul>
-<li>github.com/lib/pq</li>
-<li>github.com/go-pg/pg</li>
-<li>github.com/jackc/pgx</li>
-</ul>
-<p>这里以pgx为例，它性能表现不俗，并对PostgreSQL诸多特性与类型有着良好的支持。既可使用Ad-Hoc API，也提供了标准数据库接口的实现：github.com/jackc/pgx/stdlib。</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> (</span><br><span class="line">    <span class="string">&quot;database/sql&quot;</span></span><br><span class="line">    _ <span class="string">&quot;github.com/jackx/pgx/stdlib&quot;</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-
-<p>使用_别名来匿名导入驱动，驱动的导出名字不会出现在当前作用域中。导入时，驱动的初始化函数会调用sql.Register将自己注册在database/sql包的全局变量sql.drivers中，以便以后通过sql.Open访问。</p>
-<p>加载驱动包后，需要使用sql.Open()来创建sql.DB：</p>
-<h2 id="连接数据"><a href="#连接数据" class="headerlink" title="连接数据"></a>连接数据</h2><p>加载驱动包后，需要使用sql.Open()来创建sql.DB：</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    db, err := sql.Open(<span class="string">&quot;pgx&quot;</span>,<span class="string">&quot;postgres://localhost:5432/postgres&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">        log.Fatal(err)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">defer</span> db.Close()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>sql.Open有两个参数：</p>
-<ul>
-<li>第一个参数是驱动名称，字符串类型。为避免混淆，一般与包名相同，这里是pgx。</li>
-<li>第二个参数也是字符串，内容依赖于特定驱动的语法。通常是URL的形式，例如postgres://localhost:5432。</li>
-<li>绝大多数情况下都应当检查database/sql操作所返回的错误。</li>
-<li>一般而言，程序需要在退出时通过sql.DB的Close()方法释放数据库连接资源。如果其生命周期不超过函数的范围，则应当使用defer db.Close()</li>
-</ul>
-<p>执行sql.Open()并未实际建立起到数据库的连接，也不会验证驱动参数。第一个实际的连接会惰性求值，延迟到第一次需要时建立。用户应该通过db.Ping()来检查数据库是否实际可用。</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> err = db.Ping(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">    <span class="comment">// do something about db error</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>sql.DB对象是为了长连接而设计的，不要频繁Open()和Close()数据库。而应该为每个待访问的数据库创建一个sql.DB实例，并在用完前一直保留它。需要时可将其作为参数传递，或注册为全局对象。</p>
-<p>如果没有按照database/sql设计的意图，不把sql.DB当成长期对象来用而频繁开关启停，就可能遭遇各式各样的错误：无法复用和共享连接，耗尽网络资源，由于TCP连接保持在TIME_WAIT状态而间断性的失败等……</p>
-<h2 id="执行SQL"><a href="#执行SQL" class="headerlink" title="执行SQL"></a>执行SQL</h2><p>有了sql.DB实例之后就可以开始执行查询语句了。</p>
-<p>Go将数据库操作分为两类：Query与Exec。两者的区别在于前者会返回结果，而后者不会。</p>
-<ul>
-<li>Query表示查询，它会从数据库获取查询结果（一系列行，可能为空）。</li>
-<li>Exec表示执行语句，它不会返回行。</li>
-</ul>
-<p>此外还有两种常见的数据库操作模式：</p>
-<ul>
-<li>QueryRow表示只返回一行的查询，作为Query的一个常见特例。</li>
-<li>Prepare表示准备一个需要多次使用的语句，供后续执行用。</li>
-</ul>
-<h2 id="操作数据"><a href="#操作数据" class="headerlink" title="操作数据"></a>操作数据</h2><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/178898">Go database/sql 教程</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/golang/go_database_sql.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1391,14 +1356,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">439k</span>
+    <span title="Symbols count total">438k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:39</span>
+    <span title="Reading time total">6:38</span>
   </span>
 </div>
 <div class="busuanzi-count">
