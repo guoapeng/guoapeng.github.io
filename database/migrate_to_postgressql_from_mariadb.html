@@ -38,7 +38,7 @@
 <meta property="og:description" content="前言本文主要实验所用的环境, 后端是golang, gin web框架. mysql driver: 1github.com&#x2F;go-sql-driver&#x2F;mysql v1.4.1  迁移后PostgreSQL driver: 1github.com&#x2F;jackc&#x2F;pgx&#x2F;v5 v5.1.1  迁移前服务器版本为:mariadb 版本为5.5.68-MariaDB 123mysql  Ver 15.1">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-04T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-01-02T14:56:47.408Z">
+<meta property="article:modified_time" content="2023-03-12T02:19:26.669Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="database">
@@ -180,7 +180,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-count">105</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -191,7 +191,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-count">44</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -285,7 +285,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-02 22:56:47" itemprop="dateModified" datetime="2023-01-02T22:56:47+08:00">2023-01-02</time>
+        <time title="Modified: 2023-03-12 10:19:26" itemprop="dateModified" datetime="2023-03-12T10:19:26+08:00">2023-03-12</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -323,7 +323,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.7k</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -421,6 +421,19 @@
 <li><p>insert 语句</p>
 <p> Mysql 支持“insert into” 和 “insert”, 而postgreSQL只支持”insert into”， 例如以下语句在postgreSQl会报语法错误， 而mysql不会。</p>
  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- postgreSQl会报语法错误</span></span><br><span class="line"><span class="keyword">insert</span> book_items(USER_ID, BOOK_ID, WORD_ID)</span><br><span class="line"><span class="keyword">values</span>(<span class="number">1</span>, <span class="number">2</span>, <span class="number">100</span> )</span><br><span class="line"></span><br><span class="line"><span class="comment">-- postgreSQl 中正确胡写法是</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> book_items(USER_ID, BOOK_ID, WORD_ID)</span><br><span class="line"><span class="keyword">values</span>(<span class="number">1</span>, <span class="number">2</span>, <span class="number">100</span> )</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li><p>postgresql 字段名和表名大小写</p>
+<ul>
+<li><p>PostgreSQL对表名、字段名都是区分大小写的。但是，PostgreSQL在SQL语句中对大小写是不敏感的，在不加双引号的情况下，创建时无论使用大写还是小写，表中都会统一转为小写显示的，因此查询时也会将语句中的字段名统一改成小写，因此，此时使用大小写查询均可。</p>
+</li>
+<li><p>用SQL语句的时候需要加双引号，或者转义符号。如果要创建名称为大写字母的字段名，需加双引号，此时表中的字段名不含双引号，但是查询时需加上双引号，执行时语句中的双引号将被抹去，因此能查出对应字段。</p>
+</li>
+<li><p>查询执行时，只会发生字段”双引号被抹去”和“大写转小写”中其中一个，优先发生”双引号被抹去”。</p>
+</li>
+</ul>
+</li>
+<li><p>postgreSQL limit 语法</p>
+<p>postgreSQL 不支持 limit 10, 20 这种语法, 需要替换为 limit 20 offset 10</p>
+</li>
 </ol>
 
     </div>
@@ -456,13 +469,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/database/postgresql_advanced.html" rel="prev" title="PostgreSQL高级篇">
-                  <i class="fa fa-chevron-left"></i> PostgreSQL高级篇
+                <a href="/golang/go_database_sql.html" rel="prev" title="Go database/sql 教程">
+                  <i class="fa fa-chevron-left"></i> Go database/sql 教程
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/database/install_postgresql_on_windows.html" rel="next" title="Windows上安装PostgreSQL 14">
-                  Windows上安装PostgreSQL 14 <i class="fa fa-chevron-right"></i>
+                <a href="/database/postgresql_advanced.html" rel="next" title="PostgreSQL高级篇">
+                  PostgreSQL高级篇 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -497,14 +510,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">438k</span>
+    <span title="Symbols count total">482k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">7:18</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -38,7 +38,7 @@
 <meta property="og:description" content="前言Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-21T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-12-02T04:08:41.356Z">
+<meta property="article:modified_time" content="2023-02-26T03:14:59.461Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Golang">
 <meta name="twitter:card" content="summary">
@@ -166,7 +166,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%92%8C%E8%AE%BE%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">安装和设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8UNIX-Linux-Mac-OS-X-%E4%BB%A5%E5%8F%8AFreeBSD%E7%B3%BB%E7%BB%9F%E4%B8%8B%E4%BD%BF%E7%94%A8%E6%A0%87%E5%87%86%E5%8C%85%E5%AE%89%E8%A3%85golang"><span class="nav-number">2.1.</span> <span class="nav-text">在UNIX&#x2F;Linux&#x2F;Mac OS X, 以及FreeBSD系统下使用标准包安装golang</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.</span> <span class="nav-text">Windows 系统下安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="nav-number">2.3.</span> <span class="nav-text">配置环境变量</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE-GO111MODULE"><span class="nav-number">2.3.1.</span> <span class="nav-text">设置 GO111MODULE</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE-GOPROXY"><span class="nav-number">2.3.2.</span> <span class="nav-text">设置 GOPROXY</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%92%8C%E8%AE%BE%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">安装和设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8UNIX-Linux-Mac-OS-X-%E4%BB%A5%E5%8F%8AFreeBSD%E7%B3%BB%E7%BB%9F%E4%B8%8B%E4%BD%BF%E7%94%A8%E6%A0%87%E5%87%86%E5%8C%85%E5%AE%89%E8%A3%85golang"><span class="nav-number">2.1.</span> <span class="nav-text">在UNIX&#x2F;Linux&#x2F;Mac OS X, 以及FreeBSD系统下使用标准包安装golang</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.</span> <span class="nav-text">Windows 系统下安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="nav-number">2.3.</span> <span class="nav-text">配置环境变量</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE-GO111MODULE"><span class="nav-number">2.3.1.</span> <span class="nav-text">设置 GO111MODULE</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE-GOPROXY"><span class="nav-number">2.3.2.</span> <span class="nav-text">设置 GOPROXY</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5"><span class="nav-number">3.</span> <span class="nav-text">问题排查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">4.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -179,7 +179,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-count">105</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-count">44</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-12-02 12:08:41" itemprop="dateModified" datetime="2022-12-02T12:08:41+08:00">2022-12-02</time>
+        <time title="Modified: 2023-02-26 11:14:59" itemprop="dateModified" datetime="2023-02-26T11:14:59+08:00">2023-02-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -310,14 +310,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.7k</span>
+      <span>3.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
@@ -367,10 +367,9 @@
 </tbody></table>
 <h3 id="在UNIX-Linux-Mac-OS-X-以及FreeBSD系统下使用标准包安装golang"><a href="#在UNIX-Linux-Mac-OS-X-以及FreeBSD系统下使用标准包安装golang" class="headerlink" title="在UNIX/Linux/Mac OS X, 以及FreeBSD系统下使用标准包安装golang"></a>在UNIX/Linux/Mac OS X, 以及FreeBSD系统下使用标准包安装golang</h3><ol>
 <li><p>下载二进制包：go1.19.3.linux-amd64.tar.gz。</p>
-<p> 下载地址已在前一节详细解释过.</p>
-</li>
-<li><p>将下载的二进制包解压至 /usr/local目录</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -C /usr/<span class="built_in">local</span> -xzf go1.19.3.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure></li>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://golang.google.cn/dl/go1.19.3.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure></li>
+<li><p>将下载的二进制包解压至 /usr/local目录<br>将之前的版本删除掉, 然后安装新版本</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /usr/<span class="built_in">local</span>/go &amp;&amp; tar -C /usr/<span class="built_in">local</span> -xzf go1.19.3.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure></li>
 <li><p>将 /usr/local/go/bin 目录添加至PATH环境变量</p>
 </li>
 </ol>
@@ -389,6 +388,17 @@
 
 <p>其他go proxies: <a target="_blank" rel="noopener" href="https://goproxy.io/">https://goproxy.io</a> china <a target="_blank" rel="noopener" href="https://goproxy.cn/">https://goproxy.cn</a></p>
 <p>关闭 GOSUMDB go env -w GOSUMDB=off</p>
+<h2 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h2><p>当出现以下错误时</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$go</span> build</span><br><span class="line"><span class="comment"># github.com/mattn/go-sqlite3</span></span><br><span class="line">cgo: C compiler <span class="string">&quot;gcc&quot;</span> not found: <span class="built_in">exec</span>: <span class="string">&quot;gcc&quot;</span>: executable file not found <span class="keyword">in</span> %PATH%</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>需要先安装gcc, 并将其可执行文件路径添加到path环境变量.</p>
+<p>安装方法</p>
+<ol>
+<li>下载<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/">基础程序​</a>​并进行安装</li>
+<li>选择MinGW-W64 Online Installer并下载</li>
+<li>双击安装程序, 当弹出settings界面时, 选择x86_64, 其它保持默认选项.</li>
+</ol>
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://blog.51cto.com/huashao/5197911">常见问题之Golang——cgo: C compiler</a></p>
 
     </div>
 
@@ -463,14 +473,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">438k</span>
+    <span title="Symbols count total">482k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">7:18</span>
   </span>
 </div>
 <div class="busuanzi-count">

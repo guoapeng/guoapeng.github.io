@@ -1,8 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/java/spring_websocket.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/java/websocket_java_client.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/database/db_migrations.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_plantuml_integration.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/nginx/nginx_installation.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular_injectable_decorator.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/product/mobile_app_promotion.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/product/how_to_build_an_app.html</loc>
+    <lastmod>2023-04-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode.html</loc>
+    <lastmod>2023-04-10</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular_editor.html</loc>
+    <lastmod>2023-04-10</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/angular/angular_flex_layout.html</loc>
+    <lastmod>2023-04-05</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/product/help_system_design2.html</loc>
+    <lastmod>2023-03-17</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/database/migrate_to_postgressql_from_mariadb.html</loc>
+    <lastmod>2023-03-12</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/golang/install_golang.html</loc>
+    <lastmod>2023-02-26</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/database/postgresql_backup_restore.html</loc>
+    <lastmod>2023-02-24</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/database/install_postgresql_on_centos7.html</loc>
+    <lastmod>2023-02-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/virtualize_windows10_on_fedora.html</loc>
+    <lastmod>2023-02-05</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/vscode/cloud_ide.html</loc>
+    <lastmod>2023-02-05</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2023-02-05</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/web/web_basic_1.html</loc>
-    <lastmod>2023-01-08</lastmod>
+    <lastmod>2023-01-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/windows/windows_prog_autostart.html</loc>
+    <lastmod>2023-01-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/windows/chocolatey_installation.html</loc>
+    <lastmod>2023-01-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/java/how_to_get_columns_by_table_name.html</loc>
+    <lastmod>2023-01-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-01-09</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/windows/cmder_install_configuration.html</loc>
+    <lastmod>2023-01-09</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/k8s/setup_k8s_cluster.html</loc>
@@ -57,19 +153,11 @@
     <lastmod>2023-01-08</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2023-01-08</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/linux/Linux_FHS.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/windows/cmder_install_configuration.html</loc>
     <lastmod>2023-01-08</lastmod>
   </url>
   <url>
@@ -93,16 +181,8 @@
     <lastmod>2023-01-08</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/java/spring_websocket.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/database/postgresql_advanced.html</loc>
     <lastmod>2023-01-03</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/database/migrate_to_postgressql_from_mariadb.html</loc>
-    <lastmod>2023-01-02</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/java/configure_multiple_ds_in_springboot.html</loc>
@@ -125,14 +205,6 @@
     <lastmod>2022-12-26</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/vscode/cloud_ide.html</loc>
-    <lastmod>2022-12-24</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/windows/chocolatey_installation.html</loc>
-    <lastmod>2022-12-22</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2022-12-21</lastmod>
   </url>
@@ -149,24 +221,8 @@
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/database/install_postgresql_on_windows.html</loc>
-    <lastmod>2022-12-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/golang/install_golang.html</loc>
-    <lastmod>2022-12-02</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/rust/rust_study.html</loc>
     <lastmod>2022-11-29</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/vscode/vscode_install_and_config.html</loc>
-    <lastmod>2022-11-29</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/database/install_postgresql_on_centos7.html</loc>
-    <lastmod>2022-11-28</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/database/install_mariadb_on_centos7.html</loc>
@@ -190,10 +246,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/angular/angular2_migration.html</loc>
-    <lastmod>2022-10-19</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/angular/angular_flex_layout.html</loc>
     <lastmod>2022-10-19</lastmod>
   </url>
   <url>
@@ -222,10 +274,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/git/install_setup_git_server.html</loc>
-    <lastmod>2022-07-09</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/git/centos7_install_git_via_sourcecode.html</loc>
     <lastmod>2022-07-09</lastmod>
   </url>
   <url>

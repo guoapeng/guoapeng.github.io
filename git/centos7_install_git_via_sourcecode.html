@@ -38,7 +38,7 @@
 <meta property="og:description" content="背景介绍由于运行gitlab pipeline job遇到如下错误 12fatal: git fetch-pack: expected shallow listERROR: Job failed: exit status 1  网上搜索原因, 是因为git的版本过低, 经查询确认, 确实很低还是1.x的git版本. 想通过yum源升级, 发现yum源上的最新版也才1.8.3.1到目前2021-12">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-12-15T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-07-09T10:50:16.250Z">
+<meta property="article:modified_time" content="2023-04-10T09:26:01.473Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="source_control">
@@ -167,7 +167,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">背景介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0"><span class="nav-number">2.</span> <span class="nav-text">博客更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDgitlab%E6%BA%90%E7%A0%81"><span class="nav-number">3.</span> <span class="nav-text">下载gitlab源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%8E%8B%E3%80%81%E7%BC%96%E8%AF%91%E3%80%81%E5%AE%89%E8%A3%85gIt"><span class="nav-number">4.</span> <span class="nav-text">解压、编译、安装gIt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BD"><span class="nav-number">5.</span> <span class="nav-text">如何卸载</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BDgit"><span class="nav-number">5.1.</span> <span class="nav-text">卸载git</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5"><span class="nav-number">6.</span> <span class="nav-text">问题排查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="nav-number">7.</span> <span class="nav-text">参考文章</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">背景介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0"><span class="nav-number">2.</span> <span class="nav-text">博客更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDgit%E6%BA%90%E7%A0%81"><span class="nav-number">3.</span> <span class="nav-text">下载git源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%8E%8B%E3%80%81%E7%BC%96%E8%AF%91%E3%80%81%E5%AE%89%E8%A3%85gIt"><span class="nav-number">4.</span> <span class="nav-text">解压、编译、安装gIt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BD"><span class="nav-number">5.</span> <span class="nav-text">如何卸载</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BDgit"><span class="nav-number">5.1.</span> <span class="nav-text">卸载git</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5"><span class="nav-number">6.</span> <span class="nav-text">问题排查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="nav-number">7.</span> <span class="nav-text">参考文章</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -180,7 +180,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-count">105</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -191,7 +191,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-count">44</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -285,7 +285,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-07-09 18:50:16" itemprop="dateModified" datetime="2022-07-09T18:50:16+08:00">2022-07-09</time>
+        <time title="Modified: 2023-04-10 17:26:01" itemprop="dateModified" datetime="2023-04-10T17:26:01+08:00">2023-04-10</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -348,7 +348,7 @@
 <span id="more"></span>
 
 <h2 id="博客更新"><a href="#博客更新" class="headerlink" title="博客更新"></a>博客更新</h2><p>安装完成后发现这里有第三方提供的rpm包 可以下载, 所以现在可以有另一种安装方式可供选择了 即rpm包安装<br><a target="_blank" rel="noopener" href="https://pkgs.org/download/git">https://pkgs.org/download/git</a></p>
-<h2 id="下载gitlab源码"><a href="#下载gitlab源码" class="headerlink" title="下载gitlab源码"></a>下载gitlab源码</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /opt</span><br><span class="line">wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.22.0.tar.gz</span><br></pre></td></tr></table></figure>
+<h2 id="下载git源码"><a href="#下载git源码" class="headerlink" title="下载git源码"></a>下载git源码</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /opt</span><br><span class="line">wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.22.0.tar.gz</span><br></pre></td></tr></table></figure>
 
 <p>这里我下载的是2.22.0版本的，如果要下载其他版本，把URL后面的版本号修改即可.<br>如果提示cannot verify mirrors.edge.kernel.org’s certificate,  参考 troubleshooting章节.</p>
 <h2 id="解压、编译、安装gIt"><a href="#解压、编译、安装gIt" class="headerlink" title="解压、编译、安装gIt"></a>解压、编译、安装gIt</h2><p>解压源码包</p>
@@ -462,14 +462,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">438k</span>
+    <span title="Symbols count total">482k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">6:38</span>
+    <span title="Reading time total">7:18</span>
   </span>
 </div>
 <div class="busuanzi-count">
