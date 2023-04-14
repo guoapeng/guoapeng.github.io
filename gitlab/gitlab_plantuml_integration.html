@@ -30,15 +30,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="1. 前言当在GitLab集成并正确配置PlantUML后，您可以在snip、Wiki和代码库中创建图表。此GitLab.com上PlantUML默认为所有SaaS用户启用，不需要任何额外配置。 要在自管理实例上设置PlantUML，必须：  配置PlantUML服务器。 配置本地PlantUML访问。 配置PlantUML安全性。 启用PlantUML。">
+<meta name="description" content="摘要本文提供了将PlantUML与GitLab集成的逐步指南。它涵盖了从配置PlantUML服务器到在GitLab中启用它的所有内容，并包括代码块以说明必要的命令。通过遵循本指南，您将能够使用PlantUML在GitLab snips、wikis和代码库中创建图表。 1. 前言当在GitLab集成并正确配置PlantUML后，您可以在snip、Wiki和代码库中创建图表。此GitLab.com上P">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GitLab集成PlantUML">
 <meta property="og:url" content="http://www.pengshu.net/gitlab/gitlab_plantuml_integration.html">
 <meta property="og:site_name" content="鹏叔的IT技术博客空间">
-<meta property="og:description" content="1. 前言当在GitLab集成并正确配置PlantUML后，您可以在snip、Wiki和代码库中创建图表。此GitLab.com上PlantUML默认为所有SaaS用户启用，不需要任何额外配置。 要在自管理实例上设置PlantUML，必须：  配置PlantUML服务器。 配置本地PlantUML访问。 配置PlantUML安全性。 启用PlantUML。">
+<meta property="og:description" content="摘要本文提供了将PlantUML与GitLab集成的逐步指南。它涵盖了从配置PlantUML服务器到在GitLab中启用它的所有内容，并包括代码块以说明必要的命令。通过遵循本指南，您将能够使用PlantUML在GitLab snips、wikis和代码库中创建图表。 1. 前言当在GitLab集成并正确配置PlantUML后，您可以在snip、Wiki和代码库中创建图表。此GitLab.com上P">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-02T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-04-12T08:16:18.267Z">
+<meta property="article:modified_time" content="2023-04-13T09:30:17.280Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="gitlab">
 <meta name="twitter:card" content="summary">
@@ -166,7 +166,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">1. 前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E9%85%8D%E7%BD%AEPlantUML%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">2.</span> <span class="nav-text">2. 配置PlantUML服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0PlantUML%E8%AE%BF%E9%97%AE"><span class="nav-number">3.</span> <span class="nav-text">3. 配置本地PlantUML访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%BC%80%E5%90%AF-PlantUML"><span class="nav-number">4.</span> <span class="nav-text">4. 开启 PlantUML</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">5.</span> <span class="nav-text">5. 参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E8%A6%81"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%89%8D%E8%A8%80"><span class="nav-number">2.</span> <span class="nav-text">1. 前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E9%85%8D%E7%BD%AEPlantUML%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">3.</span> <span class="nav-text">2. 配置PlantUML服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0PlantUML%E8%AE%BF%E9%97%AE"><span class="nav-number">4.</span> <span class="nav-text">3. 配置本地PlantUML访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%BC%80%E5%90%AF-PlantUML"><span class="nav-number">5.</span> <span class="nav-text">4. 开启 PlantUML</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">6.</span> <span class="nav-text">5. 参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -179,7 +179,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">105</span>
+          <span class="site-state-item-count">104</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-04-12 16:16:18" itemprop="dateModified" datetime="2023-04-12T16:16:18+08:00">2023-04-12</time>
+        <time title="Modified: 2023-04-13 17:30:17" itemprop="dateModified" datetime="2023-04-13T17:30:17+08:00">2023-04-13</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -318,7 +318,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.7k</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -336,7 +336,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>当在GitLab集成并正确配置PlantUML后，您可以在snip、Wiki和代码库中创建图表。此GitLab.com上PlantUML默认为所有SaaS用户启用，不需要任何额外配置。</p>
+        <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文提供了将PlantUML与GitLab集成的逐步指南。它涵盖了从配置PlantUML服务器到在GitLab中启用它的所有内容，并包括代码块以说明必要的命令。通过遵循本指南，您将能够使用PlantUML在GitLab snips、wikis和代码库中创建图表。</p>
+<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>当在GitLab集成并正确配置PlantUML后，您可以在snip、Wiki和代码库中创建图表。此GitLab.com上PlantUML默认为所有SaaS用户启用，不需要任何额外配置。</p>
 <p>要在自管理实例上设置PlantUML，必须：</p>
 <ul>
 <li>配置PlantUML服务器。</li>
@@ -346,12 +347,12 @@
 </ul>
 <span id="more"></span>
 
-<h2 id="2-配置PlantUML服务器"><a href="#2-配置PlantUML服务器" class="headerlink" title="2. 配置PlantUML服务器"></a>2. 配置PlantUML服务器</h2><p>如果你的服务器时debian或ubuntu系列, 可以使用源码安装plantuml server. 如果是其他类型的服务器, 建议使用docker安装plantuml server.<br>本教程主要讲解docker启动plantuml server.</p>
+<h2 id="2-配置PlantUML服务器"><a href="#2-配置PlantUML服务器" class="headerlink" title="2. 配置PlantUML服务器"></a>2. 配置PlantUML服务器</h2><p>如果你的服务器是debian或ubuntu系列, 可以使用源码安装plantuml server. 如果是其他类型的服务器, 建议使用docker安装plantuml server.<br>本教程主要讲解docker启动plantuml server.</p>
 <p>使用下面的命令即可快速启动一个plantuml server容器.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name plantuml -p 8080:8080 plantuml/plantuml-server:tomcat</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">docker run -d --name plantuml -p 8080:8080 -e PLANTUML_LIMIT_SIZE=8192m -e PLANTUML_FONT_PATH=/usr/share/fonts/truetype/dejavu/ plantuml/plantuml-server:tomcat</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>确认容器启动没有问题后, 将容器设置为开机自启.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker update --restart=always plantuml</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">docker update --restart=always plantuml</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>如果你的gitlab服务器本身就是使用docker-compose启动的, 那么可以在docker-compose的配置文件中, 可以参考下面配置添加plantuml-server</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&quot;3&quot;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">gitlab:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">&#x27;gitlab/gitlab-ee:12.2.5-ee.0&#x27;</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">GITLAB_OMNIBUS_CONFIG:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        nginx[&#x27;custom_gitlab_server_config&#x27;] = &quot;location /-/plantuml/ &#123; \n    proxy_cache off; \n    proxy_pass  http://plantuml:8080/; \n&#125;\n&quot;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">  <span class="attr">plantuml:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">&#x27;plantuml/plantuml-server:tomcat&#x27;</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">plantuml</span></span><br></pre></td></tr></table></figure>
@@ -408,8 +409,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/linux/virtualize_windows10_on_fedora.html" rel="next" title="">
-                   <i class="fa fa-chevron-right"></i>
+                <a href="/database/postgresql_backup_restore.html" rel="next" title="PostgreSQL备份与恢复">
+                  PostgreSQL备份与恢复 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -444,14 +445,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">482k</span>
+    <span title="Symbols count total">485k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:18</span>
+    <span title="Reading time total">7:21</span>
   </span>
 </div>
 <div class="busuanzi-count">

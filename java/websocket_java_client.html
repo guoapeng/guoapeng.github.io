@@ -32,13 +32,13 @@
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 <meta name="description" content="1. 前言在上篇文章java实现websocket的五种方式, 我详细讲述了使用java实现websocket的五种方式.五种方式都集中在服务器端的实现, 客户端我们使用的是一个在线测试工具进行测试的. 只有针对stomp这种方式我自己写了一个javascript版本的客户端. 但是随着项目的推进, 发现整个体系就行魔方或拼图一样, 在完整体系中还缺少了一块, 那就是java客户端去连接stomp">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用stomp的java客户端发送数据">
+<meta property="og:title" content="使用stomp的java客户端推送数据">
 <meta property="og:url" content="http://www.pengshu.net/java/websocket_java_client.html">
 <meta property="og:site_name" content="鹏叔的IT技术博客空间">
 <meta property="og:description" content="1. 前言在上篇文章java实现websocket的五种方式, 我详细讲述了使用java实现websocket的五种方式.五种方式都集中在服务器端的实现, 客户端我们使用的是一个在线测试工具进行测试的. 只有针对stomp这种方式我自己写了一个javascript版本的客户端. 但是随着项目的推进, 发现整个体系就行魔方或拼图一样, 在完整体系中还缺少了一块, 那就是java客户端去连接stomp">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-14T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-04-12T08:17:25.299Z">
+<meta property="article:modified_time" content="2023-04-14T05:19:11.327Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="web">
 <meta property="article:tag" content="java">
@@ -51,10 +51,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/java/websocket_java_client.html","path":"java/websocket_java_client.html","title":"使用stomp的java客户端发送数据"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/java/websocket_java_client.html","path":"java/websocket_java_client.html","title":"使用stomp的java客户端推送数据"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>使用stomp的java客户端发送数据 | 鹏叔的IT技术博客空间</title>
+<title>使用stomp的java客户端推送数据 | 鹏叔的IT技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -182,7 +182,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">105</span>
+          <span class="site-state-item-count">104</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -269,7 +269,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          使用stomp的java客户端发送数据
+          使用stomp的java客户端推送数据
         </h1>
 
         <div class="post-meta-container">
@@ -287,7 +287,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-04-12 16:17:25" itemprop="dateModified" datetime="2023-04-12T16:17:25+08:00">2023-04-12</time>
+        <time title="Modified: 2023-04-14 13:19:11" itemprop="dateModified" datetime="2023-04-14T13:19:11+08:00">2023-04-14</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -380,7 +380,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="http://www.pengshu.net/java/websocket_java_client.html" title="使用stomp的java客户端发送数据">http://www.pengshu.net/java/websocket_java_client.html</a>
+      <a href="http://www.pengshu.net/java/websocket_java_client.html" title="使用stomp的java客户端推送数据">http://www.pengshu.net/java/websocket_java_client.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -440,14 +440,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">482k</span>
+    <span title="Symbols count total">485k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:18</span>
+    <span title="Reading time total">7:21</span>
   </span>
 </div>
 <div class="busuanzi-count">
