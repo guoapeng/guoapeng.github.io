@@ -38,7 +38,7 @@
 <meta property="og:description" content="前言数据库的备份有多种分类方式。  按照备份后的文件类型，可以分为物理备份（文件系统级别的备份）和逻辑备份（备份后的文件是sql文件或特定格式的导出文件）； 按照备份过程中是否停止数据库服务，可分为冷备份（备份过程中停止数据库服务）和热备份（备份过程中数据库服务开启并可供用户访问）； 按照备份是否是完整的数据库，可分为全量备份(备份是完整的数据库)和增量备份（备份是上一次全量备份后数据库改变的内容">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-23T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-04-14T03:37:06.505Z">
+<meta property="article:modified_time" content="2023-04-14T08:38:38.634Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="database">
@@ -180,7 +180,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">111</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -191,7 +191,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-count">46</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -285,7 +285,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-04-14 11:37:06" itemprop="dateModified" datetime="2023-04-14T11:37:06+08:00">2023-04-14</time>
+        <time title="Modified: 2023-04-14 16:38:38" itemprop="dateModified" datetime="2023-04-14T16:38:38+08:00">2023-04-14</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -357,9 +357,11 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">pg_dump -h 127.0.0.1 -p 5432 -U postgres -d dbname -c -C -f dbname.sql</span><br><span class="line"></span><br><span class="line">-c</span><br><span class="line">--clean</span><br><span class="line">    输出在创建数据库创建命令之前先清理（删除）该数据库对象的命令。</span><br><span class="line">    这个选项只是对纯文本格式有意义。对于归档格式，你可以在调用 pg_restore 的时候声明选项。</span><br><span class="line"></span><br><span class="line">-C</span><br><span class="line">--create</span><br><span class="line">    以一条创建该数据库本身并且与这个数据库联接等命令开头进行输出。 （如果是这种形式的脚本，那么你在运行脚本之前和哪个数据库联接就不重要了。）</span><br><span class="line">    这个选项只对纯文本格式有意义。对于归档格式，你可以在调用 pg_restore 的时候声明该选项。</span><br><span class="line"></span><br><span class="line">-f file</span><br><span class="line">--file=file</span><br><span class="line">    把输出发往指定的文件。如果忽略这些，则使用标准输出。</span><br><span class="line"></span><br><span class="line">联接参数</span><br><span class="line">-h host</span><br><span class="line">--host=host</span><br><span class="line">    声明运行服务器的机器的主机名。如果数值以斜杠开头，则它被用做到 Unix 域套接字 的路径。缺省是从 PGHOST 环境变量中取得的，如果设置了这个环境变量的话，否则，尝试 一个 Unix 域套接字连接。</span><br><span class="line"></span><br><span class="line">-p port</span><br><span class="line">--port=port</span><br><span class="line">    声明服务器正在侦听并等待联接的 TCP 端口或本地 Unix 主控套接字文件句柄。缺省时使用环境变量 PGPORT 的值（如果存在），或者是编译时的缺省值。</span><br><span class="line"></span><br><span class="line">-U username</span><br><span class="line">    以给出用户身分联接</span><br></pre></td></tr></table></figure>
 
 使用如下命令可对全部pg数据库进行备份。
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pg_dumpall –h 127.0.0.1 –p 5432 -U postgres –c  -C –f db_bak.sql</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">pg_dumpall -h 127.0.0.1 -p 5432 -U postgres  -c  -C -f db_bak.sql</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 恢复方式很简单。执行恢复命令即可：
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">psql –h 127.0.0.1 -p 5432 -U postgres –f db_bak.sql</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">psql -h 127.0.0.1 -p 5432 -U postgres -f db_bak.sql</span><br></pre></td></tr></table></figure>
 </code></pre>
 <h3 id="连续归档"><a href="#连续归档" class="headerlink" title="连续归档"></a>连续归档</h3><p>这种方式的策略是把一个文件系统级别的全量备份和WAL(预写式日志)级别的增量备份结合起来。当需要恢复时，我们先恢复文件系统级别的备份，然后重放备份的WAL文件，把系统恢复到之前的某个状态。这种备份有显著的优点：</p>
 <p>不需要一个完美的一致的文件系统备份作为开始点。备份中的任何内部不一致性将通过日志重放来修正。<br>可以结合一个无穷长的WAL文件序列用于重放，可以通过简单地归档WAL文件来达到连续备份。<br>不需要重放WAL项一直到最后。可以在任何点停止重放，并使数据库恢复到当时的一致状态。<br>可以连续地将一系列WAL文件输送给另一台已经载入了相同基础备份文件的机器，得到一个实时的热备份系统。</p>
@@ -458,14 +460,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">485k</span>
+    <span title="Symbols count total">519k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:21</span>
+    <span title="Reading time total">7:52</span>
   </span>
 </div>
 <div class="busuanzi-count">

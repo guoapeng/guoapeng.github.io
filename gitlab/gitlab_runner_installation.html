@@ -38,7 +38,7 @@
 <meta property="og:description" content="安装前准备工作配置yum源网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-ru">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-10-12T23:40:35.071Z">
+<meta property="article:modified_time" content="2023-04-21T03:01:33.272Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="gitlab">
 <meta name="twitter:card" content="summary">
@@ -166,7 +166,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%89%8D%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">安装前准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEyum%E6%BA%90"><span class="nav-number">1.1.</span> <span class="nav-text">配置yum源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85runner"><span class="nav-number">2.</span> <span class="nav-text">安装runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AErunner"><span class="nav-number">3.</span> <span class="nav-text">配置runner</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AAshared-runner"><span class="nav-number">3.1.</span> <span class="nav-text">注册一个shared　runner</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95Runner"><span class="nav-number">4.</span> <span class="nav-text">测试Runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">5.</span> <span class="nav-text">常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86"><span class="nav-number">5.1.</span> <span class="nav-text">服务管理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E9%94%80gitlab-runner"><span class="nav-number">6.</span> <span class="nav-text">注销gitlab-runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BDgitlab-runner"><span class="nav-number">7.</span> <span class="nav-text">卸载gitlab-runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5"><span class="nav-number">8.</span> <span class="nav-text">问题排查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">9.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%89%8D%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">安装前准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEyum%E6%BA%90"><span class="nav-number">1.1.</span> <span class="nav-text">配置yum源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85runner"><span class="nav-number">2.</span> <span class="nav-text">安装runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AErunner"><span class="nav-number">3.</span> <span class="nav-text">配置runner</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AAshared-runner"><span class="nav-number">3.1.</span> <span class="nav-text">注册一个shared　runner</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95Runner"><span class="nav-number">4.</span> <span class="nav-text">测试Runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE"><span class="nav-number">5.</span> <span class="nav-text">常用配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">6.</span> <span class="nav-text">常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86"><span class="nav-number">6.1.</span> <span class="nav-text">服务管理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E9%94%80gitlab-runner"><span class="nav-number">7.</span> <span class="nav-text">注销gitlab-runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BDgitlab-runner"><span class="nav-number">8.</span> <span class="nav-text">卸载gitlab-runner</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5"><span class="nav-number">9.</span> <span class="nav-text">问题排查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">10.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -179,7 +179,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">111</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-count">46</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-13 07:40:35" itemprop="dateModified" datetime="2022-10-13T07:40:35+08:00">2022-10-13</time>
+        <time title="Modified: 2023-04-21 11:01:33" itemprop="dateModified" datetime="2023-04-21T11:01:33+08:00">2023-04-21</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -318,14 +318,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>3.7k</span>
+      <span>4.4k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
@@ -336,7 +336,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="安装前准备工作"><a href="#安装前准备工作" class="headerlink" title="安装前准备工作"></a>安装前准备工作</h2><h3 id="配置yum源"><a href="#配置yum源" class="headerlink" title="配置yum源"></a>配置yum源</h3><p>网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-runner已经到14.4.0了，在其<a target="_blank" rel="noopener" href="https://gitlab.com/gitlab-org/gitlab-runner">gitliab仓库</a>上已经说明 Project ‘gitlab-org/gitlab-ci-multi-runner’ was moved to ‘gitlab-org/gitlab-runner’. Please update any links and bookmarks that may still have the old path.<br>关于gitlab-runner与gitlab的兼容性原则，gitlab和gitlab-runner在主版本和小版本(major.minor)保持同步，具有相同主小版本号的gitlab和gitlab-runner兼容性最好, 较老的runner可能可以兼容教新的gitlab,反之亦然，但是不能完全保证．详情请参考<a target="_blank" rel="noopener" href="https://docs.gitlab.com/runner/#compatibility-with-gitlab-versions">官网关于兼容性原文</a></p>
+        <h2 id="安装前准备工作"><a href="#安装前准备工作" class="headerlink" title="安装前准备工作"></a>安装前准备工作</h2><h3 id="配置yum源"><a href="#配置yum源" class="headerlink" title="配置yum源"></a>配置yum源</h3><p>网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-runner已经到14.4.0了，在其<a target="_blank" rel="noopener" href="https://gitlab.com/gitlab-org/gitlab-runner">gitliab仓库</a>上已经说明 Project ‘gitlab-org/gitlab-ci-multi-runner’ was moved to ‘gitlab-org/gitlab-runner’. Please update any links and bookmarks that may still have the old path.<br>关于gitlab-runner与gitlab的兼容性原则，gitlab和gitlab-runner在主版本和小版本(major.minor)保持同步，具有相同主版本和小版本号的gitlab和gitlab-runner兼容性最好, 较老的runner可能可以兼容教新的gitlab,反之亦然，但是不能完全保证．详情请参考<a target="_blank" rel="noopener" href="https://docs.gitlab.com/runner/#compatibility-with-gitlab-versions">官网关于兼容性原文</a></p>
 <span id="more"></span>
 
 <p>创建文件/etc/yum.repos.d/gitlab_gitlab-ee.repo，内容如下</p>
@@ -360,7 +360,10 @@
 <li>创建了gitlab-runner用户</li>
 <li>将gitlab-runner 注册为服务并设置为开机启动</li>
 </ol>
-<h2 id="配置runner"><a href="#配置runner" class="headerlink" title="配置runner"></a>配置runner</h2><h3 id="注册一个shared-runner"><a href="#注册一个shared-runner" class="headerlink" title="注册一个shared　runner"></a>注册一个shared　runner</h3><p>向GitLab-CI注册一个Runner需要两样东西：GitLab-CI的url和注册token。<br>其中，token是为了确定你这个Runner是所有工程都能够使用的Shared Runner还是具体某一个工程才能使用的Specific Runner。<br>如果要注册Shared Runner，你需要到管理界面的Runners页面里面去找注册token.<br>打开gitlab页面menue &gt; admin &gt; runner, 在Setup shared runner一节可以找到相应的url和token<br>注册完成之后，在页面menue &gt; admin &gt; runner就会多出一条Runner记录</p>
+<h2 id="配置runner"><a href="#配置runner" class="headerlink" title="配置runner"></a>配置runner</h2><h3 id="注册一个shared-runner"><a href="#注册一个shared-runner" class="headerlink" title="注册一个shared　runner"></a>注册一个shared　runner</h3><p>注册shared runner之前要启动gitlab-runner, 如果没有启动, 可用使用这条命令启动gitlab-runner</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start gitlab-runner</span><br></pre></td></tr></table></figure>
+
+<p>向GitLab-CI注册一个Runner需要两样东西：GitLab-CI的url和注册token。<br>其中，token是为了确定你这个Runner是所有工程都能够使用的Shared Runner还是具体某一个工程才能使用的Specific Runner。<br>如果要注册Shared Runner，你需要到管理界面的Runners页面里面去找注册token.<br>打开gitlab页面menue &gt; admin &gt; runner, 在Setup shared runner一节可以找到相应的url和token<br>注册完成之后，在页面menue &gt; admin &gt; runner就会多出一条Runner记录</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-runner register</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$gitlab</span>-runner register</span><br><span class="line">Runtime platform                                    arch=amd64 os=linux pid=29902 revision=4b9e985a version=14.4.0</span><br><span class="line">Running <span class="keyword">in</span> system-mode.</span><br><span class="line">Enter the GitLab instance URL (<span class="keyword">for</span> example, https://gitlab.com/):</span><br><span class="line">http://your_gitlab_domain</span><br><span class="line">Enter the registration token:</span><br><span class="line">your_gitlab_or_project_cicd_token</span><br><span class="line">Enter a description <span class="keyword">for</span> the runner:</span><br><span class="line">[i-hrf33t1e]: runner_on_dev_server</span><br><span class="line">Enter tags <span class="keyword">for</span> the runner (comma-separated):</span><br><span class="line">centos7, shell</span><br><span class="line">Registering runner... succeeded                     runner=zSpe6VZi</span><br><span class="line">Enter an executor: docker-ssh, parallels, shell, virtualbox, docker+machine, custom, docker, ssh, docker-ssh+machine, kubernetes:</span><br><span class="line">shell</span><br><span class="line">Runner registered successfully. Feel free to start it, but <span class="keyword">if</span> it<span class="string">&#x27;s running already the config should be automatically reloaded!</span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure>
@@ -369,15 +372,56 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">stages:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">test</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">build</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">deploy</span></span><br><span class="line"></span><br><span class="line"><span class="attr">test:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">test</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">echo</span> <span class="string">&quot;Running tests&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">build</span></span><br><span class="line">  <span class="attr">script:</span> <span class="string">echo</span> <span class="string">&quot;Building the app&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy_staging:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">deploy</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">echo</span> <span class="string">&quot;Deploy to staging server&quot;</span></span><br><span class="line">  <span class="attr">environment:</span></span><br><span class="line">    <span class="attr">name:</span> <span class="string">staging</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://staging.example.com</span></span><br></pre></td></tr></table></figure>
 
 <p>提交代码，到gitlab pipeline界面查看流水线是否创建成功.</p>
+<h2 id="常用配置"><a href="#常用配置" class="headerlink" title="常用配置"></a>常用配置</h2><p>/etc/gitlab-runner/config.toml</p>
+<p>配置默认在 /etc/gitlab-runner/config.toml 下，配置文件更改时不需要重启服务，每隔三秒GitLab Runner 会检查配置修改，并重新加载。</p>
+<table>
+<thead>
+<tr>
+<th>配置项</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>concurrent</td>
+<td>限制可以同时运行的作业数量</td>
+</tr>
+<tr>
+<td>log_level</td>
+<td>日志级别</td>
+</tr>
+<tr>
+<td>log_format</td>
+<td>日志格式</td>
+</tr>
+<tr>
+<td>check_interval</td>
+<td>检查新作业的间隔长度，默认为3秒</td>
+</tr>
+<tr>
+<td>sentry_dsn</td>
+<td>启用Sentry错误跟踪</td>
+</tr>
+<tr>
+<td>listen_address</td>
+<td>http服务监听地址</td>
+</tr>
+</tbody></table>
 <h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">gitlab-runner start     <span class="comment">#该命令启动GitLab Runner服务。</span></span><br><span class="line"></span><br><span class="line">gitlab-runner stop      <span class="comment">#该命令停止GitLab Runner服务。</span></span><br><span class="line"></span><br><span class="line">gitlab-runner restart   <span class="comment">#该命令将停止，然后启动GitLab Runner服务。</span></span><br><span class="line"></span><br><span class="line">gitlab-runner status <span class="comment">#此命令显示GitLab Runner服务的状态。当服务正在运行时，退出代码为零；而当服务未运行时，退出代码为非零。</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="注销gitlab-runner"><a href="#注销gitlab-runner" class="headerlink" title="注销gitlab-runner"></a>注销gitlab-runner</h2><p>很多安装文档, 只告诉如何安装, 很少讲到如何注销和卸载.<br>当安装过程中遇到问题, 或使用过程中遇到问题, 可以使用大招卸载,重新安装来解决问题, 所以这里我列出了注销gitlab-runner和卸载gitlab-runner的详细说明, 以备不时之需.  </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#  取消注册所有runner</span></span><br><span class="line">gitlab-runner unregister --all-runners</span><br><span class="line"></span><br><span class="line"><span class="comment"># 要注销特定的 runner, 首先通过gitlab-runner list获取注册者的详细信息</span></span><br><span class="line">gitlab-runner list</span><br><span class="line"></span><br><span class="line"><span class="comment"># 再根据名字或url注销</span></span><br><span class="line"><span class="comment"># 按名字</span></span><br><span class="line">gitlab-runner unregister --name hj_project</span><br><span class="line"></span><br><span class="line"><span class="comment"># 根据url加令牌</span></span><br><span class="line">gitlab-runner unregister --url http://gitlab.example.com --token tok3n</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h2 id="卸载gitlab-runner"><a href="#卸载gitlab-runner" class="headerlink" title="卸载gitlab-runner"></a>卸载gitlab-runner</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">!/bin/bash</span><br><span class="line"><span class="comment"># 卸载gitlab-runner</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止服务</span></span><br><span class="line">gitlab-runner stop</span><br><span class="line"></span><br><span class="line"><span class="comment"># 取消随机启动</span></span><br><span class="line">chkconfig gitlab-runner off</span><br><span class="line"></span><br><span class="line"><span class="comment"># 卸载服务</span></span><br><span class="line">gitlab-runner uninstall</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理文件</span></span><br><span class="line">rm -rf /etc/gitlab-runner</span><br><span class="line">rm -rf /usr/<span class="built_in">local</span>/bin/gitlab-runner</span><br><span class="line">rm -rf /usr/bin/gitlab-runner</span><br><span class="line">rm -rf /etc/sudoers.d/gitlab-runner</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除用户</span></span><br><span class="line">userdel -r gitlab-runner</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="卸载gitlab-runner"><a href="#卸载gitlab-runner" class="headerlink" title="卸载gitlab-runner"></a>卸载gitlab-runner</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">!/bin/bash</span><br><span class="line"><span class="comment"># 卸载gitlab-runner</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止服务</span></span><br><span class="line">gitlab-runner stop</span><br><span class="line"></span><br><span class="line"><span class="comment"># 取消随机启动</span></span><br><span class="line">systemctl <span class="built_in">disable</span> gitlab-runner</span><br><span class="line"></span><br><span class="line"><span class="comment"># 卸载服务</span></span><br><span class="line">gitlab-runner uninstall</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理文件</span></span><br><span class="line">rm -rf /etc/gitlab-runner</span><br><span class="line">rm -rf /usr/<span class="built_in">local</span>/bin/gitlab-runner</span><br><span class="line">rm -rf /usr/bin/gitlab-runner</span><br><span class="line">rm -rf /etc/sudoers.d/gitlab-runner</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除用户</span></span><br><span class="line">userdel -r gitlab-runner</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h2><ol>
-<li>This job does not have a trace job页面写作这个段信息<br>经过分析，目前我遇到的情况是由于gitlab和gitlab runner版本不兼容, gitlab 14.4.0 ,而gitlab runner或gitlab-ci-multi-runner是9.5.1．<br>解决办法，卸载gitlab-ci-multi-runner, 安装gitlab-runner 14.4.0保持和gitlab 版本一致．</li>
+<li><p>This job does not have a trace job页面写作这个段信息<br>经过分析，目前我遇到的情况是由于gitlab和gitlab runner版本不兼容, gitlab 14.4.0 ,而gitlab runner或gitlab-ci-multi-runner是9.5.1．<br>解决办法，卸载gitlab-ci-multi-runner, 安装gitlab-runner 14.4.0保持和gitlab 版本一致．</p>
+</li>
+<li><p>expected shallow list</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Reinitialized existing Git repository <span class="keyword">in</span> /home/gitlab-runner/builds/zBFPsthA/0/root/xxx-project/.git/</span><br><span class="line">fatal: git fetch-pack: expected shallow list</span><br><span class="line">fatal: The remote end hung up unexpectedly</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>  一开始使用的自带git版本是1.8.3.1的，就是版本太低的问题，不支持最新的API, 可用参考我的博客升级git </p>
+<ol start="3">
+<li>Run untagged jobs<br>新注册的gitlab runner 默认是不pick untagged jobs 要将其打开才能pick untagged jobs</li>
 </ol>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/lizhiqiang1217/article/details/88803783">GitLab Runner的安装与使用</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/w544924116/article/details/119270090">gitlab+gitlab-runner实现前端项目自动化构建部署</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/u014651560/article/details/114868908">gitlab-runner常用命令</a></p>
 
@@ -454,14 +498,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">485k</span>
+    <span title="Symbols count total">519k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:21</span>
+    <span title="Reading time total">7:52</span>
   </span>
 </div>
 <div class="busuanzi-count">

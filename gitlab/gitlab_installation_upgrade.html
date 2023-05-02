@@ -38,7 +38,7 @@
 <meta property="og:description" content="1. gitlab简介 2. 安装环境介绍 3. gitlab 安装 4. 系统要求 4.1. 安装准备工作 4.2. 开始安装gitlab   5. gitlab升级 5.1. 开启yum缓存 5.2. 升级前备份 5.3. 开始升级   6. gitlab迁移 6.1. 备份数据 6.2. 在新服务器上安装gitlab 6.3. 还原备份   7. 彻底卸载gitlab 7.1. 卸载前备份">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-01-09T20:10:32.395Z">
+<meta property="article:modified_time" content="2023-04-21T04:12:01.439Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="gitlab">
 <meta name="twitter:card" content="summary">
@@ -166,7 +166,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-gitlab%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">1. gitlab简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.</span> <span class="nav-text">2. 安装环境介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-gitlab-%E5%AE%89%E8%A3%85"><span class="nav-number">3.</span> <span class="nav-text">3. gitlab 安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82"><span class="nav-number">4.</span> <span class="nav-text">4. 系统要求</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">4.1.</span> <span class="nav-text">4.1. 安装准备工作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85gitlab"><span class="nav-number">4.2.</span> <span class="nav-text">4.2. 开始安装gitlab</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-gitlab%E5%8D%87%E7%BA%A7"><span class="nav-number">5.</span> <span class="nav-text">5. gitlab升级</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-%E5%BC%80%E5%90%AFyum%E7%BC%93%E5%AD%98"><span class="nav-number">5.1.</span> <span class="nav-text">5.1. 开启yum缓存</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-%E5%8D%87%E7%BA%A7%E5%89%8D%E5%A4%87%E4%BB%BD"><span class="nav-number">5.2.</span> <span class="nav-text">5.2. 升级前备份</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-%E5%BC%80%E5%A7%8B%E5%8D%87%E7%BA%A7"><span class="nav-number">5.3.</span> <span class="nav-text">5.3. 开始升级</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-gitlab%E8%BF%81%E7%A7%BB"><span class="nav-number">6.</span> <span class="nav-text">6. gitlab迁移</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#6-1-%E5%A4%87%E4%BB%BD%E6%95%B0%E6%8D%AE"><span class="nav-number">6.1.</span> <span class="nav-text">6.1. 备份数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-2-%E5%9C%A8%E6%96%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%89%E8%A3%85gitlab"><span class="nav-number">6.2.</span> <span class="nav-text">6.2. 在新服务器上安装gitlab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-3-%E8%BF%98%E5%8E%9F%E5%A4%87%E4%BB%BD"><span class="nav-number">6.3.</span> <span class="nav-text">6.3. 还原备份</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDgitlab"><span class="nav-number">7.</span> <span class="nav-text">7. 彻底卸载gitlab</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#7-1-%E5%8D%B8%E8%BD%BD%E5%89%8D%E5%A4%87%E4%BB%BD"><span class="nav-number">7.1.</span> <span class="nav-text">7.1. 卸载前备份</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2-%E6%89%A7%E8%A1%8C%E5%8D%B8%E8%BD%BD"><span class="nav-number">7.2.</span> <span class="nav-text">7.2. 执行卸载</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-%E5%90%8E%E8%AE%B0"><span class="nav-number">8.</span> <span class="nav-text">8. 后记</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-gitlab%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">1. gitlab简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.</span> <span class="nav-text">2. 安装环境介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-gitlab-%E5%AE%89%E8%A3%85"><span class="nav-number">3.</span> <span class="nav-text">3. gitlab 安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82"><span class="nav-number">4.</span> <span class="nav-text">4. 系统要求</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">4.1.</span> <span class="nav-text">4.1. 安装准备工作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85gitlab"><span class="nav-number">4.2.</span> <span class="nav-text">4.2. 开始安装gitlab</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-gitlab%E5%8D%87%E7%BA%A7"><span class="nav-number">5.</span> <span class="nav-text">5. gitlab升级</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-%E5%BC%80%E5%90%AFyum%E7%BC%93%E5%AD%98"><span class="nav-number">5.1.</span> <span class="nav-text">5.1. 开启yum缓存</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-%E5%8D%87%E7%BA%A7%E5%89%8D%E5%A4%87%E4%BB%BD"><span class="nav-number">5.2.</span> <span class="nav-text">5.2. 升级前备份</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-%E5%BC%80%E5%A7%8B%E5%8D%87%E7%BA%A7"><span class="nav-number">5.3.</span> <span class="nav-text">5.3. 开始升级</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-gitlab%E8%BF%81%E7%A7%BB"><span class="nav-number">6.</span> <span class="nav-text">6. gitlab迁移</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#6-1-%E5%A4%87%E4%BB%BD%E6%95%B0%E6%8D%AE"><span class="nav-number">6.1.</span> <span class="nav-text">6.1. 备份数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-2-%E5%9C%A8%E6%96%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%89%E8%A3%85gitlab"><span class="nav-number">6.2.</span> <span class="nav-text">6.2. 在新服务器上安装gitlab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-3-%E8%BF%98%E5%8E%9F%E5%A4%87%E4%BB%BD"><span class="nav-number">6.3.</span> <span class="nav-text">6.3. 还原备份</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDgitlab"><span class="nav-number">7.</span> <span class="nav-text">7. 彻底卸载gitlab</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#7-1-%E5%8D%B8%E8%BD%BD%E5%89%8D%E5%A4%87%E4%BB%BD"><span class="nav-number">7.1.</span> <span class="nav-text">7.1. 卸载前备份</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2-%E6%89%A7%E8%A1%8C%E5%8D%B8%E8%BD%BD"><span class="nav-number">7.2.</span> <span class="nav-text">7.2. 执行卸载</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5"><span class="nav-number">8.</span> <span class="nav-text">问题排查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-%E5%90%8E%E8%AE%B0"><span class="nav-number">9.</span> <span class="nav-text">8. 后记</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -179,7 +179,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">111</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-count">46</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-10 04:10:32" itemprop="dateModified" datetime="2023-01-10T04:10:32+08:00">2023-01-10</time>
+        <time title="Modified: 2023-04-21 12:12:01" itemprop="dateModified" datetime="2023-04-21T12:12:01+08:00">2023-04-21</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -318,14 +318,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>5.7k</span>
+      <span>7.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>5 mins.</span>
+      <span>7 mins.</span>
     </span>
 </div>
 
@@ -362,6 +362,7 @@
 <li><a href="#72-%E6%89%A7%E8%A1%8C%E5%8D%B8%E8%BD%BD">7.2. 执行卸载</a></li>
 </ul>
 </li>
+<li><a href="#%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5">问题排查</a></li>
 <li><a href="#8-%E5%90%8E%E8%AE%B0">8. 后记</a></li>
 </ul>
 <h2 id="1-gitlab简介"><a href="#1-gitlab简介" class="headerlink" title="1. gitlab简介"></a>1. gitlab简介</h2><p>GitLab 是一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的Web服务。<br>GitLab是由GitLabInc.开发，使用MIT许可证的基于网络的Git仓库管理工具，且具有wiki和issue跟踪功能。使用Git作为代码管理工具，并在此基础上搭建起来的web服务。<br>GitLab由乌克兰程序员DmitriyZaporozhets和ValerySizov开发，它使用Ruby语言写成。后来，一些部分用Go语言重写。截止2018年5月，该公司约有290名团队成员，以及2000多名开源贡献者。GitLab被IBM，Sony，JülichResearchCenter，NASA，Alibaba，Invincea，O’ReillyMedia，Leibniz-Rechenzentrum(LRZ)，CERN，SpaceX等组织使用。</p>
@@ -390,23 +391,27 @@
 <li><p>安装制定版本的方法<br>以centos7为例, 后面的版本号x.y.z-ee.0.el7根据实际情况进行替换．</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y gitlab-ee-x.y.z-ee.0.el7</span><br></pre></td></tr></table></figure></li>
 <li><p>配置gitlab<br>安装完成后执行以下命令gitlab将会自动帮我们完成一些必要的配置，切记如果你手动完成一些配置后不要重复执行以下命令，否则手动配置的参数会被清除，严重时会导致用户访问时出现html500错误．</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl reconfigure</span><br></pre></td></tr></table></figure>
+<p>修改external_url<br>编辑文件/etc/gitlab/gitlab.rb</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#replace gitlab.example.com with your domain or your ip</span></span><br><span class="line"><span class="comment"># for instance external_url &#x27;http://192.168.1.100&#x27;</span></span><br><span class="line">external_url <span class="string">&#x27;your_domain&#x27;</span></span><br></pre></td></tr></table></figure>
 
-<p>手动修改external_url<br>编辑文件/etc/gitlab/gitlab.rb</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#replace gitlab.example.com with your domain or your ip</span></span><br><span class="line">external_url <span class="string">&#x27;your_domain&#x27;</span></span><br></pre></td></tr></table></figure></li>
-<li><p>启动gitlab<br>如果一切顺利，我们就可以启动gitlab了，启动命令为</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl reconfigure</span><br></pre></td></tr></table></figure></li>
+<li><p>启动gitlab  </p>
+<p>gitlab默认运行在80端口<br>需要检查防火墙状态, 如何防火墙已开启, 需要放行80端口</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 检查防火墙是否开启</span></span><br><span class="line">sudo firewall-cmd --state</span><br><span class="line"></span><br><span class="line"><span class="comment"># 如果开启, 需放行80端口</span></span><br><span class="line">sudo firewall-cmd --add-port=80/tcp --permanent</span><br><span class="line">sudo firewall-cmd --reload</span><br></pre></td></tr></table></figure>
+
+<p>如果一切顺利，我们就可以启动gitlab了，启动命令为</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl start</span><br></pre></td></tr></table></figure>
 
 <p>启动成功后, 可以使用浏览器访问gitlab web页面，默认端口是80, 所以可以打开<a target="_blank" rel="noopener" href="http://your_server_address/">http://your_server_address</a>访问．</p>
 <p>如果没有设置密码，系统将为root用户生成一个随机密码，该随机密码可以在/etc/gitlab/initial_root_password文件中找到．<br>建议修改该随机密码，方式为</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-rake <span class="string">&quot;gitlab:password:reset[root]&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>说明: 命令中的root即为root用户，改名了也可以用来为其他用户设置密码．</p>
+<p>说明: 命令中的root即为root用户，该命令也可以用来为其他用户设置密码．</p>
 <p>关于gitlab的高级配置，可以参考<a target="_blank" rel="noopener" href="https://docs.gitlab.com/ee/install/">gitlab的官网</a><br>这里补充几点如何启动，关闭，查看gitlab状态的命令，方便troubleshooting<br>关闭gitlab</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl stop</span><br></pre></td></tr></table></figure>
 
 <p>重启gitlab</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl stop</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl restart</span><br></pre></td></tr></table></figure>
 
 <p>查看gitlab状态</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl status</span><br></pre></td></tr></table></figure>
@@ -415,7 +420,13 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl tail</span><br></pre></td></tr></table></figure>
 
 <p>想了解更多命令，可以查看帮助</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl --<span class="built_in">help</span></span><br></pre></td></tr></table></figure></li>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl --<span class="built_in">help</span></span><br></pre></td></tr></table></figure>
+
+<p>命令行查看gitlab版本</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /opt/gitlab/embedded/service/gitlab-rails/VERSION</span><br></pre></td></tr></table></figure>
+
+<p>查看日志文件<br>日志文件位于/var/log/gitlab下, 日志是按照服务分类存放<br>Gitlab 日志文件位于 /var/log/gitlab/gitlab-rails/production.log</p>
+</li>
 </ul>
 <h2 id="5-gitlab升级"><a href="#5-gitlab升级" class="headerlink" title="5. gitlab升级"></a>5. gitlab升级</h2><h3 id="5-1-开启yum缓存"><a href="#5-1-开启yum缓存" class="headerlink" title="5.1. 开启yum缓存"></a>5.1. 开启yum缓存</h3><ul>
 <li><p>gitlab的每个安装包都接近1G大小，gitlab升级过程中需要反复恢复重试，如果不开启yum缓存，即每次执行yum install无论成功与否，安装包都会被清理掉，下次重试即使是相同的版本也会去服务器上重新下载，会特别慢，而且消耗服务器带宽，如果触发了镜像服务器的限流机制，升级可能会无法进行下去.</p>
@@ -498,8 +509,12 @@
 </ul>
 <h3 id="6-3-还原备份"><a href="#6-3-还原备份" class="headerlink" title="6.3. 还原备份"></a>6.3. 还原备份</h3><ul>
 <li><p>将备份文件拷贝到新服务器的/var/opt/gitlab/backups目录下，执行恢复命令．备份文件参数，根据自己的实际情况进行修改．</p>
+<p>首先要将旧服务器上的两个文件<code>/etc/gitlab/gitlab.rb</code>,<code>/etc/gitlab/gitlab-secrets.json</code>拷贝到新服务器, 否则后续会发现一些奇怪的问题.</p>
+<p>并将/etc/gitlab/gitlab.rb 的external_url设置为正确的url</p>
+<p>然后执行<code>gitlab-ctl reconfigure</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-rake gitlab:backup:restore BACKUP=1636041545_2021_11_04_12.10.14</span><br></pre></td></tr></table></figure></li>
 </ul>
+<p>如果还原失败, 请先参考问题排查章节, 再在到网上查找解决办法.</p>
 <h2 id="7-彻底卸载gitlab"><a href="#7-彻底卸载gitlab" class="headerlink" title="7. 彻底卸载gitlab"></a>7. 彻底卸载gitlab</h2><ul>
 <li>警告: 注意标题上彻底二字，在你不清楚卸载意味会发生什么的时候，请不要执行以下任何步骤．  </li>
 </ul>
@@ -528,6 +543,28 @@
 <p>如果都是期望被删除的，那么开始执行删除操作，再次提醒将备份拷贝一份到安全位置．</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find / -name gitlab | xargs rm -rf</span><br></pre></td></tr></table></figure></li>
 </ul>
+<h2 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h2><p>问题 1:<br>从一台机迁移到另外一台机时报如下错错误</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Restoring PostgreSQL database gitlabhq_production ... ERROR:  must be owner of extension pg_trgm</span><br><span class="line">ERROR:  must be owner of extension btree_gist</span><br><span class="line">ERROR:  must be owner of extension btree_gist</span><br><span class="line">ERROR:  must be owner of extension pg_trgm</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>解决办法:</p>
+<p>修改postgresql配置, 能从本地连接到postgresql</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ vim /var/opt/gitlab/postgresql/data/postgresql.conf</span><br><span class="line">listen_addresses = <span class="string">&#x27;*&#x27;</span></span><br><span class="line"><span class="comment"># 最下面新增两行</span></span><br><span class="line">$ vim /var/opt/gitlab/postgresql/data/pg_hba.conf</span><br><span class="line"><span class="built_in">local</span>   all         all                               trust</span><br><span class="line">host    all         all                               127.0.0.1/32 trust</span><br></pre></td></tr></table></figure>
+
+<p>重启gitlab使得配置生效</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">gitlab-ctl restart</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>修改gitlab账号为超级用户</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ su - gitlab-psql</span><br><span class="line">$ /opt/gitlab/embedded/bin/psql -h 127.0.0.1 gitlabhq_production</span><br><span class="line">psql (9.2.8)</span><br><span class="line">Type <span class="string">&quot;help&quot;</span> <span class="keyword">for</span> <span class="built_in">help</span>.</span><br><span class="line"> </span><br><span class="line">gitlabhq_production=<span class="comment"># ALTER USER gitlab WITH SUPERUSER;</span></span><br><span class="line">ALTER ROLE</span><br><span class="line">gitlabhq_production=<span class="comment"># \q</span></span><br></pre></td></tr></table></figure>
+
+<p>修改完gitlab用户权限后, 记得将postgresql的配置文件改回去</p>
+<ol>
+<li>保证安全性, 防止误操作</li>
+<li>以免后续安装postgresql数据库是参数端口冲突</li>
+</ol>
+<p>参考文档: <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/09a2b0c25ecd">https://www.jianshu.com/p/09a2b0c25ecd</a></p>
+<p>问题 2:</p>
+<p>解决Gitlab迁移后，项目的 CI/ CD页面报500错误</p>
+<p>原因是: gitlab默认的备份机制，是不会备份gitlab.rb和gitlab-secrets.json文件的,<br>如果这两文件还存在则将其拷贝到新的服务器, 如果不存在则将secrets 清除重设<br>参考: <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/c46aa8c8539c">https://www.jianshu.com/p/c46aa8c8539c</a></p>
 <h2 id="8-后记"><a href="#8-后记" class="headerlink" title="8. 后记"></a>8. 后记</h2><p>本技术博客原创文章位于<a href="https://www.pengshu.net/gitlab/gitlab_installation_upgrade">鹏叔的IT技术博客空间 - gitlab安装升级及迁移</a>, 要获取最近更新请访问原文.</p>
 <p>更多技术博客请访问: <a href="https://www.pengshu.net/archives/">鹏叔的IT技术博客空间</a></p>
 
@@ -604,14 +641,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">485k</span>
+    <span title="Symbols count total">519k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:21</span>
+    <span title="Reading time total">7:52</span>
   </span>
 </div>
 <div class="busuanzi-count">

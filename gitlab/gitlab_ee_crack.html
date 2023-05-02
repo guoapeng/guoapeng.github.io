@@ -30,15 +30,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.pengshu.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="1. 安装gitlab-ee 2. 环境说明 3. 安装必要软件 3.1. 安装ruby 3.2. 安装gitlab-license   4. 破解方法 5. 后记 6. 参考文档  1. 安装gitlab-ee参考我的文章 鹏叔的IT技术博客空间 - gitlab安装升级及迁移 2. 环境说明当前我的gitlab版本及环境如下: gitlab-ee版本为: 15.0.2-ee">
+<meta name="description" content="1. 安装gitlab-ee 2. 环境说明 3. 安装必要软件 3.1. 安装ruby 3.2. 安装gitlab-license   4. 破解方法 5. 后记 6. 参考文档  1. 安装gitlab-ee参考我的文章 鹏叔的IT技术博客空间 - gitlab安装升级及迁移 2. 环境说明当前我的gitlab版本及环境如下: gitlab-ee版本为: 15.8.1-ee">
 <meta property="og:type" content="article">
 <meta property="og:title" content="破解Gitlab EE 15">
 <meta property="og:url" content="http://www.pengshu.net/gitlab/gitlab_ee_crack.html">
 <meta property="og:site_name" content="鹏叔的IT技术博客空间">
-<meta property="og:description" content="1. 安装gitlab-ee 2. 环境说明 3. 安装必要软件 3.1. 安装ruby 3.2. 安装gitlab-license   4. 破解方法 5. 后记 6. 参考文档  1. 安装gitlab-ee参考我的文章 鹏叔的IT技术博客空间 - gitlab安装升级及迁移 2. 环境说明当前我的gitlab版本及环境如下: gitlab-ee版本为: 15.0.2-ee">
+<meta property="og:description" content="1. 安装gitlab-ee 2. 环境说明 3. 安装必要软件 3.1. 安装ruby 3.2. 安装gitlab-license   4. 破解方法 5. 后记 6. 参考文档  1. 安装gitlab-ee参考我的文章 鹏叔的IT技术博客空间 - gitlab安装升级及迁移 2. 环境说明当前我的gitlab版本及环境如下: gitlab-ee版本为: 15.8.1-ee">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-10-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-01-08T04:58:16.980Z">
+<meta property="article:modified_time" content="2023-04-20T08:51:50.876Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="gitlab">
 <meta name="twitter:card" content="summary">
@@ -179,7 +179,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">111</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-count">46</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-01-08 12:58:16" itemprop="dateModified" datetime="2023-01-08T12:58:16+08:00">2023-01-08</time>
+        <time title="Modified: 2023-04-20 16:51:50" itemprop="dateModified" datetime="2023-04-20T16:51:50+08:00">2023-04-20</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -318,14 +318,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>4.6k</span>
+      <span>5.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
+      <span>5 mins.</span>
     </span>
 </div>
 
@@ -350,16 +350,16 @@
 </ul>
 <h2 id="1-安装gitlab-ee"><a href="#1-安装gitlab-ee" class="headerlink" title="1. 安装gitlab-ee"></a>1. 安装gitlab-ee</h2><p>参考我的文章 <a href="https://www.pengshu.net/gitlab/gitlab_installation_upgrade.html">鹏叔的IT技术博客空间 - gitlab安装升级及迁移</a></p>
 <h2 id="2-环境说明"><a href="#2-环境说明" class="headerlink" title="2. 环境说明"></a>2. 环境说明</h2><p>当前我的gitlab版本及环境如下:</p>
-<p>gitlab-ee版本为: 15.0.2-ee</p>
+<p>gitlab-ee版本为: 15.8.1-ee</p>
 <span id="more"></span>
 
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$gitlab</span>-rake gitlab:env:info</span><br><span class="line"></span><br><span class="line">output:</span><br><span class="line"></span><br><span class="line">System information</span><br><span class="line">System:</span><br><span class="line">Proxy:          no</span><br><span class="line">Current User:   git</span><br><span class="line">Using RVM:      no</span><br><span class="line">Ruby Version:   2.7.5p203</span><br><span class="line">Gem Version:    3.1.4</span><br><span class="line">Bundler Version:2.2.33</span><br><span class="line">Rake Version:   13.0.6</span><br><span class="line">Redis Version:  6.2.6</span><br><span class="line">Sidekiq Version:6.4.0</span><br><span class="line">Go Version:     unknown</span><br><span class="line"></span><br><span class="line">GitLab information</span><br><span class="line">Version:        15.0.2-ee</span><br><span class="line">Revision:       94267b33436</span><br><span class="line">DB Adapter:     PostgreSQL</span><br><span class="line">DB Version:     12.10</span><br><span class="line">Elasticsearch:  no</span><br><span class="line">Geo:            no</span><br><span class="line">Using LDAP:     no</span><br><span class="line">Using Omniauth: yes</span><br><span class="line">Omniauth Providers:</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$gitlab</span>-rake gitlab:env:info</span><br><span class="line"></span><br><span class="line">output:</span><br><span class="line">System information</span><br><span class="line">System:</span><br><span class="line">Proxy:          no</span><br><span class="line">Current User:   git</span><br><span class="line">Using RVM:      no</span><br><span class="line">Ruby Version:   2.7.7p221</span><br><span class="line">Gem Version:    3.1.6</span><br><span class="line">Bundler Version:2.3.15</span><br><span class="line">Rake Version:   13.0.6</span><br><span class="line">Redis Version:  6.2.8</span><br><span class="line">Sidekiq Version:6.5.7</span><br><span class="line">Go Version:     unknown</span><br><span class="line"></span><br><span class="line">GitLab information</span><br><span class="line">Version:        15.8.1-ee</span><br><span class="line">Revision:       c49deff6e37</span><br><span class="line">DB Adapter:     PostgreSQL</span><br><span class="line">DB Version:     13.8</span><br><span class="line">URL:            http://gitlab.example.com</span><br><span class="line">HTTP Clone URL: http://gitlab.example.com/some-group/some-project.git</span><br><span class="line">SSH Clone URL:  git@gitlab.example.com:some-group/some-project.git</span><br><span class="line">Elasticsearch:  no</span><br><span class="line">Geo:            no</span><br><span class="line">Using LDAP:     no</span><br><span class="line">Using Omniauth: yes</span><br><span class="line">Omniauth Providers:</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="3-安装必要软件"><a href="#3-安装必要软件" class="headerlink" title="3. 安装必要软件"></a>3. 安装必要软件</h2><h3 id="3-1-安装ruby"><a href="#3-1-安装ruby" class="headerlink" title="3.1. 安装ruby"></a>3.1. 安装ruby</h3><ul>
 <li><p>安装ruby：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看ruby版本</span></span><br><span class="line">yum list ruby --showduplicates | sort -r</span><br></pre></td></tr></table></figure></li>
 <li><p>在Centos7.3中，通过yum安装ruby的版本是2.0.0，但是本破解过程需要2.5或以上版本的ruby环境<br>所以需要先添加yum源再安装ruby</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">yum install centos-release-scl-rh　　　　//会在/etc/yum.repos.d/目录下多出一个CentOS-SCLo-scl-rh.repo源</span><br><span class="line"></span><br><span class="line">yum install rh-ruby25 -y 　　//直接yum安装即可　　</span><br><span class="line"></span><br><span class="line">scl  <span class="built_in">enable</span>  rh-ruby25 bash //必要一步</span><br><span class="line"></span><br><span class="line">ruby -v //查看安装版本</span><br><span class="line"><span class="comment"># ruby 2.5.9p229 (2021-04-05 revision 67939) [x86_64-linux]</span></span><br><span class="line"></span><br><span class="line">gem -v //查看gem安装版本</span><br><span class="line"> </span><br></pre></td></tr></table></figure></li>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">yum install centos-release-scl-rh　　　　<span class="comment"># 会在/etc/yum.repos.d/目录下多出一个CentOS-SCLo-scl-rh.repo源</span></span><br><span class="line"></span><br><span class="line">yum install -y rh-ruby25 　　<span class="comment"># 直接yum安装即可　　</span></span><br><span class="line"></span><br><span class="line">scl <span class="built_in">enable</span> rh-ruby25 bash    <span class="comment"># 必要的一步</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 如果遇到ruby找不到的情况, 修改以下两个环境变量</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/opt/rh/rh-ruby25/root/bin</span><br><span class="line"><span class="built_in">export</span> LD_LIBRARY_PATH=<span class="variable">$LD_LIBRARY_PATH</span>:/opt/rh/rh-ruby25/root/lib64</span><br><span class="line"></span><br><span class="line">ruby -v //查看安装版本</span><br><span class="line"><span class="comment"># ruby 2.5.9p229 (2021-04-05 revision 67939) [x86_64-linux]</span></span><br><span class="line"></span><br><span class="line">gem -v //查看gem安装版本</span><br><span class="line">2.7.6.3</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
 </ul>
 <h3 id="3-2-安装gitlab-license"><a href="#3-2-安装gitlab-license" class="headerlink" title="3.2. 安装gitlab-license"></a>3.2. 安装gitlab-license</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem install gitlab-license</span><br></pre></td></tr></table></figure>
 
@@ -376,14 +376,19 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp /opt/gitlab/embedded/service/gitlab-rails/.license_encryption_key.pub /opt/gitlab/embedded/service/gitlab-rails/.license_encryption_key.pub.backup</span><br></pre></td></tr></table></figure></li>
 <li><p>用 license_key.pub 文件替换 /opt/gitlab/embedded/service/gitlab-rails/.license_encryption_key.pub 中的内容</p>
 </li>
-<li><p>GitLabBV.gitlab-license 即是许可证，填入 <a target="_blank" rel="noopener" href="http://${your_gitlab_server_address}/admin/application_settings/general">http://${your_gitlab_server_address}/admin/application_settings/general</a> 例如:<a target="_blank" rel="noopener" href="http://localhost:8080/admin/license">http://localhost:8080/admin/license</a> 勾选Terms of service 并点击add license按钮, 当看到这段话, 表示成功。<code>The license was successfully uploaded and is now active. You can see the details below.</code></p>
-</li>
 </ul>
-</li>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp /var/opt/gitlab/backups/license_key.pub /opt/gitlab/embedded/service/gitlab-rails/.license_encryption_key.pub</span><br></pre></td></tr></table></figure></li>
 <li><p>修改等级</p>
 <figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">--- /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb</span></span><br><span class="line"><span class="comment">+++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb</span></span><br><span class="line"><span class="meta">@@ -367,7 +367,7 @@</span></span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">def plan</span><br><span class="line"><span class="deletion">-    restricted_attr(:plan).presence || STARTER_PLAN</span></span><br><span class="line"><span class="addition">+    restricted_attr(:plan).presence || ULTIMATE_PLAN</span></span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">def edition</span><br></pre></td></tr></table></figure></li>
 <li><p>重启gitlab</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitlab-ctl restart</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>刚刚<code>ruby license.rb</code>执行后生成的三个文件其中 GitLabBV.gitlab-license 即是许可证，浏览器打开gitlab管理页面 <a target="_blank" rel="noopener" href="http://${your_gitlab_server_address}/admin/application_settings/general">http://${your_gitlab_server_address}/admin/application_settings/general</a> 例如:<a target="_blank" rel="noopener" href="http://localhost:8080/admin/application_settings/general">http://localhost:8080/admin/application_settings/general</a></p>
+<ul>
+<li>展开 add license</li>
+<li>勾选Enter license key, 填入license,</li>
+<li>勾选terms of service 点击add license按钮,  </li>
+<li>当看到这段话, 表示成功。<code>The license was successfully uploaded and is now active. You can see the details below.</code></li>
 </ul>
 <h2 id="5-后记"><a href="#5-后记" class="headerlink" title="5. 后记"></a>5. 后记</h2><p>本技术博客原创文章位于<a href="https://www.pengshu.net/gitlab/gitlab_ee_crack.html">鹏叔的IT技术博客空间 - 破解Gitlab EE 15</a>, 要获取最近更新请访问原文.</p>
 <p>更多技术博客请访问: <a href="https://www.pengshu.net/archives/">鹏叔的IT技术博客空间</a></p>
@@ -462,14 +467,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">485k</span>
+    <span title="Symbols count total">519k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:21</span>
+    <span title="Reading time total">7:52</span>
   </span>
 </div>
 <div class="busuanzi-count">

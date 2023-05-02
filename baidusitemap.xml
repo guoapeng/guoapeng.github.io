@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/linux/msys2_installation.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/golang/mockery_v2.html</loc>
+    <lastmod>2023-04-29</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/golang/mocking_in_golang_using_testify.html</loc>
+    <lastmod>2023-04-27</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/golang/go_database_sql.html</loc>
+    <lastmod>2023-04-27</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/golang/go_unit_test.html</loc>
+    <lastmod>2023-04-27</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/vmware/vmware_configuration.html</loc>
+    <lastmod>2023-04-23</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/nginx/nginx_installation.html</loc>
+    <lastmod>2023-04-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-04-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/database/install_postgresql_on_centos7.html</loc>
+    <lastmod>2023-04-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_runner_installation.html</loc>
+    <lastmod>2023-04-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/gitlab/gitlab_ee_crack.html</loc>
+    <lastmod>2023-04-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/java/install_jdk8_on_centos7.html</loc>
+    <lastmod>2023-04-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2023-04-18</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-04-18</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/linux/Internal_network_penetration.html</loc>
+    <lastmod>2023-04-18</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/database/postgresql_backup_restore.html</loc>
+    <lastmod>2023-04-14</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/product/how_to_build_an_app.html</loc>
     <lastmod>2023-04-14</lastmod>
   </url>
@@ -17,14 +81,6 @@
     <lastmod>2023-04-14</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/database/postgresql_backup_restore.html</loc>
-    <lastmod>2023-04-14</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/database/install_postgresql_on_centos7.html</loc>
-    <lastmod>2023-04-14</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/database/postgresql_basics.html</loc>
     <lastmod>2023-04-14</lastmod>
   </url>
@@ -38,10 +94,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/database/db_migrations.html</loc>
-    <lastmod>2023-04-12</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/nginx/nginx_installation.html</loc>
     <lastmod>2023-04-12</lastmod>
   </url>
   <url>
@@ -77,10 +129,6 @@
     <lastmod>2023-02-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/vscode/vscode_install_and_config.html</loc>
-    <lastmod>2023-02-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/web/web_basic_1.html</loc>
     <lastmod>2023-01-25</lastmod>
   </url>
@@ -95,10 +143,6 @@
   <url>
     <loc>http://www.pengshu.net/java/how_to_get_columns_by_table_name.html</loc>
     <lastmod>2023-01-14</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab_installation_upgrade.html</loc>
-    <lastmod>2023-01-09</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/windows/cmder_install_configuration.html</loc>
@@ -134,14 +178,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/rust/install_rust_on_windows.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/golang/go_database_sql.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab_ee_crack.html</loc>
     <lastmod>2023-01-08</lastmod>
   </url>
   <url>
@@ -247,10 +283,6 @@
   <url>
     <loc>http://www.pengshu.net/angular/angular2_migration.html</loc>
     <lastmod>2022-10-19</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/gitlab/gitlab_runner_installation.html</loc>
-    <lastmod>2022-10-12</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/material/material_typeahead.html</loc>
@@ -394,10 +426,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/webpack/webpack_angularjs_bootstrap.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/nodejs/install_and_config_nodejs.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>

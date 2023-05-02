@@ -38,7 +38,7 @@
 <meta property="og:description" content="安装 nodejsNode.js是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-04T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-05T17:14:23.869Z">
+<meta property="article:modified_time" content="2023-04-18T10:05:52.285Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Nodejs">
 <meta name="twitter:card" content="summary">
@@ -179,7 +179,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">111</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -190,7 +190,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-count">46</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -284,7 +284,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-04-06 01:14:23" itemprop="dateModified" datetime="2022-04-06T01:14:23+08:00">2022-04-06</time>
+        <time title="Modified: 2023-04-18 18:05:52" itemprop="dateModified" datetime="2023-04-18T18:05:52+08:00">2023-04-18</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -358,10 +358,10 @@
 </li>
 </ul>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><h4 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h4><h5 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h5><p>双击安装文件, 点击下一步下一步.</p>
-<h5 id="linux"><a href="#linux" class="headerlink" title="linux"></a>linux</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 解压</span></span><br><span class="line">sudo tar -xvf node-v14.17.4-linux-x64.tar.xz -C /opt</span><br></pre></td></tr></table></figure>
+<h5 id="linux"><a href="#linux" class="headerlink" title="linux"></a>linux</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 解压</span></span><br><span class="line">sudo tar -xvf node-v14.17.4-linux-x64.tar.xz -C /usr/<span class="built_in">local</span></span><br></pre></td></tr></table></figure>
 
 <h5 id="设置环境变量"><a href="#设置环境变量" class="headerlink" title="设置环境变量"></a>设置环境变量</h5><p>编辑/etc/profile</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=/opt/node-v14.17.4-linux-x64/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=/usr/<span class="built_in">local</span>/node-v14.17.4-linux-x64/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure>
 
 <p>让配置生效</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> /etc/profile</span><br></pre></td></tr></table></figure>
@@ -432,13 +432,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/hexo/hexo_advance_apply_next_theme.html" rel="prev" title="Hexo配置Next主题">
-                  <i class="fa fa-chevron-left"></i> Hexo配置Next主题
+                <a href="/nodejs/how_to_publish_node_modules.html" rel="prev" title="如何发布一个nodejs模块">
+                  <i class="fa fa-chevron-left"></i> 如何发布一个nodejs模块
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/nodejs/how_to_publish_node_modules.html" rel="next" title="如何发布一个nodejs模块">
-                  如何发布一个nodejs模块 <i class="fa fa-chevron-right"></i>
+                <a href="/nodejs/how_to_create_a_node_module.html" rel="next" title="如何创建Nodejs模块基础篇">
+                  如何创建Nodejs模块基础篇 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -473,14 +473,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">485k</span>
+    <span title="Symbols count total">519k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:21</span>
+    <span title="Reading time total">7:52</span>
   </span>
 </div>
 <div class="busuanzi-count">
