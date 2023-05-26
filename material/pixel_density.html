@@ -34,11 +34,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Material Design基础 - Pixel Density">
 <meta property="og:url" content="http://www.pengshu.net/material/pixel_density.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="像素密度(Pixel Density)一英寸屏幕上存在的像素数称为像素密度。 屏幕像素密度和分辨率因平台而异。 屏幕密度变化高密度屏幕的每英寸像素数比低密度屏幕的多。因此，相同像素尺寸的UI元素在低密度屏幕上显示得更大，而在高密度屏幕上显示得更小。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-10-22T09:39:53.851Z">
+<meta property="article:modified_time" content="2023-05-25T23:47:06.233Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="design">
 <meta property="article:tag" content="material design">
@@ -52,7 +52,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/material/pixel_density.html","path":"material/pixel_density.html","title":"Material Design基础 - Pixel Density"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Material Design基础 - Pixel Density | 鹏叔的IT技术博客空间</title>
+<title>Material Design基础 - Pixel Density | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -83,7 +83,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -167,31 +167,31 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6-Pixel-Density"><span class="nav-number">1.</span> <span class="nav-text">像素密度(Pixel Density)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%8F%E5%B9%95%E5%AF%86%E5%BA%A6%E5%8F%98%E5%8C%96"><span class="nav-number">1.1.</span> <span class="nav-text">屏幕密度变化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E5%B1%8F%E5%B9%95%E5%AF%86%E5%BA%A6-screen-density"><span class="nav-number">1.2.</span> <span class="nav-text">计算屏幕密度(screen density)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%86%E5%BA%A6%E6%97%A0%E5%85%B3%E6%80%A7-Density-independence"><span class="nav-number">1.3.</span> <span class="nav-text">密度无关性(Density independence)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%86%E5%BA%A6%E6%97%A0%E5%85%B3%E7%9A%84%E5%83%8F%E7%B4%A0-Density-independent-pixels"><span class="nav-number">1.4.</span> <span class="nav-text">密度无关的像素(Density-independent pixels)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Android%E4%B8%8A%E7%9A%84%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6"><span class="nav-number">1.5.</span> <span class="nav-text">Android上的像素密度</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Dps%E5%92%8C%E5%B1%8F%E5%B9%95%E5%AF%86%E5%BA%A6"><span class="nav-number">1.5.1.</span> <span class="nav-text">Dps和屏幕密度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%AF%E7%BC%A9%E6%94%BE%E5%83%8F%E7%B4%A0%EF%BC%88Scalable-pixels-sp-%EF%BC%89"><span class="nav-number">1.5.2.</span> <span class="nav-text">可缩放像素（Scalable pixels (sp)）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ios%E4%B8%8A%E7%9A%84%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6"><span class="nav-number">1.6.</span> <span class="nav-text">ios上的像素密度</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E5%88%86%E8%BE%A8%E7%8E%87-Logical-resolution"><span class="nav-number">1.6.1.</span> <span class="nav-text">逻辑分辨率 (Logical resolution)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iOS%E7%9A%84%E5%8D%95%E4%BD%8D"><span class="nav-number">1.6.2.</span> <span class="nav-text">iOS的单位</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#web%E4%B8%8A%E7%9A%84%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6"><span class="nav-number">1.7.</span> <span class="nav-text">web上的像素密度</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">1.7.1.</span> <span class="nav-text">逻辑分辨率</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#web%E5%8D%95%E4%BD%8D"><span class="nav-number">1.7.2.</span> <span class="nav-text">web单位</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">2.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6-Pixel-Density"><span class="nav-number">1.</span> <span class="nav-text">像素密度(Pixel Density)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%8F%E5%B9%95%E5%AF%86%E5%BA%A6%E5%8F%98%E5%8C%96"><span class="nav-number">1.1.</span> <span class="nav-text">屏幕密度变化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E5%B1%8F%E5%B9%95%E5%AF%86%E5%BA%A6-screen-density"><span class="nav-number">1.2.</span> <span class="nav-text">计算屏幕密度(screen density)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%86%E5%BA%A6%E6%97%A0%E5%85%B3%E6%80%A7-Density-independence"><span class="nav-number">1.3.</span> <span class="nav-text">密度无关性(Density independence)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%86%E5%BA%A6%E6%97%A0%E5%85%B3%E7%9A%84%E5%83%8F%E7%B4%A0-Density-independent-pixels"><span class="nav-number">1.4.</span> <span class="nav-text">密度无关的像素(Density-independent pixels)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Android%E4%B8%8A%E7%9A%84%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6"><span class="nav-number">1.5.</span> <span class="nav-text">Android上的像素密度</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Dps%E5%92%8C%E5%B1%8F%E5%B9%95%E5%AF%86%E5%BA%A6"><span class="nav-number">1.5.1.</span> <span class="nav-text">Dps和屏幕密度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%AF%E7%BC%A9%E6%94%BE%E5%83%8F%E7%B4%A0%EF%BC%88Scalable-pixels-sp-%EF%BC%89"><span class="nav-number">1.5.2.</span> <span class="nav-text">可缩放像素（Scalable pixels (sp)）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ios%E4%B8%8A%E7%9A%84%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6"><span class="nav-number">1.6.</span> <span class="nav-text">ios上的像素密度</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E5%88%86%E8%BE%A8%E7%8E%87-Logical-resolution"><span class="nav-number">1.6.1.</span> <span class="nav-text">逻辑分辨率 (Logical resolution)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iOS%E7%9A%84%E5%8D%95%E4%BD%8D"><span class="nav-number">1.6.2.</span> <span class="nav-text">iOS的单位</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#web%E4%B8%8A%E7%9A%84%E5%83%8F%E7%B4%A0%E5%AF%86%E5%BA%A6"><span class="nav-number">1.7.</span> <span class="nav-text">web上的像素密度</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">1.7.1.</span> <span class="nav-text">逻辑分辨率</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#web%E5%8D%95%E4%BD%8D"><span class="nav-number">1.7.2.</span> <span class="nav-text">web单位</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Design-%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">Material  Design 系列文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">3.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -218,7 +218,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -259,11 +262,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -285,7 +288,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-10-22 17:39:53" itemprop="dateModified" datetime="2022-10-22T17:39:53+08:00">2022-10-22</time>
+        <time title="Modified: 2023-05-26 07:47:06" itemprop="dateModified" datetime="2023-05-26T07:47:06+08:00">2023-05-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -311,7 +314,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.1k</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -373,6 +376,7 @@
 <h4 id="iOS的单位"><a href="#iOS的单位" class="headerlink" title="iOS的单位"></a>iOS的单位</h4><p>为iOS设计时，使用点（pts）<br>了解更多信息：<br>苹果iOS在显示器上的<a target="_blank" rel="noopener" href="https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html">文档</a><br>PaintCode的<a target="_blank" rel="noopener" href="https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions">iPhone分辨率指南</a></p>
 <h3 id="web上的像素密度"><a href="#web上的像素密度" class="headerlink" title="web上的像素密度"></a>web上的像素密度</h3><h4 id="逻辑分辨率"><a href="#逻辑分辨率" class="headerlink" title="逻辑分辨率"></a>逻辑分辨率</h4><p>使用设备的逻辑分辨率，该分辨率与设备的屏幕分辨率成比例。</p>
 <h4 id="web单位"><a href="#web单位" class="headerlink" title="web单位"></a>web单位</h4><p>在为web设计时，将dp替换为px（像素）</p>
+<h2 id="Material-Design-系列文章"><a href="#Material-Design-系列文章" class="headerlink" title="Material  Design 系列文章"></a>Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://www.pengshu.net/tags/material-design/">鹏叔的技术博客空间-Material Design</a></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://material.io/design/layout/pixel-density.html">Material System - layout pixel density</a></p>
 
     </div>
@@ -449,14 +453,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">

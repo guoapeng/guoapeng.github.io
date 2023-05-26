@@ -34,11 +34,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Material Design 基础 - Component behavior">
 <meta property="og:url" content="http://www.pengshu.net/material/component_behavior.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="前言本页描述组件在布局中的行为，包括与网格以及断点的关系。 Position术语UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-01T18:23:59.509Z">
+<meta property="article:modified_time" content="2023-05-25T23:48:02.710Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="design">
 <meta property="article:tag" content="material design">
@@ -52,7 +52,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/material/component_behavior.html","path":"material/component_behavior.html","title":"Material Design 基础 - Component behavior"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Material Design 基础 - Component behavior | 鹏叔的IT技术博客空间</title>
+<title>Material Design 基础 - Component behavior | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -83,7 +83,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -167,31 +167,31 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Position%E6%9C%AF%E8%AF%AD"><span class="nav-number">2.</span> <span class="nav-text">Position术语</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%84%E4%BB%B6%E8%87%AA%E9%80%82%E5%BA%94-Component-adaptation"><span class="nav-number">2.1.</span> <span class="nav-text">组件自适应(Component adaptation)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%86%E8%A7%89%E5%91%88%E7%8E%B0-Visual-presentation"><span class="nav-number">2.2.</span> <span class="nav-text">视觉呈现(Visual presentation)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6-Size-constraints"><span class="nav-number">2.3.</span> <span class="nav-text">大小限制(Size constraints)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%85%E9%83%A8%E6%9E%84%E6%88%90-Internal-Composition"><span class="nav-number">2.4.</span> <span class="nav-text">内部构成(Internal Composition)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%84%E4%BB%B6%E4%BA%A4%E6%8D%A2"><span class="nav-number">2.5.</span> <span class="nav-text">组件交换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%93%8D%E5%BA%94%E6%A8%A1%E5%BC%8F"><span class="nav-number">2.6.</span> <span class="nav-text">响应模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%BE%E7%A4%BA%E6%88%96%E9%9A%90%E8%97%8F"><span class="nav-number">2.7.</span> <span class="nav-text">显示或隐藏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E6%96%B0%E5%AE%9A%E4%BD%8D"><span class="nav-number">2.8.</span> <span class="nav-text">重新定位</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">3.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Position%E6%9C%AF%E8%AF%AD"><span class="nav-number">2.</span> <span class="nav-text">Position术语</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%84%E4%BB%B6%E8%87%AA%E9%80%82%E5%BA%94-Component-adaptation"><span class="nav-number">2.1.</span> <span class="nav-text">组件自适应(Component adaptation)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%86%E8%A7%89%E5%91%88%E7%8E%B0-Visual-presentation"><span class="nav-number">2.2.</span> <span class="nav-text">视觉呈现(Visual presentation)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6-Size-constraints"><span class="nav-number">2.3.</span> <span class="nav-text">大小限制(Size constraints)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%85%E9%83%A8%E6%9E%84%E6%88%90-Internal-Composition"><span class="nav-number">2.4.</span> <span class="nav-text">内部构成(Internal Composition)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%84%E4%BB%B6%E4%BA%A4%E6%8D%A2"><span class="nav-number">2.5.</span> <span class="nav-text">组件交换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%93%8D%E5%BA%94%E6%A8%A1%E5%BC%8F"><span class="nav-number">2.6.</span> <span class="nav-text">响应模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%BE%E7%A4%BA%E6%88%96%E9%9A%90%E8%97%8F"><span class="nav-number">2.7.</span> <span class="nav-text">显示或隐藏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E6%96%B0%E5%AE%9A%E4%BD%8D"><span class="nav-number">2.8.</span> <span class="nav-text">重新定位</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Design-%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0"><span class="nav-number">3.</span> <span class="nav-text">Material  Design 系列文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">4.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -218,7 +218,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -259,11 +262,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -285,7 +288,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-02 02:23:59" itemprop="dateModified" datetime="2022-05-02T02:23:59+08:00">2022-05-02</time>
+        <time title="Modified: 2023-05-26 07:48:02" itemprop="dateModified" datetime="2023-05-26T07:48:02+08:00">2023-05-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -389,6 +392,7 @@
 <h3 id="响应模式"><a href="#响应模式" class="headerlink" title="响应模式"></a>响应模式</h3><p>布局中组件的排列也可以随着屏幕大小的变化而调整。通过重新定位组件或根据可用屏幕空间隐藏/显示信息，可以实现这种自适应。</p>
 <h3 id="显示或隐藏"><a href="#显示或隐藏" class="headerlink" title="显示或隐藏"></a>显示或隐藏</h3><p>当在更大的断点处有更多可用空间时，可以显示被较小屏幕隐藏的UI部分。</p>
 <h3 id="重新定位"><a href="#重新定位" class="headerlink" title="重新定位"></a>重新定位</h3><p>一个界面及其组成部分可以回流或重新定位，以利用额外的屏幕空间。重新定位也是一种解决不同屏幕尺寸上不断变化的人体工程学和输入方法的方法。</p>
+<h2 id="Material-Design-系列文章"><a href="#Material-Design-系列文章" class="headerlink" title="Material  Design 系列文章"></a>Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://www.pengshu.net/tags/material-design/">鹏叔的技术博客空间-Material Design</a></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://material.io/design/layout/component-behavior.html">Material System - Component behavior</a></p>
 
     </div>
@@ -424,8 +428,8 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/material/introduction.html" rel="prev" title="Material Design简介">
-                  <i class="fa fa-chevron-left"></i> Material Design简介
+                <a href="/material/elevation.html" rel="prev" title="Material Design 基础 - Elevation（标高）">
+                  <i class="fa fa-chevron-left"></i> Material Design 基础 - Elevation（标高）
                 </a>
             </div>
             <div class="post-nav-item">
@@ -465,14 +469,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">

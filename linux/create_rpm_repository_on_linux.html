@@ -34,7 +34,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux环境下创建rpm仓库">
 <meta property="og:url" content="http://www.pengshu.net/linux/create_rpm_repository_on_linux.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="环境说明centos 7.7 简要说明第一步：首先配置本地可以安装的rpm仓库 第二步：然后安装apache将仓库export出去， 第三步：让局域网上其他计算机其他计算机可以使用自己创建的rpm仓库，也可以称为yum源。 第四步：如果能让internet上其他计算机可以访问该yum源，需要公网IP，如果方便用户记忆需要配置dns解析。(本文由于篇幅所限，不讲解此步骤, 可自行百度了解, 如何配置">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img2020.cnblogs.com/blog/629465/202102/629465-20210205202244120-686761353.png">
@@ -53,7 +53,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/linux/create_rpm_repository_on_linux.html","path":"linux/create_rpm_repository_on_linux.html","title":"linux环境下创建rpm仓库"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>linux环境下创建rpm仓库 | 鹏叔的IT技术博客空间</title>
+<title>linux环境下创建rpm仓库 | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -84,7 +84,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -175,24 +175,24 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -219,7 +219,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -260,11 +263,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -478,14 +481,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">

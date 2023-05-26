@@ -34,11 +34,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Msys2安装教程">
 <meta property="og:url" content="http://www.pengshu.net/linux/msys2_installation.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="前言之前一直是使用的Cygwin作为命令行终端, 后来好像是因为Cygwin上的git不兼容还是什么原因, 具体记不太清了, 就安装了git for windows后来终端也就切换到了git bash, 后面发现git for window安装不了额外的软件, 使用完整的Linux命令行都是在虚拟机上完成的, 也就一直这样别扭的用着. 今天发现一个可用在windows上使用bash并可以安装额外软">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-21T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-05-02T05:35:17.573Z">
+<meta property="article:modified_time" content="2023-05-11T14:52:21.565Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
@@ -51,7 +51,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/linux/msys2_installation.html","path":"linux/msys2_installation.html","title":"Msys2安装教程"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Msys2安装教程 | 鹏叔的IT技术博客空间</title>
+<title>Msys2安装教程 | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -82,7 +82,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -166,31 +166,31 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Msys2%E5%8E%86%E5%8F%B2%E5%8F%B2"><span class="nav-number">2.</span> <span class="nav-text">Msys2历史史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">3.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%A2%9D%E5%A4%96%E8%BD%AF%E4%BB%B6%E5%8C%85"><span class="nav-number">5.</span> <span class="nav-text">安装额外软件包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="nav-number">6.</span> <span class="nav-text">参考文章</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Msys2%E5%8E%86%E5%8F%B2%E5%8F%B2"><span class="nav-number">2.</span> <span class="nav-text">Msys2历史史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">3.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%A2%9D%E5%A4%96%E8%BD%AF%E4%BB%B6%E5%8C%85"><span class="nav-number">5.</span> <span class="nav-text">安装额外软件包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Msys2%E4%B8%8ECmder%E6%95%B4%E5%90%88"><span class="nav-number">6.</span> <span class="nav-text">Msys2与Cmder整合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pacman%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3"><span class="nav-number">7.</span> <span class="nav-text">pacman命令详解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="nav-number">8.</span> <span class="nav-text">参考文章</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -217,7 +217,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -258,11 +261,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -284,7 +287,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-05-02 13:35:17" itemprop="dateModified" datetime="2023-05-02T13:35:17+08:00">2023-05-02</time>
+        <time title="Modified: 2023-05-11 22:52:21" itemprop="dateModified" datetime="2023-05-11T22:52:21+08:00">2023-05-11</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -310,14 +313,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.6k</span>
+      <span>2.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -356,9 +359,34 @@
 <p>再装个ansible, 简直不要太香了</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">pacman -S ansible</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
+<h2 id="Msys2与Cmder整合"><a href="#Msys2与Cmder整合" class="headerlink" title="Msys2与Cmder整合"></a>Msys2与Cmder整合</h2><p>打开Cmder导航到settings=&gt;Startup=&gt;Tasks.</p>
+<p>新建一个task, 给task命名例如Bash::Msys2</p>
+<p>Task parameters不用填写</p>
+<p>在Commands一栏填入例如如下内容, 路径按照自己的安装路径酌情修改</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> CHERE_INVOKING=1 &amp; C:\tools\msys2\usr\bin\bash.exe --login -i -new_console:C:<span class="string">&quot;C:\tools\msys2\msys2.ico&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>保存, 如果要将Msys2作为默认终端, 勾选Default task for new console再次保存.</p>
+<h2 id="pacman命令详解"><a href="#pacman命令详解" class="headerlink" title="pacman命令详解"></a>pacman命令详解</h2><p>安装软包</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">pacman -S package_name</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>删除软件包</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -R package_name</span><br></pre></td></tr></table></figure>
+
+<p>删除指定软件包，及其所有没有被其他已安装软件包使用的依赖关系：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -Rs package_name</span><br></pre></td></tr></table></figure>
+
+<p>查询软件包</p>
+<p>pacman -Ss package</p>
+<p>安装一个’本地’包（不从源里）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -U /path/to/package/package_name-version.pkg.tar.gz</span><br></pre></td></tr></table></figure>
+
+<p>安装一个’远程’包（不从源里）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -U http://url/package_name-version.pkg.tar.gz</span><br></pre></td></tr></table></figure>
+
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Blazar/article/details/109710997">Windows下使用Git+rsync构建文件同步工具</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zhouguoqionghai/article/details/111143869">git bash 下 pacman 环境配置</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/pfysw/article/details/109247846">搭建msys2基础开发平台</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/383694450">pacman命令详解</a></p>
 
     </div>
 
@@ -392,7 +420,7 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/linux/Internal_network_penetration.html" rel="prev" title="使用WireGuard内网穿透">
+                <a href="/network/Internal_network_penetration.html" rel="prev" title="使用WireGuard内网穿透">
                   <i class="fa fa-chevron-left"></i> 使用WireGuard内网穿透
                 </a>
             </div>
@@ -433,14 +461,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">

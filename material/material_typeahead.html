@@ -34,11 +34,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Angular Material实现typeahead简单示例">
 <meta property="og:url" content="http://www.pengshu.net/material/material_typeahead.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="前言项目中需要一个输入提示框, 之前是使用ng-bootstrap实现的. 但是由于系统框架完全迁移到了material design. 所以所有bootstrap的依赖项都要迁移到angular material design. 如果您的web表单有一个包含许多选项的下拉列表，那么您可能希望通过提前键入来简化用户的生活。幸运的是，Angular Material组件可以让你很容易地做到这一点。在">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-08-23T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-09-12T04:05:56.995Z">
+<meta property="article:modified_time" content="2023-05-25T23:47:14.968Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="Angular">
 <meta property="article:tag" content="Material">
@@ -52,7 +52,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/material/material_typeahead.html","path":"material/material_typeahead.html","title":"Angular Material实现typeahead简单示例"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Angular Material实现typeahead简单示例 | 鹏叔的IT技术博客空间</title>
+<title>Angular Material实现typeahead简单示例 | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -83,7 +83,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -167,31 +167,31 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAAngular%E9%A1%B9%E7%9B%AE"><span class="nav-number">2.</span> <span class="nav-text">创建Angular项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E4%BE%9D%E8%B5%96"><span class="nav-number">3.</span> <span class="nav-text">添加依赖</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0-Angular-Material-%E5%92%8C-Angular-CDK-%E6%A8%A1%E5%9D%97"><span class="nav-number">3.1.</span> <span class="nav-text">添加 Angular Material 和 Angular CDK 模块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E5%8C%85"><span class="nav-number">4.</span> <span class="nav-text">安装依赖包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E9%A2%84%E6%9E%84%E5%BB%BA%E7%9A%84Angular-Material%E4%B8%BB%E9%A2%98"><span class="nav-number">5.</span> <span class="nav-text">添加预构建的Angular Material主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97"><span class="nav-number">6.</span> <span class="nav-text">导入模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAtypeahead-input"><span class="nav-number">7.</span> <span class="nav-text">创建typeahead input</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%B8%A6%E4%B8%8B%E6%8B%89%E5%88%97%E8%A1%A8%E5%B9%B6%E5%85%B7%E6%9C%89%E8%BF%87%E6%BB%A4%E5%8A%9F%E8%83%BD%E7%9A%84%E8%BE%93%E5%85%A5%E6%A1%86"><span class="nav-number">7.1.</span> <span class="nav-text">第一步: 实现一个带下拉列表并具有过滤功能的输入框</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5-%E5%88%97%E8%A1%A8%E9%A1%B9%E8%BF%9C%E7%A8%8B%E8%8E%B7%E5%8F%96"><span class="nav-number">7.2.</span> <span class="nav-text">第二步: 列表项远程获取</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A6%96%E5%85%88%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAweb-api%E6%9C%8D%E5%8A%A1-%E6%9D%A5%E6%A8%A1%E6%8B%9F%E6%8F%90%E4%BE%9B%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE"><span class="nav-number">7.2.1.</span> <span class="nav-text">首先快速搭建一个web api服务, 来模拟提供远程数据</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9app-components-ts%E4%BB%8E%E8%BF%9C%E7%A8%8B%E5%8A%A0%E8%BD%BD%E5%88%97%E8%A1%A8%E9%80%89%E9%A1%B9"><span class="nav-number">7.2.2.</span> <span class="nav-text">修改app.components.ts从远程加载列表选项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5-%E4%BC%98%E5%8C%96%E8%BE%93%E5%85%A5%E6%A1%86-%E7%BB%99%E5%88%97%E8%A1%A8%E9%A1%B9%E6%B7%BB%E5%8A%A0%E6%9B%B4%E5%A4%9A%E6%A0%B7%E5%BC%8F"><span class="nav-number">7.3.</span> <span class="nav-text">第三步: 优化输入框, 给列表项添加更多样式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%AB%98%E4%BA%AE%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%B8%8B%E6%8B%89%E9%80%89%E9%A1%B9"><span class="nav-number">7.3.1.</span> <span class="nav-text">高亮第一个下拉选项</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%99%E9%80%89%E9%A1%B9%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87"><span class="nav-number">7.3.2.</span> <span class="nav-text">给选项添加图标</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%A6%96%E5%85%88%E4%BF%AE%E6%94%B9%E4%BF%AE%E6%94%B9api%E6%8E%A5%E5%8F%A3-%E8%AE%A9%E5%85%B6%E8%BF%94%E5%9B%9E%E7%9A%84%E5%9B%BE%E6%A0%87%E5%90%8D%E7%A7%B0"><span class="nav-number">7.3.2.1.</span> <span class="nav-text">首先修改修改api接口, 让其返回的图标名称</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%95%E5%85%A5material-icon%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97-%E5%B9%B6%E6%B7%BB%E5%8A%A0Material-Icons%E6%A0%B7%E5%BC%8F"><span class="nav-number">7.3.2.2.</span> <span class="nav-text">引入material icon相关模块, 并添加Material Icons样式</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9html-template-%E8%AE%A9%E5%85%B6%E6%98%BE%E7%A4%BA%E5%9B%BE%E6%A0%87"><span class="nav-number">7.3.3.</span> <span class="nav-text">修改html template, 让其显示图标</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE"><span class="nav-number">8.</span> <span class="nav-text">启动项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">9.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAAngular%E9%A1%B9%E7%9B%AE"><span class="nav-number">2.</span> <span class="nav-text">创建Angular项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E4%BE%9D%E8%B5%96"><span class="nav-number">3.</span> <span class="nav-text">添加依赖</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0-Angular-Material-%E5%92%8C-Angular-CDK-%E6%A8%A1%E5%9D%97"><span class="nav-number">3.1.</span> <span class="nav-text">添加 Angular Material 和 Angular CDK 模块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E5%8C%85"><span class="nav-number">4.</span> <span class="nav-text">安装依赖包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E9%A2%84%E6%9E%84%E5%BB%BA%E7%9A%84Angular-Material%E4%B8%BB%E9%A2%98"><span class="nav-number">5.</span> <span class="nav-text">添加预构建的Angular Material主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97"><span class="nav-number">6.</span> <span class="nav-text">导入模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAtypeahead-input"><span class="nav-number">7.</span> <span class="nav-text">创建typeahead input</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%B8%A6%E4%B8%8B%E6%8B%89%E5%88%97%E8%A1%A8%E5%B9%B6%E5%85%B7%E6%9C%89%E8%BF%87%E6%BB%A4%E5%8A%9F%E8%83%BD%E7%9A%84%E8%BE%93%E5%85%A5%E6%A1%86"><span class="nav-number">7.1.</span> <span class="nav-text">第一步: 实现一个带下拉列表并具有过滤功能的输入框</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5-%E5%88%97%E8%A1%A8%E9%A1%B9%E8%BF%9C%E7%A8%8B%E8%8E%B7%E5%8F%96"><span class="nav-number">7.2.</span> <span class="nav-text">第二步: 列表项远程获取</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A6%96%E5%85%88%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAweb-api%E6%9C%8D%E5%8A%A1-%E6%9D%A5%E6%A8%A1%E6%8B%9F%E6%8F%90%E4%BE%9B%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE"><span class="nav-number">7.2.1.</span> <span class="nav-text">首先快速搭建一个web api服务, 来模拟提供远程数据</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9app-components-ts%E4%BB%8E%E8%BF%9C%E7%A8%8B%E5%8A%A0%E8%BD%BD%E5%88%97%E8%A1%A8%E9%80%89%E9%A1%B9"><span class="nav-number">7.2.2.</span> <span class="nav-text">修改app.components.ts从远程加载列表选项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5-%E4%BC%98%E5%8C%96%E8%BE%93%E5%85%A5%E6%A1%86-%E7%BB%99%E5%88%97%E8%A1%A8%E9%A1%B9%E6%B7%BB%E5%8A%A0%E6%9B%B4%E5%A4%9A%E6%A0%B7%E5%BC%8F"><span class="nav-number">7.3.</span> <span class="nav-text">第三步: 优化输入框, 给列表项添加更多样式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%AB%98%E4%BA%AE%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%B8%8B%E6%8B%89%E9%80%89%E9%A1%B9"><span class="nav-number">7.3.1.</span> <span class="nav-text">高亮第一个下拉选项</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%99%E9%80%89%E9%A1%B9%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87"><span class="nav-number">7.3.2.</span> <span class="nav-text">给选项添加图标</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%A6%96%E5%85%88%E4%BF%AE%E6%94%B9%E4%BF%AE%E6%94%B9api%E6%8E%A5%E5%8F%A3-%E8%AE%A9%E5%85%B6%E8%BF%94%E5%9B%9E%E7%9A%84%E5%9B%BE%E6%A0%87%E5%90%8D%E7%A7%B0"><span class="nav-number">7.3.2.1.</span> <span class="nav-text">首先修改修改api接口, 让其返回的图标名称</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%95%E5%85%A5material-icon%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97-%E5%B9%B6%E6%B7%BB%E5%8A%A0Material-Icons%E6%A0%B7%E5%BC%8F"><span class="nav-number">7.3.2.2.</span> <span class="nav-text">引入material icon相关模块, 并添加Material Icons样式</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9html-template-%E8%AE%A9%E5%85%B6%E6%98%BE%E7%A4%BA%E5%9B%BE%E6%A0%87"><span class="nav-number">7.3.3.</span> <span class="nav-text">修改html template, 让其显示图标</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE"><span class="nav-number">8.</span> <span class="nav-text">启动项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Design-%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0"><span class="nav-number">9.</span> <span class="nav-text">Material  Design 系列文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">10.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -218,7 +218,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -259,11 +262,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -285,7 +288,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-09-12 12:05:56" itemprop="dateModified" datetime="2022-09-12T12:05:56+08:00">2022-09-12</time>
+        <time title="Modified: 2023-05-26 07:47:14" itemprop="dateModified" datetime="2023-05-26T07:47:14+08:00">2023-05-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -311,7 +314,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>9k</span>
+      <span>9.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -431,6 +434,7 @@
 <h2 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h2><p>进入项目主目录, 启动项目观察效果. 当然你要可以在每个阶段性任务完成后, 启动项目查看效果.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ng serve --open --port 4203</span><br></pre></td></tr></table></figure>
 
+<h2 id="Material-Design-系列文章"><a href="#Material-Design-系列文章" class="headerlink" title="Material  Design 系列文章"></a>Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://www.pengshu.net/tags/material-design/">鹏叔的技术博客空间-Material Design</a></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://careydevelopment.us/blog/angular-material-how-to-add-a-typeahead-dropdown-on-a-web-form">Angular Material: How to Add a Type-Ahead Dropdown on a Web Form</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.itsolutionstuff.com/post/angular-material-select-dropdown-with-search-exampleexample.html">Angular Material Select Dropdown with Search Example</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.w3schools.com/howto/howto_js_autocomplete.asp">How TO - Autocomplete</a></p>
@@ -510,14 +514,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -34,11 +34,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Material Design基础 - Surfaces">
 <meta property="og:url" content="http://www.pengshu.net/material/surfaces.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="Material SurfacesMaterial设计具有三个维度的品质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。 Material environment在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。 Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-01T16:06:33.475Z">
+<meta property="article:modified_time" content="2023-05-25T23:46:42.517Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="design">
 <meta property="article:tag" content="material design">
@@ -52,7 +52,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/material/surfaces.html","path":"material/surfaces.html","title":"Material Design基础 - Surfaces"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Material Design基础 - Surfaces | 鹏叔的IT技术博客空间</title>
+<title>Material Design基础 - Surfaces | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -83,7 +83,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -167,31 +167,31 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Surfaces"><span class="nav-number">1.</span> <span class="nav-text">Material Surfaces</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Material-environment"><span class="nav-number">1.1.</span> <span class="nav-text">Material environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%B1%E5%BA%A6%EF%BC%88Depth%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">深度（Depth）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Material-%E5%B1%9E%E6%80%A7"><span class="nav-number">1.3.</span> <span class="nav-text">Material 属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%B4%E5%BA%A6"><span class="nav-number">1.3.1.</span> <span class="nav-text">维度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%B4%E5%BD%B1"><span class="nav-number">1.3.2.</span> <span class="nav-text">阴影</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">1.3.3.</span> <span class="nav-text">分辨率</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%86%85%E5%AE%B9%EF%BC%88content%EF%BC%89"><span class="nav-number">1.3.4.</span> <span class="nav-text">内容（content）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%89%A9%E7%90%86%E5%B1%9E%E6%80%A7"><span class="nav-number">1.3.5.</span> <span class="nav-text">物理属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Transforming-Material"><span class="nav-number">1.3.6.</span> <span class="nav-text">Transforming Material</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Movement"><span class="nav-number">1.3.7.</span> <span class="nav-text">Movement</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B1%9E%E6%80%A7"><span class="nav-number">1.3.8.</span> <span class="nav-text">属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%84%E5%90%88surfaces"><span class="nav-number">1.3.9.</span> <span class="nav-text">组合surfaces</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%AF%E6%8B%89%E4%BC%B8%E7%9A%84surfaces"><span class="nav-number">1.3.10.</span> <span class="nav-text">可拉伸的surfaces</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A1%A8%E9%9D%A2%E4%BD%8D%E7%BD%AE%E5%92%8C%E7%A7%BB%E5%8A%A8%EF%BC%88x-y%EF%BC%89"><span class="nav-number">1.3.11.</span> <span class="nav-text">表面位置和移动（x&#x2F;y）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Surface-%E9%80%8F%E6%98%8E%E5%BA%A6"><span class="nav-number">1.3.12.</span> <span class="nav-text">Surface 透明度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BA%B1%E5%B9%95%EF%BC%88scrim%EF%BC%89"><span class="nav-number">1.3.13.</span> <span class="nav-text">纱幕（scrim）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">2.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Surfaces"><span class="nav-number">1.</span> <span class="nav-text">Material Surfaces</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Material-environment"><span class="nav-number">1.1.</span> <span class="nav-text">Material environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%B1%E5%BA%A6%EF%BC%88Depth%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">深度（Depth）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Material-%E5%B1%9E%E6%80%A7"><span class="nav-number">1.3.</span> <span class="nav-text">Material 属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%B4%E5%BA%A6"><span class="nav-number">1.3.1.</span> <span class="nav-text">维度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%B4%E5%BD%B1"><span class="nav-number">1.3.2.</span> <span class="nav-text">阴影</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">1.3.3.</span> <span class="nav-text">分辨率</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%86%85%E5%AE%B9%EF%BC%88content%EF%BC%89"><span class="nav-number">1.3.4.</span> <span class="nav-text">内容（content）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%89%A9%E7%90%86%E5%B1%9E%E6%80%A7"><span class="nav-number">1.3.5.</span> <span class="nav-text">物理属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Transforming-Material"><span class="nav-number">1.3.6.</span> <span class="nav-text">Transforming Material</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Movement"><span class="nav-number">1.3.7.</span> <span class="nav-text">Movement</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B1%9E%E6%80%A7"><span class="nav-number">1.3.8.</span> <span class="nav-text">属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%84%E5%90%88surfaces"><span class="nav-number">1.3.9.</span> <span class="nav-text">组合surfaces</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%AF%E6%8B%89%E4%BC%B8%E7%9A%84surfaces"><span class="nav-number">1.3.10.</span> <span class="nav-text">可拉伸的surfaces</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A1%A8%E9%9D%A2%E4%BD%8D%E7%BD%AE%E5%92%8C%E7%A7%BB%E5%8A%A8%EF%BC%88x-y%EF%BC%89"><span class="nav-number">1.3.11.</span> <span class="nav-text">表面位置和移动（x&#x2F;y）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Surface-%E9%80%8F%E6%98%8E%E5%BA%A6"><span class="nav-number">1.3.12.</span> <span class="nav-text">Surface 透明度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BA%B1%E5%B9%95%EF%BC%88scrim%EF%BC%89"><span class="nav-number">1.3.13.</span> <span class="nav-text">纱幕（scrim）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Design-%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">Material  Design 系列文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">3.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -218,7 +218,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -259,11 +262,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -285,7 +288,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-02 00:06:33" itemprop="dateModified" datetime="2022-05-02T00:06:33+08:00">2022-05-02</time>
+        <time title="Modified: 2023-05-26 07:46:42" itemprop="dateModified" datetime="2023-05-26T07:46:42+08:00">2023-05-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -311,7 +314,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.1k</span>
+      <span>2.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -364,6 +367,7 @@
 <h4 id="纱幕（scrim）"><a href="#纱幕（scrim）" class="headerlink" title="纱幕（scrim）"></a>纱幕（scrim）</h4><p>纱幕是以使表面上的内容不那么突出。它们有助于将用户的注意力引导到屏幕的其他重要部分。</p>
 <p>纱幕可以以多种方式应用，包括：</p>
 <p>使surface及其内容变暗或变亮<br>减少表面及其内容物的不透明度<br>一次在屏幕上显示多个表面可以显示纱幕。纱幕可以出现在任何立面上，无论是在前景中还是在背景中。</p>
+<h2 id="Material-Design-系列文章"><a href="#Material-Design-系列文章" class="headerlink" title="Material  Design 系列文章"></a>Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://www.pengshu.net/tags/material-design/">鹏叔的技术博客空间-Material Design</a></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://material.io/design/environment/surfaces.html">Material System - environment surfaces</a></p>
 
     </div>
@@ -440,14 +444,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">

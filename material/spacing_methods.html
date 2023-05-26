@@ -34,11 +34,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Material Design基础 - spacing methods">
 <meta property="og:url" content="http://www.pengshu.net/material/spacing_methods.html">
-<meta property="og:site_name" content="鹏叔的IT技术博客空间">
+<meta property="og:site_name" content="鹏叔的技术博客空间">
 <meta property="og:description" content="spacing methodsspacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-13T14:34:29.316Z">
+<meta property="article:modified_time" content="2023-05-25T23:46:50.599Z">
 <meta property="article:author" content="Eagle Guo">
 <meta property="article:tag" content="design">
 <meta property="article:tag" content="material design">
@@ -52,7 +52,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://www.pengshu.net/material/spacing_methods.html","path":"material/spacing_methods.html","title":"Material Design基础 - spacing methods"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Material Design基础 - spacing methods | 鹏叔的IT技术博客空间</title>
+<title>Material Design基础 - spacing methods | 鹏叔的技术博客空间</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -83,7 +83,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <div class="site-title h1">鹏叔的IT技术博客空间</div>
+      <div class="site-title h1">鹏叔的技术博客空间</div>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">日拱一卒，功不唐捐!</p>
@@ -167,31 +167,31 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#spacing-methods"><span class="nav-number">1.</span> <span class="nav-text">spacing methods</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E5%87%86%E7%BD%91%E6%A0%BC"><span class="nav-number">1.1.</span> <span class="nav-text">基准网格</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#8dp%E7%BD%91%E6%A0%BC"><span class="nav-number">1.1.1.</span> <span class="nav-text">8dp网格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4dp%E7%BD%91%E6%A0%BC"><span class="nav-number">1.1.2.</span> <span class="nav-text">4dp网格</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%B4%E8%B7%9D%E6%96%B9%E6%B3%95"><span class="nav-number">1.2.</span> <span class="nav-text">间距方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#padding"><span class="nav-number">1.2.1.</span> <span class="nav-text">padding</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dimensions"><span class="nav-number">1.2.2.</span> <span class="nav-text">Dimensions</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Alignment"><span class="nav-number">1.2.3.</span> <span class="nav-text">Alignment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E9%94%AE%E7%BA%BF"><span class="nav-number">1.2.4.</span> <span class="nav-text">关键线</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Containers-and-ratios"><span class="nav-number">1.3.</span> <span class="nav-text">Containers and ratios</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Containers"><span class="nav-number">1.3.1.</span> <span class="nav-text">Containers</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Aspect-ratios"><span class="nav-number">1.3.2.</span> <span class="nav-text">Aspect ratios</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Flexible-ratios"><span class="nav-number">1.3.3.</span> <span class="nav-text">Flexible ratios</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Responsive-cropping"><span class="nav-number">1.3.4.</span> <span class="nav-text">Responsive cropping</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%A6%E7%A2%B0%E7%9B%AE%E6%A0%87"><span class="nav-number">1.3.5.</span> <span class="nav-text">触碰目标</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">2.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#spacing-methods"><span class="nav-number">1.</span> <span class="nav-text">spacing methods</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E5%87%86%E7%BD%91%E6%A0%BC"><span class="nav-number">1.1.</span> <span class="nav-text">基准网格</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#8dp%E7%BD%91%E6%A0%BC"><span class="nav-number">1.1.1.</span> <span class="nav-text">8dp网格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4dp%E7%BD%91%E6%A0%BC"><span class="nav-number">1.1.2.</span> <span class="nav-text">4dp网格</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%B4%E8%B7%9D%E6%96%B9%E6%B3%95"><span class="nav-number">1.2.</span> <span class="nav-text">间距方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#padding"><span class="nav-number">1.2.1.</span> <span class="nav-text">padding</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dimensions"><span class="nav-number">1.2.2.</span> <span class="nav-text">Dimensions</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Alignment"><span class="nav-number">1.2.3.</span> <span class="nav-text">Alignment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E9%94%AE%E7%BA%BF"><span class="nav-number">1.2.4.</span> <span class="nav-text">关键线</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Containers-and-ratios"><span class="nav-number">1.3.</span> <span class="nav-text">Containers and ratios</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Containers"><span class="nav-number">1.3.1.</span> <span class="nav-text">Containers</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Aspect-ratios"><span class="nav-number">1.3.2.</span> <span class="nav-text">Aspect ratios</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Flexible-ratios"><span class="nav-number">1.3.3.</span> <span class="nav-text">Flexible ratios</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Responsive-cropping"><span class="nav-number">1.3.4.</span> <span class="nav-text">Responsive cropping</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%A6%E7%A2%B0%E7%9B%AE%E6%A0%87"><span class="nav-number">1.3.5.</span> <span class="nav-text">触碰目标</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Material-Design-%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">Material  Design 系列文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-number">3.</span> <span class="nav-text">参考文档</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Eagle Guo</p>
-  <div class="site-description" itemprop="description">鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
+  <div class="site-description" itemprop="description">鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">111</span>
+          <span class="site-state-item-count">120</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -218,7 +218,10 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="http://philoenglish.com/" title="http:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+          <a href="https://philoenglish.com/" title="https:&#x2F;&#x2F;philoenglish.com" rel="noopener" target="_blank">菲利英语</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://taoshu.in/" title="https:&#x2F;&#x2F;taoshu.in&#x2F;" rel="noopener" target="_blank">涛叔</a>
         </li>
     </ul>
   </div>
@@ -259,11 +262,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的IT技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的IT技术博客空间">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -285,7 +288,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2022-05-13 22:34:29" itemprop="dateModified" datetime="2022-05-13T22:34:29+08:00">2022-05-13</time>
+        <time title="Modified: 2023-05-26 07:46:50" itemprop="dateModified" datetime="2023-05-26T07:46:50+08:00">2023-05-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -344,6 +347,7 @@
 <h4 id="Responsive-cropping"><a href="#Responsive-cropping" class="headerlink" title="Responsive cropping"></a>Responsive cropping</h4><p>要相应地显示图像，请定义如何在不同的断点范围内裁剪图像。在不同的断点范围内，裁剪可以：<br>保持一个固定的比率<br>适应不同的比率<br>固定图像高度</p>
 <p>保持一个比率 - 图像大小可以在分界点范围内保持一个固定比率。<br>适应不同的比率 - 图像比率也可以通过适应不同的断点范围而改变。<br>固定图像高度 - 图像大小可以在断点范围内保持固定的高度和流体宽度。</p>
 <h4 id="触碰目标"><a href="#触碰目标" class="headerlink" title="触碰目标"></a>触碰目标</h4><p>触摸目标适用于接收触摸和非触摸输入的任何设备。为了平衡信息密度和可用性，触摸目标应至少为48 x 48 dp，目标之间的空间至少为8 dp。</p>
+<h2 id="Material-Design-系列文章"><a href="#Material-Design-系列文章" class="headerlink" title="Material  Design 系列文章"></a>Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://www.pengshu.net/tags/material-design/">鹏叔的技术博客空间-Material Design</a></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://material.io/design/layout/spacing-methods.html">Material System - layout spacing method</a></p>
 
     </div>
@@ -420,14 +424,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">519k</span>
+    <span title="Symbols count total">557k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">7:52</span>
+    <span title="Reading time total">8:26</span>
   </span>
 </div>
 <div class="busuanzi-count">
