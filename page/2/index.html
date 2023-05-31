@@ -176,7 +176,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">121</span>
+          <span class="site-state-item-count">124</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -187,7 +187,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">48</span>
+        <span class="site-state-item-count">50</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -243,6 +243,346 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_universal.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/angular/angular_universal.html" class="post-title-link" itemprop="url">Angular universal服务器端渲染与预渲染</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-05-03 00:00:00" itemprop="dateCreated datePublished" datetime="2023-05-03T00:00:00+08:00">2023-05-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-05-31 17:42:16" itemprop="dateModified" datetime="2023-05-31T17:42:16+08:00">2023-05-31</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>20k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>18 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <ul>
+<li><a href="#1-%E5%89%8D%E8%A8%80">1. 前言</a></li>
+<li><a href="#2-%E4%BB%80%E4%B9%88%E6%98%AFangular-universal">2. 什么是Angular universal</a></li>
+<li><a href="#3-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81ssr%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%B8%B2%E6%9F%93">3. 为什么需要SSR(服务器端渲染)</a></li>
+<li><a href="#4-angular-universal%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3fcp%E5%92%8Cseo%E9%97%AE%E9%A2%98">4. Angular Universal如何解决FCP和SEO问题</a></li>
+<li><a href="#5-%E5%BC%80%E5%90%AFssr">5. 开启SSR</a></li>
+<li><a href="#6-%E5%BC%80%E5%90%AF%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%B0%B4%E5%90%88client-hydration">6. 开启客户端水合(Client Hydration)</a></li>
+<li><a href="#7-%E4%BD%BF%E7%94%A8-universal-%E6%9E%84%E5%BB%BA%E5%92%8C%E8%BF%90%E8%A1%8C">7. 使用 Universal 构建和运行</a></li>
+<li><a href="#8-prerender-%E9%A2%84%E6%B8%B2%E6%9F%93%E9%9D%99%E6%80%81-html">8. Prerender 预渲染静态 HTML</a><ul>
+<li><a href="#81-%E9%A2%84%E6%B8%B2%E6%9F%93%E8%B7%AF%E5%BE%84%E9%85%8D%E7%BD%AE">8.1. 预渲染路径配置</a></li>
+</ul>
+</li>
+<li><a href="#9-seo-%E4%BC%98%E5%8C%96">9. SEO 优化</a><ul>
+<li><a href="#%E5%85%B3%E9%94%AE%E8%AF%8D%E4%B8%8E%E6%8F%8F%E8%BF%B0%E7%9A%84%E4%BC%98%E5%8C%96">关键词与描述的优化</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0robotstxt">添加robots.txt</a></li>
+<li><a href="#%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90sitemap">自动生成sitemap</a></li>
+</ul>
+</li>
+<li><a href="#10-%E4%BD%BF%E7%94%A8nginx%E9%83%A8%E7%BD%B2">10. 使用Nginx部署</a><ul>
+<li><a href="#101-%E5%AE%89%E8%A3%85nginx">10.1. 安装Nginx</a></li>
+<li><a href="#102-%E5%AE%89%E8%A3%85node">10.2. 安装Node</a></li>
+<li><a href="#103-%E5%AE%89%E8%A3%85pm2">10.3. 安装PM2</a></li>
+<li><a href="#104-%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%90%AF%E5%8A%A8pm2">10.4. 配置并启动pm2</a></li>
+<li><a href="#105-%E9%85%8D%E7%BD%AEnginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86">10.5. 配置Nginx反向代理</a></li>
+</ul>
+</li>
+<li><a href="#11-troubleshooting">11. troubleshooting</a></li>
+<li><a href="#12-%E5%90%8E%E8%AE%B0">12. 后记</a></li>
+<li><a href="#13-%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3">13. 参考文档</a></li>
+</ul>
+<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>当初选择将应用做成SPA(单页应用)的时候主要是觉得用户体验非常丝滑, 当时也知道SPA很难做SEO, 还是毅然决然的选择做成SPA应用. 当时还是Angularjs 1.X的时候, 就觉得Angular的理念跟自己对前端的看法特别契合, 后来将框架升级到Angular 11继而13, 虽然废了很多时间和精力, 但是收获非常多, 由于本文的重点是SSR与prerendering,所以这里不赘述原因了. 之前也了解到Angular Universal是做服务器端渲染的套件(SSR), 乘最近有空刚好将其引入到项目. 实现地过程中虽然遇到问题, 但是还是有些小兴奋的感觉, 一来解决了首次访问应用时白屏的问题, 二来将当初打算舍弃的SEO能力也找了回来, 而且整个对引入SSR 实现SEO的过程还是相当轻松的, 特写此文, 以防遗忘, 也希望给后来者有所帮助.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/angular/angular_universal.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/network/frp_install.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/network/frp_install.html" class="post-title-link" itemprop="url">frp内网穿透</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-05-02 00:00:00" itemprop="dateCreated datePublished" datetime="2023-05-02T00:00:00+08:00">2023-05-02</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-05-05 21:21:55" itemprop="dateModified" datetime="2023-05-05T21:21:55+08:00">2023-05-05</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/others/" itemprop="url" rel="index"><span itemprop="name">others</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>3.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>frp 是一个开源、简洁易用、高性能的内网穿透和反向代理软件，支持 tcp, udp, http, https等协议。frp 项目官网是 <a target="_blank" rel="noopener" href="https://github.com/fatedier/frp">https://github.com/fatedier/frp</a></p>
+<p>frp工作原理</p>
+<p>服务端运行，监听一个主端口，等待客户端的连接；</p>
+<p>客户端连接到服务端的主端口，同时告诉服务端要监听的端口和转发类型；</p>
+<p>服务端fork新的进程监听客户端指定的端口；</p>
+<p>外网用户连接到服务器端指定的端口，服务端通过和客户端的连接将数据转发到客户端；</p>
+<p>客户端进程再将数据转发到本地服务，从而实现内网对外暴露服务的能力。</p>
+<h2 id="前置条件"><a href="#前置条件" class="headerlink" title="前置条件"></a>前置条件</h2><p>想要配置frp穿透，首先必须先要有一台具有外网ip(即：可以外网访问)的服务器。如果没有，接下来的教程就不用看了。配置教程主要分为两个部分，一是服务器端(外网服务器)的配置；二是客户端(内网服务器)配置。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/network/frp_install.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/golang/go_unit_test.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/golang/go_unit_test.html" class="post-title-link" itemprop="url">Golang单元测试</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2023-04-27 00:00:00 / Modified: 12:31:23" itemprop="dateCreated datePublished" datetime="2023-04-27T00:00:00+08:00">2023-04-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>6.1k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>6 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>原文: <a target="_blank" rel="noopener" href="https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package">How To Write Unit Tests in Go</a></p>
+<p>Author: <a target="_blank" rel="noopener" href="https://www.digitalocean.com/community/users/nullterminator">Tobi Balogun</a></p>
+<p>译者：philoenglish.com团队; 更多资讯可访问<a target="_blank" rel="noopener" href="http://www.philoenglish.com/">philoenglish.com</a></p>
+<p>单元测试是一种软件测试方法, 用于测试代码的最小可测试单元, 通常是函数或方法. 它的目的是确保每个单元都能够按照预期工作, 并且在修改代码时不会破坏现有的功能,它们是Go编程语言的关键部分。<br>在本教程中，您将创建一个小程序，然后使用Go的测试包和Go test命令对代码运行一系列测试。完成教程后，您将拥有一个可工作的单元测试套件，其中包括一个基于表表格的单元测试、一个覆盖率测试、一项基准测试和一个文档化的示例。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/golang/go_unit_test.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -675,109 +1015,6 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/product/mobile_app_promotion.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/product/mobile_app_promotion.html" class="post-title-link" itemprop="url">应用推广的十个观点(译文)</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-04-12 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-12T00:00:00+08:00">2023-04-12</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-05-15 18:09:06" itemprop="dateModified" datetime="2023-05-15T18:09:06+08:00">2023-05-15</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>2.9k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="1-译者序"><a href="#1-译者序" class="headerlink" title="1. 译者序"></a>1. 译者序</h2><p>这是一篇非常好的推广移动应用的想法或者说是策略, 翻译过来分享给大家. 或许有些观点已经很显而易见, 那么就权当是一个总结. 后续会基于此文章陆续更新关于应用推广方面的想法和观点.</p>
-<p>译者：philoenglish.com团队; 更多资讯可访问<a target="_blank" rel="noopener" href="https://www.philoenglish.com/">philoenglish.com</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/product/mobile_app_promotion.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/product/how_to_build_an_app.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -851,6 +1088,109 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/product/how_to_build_an_app.html#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/product/mobile_app_promotion.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eagle Guo">
+      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鹏叔的技术博客空间">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/product/mobile_app_promotion.html" class="post-title-link" itemprop="url">应用推广的十个观点(译文)</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-04-12 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-12T00:00:00+08:00">2023-04-12</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2023-05-15 18:09:06" itemprop="dateModified" datetime="2023-05-15T18:09:06+08:00">2023-05-15</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>2.9k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="1-译者序"><a href="#1-译者序" class="headerlink" title="1. 译者序"></a>1. 译者序</h2><p>这是一篇非常好的推广移动应用的想法或者说是策略, 翻译过来分享给大家. 或许有些观点已经很显而易见, 那么就权当是一个总结. 后续会基于此文章陆续更新关于应用推广方面的想法和观点.</p>
+<p>译者：philoenglish.com团队; 更多资讯可访问<a target="_blank" rel="noopener" href="https://www.philoenglish.com/">philoenglish.com</a></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/product/mobile_app_promotion.html#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -976,323 +1316,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/angular/angular_injectable_decorator.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/angular/angular_injectable_decorator.html" class="post-title-link" itemprop="url">Angular injectable接口</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-04-03 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-03T00:00:00+08:00">2023-04-03</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-04-12 16:15:07" itemprop="dateModified" datetime="2023-04-12T16:15:07+08:00">2023-04-12</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.5k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文将使用@Injectable装饰器创建Angular服务。Angular服务是可注入的，注入器可以将其注入到我们Angular应用程序中的任何组件或服务中。@Injectable装饰器在类级别的服务中使用。@Injectable装饰器帮助注入器考虑可注入的服务。在应用程序模块中的@NgModule装饰器的提供者元数据中配置我们的服务后，该服务将在整个应用范围内可用。</p>
-<p>要在组件中获取服务实例，我们需要为服务构造一个带参数的构造器, 并构造包含一系列可供组件或其他服务调用的方法。</p>
-<p>假设我们想要创建一个购物车应用程序。在这种情况下，服务可以包含管理商店的方法、将商品添加到购物车的方法、从购物车中删除商品的方法以及查询商品的方法等。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/angular/angular_injectable_decorator.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/vmware/vmware_configuration.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/vmware/vmware_configuration.html" class="post-title-link" itemprop="url">vmware ESXi配置</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-04-02 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-02T00:00:00+08:00">2023-04-02</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-04-23 10:57:33" itemprop="dateModified" datetime="2023-04-23T10:57:33+08:00">2023-04-23</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>613</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这篇文章主要用来收集VMWare ESXi的一些配置步骤.</p>
-<h2 id="开启SSH服务"><a href="#开启SSH服务" class="headerlink" title="开启SSH服务"></a>开启SSH服务</h2><p>默认ssh服务是关闭的, 开启ssh服务过程如下</p>
-<p>进入管理=&gt;服务, 找到TSM-SSH服务, 右击该服务会弹出子菜单, 点击启动.</p>
-<p>要设为开机启动, 右击服务, 选择策略, 选择随主机启动和停止</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/vmware/vmware_configuration.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.pengshu.net/product/help_system_design2.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Eagle Guo">
-      <meta itemprop="description" content="鹏叔的技术博客空间, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="鹏叔的技术博客空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/product/help_system_design2.html" class="post-title-link" itemprop="url">帮助系统设计2</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-03-17 00:00:00" itemprop="dateCreated datePublished" datetime="2023-03-17T00:00:00+08:00">2023-03-17</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2023-03-18 06:57:35" itemprop="dateModified" datetime="2023-03-18T06:57:35+08:00">2023-03-18</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/html/" itemprop="url" rel="index"><span itemprop="name">html</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.4k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="网站帮助中心的作用"><a href="#网站帮助中心的作用" class="headerlink" title="网站帮助中心的作用"></a>网站帮助中心的作用</h2><ul>
-<li>通过向客户表明您了解他们所面临的问题以及如何提供帮助来建立信任；</li>
-<li>通过回答常见问题来改善客户服务，增强专业的品牌形象；</li>
-<li>通过减少重复发送给支持人员的电话和电子邮件，节省时间和金钱；</li>
-<li>增强您在搜索引擎中的知名度（包含更多关键词的帮助中心页面更易被搜索引擎喜欢）；</li>
-<li>通过轻松找到他们要寻找的内容而不是搜索站点来改善用户体验。将答案直接链接到博客文章或内容页面可以使访问者更轻松地获取其他信息；</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/product/help_system_design2.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
@@ -1318,14 +1341,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">558k</span>
+    <span title="Symbols count total">625k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">8:27</span>
+    <span title="Reading time total">9:28</span>
   </span>
 </div>
 <div class="busuanzi-count">
