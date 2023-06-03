@@ -1,30 +1,7 @@
 # welcome to eagle's blog space
 User-agent: *
-Allow: /
-Allow: /archives/
-Allow: /angular/
-Allow: /git/
-Allow: /gitlab/
-Allow: /golang/
-Allow: /hexo/
-Allow: /java/
-Allow: /javascript/
-Allow: /k8s/
-Allow: /linux/
-Allow: /material/
-Allow: /nodejs/
-Allow: /others/
-Allow: /rust/
-Allow: /sass/
-Allow: /vscode/
-Allow: /webpack/
-Allow: /web/
-Allow: /webpack/
-Allow: /windows/
-Allow: /about/
 
 Disallow: /vendors/
 Disallow: /lib/
 
 Sitemap: https://www.pengshu.net/sitemap.xml
-Sitemap: https://www.pengshu.net/baidusitemap.xml

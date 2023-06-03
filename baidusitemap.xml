@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengshu.net/hexo/blog_seo_optimize.html</loc>
+    <lastmod>2023-06-03</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-06-03</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/java/websocket_java_client.html</loc>
+    <lastmod>2023-06-03</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/web/web_basic_1.html</loc>
+    <lastmod>2023-06-03</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/material/material_color.html</loc>
+    <lastmod>2023-06-03</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengshu.net/wordpress/install_buddypress.html</loc>
+    <lastmod>2023-06-01</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengshu.net/angular/angular_service_worker_introduction.html</loc>
     <lastmod>2023-05-31</lastmod>
   </url>
@@ -10,10 +34,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/angular/site_seo.html</loc>
-    <lastmod>2023-05-31</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/wordpress/install_buddypress.html</loc>
     <lastmod>2023-05-31</lastmod>
   </url>
   <url>
@@ -65,10 +85,6 @@
     <lastmod>2023-05-25</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/material/material_color.html</loc>
-    <lastmod>2023-05-25</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/material/material_navigation.html</loc>
     <lastmod>2023-05-25</lastmod>
   </url>
@@ -117,10 +133,6 @@
     <lastmod>2023-05-15</lastmod>
   </url>
   <url>
-    <loc>http://www.pengshu.net/web/web_basic_1.html</loc>
-    <lastmod>2023-05-15</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengshu.net/product/mobile_app_promotion.html</loc>
     <lastmod>2023-05-15</lastmod>
   </url>
@@ -143,10 +155,6 @@
   <url>
     <loc>http://www.pengshu.net/windows/chocolatey_installation.html</loc>
     <lastmod>2023-05-11</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2023-05-09</lastmod>
   </url>
   <url>
     <loc>http://www.pengshu.net/database/install_postgresql_on_centos7.html</loc>
@@ -202,10 +210,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/product/how_to_build_an_app.html</loc>
-    <lastmod>2023-04-14</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/java/websocket_java_client.html</loc>
     <lastmod>2023-04-14</lastmod>
   </url>
   <url>
@@ -450,10 +454,6 @@
   </url>
   <url>
     <loc>http://www.pengshu.net/hexo/hexo_mermaid_plugin.html</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengshu.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
