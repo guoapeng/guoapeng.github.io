@@ -1,3 +1,9 @@
+http://www.pengtech.net/angular/angular_flex_layout.html
+http://www.pengtech.net/vscode/vscode_install_and_config.html
+http://www.pengtech.net/vmware/vmware_configuration.html
+http://www.pengtech.net/nodejs/npm_debug.html
+http://www.pengtech.net/nodejs/npm_run_debug.html
+http://www.pengtech.net/angular/angular_universal.html
 http://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html
 http://www.pengtech.net/hexo/blog_seo_optimize.html
 http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html
@@ -12,9 +18,3 @@ http://www.pengtech.net/material/pixel_density.html
 http://www.pengtech.net/material/material_typeahead.html
 http://www.pengtech.net/material/material_navigation.html
 http://www.pengtech.net/material/material_color.html
-http://www.pengtech.net/material/light_shadow.html
-http://www.pengtech.net/material/layout.html
-http://www.pengtech.net/material/introduction.html
-http://www.pengtech.net/material/elevation.html
-http://www.pengtech.net/material/component_behavior.html
-http://www.pengtech.net/material/applying_density.html
