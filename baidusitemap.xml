@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/product/baidu_index.html</loc>
+    <lastmod>2023-07-06</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/site_seo.html</loc>
+    <lastmod>2023-07-06</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2023-07-04</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/webpack/webpack_env_variables.html</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_service_worker_introduction.html</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/java/spring_websocket.html</loc>
+    <lastmod>2023-07-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/npm_run_debug.html</loc>
+    <lastmod>2023-07-01</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2023-06-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_upgrade_13_to_15.html</loc>
+    <lastmod>2023-06-29</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_migrate_to_mdc.html</loc>
+    <lastmod>2023-06-28</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_installation.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_editor.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/angular/angular_flex_layout.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_JIT_AOT.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_material_design.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_platforms.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/consideration_on_angular_universal.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_route.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_ngmodule.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_migration.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_guard.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_with_tailwind.html</loc>
+    <lastmod>2023-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     <lastmod>2023-06-25</lastmod>
   </url>
   <url>
@@ -17,23 +129,11 @@
     <lastmod>2023-06-22</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/nodejs/npm_run_debug.html</loc>
-    <lastmod>2023-06-22</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_universal.html</loc>
-    <lastmod>2023-06-21</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/hexo/blog_seo_optimize.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
@@ -141,10 +241,6 @@
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/java/spring_websocket.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/java/jdk17_installation.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
@@ -169,10 +265,6 @@
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/gitlab/gitlab_plantuml_integration.html</loc>
     <lastmod>2023-06-09</lastmod>
   </url>
@@ -181,28 +273,12 @@
     <lastmod>2023-06-04</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2023-06-03</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_service_worker_introduction.html</loc>
-    <lastmod>2023-05-31</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/site_seo.html</loc>
-    <lastmod>2023-05-31</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
     <lastmod>2023-05-26</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/web/draw_pic_in_convas.html</loc>
     <lastmod>2023-05-18</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_cli.html</loc>
-    <lastmod>2023-05-15</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/nginx/apply_ssl_certificate.html</loc>
@@ -235,10 +311,6 @@
   <url>
     <loc>http://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
     <lastmod>2023-05-09</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/consideration_on_angular_universal.html</loc>
-    <lastmod>2023-05-08</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/network/frp_install.html</loc>
@@ -289,15 +361,7 @@
     <lastmod>2023-04-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
-    <lastmod>2023-04-12</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/git/centos7_install_git_via_sourcecode.html</loc>
-    <lastmod>2023-04-10</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-04-10</lastmod>
   </url>
   <url>
@@ -329,19 +393,7 @@
     <lastmod>2023-01-09</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular2_ngmodule.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_guard.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/rust/install_rust_on_windows.html</loc>
-    <lastmod>2023-01-08</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/webpack/webpack_env_variables.html</loc>
     <lastmod>2023-01-08</lastmod>
   </url>
   <url>
@@ -389,18 +441,6 @@
     <lastmod>2022-10-21</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular2_migration.html</loc>
-    <lastmod>2022-10-19</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
-    <lastmod>2022-09-04</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_material_design.html</loc>
-    <lastmod>2022-08-22</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     <lastmod>2022-07-09</lastmod>
   </url>
@@ -425,23 +465,7 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular_platforms.html</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/git/windows_install_git.html</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_route.html</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_installation.html</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
@@ -477,10 +501,6 @@
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular_JIT_AOT.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/golang/first_post.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
@@ -502,10 +522,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/vscode/how_to_upgrade_vscode.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
 </urlset> 
