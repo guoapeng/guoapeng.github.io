@@ -1,3 +1,10 @@
+http://www.pengtech.net/angular/angular_JIT_AOT.html
+http://www.pengtech.net/angular/angular_platforms.html
+http://www.pengtech.net/angular/angular_with_tailwind.html
+http://www.pengtech.net/angular/angular_material_design.html
+http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html
+http://www.pengtech.net/angular/angular2_auth.html
+http://www.pengtech.net/angular/angular2_create_project.html
 http://www.pengtech.net/product/baidu_
 http://www.pengtech.net/angular/site_seo.html
 http://www.pengtech.net/angular/angular_universal.html
@@ -11,10 +18,3 @@ http://www.pengtech.net/angular/angular_migrate_to_mdc.html
 http://www.pengtech.net/nodejs/install_and_config_nodejs.html
 http://www.pengtech.net/angular/angular2_installation.html
 http://www.pengtech.net/angular/angular_editor.html
-http://www.pengtech.net/angular/angular_flex_layout.html
-http://www.pengtech.net/angular/angular_injectable_decorator.html
-http://www.pengtech.net/angular/angular_JIT_AOT.html
-http://www.pengtech.net/angular/angular_material_design.html
-http://www.pengtech.net/angular/angular_platformBrowserDynamic.html
-http://www.pengtech.net/angular/angular_platforms.html
-http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html

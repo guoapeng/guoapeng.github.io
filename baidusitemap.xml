@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/angular/angular_JIT_AOT.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_platforms.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_with_tailwind.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_material_design.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
+    <lastmod>2023-07-15</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/product/baidu_index.html</loc>
     <lastmod>2023-07-06</lastmod>
   </url>
@@ -61,23 +89,7 @@
     <lastmod>2023-06-25</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular_JIT_AOT.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_material_design.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_platforms.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
     <lastmod>2023-06-25</lastmod>
   </url>
   <url>
@@ -98,18 +110,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/angular/angular2_guard.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_with_tailwind.html</loc>
     <lastmod>2023-06-25</lastmod>
   </url>
   <url>
