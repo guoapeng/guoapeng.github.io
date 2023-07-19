@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/product/buyer_decision_process.html</loc>
+    <lastmod>2023-07-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/product/customer_satisfaction.html</loc>
+    <lastmod>2023-07-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/product/Kano_model.html</loc>
+    <lastmod>2023-07-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/java/spring_websocket.html</loc>
+    <lastmod>2023-07-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/java/websocket_java_client.html</loc>
+    <lastmod>2023-07-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-07-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
+    <lastmod>2023-07-17</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/sass/sass_notes.html</loc>
+    <lastmod>2023-07-17</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
+    <lastmod>2023-07-17</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_with_tailwind.html</loc>
+    <lastmod>2023-07-17</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/material/pixel_density.html</loc>
+    <lastmod>2023-07-16</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/angular/angular_JIT_AOT.html</loc>
     <lastmod>2023-07-15</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/angular/angular_platforms.html</loc>
-    <lastmod>2023-07-15</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_with_tailwind.html</loc>
     <lastmod>2023-07-15</lastmod>
   </url>
   <url>
@@ -47,10 +87,6 @@
   <url>
     <loc>http://www.pengtech.net/angular/angular_service_worker_introduction.html</loc>
     <lastmod>2023-07-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/java/spring_websocket.html</loc>
-    <lastmod>2023-07-01</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/nodejs/npm_run_debug.html</loc>
@@ -141,10 +177,6 @@
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/nginx/nginx_config_https.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
@@ -162,10 +194,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/material/responsive_layout_grid.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/material/pixel_density.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
@@ -237,19 +265,11 @@
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/java/websocket_java_client.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/java/jdk17_installation.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/hexo/hexo_create_site.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
@@ -435,10 +455,6 @@
   <url>
     <loc>http://www.pengtech.net/database/install_mariadb_on_centos7.html</loc>
     <lastmod>2022-11-28</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/sass/sass_notes.html</loc>
-    <lastmod>2022-10-21</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
