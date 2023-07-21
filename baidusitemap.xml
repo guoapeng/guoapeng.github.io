@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/nginx/nginx_log_analyze.html</loc>
+    <lastmod>2023-07-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/sass/tailwind_migration.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/product/baidu_index.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/product/how_to_build_an_app.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/product/help_system_design2.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/product/buyer_decision_process.html</loc>
-    <lastmod>2023-07-19</lastmod>
+    <lastmod>2023-07-20</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/product/customer_satisfaction.html</loc>
-    <lastmod>2023-07-19</lastmod>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/product/mobile_app_promotion.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/linux/how_to_create_rpm_package.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/golang/go_unit_test.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_migration.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2023-07-20</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/product/Kano_model.html</loc>
@@ -67,10 +111,6 @@
   <url>
     <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2023-07-15</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/product/baidu_index.html</loc>
-    <lastmod>2023-07-06</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/angular/site_seo.html</loc>
@@ -138,10 +178,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/angular/angular2_ngmodule.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_migration.html</loc>
     <lastmod>2023-06-25</lastmod>
   </url>
   <url>
@@ -289,10 +325,6 @@
     <lastmod>2023-06-09</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2023-06-04</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
     <lastmod>2023-05-26</lastmod>
   </url>
@@ -302,10 +334,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/nginx/apply_ssl_certificate.html</loc>
-    <lastmod>2023-05-15</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/product/mobile_app_promotion.html</loc>
     <lastmod>2023-05-15</lastmod>
   </url>
   <url>
@@ -349,10 +377,6 @@
     <lastmod>2023-04-27</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/golang/go_unit_test.html</loc>
-    <lastmod>2023-04-27</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
     <lastmod>2023-04-21</lastmod>
   </url>
@@ -369,10 +393,6 @@
     <lastmod>2023-04-14</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/product/how_to_build_an_app.html</loc>
-    <lastmod>2023-04-14</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2023-04-14</lastmod>
   </url>
@@ -383,10 +403,6 @@
   <url>
     <loc>http://www.pengtech.net/git/centos7_install_git_via_sourcecode.html</loc>
     <lastmod>2023-04-10</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/product/help_system_design2.html</loc>
-    <lastmod>2023-03-17</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/database/migrate_to_postgressql_from_mariadb.html</loc>
@@ -443,10 +459,6 @@
   <url>
     <loc>http://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2022-12-21</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/linux/how_to_create_rpm_package.html</loc>
-    <lastmod>2022-12-19</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/rust/rust_study.html</loc>
@@ -522,10 +534,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/hexo/hexo_blog_comments.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
