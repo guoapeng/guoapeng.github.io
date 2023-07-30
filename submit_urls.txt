@@ -1,4 +1,8 @@
+http://www.pengtech.net/chrome/chrome_plugin_development.html
+http://www.pengtech.net/chrome/chrome_storage_api.html
 http://www.pengtech.net/nginx/nginx_log_analyze.html
+http://www.pengtech.net/sass/tailwindcss_tutorial.html
+http://www.pengtech.net/nginx/nginx_installation.html
 http://www.pengtech.net/sass/tailwind_migration.html
 http://www.pengtech.net/product/baidu_
 http://www.pengtech.net/product/how_to_build_an_app.html
@@ -14,7 +18,3 @@ http://www.pengtech.net/network/v2rayN_usage.html
 http://www.pengtech.net/product/Kano_model.html
 http://www.pengtech.net/java/spring_websocket.html
 http://www.pengtech.net/java/websocket_java_client.html
-http://www.pengtech.net/gitlab/gitlab_installation_upgrade.html
-http://www.pengtech.net/sass/tailwindcss_tutorial.html
-http://www.pengtech.net/sass/sass_notes.html
-http://www.pengtech.net/web/web_basic_1.html

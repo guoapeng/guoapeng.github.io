@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/chrome/chrome_storage_api.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/nginx/nginx_log_analyze.html</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
+    <lastmod>2023-07-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nginx/nginx_installation.html</loc>
     <lastmod>2023-07-21</lastmod>
   </url>
   <url>
@@ -67,10 +83,6 @@
   <url>
     <loc>http://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
     <lastmod>2023-07-19</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
-    <lastmod>2023-07-17</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/sass/sass_notes.html</loc>
@@ -334,10 +346,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/nginx/apply_ssl_certificate.html</loc>
-    <lastmod>2023-05-15</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/nginx/nginx_installation.html</loc>
     <lastmod>2023-05-15</lastmod>
   </url>
   <url>
