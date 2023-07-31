@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
+    <loc>http://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-07-31</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/how_to_publish_node_modules.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/hexo/hexo_blog_comments.html</loc>
     <lastmod>2023-07-30</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/chrome/chrome_storage_api.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/k8s/setup_k8s_cluster.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_material_design.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular2_installation.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/web/draw_pic_in_convas.html</loc>
+    <lastmod>2023-07-30</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
     <lastmod>2023-07-30</lastmod>
   </url>
   <url>
@@ -81,15 +121,7 @@
     <lastmod>2023-07-19</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
-    <lastmod>2023-07-19</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/sass/sass_notes.html</loc>
-    <lastmod>2023-07-17</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
     <lastmod>2023-07-17</lastmod>
   </url>
   <url>
@@ -109,15 +141,7 @@
     <lastmod>2023-07-15</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular_material_design.html</loc>
-    <lastmod>2023-07-15</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
-    <lastmod>2023-07-15</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
     <lastmod>2023-07-15</lastmod>
   </url>
   <url>
@@ -161,10 +185,6 @@
     <lastmod>2023-06-25</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular2_installation.html</loc>
-    <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-06-25</lastmod>
   </url>
@@ -199,10 +219,6 @@
   <url>
     <loc>http://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     <lastmod>2023-06-25</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
-    <lastmod>2023-06-24</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/vmware/vmware_configuration.html</loc>
@@ -309,10 +325,6 @@
     <lastmod>2023-06-18</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/k8s/setup_k8s_cluster.html</loc>
-    <lastmod>2023-06-18</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/java/jdk17_installation.html</loc>
     <lastmod>2023-06-18</lastmod>
   </url>
@@ -339,10 +351,6 @@
   <url>
     <loc>http://www.pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
     <lastmod>2023-05-26</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/web/draw_pic_in_convas.html</loc>
-    <lastmod>2023-05-18</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/nginx/apply_ssl_certificate.html</loc>
@@ -505,10 +513,6 @@
     <lastmod>2022-05-01</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/nodejs/how_to_publish_node_modules.html</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/linux/tmux.html</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
@@ -538,10 +542,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/golang/first_post.html</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/hexo/hexo_blog_comments.html</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   <url>
