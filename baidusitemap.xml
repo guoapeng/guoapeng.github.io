@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/hexo/hexo_create_site.html</loc>
+    <lastmod>2023-08-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <lastmod>2023-08-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
+    <lastmod>2023-08-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/web/block_inline_inline_block.html</loc>
+    <lastmod>2023-08-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/service_workers_and_pwa.html</loc>
+    <lastmod>2023-08-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/material/light_shadow.html</loc>
+    <lastmod>2023-08-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/material/surfaces.html</loc>
+    <lastmod>2023-08-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
+    <lastmod>2023-08-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <lastmod>2023-08-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2023-08-14</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/hexo/blog_seo_optimize.html</loc>
+    <lastmod>2023-08-13</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/hexo/hexo_blog_comments.html</loc>
+    <lastmod>2023-08-13</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -26,10 +74,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -185,10 +229,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/material/surfaces.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/material/spacing_methods.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -210,10 +250,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/material/material_color.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/material/light_shadow.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -317,10 +353,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/java/configure_multiple_ds_in_springboot.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -329,19 +361,7 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/hexo/hexo_create_site.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/hexo/hexo_cli.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/hexo/hexo_blog_comments.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -445,10 +465,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/angular/consideration_on_angular_universal.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -486,10 +502,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/angular/angular_upgrade_13_to_15.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/angular_universal.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
