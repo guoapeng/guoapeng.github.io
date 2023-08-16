@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.pengtech.net/hexo/hexo_create_site.html</loc>
+    <loc>http://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <lastmod>2023-08-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/tauri_mobile.html</loc>
+    <lastmod>2023-08-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-08-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
     <lastmod>2023-08-15</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
+    <lastmod>2023-08-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/network/frp_install.html</loc>
+    <lastmod>2023-08-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/hexo/hexo_create_site.html</loc>
     <lastmod>2023-08-15</lastmod>
   </url>
   <url>
@@ -117,10 +137,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/sass/tailwind_migration.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -194,10 +210,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/nodejs/npm_create_command.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -489,10 +501,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/angular/angular2_create_project.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/angular/angular2_auth.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -555,10 +563,6 @@
   <url>
     <loc>http://www.pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2023-07-20</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/network/frp_install.html</loc>
-    <lastmod>2023-05-05</lastmod>
   </url>
   <url>
     <loc>http://www.pengtech.net/java/install_jdk8_on_centos7.html</loc>
