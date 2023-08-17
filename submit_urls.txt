@@ -1,11 +1,16 @@
+http://www.pengtech.net/web/web_basic_1.html
+http://www.pengtech.net/k8s/setup_k8s_cluster.html
+http://www.pengtech.net/hexo/hexo_cli.html
+http://www.pengtech.net/network/v2rayN_usage.html
+http://www.pengtech.net/hexo/hexo_create_site.html
+http://www.pengtech.net/tauri/tauri_cli.html
+http://www.pengtech.net/hexo/blog_seo_optimize.html
 http://www.pengtech.net/tauri/tauri_angular_desktop.html
 http://www.pengtech.net/tauri/tauri_mobile.html
 http://www.pengtech.net/nodejs/install_and_config_nodejs.html
 http://www.pengtech.net/sass/tailwindcss_tutorial.html
 http://www.pengtech.net/angular/angular2_create_project.html
 http://www.pengtech.net/network/frp_install.html
-http://www.pengtech.net/hexo/hexo_create_site.html
-http://www.pengtech.net/web/web_basic_1.html
 http://www.pengtech.net/web/block_inline_inline_block.html
 http://www.pengtech.net/angular/service_workers_and_pwa.html
 http://www.pengtech.net/material/light_shadow.html
@@ -13,8 +18,3 @@ http://www.pengtech.net/material/surfaces.html
 http://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html
 http://www.pengtech.net/java/how_to_create_springBoot_proj.html
 http://www.pengtech.net/angular/angular_universal.html
-http://www.pengtech.net/hexo/blog_seo_optimize.html
-http://www.pengtech.net/hexo/hexo_blog_comments.html
-http://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html
-http://www.pengtech.net/wordpress/install_buddypress.html
-http://www.pengtech.net/windows/windows_prog_autostart.html
