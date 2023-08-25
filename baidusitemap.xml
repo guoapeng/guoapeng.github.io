@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.pengtech.net/vmware/esxi_upgrade.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vmware/windows_env_setup.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vmware/vmware_install_windows.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vmware/vmware_install_ubuntu.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vmware/vmware_configuration.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/vmware/macos_env_setup.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/typescript/typescript_tutorial.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/tauri_mobile.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/setup_tauri_for_linux.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/tauri_cli.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/gitlab/gitlab_runner_on_windows.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/install_nvm_on_windows.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/windows/chocolatey_installation.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/windows/windows_prog_autostart.html</loc>
+    <lastmod>2023-08-24</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/install_nvm.html</loc>
+    <lastmod>2023-08-23</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
+    <lastmod>2023-08-23</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
+    <lastmod>2023-08-23</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-08-23</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/rust/install_rust_on_windows.html</loc>
+    <lastmod>2023-08-23</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/rust/rust_study.html</loc>
+    <lastmod>2023-08-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <lastmod>2023-08-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2023-08-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2023-08-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/angular/site_seo.html</loc>
+    <lastmod>2023-08-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/java/spring_websocket.html</loc>
+    <lastmod>2023-08-19</lastmod>
+  </url>
+  <url>
+    <loc>http://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
+    <lastmod>2023-08-19</lastmod>
+  </url>
+  <url>
     <loc>http://www.pengtech.net/web/web_basic_1.html</loc>
     <lastmod>2023-08-17</lastmod>
   </url>
@@ -13,31 +133,11 @@
     <lastmod>2023-08-17</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2023-08-17</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/hexo/hexo_create_site.html</loc>
     <lastmod>2023-08-17</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/tauri/tauri_cli.html</loc>
-    <lastmod>2023-08-17</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/hexo/blog_seo_optimize.html</loc>
-    <lastmod>2023-08-16</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
-    <lastmod>2023-08-16</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/tauri/tauri_mobile.html</loc>
-    <lastmod>2023-08-16</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
     <lastmod>2023-08-16</lastmod>
   </url>
   <url>
@@ -93,15 +193,7 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/windows/windows_prog_autostart.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/windows/cmder_install_configuration.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/windows/chocolatey_installation.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -145,14 +237,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/vmware/vmware_configuration.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/typescript/typescript_tutorial.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/sass/tailwind_migration.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -162,14 +246,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/rust/vscode_rust_ide.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/rust/rust_study.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/rust/install_rust_on_windows.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -210,10 +286,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/others/wake_your_ass_up.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -361,15 +433,7 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>http://www.pengtech.net/java/spring_websocket.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>http://www.pengtech.net/java/jdk17_installation.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -406,14 +470,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/golang/first_post.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -478,10 +534,6 @@
   </url>
   <url>
     <loc>http://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>http://www.pengtech.net/angular/site_seo.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
