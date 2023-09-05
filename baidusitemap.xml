@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/web/chartjs_tutorial.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/web/web_basic_1.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/introduction.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/golang/mockery_v2.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/k8s/setup_k8s_cluster.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/database/postgresql_basics.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
+    <lastmod>2023-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
+    <lastmod>2023-09-04</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
-    <lastmod>2023-09-03</lastmod>
+    <lastmod>2023-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_ngx_charts.html</loc>
+    <lastmod>2023-09-04</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_sweetalert2.html</loc>
@@ -57,19 +97,11 @@
     <lastmod>2023-08-31</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/web/web_basic_1.html</loc>
-    <lastmod>2023-08-31</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/network/Internal_network_penetration.html</loc>
     <lastmod>2023-08-31</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
-    <lastmod>2023-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
     <lastmod>2023-08-31</lastmod>
   </url>
   <url>
@@ -90,14 +122,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/linux-expect-explanation.html</loc>
-    <lastmod>2023-08-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
-    <lastmod>2023-08-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2023-08-29</lastmod>
   </url>
   <url>
@@ -125,19 +149,11 @@
     <lastmod>2023-08-27</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/material/introduction.html</loc>
-    <lastmod>2023-08-26</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
     <lastmod>2023-08-26</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/tauri/tauri_env_setup.html</loc>
-    <lastmod>2023-08-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/golang/mockery_v2.html</loc>
     <lastmod>2023-08-26</lastmod>
   </url>
   <url>
@@ -207,10 +223,6 @@
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
     <lastmod>2023-08-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/k8s/setup_k8s_cluster.html</loc>
-    <lastmod>2023-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/hexo/hexo_cli.html</loc>
