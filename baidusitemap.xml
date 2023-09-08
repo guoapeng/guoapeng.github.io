@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/sass/sass_notes.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_issue_board.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_flex_layout.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/product/help_system_design.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/web/chartjs_tutorial.html</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
+    <lastmod>2023-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/linux_shell_ifconfig.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/Internal_network_penetration.html</loc>
+    <lastmod>2023-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2023-09-05</lastmod>
   </url>
   <url>
@@ -29,15 +89,7 @@
     <lastmod>2023-09-05</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
-    <lastmod>2023-09-04</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
-    <lastmod>2023-09-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-09-04</lastmod>
   </url>
   <url>
@@ -94,10 +146,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
-    <lastmod>2023-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/network/Internal_network_penetration.html</loc>
     <lastmod>2023-08-31</lastmod>
   </url>
   <url>
@@ -237,10 +285,6 @@
     <lastmod>2023-08-16</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
-    <lastmod>2023-08-15</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2023-08-15</lastmod>
   </url>
@@ -262,10 +306,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/integrate_springboot_angular_using_gradle.html</loc>
-    <lastmod>2023-08-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2023-08-14</lastmod>
   </url>
   <url>
@@ -317,10 +357,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/sass/sass_notes.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/rust/vscode_rust_ide.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -338,10 +374,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/product/help_system_design2.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/product/help_system_design.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -453,19 +485,7 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/linux_shell_ifconfig.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/Linux_FHS.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -537,10 +557,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_issue_board.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/git/windows_install_git.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -582,10 +598,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/chrome/chrome_storage_api.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -641,23 +653,11 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_JIT_AOT.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_flex_layout.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
