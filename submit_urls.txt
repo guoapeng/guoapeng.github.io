@@ -1,4 +1,6 @@
 https://www.pengtech.net/history/computer_history_brief_timeline.html
+https://www.pengtech.net/angular/site_seo.html
+https://www.pengtech.net/angular/angular_with_tailwind.html
 https://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html
 https://www.pengtech.net/windows/chocolatey_installation.html
 https://www.pengtech.net/gitlab/gitlab_ee_crack.html
@@ -16,5 +18,3 @@ https://www.pengtech.net/chrome/chrome_plugin_development.html
 https://www.pengtech.net/angular/angular_editor.html
 https://www.pengtech.net/angular/angular_chart_solutions.html
 https://www.pengtech.net/sass/tailwindcss_tutorial.html
-https://www.pengtech.net/linux/linux_shell_ifconfig.html
-https://www.pengtech.net/network/Internal_network_penetration.html
