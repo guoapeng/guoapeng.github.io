@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
+    <lastmod>2023-10-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <lastmod>2023-10-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/database/postgresql_advanced.html</loc>
+    <lastmod>2023-10-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/how_to_create_rpm_package.html</loc>
+    <lastmod>2023-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2023-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
+    <lastmod>2023-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/strapi/angular_strapi_app.html</loc>
+    <lastmod>2023-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_standalone_components.html</loc>
+    <lastmod>2023-09-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/material_typeahead.html</loc>
+    <lastmod>2023-09-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/web/block_inline_inline_block.html</loc>
+    <lastmod>2023-09-27</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/angular/angular_async_pipe.html</loc>
     <lastmod>2023-09-27</lastmod>
   </url>
@@ -51,14 +95,6 @@
   <url>
     <loc>https://www.pengtech.net/angular/angular_sweetalert2.html</loc>
     <lastmod>2023-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
-    <lastmod>2023-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
-    <lastmod>2023-09-14</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/product/mobile_app_promotion.html</loc>
@@ -195,10 +231,6 @@
   <url>
     <loc>https://www.pengtech.net/angular/angular_ngx_charts.html</loc>
     <lastmod>2023-09-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
-    <lastmod>2023-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/rust/rust_study.html</loc>
@@ -349,10 +381,6 @@
     <lastmod>2023-08-16</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/web/block_inline_inline_block.html</loc>
-    <lastmod>2023-08-15</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/service_workers_and_pwa.html</loc>
     <lastmod>2023-08-14</lastmod>
   </url>
@@ -493,10 +521,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/material/material_typeahead.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/material_navigation.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -534,10 +558,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/install_gradle_on_linux.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/how_to_create_rpm_package.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -614,10 +634,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_advanced.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
