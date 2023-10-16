@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
-    <lastmod>2023-10-10</lastmod>
+    <loc>https://www.pengtech.net/material/material3_introduction.html</loc>
+    <lastmod>2023-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/material3_foundations.html</loc>
+    <lastmod>2023-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/better_design_for_big_screen.html</loc>
+    <lastmod>2023-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
+    <lastmod>2023-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_ee_crack.html</loc>
+    <lastmod>2023-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/material_color.html</loc>
+    <lastmod>2023-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/pixel_density.html</loc>
+    <lastmod>2023-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/product/help_system_design.html</loc>
+    <lastmod>2023-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_migrate_to_mdc.html</loc>
+    <lastmod>2023-10-12</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <lastmod>2023-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2023-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nginx/apply_ssl_certificate.html</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
     <lastmod>2023-10-10</lastmod>
   </url>
   <url>
@@ -121,10 +165,6 @@
     <lastmod>2023-09-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/product/help_system_design.html</loc>
-    <lastmod>2023-09-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/introduction.html</loc>
     <lastmod>2023-09-13</lastmod>
   </url>
@@ -142,10 +182,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/windows/chocolatey_installation.html</loc>
-    <lastmod>2023-09-11</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_ee_crack.html</loc>
     <lastmod>2023-09-11</lastmod>
   </url>
   <url>
@@ -241,20 +277,12 @@
     <lastmod>2023-09-02</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2023-09-02</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/network/frp_install.html</loc>
     <lastmod>2023-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/linux_shell_rsync.html</loc>
     <lastmod>2023-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_migrate_to_mdc.html</loc>
-    <lastmod>2023-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/msys2_installation.html</loc>
@@ -425,10 +453,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -501,10 +525,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/nginx/apply_ssl_certificate.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/typography.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -517,15 +537,7 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/material/pixel_density.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/material_navigation.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/material/material_color.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
