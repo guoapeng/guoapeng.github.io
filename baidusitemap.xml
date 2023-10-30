@@ -1,6 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/wordpress/install_buddypress.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/npm_create_command.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nginx/nginx_log_analyze.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/linux_shell_rsync.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/java/spring_websocket.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_ee_crack.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <lastmod>2023-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/hexo/hexo_create_site.html</loc>
+    <lastmod>2023-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/web/web_basic_1.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/rust/rust_study.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/product/buyer_decision_process.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/java/websocket_java_client.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/why_pnpm.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/npm_run_debug.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/npm_debug.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_nvm.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/how_to_publish_node_modules.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/how_to_create_a_node_module.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_windows.html</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_async_MatPaginator.html</loc>
+    <lastmod>2023-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_getter_setter.html</loc>
+    <lastmod>2023-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/better_design_for_big_screen.html</loc>
+    <lastmod>2023-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_async_pipe.html</loc>
+    <lastmod>2023-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html</loc>
+    <lastmod>2023-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_migrate_to_mdc.html</loc>
+    <lastmod>2023-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/strapi/strapi_slug_system.html</loc>
+    <lastmod>2023-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2023-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
+    <lastmod>2023-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/material/material3_introduction.html</loc>
     <lastmod>2023-10-21</lastmod>
   </url>
@@ -17,23 +161,15 @@
     <lastmod>2023-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
-    <lastmod>2023-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_async_pipe.html</loc>
-    <lastmod>2023-10-20</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular2_auth.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://www.pengtech.net/angular/angular2_installation.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular2_installation.html</loc>
+    <loc>https://www.pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -73,15 +209,15 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -101,11 +237,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular2_ngmodule.html</loc>
+    <loc>https://www.pengtech.net/angular/angular2_route.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://www.pengtech.net/angular/angular2_ngmodule.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -113,19 +249,15 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -137,12 +269,8 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_migrate_to_mdc.html</loc>
-    <lastmod>2023-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
-    <lastmod>2023-10-18</lastmod>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <lastmod>2023-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/server_side_pagination.html</loc>
@@ -157,28 +285,12 @@
     <lastmod>2023-10-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/rust/rust_study.html</loc>
-    <lastmod>2023-10-17</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/surfaces.html</loc>
-    <lastmod>2023-10-17</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/material/better_design_for_big_screen.html</loc>
     <lastmod>2023-10-17</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/material/material3_foundations.html</loc>
     <lastmod>2023-10-17</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/web/web_basic_1.html</loc>
-    <lastmod>2023-10-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nginx/nginx_log_analyze.html</loc>
-    <lastmod>2023-10-16</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/hexo/blog_seo_optimize.html</loc>
@@ -187,10 +299,6 @@
   <url>
     <loc>https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
     <lastmod>2023-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_ee_crack.html</loc>
-    <lastmod>2023-10-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/material/material_color.html</loc>
@@ -277,20 +385,12 @@
     <lastmod>2023-09-14</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/hexo/hexo_create_site.html</loc>
-    <lastmod>2023-09-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/introduction.html</loc>
     <lastmod>2023-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/site_seo.html</loc>
     <lastmod>2023-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html</loc>
-    <lastmod>2023-09-11</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/web/chartjs_tutorial.html</loc>
@@ -301,15 +401,7 @@
     <lastmod>2023-09-08</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
-    <lastmod>2023-09-08</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_issue_board.html</loc>
-    <lastmod>2023-09-08</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2023-09-08</lastmod>
   </url>
   <url>
@@ -349,28 +441,12 @@
     <lastmod>2023-09-02</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/linux_shell_rsync.html</loc>
-    <lastmod>2023-09-02</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/msys2_installation.html</loc>
-    <lastmod>2023-09-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
     <lastmod>2023-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/typescript/typescript_tutorial.html</loc>
     <lastmod>2023-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm.html</loc>
-    <lastmod>2023-08-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_windows.html</loc>
-    <lastmod>2023-08-29</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/tmux.html</loc>
@@ -381,20 +457,12 @@
     <lastmod>2023-08-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
-    <lastmod>2023-08-27</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/vmware/macos_env_setup.html</loc>
     <lastmod>2023-08-27</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
     <lastmod>2023-08-27</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
-    <lastmod>2023-08-26</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/tauri/tauri_env_setup.html</loc>
@@ -441,24 +509,8 @@
     <lastmod>2023-08-23</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2023-08-23</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/rust/install_rust_on_windows.html</loc>
     <lastmod>2023-08-23</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
-    <lastmod>2023-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
-    <lastmod>2023-08-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/java/spring_websocket.html</loc>
-    <lastmod>2023-08-19</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
@@ -474,10 +526,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/hexo/hexo_blog_comments.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/wordpress/install_buddypress.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -529,35 +577,11 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/product/buyer_decision_process.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/product/baidu_index.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/others/worth_watching_movies.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/npm_run_debug.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/npm_debug.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/npm_create_command.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/how_to_publish_node_modules.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/how_to_create_a_node_module.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -629,15 +653,7 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/java/websocket_java_client.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/java/jdk17_installation.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
@@ -710,10 +726,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/chrome/chrome_storage_api.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/why_pnpm.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
