@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/angular/angular_14_update.html</loc>
+    <lastmod>2023-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/database/postgresql_basics.html</loc>
+    <lastmod>2023-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2023-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular2_installation.html</loc>
+    <lastmod>2023-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2023-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_standalone_components.html</loc>
+    <lastmod>2023-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/service_workers_and_pwa.html</loc>
+    <lastmod>2023-11-08</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/hexo/hexo_create_site.html</loc>
+    <lastmod>2023-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_replace_CanActivate.html</loc>
+    <lastmod>2023-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_15_update.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/cygwin-install-and-configuration.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/cmder_install_configuration.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/chocolatey_installation.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/windows_prog_autostart.html</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/k8s/setup_k8s_cluster.html</loc>
+    <lastmod>2023-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/linux_shell_ifconfig.html</loc>
     <lastmod>2023-11-05</lastmod>
   </url>
   <url>
@@ -23,14 +95,6 @@
   <url>
     <loc>https://www.pengtech.net/hexo/hexo_mermaid_plugin.html</loc>
     <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular2_installation.html</loc>
-    <lastmod>2023-11-04</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2023-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/rust/install_rust_on_windows.html</loc>
@@ -55,10 +119,6 @@
   <url>
     <loc>https://www.pengtech.net/angular/angular_upgrade_13_to_15.html</loc>
     <lastmod>2023-11-02</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
-    <lastmod>2023-11-01</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
@@ -205,10 +265,6 @@
     <lastmod>2023-10-23</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
-    <lastmod>2023-10-22</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
     <lastmod>2023-10-21</lastmod>
   </url>
@@ -218,14 +274,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/network/Internal_network_penetration.html</loc>
-    <lastmod>2023-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_standalone_components.html</loc>
-    <lastmod>2023-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/chocolatey_installation.html</loc>
     <lastmod>2023-10-20</lastmod>
   </url>
   <url>
@@ -250,10 +298,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_service_worker_introduction.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/service_workers_and_pwa.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -301,11 +345,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -327,14 +371,6 @@
   <url>
     <loc>https://www.pengtech.net/angular/server_side_pagination.html</loc>
     <lastmod>2023-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
-    <lastmod>2023-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
-    <lastmod>2023-10-17</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/material/surfaces.html</loc>
@@ -449,23 +485,11 @@
     <lastmod>2023-09-06</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/linux_shell_ifconfig.html</loc>
-    <lastmod>2023-09-05</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2023-09-05</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/golang/mockery_v2.html</loc>
-    <lastmod>2023-09-05</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/k8s/setup_k8s_cluster.html</loc>
-    <lastmod>2023-09-05</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2023-09-05</lastmod>
   </url>
   <url>
@@ -529,10 +553,6 @@
     <lastmod>2023-08-25</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/windows/windows_prog_autostart.html</loc>
-    <lastmod>2023-08-24</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
     <lastmod>2023-08-23</lastmod>
   </url>
@@ -547,10 +567,6 @@
   <url>
     <loc>https://www.pengtech.net/material/light_shadow.html</loc>
     <lastmod>2023-08-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/cmder_install_configuration.html</loc>
-    <lastmod>2023-08-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/webpack/webpack_env_variables.html</loc>
@@ -735,9 +751,5 @@
   <url>
     <loc>https://www.pengtech.net/java/install_jdk8_on_centos7.html</loc>
     <lastmod>2023-04-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/cygwin-install-and-configuration.html</loc>
-    <lastmod>2022-04-05</lastmod>
   </url>
 </urlset> 
