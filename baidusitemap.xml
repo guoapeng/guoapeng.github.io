@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/angular/angular_16_update.html</loc>
+    <lastmod>2023-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/chrome/chrome_storage_api.html</loc>
+    <lastmod>2023-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
+    <lastmod>2023-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
+    <lastmod>2023-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_15_update.html</loc>
+    <lastmod>2023-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_sentry_integration.html</loc>
+    <lastmod>2023-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_14_update.html</loc>
+    <lastmod>2023-11-14</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/product/sentry_install.html</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <lastmod>2023-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/terraform_vm_exsi.html</loc>
+    <lastmod>2023-11-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/docker/docker_install.html</loc>
@@ -30,10 +66,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular2_create_project.html</loc>
-    <lastmod>2023-11-10</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_14_update.html</loc>
     <lastmod>2023-11-10</lastmod>
   </url>
   <url>
@@ -71,10 +103,6 @@
   <url>
     <loc>https://www.pengtech.net/angular/angular_replace_CanActivate.html</loc>
     <lastmod>2023-11-07</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_15_update.html</loc>
-    <lastmod>2023-11-06</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
@@ -229,10 +257,6 @@
     <lastmod>2023-10-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
-    <lastmod>2023-10-29</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     <lastmod>2023-10-27</lastmod>
   </url>
@@ -297,10 +321,6 @@
     <lastmod>2023-10-23</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
-    <lastmod>2023-10-21</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/material3_introduction.html</loc>
     <lastmod>2023-10-21</lastmod>
   </url>
@@ -341,10 +361,6 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
@@ -354,6 +370,10 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_with_tailwind.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -498,10 +518,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_issue_board.html</loc>
-    <lastmod>2023-09-08</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/chrome/chrome_plugin_development.html</loc>
     <lastmod>2023-09-08</lastmod>
   </url>
   <url>
@@ -677,10 +693,6 @@
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/terraform_vm_exsi.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/install_virtualbox_on_fedora35.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
@@ -762,10 +774,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/database/db_migrations.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/chrome/chrome_storage_api.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
