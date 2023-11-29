@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/material/introduction.html</loc>
+    <lastmod>2023-11-29</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
@@ -489,11 +493,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -571,10 +575,6 @@
   <url>
     <loc>https://www.pengtech.net/history/computer_history_brief_timeline.html</loc>
     <lastmod>2023-09-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/material/introduction.html</loc>
-    <lastmod>2023-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/site_seo.html</loc>
