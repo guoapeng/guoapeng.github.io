@@ -1,3 +1,5 @@
+https://www.pengtech.net/chrome/chrome_plugin_development.html
+https://www.pengtech.net/chrome/chrome_storage_api.html
 https://www.pengtech.net/material/introduction.html
 https://www.pengtech.net/linux/create_rpm_repository_on_linux.html
 https://www.pengtech.net/gitlab/gitlab-cicd-basic.html
@@ -16,5 +18,3 @@ https://www.pengtech.net/nodejs/install_nodejs_via_source.html
 https://www.pengtech.net/angular/angular_replace_CanActivate.html
 https://www.pengtech.net/tauri/setup_tauri_for_linux.html
 https://www.pengtech.net/tauri/tauri_angular_desktop.html
-https://www.pengtech.net/tauri/tauri_cli.html
-https://www.pengtech.net/tauri/tauri_env_setup.html
