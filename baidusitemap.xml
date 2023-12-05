@@ -5,6 +5,10 @@
     <lastmod>2023-12-05</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-12-05</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2023-12-05</lastmod>
   </url>
@@ -114,10 +118,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_plantuml_integration.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
@@ -453,11 +453,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -489,10 +489,6 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
@@ -502,6 +498,10 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>

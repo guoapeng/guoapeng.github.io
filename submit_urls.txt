@@ -1,4 +1,5 @@
 https://www.pengtech.net/network/v2rayA_install.html
+https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html
 https://www.pengtech.net/network/v2rayN_usage.html
 https://www.pengtech.net/network/frp_install.html
 https://www.pengtech.net/angular/angular_sentry_integration.html
@@ -17,4 +18,3 @@ https://www.pengtech.net/rust/rust_study.html
 https://www.pengtech.net/vscode/vscode_install_and_config.html
 https://www.pengtech.net/gitlab/gitlab_ee_crack.html
 https://www.pengtech.net/vscode/cloud_ide.html
-https://www.pengtech.net/chrome/chrome_plugin_development.html
