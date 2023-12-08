@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
+    <lastmod>2023-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/sass/tailwind_migration.html</loc>
+    <lastmod>2023-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/sass/tailwind_best_component_libs.html</loc>
+    <lastmod>2023-12-08</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2023-12-05</lastmod>
+    <lastmod>2023-12-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/ai/gemini_ai_introduction.html</loc>
+    <lastmod>2023-12-06</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
@@ -481,15 +497,19 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -498,10 +518,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_ng2_charts.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -593,10 +609,6 @@
     <lastmod>2023-09-08</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
-    <lastmod>2023-09-06</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2023-09-05</lastmod>
   </url>
@@ -650,10 +662,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/vscode/how_to_upgrade_vscode.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/sass/tailwind_migration.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
