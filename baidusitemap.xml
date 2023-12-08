@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2023-12-08</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
     <lastmod>2023-12-08</lastmod>
   </url>
@@ -14,10 +18,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/tauri/tauri_mobile.html</loc>
-    <lastmod>2023-12-08</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2023-12-08</lastmod>
   </url>
   <url>
@@ -497,11 +497,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
