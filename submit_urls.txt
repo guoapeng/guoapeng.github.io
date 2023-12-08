@@ -1,7 +1,8 @@
+https://www.pengtech.net/network/v2rayA_install.html
+https://www.pengtech.net/vscode/cloud_ide.html
 https://www.pengtech.net/sass/tailwindcss_tutorial.html
 https://www.pengtech.net/sass/tailwind_migration.html
 https://www.pengtech.net/sass/tailwind_best_component_libs.html
-https://www.pengtech.net/network/v2rayA_install.html
 https://www.pengtech.net/ai/gemini_ai_introduction.html
 https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html
 https://www.pengtech.net/network/v2rayN_usage.html
@@ -17,4 +18,3 @@ https://www.pengtech.net/windows/wsl_install.html
 https://www.pengtech.net/windows/windows_prog_autostart.html
 https://www.pengtech.net/windows/cygwin-install-and-configuration.html
 https://www.pengtech.net/windows/cmder_install_configuration.html
-https://www.pengtech.net/windows/chocolatey_installation.html
