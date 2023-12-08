@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    
+    <lastmod>2023-12-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/v2rayA/</loc>
     
     <lastmod>2023-12-08</lastmod>
@@ -66,13 +73,6 @@
   
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
-    
-    <lastmod>2023-12-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
     
     <lastmod>2023-12-05</lastmod>
     
@@ -849,13 +849,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
-    
-    <lastmod>2023-10-19</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     
     <lastmod>2023-10-19</lastmod>
@@ -871,6 +864,13 @@
   
   <url>
     <loc>https://www.pengtech.net/angular/angular_with_tailwind.html</loc>
+    
+    <lastmod>2023-10-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     
     <lastmod>2023-10-19</lastmod>
     
@@ -1509,6 +1509,13 @@
 
   
   <url>
+    <loc>https://www.pengtech.net/tags/javascript/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/tags/web/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1517,13 +1524,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/Angular/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/javascript/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1628,14 +1628,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/product/</loc>
+    <loc>https://www.pengtech.net/tags/Nodejs/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/Nodejs/</loc>
+    <loc>https://www.pengtech.net/tags/product/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1657,13 +1657,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/java/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/chrome/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1713,6 +1706,13 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/gradle/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/chrome/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1880,6 +1880,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/tags/vscode/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/tags/Ubuntu/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1901,13 +1908,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/vscode/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/html/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1922,7 +1922,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/less/</loc>
+    <loc>https://www.pengtech.net/tags/webpack/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1936,7 +1936,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/webpack/</loc>
+    <loc>https://www.pengtech.net/tags/less/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1966,14 +1966,14 @@
 
   
   <url>
-    <loc>https://www.pengtech.net/categories/web/</loc>
+    <loc>https://www.pengtech.net/categories/frontend/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/frontend/</loc>
+    <loc>https://www.pengtech.net/categories/web/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2099,13 +2099,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/chrome/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/categories/devops/frontend/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -2121,6 +2114,13 @@
   
   <url>
     <loc>https://www.pengtech.net/categories/frontend/backend/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/chrome/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2155,14 +2155,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/life/movies/</loc>
+    <loc>https://www.pengtech.net/categories/life/English/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/life/English/</loc>
+    <loc>https://www.pengtech.net/categories/life/movies/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

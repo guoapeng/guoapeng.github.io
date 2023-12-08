@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2023-12-08</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/network/Internal_network_penetration.html</loc>
     <lastmod>2023-12-08</lastmod>
   </url>
@@ -34,10 +38,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
-    <lastmod>2023-12-05</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2023-12-05</lastmod>
   </url>
   <url>
@@ -473,10 +473,6 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
@@ -486,6 +482,10 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_with_tailwind.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
