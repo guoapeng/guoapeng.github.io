@@ -842,14 +842,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     
     <lastmod>2023-10-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     
     <lastmod>2023-10-19</lastmod>
     
@@ -912,14 +912,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
     
     <lastmod>2023-10-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     
     <lastmod>2023-10-19</lastmod>
     
@@ -1677,6 +1677,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/tags/chrome/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/tags/angularjs/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1706,13 +1713,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/gradle/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/chrome/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1817,13 +1817,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/Rust/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/life/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1839,6 +1832,13 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/backend/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/Rust/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1880,7 +1880,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/vscode/</loc>
+    <loc>https://www.pengtech.net/tags/macOS/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1901,7 +1901,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/macOS/</loc>
+    <loc>https://www.pengtech.net/tags/vscode/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2099,6 +2099,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/categories/chrome/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/categories/devops/frontend/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
@@ -2114,13 +2121,6 @@
   
   <url>
     <loc>https://www.pengtech.net/categories/frontend/backend/</loc>
-    <lastmod>2023-12-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/chrome/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
