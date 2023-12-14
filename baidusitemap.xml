@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <lastmod>2023-12-14</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/sass/tailwind_best_component_libs.html</loc>
     <lastmod>2023-12-12</lastmod>
   </url>
@@ -469,11 +473,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -501,11 +505,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -542,10 +546,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/product/help_system_design.html</loc>
-    <lastmod>2023-10-12</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
     <lastmod>2023-10-12</lastmod>
   </url>
   <url>
