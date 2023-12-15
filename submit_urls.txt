@@ -1,7 +1,12 @@
+https://www.pengtech.net/network/v2rayA_install.html
+https://www.pengtech.net/vmware/vmware_configuration.html
+https://www.pengtech.net/vmware/vmware_install_ubuntu.html
+https://www.pengtech.net/vmware/vmware_install_windows.html
+https://www.pengtech.net/vmware/esxi_upgrade.html
 https://www.pengtech.net/vmware/vmware_macos_vm.html
+https://www.pengtech.net/vmware/macos_env_setup.html
 https://www.pengtech.net/sass/tailwind_best_component_libs.html
 https://www.pengtech.net/angular/angular_universal.html
-https://www.pengtech.net/network/v2rayA_install.html
 https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html
 https://www.pengtech.net/angular/angular_standalone_components.html
 https://www.pengtech.net/angular/angular_ngx_charts.html
@@ -13,8 +18,3 @@ https://www.pengtech.net/vscode/cloud_ide.html
 https://www.pengtech.net/sass/tailwindcss_tutorial.html
 https://www.pengtech.net/sass/tailwind_migration.html
 https://www.pengtech.net/ai/gemini_ai_introduction.html
-https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html
-https://www.pengtech.net/angular/angular_sentry_integration.html
-https://www.pengtech.net/hexo/hexo_advance_apply_next_theme.html
-https://www.pengtech.net/java/how_to_debug_with_maven_cli.html
-https://www.pengtech.net/angular/angular_async_MatPaginator.html

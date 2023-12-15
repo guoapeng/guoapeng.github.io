@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2023-12-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vmware/vmware_configuration.html</loc>
+    <lastmod>2023-12-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vmware/vmware_install_ubuntu.html</loc>
+    <lastmod>2023-12-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vmware/vmware_install_windows.html</loc>
+    <lastmod>2023-12-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vmware/esxi_upgrade.html</loc>
+    <lastmod>2023-12-14</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <lastmod>2023-12-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vmware/macos_env_setup.html</loc>
     <lastmod>2023-12-14</lastmod>
   </url>
   <url>
@@ -11,10 +35,6 @@
   <url>
     <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
     <lastmod>2023-12-11</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2023-12-09</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
@@ -337,10 +357,6 @@
     <lastmod>2023-11-03</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/vmware/macos_env_setup.html</loc>
-    <lastmod>2023-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/strapi/install_strapi.html</loc>
     <lastmod>2023-11-01</lastmod>
   </url>
@@ -473,11 +489,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -501,11 +517,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -617,10 +633,6 @@
     <lastmod>2023-09-05</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/vmware/vmware_install_windows.html</loc>
-    <lastmod>2023-09-02</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/tmux.html</loc>
     <lastmod>2023-08-29</lastmod>
   </url>
@@ -629,19 +641,7 @@
     <lastmod>2023-08-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/vmware/esxi_upgrade.html</loc>
-    <lastmod>2023-08-25</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/vmware/windows_env_setup.html</loc>
-    <lastmod>2023-08-25</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/vmware/vmware_install_ubuntu.html</loc>
-    <lastmod>2023-08-25</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/vmware/vmware_configuration.html</loc>
     <lastmod>2023-08-25</lastmod>
   </url>
   <url>
