@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/tauri/tauri_debug.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_async_MatPaginator.html</loc>
+    <lastmod>2023-12-17</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
+    <lastmod>2023-12-17</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
+    <lastmod>2023-12-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/windows_prog_autostart.html</loc>
+    <lastmod>2023-12-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/cygwin-install-and-configuration.html</loc>
+    <lastmod>2023-12-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/windows/chocolatey_installation.html</loc>
+    <lastmod>2023-12-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2023-12-15</lastmod>
+    <lastmod>2023-12-16</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/vmware/vmware_configuration.html</loc>
@@ -97,10 +141,6 @@
     <lastmod>2023-11-30</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_async_MatPaginator.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_analytics_baidu.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
@@ -109,23 +149,7 @@
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/windows/wsl_install.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/windows_prog_autostart.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/cygwin-install-and-configuration.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/windows/cmder_install_configuration.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/windows/chocolatey_installation.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
@@ -205,14 +229,6 @@
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/tauri/tauri_angular_desktop.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/tauri/tauri_env_setup.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
@@ -247,18 +263,6 @@
   <url>
     <loc>https://www.pengtech.net/nodejs/install_nvm_on_macos.html</loc>
     <lastmod>2023-11-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
-    <lastmod>2023-11-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
-    <lastmod>2023-11-21</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2023-11-21</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/typescript/typescript_tutorial.html</loc>
@@ -493,11 +497,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -517,11 +521,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
