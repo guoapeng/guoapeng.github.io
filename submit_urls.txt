@@ -1,3 +1,6 @@
+https://www.pengtech.net/angular/angular_style_isolation.html
+https://www.pengtech.net/gitlab/gitlab-runner_cli.html
+https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html
 https://www.pengtech.net/tauri/tauri_debug.html
 https://www.pengtech.net/tauri/tauri_cli.html
 https://www.pengtech.net/strapi/strapi_deployment.html
@@ -15,6 +18,3 @@ https://www.pengtech.net/vmware/vmware_install_ubuntu.html
 https://www.pengtech.net/vmware/vmware_install_windows.html
 https://www.pengtech.net/vmware/esxi_upgrade.html
 https://www.pengtech.net/vmware/vmware_macos_vm.html
-https://www.pengtech.net/vmware/macos_env_setup.html
-https://www.pengtech.net/sass/tailwind_best_component_libs.html
-https://www.pengtech.net/angular/angular_universal.html

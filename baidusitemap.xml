@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/angular/angular_style_isolation.html</loc>
+    <lastmod>2023-12-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab-runner_cli.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/tauri/tauri_debug.html</loc>
     <lastmod>2023-12-18</lastmod>
   </url>
@@ -190,10 +202,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
@@ -497,11 +505,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_setup_multiple_envs.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
