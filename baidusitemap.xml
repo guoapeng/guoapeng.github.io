@@ -1,8 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_windows.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/golang/install_golang.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/ansible_basic.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/tmux.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_mobile.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/upgrade_to_tauri_2.0.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/android/android_sdk_install.html</loc>
-    <lastmod>2023-12-23</lastmod>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/android/fedora_install_android_studio.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/database/install_pgadmin_on_fedora.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab-runner_cli.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
+    <lastmod>2023-12-26</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/vscode/cloud_ide.html</loc>
@@ -14,10 +86,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/rust/install_rust_on_windows.html</loc>
-    <lastmod>2023-12-21</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/tauri/tauri_mobile.html</loc>
     <lastmod>2023-12-21</lastmod>
   </url>
   <url>
@@ -33,14 +101,6 @@
     <lastmod>2023-12-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab-runner_cli.html</loc>
-    <lastmod>2023-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
-    <lastmod>2023-12-18</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/tauri/tauri_debug.html</loc>
     <lastmod>2023-12-18</lastmod>
   </url>
@@ -50,14 +110,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
-    <lastmod>2023-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
-    <lastmod>2023-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
     <lastmod>2023-12-18</lastmod>
   </url>
   <url>
@@ -78,10 +130,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/windows/chocolatey_installation.html</loc>
-    <lastmod>2023-12-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2023-12-16</lastmod>
   </url>
   <url>
@@ -149,10 +197,6 @@
     <lastmod>2023-12-06</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
-    <lastmod>2023-12-05</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_sentry_integration.html</loc>
     <lastmod>2023-12-04</lastmod>
   </url>
@@ -181,10 +225,6 @@
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/vscode/vscode_install_and_config.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_ee_crack.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
@@ -206,18 +246,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_windows.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
-    <lastmod>2023-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
     <lastmod>2023-11-29</lastmod>
   </url>
   <url>
@@ -509,11 +537,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -549,11 +577,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -651,10 +679,6 @@
   <url>
     <loc>https://www.pengtech.net/golang/mockery_v2.html</loc>
     <lastmod>2023-09-05</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/tmux.html</loc>
-    <lastmod>2023-08-29</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/linux-expect-explanation.html</loc>
@@ -766,10 +790,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
-    <lastmod>2023-08-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/golang/install_golang.html</loc>
     <lastmod>2023-08-13</lastmod>
   </url>
   <url>
