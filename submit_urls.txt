@@ -5,8 +5,8 @@ https://www.pengtech.net/web/svg.html
 https://www.pengtech.net/vscode/vscode_install_and_config.html
 https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html
 https://www.pengtech.net/linux/tmux.html
-https://www.pengtech.net/network/v2rayN_usage.html
 https://www.pengtech.net/network/v2rayA_install.html
+https://www.pengtech.net/network/v2rayN_usage.html
 https://www.pengtech.net/rust/rust_study.html
 https://www.pengtech.net/tauri/tauri_cli.html
 https://www.pengtech.net/tauri/tauri_gitlab_pipeline.html
