@@ -57,11 +57,11 @@
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
+    <loc>https://www.pengtech.net/linux/snap_commands.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/snap_commands.html</loc>
+    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
@@ -153,6 +153,10 @@
     <lastmod>2023-12-26</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/golang/install_golang.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/linux/ansible_basic.html</loc>
     <lastmod>2023-12-26</lastmod>
   </url>
@@ -162,10 +166,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/nodejs/upgrade_nodejs.html</loc>
-    <lastmod>2023-12-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/golang/install_golang.html</loc>
     <lastmod>2023-12-26</lastmod>
   </url>
   <url>
@@ -589,11 +589,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -613,19 +613,19 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
