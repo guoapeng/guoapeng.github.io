@@ -1,3 +1,4 @@
+https://www.pengtech.net/hexo/hexo_create_site.html
 https://www.pengtech.net/chrome/cli_build_chrome_extension.html
 https://www.pengtech.net/firefox/cli_build_firefox_extension.html
 https://www.pengtech.net/web/web_basic_1.html
@@ -17,4 +18,3 @@ https://www.pengtech.net/linux/ansible.html
 https://www.pengtech.net/linux/install_ansible_on_windows.html
 https://www.pengtech.net/history/computer_history_brief_timeline.html
 https://www.pengtech.net/database/install_postgresql_on_centos7.html
-https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html
