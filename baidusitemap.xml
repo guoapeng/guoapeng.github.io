@@ -2,7 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.pengtech.net/network/dns_pollution_issue.html</loc>
-    <lastmod>2024-01-18</lastmod>
+    <lastmod>2024-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
+    <lastmod>2024-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/ansible.html</loc>
+    <lastmod>2024-01-19</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/hexo/hexo_create_site.html</loc>
@@ -33,6 +41,10 @@
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/linux/tmux.html</loc>
+    <lastmod>2024-01-17</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
@@ -41,19 +53,11 @@
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/tmux.html</loc>
-    <lastmod>2024-01-17</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/rust/rust_study.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
-    <lastmod>2024-01-17</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
@@ -66,10 +70,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/snap_commands.html</loc>
-    <lastmod>2024-01-17</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/ansible.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
@@ -593,11 +593,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -621,19 +621,19 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
-    <lastmod>2023-10-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <lastmod>2023-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
