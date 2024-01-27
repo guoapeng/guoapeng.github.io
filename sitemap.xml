@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
     
     <lastmod>2024-01-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
     
     <lastmod>2024-01-27</lastmod>
     
@@ -51,20 +51,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible.html</loc>
-    
-    <lastmod>2024-01-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
-    
-    <lastmod>2024-01-26</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
     
     <lastmod>2024-01-26</lastmod>
@@ -73,6 +59,20 @@
   
   <url>
     <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/ansible/ansible.html</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -107,6 +107,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
     
     <lastmod>2024-01-26</lastmod>
@@ -115,13 +122,6 @@
   
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
-    
-    <lastmod>2024-01-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -156,14 +156,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_macos.html</loc>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_macos.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -1908,14 +1908,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/docker/</loc>
+    <loc>https://www.pengtech.net/tags/pgadmin/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/pgadmin/</loc>
+    <loc>https://www.pengtech.net/tags/docker/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2083,13 +2083,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/macOS/</loc>
-    <lastmod>2024-01-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/Ubuntu/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
@@ -2098,6 +2091,13 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/Linux/</loc>
+    <lastmod>2024-01-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/macOS/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2139,13 +2139,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/less/</loc>
-    <lastmod>2024-01-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/windows/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
@@ -2154,6 +2147,13 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/OS/</loc>
+    <lastmod>2024-01-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/less/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2190,14 +2190,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/OS/</loc>
+    <loc>https://www.pengtech.net/categories/html/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/html/</loc>
+    <loc>https://www.pengtech.net/categories/OS/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2211,14 +2211,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/OS/devops/backend/</loc>
+    <loc>https://www.pengtech.net/categories/cloud/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/cloud/</loc>
+    <loc>https://www.pengtech.net/categories/OS/devops/backend/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2232,14 +2232,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/OS/devops/backend/postgresql/</loc>
+    <loc>https://www.pengtech.net/categories/cloud/devops/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/cloud/devops/</loc>
+    <loc>https://www.pengtech.net/categories/OS/devops/backend/postgresql/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2267,14 +2267,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/backend/devops/git/</loc>
+    <loc>https://www.pengtech.net/categories/tools/git/linux/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/tools/git/linux/</loc>
+    <loc>https://www.pengtech.net/categories/backend/devops/git/</loc>
     <lastmod>2024-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
