@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-01-28</lastmod>
+    <lastmod>2024-01-29</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2024-01-29</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/linux_update_alternatives.html</loc>
     <lastmod>2024-01-28</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2024-01-27</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/linux_RHEL_yum_extra_repos.html</loc>
@@ -33,19 +33,19 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -81,6 +81,10 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/linux/msys2_installation.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
@@ -89,15 +93,11 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/nodejs/install_nvm_on_windows.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/msys2_installation.html</loc>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -645,11 +645,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_forroot_forchild.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
