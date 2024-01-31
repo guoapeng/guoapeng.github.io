@@ -2,26 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-01-29</lastmod>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/linux_install_libreoffice.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/linux_update_alternatives.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
+    <lastmod>2024-01-31</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/network/dns_pollution_issue.html</loc>
     <lastmod>2024-01-29</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2024-01-29</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/linux_update_alternatives.html</loc>
-    <lastmod>2024-01-28</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/linux/linux_RHEL_yum_extra_repos.html</loc>
-    <lastmod>2024-01-27</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
     <lastmod>2024-01-27</lastmod>
   </url>
   <url>
@@ -33,15 +53,15 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
+    <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -53,11 +73,11 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
+    <loc>https://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
+    <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -65,7 +85,7 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -73,15 +93,7 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_windows.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -113,11 +125,11 @@
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/firefox/cli_build_firefox_extension.html</loc>
+    <loc>https://www.pengtech.net/chrome/cli_build_chrome_extension.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/chrome/cli_build_chrome_extension.html</loc>
+    <loc>https://www.pengtech.net/firefox/cli_build_firefox_extension.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
@@ -169,19 +181,19 @@
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/strapi/install_strapi.html</loc>
-    <lastmod>2024-01-11</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/strapi/angular_strapi_app.html</loc>
     <lastmod>2024-01-11</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/sass/tailwind_migration.html</loc>
+    <loc>https://www.pengtech.net/strapi/install_strapi.html</loc>
     <lastmod>2024-01-11</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
+    <lastmod>2024-01-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/sass/tailwind_migration.html</loc>
     <lastmod>2024-01-11</lastmod>
   </url>
   <url>
@@ -299,10 +311,6 @@
   <url>
     <loc>https://www.pengtech.net/vmware/macos_env_setup.html</loc>
     <lastmod>2023-12-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
-    <lastmod>2023-12-11</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_standalone_components.html</loc>
@@ -617,11 +625,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -641,11 +649,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_chart_solutions.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
@@ -653,11 +661,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
