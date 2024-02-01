@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
+    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
     
     <lastmod>2024-02-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
+    <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
     
     <lastmod>2024-02-01</lastmod>
     
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
+    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -149,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html</loc>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -268,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://www.pengtech.net/rust/rust_study.html</loc>
     
     <lastmod>2024-01-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/rust/rust_study.html</loc>
+    <loc>https://www.pengtech.net/tauri/tauri_cli.html</loc>
     
     <lastmod>2024-01-17</lastmod>
     
@@ -338,14 +338,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/sass/tailwind_migration.html</loc>
+    <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/sass/tailwindcss_tutorial.html</loc>
+    <loc>https://www.pengtech.net/sass/tailwind_migration.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -394,6 +394,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/rust/install_rust_on_windows.html</loc>
+    
+    <lastmod>2024-01-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/tauri/setup_tauri_for_linux.html</loc>
     
     <lastmod>2024-01-02</lastmod>
@@ -402,13 +409,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tauri/upgrade_to_tauri_2.0.html</loc>
-    
-    <lastmod>2024-01-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/rust/install_rust_on_windows.html</loc>
     
     <lastmod>2024-01-02</lastmod>
     
@@ -1761,6 +1761,111 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/tags/spring/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/Android/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/Ansible/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/golang/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/browser/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/gitlab/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/git/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/network/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/vpn/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/nginx/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/product/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/Nodejs/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/tauri/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/vmware/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/java/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/tags/AI/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1769,13 +1874,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/Gemini-AI/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/Android/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1817,20 +1915,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/Ansible/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/golang/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/chrome/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1839,13 +1923,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/pgadmin/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/browser/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1873,13 +1950,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/git/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/Windows/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1894,21 +1964,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/gitlab/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/Java/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/spring/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1923,13 +1979,6 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/IDEA/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/java/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1964,13 +2013,6 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/network/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/NAS/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1978,21 +2020,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/nginx/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/tmux/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/vpn/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2020,7 +2048,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/Nodejs/</loc>
+    <loc>https://www.pengtech.net/tags/Material/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2034,56 +2062,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/Material/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/life/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/English/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/product/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.pengtech.net/tags/backend/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/strapi/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/tauri/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/typescript/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2111,6 +2090,20 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/tags/life/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/English/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/tags/sass/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -2118,7 +2111,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/vmware/</loc>
+    <loc>https://www.pengtech.net/tags/strapi/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/macOS/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2139,14 +2139,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/macOS/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/vscode/</loc>
+    <loc>https://www.pengtech.net/tags/typescript/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2167,14 +2160,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/windows/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/tags/OS/</loc>
+    <loc>https://www.pengtech.net/tags/vscode/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2196,6 +2182,20 @@
   
   <url>
     <loc>https://www.pengtech.net/tags/webpack/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/windows/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/tags/OS/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2267,7 +2267,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/AI/</loc>
+    <loc>https://www.pengtech.net/categories/backend/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2288,49 +2288,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/frontend/backend/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/chrome/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/backend/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/OS/devops/backend/git/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/tools/git/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/OS/devops/git/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/tools/git/linux/</loc>
+    <loc>https://www.pengtech.net/categories/AI/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2344,6 +2302,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/categories/tools/git/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/categories/backend/devops/git/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -2351,7 +2316,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/OS/backend/</loc>
+    <loc>https://www.pengtech.net/categories/tools/git/linux/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2365,14 +2330,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/others/v2rayNG/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/others/v2rayN/</loc>
+    <loc>https://www.pengtech.net/categories/product/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2380,20 +2338,6 @@
   
   <url>
     <loc>https://www.pengtech.net/categories/devops/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/others/v2rayA/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/others/v2rayNG/v2rayA/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2414,21 +2358,70 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/categories/frontend/backend/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/chrome/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/OS/devops/backend/git/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/OS/devops/git/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/OS/backend/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/others/v2rayA/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/others/v2rayNG/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/others/v2rayN/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/others/v2rayNG/v2rayA/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/categories/life/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/product/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/life/English/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2442,7 +2435,7 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/OS/windows/</loc>
+    <loc>https://www.pengtech.net/categories/life/English/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2450,6 +2443,13 @@
   
   <url>
     <loc>https://www.pengtech.net/categories/frontend/devops/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pengtech.net/categories/OS/windows/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
