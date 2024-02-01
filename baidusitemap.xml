@@ -53,6 +53,10 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/ansible/ansible.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
@@ -66,10 +70,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/ansible/ansible.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -661,11 +661,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_injectable_decorator.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
