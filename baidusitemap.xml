@@ -53,7 +53,11 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible.html</loc>
+    <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -61,11 +65,7 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://www.pengtech.net/ansible/ansible.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -101,11 +101,11 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
+    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -165,11 +165,11 @@
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
+    <loc>https://www.pengtech.net/linux/snap_commands.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/linux/snap_commands.html</loc>
+    <loc>https://www.pengtech.net/linux/nas_installation_on_linux.html</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
   <url>

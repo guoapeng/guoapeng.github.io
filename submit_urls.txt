@@ -11,10 +11,10 @@ https://www.pengtech.net/network/dns_pollution_issue.html
 https://www.pengtech.net/linux/linux_RHEL_yum_extra_repos.html
 https://www.pengtech.net/linux/almalinux_install.html
 https://www.pengtech.net/sass/tailwind_best_component_libs.html
-https://www.pengtech.net/ansible/ansible.html
-https://www.pengtech.net/ansible/ansible_install.html
 https://www.pengtech.net/ansible/ansible_install_java.html
 https://www.pengtech.net/ansible/ansible_install_golang.html
+https://www.pengtech.net/ansible/ansible_install.html
+https://www.pengtech.net/ansible/ansible.html
 https://www.pengtech.net/ansible/install_ansible_on_windows.html
 https://www.pengtech.net/database/install_postgresql_on_centos7.html
 https://www.pengtech.net/database/postgresql_backup_restore.html
