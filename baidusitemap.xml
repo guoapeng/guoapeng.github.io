@@ -53,14 +53,6 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/ansible/ansible.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
@@ -69,15 +61,23 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/ansible/ansible_install_java.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
+    <loc>https://www.pengtech.net/ansible/ansible_install_golang.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -625,11 +625,11 @@
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2023-10-19</lastmod>
   </url>
   <url>
