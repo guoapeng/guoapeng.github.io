@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-02-01</lastmod>
+    <loc>https://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
+    <lastmod>2024-02-02</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2024-02-01</lastmod>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2024-02-02</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2024-02-01</lastmod>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
+    <lastmod>2024-02-02</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
   <url>
@@ -22,18 +38,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/linux/linux_update_alternatives.html</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/strapi/strapi_deployment.html</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_installation.html</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
   <url>
@@ -53,11 +57,15 @@
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
+    <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
     <loc>https://www.pengtech.net/ansible/ansible.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/ansible/ansible_install.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -70,34 +78,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/ansible/install_ansible_on_windows.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/install_postgresql_on_centos7.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/linux/msys2_installation.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_macos.html</loc>
-    <lastmod>2024-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/nodejs/install_nvm_on_windows.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
@@ -114,6 +94,26 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/gitlab/gitlab_runner_on_windows.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/linux/msys2_installation.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_centos.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_macos.html</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/nodejs/install_nvm_on_windows.html</loc>
     <lastmod>2024-01-26</lastmod>
   </url>
   <url>
