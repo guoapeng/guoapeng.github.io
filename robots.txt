@@ -1,0 +1,7 @@
+# welcome to eagle's blog space
+User-agent: *
+
+Disallow: /vendors/
+Disallow: /lib/
+
+Sitemap: https://www.pengtech.net/sitemap.xml
