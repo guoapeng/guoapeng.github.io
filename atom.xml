@@ -1490,16 +1490,14 @@
   </entry>
   
   <entry>
-    <title>Material Design 3介绍</title>
-    <link href="https://www.pengtech.net/material/material3_introduction.html"/>
-    <id>https://www.pengtech.net/material/material3_introduction.html</id>
+    <title>Material 3 基础</title>
+    <link href="https://www.pengtech.net/material/material3_foundations.html"/>
+    <id>https://www.pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-07-10T04:56:31.500Z</updated>
+    <updated>2024-07-10T04:56:24.630Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
-&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
-&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
     
     
     
@@ -1515,14 +1513,16 @@
   </entry>
   
   <entry>
-    <title>Material 3 基础</title>
-    <link href="https://www.pengtech.net/material/material3_foundations.html"/>
-    <id>https://www.pengtech.net/material/material3_foundations.html</id>
+    <title>Material Design 3介绍</title>
+    <link href="https://www.pengtech.net/material/material3_introduction.html"/>
+    <id>https://www.pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-07-10T04:56:24.630Z</updated>
+    <updated>2024-07-10T04:56:31.500Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
+&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
+&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
     
     
     
@@ -4515,15 +4515,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://www.pengtech.net/material/material_navigation.html"/>
-    <id>https://www.pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://www.pengtech.net/material/material_color.html"/>
+    <id>https://www.pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
-    <updated>2024-07-10T04:56:11.841Z</updated>
+    <updated>2024-07-10T04:56:04.716Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -4539,15 +4539,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://www.pengtech.net/material/material_color.html"/>
-    <id>https://www.pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://www.pengtech.net/material/material_navigation.html"/>
+    <id>https://www.pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
-    <updated>2024-07-10T04:56:04.716Z</updated>
+    <updated>2024-07-10T04:56:11.841Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -4934,16 +4934,16 @@
   </entry>
   
   <entry>
-    <title>深度刨析@angular/platform-browser-dynamic</title>
-    <link href="https://www.pengtech.net/angular/angular_platformBrowserDynamic.html"/>
-    <id>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</id>
+    <title>Angular platform是什么?</title>
+    <link href="https://www.pengtech.net/angular/angular_platforms.html"/>
+    <id>https://www.pengtech.net/angular/angular_platforms.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T05:14:06.358Z</updated>
+    <updated>2024-07-10T05:14:13.907Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
-&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
-&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
     
     
     
@@ -4959,16 +4959,16 @@
   </entry>
   
   <entry>
-    <title>Angular platform是什么?</title>
-    <link href="https://www.pengtech.net/angular/angular_platforms.html"/>
-    <id>https://www.pengtech.net/angular/angular_platforms.html</id>
+    <title>深度刨析@angular/platform-browser-dynamic</title>
+    <link href="https://www.pengtech.net/angular/angular_platformBrowserDynamic.html"/>
+    <id>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T05:14:13.907Z</updated>
+    <updated>2024-07-10T05:14:06.358Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
+&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
+&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -5150,9 +5150,9 @@
     <category term="linux" scheme="https://www.pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://www.pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://www.pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://www.pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -5904,9 +5904,9 @@
     
     <category term="html" scheme="https://www.pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://www.pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://www.pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://www.pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6133,9 +6133,9 @@
     
     <category term="angularjs" scheme="https://www.pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://www.pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://www.pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://www.pengtech.net/tags/bootstrap/"/>
     
   </entry>
   

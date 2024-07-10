@@ -1612,6 +1612,31 @@
     </item>
     
     <item>
+      <title>Material 3 基础</title>
+      <link>https://www.pengtech.net/material/material3_foundations.html</link>
+      <guid>https://www.pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://www.pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://www.pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://www.pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://www.pengtech.net/material/material3_foundations.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 3介绍</title>
       <link>https://www.pengtech.net/material/material3_introduction.html</link>
       <guid>https://www.pengtech.net/material/material3_introduction.html</guid>
@@ -1635,31 +1660,6 @@
       
       
       <comments>https://www.pengtech.net/material/material3_introduction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material 3 基础</title>
-      <link>https://www.pengtech.net/material/material3_foundations.html</link>
-      <guid>https://www.pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://www.pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://www.pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://www.pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://www.pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -4873,32 +4873,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://www.pengtech.net/material/material_navigation.html</link>
-      <guid>https://www.pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://www.pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://www.pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://www.pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://www.pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://www.pengtech.net/material/material_color.html</link>
       <guid>https://www.pengtech.net/material/material_color.html</guid>
@@ -4921,6 +4895,32 @@
       
       
       <comments>https://www.pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://www.pengtech.net/material/material_navigation.html</link>
+      <guid>https://www.pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://www.pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://www.pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://www.pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://www.pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
@@ -5326,33 +5326,6 @@
     </item>
     
     <item>
-      <title>深度刨析@angular/platform-browser-dynamic</title>
-      <link>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</link>
-      <guid>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
-      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
-&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
-&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
-      
-      
-      
-      
-      <category domain="https://www.pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://www.pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular platform是什么?</title>
       <link>https://www.pengtech.net/angular/angular_platforms.html</link>
       <guid>https://www.pengtech.net/angular/angular_platforms.html</guid>
@@ -5376,6 +5349,33 @@
       
       
       <comments>https://www.pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>深度刨析@angular/platform-browser-dynamic</title>
+      <link>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</link>
+      <guid>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
+      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
+&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
+&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
+      
+      
+      
+      
+      <category domain="https://www.pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://www.pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
       
     </item>
     
@@ -5557,9 +5557,9 @@
       <category domain="https://www.pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://www.pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://www.pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://www.pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://www.pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -6369,9 +6369,9 @@
       
       <category domain="https://www.pengtech.net/tags/html/">html</category>
       
-      <category domain="https://www.pengtech.net/tags/less/">less</category>
-      
       <category domain="https://www.pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://www.pengtech.net/tags/less/">less</category>
       
       
       <comments>https://www.pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -6618,9 +6618,9 @@
       
       <category domain="https://www.pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://www.pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://www.pengtech.net/tags/webpack/">webpack</category>
+      
+      <category domain="https://www.pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://www.pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>
