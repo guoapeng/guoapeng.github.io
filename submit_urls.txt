@@ -1,3 +1,5 @@
+https://www.pengtech.net/database/postgresql_advanced.html
+https://www.pengtech.net/material/introduction.html
 https://www.pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://www.pengtech.net/wordpress/install_buddypress.html
 https://www.pengtech.net/windows/wsl_install.html
@@ -16,5 +18,3 @@ https://www.pengtech.net/vscode/vscode_install_and_config.html
 https://www.pengtech.net/vscode/vscode_hotkey.html
 https://www.pengtech.net/vscode/how_to_upgrade_vscode.html
 https://www.pengtech.net/vscode/how_to_install_vscode_on_fedora.html
-https://www.pengtech.net/vscode/CodeWhisperer_vscode.html
-https://www.pengtech.net/vscode/cloud_ide.html

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pengtech.net/database/postgresql_advanced.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pengtech.net/material/introduction.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
     <loc>https://www.pengtech.net/hexo/hexo_apply_icarus_theme.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -385,10 +393,6 @@
     <lastmod>2024-07-09</lastmod>
   </url>
   <url>
-    <loc>https://www.pengtech.net/material/introduction.html</loc>
-    <lastmod>2024-07-09</lastmod>
-  </url>
-  <url>
     <loc>https://www.pengtech.net/material/Elevation.html</loc>
     <lastmod>2024-07-09</lastmod>
   </url>
@@ -678,10 +682,6 @@
   </url>
   <url>
     <loc>https://www.pengtech.net/database/postgresql_backup_restore.html</loc>
-    <lastmod>2024-07-09</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pengtech.net/database/postgresql_advanced.html</loc>
     <lastmod>2024-07-09</lastmod>
   </url>
   <url>
