@@ -15,7 +15,7 @@
     <atom:link href="https://www.pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 10 Jul 2024 07:45:34 GMT</pubDate>
+    <pubDate>Wed, 10 Jul 2024 08:15:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -1612,31 +1612,6 @@
     </item>
     
     <item>
-      <title>Material 3 基础</title>
-      <link>https://www.pengtech.net/material/material3_foundations.html</link>
-      <guid>https://www.pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://www.pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://www.pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://www.pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://www.pengtech.net/material/material3_foundations.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 3介绍</title>
       <link>https://www.pengtech.net/material/material3_introduction.html</link>
       <guid>https://www.pengtech.net/material/material3_introduction.html</guid>
@@ -1660,6 +1635,31 @@
       
       
       <comments>https://www.pengtech.net/material/material3_introduction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material 3 基础</title>
+      <link>https://www.pengtech.net/material/material3_foundations.html</link>
+      <guid>https://www.pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://www.pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://www.pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://www.pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://www.pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -5326,33 +5326,6 @@
     </item>
     
     <item>
-      <title>Angular platform是什么?</title>
-      <link>https://www.pengtech.net/angular/angular_platforms.html</link>
-      <guid>https://www.pengtech.net/angular/angular_platforms.html</guid>
-      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://www.pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://www.pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://www.pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://www.pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>深度刨析@angular/platform-browser-dynamic</title>
       <link>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</link>
       <guid>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
@@ -5376,6 +5349,33 @@
       
       
       <comments>https://www.pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular platform是什么?</title>
+      <link>https://www.pengtech.net/angular/angular_platforms.html</link>
+      <guid>https://www.pengtech.net/angular/angular_platforms.html</guid>
+      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://www.pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://www.pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://www.pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://www.pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
       
     </item>
     

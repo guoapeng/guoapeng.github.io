@@ -2804,14 +2804,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/backend/</loc>
+    <loc>https://www.pengtech.net/tags/Rust/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/Rust/</loc>
+    <loc>https://www.pengtech.net/tags/backend/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2930,14 +2930,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/less/</loc>
+    <loc>https://www.pengtech.net/tags/windows/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/tags/windows/</loc>
+    <loc>https://www.pengtech.net/tags/less/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3016,6 +3016,13 @@
   </url>
   
   <url>
+    <loc>https://www.pengtech.net/categories/web/SEO/</loc>
+    <lastmod>2024-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.pengtech.net/categories/web/browser/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -3024,13 +3031,6 @@
   
   <url>
     <loc>https://www.pengtech.net/categories/database/</loc>
-    <lastmod>2024-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pengtech.net/categories/web/SEO/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3128,14 +3128,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/database/mariadb/</loc>
+    <loc>https://www.pengtech.net/categories/web/others/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/web/others/</loc>
+    <loc>https://www.pengtech.net/categories/database/mariadb/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3184,14 +3184,14 @@
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/web/components/</loc>
+    <loc>https://www.pengtech.net/categories/web/html/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.pengtech.net/categories/web/html/</loc>
+    <loc>https://www.pengtech.net/categories/web/components/</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
