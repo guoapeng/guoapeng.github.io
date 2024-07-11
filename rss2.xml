@@ -15,7 +15,7 @@
     <atom:link href="https://www.pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 10 Jul 2024 10:42:45 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 03:33:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -101,7 +101,7 @@
     </item>
     
     <item>
-      <title>Angular HTTP 拦截器：多个拦截器和 4 个拦截器代码示例</title>
+      <title>Angular HTTP 拦截器：配置多个HTTP拦截器和 4 个拦截器代码示例</title>
       <link>https://www.pengtech.net/angular/angular_multiple_interceptors.html</link>
       <guid>https://www.pengtech.net/angular/angular_multiple_interceptors.html</guid>
       <pubDate>Thu, 04 Jul 2024 16:00:00 GMT</pubDate>

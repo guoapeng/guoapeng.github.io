@@ -6,7 +6,7 @@
   <link href="https://www.pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://www.pengtech.net/"/>
-  <updated>2024-07-10T10:42:45.391Z</updated>
+  <updated>2024-07-11T03:33:39.804Z</updated>
   <id>https://www.pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://www.pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-07-11T03:33:39.804Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置&lt;/p&gt;
@@ -93,11 +93,11 @@
   </entry>
   
   <entry>
-    <title>Angular HTTP 拦截器：多个拦截器和 4 个拦截器代码示例</title>
+    <title>Angular HTTP 拦截器：配置多个HTTP拦截器和 4 个拦截器代码示例</title>
     <link href="https://www.pengtech.net/angular/angular_multiple_interceptors.html"/>
     <id>https://www.pengtech.net/angular/angular_multiple_interceptors.html</id>
     <published>2024-07-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-07-10T22:25:55.580Z</updated>
     
     
     <summary type="html">&lt;p&gt;拦截器在 Angular 中用于拦截 HttpRequest&amp;#x2F;HttpResponse。我们可以使用拦截器来记录 HttpRequest&amp;#x2F;HttpResponse 日志，或者在将其传递给服务器之前添加其他 HttpRequest 头部信息，以及更改请求主体或更改从服务器收到的响应的格式等。在本文中，我将解释如何使用多个拦截器以及拦截器的 6 种最常见用法（附示例）。&lt;/p&gt;</summary>
