@@ -2429,15 +2429,11 @@
     <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
     <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-07-12T00:21:07.666Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
-&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本来希望搜索能找到对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程, 在讲得关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;
-&lt;p&gt;于是我静下心来, 花费了一些时间, 将这 Tauri devops 部分内容以中文的形式整理出来, 以供对后来者有所帮助. 一来是出于对开源运动的支持, 二来我是非常喜欢 Tauri, 经过测试, 我发现这就是我心中一直在找的一种跨平台解决方案, 有一种众里寻他千百度, 蓦然回首, 那人却在灯火阑珊处的感觉, 所以我很愿意将我在 Tauri 上的研究分享出来, 以帮助到同道中人.&lt;/p&gt;
-&lt;p&gt;考虑到将所有内容都放在一篇文章中内容可能有些杂乱, 冗长. 于是我将内容打撒成一些小的文章, 然后将其整合到这篇文章, 中间也重用了一些之前的写的文章. 当然也是将单一职责原则应用的生活中, 学以致用嘛. 也就是每篇文章讲一个非常小的主题, 这里特别加以说明.&lt;/p&gt;
-&lt;p&gt;虽然本文是以 gitlab pipeline 为例, 但是对其它各种自动化平台创建 devops pipeline 也会有参考价值. 另外本文对于非 Tauri 项目创建 gitlab pipeline 也要实际操作层面的价值.&lt;/p&gt;
-&lt;p&gt;本文原文发布在我的博客网站&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_gitlab_pipeline&quot;&gt;快速的将 web 应用转化为桌面应用 | 鹏叔的技术博客&lt;/a&gt;, 要获取最新更新, 请访问原文. 更多 Tauri 相关话题, 请访问&lt;a href=&quot;https://www.pengtech.net/tags/tauri/&quot;&gt;鹏叔的技术博客 - Tauri 专题&lt;/a&gt;, 后续文章将持续更新到该专题中.&lt;/p&gt;</summary>
+&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本来希望搜索能找到对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程, 在讲得关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
     
     
     
