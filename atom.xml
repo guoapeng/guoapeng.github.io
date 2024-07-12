@@ -266,16 +266,14 @@
   </entry>
   
   <entry>
-    <title>如何制作 macOS Sonoma ISO 文件</title>
-    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
-    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
+    <title>linux上安装vmware</title>
+    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
+    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
-&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
     
     
     
@@ -291,14 +289,16 @@
   </entry>
   
   <entry>
-    <title>linux上安装vmware</title>
-    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
-    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
+    <title>如何制作 macOS Sonoma ISO 文件</title>
+    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
+    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
     
@@ -5200,9 +5200,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
