@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Thu, 11 Jul 2024 15:23:36 GMT</pubDate>
+    <pubDate>Mon, 15 Jul 2024 00:42:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>PostgreSQL 数据库版本升级实操</title>
+      <link>https://pengtech.net/database/postgresql_upgrade.html</link>
+      <guid>https://pengtech.net/database/postgresql_upgrade.html</guid>
+      <pubDate>Sun, 14 Jul 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;PostgreSQL 版本发布规则，一年一个大版本，一个季度一个小版本；PG 遇到的 BUG 问题，社区会很快进行修复，并在下一个版本中发布，因此有必要进行对数据库版本升级，避免触发已知的 BUG 带来业务系统的不稳定。本文主要分享一下，PG 小版本升级、跨版本升级和借助逻辑复制进行数据库升级。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/database/">database</category>
+      
+      <category domain="https://pengtech.net/categories/database/postgresql/">postgresql</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/database/">database</category>
+      
+      
+      <comments>https://pengtech.net/database/postgresql_upgrade.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2024最新 v2rayA 安装与配置教程 for Windows</title>
@@ -4467,15 +4492,16 @@
     </item>
     
     <item>
-      <title>Linux上安装PostgreSQL 14</title>
+      <title>Linux上安装PostgreSQL</title>
       <link>https://pengtech.net/database/install_postgresql_on_linux.html</link>
       <guid>https://pengtech.net/database/install_postgresql_on_linux.html</guid>
       <pubDate>Sat, 26 Nov 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;h3 id=&quot;1-1-本文主要内容&quot;&gt;&lt;a href=&quot;#1-1-本文主要内容&quot; class=&quot;headerlink&quot; title=&quot;1.1. 本文主要内容&quot;&gt;&lt;/a&gt;1.1. 本文主要内容&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;PostgreSQL 14 安装(yum)&lt;/li&gt;
-&lt;li&gt;PostgreSQL 14 基础配置&lt;/li&gt;
-&lt;li&gt;PostgreSQL 14 远程访问配置&lt;/li&gt;
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文以PostgreSQL 15 为例讲解如何在linux上安装PostgreSQL。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-本文主要内容&quot;&gt;&lt;a href=&quot;#1-1-本文主要内容&quot; class=&quot;headerlink&quot; title=&quot;1.1. 本文主要内容&quot;&gt;&lt;/a&gt;1.1. 本文主要内容&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;PostgreSQL 15 安装(yum)&lt;/li&gt;
+&lt;li&gt;PostgreSQL 15 基础配置&lt;/li&gt;
+&lt;li&gt;PostgreSQL 15 远程访问配置&lt;/li&gt;
 &lt;li&gt;PostgreSQL 基础管理&lt;/li&gt;
 &lt;/ul&gt;</description>
       
@@ -5611,9 +5637,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
