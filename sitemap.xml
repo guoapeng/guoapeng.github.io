@@ -371,7 +371,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vscode/vscode_install_and_config.html</loc>
+    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
+    <loc>https://pengtech.net/vscode/vscode_install_and_config.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -533,7 +533,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/sentry_install.html</loc>
+    <loc>https://pengtech.net/rust/install_rust_on_windows.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -542,7 +542,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/rust/install_rust_on_windows.html</loc>
+    <loc>https://pengtech.net/product/sentry_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -965,7 +965,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material3_foundations.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -974,7 +974,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material3_foundations.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1118,7 +1118,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
+    <loc>https://pengtech.net/linux/tmux.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1127,7 +1127,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/tmux.html</loc>
+    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1352,7 +1352,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <loc>https://pengtech.net/history/computer_history_brief_timeline.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1361,7 +1361,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/history/computer_history_brief_timeline.html</loc>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1613,7 +1613,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/gitlab/gitlab-runner_cli.html</loc>
+    <loc>https://pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1622,7 +1622,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
+    <loc>https://pengtech.net/gitlab/gitlab-runner_cli.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1919,7 +1919,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_sweetalert2.html</loc>
+    <loc>https://pengtech.net/angular/angular_style_isolation.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1928,7 +1928,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_style_isolation.html</loc>
+    <loc>https://pengtech.net/angular/angular_sweetalert2.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1946,7 +1946,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_upgrade_13_to_15.html</loc>
+    <loc>https://pengtech.net/angular/angular_universal.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1955,7 +1955,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_universal.html</loc>
+    <loc>https://pengtech.net/angular/angular_upgrade_13_to_15.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1991,7 +1991,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_host_github_pages.html</loc>
+    <loc>https://pengtech.net/angular/angular_injectable_decorator.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2000,7 +2000,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_injectable_decorator.html</loc>
+    <loc>https://pengtech.net/angular/angular_host_github_pages.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2531,14 +2531,14 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tags/Angular/</loc>
+    <loc>https://pengtech.net/tags/browser/</loc>
     <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pengtech.net/tags/browser/</loc>
+    <loc>https://pengtech.net/tags/Angular/</loc>
     <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2874,14 +2874,14 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tags/backend/</loc>
+    <loc>https://pengtech.net/tags/Rust/</loc>
     <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pengtech.net/tags/Rust/</loc>
+    <loc>https://pengtech.net/tags/backend/</loc>
     <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
