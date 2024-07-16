@@ -67,37 +67,6 @@
     </item>
     
     <item>
-      <title>2024最新 v2rayA 安装与配置教程 for Windows</title>
-      <link>https://pengtech.net/network/install_v2rayA_on_Windows.html</link>
-      <guid>https://pengtech.net/network/install_v2rayA_on_Windows.html</guid>
-      <pubDate>Wed, 10 Jul 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/network/">network</category>
-      
-      <category domain="https://pengtech.net/categories/network/v2rayA/">v2rayA</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
-      
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/vpn/">vpn</category>
-      
-      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
-      
-      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
-      
-      
-      <comments>https://pengtech.net/network/install_v2rayA_on_Windows.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Hexo配置Icarus主题</title>
       <link>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</link>
       <guid>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</guid>
@@ -718,16 +687,8 @@
       
       <category domain="https://pengtech.net/categories/network/">network</category>
       
-      <category domain="https://pengtech.net/categories/network/v2rayNG/">v2rayNG</category>
-      
       
       <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/vpn/">vpn</category>
-      
-      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
-      
-      <category domain="https://pengtech.net/tags/v2rayNG/">v2rayNG</category>
       
       
       <comments>https://pengtech.net/network/v2rayNG_install_and_config.html#disqus_thread</comments>
@@ -1282,6 +1243,29 @@
     </item>
     
     <item>
+      <title>2024最新 v2rayA 安装与配置教程 for Windows</title>
+      <link>https://pengtech.net/network/install_v2rayA_on_Windows.html</link>
+      <guid>https://pengtech.net/network/install_v2rayA_on_Windows.html</guid>
+      <pubDate>Fri, 17 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/network/">network</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      
+      <comments>https://pengtech.net/network/install_v2rayA_on_Windows.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>2024最新 v2rayA 安装与配置教程</title>
       <link>https://pengtech.net/network/v2rayA_install.html</link>
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
@@ -1294,16 +1278,8 @@
       
       <category domain="https://pengtech.net/categories/network/">network</category>
       
-      <category domain="https://pengtech.net/categories/network/v2rayA/">v2rayA</category>
-      
       
       <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/vpn/">vpn</category>
-      
-      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
-      
-      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
       
       
       <comments>https://pengtech.net/network/v2rayA_install.html#disqus_thread</comments>
@@ -2736,9 +2712,7 @@
       
       <category domain="https://pengtech.net/categories/devops/">devops</category>
       
-      <category domain="https://pengtech.net/categories/devops/frontend/">frontend</category>
-      
-      <category domain="https://pengtech.net/categories/devops/frontend/backend/">backend</category>
+      <category domain="https://pengtech.net/categories/devops/build-tools/">build tools</category>
       
       
       <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
@@ -3276,16 +3250,8 @@
       
       <category domain="https://pengtech.net/categories/network/">network</category>
       
-      <category domain="https://pengtech.net/categories/network/v2rayN/">v2rayN</category>
-      
       
       <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/vpn/">vpn</category>
-      
-      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
-      
-      <category domain="https://pengtech.net/tags/v2rayN/">v2rayN</category>
       
       
       <comments>https://pengtech.net/network/v2rayN_usage.html#disqus_thread</comments>

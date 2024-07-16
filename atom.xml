@@ -61,35 +61,6 @@
   </entry>
   
   <entry>
-    <title>2024最新 v2rayA 安装与配置教程 for Windows</title>
-    <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
-    <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
-    <published>2024-07-10T16:00:00.000Z</published>
-    <updated>2024-07-11T15:23:36.969Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="network" scheme="https://pengtech.net/categories/network/"/>
-    
-    <category term="v2rayA" scheme="https://pengtech.net/categories/network/v2rayA/"/>
-    
-    
-    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
-    
-    <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="vpn" scheme="https://pengtech.net/tags/vpn/"/>
-    
-    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
-    
-    <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo配置Icarus主题</title>
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
@@ -242,7 +213,7 @@
     <link href="https://pengtech.net/angular/angular_ckEditor5.html"/>
     <id>https://pengtech.net/angular/angular_ckEditor5.html</id>
     <published>2024-06-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-07-16T05:35:42.197Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;自己编写了一个博客系统，想要支持 html 和 markdown 两种格式，但是又不希望向其他博客系统一样，数据库存两种完全格式的内容，前端用多套编辑器这么麻烦和繁琐。于是做了一下 research 还真让我找到了。&lt;/p&gt;
@@ -629,7 +600,7 @@
     <link href="https://pengtech.net/angular/angular_host_github_pages.html"/>
     <id>https://pengtech.net/angular/angular_host_github_pages.html</id>
     <published>2024-02-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-07-16T09:23:58.780Z</updated>
     
     
     <summary type="html">&lt;p&gt;GitHub Pages 是 GitHub 提供的一项服务，人们可以免费托管网站。这有助于人们为他们的博客、作品集、业务等托管个人网站。我们可以毫不费力地在 GitHub 页面上托管一个只有 HTML、CSS 和 JavaScript 的简单网站，但复杂的应用程序需要一些努力。&lt;/p&gt;
@@ -655,7 +626,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-07-15T07:18:14.210Z</updated>
+    <updated>2024-07-16T19:57:35.936Z</updated>
     
     
     <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。&lt;/p&gt;
@@ -665,16 +636,8 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
-    <category term="v2rayNG" scheme="https://pengtech.net/categories/network/v2rayNG/"/>
-    
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="vpn" scheme="https://pengtech.net/tags/vpn/"/>
-    
-    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
-    
-    <category term="v2rayNG" scheme="https://pengtech.net/tags/v2rayNG/"/>
     
   </entry>
   
@@ -1184,11 +1147,32 @@
   </entry>
   
   <entry>
+    <title>2024最新 v2rayA 安装与配置教程 for Windows</title>
+    <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
+    <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
+    <published>2023-11-17T16:00:00.000Z</published>
+    <updated>2024-07-16T19:57:44.560Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="network" scheme="https://pengtech.net/categories/network/"/>
+    
+    
+    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2024最新 v2rayA 安装与配置教程</title>
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-15T07:17:57.207Z</updated>
+    <updated>2024-07-16T19:56:47.714Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1197,16 +1181,8 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
-    <category term="v2rayA" scheme="https://pengtech.net/categories/network/v2rayA/"/>
-    
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="vpn" scheme="https://pengtech.net/tags/vpn/"/>
-    
-    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
-    
-    <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
     
   </entry>
   
@@ -2524,7 +2500,7 @@
     <link href="https://pengtech.net/nodejs/migrate_to_pnpm.html"/>
     <id>https://pengtech.net/nodejs/migrate_to_pnpm.html</id>
     <published>2023-08-12T16:00:00.000Z</published>
-    <updated>2024-07-07T08:52:29.791Z</updated>
+    <updated>2024-07-16T01:04:31.521Z</updated>
     
     
     <summary type="html">&lt;p&gt;PNPM 一直被誉为 NPM 的更高性能和更可靠的替代品，旨在减少缓慢的构建时间并消除依赖项不匹配的问题。我主要研究 PNPM 作为一种加快 CI 管道完成时间的方法，以及在开发周期中使用更好的包管理器。&lt;/p&gt;</summary>
@@ -2533,9 +2509,7 @@
     
     <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
     
-    <category term="frontend" scheme="https://pengtech.net/categories/devops/frontend/"/>
-    
-    <category term="backend" scheme="https://pengtech.net/categories/devops/frontend/backend/"/>
+    <category term="build tools" scheme="https://pengtech.net/categories/devops/build-tools/"/>
     
     
     <category term="Nodejs" scheme="https://pengtech.net/tags/Nodejs/"/>
@@ -3024,7 +2998,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-07-15T07:36:32.833Z</updated>
+    <updated>2024-07-16T19:56:34.486Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -3033,16 +3007,8 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
-    <category term="v2rayN" scheme="https://pengtech.net/categories/network/v2rayN/"/>
-    
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="vpn" scheme="https://pengtech.net/tags/vpn/"/>
-    
-    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
-    
-    <category term="v2rayN" scheme="https://pengtech.net/tags/v2rayN/"/>
     
   </entry>
   
