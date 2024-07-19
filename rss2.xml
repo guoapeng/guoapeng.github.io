@@ -3624,31 +3624,6 @@
     </item>
     
     <item>
-      <title>在Golang中使用Testify mock框架</title>
-      <link>https://pengtech.net/golang/mocking_in_golang_using_testify.html</link>
-      <guid>https://pengtech.net/golang/mocking_in_golang_using_testify.html</guid>
-      <pubDate>Wed, 26 Apr 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
-&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
-&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/language/">language</category>
-      
-      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
-      
-      
-      <category domain="https://pengtech.net/tags/golang/">golang</category>
-      
-      
-      <comments>https://pengtech.net/golang/mocking_in_golang_using_testify.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>mockery v2的介绍和使用</title>
       <link>https://pengtech.net/golang/mockery_v2.html</link>
       <guid>https://pengtech.net/golang/mockery_v2.html</guid>
@@ -3670,6 +3645,31 @@
       
       
       <comments>https://pengtech.net/golang/mockery_v2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在Golang中使用Testify mock框架</title>
+      <link>https://pengtech.net/golang/mocking_in_golang_using_testify.html</link>
+      <guid>https://pengtech.net/golang/mocking_in_golang_using_testify.html</guid>
+      <pubDate>Wed, 26 Apr 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
+&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
+&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/language/">language</category>
+      
+      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
+      
+      
+      <category domain="https://pengtech.net/tags/golang/">golang</category>
+      
+      
+      <comments>https://pengtech.net/golang/mocking_in_golang_using_testify.html#disqus_thread</comments>
       
     </item>
     
@@ -5626,9 +5626,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
