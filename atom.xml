@@ -1172,7 +1172,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-18T13:47:45.642Z</updated>
+    <updated>2024-07-19T03:41:04.438Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3352,16 +3352,16 @@
   </entry>
   
   <entry>
-    <title>mockery v2的介绍和使用</title>
-    <link href="https://pengtech.net/golang/mockery_v2.html"/>
-    <id>https://pengtech.net/golang/mockery_v2.html</id>
+    <title>在Golang中使用Testify mock框架</title>
+    <link href="https://pengtech.net/golang/mocking_in_golang_using_testify.html"/>
+    <id>https://pengtech.net/golang/mocking_in_golang_using_testify.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.390Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
-&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
-&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
+&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
+&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</summary>
     
     
     
@@ -3375,16 +3375,16 @@
   </entry>
   
   <entry>
-    <title>在Golang中使用Testify mock框架</title>
-    <link href="https://pengtech.net/golang/mocking_in_golang_using_testify.html"/>
-    <id>https://pengtech.net/golang/mocking_in_golang_using_testify.html</id>
+    <title>mockery v2的介绍和使用</title>
+    <link href="https://pengtech.net/golang/mockery_v2.html"/>
+    <id>https://pengtech.net/golang/mockery_v2.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.390Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
-&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
-&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
+&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
+&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</summary>
     
     
     
@@ -4698,14 +4698,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/Spacing_methods.html"/>
-    <id>https://pengtech.net/material/Spacing_methods.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     
@@ -4721,15 +4722,14 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/Spacing_methods.html"/>
+    <id>https://pengtech.net/material/Spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -5211,9 +5211,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -5721,15 +5721,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>运维自动化之Ansible</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.388Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为Windows, 在windows上要运行Ansible还需要安装Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     
@@ -5745,14 +5744,15 @@
   </entry>
   
   <entry>
-    <title>运维自动化之Ansible</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.388Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为Windows, 在windows上要运行Ansible还需要安装Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
