@@ -1507,33 +1507,6 @@
     </item>
     
     <item>
-      <title>Angular 17 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_17_update.html</link>
-      <guid>https://pengtech.net/angular/angular_17_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -1558,6 +1531,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular 17 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_17_update.html</link>
+      <guid>https://pengtech.net/angular/angular_17_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
       
     </item>
     
@@ -2591,6 +2591,60 @@
     </item>
     
     <item>
+      <title>Tauri cli详解</title>
+      <link>https://pengtech.net/tauri/tauri_cli.html</link>
+      <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri开发环境配置</title>
+      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
+      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
       <link>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</link>
       <guid>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</guid>
@@ -2642,60 +2696,6 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_mobile.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Tauri cli详解</title>
-      <link>https://pengtech.net/tauri/tauri_cli.html</link>
-      <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Tauri开发环境配置</title>
-      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
-      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
       
     </item>
     
@@ -5048,32 +5048,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - 响应式布局网格</title>
-      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
-      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - Elevation（标高）</title>
       <link>https://pengtech.net/material/Elevation.html</link>
       <guid>https://pengtech.net/material/Elevation.html</guid>
@@ -5100,6 +5074,32 @@
     </item>
     
     <item>
+      <title>Material Design基础 - 响应式布局网格</title>
+      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
+      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design基础 - spacing methods</title>
       <link>https://pengtech.net/material/Spacing_methods.html</link>
       <guid>https://pengtech.net/material/Spacing_methods.html</guid>
@@ -5121,38 +5121,6 @@
       
       
       <comments>https://pengtech.net/material/Spacing_methods.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material Design简介</title>
-      <link>https://pengtech.net/material/introduction.html</link>
-      <guid>https://pengtech.net/material/introduction.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
-&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/introduction.html#disqus_thread</comments>
       
     </item>
     
@@ -5212,6 +5180,38 @@
       
       
       <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design简介</title>
+      <link>https://pengtech.net/material/introduction.html</link>
+      <guid>https://pengtech.net/material/introduction.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
+&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/introduction.html#disqus_thread</comments>
       
     </item>
     
@@ -6179,6 +6179,31 @@
     </item>
     
     <item>
+      <title>运维自动化之Ansible</title>
+      <link>https://pengtech.net/ansible/ansible.html</link>
+      <guid>https://pengtech.net/ansible/ansible.html</guid>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>在Windows上安装Ansible</title>
       <link>https://pengtech.net/ansible/install_ansible_on_windows.html</link>
       <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
@@ -6201,31 +6226,6 @@
       
       
       <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>运维自动化之Ansible</title>
-      <link>https://pengtech.net/ansible/ansible.html</link>
-      <guid>https://pengtech.net/ansible/ansible.html</guid>
-      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
       
     </item>
     
@@ -6697,29 +6697,6 @@
     </item>
     
     <item>
-      <title>如何发布一个nodejs模块</title>
-      <link>https://pengtech.net/nodejs/how_to_publish_node_modules.html</link>
-      <guid>https://pengtech.net/nodejs/how_to_publish_node_modules.html</guid>
-      <pubDate>Mon, 04 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本人写了一个音乐播放器程序，想把其中核心的部分发布成Nodejs模块，这样我无论是在web端，还是桌面端都能引用该核心模块，我想在web端实现一个网友播放器，桌面端利用Electron包装一下实现一个桌面版的播放器，这样同一套代码，多端就可以共用了．说干就干, 以下记录了nodejs发布的全过程．&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
-      
-      
-      <comments>https://pengtech.net/nodejs/how_to_publish_node_modules.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何创建Nodejs模块基础篇</title>
       <link>https://pengtech.net/nodejs/how_to_create_a_node_module.html</link>
       <guid>https://pengtech.net/nodejs/how_to_create_a_node_module.html</guid>
@@ -6742,6 +6719,29 @@
       
       
       <comments>https://pengtech.net/nodejs/how_to_create_a_node_module.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何发布一个nodejs模块</title>
+      <link>https://pengtech.net/nodejs/how_to_publish_node_modules.html</link>
+      <guid>https://pengtech.net/nodejs/how_to_publish_node_modules.html</guid>
+      <pubDate>Mon, 04 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本人写了一个音乐播放器程序，想把其中核心的部分发布成Nodejs模块，这样我无论是在web端，还是桌面端都能引用该核心模块，我想在web端实现一个网友播放器，桌面端利用Electron包装一下实现一个桌面版的播放器，这样同一套代码，多端就可以共用了．说干就干, 以下记录了nodejs发布的全过程．&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
+      
+      
+      <comments>https://pengtech.net/nodejs/how_to_publish_node_modules.html#disqus_thread</comments>
       
     </item>
     

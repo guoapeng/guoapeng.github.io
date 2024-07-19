@@ -1172,7 +1172,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-19T04:26:42.514Z</updated>
+    <updated>2024-07-19T04:39:35.919Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1391,14 +1391,15 @@
   </entry>
   
   <entry>
-    <title>Angular 17 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_17_update.html"/>
-    <id>https://pengtech.net/angular/angular_17_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-07-17T04:38:52.269Z</updated>
     
     
-    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -1416,15 +1417,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 17 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_17_update.html"/>
+    <id>https://pengtech.net/angular/angular_17_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-07-17T04:38:52.269Z</updated>
+    <updated>2024-07-10T10:42:45.383Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
     
     
     
@@ -2395,6 +2395,56 @@
   </entry>
   
   <entry>
+    <title>Tauri cli详解</title>
+    <link href="https://pengtech.net/tauri/tauri_cli.html"/>
+    <id>https://pengtech.net/tauri/tauri_cli.html</id>
+    <published>2023-08-14T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.398Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="tauri" scheme="https://pengtech.net/categories/web/tauri/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+    <category term="tauri" scheme="https://pengtech.net/tags/tauri/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tauri开发环境配置</title>
+    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
+    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
+    <published>2023-08-14T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.398Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="tauri" scheme="https://pengtech.net/categories/web/tauri/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+    <category term="tauri" scheme="https://pengtech.net/tags/tauri/"/>
+    
+  </entry>
+  
+  <entry>
     <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
     <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
     <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
@@ -2429,56 +2479,6 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="tauri" scheme="https://pengtech.net/categories/web/tauri/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-    <category term="tauri" scheme="https://pengtech.net/tags/tauri/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tauri cli详解</title>
-    <link href="https://pengtech.net/tauri/tauri_cli.html"/>
-    <id>https://pengtech.net/tauri/tauri_cli.html</id>
-    <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="tauri" scheme="https://pengtech.net/categories/web/tauri/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-    <category term="tauri" scheme="https://pengtech.net/tags/tauri/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tauri开发环境配置</title>
-    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
-    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
-    <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
@@ -4674,30 +4674,6 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
-    <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
-    
-    
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Material Design 基础 - Elevation（标高）</title>
     <link href="https://pengtech.net/material/Elevation.html"/>
     <id>https://pengtech.net/material/Elevation.html</id>
@@ -4722,14 +4698,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/Spacing_methods.html"/>
-    <id>https://pengtech.net/material/Spacing_methods.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     
@@ -4745,21 +4722,14 @@
   </entry>
   
   <entry>
-    <title>Material Design简介</title>
-    <link href="https://pengtech.net/material/introduction.html"/>
-    <id>https://pengtech.net/material/introduction.html</id>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/Spacing_methods.html"/>
+    <id>https://pengtech.net/material/Spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
-&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -4815,6 +4785,36 @@
     
     <summary type="html">&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
 &lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
+    
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Material Design简介</title>
+    <link href="https://pengtech.net/material/introduction.html"/>
+    <id>https://pengtech.net/material/introduction.html</id>
+    <published>2022-04-29T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.394Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
+&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -5721,15 +5721,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>运维自动化之Ansible</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.388Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为Windows, 在windows上要运行Ansible还需要安装Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     
@@ -5745,14 +5744,15 @@
   </entry>
   
   <entry>
-    <title>运维自动化之Ansible</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.388Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为Windows, 在windows上要运行Ansible还需要安装Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
@@ -6201,27 +6201,6 @@
   </entry>
   
   <entry>
-    <title>如何发布一个nodejs模块</title>
-    <link href="https://pengtech.net/nodejs/how_to_publish_node_modules.html"/>
-    <id>https://pengtech.net/nodejs/how_to_publish_node_modules.html</id>
-    <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本人写了一个音乐播放器程序，想把其中核心的部分发布成Nodejs模块，这样我无论是在web端，还是桌面端都能引用该核心模块，我想在web端实现一个网友播放器，桌面端利用Electron包装一下实现一个桌面版的播放器，这样同一套代码，多端就可以共用了．说干就干, 以下记录了nodejs发布的全过程．&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="nodejs" scheme="https://pengtech.net/categories/web/nodejs/"/>
-    
-    
-    <category term="Nodejs" scheme="https://pengtech.net/tags/Nodejs/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何创建Nodejs模块基础篇</title>
     <link href="https://pengtech.net/nodejs/how_to_create_a_node_module.html"/>
     <id>https://pengtech.net/nodejs/how_to_create_a_node_module.html</id>
@@ -6242,6 +6221,27 @@
     <category term="Nodejs" scheme="https://pengtech.net/tags/Nodejs/"/>
     
     <category term="NPM" scheme="https://pengtech.net/tags/NPM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何发布一个nodejs模块</title>
+    <link href="https://pengtech.net/nodejs/how_to_publish_node_modules.html"/>
+    <id>https://pengtech.net/nodejs/how_to_publish_node_modules.html</id>
+    <published>2021-10-04T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.395Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本人写了一个音乐播放器程序，想把其中核心的部分发布成Nodejs模块，这样我无论是在web端，还是桌面端都能引用该核心模块，我想在web端实现一个网友播放器，桌面端利用Electron包装一下实现一个桌面版的播放器，这样同一套代码，多端就可以共用了．说干就干, 以下记录了nodejs发布的全过程．&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="nodejs" scheme="https://pengtech.net/categories/web/nodejs/"/>
+    
+    
+    <category term="Nodejs" scheme="https://pengtech.net/tags/Nodejs/"/>
     
   </entry>
   
