@@ -1172,7 +1172,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-19T04:39:35.919Z</updated>
+    <updated>2024-07-19T10:06:13.753Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -4745,6 +4745,36 @@
   </entry>
   
   <entry>
+    <title>Material Design简介</title>
+    <link href="https://pengtech.net/material/introduction.html"/>
+    <id>https://pengtech.net/material/introduction.html</id>
+    <published>2022-04-29T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.394Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
+&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
+    
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Material Design 基础 - Layout</title>
     <link href="https://pengtech.net/material/layout.html"/>
     <id>https://pengtech.net/material/layout.html</id>
@@ -4785,36 +4815,6 @@
     
     <summary type="html">&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
 &lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
-    
-    
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Material Design简介</title>
-    <link href="https://pengtech.net/material/introduction.html"/>
-    <id>https://pengtech.net/material/introduction.html</id>
-    <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
-&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary>
     
     
     
@@ -5211,9 +5211,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   

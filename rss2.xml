@@ -5125,6 +5125,38 @@
     </item>
     
     <item>
+      <title>Material Design简介</title>
+      <link>https://pengtech.net/material/introduction.html</link>
+      <guid>https://pengtech.net/material/introduction.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
+&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/introduction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 基础 - Layout</title>
       <link>https://pengtech.net/material/layout.html</link>
       <guid>https://pengtech.net/material/layout.html</guid>
@@ -5180,38 +5212,6 @@
       
       
       <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material Design简介</title>
-      <link>https://pengtech.net/material/introduction.html</link>
-      <guid>https://pengtech.net/material/introduction.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
-&lt;h2 id=&quot;2-原则&quot;&gt;&lt;a href=&quot;#2-原则&quot; class=&quot;headerlink&quot; title=&quot;2. 原则&quot;&gt;&lt;/a&gt;2. 原则&lt;/h2&gt;&lt;h3 id=&quot;2-1-材料是隐喻&quot;&gt;&lt;a href=&quot;#2-1-材料是隐喻&quot; class=&quot;headerlink&quot; title=&quot;2.1. 材料是隐喻&quot;&gt;&lt;/a&gt;2.1. 材料是隐喻&lt;/h3&gt;&lt;p&gt;Material design 的灵感来自物理世界及其纹理，包括它们如何反射光线和投射阴影。Material surfaces 重新构想了纸张和墨水的介质。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bold, graphic, intentional&lt;br&gt;材质设计由印刷设计方法（排版、网格、空间、比例、颜色和图像）指导，以创建让观看者沉浸在体验中的层次结构、意义和焦点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Motion provides meaning&lt;br&gt;Motion 通过微妙的反馈和连贯的过渡来集中注意力并保持连续性。当元素出现在屏幕上时，它们会通过交互来转换和重新组织环境，从而生成新的转换。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/introduction.html#disqus_thread</comments>
       
     </item>
     
@@ -5626,9 +5626,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
