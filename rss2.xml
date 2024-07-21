@@ -3624,31 +3624,6 @@
     </item>
     
     <item>
-      <title>mockery v2的介绍和使用</title>
-      <link>https://pengtech.net/golang/mockery_v2.html</link>
-      <guid>https://pengtech.net/golang/mockery_v2.html</guid>
-      <pubDate>Wed, 26 Apr 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
-&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
-&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/language/">language</category>
-      
-      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
-      
-      
-      <category domain="https://pengtech.net/tags/golang/">golang</category>
-      
-      
-      <comments>https://pengtech.net/golang/mockery_v2.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>在Golang中使用Testify mock框架</title>
       <link>https://pengtech.net/golang/mocking_in_golang_using_testify.html</link>
       <guid>https://pengtech.net/golang/mocking_in_golang_using_testify.html</guid>
@@ -3670,6 +3645,31 @@
       
       
       <comments>https://pengtech.net/golang/mocking_in_golang_using_testify.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>mockery v2的介绍和使用</title>
+      <link>https://pengtech.net/golang/mockery_v2.html</link>
+      <guid>https://pengtech.net/golang/mockery_v2.html</guid>
+      <pubDate>Wed, 26 Apr 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
+&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
+&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/language/">language</category>
+      
+      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
+      
+      
+      <category domain="https://pengtech.net/tags/golang/">golang</category>
+      
+      
+      <comments>https://pengtech.net/golang/mockery_v2.html#disqus_thread</comments>
       
     </item>
     
