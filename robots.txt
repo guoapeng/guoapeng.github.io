@@ -4,4 +4,4 @@ User-agent: *
 Disallow: /vendors/
 Disallow: /lib/
 
-Sitemap: https://www.pengtech.net/sitemap.xml
+Sitemap: https://pengtech.net/sitemap.xml
