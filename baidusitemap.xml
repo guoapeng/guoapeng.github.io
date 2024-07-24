@@ -93,15 +93,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/windows/windows_prog_autostart.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -109,11 +101,19 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
+    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/windows/windows_prog_autostart.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/windows/wsl_install.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -129,11 +129,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
+    <loc>https://pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
+    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -213,11 +213,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vmware/vmware_configuration.html</loc>
+    <loc>https://pengtech.net/vmware/macos_env_setup.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vmware/macos_env_setup.html</loc>
+    <loc>https://pengtech.net/vmware/vmware_configuration.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -321,7 +321,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/customer_satisfaction.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -329,7 +329,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/customer_satisfaction.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -413,15 +413,15 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material3_foundations.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/material/material3_foundations.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -485,11 +485,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/tmux.html</loc>
+    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
+    <loc>https://pengtech.net/linux/tmux.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -525,11 +525,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/k8s/setup_k8s_cluster.html</loc>
+    <loc>https://pengtech.net/linux/almalinux_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/almalinux_install.html</loc>
+    <loc>https://pengtech.net/k8s/setup_k8s_cluster.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -549,19 +549,19 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/how_to_create_rpm_package.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/install_gradle_on_linux.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/linux-expect-explanation.html</loc>
+    <loc>https://pengtech.net/linux/how_to_create_rpm_package.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/linux-expect-explanation.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -574,10 +574,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/history/computer_history_brief_timeline.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -598,6 +594,10 @@
   </url>
   <url>
     <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/history/computer_history_brief_timeline.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -685,11 +685,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/git/centos7_install_git_via_sourcecode.html</loc>
+    <loc>https://pengtech.net/git/how_to_configure_git_push.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/git/how_to_configure_git_push.html</loc>
+    <loc>https://pengtech.net/git/centos7_install_git_via_sourcecode.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -701,11 +701,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
+    <loc>https://pengtech.net/gitlab/gitlab-runner_cli.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/gitlab/gitlab-runner_cli.html</loc>
+    <loc>https://pengtech.net/gitlab/gitlab-cicd-basic.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -729,11 +729,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -741,7 +741,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install.html</loc>
+    <loc>https://pengtech.net/ansible/ansible.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -845,15 +845,15 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
+    <loc>https://pengtech.net/angular/angular_universal.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/angular/angular_upgrade_13_to_15.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/angular/angular_upload_img.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/angular/angular_universal.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -977,11 +977,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_ngmodule.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_ngmodule.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -997,11 +997,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_17_update.html</loc>
+    <loc>https://pengtech.net/angular/angular_JIT_AOT.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_JIT_AOT.html</loc>
+    <loc>https://pengtech.net/angular/angular_17_update.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
