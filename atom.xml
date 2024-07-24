@@ -84,7 +84,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-07-13T04:55:08.473Z</updated>
+    <updated>2024-07-24T20:29:21.312Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置&lt;/p&gt;
@@ -4595,15 +4595,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.394Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -4619,15 +4619,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.394Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5110,6 +5110,35 @@
   </entry>
   
   <entry>
+    <title>Windows上安装git2.x</title>
+    <link href="https://pengtech.net/git/windows_install_git.html"/>
+    <id>https://pengtech.net/git/windows_install_git.html</id>
+    <published>2022-03-05T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.389Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
+    
+    
+    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
+    
+    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Angular CLI 安装和使用</title>
     <link href="https://pengtech.net/angular/angular2_installation.html"/>
     <id>https://pengtech.net/angular/angular2_installation.html</id>
@@ -5157,35 +5186,6 @@
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows上安装git2.x</title>
-    <link href="https://pengtech.net/git/windows_install_git.html"/>
-    <id>https://pengtech.net/git/windows_install_git.html</id>
-    <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1.</summary>
-        
-      
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
-    
-    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
   </entry>
   
@@ -5554,9 +5554,9 @@
     
     
     
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
   </entry>
   
