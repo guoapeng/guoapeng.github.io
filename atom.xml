@@ -1170,7 +1170,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-24T07:57:53.288Z</updated>
+    <updated>2024-07-25T03:02:06.554Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1191,7 +1191,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-24T07:58:05.083Z</updated>
+    <updated>2024-07-25T03:01:41.613Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1910,32 +1910,6 @@
   </entry>
   
   <entry>
-    <title>如何在Angular应用中使用Ngx-charts？</title>
-    <link href="https://pengtech.net/angular/angular_ngx_charts.html"/>
-    <id>https://pengtech.net/angular/angular_ngx_charts.html</id>
-    <published>2023-09-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://swimlane.github.io/ngx-charts/#/ngx-charts/&quot;&gt;ngx-charts&lt;/a&gt; 是 Angular2+ 的开源声明式图表框架。它由&lt;a href=&quot;https://swimlane.com/&quot;&gt;Swimlane&lt;/a&gt;维护 。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何在Angular应用中使用Ng2-charts</title>
     <link href="https://pengtech.net/angular/angular_ng2_charts.html"/>
     <id>https://pengtech.net/angular/angular_ng2_charts.html</id>
@@ -1953,6 +1927,32 @@
 &lt;li&gt;创建条形图&lt;/li&gt;
 &lt;li&gt;创建折线图&lt;/li&gt;
 &lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
+    
+    
+    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在Angular应用中使用Ngx-charts？</title>
+    <link href="https://pengtech.net/angular/angular_ngx_charts.html"/>
+    <id>https://pengtech.net/angular/angular_ngx_charts.html</id>
+    <published>2023-09-03T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.385Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://swimlane.github.io/ngx-charts/#/ngx-charts/&quot;&gt;ngx-charts&lt;/a&gt; 是 Angular2+ 的开源声明式图表框架。它由&lt;a href=&quot;https://swimlane.com/&quot;&gt;Swimlane&lt;/a&gt;维护 。&lt;/p&gt;</summary>
     
     
     
