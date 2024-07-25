@@ -15,11 +15,11 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 24 Jul 2024 01:38:59 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 02:46:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>搭建Matrix Homeserver</title>
+      <title>使用 Dendrite 搭建 Matrix Homeserver</title>
       <link>https://pengtech.net/matrix/setup_matrix_homeserver.html</link>
       <guid>https://pengtech.net/matrix/setup_matrix_homeserver.html</guid>
       <pubDate>Mon, 22 Jul 2024 16:00:00 GMT</pubDate>
@@ -2068,6 +2068,34 @@
     </item>
     
     <item>
+      <title>如何在Angular应用中使用Ngx-charts？</title>
+      <link>https://pengtech.net/angular/angular_ngx_charts.html</link>
+      <guid>https://pengtech.net/angular/angular_ngx_charts.html</guid>
+      <pubDate>Sun, 03 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://swimlane.github.io/ngx-charts/#/ngx-charts/&quot;&gt;ngx-charts&lt;/a&gt; 是 Angular2+ 的开源声明式图表框架。它由&lt;a href=&quot;https://swimlane.com/&quot;&gt;Swimlane&lt;/a&gt;维护 。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_ngx_charts.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>如何在Angular应用中使用Ng2-charts</title>
       <link>https://pengtech.net/angular/angular_ng2_charts.html</link>
       <guid>https://pengtech.net/angular/angular_ng2_charts.html</guid>
@@ -2100,34 +2128,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_ng2_charts.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何在Angular应用中使用Ngx-charts？</title>
-      <link>https://pengtech.net/angular/angular_ngx_charts.html</link>
-      <guid>https://pengtech.net/angular/angular_ngx_charts.html</guid>
-      <pubDate>Sun, 03 Sep 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://swimlane.github.io/ngx-charts/#/ngx-charts/&quot;&gt;ngx-charts&lt;/a&gt; 是 Angular2+ 的开源声明式图表框架。它由&lt;a href=&quot;https://swimlane.com/&quot;&gt;Swimlane&lt;/a&gt;维护 。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_ngx_charts.html#disqus_thread</comments>
       
     </item>
     

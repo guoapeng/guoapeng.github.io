@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-07-24T01:38:59.537Z</updated>
+  <updated>2024-07-25T02:46:10.924Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>搭建Matrix Homeserver</title>
+    <title>使用 Dendrite 搭建 Matrix Homeserver</title>
     <link href="https://pengtech.net/matrix/setup_matrix_homeserver.html"/>
     <id>https://pengtech.net/matrix/setup_matrix_homeserver.html</id>
     <published>2024-07-22T16:00:00.000Z</published>
-    <updated>2024-07-24T01:38:59.537Z</updated>
+    <updated>2024-07-25T02:46:10.924Z</updated>
     
     
     <summary type="html">&lt;p&gt;Dendrite 是 Matrix 协议的一个开源实现，旨在提供一个轻量级、可扩展且易于部署的 Matrix 服务器。Matrix 是一个开源的通信协议和开放标准，用于构建去中心化的实时通信系统。它支持多种类型的通信，包括文本消息、语音通话、视频通话以及文件共享等。Dendrite 作为 Matrix 生态系统中的一个重要组件，为开发者和运营商提供了构建自己通信服务的工具。&lt;/p&gt;</summary>
@@ -1910,23 +1910,15 @@
   </entry>
   
   <entry>
-    <title>如何在Angular应用中使用Ng2-charts</title>
-    <link href="https://pengtech.net/angular/angular_ng2_charts.html"/>
-    <id>https://pengtech.net/angular/angular_ng2_charts.html</id>
+    <title>如何在Angular应用中使用Ngx-charts？</title>
+    <link href="https://pengtech.net/angular/angular_ngx_charts.html"/>
+    <id>https://pengtech.net/angular/angular_ngx_charts.html</id>
     <published>2023-09-03T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.385Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。&lt;/p&gt;
-&lt;p&gt;在 Angular 中，我们有各种图表库来创建图表。&lt;/p&gt;
-&lt;p&gt;在本文中，我们将使用 Ng2-Charts 在 Angular 中开发出色的图表。&lt;/p&gt;
-&lt;p&gt;在本文中我们将会讲述&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ng2-charts 介绍&lt;/li&gt;
-&lt;li&gt;在 Angular 中安装 ng2-charts 的两种不同方法。&lt;/li&gt;
-&lt;li&gt;创建条形图&lt;/li&gt;
-&lt;li&gt;创建折线图&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://swimlane.github.io/ngx-charts/#/ngx-charts/&quot;&gt;ngx-charts&lt;/a&gt; 是 Angular2+ 的开源声明式图表框架。它由&lt;a href=&quot;https://swimlane.com/&quot;&gt;Swimlane&lt;/a&gt;维护 。&lt;/p&gt;</summary>
     
     
     
@@ -1944,15 +1936,23 @@
   </entry>
   
   <entry>
-    <title>如何在Angular应用中使用Ngx-charts？</title>
-    <link href="https://pengtech.net/angular/angular_ngx_charts.html"/>
-    <id>https://pengtech.net/angular/angular_ngx_charts.html</id>
+    <title>如何在Angular应用中使用Ng2-charts</title>
+    <link href="https://pengtech.net/angular/angular_ng2_charts.html"/>
+    <id>https://pengtech.net/angular/angular_ng2_charts.html</id>
     <published>2023-09-03T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.385Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://swimlane.github.io/ngx-charts/#/ngx-charts/&quot;&gt;ngx-charts&lt;/a&gt; 是 Angular2+ 的开源声明式图表框架。它由&lt;a href=&quot;https://swimlane.com/&quot;&gt;Swimlane&lt;/a&gt;维护 。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。&lt;/p&gt;
+&lt;p&gt;在 Angular 中，我们有各种图表库来创建图表。&lt;/p&gt;
+&lt;p&gt;在本文中，我们将使用 Ng2-Charts 在 Angular 中开发出色的图表。&lt;/p&gt;
+&lt;p&gt;在本文中我们将会讲述&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ng2-charts 介绍&lt;/li&gt;
+&lt;li&gt;在 Angular 中安装 ng2-charts 的两种不同方法。&lt;/li&gt;
+&lt;li&gt;创建条形图&lt;/li&gt;
+&lt;li&gt;创建折线图&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -3017,7 +3017,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-07-24T07:58:14.712Z</updated>
+    <updated>2024-07-25T02:51:04.004Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
