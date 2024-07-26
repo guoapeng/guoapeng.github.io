@@ -63,7 +63,7 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-07-18T06:18:06.263Z</updated>
+    <updated>2024-07-26T06:33:49.221Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 14 个精致的 Hexo 主题。&lt;/p&gt;</summary>
@@ -1170,7 +1170,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-25T03:10:06.056Z</updated>
+    <updated>2024-07-26T06:37:25.224Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -4693,15 +4693,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
+    <title>Material Design 基础 - Elevation（标高）</title>
+    <link href="https://pengtech.net/material/Elevation.html"/>
+    <id>https://pengtech.net/material/Elevation.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
+&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
     
     
     
@@ -4717,15 +4717,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - Elevation（标高）</title>
-    <link href="https://pengtech.net/material/Elevation.html"/>
-    <id>https://pengtech.net/material/Elevation.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
-&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     

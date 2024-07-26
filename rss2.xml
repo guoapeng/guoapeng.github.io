@@ -5069,32 +5069,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - 响应式布局网格</title>
-      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
-      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - Elevation（标高）</title>
       <link>https://pengtech.net/material/Elevation.html</link>
       <guid>https://pengtech.net/material/Elevation.html</guid>
@@ -5117,6 +5091,32 @@
       
       
       <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - 响应式布局网格</title>
+      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
+      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
       
     </item>
     
