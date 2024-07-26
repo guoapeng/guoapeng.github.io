@@ -641,11 +641,11 @@
   </entry>
   
   <entry>
-    <title>Android手机上安装与配置v2rayNG</title>
+    <title>Android上安装与配置v2rayNG</title>
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-07-24T07:57:43.934Z</updated>
+    <updated>2024-07-26T12:40:46.086Z</updated>
     
     
     <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。&lt;/p&gt;
@@ -1166,11 +1166,11 @@
   </entry>
   
   <entry>
-    <title>2024最新 v2rayA 安装与配置教程 for Windows</title>
+    <title>Windows 上安装与配置 v2rayA</title>
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-26T06:37:25.224Z</updated>
+    <updated>2024-07-26T12:40:30.149Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -5230,9 +5230,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
