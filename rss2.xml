@@ -5067,32 +5067,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - Component behavior</title>
-      <link>https://pengtech.net/material/Component_behavior.html</link>
-      <guid>https://pengtech.net/material/Component_behavior.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
-&lt;h2 id=&quot;2-Position术语&quot;&gt;&lt;a href=&quot;#2-Position术语&quot; class=&quot;headerlink&quot; title=&quot;2. Position术语&quot;&gt;&lt;/a&gt;2. Position术语&lt;/h2&gt;&lt;p&gt;UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Component_behavior.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - Elevation（标高）</title>
       <link>https://pengtech.net/material/Elevation.html</link>
       <guid>https://pengtech.net/material/Elevation.html</guid>
@@ -5115,6 +5089,32 @@
       
       
       <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - Component behavior</title>
+      <link>https://pengtech.net/material/Component_behavior.html</link>
+      <guid>https://pengtech.net/material/Component_behavior.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
+&lt;h2 id=&quot;2-Position术语&quot;&gt;&lt;a href=&quot;#2-Position术语&quot; class=&quot;headerlink&quot; title=&quot;2. Position术语&quot;&gt;&lt;/a&gt;2. Position术语&lt;/h2&gt;&lt;p&gt;UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Component_behavior.html#disqus_thread</comments>
       
     </item>
     
@@ -6483,9 +6483,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/less/">less</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -6732,9 +6732,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>

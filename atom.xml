@@ -4691,15 +4691,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - Component behavior</title>
-    <link href="https://pengtech.net/material/Component_behavior.html"/>
-    <id>https://pengtech.net/material/Component_behavior.html</id>
+    <title>Material Design 基础 - Elevation（标高）</title>
+    <link href="https://pengtech.net/material/Elevation.html"/>
+    <id>https://pengtech.net/material/Elevation.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
-&lt;h2 id=&quot;2-Position术语&quot;&gt;&lt;a href=&quot;#2-Position术语&quot; class=&quot;headerlink&quot; title=&quot;2. Position术语&quot;&gt;&lt;/a&gt;2. Position术语&lt;/h2&gt;&lt;p&gt;UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
+&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
     
     
     
@@ -4715,15 +4715,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - Elevation（标高）</title>
-    <link href="https://pengtech.net/material/Elevation.html"/>
-    <id>https://pengtech.net/material/Elevation.html</id>
+    <title>Material Design 基础 - Component behavior</title>
+    <link href="https://pengtech.net/material/Component_behavior.html"/>
+    <id>https://pengtech.net/material/Component_behavior.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
-&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
+&lt;h2 id=&quot;2-Position术语&quot;&gt;&lt;a href=&quot;#2-Position术语&quot; class=&quot;headerlink&quot; title=&quot;2. Position术语&quot;&gt;&lt;/a&gt;2. Position术语&lt;/h2&gt;&lt;p&gt;UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。&lt;/p&gt;</summary>
     
     
     
@@ -6006,9 +6006,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="less" scheme="https://pengtech.net/tags/less/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
@@ -6235,9 +6235,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
     
   </entry>
   

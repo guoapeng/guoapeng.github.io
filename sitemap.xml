@@ -263,6 +263,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/web/web_basic_1.html</loc>
+    
+    <lastmod>2024-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html</loc>
     
     <lastmod>2024-07-10</lastmod>
@@ -300,15 +309,6 @@
   
   <url>
     <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
-    
-    <lastmod>2024-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/web/web_basic_1.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -389,7 +389,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -398,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
+    <loc>https://pengtech.net/vmware/vmware_macos_vm.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -470,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/web/chartjs_tutorial.html</loc>
+    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
+    <loc>https://pengtech.net/web/chartjs_tutorial.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1145,7 +1145,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/linux_turnoff_ipv6.html</loc>
+    <loc>https://pengtech.net/linux/linux_shell_rsync.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1154,7 +1154,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/linux_shell_rsync.html</loc>
+    <loc>https://pengtech.net/linux/linux_turnoff_ipv6.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1181,7 +1181,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/nas_installation_on_linux.html</loc>
+    <loc>https://pengtech.net/linux/snap_commands.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1190,7 +1190,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/snap_commands.html</loc>
+    <loc>https://pengtech.net/linux/nas_installation_on_linux.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1226,7 +1226,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/Component_behavior.html</loc>
+    <loc>https://pengtech.net/material/Elevation.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1235,7 +1235,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/Elevation.html</loc>
+    <loc>https://pengtech.net/material/Component_behavior.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -1442,6 +1442,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/history/computer_history_brief_timeline.html</loc>
+    
+    <lastmod>2024-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     
     <lastmod>2024-07-10</lastmod>
@@ -1452,15 +1461,6 @@
   
   <url>
     <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
-    
-    <lastmod>2024-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/history/computer_history_brief_timeline.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2551,21 +2551,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tags/chrome/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/tags/Angular/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/tags/browser/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2608,6 +2594,20 @@
   
   <url>
     <loc>https://pengtech.net/tags/gradle/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/tags/chrome/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/tags/browser/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2985,7 +2985,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tags/webpack/</loc>
+    <loc>https://pengtech.net/tags/less/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2993,6 +2993,13 @@
   
   <url>
     <loc>https://pengtech.net/tags/bootstrap/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/tags/webpack/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3007,13 +3014,6 @@
   
   <url>
     <loc>https://pengtech.net/tags/OS/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/tags/less/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3078,13 +3078,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/categories/web/browser/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/categories/web/angularjs/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3092,7 +3085,21 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/categories/web/browser/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/categories/database/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/categories/web/SEO/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3114,13 +3121,6 @@
   
   <url>
     <loc>https://pengtech.net/categories/devops/gitlab/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/categories/web/SEO/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3197,6 +3197,13 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/categories/devops/build-tools/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/categories/database/postgresql/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3205,13 +3212,6 @@
   
   <url>
     <loc>https://pengtech.net/categories/database/mariadb/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/categories/devops/build-tools/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3232,13 +3232,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/categories/tools/git/</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/categories/web/css/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3253,14 +3246,14 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/categories/web/tauri/</loc>
+    <loc>https://pengtech.net/categories/tools/git/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pengtech.net/categories/language/golang/</loc>
+    <loc>https://pengtech.net/categories/web/tauri/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3274,6 +3267,13 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/categories/web/html/</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/categories/web/components/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3281,7 +3281,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/categories/web/html/</loc>
+    <loc>https://pengtech.net/categories/language/golang/</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
