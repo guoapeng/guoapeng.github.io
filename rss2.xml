@@ -350,6 +350,31 @@
     </item>
     
     <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>如何制作 macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -373,31 +398,6 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -976,31 +976,6 @@
     </item>
     
     <item>
-      <title>命令行打包Chrome插件</title>
-      <link>https://pengtech.net/chrome/cli_build_chrome_extension.html</link>
-      <guid>https://pengtech.net/chrome/cli_build_chrome_extension.html</guid>
-      <pubDate>Thu, 28 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/browser/">browser</category>
-      
-      
-      <category domain="https://pengtech.net/tags/chrome/">chrome</category>
-      
-      <category domain="https://pengtech.net/tags/browser/">browser</category>
-      
-      
-      <comments>https://pengtech.net/chrome/cli_build_chrome_extension.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>命令行打包Firefox插件</title>
       <link>https://pengtech.net/firefox/cli_build_firefox_extension.html</link>
       <guid>https://pengtech.net/firefox/cli_build_firefox_extension.html</guid>
@@ -1022,6 +997,31 @@
       
       
       <comments>https://pengtech.net/firefox/cli_build_firefox_extension.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>命令行打包Chrome插件</title>
+      <link>https://pengtech.net/chrome/cli_build_chrome_extension.html</link>
+      <guid>https://pengtech.net/chrome/cli_build_chrome_extension.html</guid>
+      <pubDate>Thu, 28 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/browser/">browser</category>
+      
+      
+      <category domain="https://pengtech.net/tags/browser/">browser</category>
+      
+      <category domain="https://pengtech.net/tags/chrome/">chrome</category>
+      
+      
+      <comments>https://pengtech.net/chrome/cli_build_chrome_extension.html#disqus_thread</comments>
       
     </item>
     
@@ -5261,33 +5261,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - Pixel Density</title>
-      <link>https://pengtech.net/material/pixel_density.html</link>
-      <guid>https://pengtech.net/material/pixel_density.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-像素密度-Pixel-Density&quot;&gt;&lt;a href=&quot;#1-像素密度-Pixel-Density&quot; class=&quot;headerlink&quot; title=&quot;1. 像素密度(Pixel Density)&quot;&gt;&lt;/a&gt;1. 像素密度(Pixel Density)&lt;/h2&gt;&lt;p&gt;一英寸屏幕上存在的像素数称为像素密度。&lt;/p&gt;
-&lt;p&gt;屏幕像素密度和分辨率因平台而异。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-屏幕密度变化&quot;&gt;&lt;a href=&quot;#1-1-屏幕密度变化&quot; class=&quot;headerlink&quot; title=&quot;1.1. 屏幕密度变化&quot;&gt;&lt;/a&gt;1.1. 屏幕密度变化&lt;/h3&gt;&lt;p&gt;高密度屏幕的每英寸像素数比低密度屏幕的多。因此，相同像素尺寸的UI元素在低密度屏幕上显示得更大，而在高密度屏幕上显示得更小。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/pixel_density.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design基础 - Surfaces</title>
       <link>https://pengtech.net/material/surfaces.html</link>
       <guid>https://pengtech.net/material/surfaces.html</guid>
@@ -5311,6 +5284,33 @@
       
       
       <comments>https://pengtech.net/material/surfaces.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - Pixel Density</title>
+      <link>https://pengtech.net/material/pixel_density.html</link>
+      <guid>https://pengtech.net/material/pixel_density.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-像素密度-Pixel-Density&quot;&gt;&lt;a href=&quot;#1-像素密度-Pixel-Density&quot; class=&quot;headerlink&quot; title=&quot;1. 像素密度(Pixel Density)&quot;&gt;&lt;/a&gt;1. 像素密度(Pixel Density)&lt;/h2&gt;&lt;p&gt;一英寸屏幕上存在的像素数称为像素密度。&lt;/p&gt;
+&lt;p&gt;屏幕像素密度和分辨率因平台而异。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-屏幕密度变化&quot;&gt;&lt;a href=&quot;#1-1-屏幕密度变化&quot; class=&quot;headerlink&quot; title=&quot;1.1. 屏幕密度变化&quot;&gt;&lt;/a&gt;1.1. 屏幕密度变化&lt;/h3&gt;&lt;p&gt;高密度屏幕的每英寸像素数比低密度屏幕的多。因此，相同像素尺寸的UI元素在低密度屏幕上显示得更大，而在高密度屏幕上显示得更小。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/pixel_density.html#disqus_thread</comments>
       
     </item>
     
@@ -6224,31 +6224,6 @@
     </item>
     
     <item>
-      <title>运维自动化之Ansible</title>
-      <link>https://pengtech.net/ansible/ansible.html</link>
-      <guid>https://pengtech.net/ansible/ansible.html</guid>
-      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>在Windows上安装Ansible</title>
       <link>https://pengtech.net/ansible/install_ansible_on_windows.html</link>
       <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
@@ -6271,6 +6246,31 @@
       
       
       <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>运维自动化之Ansible</title>
+      <link>https://pengtech.net/ansible/ansible.html</link>
+      <guid>https://pengtech.net/ansible/ansible.html</guid>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
       
     </item>
     
