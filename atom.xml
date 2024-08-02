@@ -326,7 +326,7 @@
     <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
     <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-01T22:12:43.639Z</updated>
     
     
     <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
@@ -975,10 +975,10 @@
     <link href="https://pengtech.net/android/android_sdk_install.html"/>
     <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.382Z</updated>
+    <updated>2024-08-01T22:17:13.980Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK介绍&quot;&gt;&lt;/a&gt;1. Android SDK介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -996,11 +996,11 @@
   </entry>
   
   <entry>
-    <title>Fedora上安装与配置Android studio</title>
+    <title>Fedora 上安装与配置 Android studio</title>
     <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
     <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.382Z</updated>
+    <updated>2024-08-01T22:19:02.698Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
@@ -1213,7 +1213,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-07-25T03:10:15.590Z</updated>
+    <updated>2024-08-02T03:03:36.510Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -4691,15 +4691,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - Elevation（标高）</title>
-    <link href="https://pengtech.net/material/Elevation.html"/>
-    <id>https://pengtech.net/material/Elevation.html</id>
+    <title>Material Design 基础 - Component behavior</title>
+    <link href="https://pengtech.net/material/Component_behavior.html"/>
+    <id>https://pengtech.net/material/Component_behavior.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
-&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
+&lt;h2 id=&quot;2-Position术语&quot;&gt;&lt;a href=&quot;#2-Position术语&quot; class=&quot;headerlink&quot; title=&quot;2. Position术语&quot;&gt;&lt;/a&gt;2. Position术语&lt;/h2&gt;&lt;p&gt;UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。&lt;/p&gt;</summary>
     
     
     
@@ -4715,15 +4715,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - Component behavior</title>
-    <link href="https://pengtech.net/material/Component_behavior.html"/>
-    <id>https://pengtech.net/material/Component_behavior.html</id>
+    <title>Material Design 基础 - Elevation（标高）</title>
+    <link href="https://pengtech.net/material/Elevation.html"/>
+    <id>https://pengtech.net/material/Elevation.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.393Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
-&lt;h2 id=&quot;2-Position术语&quot;&gt;&lt;a href=&quot;#2-Position术语&quot; class=&quot;headerlink&quot; title=&quot;2. Position术语&quot;&gt;&lt;/a&gt;2. Position术语&lt;/h2&gt;&lt;p&gt;UI元素在每个分界点范围内的行为方式不同。UI元素、组件和表面在网格中的位置用以下术语描述。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
+&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
     
     
     
@@ -5898,7 +5898,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-07-25T14:41:12.959Z</updated>
+    <updated>2024-08-01T08:37:29.652Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
@@ -6006,9 +6006,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6235,9 +6235,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
