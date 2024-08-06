@@ -85,7 +85,7 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-08-01T01:22:56.552Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 14 个精致的 Hexo 主题。&lt;/p&gt;</summary>
@@ -106,7 +106,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-07-26T04:29:38.814Z</updated>
+    <updated>2024-08-06T10:05:40.505Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -130,7 +130,7 @@
     <link href="https://pengtech.net/angular/angular_debug.html"/>
     <id>https://pengtech.net/angular/angular_debug.html</id>
     <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.396Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文演示如何调试 Angular 应用程序。在本文中，我们将讨论。&lt;/p&gt;
@@ -207,7 +207,7 @@
     <link href="https://pengtech.net/golang/vscode_debug_golang.html"/>
     <id>https://pengtech.net/golang/vscode_debug_golang.html</id>
     <published>2024-07-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程将讨论使用 Visual Studio Code 调试 Go 代码所需的步骤。首先我们需要安装扩展、分析工具和调试器。&lt;/p&gt;
@@ -326,11 +326,11 @@
     <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
     <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-08-01T22:12:43.639Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
 &lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
@@ -374,7 +374,7 @@
     <link href="https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html"/>
     <id>https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html</id>
     <published>2024-04-22T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.387Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;p&gt;signal 是一种存储应用程序状态的方法，类似于 React 中的 useState()。但有一些关键的差异赋予了 Signals 另外的优势。&lt;/p&gt;</summary>
@@ -426,7 +426,7 @@
     <link href="https://pengtech.net/angular/angular_material3_theming.html"/>
     <id>https://pengtech.net/angular/angular_material3_theming.html</id>
     <published>2024-04-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是-Material-3&quot;&gt;&lt;a href=&quot;#1-什么是-Material-3&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Material 3&quot;&gt;&lt;/a&gt;1. 什么是 Material 3&lt;/h2&gt;&lt;p&gt;Material 3 (M3)是 Google 开源设计系统 Material Design 的最新版本。它是 Angular Material 所遵循的设计系统 Material 2 (M2)的继承者。&lt;/p&gt;
@@ -448,7 +448,7 @@
     <link href="https://pengtech.net/angular/angular_material_2_theming.html"/>
     <id>https://pengtech.net/angular/angular_material_2_theming.html</id>
     <published>2024-04-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是-theming&quot;&gt;&lt;a href=&quot;#1-什么是-theming&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 theming&quot;&gt;&lt;/a&gt;1. 什么是 theming&lt;/h2&gt;&lt;p&gt;Angular Material 的主题系统可让您为应用程序中的组件自定义基础样式、颜色、排版和密度样式。主题系统基于 Google 的 Material Design 规范。&lt;/p&gt;
@@ -470,7 +470,7 @@
     <link href="https://pengtech.net/angular/Upgrade_to_Angular_17.html"/>
     <id>https://pengtech.net/angular/Upgrade_to_Angular_17.html</id>
     <published>2024-03-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.382Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angular 16 于 2023 年 11 月 8 日发布.&lt;/p&gt;
@@ -538,7 +538,7 @@
     <link href="https://pengtech.net/angular/angular_async_pipe_error_handling.html"/>
     <id>https://pengtech.net/angular/angular_async_pipe_error_handling.html</id>
     <published>2024-03-22T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:04:10.101Z</updated>
     
     
     <summary type="html">&lt;p&gt;处理 web 应用程序中的错误对于获得良好的用户体验非常重要。有时会发生异常，每个应用程序都应该涵盖这些情况，以帮助用户了解发生了不好的事情。&lt;/p&gt;
@@ -564,7 +564,7 @@
     <link href="https://pengtech.net/angular/angular_seo_friendly.html"/>
     <id>https://pengtech.net/angular/angular_seo_friendly.html</id>
     <published>2024-03-19T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;p&gt;如果您正在使用 Angular 开发网站或应用程序，您很可能希望它在搜索引擎中排名靠前。正如您可能已经读到的，这会带来一些挑战。Angular 是一个著名的前端框架，广泛用于构建单页面应用程序，即 SPA。它们以其流畅、即时的页面转换和出色的用户体验而闻名。但也存在一些缺点，尤其是在 SEO 性能方面。&lt;/p&gt;</summary>
@@ -587,7 +587,7 @@
     <link href="https://pengtech.net/angular/angular_async_pipe_in_depth.html"/>
     <id>https://pengtech.net/angular/angular_async_pipe_in_depth.html</id>
     <published>2024-03-16T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:04:16.476Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angular 异步管道(Async pipe)是 Angular 框架中在 HTML 模板中使用 Observables 或 Promises 的方法之一。而且在大多数情况下，我认为这是在 Angular 中处理 Observables 和 Promise 的首选方式。&lt;/p&gt;
@@ -616,7 +616,7 @@
     <link href="https://pengtech.net/angular/manually_bootstrap_an_Angular_application.html"/>
     <id>https://pengtech.net/angular/manually_bootstrap_an_Angular_application.html</id>
     <published>2024-03-16T16:00:00.000Z</published>
-    <updated>2024-07-24T07:15:36.175Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angular 官方文档指出，要引导应用程序，您必须将以下内容放入文件中 main.ts：&lt;/p&gt;</summary>
@@ -641,7 +641,7 @@
     <link href="https://pengtech.net/angular/angular_host_github_pages.html"/>
     <id>https://pengtech.net/angular/angular_host_github_pages.html</id>
     <published>2024-02-02T16:00:00.000Z</published>
-    <updated>2024-07-16T09:23:58.780Z</updated>
+    <updated>2024-08-06T10:05:40.396Z</updated>
     
     
     <summary type="html">&lt;p&gt;GitHub Pages 是 GitHub 提供的一项服务，人们可以免费托管网站。这有助于人们为他们的博客、作品集、业务等托管个人网站。我们可以毫不费力地在 GitHub 页面上托管一个只有 HTML、CSS 和 JavaScript 的简单网站，但复杂的应用程序需要一些努力。&lt;/p&gt;
@@ -667,7 +667,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-08-02T03:27:32.969Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。&lt;/p&gt;
@@ -733,7 +733,7 @@
     <link href="https://pengtech.net/ansible/ansible_install_golang.html"/>
     <id>https://pengtech.net/ansible/ansible_install_golang.html</id>
     <published>2024-01-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用Ansible在Redhat Linux系列上安装golang 19。&lt;/p&gt;</summary>
@@ -758,7 +758,7 @@
     <link href="https://pengtech.net/ansible/ansible_install_java.html"/>
     <id>https://pengtech.net/ansible/ansible_install_java.html</id>
     <published>2024-01-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用Ansible在Redhat Linux系列上安装java 17。&lt;/p&gt;</summary>
@@ -781,7 +781,7 @@
     <link href="https://pengtech.net/network/dns_pollution_issue.html"/>
     <id>https://pengtech.net/network/dns_pollution_issue.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;一直用的 GitHub，突然一下子不能访问了，最后发现是 DNS 解析的 IP 地址出了问题，按照以下方法修改又能访问 github 了。&lt;/p&gt;
@@ -825,7 +825,7 @@
     <link href="https://pengtech.net/linux/fedora_switch_desktop_environment.html"/>
     <id>https://pengtech.net/linux/fedora_switch_desktop_environment.html</id>
     <published>2024-01-12T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;您是否想在Fedora Workstation spin中使用或尝试其他桌面环境，而不是默认的GNOME 3。在本文中，我们将展示如何使用图形用户界面 (GUI) 和命令行界面 (CLI) 在 Fedora Linux 中安装和切换桌面环境。&lt;/p&gt;</summary>
@@ -879,7 +879,7 @@
     <link href="https://pengtech.net/angular/angular_breadcrumbs.html"/>
     <id>https://pengtech.net/angular/angular_breadcrumbs.html</id>
     <published>2023-12-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.396Z</updated>
     
     
     <summary type="html">&lt;p&gt;面包屑导航(Breadcrumb Navigation)这个概念来自童话故事“汉赛尔和格莱特”，当汉赛尔和格莱特穿过森林时，不小心迷路了，但是他们发现沿途走过的地方都撒下了面包屑，让这些面包屑来帮助他们找到回家的路。&lt;/p&gt;</summary>
@@ -927,7 +927,7 @@
     <link href="https://pengtech.net/firefox/cli_build_firefox_extension.html"/>
     <id>https://pengtech.net/firefox/cli_build_firefox_extension.html</id>
     <published>2023-12-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;在开发过程中，您的扩展将由一个目录组成，其中包含一个manifest.json文件和扩展所需的其他文件（脚本、图标、HTML 文档等）。您需要将它们压缩到一个文件中才能上传到 AMO。&lt;/p&gt;</summary>
@@ -975,7 +975,7 @@
     <link href="https://pengtech.net/android/android_sdk_install.html"/>
     <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-08-01T22:17:13.980Z</updated>
+    <updated>2024-08-06T10:03:11.836Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
@@ -1025,7 +1025,7 @@
     <link href="https://pengtech.net/tauri/upgrade_to_tauri_2.0.html"/>
     <id>https://pengtech.net/tauri/upgrade_to_tauri_2.0.html</id>
     <published>2023-12-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;p&gt;Tauri 2.0的新alpha.4 版本已经发布。此版本包括即将发布的Tauri 1.3版本的所有更改，此版本包含了对HTTP客户端的一些breaking change和TauriNative mobile插件的功能一些更改。&lt;/p&gt;
@@ -1051,7 +1051,7 @@
     <link href="https://pengtech.net/tauri/tauri_debug.html"/>
     <id>https://pengtech.net/tauri/tauri_debug.html</id>
     <published>2023-12-17T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;p&gt;在本文中我们将详细讲解在各平台如何debug tauri项目。&lt;/p&gt;</summary>
@@ -1076,7 +1076,7 @@
     <link href="https://pengtech.net/angular/angular_style_isolation.html"/>
     <id>https://pengtech.net/angular/angular_style_isolation.html</id>
     <published>2023-12-13T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文详细讲解如何在 Angular 使用样式隔离。&lt;/p&gt;</summary>
@@ -1101,7 +1101,7 @@
     <link href="https://pengtech.net/product/landing_page_design.html"/>
     <id>https://pengtech.net/product/landing_page_design.html</id>
     <published>2023-12-09T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;如何取得「高转换率( Conversion Rate ) 」一直是销售团队最大的课题！而 Landing Page 的操作就是其中一项有效解决行销难题的秘方！&lt;/p&gt;</summary>
@@ -1122,7 +1122,7 @@
     <link href="https://pengtech.net/sass/tailwind_best_component_libs.html"/>
     <id>https://pengtech.net/sass/tailwind_best_component_libs.html</id>
     <published>2023-12-07T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;Tailwind 是一个实用程序优先的 CSS 框架，提供了一整套预先设计的样式和组件，使您可以轻松创建令人惊叹的 UI，而无需自定义 CSS。&lt;/p&gt;
@@ -1169,12 +1169,12 @@
     <link href="https://pengtech.net/nodejs/install_nodejs_via_source.html"/>
     <id>https://pengtech.net/nodejs/install_nodejs_via_source.html</id>
     <published>2023-11-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.306Z</updated>
     
     
     <summary type="html">&lt;p&gt;大多数情况下我们都能够使用二进制文件安装nodejs, 各种包管理生态下, 以及各种操作系统环境下的安装方式, 在我往期的博客中都有介绍.&lt;/p&gt;
 &lt;p&gt;但是有些某些系统或环境下, 或者由于个人偏好, 还是需要通过源码安装nodejs, 那么此篇文章或许对您有帮助.&lt;/p&gt;
-&lt;p&gt;关于各种二进制文件形式安装可以参考我的博客 &lt;a href=&quot;https://www.pengtech.net/nodejs/install_and_config_nodejs.html&quot;&gt;安装并配置nodejs | 鹏叔的技术博客&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;关于各种二进制文件形式安装可以参考我的博客 &lt;a href=&quot;https://pengtech.net/nodejs/install_and_config_nodejs.html&quot;&gt;安装并配置nodejs | 鹏叔的技术博客&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -1192,7 +1192,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-04T02:14:06.854Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1213,7 +1213,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-04T21:32:59.422Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1277,7 +1277,7 @@
     <link href="https://pengtech.net/angular/angular_analytics_baidu.html"/>
     <id>https://pengtech.net/angular/angular_analytics_baidu.html</id>
     <published>2023-11-09T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:04:00.842Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angulartics2 是一个用于 Angular 应用程序的分析工具。它可以自动跟踪导航事件并将其发送到您的分析服务提供程序，例如百度统计, Google Analytics 等。您可以通过运行&lt;code&gt;npm i angulartics2&lt;/code&gt;在项目中开始使用 angulartics。&lt;/p&gt;</summary>
@@ -1302,7 +1302,7 @@
     <link href="https://pengtech.net/angular/Upgrade_to_Angular_16.html"/>
     <id>https://pengtech.net/angular/Upgrade_to_Angular_16.html</id>
     <published>2023-11-07T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.382Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angular 16 于 2023 年 5 月 3 日发布.&lt;/p&gt;
@@ -1328,7 +1328,7 @@
     <link href="https://pengtech.net/angular/angular_sentry_integration.html"/>
     <id>https://pengtech.net/angular/angular_sentry_integration.html</id>
     <published>2023-11-07T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程主要讲述, Angular 项目如何整合 Sentry 实现前端应用错误上报.&lt;/p&gt;
@@ -1358,7 +1358,7 @@
     <link href="https://pengtech.net/angular/angular_replace_CanActivate.html"/>
     <id>https://pengtech.net/angular/angular_replace_CanActivate.html</id>
     <published>2023-11-06T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;p&gt;在本文中，我们将探讨 Angular 的“CanActivate”接口的弃用，并讨论如何用推荐的解决方案替换它。我们将介绍官方文档的建议以及解决此已弃用警告的替代解决方案。&lt;/p&gt;</summary>
@@ -1383,7 +1383,7 @@
     <link href="https://pengtech.net/angular/angular_14_update.html"/>
     <id>https://pengtech.net/angular/angular_14_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:03:17.067Z</updated>
     
     
     <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
@@ -1411,7 +1411,7 @@
     <link href="https://pengtech.net/angular/angular_15_update.html"/>
     <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
     <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
@@ -1436,7 +1436,7 @@
     <link href="https://pengtech.net/angular/angular_16_update.html"/>
     <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-07-17T04:38:52.269Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
     <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
@@ -1462,7 +1462,7 @@
     <link href="https://pengtech.net/angular/angular_17_update.html"/>
     <id>https://pengtech.net/angular/angular_17_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:03:52.802Z</updated>
     
     
     <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
@@ -1487,7 +1487,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_centos.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_centos.html</id>
     <published>2023-10-31T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.305Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 macOS 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Homebrew，这是 macOS 著名的包管理器。&lt;/p&gt;
@@ -1509,7 +1509,7 @@
     <link href="https://pengtech.net/angular/angular_async_MatPaginator.html"/>
     <id>https://pengtech.net/angular/angular_async_MatPaginator.html</id>
     <published>2023-10-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:04:06.442Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-问题描述&quot;&gt;&lt;a href=&quot;#1-问题描述&quot; class=&quot;headerlink&quot; title=&quot;1. 问题描述&quot;&gt;&lt;/a&gt;1. 问题描述&lt;/h2&gt;&lt;p&gt;我们在组件中初始化MatPaginator，如&lt;/p&gt;
@@ -1536,7 +1536,7 @@
     <link href="https://pengtech.net/angular/angular_getter_setter.html"/>
     <id>https://pengtech.net/angular/angular_getter_setter.html</id>
     <published>2023-10-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;p&gt;getter 和 setter 是一种众所周知的模式，在不同的语言中使用。在本文中，我想通过 TypeScript 中的示例帮助您理解 getter 和 setter。看看它如何在 Angular 应用程序中发挥作用。&lt;/p&gt;</summary>
@@ -1559,7 +1559,7 @@
     <link href="https://pengtech.net/material/better_design_for_big_screen.html"/>
     <id>https://pengtech.net/material/better_design_for_big_screen.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;Material You 如何支持美观、高效的平板电脑和可折叠体验?&lt;/p&gt;
@@ -1584,7 +1584,7 @@
     <link href="https://pengtech.net/material/material3_introduction.html"/>
     <id>https://pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
@@ -1609,7 +1609,7 @@
     <link href="https://pengtech.net/material/material3_foundations.html"/>
     <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
@@ -1632,7 +1632,7 @@
     <link href="https://pengtech.net/product/sentry_install.html"/>
     <id>https://pengtech.net/product/sentry_install.html</id>
     <published>2023-10-10T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;Sentry 是一个免费和开源的错误跟踪平台，可以实时监控和修复崩溃。它使软件开发人员能够看到重要的东西，更快地解决问题，并不断了解他们的应用程序。这个平台提供了对生产部署的实时洞察力，并提供了重现和修复崩溃的信息。Sentry 支持所有主要的语言和框架，并与你喜欢的应用程序和服务集成。&lt;/p&gt;</summary>
@@ -1657,7 +1657,7 @@
     <link href="https://pengtech.net/strapi/strapi_deployment.html"/>
     <id>https://pengtech.net/strapi/strapi_deployment.html</id>
     <published>2023-10-09T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;strapi 是目前我最喜欢的 CMS 系统之一, 因为它可以嵌入到各种前端框架, 并于各种前端技术浑然天成, 这是我喜欢它的原因. 这里大胆预测一些, 它大概会成为下一代 CMS 系统的引领者. 虽然它还很年轻, 但是已经出现王者气象.&lt;/p&gt;
@@ -1683,7 +1683,7 @@
     <link href="https://pengtech.net/angular/angular_forroot_forchild.html"/>
     <id>https://pengtech.net/angular/angular_forroot_forchild.html</id>
     <published>2023-09-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;p&gt;在本文中我们将深入探讨一些您可能已经见过的 Angular 模式和方法。我将讨论 Angular 管理依赖项辑器配置信息中经常会使用到的 forRoot 和 forChild 方法。&lt;/p&gt;</summary>
@@ -1706,7 +1706,7 @@
     <link href="https://pengtech.net/angular/angular_standalone_components.html"/>
     <id>https://pengtech.net/angular/angular_standalone_components.html</id>
     <published>2023-09-27T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.338Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angular 14 引入了独立组件——该组件不属于任何 ngModule 的一部分，可以与其他独立或基于模块的组件一起使用。&lt;/p&gt;
@@ -1730,7 +1730,7 @@
     <link href="https://pengtech.net/angular/angular_async-await.html"/>
     <id>https://pengtech.net/angular/angular_async-await.html</id>
     <published>2023-09-26T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;p&gt;Promise 和回调函数是在 JavaScript 中编写异步代码的构建块。&lt;/p&gt;
@@ -1756,7 +1756,7 @@
     <link href="https://pengtech.net/angular/angular_async_pipe.html"/>
     <id>https://pengtech.net/angular/angular_async_pipe.html</id>
     <published>2023-09-26T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:04:24.884Z</updated>
     
     
     <summary type="html">&lt;p&gt;Async Pipe可以对 Angular 应用程序的更改检测策略产生巨大影响。如果到目前为止您还感到困惑，请详解读完全文。我们一起来了解一下吧！&lt;/p&gt;
@@ -1787,7 +1787,7 @@
     <link href="https://pengtech.net/strapi/angular_strapi_app.html"/>
     <id>https://pengtech.net/strapi/angular_strapi_app.html</id>
     <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;对于我们这些开发人员来说，启动一个新的web项目可能是一项乏味的工作。一些普通的增删改查都要自己亲自动手去写，那效率着实是大打折扣的。&lt;/p&gt;
@@ -1818,7 +1818,7 @@
     <link href="https://pengtech.net/strapi/install_strapi.html"/>
     <id>https://pengtech.net/strapi/install_strapi.html</id>
     <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
@@ -1866,7 +1866,7 @@
     <link href="https://pengtech.net/strapi/strapi_slug_system.html"/>
     <id>https://pengtech.net/strapi/strapi_slug_system.html</id>
     <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;p&gt;在为客户或您自己构建网站时，您通常希望通过 URL 中的人类可读的 slug 来访问您的公共内容。这将有助于搜索引擎优化 (SEO)，并且更容易让用户理解。值得庆幸的是，借助Strapi，您可以轻松地以这种方式访问​​您的内容。&lt;/p&gt;</summary>
@@ -1889,13 +1889,13 @@
     <link href="https://pengtech.net/history/computer_history_brief_timeline.html"/>
     <id>https://pengtech.net/history/computer_history_brief_timeline.html</id>
     <published>2023-09-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我为什么要写这篇文章? 计算机发展的速度太快了, 已经进入了蓬勃发展期. 但是依然看不到它的尽头, 看不清它的终极形态. 很多人都在追逐新的技术, 但是很少有人拿起笔系统的记录它的过去. 很多年以后当我们要追寻一项技术的来龙去脉的时候, 可能连它的”尸身”都找不到了.&lt;/p&gt;
 &lt;p&gt;比如说软盘驱动器（floppy disk driver）现在谁手上还保存有一张1.44MB的3.5英寸软盘, 谁电脑上还会装有软驱呢, 这在当时可是一项创新性的技术, 是便携式存储的鼻祖, 是一代人的回忆. 一张小小的软盘能装下一整套DOS操作系统, 能装下一个夏天的劳动成果. 但是现在当我想介绍存储技术的演进过程时, 不仅找不到一部软驱, 一张软盘, 就连一张合适的图片的很难找到了. 同样的命运的还有寻呼机机, 这个承载着很多人青春记忆的通信设备, 可能剩下脑海中的BiBi声了. 同样的命运的还有功能机, 早已过了手机换脸盆的淘汰期, 曾经层出不穷的款式, 不知道现在还有几款健在. 更不用说他们所依赖的生态系统, 比如基站设备, 外设装置.&lt;/p&gt;
 &lt;p&gt;站在当下这个似乎还能朦朦胧胧看到过去的时间节点, 在不费太多力气的情况下, 将不太遥远的过去记录下来, 省得后来人花费昂贵的代价去考古, 也不失为一件幸事.&lt;/p&gt;
-&lt;p&gt;为什么以编年体的形式记录这段历史? 其实这是我的某项计划的一部分, 还处于材料收集阶段, 收集计算机发展史也是我副业中的副业, 没有太多时间深入研究和系统性地整理, 只能以最简单的方式快速呈现内容, 不至于让整个计划胎死腹中(我已经有很多文章由于计划过于宏大而胎死腹中的先例了). 编年体是快速理清脉络, 呈现材料的最好方式. 它不需要花太多时间去整理去构思, 而且呈现效果也非常清晰. 另外我也非常喜欢将软件工程中的一些概念应用到写作中, 那就是小步快跑, 快速迭代; 再者就是重构. 有了足够的材料后, 我相信通过不断地重构, 不断地迭代, 能将其打造为我心中理想的样子. 所以这篇文章会是一篇不断完善的文章, 请有兴趣的朋友关注&lt;a href=&quot;https://www.pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;获取最新内容. 另外如何您有兴趣资助鹏叔的计划, &lt;a href=&quot;https://www.pengtech.net/history/computer_history_brief_timeline.html&quot;&gt;原文&lt;/a&gt;末尾有打赏功能, 请点一点, 在此表示感谢!&lt;/p&gt;</summary>
+&lt;p&gt;为什么以编年体的形式记录这段历史? 其实这是我的某项计划的一部分, 还处于材料收集阶段, 收集计算机发展史也是我副业中的副业, 没有太多时间深入研究和系统性地整理, 只能以最简单的方式快速呈现内容, 不至于让整个计划胎死腹中(我已经有很多文章由于计划过于宏大而胎死腹中的先例了). 编年体是快速理清脉络, 呈现材料的最好方式. 它不需要花太多时间去整理去构思, 而且呈现效果也非常清晰. 另外我也非常喜欢将软件工程中的一些概念应用到写作中, 那就是小步快跑, 快速迭代; 再者就是重构. 有了足够的材料后, 我相信通过不断地重构, 不断地迭代, 能将其打造为我心中理想的样子. 所以这篇文章会是一篇不断完善的文章, 请有兴趣的朋友关注&lt;a href=&quot;https://pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;获取最新内容. 另外如何您有兴趣资助鹏叔的计划, &lt;a href=&quot;https://pengtech.net/history/computer_history_brief_timeline.html&quot;&gt;原文&lt;/a&gt;末尾有打赏功能, 请点一点, 在此表示感谢!&lt;/p&gt;</summary>
     
     
     
@@ -1911,7 +1911,7 @@
     <link href="https://pengtech.net/web/chartjs_tutorial.html"/>
     <id>https://pengtech.net/web/chartjs_tutorial.html</id>
     <published>2023-09-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-chart-js-介绍&quot;&gt;&lt;a href=&quot;#1-chart-js-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. chart.js 介绍&quot;&gt;&lt;/a&gt;1. chart.js 介绍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/chartjs/Chart.js&quot;&gt;Chart.js&lt;/a&gt;是一个流行的由社区维护的开源数据可视化框架。它使我们能够生成响应式条形图、饼图、线图、甜甜圈图、散点图等。我们所要做的就是简单地指出你想在页面的什么地方显示图表，你想绘制什么样的图表，然后向 Chart.js 提供数据、标签和其他设置。在这之后，这个库就完成了所有繁重的工作。&lt;/p&gt;</summary>
@@ -1936,7 +1936,7 @@
     <link href="https://pengtech.net/angular/angular_ng2_charts.html"/>
     <id>https://pengtech.net/angular/angular_ng2_charts.html</id>
     <published>2023-09-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。&lt;/p&gt;
@@ -1970,7 +1970,7 @@
     <link href="https://pengtech.net/angular/angular_ngx_charts.html"/>
     <id>https://pengtech.net/angular/angular_ngx_charts.html</id>
     <published>2023-09-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。在 Angular 中，我们有各种图表库来创建图表。NGX-charts 就是其中之一。&lt;/p&gt;
@@ -1996,7 +1996,7 @@
     <link href="https://pengtech.net/angular/angular_chart_solutions.html"/>
     <id>https://pengtech.net/angular/angular_chart_solutions.html</id>
     <published>2023-09-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.396Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;如今，数据分析是任何业务应用程序的重要组成部分。这有助于企业做出重要决策。以易于理解和交互的方式表示大量数据非常重要。&lt;br&gt;图表对于美观、易于理解和交互式的数据可视化非常有用。&lt;/p&gt;
@@ -2024,7 +2024,7 @@
     <link href="https://pengtech.net/angular/angular_ngx_table_to_mat_table.html"/>
     <id>https://pengtech.net/angular/angular_ngx_table_to_mat_table.html</id>
     <published>2023-09-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;从 Angular 1.x 到 Angular 13 一直是用的 angular-data-table(for angularjs 1.x)和它的姊妹项目 ngx-datatable(for angular 2+), 但是最近需要将 Angular 项目从 Angular 14 升级到 Angular 16 的过程中发现了一些兼容性问题, 另外 ngx-datatable 也不支持 dark mode. 再次关注 ngx-datatable 以及网上的评论都有同感, ngx-datatable 的更新速度严重放缓了, 有些跟不上 Angular 更新的节奏了. 参考 reddit 上的一篇帖子&lt;a href=&quot;https://www.reddit.com/r/Angular2/comments/c3f6cm/any_better_alternatives_to_ngxdatatable/&quot;&gt;Any better alternatives to ngx-datatable?&lt;/a&gt;, 也谈到了 ngx-datatable 更新放缓.&lt;/p&gt;
@@ -2051,7 +2051,7 @@
     <link href="https://pengtech.net/windows/wsl_install.html"/>
     <id>https://pengtech.net/windows/wsl_install.html</id>
     <published>2023-08-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.400Z</updated>
+    <updated>2024-08-06T10:05:40.445Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WSL（Windows Subsyetem for Linux，适用于 Linux 的 Windows 子系统），是 Microsoft 公司于 2016 年在 Windows 10 平台发布的一项新功能，其使得用户可以在 Windows 操作系统上运行 ELF 格式的 Linux 可执行文件。&lt;/p&gt;
@@ -2073,7 +2073,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.290Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -2095,7 +2095,7 @@
     <link href="https://pengtech.net/vmware/windows_env_setup.html"/>
     <id>https://pengtech.net/vmware/windows_env_setup.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
       
@@ -2124,7 +2124,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_macos.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_macos.html</id>
     <published>2023-08-22T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.290Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 macOS 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Homebrew，这是 macOS 著名的包管理器。&lt;/p&gt;
@@ -2146,7 +2146,7 @@
     <link href="https://pengtech.net/tauri/setup_tauri_for_linux.html"/>
     <id>https://pengtech.net/tauri/setup_tauri_for_linux.html</id>
     <published>2023-08-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文讲述如何在linux操作系统中配置Tauri编译, 打包环境.&lt;/p&gt;
@@ -2194,15 +2194,15 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2024-08-06T10:09:59.853Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
 &lt;p&gt;本文是gitlab-runner安装和配置姊妹篇中的一篇，主要针对fedora操作系统，其它操作系统可以参考针对特定操作系统的姊妹篇。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -2220,7 +2220,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
@@ -2241,7 +2241,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在ubuntu上安装gitlab-runner有两种方式: 一种是使用deb&amp;#x2F;rpm包安装; 一种是使用二进制文件安装.&lt;/p&gt;
@@ -2264,7 +2264,7 @@
     <link href="https://pengtech.net/vmware/macos_env_setup.html"/>
     <id>https://pengtech.net/vmware/macos_env_setup.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文讲述如何为Macos配置开发环境.&lt;/p&gt;</summary>
@@ -2315,7 +2315,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_windows.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_windows.html</id>
     <published>2023-08-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;因为需要在Windows上打包Tauri程序, 所以需要一个windows gitlab-runner, 于是有了这篇文章.&lt;/p&gt;</summary>
@@ -2336,7 +2336,7 @@
     <link href="https://pengtech.net/vmware/vmware_install_ubuntu.html"/>
     <id>https://pengtech.net/vmware/vmware_install_ubuntu.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;安装Ubuntu虚拟机主要是为了打包Tauri桌面应用, 这里使用的虚拟化平台是VMWare ESXi 6.7.&lt;/p&gt;
@@ -2367,11 +2367,11 @@
     <link href="https://pengtech.net/vmware/vmware_install_windows.html"/>
     <id>https://pengtech.net/vmware/vmware_install_windows.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
-&lt;p&gt;本文原文位于&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_install_windows&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
+&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
     
     
     
@@ -2391,11 +2391,11 @@
     <link href="https://pengtech.net/vmware/vmware_macos_vm.html"/>
     <id>https://pengtech.net/vmware/vmware_macos_vm.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个 Tauri 桌面应用, 由于 Tauri 应用的跨平台编译特性还不是特别完善, 比如打包 macos 桌面应用程序, 需要在 Macos 上进行. 于是想到了是否能安装一台 macos 虚拟机用于打包, 并兼顾 Macos 上的测试. 于是就有了这篇文章. 当然安装 macos 虚拟机的好处远不指这些.&lt;/p&gt;
-&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
+&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
     
     
     
@@ -2440,10 +2440,10 @@
     <link href="https://pengtech.net/tauri/tauri_cli.html"/>
     <id>https://pengtech.net/tauri/tauri_cli.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
     
     
     
@@ -2465,7 +2465,7 @@
     <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
     <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
@@ -2490,7 +2490,7 @@
     <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
     <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-12T00:21:07.666Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
@@ -2516,7 +2516,7 @@
     <link href="https://pengtech.net/tauri/tauri_mobile.html"/>
     <id>https://pengtech.net/tauri/tauri_mobile.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</summary>
@@ -2541,7 +2541,7 @@
     <link href="https://pengtech.net/nodejs/migrate_to_pnpm.html"/>
     <id>https://pengtech.net/nodejs/migrate_to_pnpm.html</id>
     <published>2023-08-12T16:00:00.000Z</published>
-    <updated>2024-07-16T01:04:31.521Z</updated>
+    <updated>2024-08-06T10:05:40.306Z</updated>
     
     
     <summary type="html">&lt;p&gt;PNPM 一直被誉为 NPM 的更高性能和更可靠的替代品，旨在减少缓慢的构建时间并消除依赖项不匹配的问题。我主要研究 PNPM 作为一种加快 CI 管道完成时间的方法，以及在开发周期中使用更好的包管理器。&lt;/p&gt;</summary>
@@ -2564,7 +2564,7 @@
     <link href="https://pengtech.net/nodejs/why_pnpm.html"/>
     <id>https://pengtech.net/nodejs/why_pnpm.html</id>
     <published>2023-08-12T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.277Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://www.kochan.io/nodejs/why-should-we-use-pnpm.html&quot;&gt;Why should we use pnpm?&lt;/a&gt;&lt;/p&gt;
@@ -2591,7 +2591,7 @@
     <link href="https://pengtech.net/nodejs/npm_create_command.html"/>
     <id>https://pengtech.net/nodejs/npm_create_command.html</id>
     <published>2023-08-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.290Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天使用&lt;code&gt;npm create tauri-app&lt;/code&gt;时候发现npm不是简单的创建一个nodejs工程, 其还做了很多特定于tauri相关的操作, 顿时感到这个命令不单纯, 这个命令可能还能干很多活, 迅速燃起了研究的兴趣, 于是写下了这篇文章.&lt;/p&gt;</summary>
@@ -2612,7 +2612,7 @@
     <link href="https://pengtech.net/tauri/tauri_angular_desktop.html"/>
     <id>https://pengtech.net/tauri/tauri_angular_desktop.html</id>
     <published>2023-08-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 是一个应用程序构建工具包，可让您使用 Web 技术为所有主要桌面操作系统构建软件。核心库是用 Rust 编写的，用户界面几乎可以使用任何前端框架编写。它包括一个可选的、tree-shakeable JavaScript API用于舒适地访问底层操作系统、一个具有签名和验证的桌面二进制捆绑器、一个让您的用户保持最新版本的安全更新程序、一个可扩展的插件系统以及支持与操作系统整合，例如通知和应用程序托盘。&lt;/p&gt;
@@ -2661,7 +2661,7 @@
     <link href="https://pengtech.net/chrome/chrome_storage_api.html"/>
     <id>https://pengtech.net/chrome/chrome_storage_api.html</id>
     <published>2023-07-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Storage API 是 Google Chrome 提供的一个内置 API，用于在插件中存储和访问数据。它提供了四种存储方式：本地存储（Local Storage）,同步存储（Sync Storage）,会话存储(storage.session), 受管存储(storage.managed)。本地存储用于在本地计算机上存储数据，而同步存储则将数据存储在用户的 Google 账号中，并在不同设备间同步。这使得插件能够在不同环境中保持一致的数据状态，为用户提供更好的体验。&lt;/p&gt;</summary>
@@ -2682,7 +2682,7 @@
     <link href="https://pengtech.net/chrome/chrome_plugin_development.html"/>
     <id>https://pengtech.net/chrome/chrome_plugin_development.html</id>
     <published>2023-07-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://developer.chrome.com/docs/extensions/mv3/&quot;&gt;chrome extensions官方文档&lt;/a&gt;&lt;/p&gt;
@@ -2704,10 +2704,10 @@
     <link href="https://pengtech.net/nginx/nginx_log_analyze.html"/>
     <id>https://pengtech.net/nginx/nginx_log_analyze.html</id>
     <published>2023-07-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为一位站长, 了解网站的访问情况是日常的重要内容, 以下就是关于通过Nginx日志了解访问情况的一些常用命令.&lt;br&gt;这里罗列于此, 希望对您有所帮助, 更多关于开发, 运维, 以及产品方面的文章请访问&lt;a href=&quot;https://www.pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;, 该博客空间中涉及到的技术都是鹏叔在开发与维护网站过程中总结出来的.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为一位站长, 了解网站的访问情况是日常的重要内容, 以下就是关于通过Nginx日志了解访问情况的一些常用命令.&lt;br&gt;这里罗列于此, 希望对您有所帮助, 更多关于开发, 运维, 以及产品方面的文章请访问&lt;a href=&quot;https://pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;, 该博客空间中涉及到的技术都是鹏叔在开发与维护网站过程中总结出来的.&lt;/p&gt;</summary>
     
     
     
@@ -2748,7 +2748,7 @@
     <link href="https://pengtech.net/product/buyer_decision_process.html"/>
     <id>https://pengtech.net/product/buyer_decision_process.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
@@ -2793,7 +2793,7 @@
     <link href="https://pengtech.net/sass/tailwindcss_tutorial.html"/>
     <id>https://pengtech.net/sass/tailwindcss_tutorial.html</id>
     <published>2023-07-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tailwind 是一个基于 Atomic&amp;#x2F;Utility-First 规范 CSS 框架，提供了基础的工具类 utility classes（如：内边距 padding、字体 text 和 font、动画 transition 等预设类），能直接在脚本标记语言中组合起来，构建出您想要的设计。&lt;/p&gt;
@@ -2825,7 +2825,7 @@
     <link href="https://pengtech.net/product/baidu_analytics.html"/>
     <id>https://pengtech.net/product/baidu_analytics.html</id>
     <published>2023-07-06T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;百度统计是全球领先的中文网站流量分析平台，帮助企业收集网站访问数据，提供流量趋势、来源分析、转化跟踪、页面热力图、访问流等多种统计分析服务，同时与百度搜索、百度推广、云服务无缝结合，为网站的精细化运营决策提供数据支持，进而有效提高企业的投资回报率。&lt;/p&gt;</summary>
@@ -2848,7 +2848,7 @@
     <link href="https://pengtech.net/angular/angular_upgrade_13_to_15.html"/>
     <id>https://pengtech.net/angular/angular_upgrade_13_to_15.html</id>
     <published>2023-06-27T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;升级应用程序或者框架是软件生命周期中非常重要的一项活动. 因为其有风险性, 很多人不愿意去做, 久而久之随着技术债务的积累变成了一件不能去做的事情.&lt;/p&gt;
@@ -2874,7 +2874,7 @@
     <link href="https://pengtech.net/angular/angular_migrate_to_mdc.html"/>
     <id>https://pengtech.net/angular/angular_migrate_to_mdc.html</id>
     <published>2023-06-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在 Angular Material v15 中，许多组件已基于官方的 Web Material Design Components (MDC) 进行了重构。 以下导入的组件已被重构：&lt;/p&gt;</summary>
@@ -2901,7 +2901,7 @@
     <link href="https://pengtech.net/angular/angular_with_tailwind.html"/>
     <id>https://pengtech.net/angular/angular_with_tailwind.html</id>
     <published>2023-06-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -2944,7 +2944,7 @@
     <link href="https://pengtech.net/sass/tailwind_migration.html"/>
     <id>https://pengtech.net/sass/tailwind_migration.html</id>
     <published>2023-06-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;根据flex-layout官方宣告, @angular&amp;#x2F;flex-layout当前(2023-06-25)处于deprecated状态. 替代方案为Tailwind或者Angular CDK.&lt;/p&gt;
@@ -2970,7 +2970,7 @@
     <link href="https://pengtech.net/nodejs/npm_debug.html"/>
     <id>https://pengtech.net/nodejs/npm_debug.html</id>
     <published>2023-06-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.277Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</summary>
@@ -2991,7 +2991,7 @@
     <link href="https://pengtech.net/nodejs/npm_run_debug.html"/>
     <id>https://pengtech.net/nodejs/npm_run_debug.html</id>
     <published>2023-06-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.277Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</summary>
@@ -3012,7 +3012,7 @@
     <link href="https://pengtech.net/angular/server_side_pagination.html"/>
     <id>https://pengtech.net/angular/server_side_pagination.html</id>
     <published>2023-06-17T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.387Z</updated>
+    <updated>2024-08-06T10:05:40.338Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在上一篇文章中，我们学习了如何使用 Angular 添加客户端分页。mat-tablemat-paginator&lt;/p&gt;
@@ -3039,7 +3039,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-08-02T03:27:23.963Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -3058,7 +3058,7 @@
     <link href="https://pengtech.net/wordpress/install_buddypress.html"/>
     <id>https://pengtech.net/wordpress/install_buddypress.html</id>
     <published>2023-05-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.400Z</updated>
+    <updated>2024-08-06T10:14:45.660Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;当前环境说明:&lt;/p&gt;
@@ -3123,7 +3123,7 @@
     <link href="https://pengtech.net/angular/angular_service_worker_introduction.html"/>
     <id>https://pengtech.net/angular/angular_service_worker_introduction.html</id>
     <published>2023-05-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Service Worker 增强了传统的 Web 部署模型，并使应用程序能够提供与 Native application 相当的可靠性,性能和用户体验。将服务工作进程添加到 Angular 应用程序是将应用程序转换为渐进式 Web 应用程序（也称为 PWA）的步骤之一。&lt;/p&gt;
@@ -3150,7 +3150,7 @@
     <link href="https://pengtech.net/angular/service_workers_and_pwa.html"/>
     <id>https://pengtech.net/angular/service_workers_and_pwa.html</id>
     <published>2023-05-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.387Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文向你介绍什么是 PWA, 以及如何在 Angular 项目中启用 PWA。然后使用一个示例向您展示一个正在运行的 service worker，演示如何加载和如何在客户端缓存数据。&lt;/p&gt;</summary>
@@ -3193,7 +3193,7 @@
     <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
     <id>https://pengtech.net/nginx/nginx_config_https.html</id>
     <published>2023-05-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
@@ -3258,7 +3258,7 @@
     <link href="https://pengtech.net/angular/consideration_on_angular_universal.html"/>
     <id>https://pengtech.net/angular/consideration_on_angular_universal.html</id>
     <published>2023-05-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.387Z</updated>
+    <updated>2024-08-06T10:05:40.338Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;尽管 Angular Universal 项目的目标是能够在服务器上无缝渲染 Angular 应用程序，但您应该考虑一些不一致之处。首先，服务器和浏览器环境之间存在明显的差异。在服务器上渲染时，应用程序处于短暂或“快照”状态。应用程序被完全渲染一次，返回完整的 HTML，而整个过程中的产生的状态被销毁，直到下一次渲染开始, 再重新计算这些状态。接下来，服务器环境本质上不具有与浏览器相同的功能（也有可能服务器拥有而浏览器没有的功能）。例如，服务器没有任何 cookie 的概念。您可以将此功能和其他功能 polyfill，但没有完美的解决方案来弥合这种差异。在后面的部分中，我们将介绍潜在的缓解措施，以减少在服务器上渲染时的错误机会。&lt;br&gt;还请注意 SSR 的目标：提高应用程序的初始渲染时间。这意味着，应该避免或充分防范任何可能在初始渲染中降低应用程序速度的情况。同样，我们将在后面的部分中回顾如何实现这一点。&lt;/p&gt;</summary>
@@ -3281,7 +3281,7 @@
     <link href="https://pengtech.net/angular/angular_universal.html"/>
     <id>https://pengtech.net/angular/angular_universal.html</id>
     <published>2023-05-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.393Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -3345,7 +3345,7 @@
     <link href="https://pengtech.net/network/frp_install.html"/>
     <id>https://pengtech.net/network/frp_install.html</id>
     <published>2023-05-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;frp 是一个开源、简洁易用、高性能的内网穿透和反向代理软件，支持 tcp, udp, http, https等协议。frp 项目官网是 &lt;a href=&quot;https://github.com/fatedier/frp&quot;&gt;https://github.com/fatedier/frp&lt;/a&gt;&lt;/p&gt;
@@ -3443,7 +3443,7 @@
     <link href="https://pengtech.net/linux/msys2_installation.html"/>
     <id>https://pengtech.net/linux/msys2_installation.html</id>
     <published>2023-04-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;之前一直是使用的Cygwin作为命令行终端, 后来好像是因为Cygwin上的git不兼容还是什么原因, 具体记不太清了, 就安装了git for windows后来终端也就切换到了git bash, 使用了很长一段时间, 后面发现git for window安装不了额外的软件, 使用完整的Linux命令行都是在虚拟机上完成的, 也就一直这样别扭的用着. 今天发现一个可用在windows上使用bash并可以安装额外软件包的方法,特地写文章纪念一下.&lt;/p&gt;</summary>
@@ -3464,7 +3464,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是Docker容器？&quot;&gt;&lt;a href=&quot;#1-什么是Docker容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Docker容器？&quot;&gt;&lt;/a&gt;1. 什么是Docker容器？&lt;/h2&gt;&lt;p&gt;Docker是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行Linux或Windows等系统的服务器上。相较于传统虚拟机，Docker容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
@@ -3510,7 +3510,7 @@
     <link href="https://pengtech.net/network/Internal_network_penetration.html"/>
     <id>https://pengtech.net/network/Internal_network_penetration.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WireGuard 是由 Jason Donenfeld 等人用 C 语言编写的一个开源 威屁恩 协议，被视为下一代 威屁恩 协议，旨在解决许多困扰 IPSec&amp;#x2F;IKEv2、Open威屁恩 或 L2TP 等其他 威屁恩 协议的问题。它与 Tinc 和 MeshBird 等现代 威屁恩 产品有一些相似之处，即加密技术先进、配置简单。从 2020 年 1 月开始，它已经并入了 Linux 内核的 5.6 版本，这意味着大多数 Linux 发行版的用户将拥有一个开箱即用的 WireGuard。&lt;/p&gt;</summary>
@@ -3533,7 +3533,7 @@
     <link href="https://pengtech.net/product/how_to_build_an_app.html"/>
     <id>https://pengtech.net/product/how_to_build_an_app.html</id>
     <published>2023-04-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-译者序&quot;&gt;&lt;a href=&quot;#1-译者序&quot; class=&quot;headerlink&quot; title=&quot;1. 译者序&quot;&gt;&lt;/a&gt;1. 译者序&lt;/h2&gt;&lt;p&gt;这是一篇很好的关于从零开始创建App的建议的文章, 作者的结构和思路非常清晰, 一个很好的关于创建App的结构性的建议文章. 所以我们将其翻译成中文, 期望读者能进一步以此为蓝本将创建App的想法,思路,建议丰富起来. 同时这也是我们后续编写关于创建app建议文章的蓝本.&lt;/p&gt;
@@ -3573,7 +3573,7 @@
     <link href="https://pengtech.net/angular/angular_editor.html"/>
     <id>https://pengtech.net/angular/angular_editor.html</id>
     <published>2023-04-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.396Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于需要一个富文本编辑器来编辑一些网页内容, 手动编辑后存储到数据库比较麻烦, 所以着手实现一个自己的富文本编辑器, 来编辑和存储一些 html 文件.&lt;br&gt;这里使用 Angular 框架, 加 Quill 库实现.&lt;/p&gt;
@@ -3597,7 +3597,7 @@
     <link href="https://pengtech.net/angular/angular_injectable_decorator.html"/>
     <id>https://pengtech.net/angular/angular_injectable_decorator.html</id>
     <published>2023-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.395Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文将使用@Injectable 装饰器创建 Angular 服务。Angular 服务是可注入的，注入器可以将其注入到我们 Angular 应用程序中的任何组件或服务中。@Injectable 装饰器在类级别的服务中使用。@Injectable 装饰器帮助注入器考虑可注入的服务。在应用程序模块中的@NgModule 装饰器的提供者元数据中配置我们的服务后，该服务将在整个应用范围内可用。&lt;/p&gt;
@@ -3622,7 +3622,7 @@
     <link href="https://pengtech.net/vmware/vmware_configuration.html"/>
     <id>https://pengtech.net/vmware/vmware_configuration.html</id>
     <published>2023-04-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这篇文章主要用来收集VMWare ESXi的一些配置步骤.&lt;/p&gt;
@@ -3648,7 +3648,7 @@
     <link href="https://pengtech.net/product/help_system_design2.html"/>
     <id>https://pengtech.net/product/help_system_design2.html</id>
     <published>2023-03-16T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-网站帮助中心的作用&quot;&gt;&lt;a href=&quot;#1-网站帮助中心的作用&quot; class=&quot;headerlink&quot; title=&quot;1. 网站帮助中心的作用&quot;&gt;&lt;/a&gt;1. 网站帮助中心的作用&lt;/h2&gt;&lt;ul&gt;
@@ -3727,7 +3727,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_plantuml_integration.html"/>
     <id>https://pengtech.net/gitlab/gitlab_plantuml_integration.html</id>
     <published>2023-02-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.438Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-摘要&quot;&gt;&lt;a href=&quot;#1-摘要&quot; class=&quot;headerlink&quot; title=&quot;1. 摘要&quot;&gt;&lt;/a&gt;1. 摘要&lt;/h2&gt;&lt;p&gt;本文提供了将PlantUML与GitLab集成的逐步指南。它涵盖了从配置PlantUML服务器到在GitLab中启用它的所有内容，并包括代码块以说明必要的命令。通过遵循本指南，您将能够使用PlantUML在GitLab snips、wikis和代码库中创建图表。&lt;/p&gt;</summary>
@@ -3748,12 +3748,12 @@
     <link href="https://pengtech.net/database/db_migrations.html"/>
     <id>https://pengtech.net/database/db_migrations.html</id>
     <published>2023-01-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这段时间在进行 Mysql 到 PostgreSQL 数据库迁移工作.&lt;/p&gt;
 &lt;p&gt;主要包含三部分工作, 其一是构建数据库对象, 包括表, 视图, 存储过程的构建, 这部分由于我在项目早期就引入了 liquibase, 所以迁移工作很简单, 所以没有总结文章.&lt;/p&gt;
-&lt;p&gt;其二是代码修改, 让代码适配新的数据库, 这部分已经总结发布到了&lt;a href=&quot;https://www.pengtech.net/database/migrate_to_postgressql_from_mariadb.html&quot;&gt;鹏叔的技术博客 - 从 Mariadb 迁移到 postgresql&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;其二是代码修改, 让代码适配新的数据库, 这部分已经总结发布到了&lt;a href=&quot;https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html&quot;&gt;鹏叔的技术博客 - 从 Mariadb 迁移到 postgresql&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;其三是数据迁移, 数据迁移也有一些现成的工具, 但是配置起来比较麻烦, 工具比想象中的复杂太多, 用起来也不是太顺手, 与其花时间在熟悉一次性的工具上, 不如自己写一个迁移工具. 于是就有了这篇文章.&lt;/p&gt;</summary>
     
     
@@ -3774,10 +3774,10 @@
     <link href="https://pengtech.net/java/websocket_java_client.html"/>
     <id>https://pengtech.net/java/websocket_java_client.html</id>
     <published>2023-01-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在上篇文章&lt;a href=&quot;https://www.pengtech.net/java/spring_websocket.html&quot;&gt;java实现websocket的五种方式&lt;/a&gt;, 我详细讲述了使用java实现websocket的五种方式.&lt;br&gt;五种方式都集中在服务器端的实现, 客户端我们使用的是一个在线测试工具进行测试的. 只有针对stomp这种方式我自己写了一个javascript版本的客户端. 但是随着项目的推进, 发现整个体系就像魔方或拼图一样, 在完整体系中还缺少了一块, 那就是java客户端去连接stomp websocket服务. 其作用是,在服务器端主动向客户端发送消息时, 通过stomp客户端连接stomp websocket服务, 将消息发布到某个topic, 最终被订阅消息的前端页面接收到. 三者之间的关系 java client -&amp;gt; stomp websocket服务 -&amp;gt; 前端页面. 采用的是消息订阅模式, 消息订阅并不是pull, 实际是push.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在上篇文章&lt;a href=&quot;https://pengtech.net/java/spring_websocket.html&quot;&gt;java实现websocket的五种方式&lt;/a&gt;, 我详细讲述了使用java实现websocket的五种方式.&lt;br&gt;五种方式都集中在服务器端的实现, 客户端我们使用的是一个在线测试工具进行测试的. 只有针对stomp这种方式我自己写了一个javascript版本的客户端. 但是随着项目的推进, 发现整个体系就像魔方或拼图一样, 在完整体系中还缺少了一块, 那就是java客户端去连接stomp websocket服务. 其作用是,在服务器端主动向客户端发送消息时, 通过stomp客户端连接stomp websocket服务, 将消息发布到某个topic, 最终被订阅消息的前端页面接收到. 三者之间的关系 java client -&amp;gt; stomp websocket服务 -&amp;gt; 前端页面. 采用的是消息订阅模式, 消息订阅并不是pull, 实际是push.&lt;/p&gt;</summary>
     
     
     
@@ -3799,7 +3799,7 @@
     <link href="https://pengtech.net/windows/windows_prog_autostart.html"/>
     <id>https://pengtech.net/windows/windows_prog_autostart.html</id>
     <published>2023-01-14T16:00:00.000Z</published>
-    <updated>2024-08-04T03:20:05.138Z</updated>
+    <updated>2024-08-06T10:05:40.445Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;把程序设置为开机自启或取消一些开机自选项, 对我个人来说是一个很重要的功能, 因为它能提高我的专注力. 很多时候, 我们容易被一些琐碎的事情给诱惑.&lt;br&gt;不知道大家有没有仔细观察或回味自己使用电脑的习惯.&lt;/p&gt;
@@ -3824,7 +3824,7 @@
     <link href="https://pengtech.net/java/how_to_get_columns_by_table_name.html"/>
     <id>https://pengtech.net/java/how_to_get_columns_by_table_name.html</id>
     <published>2023-01-12T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;通常情况下, 如果想写一些比较通用的应用程序, 我们需要通过表名去了解整个表的情况, 才能编写一些比较通用的数据库工具.&lt;br&gt;通过表名获取字段名有多种方式:&lt;/p&gt;
@@ -3852,7 +3852,7 @@
     <link href="https://pengtech.net/java/spring_websocket.html"/>
     <id>https://pengtech.net/java/spring_websocket.html</id>
     <published>2022-12-31T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WebSocket 是 HTML5 一种新的协议。它实现了浏览器与服务器全双工通信，能更好的节省服务器资源和带宽并达到实时通讯，它建立在 TCP 之上.&lt;/p&gt;
@@ -3878,7 +3878,7 @@
     <link href="https://pengtech.net/angular/integrate_springboot_angular_using_gradle.html"/>
     <id>https://pengtech.net/angular/integrate_springboot_angular_using_gradle.html</id>
     <published>2022-12-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.387Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -3922,7 +3922,7 @@
     <link href="https://pengtech.net/windows/cmder_install_configuration.html"/>
     <id>https://pengtech.net/windows/cmder_install_configuration.html</id>
     <published>2022-12-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.400Z</updated>
+    <updated>2024-08-06T10:05:40.445Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;相信很多开发者都在寻找一款在Windows下理想的命令行工具, 因为Windows10包括10之前自带的命令行工具真的是弱爆了, 而且它20多年都不曾经发生过太大的改变. 这种状况在应用软件快速发展的时代对很多人来说是不能忍受的, 即使在Windows 11中自带了一个叫terminal的工具, 虽然很强大但是我仍然没有打算使用它, 请容许我大胆的臆测一下它, 可能是因为WSL推出后微软实在觉得之前命令行工具太过简陋, 然后推出了Windows Powershell, 但是powershell还是难堪大任, 于是模仿市面上流行的终端推出了, terminal这样一款命令行工具. 至于之后会不会跟CMD一样数十年不再改进? 需要打一个大大的问号.&lt;/p&gt;</summary>
@@ -3970,7 +3970,7 @@
     <link href="https://pengtech.net/java/how_to_create_springBoot_proj.html"/>
     <id>https://pengtech.net/java/how_to_create_springBoot_proj.html</id>
     <published>2022-12-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;在本文中，您将学习如何创建一个简单的Spring Boot应用程序，以及您需要哪些依赖项和技术需要了解。&lt;br&gt;此外，我们将更深入地了解基本原理。我将解释一些最关键的工作机制，如果你想成为一名专业开发人员，你需要了解这些机制。&lt;/p&gt;
@@ -4001,7 +4001,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide.html"/>
     <id>https://pengtech.net/vscode/cloud_ide.html</id>
     <published>2022-12-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;如果手头上有多个设备，需要经常轮换着使用，又或者经常出门不想带太沉的笔记本电脑，想随时随地写代码，Web IDE 可以帮到你。&lt;/p&gt;
@@ -4050,7 +4050,7 @@
     <link href="https://pengtech.net/database/postgresql_advanced.html"/>
     <id>https://pengtech.net/database/postgresql_advanced.html</id>
     <published>2022-12-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</summary>
@@ -4096,7 +4096,7 @@
     <link href="https://pengtech.net/rust/install_rust_on_windows.html"/>
     <id>https://pengtech.net/rust/install_rust_on_windows.html</id>
     <published>2022-11-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装-rust&quot;&gt;&lt;a href=&quot;#1-安装-rust&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 rust&quot;&gt;&lt;/a&gt;1. 安装 rust&lt;/h2&gt;&lt;ul&gt;
@@ -4139,7 +4139,7 @@
     <link href="https://pengtech.net/rust/vscode_rust_ide.html"/>
     <id>https://pengtech.net/rust/vscode_rust_ide.html</id>
     <published>2022-11-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
       
@@ -4269,7 +4269,7 @@
     <link href="https://pengtech.net/angular/angular_sweetalert2.html"/>
     <id>https://pengtech.net/angular/angular_sweetalert2.html</id>
     <published>2022-10-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.338Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在本教程中，我们将学习如何在 angular 14 应用程序中使用 sweetalert2 来显示 sweetalert 弹出消息。&lt;/p&gt;</summary>
@@ -4337,7 +4337,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_ee_crack.html"/>
     <id>https://pengtech.net/gitlab/gitlab_ee_crack.html</id>
     <published>2022-10-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.438Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -4359,7 +4359,7 @@
 &lt;li&gt;需要安装gitlab-ee 企业版&lt;/li&gt;
 &lt;li&gt;需要安装Ruby环境&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;2-安装gitlab-ee企业版&quot;&gt;&lt;a href=&quot;#2-安装gitlab-ee企业版&quot; class=&quot;headerlink&quot; title=&quot;2. 安装gitlab-ee企业版&quot;&gt;&lt;/a&gt;2. 安装gitlab-ee企业版&lt;/h2&gt;&lt;p&gt;关于如何安装配置gitlab-ee可以参考我的文章 &lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html&quot;&gt;鹏叔的技术博客 - gitlab安装升级及迁移&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-安装gitlab-ee企业版&quot;&gt;&lt;a href=&quot;#2-安装gitlab-ee企业版&quot; class=&quot;headerlink&quot; title=&quot;2. 安装gitlab-ee企业版&quot;&gt;&lt;/a&gt;2. 安装gitlab-ee企业版&lt;/h2&gt;&lt;p&gt;关于如何安装配置gitlab-ee可以参考我的文章 &lt;a href=&quot;https://pengtech.net/gitlab/gitlab_installation_upgrade.html&quot;&gt;鹏叔的技术博客 - gitlab安装升级及迁移&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;3-环境说明&quot;&gt;&lt;a href=&quot;#3-环境说明&quot; class=&quot;headerlink&quot; title=&quot;3. 环境说明&quot;&gt;&lt;/a&gt;3. 环境说明&lt;/h2&gt;&lt;p&gt;当前我的gitlab版本及环境如下:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;操作系统版本: Centos 7.9&lt;/p&gt;
@@ -4382,7 +4382,7 @@
     <link href="https://pengtech.net/product/help_system_design.html"/>
     <id>https://pengtech.net/product/help_system_design.html</id>
     <published>2022-09-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;网站设计师应将每一位访问我们网站的用户视为潜在的新用户，为他们提供足够的指导和指南，以完成他们的任务并熟悉网站。几乎所有类型的网站都必须帮助用户，但方式不同。网站的类型将决定您应该提供的帮助系统的类型。&lt;br&gt;此外，帮助系统的有效性直接关系到网站设计的质量。一个设计不好的帮助系统——无论其内容多么好——都会带来劣质的用户体验。在本文中，我们将通过示例研究设计有效帮助页面的一些方法，这些方法可能会启发您的工作。&lt;/p&gt;</summary>
@@ -4403,7 +4403,7 @@
     <link href="https://pengtech.net/material/material_typeahead.html"/>
     <id>https://pengtech.net/material/material_typeahead.html</id>
     <published>2022-08-23T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;项目中需要一个输入提示框, 之前是使用ng-bootstrap实现的. 但是由于系统框架完全迁移到了material design. 所以所有bootstrap的依赖项都要迁移到angular material design.&lt;/p&gt;
@@ -4428,7 +4428,7 @@
     <link href="https://pengtech.net/material/typography.html"/>
     <id>https://pengtech.net/material/typography.html</id>
     <published>2022-07-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-文字系统-（The-type-system）&quot;&gt;&lt;a href=&quot;#1-文字系统-（The-type-system）&quot; class=&quot;headerlink&quot; title=&quot;1. 文字系统 （The type system）&quot;&gt;&lt;/a&gt;1. 文字系统 （The type system）&lt;/h2&gt;&lt;p&gt;使用排版尽可能清晰有效地呈现您的设计和内容。&lt;/p&gt;</summary>
@@ -4474,7 +4474,7 @@
     <link href="https://pengtech.net/angular/angular_flex_layout.html"/>
     <id>https://pengtech.net/angular/angular_flex_layout.html</id>
     <published>2022-06-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.384Z</updated>
+    <updated>2024-08-06T10:05:40.396Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;h3 id=&quot;1-1-update-on-5th-Apr-2023&quot;&gt;&lt;a href=&quot;#1-1-update-on-5th-Apr-2023&quot; class=&quot;headerlink&quot; title=&quot;1.1. update on 5th&amp;#x2F;Apr&amp;#x2F;2023&quot;&gt;&lt;/a&gt;1.1. update on 5th&amp;#x2F;Apr&amp;#x2F;2023&lt;/h3&gt;&lt;p&gt;根据 flex-layout 官方宣告, @angular&amp;#x2F;flex-layout 当前处于 deprecated 状态. 替代方案为 Tailwindcss 或者 Angular CDK.&lt;/p&gt;
@@ -4514,7 +4514,7 @@
     <link href="https://pengtech.net/angular/angular_material_design.html"/>
     <id>https://pengtech.net/angular/angular_material_design.html</id>
     <published>2022-05-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
@@ -4540,7 +4540,7 @@
     <link href="https://pengtech.net/linux/nas_installation_on_linux.html"/>
     <id>https://pengtech.net/linux/nas_installation_on_linux.html</id>
     <published>2022-05-12T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;h3 id=&quot;1-1-网络存储技术&quot;&gt;&lt;a href=&quot;#1-1-网络存储技术&quot; class=&quot;headerlink&quot; title=&quot;1.1. 网络存储技术&quot;&gt;&lt;/a&gt;1.1. 网络存储技术&lt;/h3&gt;&lt;p&gt;网络存储技术大概可以分为3种：&lt;/p&gt;
@@ -4573,7 +4573,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_issue_board.html"/>
     <id>https://pengtech.net/gitlab/gitlab_issue_board.html</id>
     <published>2022-05-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;构建软件和运行项目的方法有很多种。当我们开始在 GitLab 中构建产品组合和项目管理工具时，我们问自己，“您如何构建工具来支持各种工作流程，而不会因为工具本身的复杂性而陷入瘫痪？我们的结论是什么？构建更少但更灵活的工具。GitLab 的内置issue board是一个很好的例子，说明选择构建单个多功能工具可以显著降低工具维护的复杂性，同时不会限制其功能。&lt;/p&gt;
@@ -4598,7 +4598,7 @@
     <link href="https://pengtech.net/material/applying_density.html"/>
     <id>https://pengtech.net/material/applying_density.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Material设计为提高密度改善用户体验的用例提供高密度间距指导。&lt;/p&gt;</summary>
@@ -4621,7 +4621,7 @@
     <link href="https://pengtech.net/material/material_navigation.html"/>
     <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
@@ -4645,7 +4645,7 @@
     <link href="https://pengtech.net/material/material_color.html"/>
     <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
@@ -4669,7 +4669,7 @@
     <link href="https://pengtech.net/gitlab/gitlab-cicd-basic.html"/>
     <id>https://pengtech.net/gitlab/gitlab-cicd-basic.html</id>
     <published>2022-04-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.438Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Gitlab-CI-CD-基础&quot;&gt;&lt;a href=&quot;#1-Gitlab-CI-CD-基础&quot; class=&quot;headerlink&quot; title=&quot;1. Gitlab CI&amp;#x2F;CD 基础&quot;&gt;&lt;/a&gt;1. Gitlab CI&amp;#x2F;CD 基础&lt;/h2&gt;&lt;p&gt;课程主要内容&lt;/p&gt;
@@ -4695,7 +4695,7 @@
     <link href="https://pengtech.net/material/Component_behavior.html"/>
     <id>https://pengtech.net/material/Component_behavior.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本页描述组件在布局中的行为，包括与网格以及断点的关系。&lt;/p&gt;
@@ -4719,7 +4719,7 @@
     <link href="https://pengtech.net/material/Elevation.html"/>
     <id>https://pengtech.net/material/Elevation.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
@@ -4743,7 +4743,7 @@
     <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
     <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
@@ -4767,7 +4767,7 @@
     <link href="https://pengtech.net/material/Spacing_methods.html"/>
     <id>https://pengtech.net/material/Spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
@@ -4790,7 +4790,7 @@
     <link href="https://pengtech.net/material/introduction.html"/>
     <id>https://pengtech.net/material/introduction.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:01:47.270Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
@@ -4820,7 +4820,7 @@
     <link href="https://pengtech.net/material/layout.html"/>
     <id>https://pengtech.net/material/layout.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-理解layout&quot;&gt;&lt;a href=&quot;#1-理解layout&quot; class=&quot;headerlink&quot; title=&quot;1. 理解layout&quot;&gt;&lt;/a&gt;1. 理解layout&lt;/h2&gt;&lt;p&gt;material设计布局使用统一的元素和间距，以鼓励在多种平台、环境和屏幕尺寸之间的一致性。&lt;/p&gt;
@@ -4851,7 +4851,7 @@
     <link href="https://pengtech.net/material/light_shadow.html"/>
     <id>https://pengtech.net/material/light_shadow.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
@@ -4875,7 +4875,7 @@
     <link href="https://pengtech.net/material/pixel_density.html"/>
     <id>https://pengtech.net/material/pixel_density.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-像素密度-Pixel-Density&quot;&gt;&lt;a href=&quot;#1-像素密度-Pixel-Density&quot; class=&quot;headerlink&quot; title=&quot;1. 像素密度(Pixel Density)&quot;&gt;&lt;/a&gt;1. 像素密度(Pixel Density)&lt;/h2&gt;&lt;p&gt;一英寸屏幕上存在的像素数称为像素密度。&lt;/p&gt;
@@ -4900,7 +4900,7 @@
     <link href="https://pengtech.net/material/surfaces.html"/>
     <id>https://pengtech.net/material/surfaces.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.394Z</updated>
+    <updated>2024-08-06T10:05:40.584Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Material-Surfaces&quot;&gt;&lt;a href=&quot;#1-Material-Surfaces&quot; class=&quot;headerlink&quot; title=&quot;1. Material Surfaces&quot;&gt;&lt;/a&gt;1. Material Surfaces&lt;/h2&gt;&lt;p&gt;Material设计具有三个维度的特质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。&lt;/p&gt;
@@ -4946,7 +4946,7 @@
     <link href="https://pengtech.net/angular/angular2_auth.html"/>
     <id>https://pengtech.net/angular/angular2_auth.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;一个网站，通常都会包含公开页面和受保护页面两种，如果是 OA 或者企业应用网站，甚至可能全部都是保护页面，访问者需要在进行身份认证后，才能正常的浏览相关页面。&lt;/p&gt;
@@ -4970,7 +4970,7 @@
     <link href="https://pengtech.net/angular/angular2_guard.html"/>
     <id>https://pengtech.net/angular/angular2_guard.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我们在开发 web 应用时，在服务器端都会控制某种或某个用户是否有权限调用某个接口。在前端，我们除了根据用户的角色或其他特性来控制一些页面元素是否显示以外，也需要控制用户是否能够进入某些页面（例如通过直接输入 URL 的方式直接进入）。要控制是否显示，我们可以使用 *ngIf 、 [hidden] 等方式。而对于控制用户能否进入某个页面，Angular2 的路由框架也提供了非常方便的方式来实现这个功能。&lt;/p&gt;
@@ -4994,7 +4994,7 @@
     <link href="https://pengtech.net/angular/angular2_ngmodule.html"/>
     <id>https://pengtech.net/angular/angular2_ngmodule.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我们今天要学习的是 Angular2 的模块系统,一般情况下我们使用一个根模块去启动我们的应用,然后使用许多的功能模块去丰富我们的应用,扩展我们应用的功能.这些全部依靠我们的 NgModule 装饰器,接下来我们就来好好学习一下这个装饰器. 当然在这个过程中你会遇到一些新的指令,概念等等;但是别慌,我们会在以后的文章中一个一个的详细讲解呢.&lt;/p&gt;</summary>
@@ -5017,35 +5017,10 @@
     <link href="https://pengtech.net/angular/angular_JIT_AOT.html"/>
     <id>https://pengtech.net/angular/angular_JIT_AOT.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文会聊聊 JIT 与 AOT 之间的区别，及前端框架中 AOT 的应用。Angular 同时提供这两种编译方案，下面我们用 Angular 举例说明两者的区别。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Angular platform是什么?</title>
-    <link href="https://pengtech.net/angular/angular_platforms.html"/>
-    <id>https://pengtech.net/angular/angular_platforms.html</id>
-    <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
     
     
     
@@ -5065,7 +5040,7 @@
     <link href="https://pengtech.net/angular/angular_platformBrowserDynamic.html"/>
     <id>https://pengtech.net/angular/angular_platformBrowserDynamic.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.385Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
@@ -5086,11 +5061,36 @@
   </entry>
   
   <entry>
+    <title>Angular platform是什么?</title>
+    <link href="https://pengtech.net/angular/angular_platforms.html"/>
+    <id>https://pengtech.net/angular/angular_platforms.html</id>
+    <published>2022-04-02T16:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.317Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Angular如何配置多套环境</title>
     <link href="https://pengtech.net/angular/angular_setup_multiple_envs.html"/>
     <id>https://pengtech.net/angular/angular_setup_multiple_envs.html</id>
     <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.386Z</updated>
+    <updated>2024-08-06T10:05:40.360Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在 Angular 应用程序中，默认情况下构建了两个环境文件 dev 和 prod。基于目标环境，您的应用程序可能具有不同的设置。您可以根据需要配置多个自定义环境。在这里，您将看到如何配置多个环境，如 staging、beta、QA、prod 等&lt;/p&gt;</summary>
@@ -5113,7 +5113,7 @@
     <link href="https://pengtech.net/angular/angular2_create_project.html"/>
     <id>https://pengtech.net/angular/angular2_create_project.html</id>
     <published>2022-03-12T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;本项目使用的 angular, nodejs, npm, cnpm 版本如下&lt;/p&gt;</summary>
@@ -5136,7 +5136,7 @@
     <link href="https://pengtech.net/angular/angular2_installation.html"/>
     <id>https://pengtech.net/angular/angular2_installation.html</id>
     <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Angular-介绍&quot;&gt;&lt;a href=&quot;#1-Angular-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Angular 介绍&quot;&gt;&lt;/a&gt;1. Angular 介绍&lt;/h2&gt;&lt;p&gt;关于 Angular 版本，Angular 官方已经统一命名 Angular 1.x 同一为 Angular JS；Angular 2.x 及以上统称 Angular；&lt;/p&gt;
@@ -5160,7 +5160,7 @@
     <link href="https://pengtech.net/angular/angular2_route.html"/>
     <id>https://pengtech.net/angular/angular2_route.html</id>
     <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Angular2-中的路由&quot;&gt;&lt;a href=&quot;#1-Angular2-中的路由&quot; class=&quot;headerlink&quot; title=&quot;1. Angular2 中的路由&quot;&gt;&lt;/a&gt;1. Angular2 中的路由&lt;/h2&gt;&lt;p&gt;Angular2 中建立路由的 5 个步骤.&lt;/p&gt;
@@ -5216,7 +5216,7 @@
     <link href="https://pengtech.net/ansible/ansible_install.html"/>
     <id>https://pengtech.net/ansible/ansible_install.html</id>
     <published>2022-01-26T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;Ansible是一种基于Python开发的开源配置和自动化工具，专为类Unix系统设计。它使用SSH协议与节点进行通信，无需在节点上安装任何客户端。&lt;/p&gt;</summary>
@@ -5239,7 +5239,7 @@
     <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
     <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
     <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:14:17.171Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
@@ -5263,7 +5263,7 @@
     <link href="https://pengtech.net/linux/install_virtualbox_on_fedora35.html"/>
     <id>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</id>
     <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:14:23.183Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装-virtualBox&quot;&gt;&lt;a href=&quot;#1-安装-virtualBox&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 virtualBox&quot;&gt;&lt;/a&gt;1. 安装 virtualBox&lt;/h2&gt;&lt;ol&gt;
@@ -5291,7 +5291,7 @@
     <link href="https://pengtech.net/vscode/how_to_install_vscode_on_fedora.html"/>
     <id>https://pengtech.net/vscode/how_to_install_vscode_on_fedora.html</id>
     <published>2022-01-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -5322,7 +5322,7 @@
     <link href="https://pengtech.net/angular/angular2_migration.html"/>
     <id>https://pengtech.net/angular/angular2_migration.html</id>
     <published>2021-12-31T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.383Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://angular.io/guide/upgrade#using-angularjs-component-directives-from-angular-code&quot;&gt;Upgrading from AngularJS to Angular&lt;/a&gt;&lt;/p&gt;
@@ -5372,7 +5372,7 @@
     <link href="https://pengtech.net/linux/linux_shell_ifconfig.html"/>
     <id>https://pengtech.net/linux/linux_shell_ifconfig.html</id>
     <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:14:37.676Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-ifconfig-简介&quot;&gt;&lt;a href=&quot;#1-ifconfig-简介&quot; class=&quot;headerlink&quot; title=&quot;1. ifconfig 简介&quot;&gt;&lt;/a&gt;1. ifconfig 简介&lt;/h2&gt;&lt;p&gt;用于显示或设置网络设备&lt;/p&gt;</summary>
@@ -5397,7 +5397,7 @@
     <link href="https://pengtech.net/linux/linux_shell_rsync.html"/>
     <id>https://pengtech.net/linux/linux_shell_rsync.html</id>
     <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:14:41.301Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-rsync-简介&quot;&gt;&lt;a href=&quot;#1-rsync-简介&quot; class=&quot;headerlink&quot; title=&quot;1. rsync 简介&quot;&gt;&lt;/a&gt;1. rsync 简介&lt;/h2&gt;&lt;p&gt;rsync 就是远程同步的意思remote sync.&lt;br&gt;rsync 被用在UNIX &amp;#x2F; Linux执行备份操作操作.&lt;br&gt;rsync 工具包被用来从一个位置到另一个位置高效地同步文件和文件夹. rsync可以实现在同一台机器的不同文件直接备份,也可以跨服务器备份.&lt;/p&gt;
@@ -5425,7 +5425,7 @@
     <link href="https://pengtech.net/java/how_to_debug_with_maven_cli.html"/>
     <id>https://pengtech.net/java/how_to_debug_with_maven_cli.html</id>
     <published>2021-12-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;由于 Idea 和 Maven class loading 的规则不同， 同样的测试使用 Maven 运行和使用 Idea 运行可能会得到不同的结果。 而我们的 CI(持续集成)往往是使用 maven 命令去运行的。&lt;br&gt;在此情况下， 将测试使用 maven 运行起来， 然后结合 IDEA 强大的 debug 能力就显得非常必要。如果熟练掌握此种 debug 方式， 也可以减少我们依赖 idea 进行编译，更新 index 这些极其耗时的工作。&lt;/p&gt;</summary>
@@ -5499,7 +5499,7 @@
     <link href="https://pengtech.net/git/install_setup_git_server.html"/>
     <id>https://pengtech.net/git/install_setup_git_server.html</id>
     <published>2021-12-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;br&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;br&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;br&gt;虽然git不必依赖一个中心化的仓库来工作, 但是中心化的仓库也能带来很多好处, 比如方便团队写作, 本文主要讲述, 如何配置git服务器, 让多人通过ssh协议的方式访问服务器端的代码仓库.&lt;/p&gt;</summary>
@@ -5522,7 +5522,7 @@
     <link href="https://pengtech.net/linux/Linux_FHS.html"/>
     <id>https://pengtech.net/linux/Linux_FHS.html</id>
     <published>2021-12-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:14:32.580Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-FHS是什么&quot;&gt;&lt;a href=&quot;#1-FHS是什么&quot; class=&quot;headerlink&quot; title=&quot;1. FHS是什么?&quot;&gt;&lt;/a&gt;1. FHS是什么?&lt;/h2&gt;&lt;p&gt;Filesystem Hierarchy Standard（文件系统层次化标准）的缩写，多数Linux版本采用这种文件组织形式，类似于Windows操作系统中c盘的文件目录，FHS采用树形结构组织文件。FHS定义了系统中每个区域的用途、所需要的最小构成的文件和目录，同时还给出了例外处理与矛盾处理。&lt;/p&gt;
@@ -5544,7 +5544,7 @@
     <link href="https://pengtech.net/linux/tmux.html"/>
     <id>https://pengtech.net/linux/tmux.html</id>
     <published>2021-11-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Tmux的作者&quot;&gt;&lt;a href=&quot;#1-Tmux的作者&quot; class=&quot;headerlink&quot; title=&quot;1. Tmux的作者&quot;&gt;&lt;/a&gt;1. Tmux的作者&lt;/h2&gt;&lt;p&gt;Tmux的作者是Nicholas Marriott, 网上关于Nicholas Marriott的介绍很少, 但是本人对创建如此复杂而功能强大的Tmux的开源开发者十分感兴趣, 希望知道的能补充一些关于Tmux的信息.&lt;/p&gt;
@@ -5568,7 +5568,7 @@
     <link href="https://pengtech.net/windows/cygwin-install-and-configuration.html"/>
     <id>https://pengtech.net/windows/cygwin-install-and-configuration.html</id>
     <published>2021-11-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.400Z</updated>
+    <updated>2024-08-06T10:05:40.445Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-cygwin-介绍&quot;&gt;&lt;a href=&quot;#1-cygwin-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. cygwin 介绍&quot;&gt;&lt;/a&gt;1. cygwin 介绍&lt;/h2&gt;&lt;p&gt;Cygwin 是一个在 windows 平台上运行的类 UNIX 模拟环境，是 cygnus solutions 公司开发的自由软件（该公司开发的著名工具还有 eCos，不过现已被 Redhat 收购）。它对于学习 UNIX&amp;#x2F;Linux 操作环境，或者从 UNIX 到 Windows 的应用程序移植，或者进行某些特殊的开发工作，尤其是使用 GNU 工具集在 Windows 上进行嵌入式系统开发，非常有用。随着嵌入式系统开发在国内日渐流行，越来越多的开发者对 Cygwin 产生了兴趣&lt;br&gt;Cygwin 提供一个 UNIX 模拟 DLL 以及在其上层构建的多种可以在 Linux 系统中找到的软件包，在 Windows XP SP3 以上的版本提供良好的支持。Cygwin 主要由 Red Hat 及其下属社区负责维护。&lt;/p&gt;</summary>
@@ -5587,7 +5587,7 @@
     <link href="https://pengtech.net/linux/linux-expect-explanation.html"/>
     <id>https://pengtech.net/linux/linux-expect-explanation.html</id>
     <published>2021-11-08T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Expect简介&quot;&gt;&lt;a href=&quot;#1-Expect简介&quot; class=&quot;headerlink&quot; title=&quot;1. Expect简介&quot;&gt;&lt;/a&gt;1. Expect简介&lt;/h2&gt;&lt;ul&gt;
@@ -5611,7 +5611,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_installation_upgrade.html"/>
     <id>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</id>
     <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.438Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -5661,7 +5661,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_installation.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_installation.html</id>
     <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装前准备工作&quot;&gt;&lt;a href=&quot;#1-安装前准备工作&quot; class=&quot;headerlink&quot; title=&quot;1. 安装前准备工作&quot;&gt;&lt;/a&gt;1. 安装前准备工作&lt;/h2&gt;&lt;h3 id=&quot;1-1-配置yum源&quot;&gt;&lt;a href=&quot;#1-1-配置yum源&quot; class=&quot;headerlink&quot; title=&quot;1.1. 配置yum源&quot;&gt;&lt;/a&gt;1.1. 配置yum源&lt;/h3&gt;&lt;p&gt;网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-runner已经到14.4.0了，在其&lt;a href=&quot;https://gitlab.com/gitlab-org/gitlab-runner&quot;&gt;gitliab仓库&lt;/a&gt;上已经说明 Project ‘gitlab-org&amp;#x2F;gitlab-ci-multi-runner’ was moved to ‘gitlab-org&amp;#x2F;gitlab-runner’. Please update any links and bookmarks that may still have the old path.&lt;br&gt;关于gitlab-runner与gitlab的兼容性原则，gitlab和gitlab-runner在主版本和小版本(major.minor)保持同步，具有相同主版本和小版本号的gitlab和gitlab-runner兼容性最好, 较老的runner可能可以兼容比較新的gitlab,反之亦然，但是不能完全保证．详情请参考&lt;a href=&quot;https://docs.gitlab.com/runner/#compatibility-with-gitlab-versions&quot;&gt;官网关于兼容性原文&lt;/a&gt;&lt;/p&gt;</summary>
@@ -5703,7 +5703,7 @@
     <link href="https://pengtech.net/hexo/hexo_mermaid_plugin.html"/>
     <id>https://pengtech.net/hexo/hexo_mermaid_plugin.html</id>
     <published>2021-11-01T16:00:00.000Z</published>
-    <updated>2024-07-13T04:29:38.515Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-mermaid简介&quot;&gt;&lt;a href=&quot;#1-mermaid简介&quot; class=&quot;headerlink&quot; title=&quot;1. mermaid简介&quot;&gt;&lt;/a&gt;1. mermaid简介&lt;/h2&gt;&lt;p&gt;mermaid(美人鱼)是一种基于文本的格式生成图表和流程图的工具，是markdown文本很好的补充。&lt;br&gt;可以生成各种图表，其中包括流程图, 时序图, 甘特图等等．&lt;/p&gt;</summary>
@@ -5745,7 +5745,7 @@
     <link href="https://pengtech.net/hexo/hexo_cli.html"/>
     <id>https://pengtech.net/hexo/hexo_cli.html</id>
     <published>2021-10-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</summary>
@@ -5789,7 +5789,7 @@
     <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
     <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
@@ -5898,7 +5898,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-08-02T11:04:30.028Z</updated>
+    <updated>2024-08-06T10:07:51.907Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
@@ -5987,10 +5987,10 @@
     <link href="https://pengtech.net/web/web_basic_1.html"/>
     <id>https://pengtech.net/web/web_basic_1.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-08-05T07:50:44.646Z</updated>
+    <updated>2024-08-06T10:05:40.316Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://www.pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
 &lt;p&gt;编者: &lt;a href=&quot;https://philoenglish.com/&quot;&gt;菲利英语&lt;/a&gt;团队&lt;/p&gt;</summary>
     
     
@@ -6006,9 +6006,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6084,11 +6084,11 @@
     <link href="https://pengtech.net/vscode/vscode_install_and_config.html"/>
     <id>https://pengtech.net/vscode/vscode_install_and_config.html</id>
     <published>2021-10-13T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;vscode 可以做很多事, 是真正的生产力工具, 但是如何将其配置得好用, 并符合自己的使用习惯, 却是很复杂的一件事. 它的默认模式就像一辆自动挡的汽车, 不做任何改动也能开着上路, 如果想压榨一下它的生产力, 还是要懂得一些配置相关的知识或技巧.&lt;/p&gt;
-&lt;p&gt;若需获取最近更新请访问原文, 原文位于&lt;a href=&quot;https://www.pengtech.net/vscode/vscode_install_and_config.html&quot;&gt;鹏叔的技术博客 - vscode 基本配置指南&lt;/a&gt;.&lt;/p&gt;</summary>
+&lt;p&gt;若需获取最近更新请访问原文, 原文位于&lt;a href=&quot;https://pengtech.net/vscode/vscode_install_and_config.html&quot;&gt;鹏叔的技术博客 - vscode 基本配置指南&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
@@ -6106,7 +6106,7 @@
     <link href="https://pengtech.net/java/jdk17_installation.html"/>
     <id>https://pengtech.net/java/jdk17_installation.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
@@ -6128,7 +6128,7 @@
     <link href="https://pengtech.net/k8s/setup_k8s_cluster.html"/>
     <id>https://pengtech.net/k8s/setup_k8s_cluster.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</summary>
@@ -6149,7 +6149,7 @@
     <link href="https://pengtech.net/linux/linux_connect_wifi.html"/>
     <id>https://pengtech.net/linux/linux_connect_wifi.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-08-06T10:14:27.911Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-环境描述&quot;&gt;&lt;a href=&quot;#1-环境描述&quot; class=&quot;headerlink&quot; title=&quot;1. 环境描述&quot;&gt;&lt;/a&gt;1. 环境描述&lt;/h2&gt;&lt;ul&gt;
@@ -6173,7 +6173,7 @@
     <link href="https://pengtech.net/windows/chocolatey_installation.html"/>
     <id>https://pengtech.net/windows/chocolatey_installation.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.400Z</updated>
+    <updated>2024-08-06T10:05:40.445Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是-Chocolatey&quot;&gt;&lt;a href=&quot;#1-什么是-Chocolatey&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Chocolatey&quot;&gt;&lt;/a&gt;1. 什么是 Chocolatey&lt;/h2&gt;&lt;p&gt;Chocolatey 是一种软件管理解决方案，不同于您在 Windows 上体验过的任何解决方案。 可以这样想 - 您使用一个小 PowerShell 创建一个软件部署包，然后您可以将它部署到任何拥有 Windows 的地方（例如 Puppet、SCCM、Altiris、Connectwise Automate 等)。&lt;/p&gt;</summary>
@@ -6194,7 +6194,7 @@
     <link href="https://pengtech.net/sass/sass_notes.html"/>
     <id>https://pengtech.net/sass/sass_notes.html</id>
     <published>2021-10-07T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-sass-安装&quot;&gt;&lt;a href=&quot;#1-sass-安装&quot; class=&quot;headerlink&quot; title=&quot;1. sass 安装&quot;&gt;&lt;/a&gt;1. sass 安装&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cnpm install -g sass&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -6218,7 +6218,7 @@
     <link href="https://pengtech.net/webpack/webpack_angularjs_bootstrap.html"/>
     <id>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html</id>
     <published>2021-10-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.400Z</updated>
+    <updated>2024-08-06T10:05:40.445Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;h3 id=&quot;1-1-适用范围&quot;&gt;&lt;a href=&quot;#1-1-适用范围&quot; class=&quot;headerlink&quot; title=&quot;1.1. 适用范围&quot;&gt;&lt;/a&gt;1.1. 适用范围&lt;/h3&gt;&lt;ul&gt;
@@ -6235,9 +6235,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
@@ -6246,7 +6246,7 @@
     <link href="https://pengtech.net/nodejs/how_to_create_a_node_module.html"/>
     <id>https://pengtech.net/nodejs/how_to_create_a_node_module.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.306Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;
@@ -6270,7 +6270,7 @@
     <link href="https://pengtech.net/nodejs/how_to_publish_node_modules.html"/>
     <id>https://pengtech.net/nodejs/how_to_publish_node_modules.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.290Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本人写了一个音乐播放器程序，想把其中核心的部分发布成Nodejs模块，这样我无论是在web端，还是桌面端都能引用该核心模块，我想在web端实现一个网友播放器，桌面端利用Electron包装一下实现一个桌面版的播放器，这样同一套代码，多端就可以共用了．说干就干, 以下记录了nodejs发布的全过程．&lt;/p&gt;</summary>
@@ -6291,7 +6291,7 @@
     <link href="https://pengtech.net/nodejs/install_and_config_nodejs.html"/>
     <id>https://pengtech.net/nodejs/install_and_config_nodejs.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-04T21:02:23.364Z</updated>
+    <updated>2024-08-06T10:05:40.290Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装-nodejs&quot;&gt;&lt;a href=&quot;#1-安装-nodejs&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 nodejs&quot;&gt;&lt;/a&gt;1. 安装 nodejs&lt;/h2&gt;&lt;p&gt;Node.js 是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。&lt;/p&gt;</summary>
@@ -6312,7 +6312,7 @@
     <link href="https://pengtech.net/nodejs/upgrade_nodejs.html"/>
     <id>https://pengtech.net/nodejs/upgrade_nodejs.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-04T20:57:39.622Z</updated>
+    <updated>2024-08-06T10:05:40.277Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;要升级 Nodejs 有多种方法, 方法一重新安装新版本; 方法二, 安装 nodejs 版本管理器 例如: n 或者 nvm.&lt;/p&gt;
@@ -6334,7 +6334,7 @@
     <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.536Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
@@ -6357,7 +6357,7 @@
     <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
     <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.391Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
@@ -6379,7 +6379,7 @@
     <link href="https://pengtech.net/hexo/hexo_create_site.html"/>
     <id>https://pengtech.net/hexo/hexo_create_site.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-07-21T13:46:13.564Z</updated>
+    <updated>2024-08-06T10:05:40.493Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;
@@ -6405,7 +6405,7 @@
     <link href="https://pengtech.net/rust/rust_study.html"/>
     <id>https://pengtech.net/rust/rust_study.html</id>
     <published>2021-10-02T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.397Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-第一章-Rust简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用Rust&lt;/h3&gt;&lt;p&gt;Rust是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换C&amp;#x2F;C++, Rust和他们具有同样的性能, 但是很多常见的bug在编译时就可以被消灭.&lt;br&gt;Rust是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</summary>

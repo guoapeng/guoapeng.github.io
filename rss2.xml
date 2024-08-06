@@ -356,7 +356,7 @@
       <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
 &lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</description>
       
       
@@ -1270,7 +1270,7 @@
       
       <description>&lt;p&gt;大多数情况下我们都能够使用二进制文件安装nodejs, 各种包管理生态下, 以及各种操作系统环境下的安装方式, 在我往期的博客中都有介绍.&lt;/p&gt;
 &lt;p&gt;但是有些某些系统或环境下, 或者由于个人偏好, 还是需要通过源码安装nodejs, 那么此篇文章或许对您有帮助.&lt;/p&gt;
-&lt;p&gt;关于各种二进制文件形式安装可以参考我的博客 &lt;a href=&quot;https://www.pengtech.net/nodejs/install_and_config_nodejs.html&quot;&gt;安装并配置nodejs | 鹏叔的技术博客&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;关于各种二进制文件形式安装可以参考我的博客 &lt;a href=&quot;https://pengtech.net/nodejs/install_and_config_nodejs.html&quot;&gt;安装并配置nodejs | 鹏叔的技术博客&lt;/a&gt;&lt;/p&gt;</description>
       
       
       
@@ -2049,7 +2049,7 @@
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我为什么要写这篇文章? 计算机发展的速度太快了, 已经进入了蓬勃发展期. 但是依然看不到它的尽头, 看不清它的终极形态. 很多人都在追逐新的技术, 但是很少有人拿起笔系统的记录它的过去. 很多年以后当我们要追寻一项技术的来龙去脉的时候, 可能连它的”尸身”都找不到了.&lt;/p&gt;
 &lt;p&gt;比如说软盘驱动器（floppy disk driver）现在谁手上还保存有一张1.44MB的3.5英寸软盘, 谁电脑上还会装有软驱呢, 这在当时可是一项创新性的技术, 是便携式存储的鼻祖, 是一代人的回忆. 一张小小的软盘能装下一整套DOS操作系统, 能装下一个夏天的劳动成果. 但是现在当我想介绍存储技术的演进过程时, 不仅找不到一部软驱, 一张软盘, 就连一张合适的图片的很难找到了. 同样的命运的还有寻呼机机, 这个承载着很多人青春记忆的通信设备, 可能剩下脑海中的BiBi声了. 同样的命运的还有功能机, 早已过了手机换脸盆的淘汰期, 曾经层出不穷的款式, 不知道现在还有几款健在. 更不用说他们所依赖的生态系统, 比如基站设备, 外设装置.&lt;/p&gt;
 &lt;p&gt;站在当下这个似乎还能朦朦胧胧看到过去的时间节点, 在不费太多力气的情况下, 将不太遥远的过去记录下来, 省得后来人花费昂贵的代价去考古, 也不失为一件幸事.&lt;/p&gt;
-&lt;p&gt;为什么以编年体的形式记录这段历史? 其实这是我的某项计划的一部分, 还处于材料收集阶段, 收集计算机发展史也是我副业中的副业, 没有太多时间深入研究和系统性地整理, 只能以最简单的方式快速呈现内容, 不至于让整个计划胎死腹中(我已经有很多文章由于计划过于宏大而胎死腹中的先例了). 编年体是快速理清脉络, 呈现材料的最好方式. 它不需要花太多时间去整理去构思, 而且呈现效果也非常清晰. 另外我也非常喜欢将软件工程中的一些概念应用到写作中, 那就是小步快跑, 快速迭代; 再者就是重构. 有了足够的材料后, 我相信通过不断地重构, 不断地迭代, 能将其打造为我心中理想的样子. 所以这篇文章会是一篇不断完善的文章, 请有兴趣的朋友关注&lt;a href=&quot;https://www.pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;获取最新内容. 另外如何您有兴趣资助鹏叔的计划, &lt;a href=&quot;https://www.pengtech.net/history/computer_history_brief_timeline.html&quot;&gt;原文&lt;/a&gt;末尾有打赏功能, 请点一点, 在此表示感谢!&lt;/p&gt;</description>
+&lt;p&gt;为什么以编年体的形式记录这段历史? 其实这是我的某项计划的一部分, 还处于材料收集阶段, 收集计算机发展史也是我副业中的副业, 没有太多时间深入研究和系统性地整理, 只能以最简单的方式快速呈现内容, 不至于让整个计划胎死腹中(我已经有很多文章由于计划过于宏大而胎死腹中的先例了). 编年体是快速理清脉络, 呈现材料的最好方式. 它不需要花太多时间去整理去构思, 而且呈现效果也非常清晰. 另外我也非常喜欢将软件工程中的一些概念应用到写作中, 那就是小步快跑, 快速迭代; 再者就是重构. 有了足够的材料后, 我相信通过不断地重构, 不断地迭代, 能将其打造为我心中理想的样子. 所以这篇文章会是一篇不断完善的文章, 请有兴趣的朋友关注&lt;a href=&quot;https://pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;获取最新内容. 另外如何您有兴趣资助鹏叔的计划, &lt;a href=&quot;https://pengtech.net/history/computer_history_brief_timeline.html&quot;&gt;原文&lt;/a&gt;末尾有打赏功能, 请点一点, 在此表示感谢!&lt;/p&gt;</description>
       
       
       
@@ -2377,10 +2377,10 @@
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
 &lt;p&gt;本文是gitlab-runner安装和配置姊妹篇中的一篇，主要针对fedora操作系统，其它操作系统可以参考针对特定操作系统的姊妹篇。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</description>
       
       
       
@@ -2563,7 +2563,7 @@
       <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
-&lt;p&gt;本文原文位于&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_install_windows&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
+&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
       
       
       
@@ -2589,7 +2589,7 @@
       <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个 Tauri 桌面应用, 由于 Tauri 应用的跨平台编译特性还不是特别完善, 比如打包 macos 桌面应用程序, 需要在 Macos 上进行. 于是想到了是否能安装一台 macos 虚拟机用于打包, 并兼顾 Macos 上的测试. 于是就有了这篇文章. 当然安装 macos 虚拟机的好处远不指这些.&lt;/p&gt;
-&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://www.pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
+&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
       
       
       
@@ -2641,7 +2641,7 @@
       <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
       <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://www.pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
       
       
       
@@ -2927,7 +2927,7 @@
       <guid>https://pengtech.net/nginx/nginx_log_analyze.html</guid>
       <pubDate>Thu, 20 Jul 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为一位站长, 了解网站的访问情况是日常的重要内容, 以下就是关于通过Nginx日志了解访问情况的一些常用命令.&lt;br&gt;这里罗列于此, 希望对您有所帮助, 更多关于开发, 运维, 以及产品方面的文章请访问&lt;a href=&quot;https://www.pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;, 该博客空间中涉及到的技术都是鹏叔在开发与维护网站过程中总结出来的.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为一位站长, 了解网站的访问情况是日常的重要内容, 以下就是关于通过Nginx日志了解访问情况的一些常用命令.&lt;br&gt;这里罗列于此, 希望对您有所帮助, 更多关于开发, 运维, 以及产品方面的文章请访问&lt;a href=&quot;https://pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;, 该博客空间中涉及到的技术都是鹏叔在开发与维护网站过程中总结出来的.&lt;/p&gt;</description>
       
       
       
@@ -4057,7 +4057,7 @@
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这段时间在进行 Mysql 到 PostgreSQL 数据库迁移工作.&lt;/p&gt;
 &lt;p&gt;主要包含三部分工作, 其一是构建数据库对象, 包括表, 视图, 存储过程的构建, 这部分由于我在项目早期就引入了 liquibase, 所以迁移工作很简单, 所以没有总结文章.&lt;/p&gt;
-&lt;p&gt;其二是代码修改, 让代码适配新的数据库, 这部分已经总结发布到了&lt;a href=&quot;https://www.pengtech.net/database/migrate_to_postgressql_from_mariadb.html&quot;&gt;鹏叔的技术博客 - 从 Mariadb 迁移到 postgresql&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;其二是代码修改, 让代码适配新的数据库, 这部分已经总结发布到了&lt;a href=&quot;https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html&quot;&gt;鹏叔的技术博客 - 从 Mariadb 迁移到 postgresql&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;其三是数据迁移, 数据迁移也有一些现成的工具, 但是配置起来比较麻烦, 工具比想象中的复杂太多, 用起来也不是太顺手, 与其花时间在熟悉一次性的工具上, 不如自己写一个迁移工具. 于是就有了这篇文章.&lt;/p&gt;</description>
       
       
@@ -4083,7 +4083,7 @@
       <guid>https://pengtech.net/java/websocket_java_client.html</guid>
       <pubDate>Sat, 14 Jan 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在上篇文章&lt;a href=&quot;https://www.pengtech.net/java/spring_websocket.html&quot;&gt;java实现websocket的五种方式&lt;/a&gt;, 我详细讲述了使用java实现websocket的五种方式.&lt;br&gt;五种方式都集中在服务器端的实现, 客户端我们使用的是一个在线测试工具进行测试的. 只有针对stomp这种方式我自己写了一个javascript版本的客户端. 但是随着项目的推进, 发现整个体系就像魔方或拼图一样, 在完整体系中还缺少了一块, 那就是java客户端去连接stomp websocket服务. 其作用是,在服务器端主动向客户端发送消息时, 通过stomp客户端连接stomp websocket服务, 将消息发布到某个topic, 最终被订阅消息的前端页面接收到. 三者之间的关系 java client -&amp;gt; stomp websocket服务 -&amp;gt; 前端页面. 采用的是消息订阅模式, 消息订阅并不是pull, 实际是push.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在上篇文章&lt;a href=&quot;https://pengtech.net/java/spring_websocket.html&quot;&gt;java实现websocket的五种方式&lt;/a&gt;, 我详细讲述了使用java实现websocket的五种方式.&lt;br&gt;五种方式都集中在服务器端的实现, 客户端我们使用的是一个在线测试工具进行测试的. 只有针对stomp这种方式我自己写了一个javascript版本的客户端. 但是随着项目的推进, 发现整个体系就像魔方或拼图一样, 在完整体系中还缺少了一块, 那就是java客户端去连接stomp websocket服务. 其作用是,在服务器端主动向客户端发送消息时, 通过stomp客户端连接stomp websocket服务, 将消息发布到某个topic, 最终被订阅消息的前端页面接收到. 三者之间的关系 java client -&amp;gt; stomp websocket服务 -&amp;gt; 前端页面. 采用的是消息订阅模式, 消息订阅并不是pull, 实际是push.&lt;/p&gt;</description>
       
       
       
@@ -4707,7 +4707,7 @@
 &lt;li&gt;需要安装gitlab-ee 企业版&lt;/li&gt;
 &lt;li&gt;需要安装Ruby环境&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;2-安装gitlab-ee企业版&quot;&gt;&lt;a href=&quot;#2-安装gitlab-ee企业版&quot; class=&quot;headerlink&quot; title=&quot;2. 安装gitlab-ee企业版&quot;&gt;&lt;/a&gt;2. 安装gitlab-ee企业版&lt;/h2&gt;&lt;p&gt;关于如何安装配置gitlab-ee可以参考我的文章 &lt;a href=&quot;https://www.pengtech.net/gitlab/gitlab_installation_upgrade.html&quot;&gt;鹏叔的技术博客 - gitlab安装升级及迁移&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-安装gitlab-ee企业版&quot;&gt;&lt;a href=&quot;#2-安装gitlab-ee企业版&quot; class=&quot;headerlink&quot; title=&quot;2. 安装gitlab-ee企业版&quot;&gt;&lt;/a&gt;2. 安装gitlab-ee企业版&lt;/h2&gt;&lt;p&gt;关于如何安装配置gitlab-ee可以参考我的文章 &lt;a href=&quot;https://pengtech.net/gitlab/gitlab_installation_upgrade.html&quot;&gt;鹏叔的技术博客 - gitlab安装升级及迁移&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;3-环境说明&quot;&gt;&lt;a href=&quot;#3-环境说明&quot; class=&quot;headerlink&quot; title=&quot;3. 环境说明&quot;&gt;&lt;/a&gt;3. 环境说明&lt;/h2&gt;&lt;p&gt;当前我的gitlab版本及环境如下:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;操作系统版本: Centos 7.9&lt;/p&gt;
@@ -5440,33 +5440,6 @@
     </item>
     
     <item>
-      <title>Angular platform是什么?</title>
-      <link>https://pengtech.net/angular/angular_platforms.html</link>
-      <guid>https://pengtech.net/angular/angular_platforms.html</guid>
-      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>深度刨析@angular/platform-browser-dynamic</title>
       <link>https://pengtech.net/angular/angular_platformBrowserDynamic.html</link>
       <guid>https://pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
@@ -5490,6 +5463,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular platform是什么?</title>
+      <link>https://pengtech.net/angular/angular_platforms.html</link>
+      <guid>https://pengtech.net/angular/angular_platforms.html</guid>
+      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
       
     </item>
     
@@ -6466,7 +6466,7 @@
       <guid>https://pengtech.net/web/web_basic_1.html</guid>
       <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://www.pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
+      <description>&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
 &lt;p&gt;编者: &lt;a href=&quot;https://philoenglish.com/&quot;&gt;菲利英语&lt;/a&gt;团队&lt;/p&gt;</description>
       
       
@@ -6483,9 +6483,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/less/">less</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/less/">less</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -6572,7 +6572,7 @@
       <pubDate>Wed, 13 Oct 2021 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;vscode 可以做很多事, 是真正的生产力工具, 但是如何将其配置得好用, 并符合自己的使用习惯, 却是很复杂的一件事. 它的默认模式就像一辆自动挡的汽车, 不做任何改动也能开着上路, 如果想压榨一下它的生产力, 还是要懂得一些配置相关的知识或技巧.&lt;/p&gt;
-&lt;p&gt;若需获取最近更新请访问原文, 原文位于&lt;a href=&quot;https://www.pengtech.net/vscode/vscode_install_and_config.html&quot;&gt;鹏叔的技术博客 - vscode 基本配置指南&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;若需获取最近更新请访问原文, 原文位于&lt;a href=&quot;https://pengtech.net/vscode/vscode_install_and_config.html&quot;&gt;鹏叔的技术博客 - vscode 基本配置指南&lt;/a&gt;.&lt;/p&gt;</description>
       
       
       
@@ -6732,9 +6732,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/webpack/">webpack</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>
