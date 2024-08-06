@@ -1,6 +1,10 @@
+https://pengtech.net/web/web_basic_1.html
 https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/hexo/blog_seo_optimize.html
+https://pengtech.net/nodejs/install_and_config_nodejs.html
+https://pengtech.net/nodejs/upgrade_nodejs.html
+https://pengtech.net/windows/windows_prog_autostart.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
+https://pengtech.net/hexo/blog_seo_optimize.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/android/fedora_install_android_studio.html
@@ -9,7 +13,3 @@ https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html
 https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/javascript/js_allow_selection.html
 https://pengtech.net/hexo/hexo_apply_icarus_theme.html
-https://pengtech.net/matrix/setup_matrix_homeserver.html
-https://pengtech.net/angular/manually_bootstrap_an_Angular_application.html
-https://pengtech.net/hexo/hexo_create_site.html
-https://pengtech.net/angular/angular_16_update.html

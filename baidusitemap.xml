@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://pengtech.net/web/web_basic_1.html</loc>
+    <lastmod>2024-08-05</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2024-08-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2024-08-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <lastmod>2024-08-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/windows/windows_prog_autostart.html</loc>
+    <lastmod>2024-08-04</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2024-08-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
@@ -105,10 +121,6 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/web/web_basic_1.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -118,10 +130,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/windows/windows_prog_autostart.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -173,11 +181,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/web/chartjs_tutorial.html</loc>
+    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
+    <loc>https://pengtech.net/web/chartjs_tutorial.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -193,11 +201,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -237,11 +245,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/sentry_install.html</loc>
+    <loc>https://pengtech.net/rust/install_rust_on_windows.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/rust/install_rust_on_windows.html</loc>
+    <loc>https://pengtech.net/product/sentry_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -253,7 +261,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/rust/rust_study.html</loc>
+    <loc>https://pengtech.net/sass/tailwind_migration.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -261,7 +269,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/sass/tailwind_migration.html</loc>
+    <loc>https://pengtech.net/rust/rust_study.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -302,10 +310,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -385,10 +389,6 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/nodejs/install_nodejs_via_source.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -425,7 +425,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material3_foundations.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -433,7 +433,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material3_foundations.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -449,11 +449,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/typography.html</loc>
+    <loc>https://pengtech.net/network/Internal_network_penetration.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/Internal_network_penetration.html</loc>
+    <loc>https://pengtech.net/material/typography.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -469,11 +469,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/linux_shell_rsync.html</loc>
+    <loc>https://pengtech.net/linux/linux_turnoff_ipv6.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/linux_turnoff_ipv6.html</loc>
+    <loc>https://pengtech.net/linux/linux_shell_rsync.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -605,7 +605,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -613,11 +617,7 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -725,11 +725,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/gitlab/gitlab_issue_board.html</loc>
+    <loc>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
+    <loc>https://pengtech.net/gitlab/gitlab_issue_board.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -745,15 +745,15 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
+    <loc>https://pengtech.net/ansible/ansible.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/ansible/ansible.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -849,11 +849,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_sweetalert2.html</loc>
+    <loc>https://pengtech.net/angular/angular_tinyMCE_editor.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_tinyMCE_editor.html</loc>
+    <loc>https://pengtech.net/angular/angular_sweetalert2.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -889,11 +889,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_material_2_theming.html</loc>
+    <loc>https://pengtech.net/angular/angular_material_design.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_material_design.html</loc>
+    <loc>https://pengtech.net/angular/angular_material_2_theming.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -913,11 +913,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>

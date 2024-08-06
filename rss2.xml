@@ -4110,11 +4110,11 @@
       <guid>https://pengtech.net/windows/windows_prog_autostart.html</guid>
       <pubDate>Sat, 14 Jan 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;把程序设置为开机自启或取消一些开机自选项, 对我个人来说是一个很重要的功能, 因为它能提高我的专注力. 因为很多时候, 我们容易被别的事情给诱惑.&lt;br&gt;不知道大家有没有仔细观察或回味自己使用电脑的习惯.&lt;/p&gt;
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;把程序设置为开机自启或取消一些开机自选项, 对我个人来说是一个很重要的功能, 因为它能提高我的专注力. 很多时候, 我们容易被一些琐碎的事情给诱惑.&lt;br&gt;不知道大家有没有仔细观察或回味自己使用电脑的习惯.&lt;/p&gt;
 &lt;p&gt;根据我以前的经验, 按下开机键后, 经过一个不算漫长的等待, 真正进入 windows 界面后, 我们往往会短暂的忘记或刻意的不想把注意力集中到我们开机前想干的事情上.&lt;/p&gt;
-&lt;p&gt;开机后往往第一件事查看一下邮件, 检查一下聊天软件上的, 看看今天都发生了哪些新闻. 等这些事情完成后, 才会或者才可能想起我们开机前想要干的事情.&lt;br&gt;当然如果开机的目的就是聊天,看新闻或干些娱乐休闲的事情, 那另当别论.&lt;/p&gt;
-&lt;p&gt;如果这段时间中再弹个窗, 提示软件需要杀毒, 升级某娱乐明星又爆出了什么大瓜, 某电视剧又更新到多少级了, 一断被这些信息给吸引了, 对于自制力不强的人们来说,今天这一天可能就尽是去打蚊子拍苍蝇去了, 一天又荒废了.&lt;/p&gt;
-&lt;p&gt;而此时有一个干净高效的自启动项设置, 往往能屏蔽这些干扰, 或提醒自己该干正事了.&lt;/p&gt;</description>
+&lt;p&gt;开机后往往第一件事查看一下邮件, 检查一下聊天软件上的, 看看今天都发生了哪些新闻. 等这些事情完成后, 才会或者才可能想起我们开机前想要干的事情.&lt;br&gt;如果这段时间中再弹个窗, 提示软件需要杀毒, 升级某娱乐明星又爆出了什么大瓜, 某电视剧又更新到多少级了, 一断被这些信息给吸引了, 对于自制力不强的人们来说,今天这一天可能就尽是去打蚊子拍苍蝇去了, 一天又荒废了.&lt;/p&gt;
+&lt;p&gt; 而将重要的应用程序放置在开机启动项，并在开机后直接弹出应用界面，可以让我们立即专注到重要事情，并有效缓解注意力被分散的状况。&lt;/p&gt;
+&lt;p&gt;而此时有一个干净高效的自启动项设置, 往往有助于屏蔽这些干扰, 或提醒自己该干正事了.&lt;/p&gt;</description>
       
       
       
@@ -4987,32 +4987,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5035,6 +5009,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -5440,33 +5440,6 @@
     </item>
     
     <item>
-      <title>深度刨析@angular/platform-browser-dynamic</title>
-      <link>https://pengtech.net/angular/angular_platformBrowserDynamic.html</link>
-      <guid>https://pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
-      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
-&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
-&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular platform是什么?</title>
       <link>https://pengtech.net/angular/angular_platforms.html</link>
       <guid>https://pengtech.net/angular/angular_platforms.html</guid>
@@ -5490,6 +5463,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>深度刨析@angular/platform-browser-dynamic</title>
+      <link>https://pengtech.net/angular/angular_platformBrowserDynamic.html</link>
+      <guid>https://pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
+      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
+&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
+&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
       
     </item>
     
@@ -6483,9 +6483,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/less/">less</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -6732,9 +6732,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>
