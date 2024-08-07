@@ -374,7 +374,7 @@
     <link href="https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html"/>
     <id>https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html</id>
     <published>2024-04-22T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.360Z</updated>
+    <updated>2024-08-07T15:36:12.146Z</updated>
     
     
     <summary type="html">&lt;p&gt;signal 是一种存储应用程序状态的方法，类似于 React 中的 useState()。但有一些关键的差异赋予了 Signals 另外的优势。&lt;/p&gt;</summary>
@@ -1225,10 +1225,10 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-07T14:23:47.301Z</updated>
+    <updated>2024-08-07T14:55:50.806Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
     
     
     
@@ -1836,7 +1836,7 @@
     <link href="https://pengtech.net/strapi/install_strapi.html"/>
     <id>https://pengtech.net/strapi/install_strapi.html</id>
     <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-07T15:43:25.051Z</updated>
     
     
     <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
@@ -2700,7 +2700,7 @@
     <link href="https://pengtech.net/chrome/chrome_plugin_development.html"/>
     <id>https://pengtech.net/chrome/chrome_plugin_development.html</id>
     <published>2023-07-24T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-08-07T15:58:02.154Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://developer.chrome.com/docs/extensions/mv3/&quot;&gt;chrome extensions官方文档&lt;/a&gt;&lt;/p&gt;
@@ -4047,6 +4047,29 @@
   </entry>
   
   <entry>
+    <title>Windows上安装PostgreSQL 14</title>
+    <link href="https://pengtech.net/database/install_postgresql_on_windows.html"/>
+    <id>https://pengtech.net/database/install_postgresql_on_windows.html</id>
+    <published>2022-12-04T16:00:00.000Z</published>
+    <updated>2024-08-07T15:48:42.911Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/categories/OS/windows/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="database" scheme="https://pengtech.net/tags/database/"/>
+    
+  </entry>
+  
+  <entry>
     <title>从Mariadb迁移到postgresql</title>
     <link href="https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html"/>
     <id>https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html</id>
@@ -4163,7 +4186,7 @@
     <link href="https://pengtech.net/rust/vscode_rust_ide.html"/>
     <id>https://pengtech.net/rust/vscode_rust_ide.html</id>
     <published>2022-11-28T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-07T15:44:57.159Z</updated>
     
     
       
@@ -4641,15 +4664,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -4665,15 +4688,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5276,9 +5299,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -5600,9 +5623,9 @@
     
     
     
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
   </entry>
   
@@ -6152,7 +6175,7 @@
     <link href="https://pengtech.net/k8s/setup_k8s_cluster.html"/>
     <id>https://pengtech.net/k8s/setup_k8s_cluster.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-07T15:41:46.994Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</summary>

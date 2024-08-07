@@ -1,3 +1,9 @@
+https://pengtech.net/chrome/chrome_plugin_development.html
+https://pengtech.net/database/install_postgresql_on_windows.html
+https://pengtech.net/rust/vscode_rust_ide.html
+https://pengtech.net/strapi/install_strapi.html
+https://pengtech.net/k8s/setup_k8s_cluster.html
+https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
@@ -7,9 +13,3 @@ https://pengtech.net/angular/angular_getter_setter.html
 https://pengtech.net/angular/angular_async_pipe_in_depth.html
 https://pengtech.net/wordpress/install_buddypress.html
 https://pengtech.net/linux/linux_shell_rsync.html
-https://pengtech.net/linux/linux_shell_ifconfig.html
-https://pengtech.net/linux/Linux_FHS.html
-https://pengtech.net/linux/linux_connect_wifi.html
-https://pengtech.net/linux/install_virtualbox_on_fedora35.html
-https://pengtech.net/linux/install_gradle_on_linux.html
-https://pengtech.net/gitlab/gitlab_runner_on_fedora.html

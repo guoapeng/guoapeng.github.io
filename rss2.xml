@@ -1328,7 +1328,7 @@
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
       <pubDate>Fri, 17 Nov 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</description>
+      <description>&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</description>
       
       
       
@@ -4373,6 +4373,31 @@
     </item>
     
     <item>
+      <title>Windows上安装PostgreSQL 14</title>
+      <link>https://pengtech.net/database/install_postgresql_on_windows.html</link>
+      <guid>https://pengtech.net/database/install_postgresql_on_windows.html</guid>
+      <pubDate>Sun, 04 Dec 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/windows/">windows</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/database/">database</category>
+      
+      
+      <comments>https://pengtech.net/database/install_postgresql_on_windows.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>从Mariadb迁移到postgresql</title>
       <link>https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html</link>
       <guid>https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html</guid>
@@ -5011,32 +5036,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5059,6 +5058,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -5695,9 +5720,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -6045,9 +6070,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/windows/">windows</category>
-      
       <category domain="https://pengtech.net/tags/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/tags/windows/">windows</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
