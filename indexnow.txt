@@ -1,3 +1,10 @@
+https://pengtech.net/hexo/hexo_apply_icarus_theme.html
+https://pengtech.net/network/v2rayNG_install_and_config.html
+https://pengtech.net/network/install_v2rayA_on_Windows.html
+https://pengtech.net/network/v2rayN_usage.html
+https://pengtech.net/network/v2rayA_install.html
+https://pengtech.net/angular/angular_getter_setter.html
+https://pengtech.net/angular/angular_async_pipe_in_depth.html
 https://pengtech.net/wordpress/install_buddypress.html
 https://pengtech.net/linux/linux_shell_rsync.html
 https://pengtech.net/linux/linux_shell_ifconfig.html
@@ -6,10 +13,3 @@ https://pengtech.net/linux/linux_connect_wifi.html
 https://pengtech.net/linux/install_virtualbox_on_fedora35.html
 https://pengtech.net/linux/install_gradle_on_linux.html
 https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
-https://pengtech.net/hexo/blog_seo_optimize.html
-https://pengtech.net/ansible/ansible_install.html
-https://pengtech.net/ansible/ansible_install_golang.html
-https://pengtech.net/ansible/ansible_install_java.html
-https://pengtech.net/ansible/install_ansible_on_windows.html
-https://pengtech.net/chrome/chrome_plugin_development.html
-https://pengtech.net/chrome/chrome_storage_api.html

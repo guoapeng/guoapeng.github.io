@@ -106,7 +106,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.505Z</updated>
+    <updated>2024-08-07T13:58:49.120Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -587,7 +587,7 @@
     <link href="https://pengtech.net/angular/angular_async_pipe_in_depth.html"/>
     <id>https://pengtech.net/angular/angular_async_pipe_in_depth.html</id>
     <published>2024-03-16T16:00:00.000Z</published>
-    <updated>2024-08-06T10:04:16.476Z</updated>
+    <updated>2024-08-06T18:52:59.371Z</updated>
     
     
     <summary type="html">&lt;p&gt;Angular 异步管道(Async pipe)是 Angular 框架中在 HTML 模板中使用 Observables 或 Promises 的方法之一。而且在大多数情况下，我认为这是在 Angular 中处理 Observables 和 Promise 的首选方式。&lt;/p&gt;
@@ -667,7 +667,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-07T13:54:12.830Z</updated>
     
     
     <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。&lt;/p&gt;
@@ -677,8 +677,14 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
+    <category term="v2ray" scheme="https://pengtech.net/categories/network/v2ray/"/>
+    
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
+    
+    <category term="v2rayNG" scheme="https://pengtech.net/tags/v2rayNG/"/>
     
   </entry>
   
@@ -1192,7 +1198,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-07T13:53:41.699Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1201,10 +1207,16 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
+    <category term="v2ray" scheme="https://pengtech.net/categories/network/v2ray/"/>
+    
     
     <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
+    
+    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
     
   </entry>
   
@@ -1213,7 +1225,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-07T13:52:50.927Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1222,8 +1234,14 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
+    <category term="v2ray" scheme="https://pengtech.net/categories/network/v2ray/"/>
+    
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
+    
+    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
     
   </entry>
   
@@ -1536,7 +1554,7 @@
     <link href="https://pengtech.net/angular/angular_getter_setter.html"/>
     <id>https://pengtech.net/angular/angular_getter_setter.html</id>
     <published>2023-10-25T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-06T19:02:04.579Z</updated>
     
     
     <summary type="html">&lt;p&gt;getter 和 setter 是一种众所周知的模式，在不同的语言中使用。在本文中，我想通过 TypeScript 中的示例帮助您理解 getter 和 setter。看看它如何在 Angular 应用程序中发挥作用。&lt;/p&gt;</summary>
@@ -3039,7 +3057,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-07T13:53:22.900Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -3048,8 +3066,14 @@
     
     <category term="network" scheme="https://pengtech.net/categories/network/"/>
     
+    <category term="v2ray" scheme="https://pengtech.net/categories/network/v2ray/"/>
+    
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
+    
+    <category term="v2rayN" scheme="https://pengtech.net/tags/v2rayN/"/>
     
   </entry>
   
@@ -4617,15 +4641,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -4641,15 +4665,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5252,9 +5276,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -6124,27 +6148,6 @@
   </entry>
   
   <entry>
-    <title>创建kubernetes集群</title>
-    <link href="https://pengtech.net/k8s/setup_k8s_cluster.html"/>
-    <id>https://pengtech.net/k8s/setup_k8s_cluster.html</id>
-    <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
-    
-    
-    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
-    
-  </entry>
-  
-  <entry>
     <title>linux命令行连接wifi</title>
     <link href="https://pengtech.net/linux/linux_connect_wifi.html"/>
     <id>https://pengtech.net/linux/linux_connect_wifi.html</id>
@@ -6165,6 +6168,27 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>创建kubernetes集群</title>
+    <link href="https://pengtech.net/k8s/setup_k8s_cluster.html"/>
+    <id>https://pengtech.net/k8s/setup_k8s_cluster.html</id>
+    <published>2021-10-08T16:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.446Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
+    
+    
+    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
     
   </entry>
   
