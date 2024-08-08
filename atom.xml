@@ -667,11 +667,11 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-08-07T13:54:12.830Z</updated>
+    <updated>2024-08-08T14:52:05.025Z</updated>
     
     
-    <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。&lt;/p&gt;
-&lt;p&gt;本文将详细介绍如何在 Android 手机上安装 v2rayNG 这款应用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
+&lt;p&gt;本文将详细介绍如何在 Android 系统上如何快速安装、配置和使用 v2rayNG 这款科学上网应用。&lt;/p&gt;</summary>
     
     
     
@@ -1225,7 +1225,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-07T14:55:50.806Z</updated>
+    <updated>2024-08-08T14:54:08.425Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2658,7 +2658,7 @@
     <link href="https://pengtech.net/web/svg.html"/>
     <id>https://pengtech.net/web/svg.html</id>
     <published>2023-08-07T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-07T16:39:45.628Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SVG 是一种 XML 语言，类似 XHTML，可以用来绘制矢量图形，英文全称是Scalable Vector Graphics 可缩放矢量图, 是W3C的一项建议. 基于像素的图像, 如果被放大会看到明显的失真, 而svg是基于形状描述的, svg图像无论放大多少倍都不会失真.&lt;/p&gt;</summary>
@@ -3397,12 +3397,12 @@
     <link href="https://pengtech.net/golang/go_unit_test.html"/>
     <id>https://pengtech.net/golang/go_unit_test.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2024-08-07T16:39:06.696Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package&quot;&gt;How To Write Unit Tests in Go&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Author: &lt;a href=&quot;https://www.digitalocean.com/community/users/nullterminator&quot;&gt;Tobi Balogun&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;http://www.philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;http://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;单元测试是一种软件测试方法, 用于测试代码的最小可测试单元, 通常是函数或方法. 它的目的是确保每个单元都能够按照预期工作, 并且在修改代码时不会破坏现有的功能,它们是Go编程语言的关键部分。&lt;br&gt;在本教程中，您将创建一个小程序，然后使用Go的测试包和Go test命令对代码运行一系列测试。完成教程后，您将拥有一个可工作的单元测试套件，其中包括一个基于表表格的单元测试、一个覆盖率测试、一项基准测试和一个文档化的示例。&lt;/p&gt;</summary>
     
     
@@ -3577,11 +3577,11 @@
     <link href="https://pengtech.net/product/mobile_app_promotion.html"/>
     <id>https://pengtech.net/product/mobile_app_promotion.html</id>
     <published>2023-04-11T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-07T16:39:14.368Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-译者序&quot;&gt;&lt;a href=&quot;#1-译者序&quot; class=&quot;headerlink&quot; title=&quot;1. 译者序&quot;&gt;&lt;/a&gt;1. 译者序&lt;/h2&gt;&lt;p&gt;这是一篇非常好的推广移动应用的想法或者说是策略, 翻译过来分享给大家. 或许有些观点已经很显而易见, 那么就权当是一个总结. 后续会基于此文章陆续更新关于应用推广方面的想法和观点.&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;https://www.philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -4664,15 +4664,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -4688,15 +4688,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5623,9 +5623,9 @@
     
     
     
-    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
-    
     <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
+    
+    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
     
   </entry>
   
@@ -5792,7 +5792,7 @@
     <link href="https://pengtech.net/hexo/hexo_cli.html"/>
     <id>https://pengtech.net/hexo/hexo_cli.html</id>
     <published>2021-10-30T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-08-08T14:19:23.171Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</summary>
@@ -6034,7 +6034,7 @@
     <link href="https://pengtech.net/web/web_basic_1.html"/>
     <id>https://pengtech.net/web/web_basic_1.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.316Z</updated>
+    <updated>2024-08-07T16:39:50.487Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;

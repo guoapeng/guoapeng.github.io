@@ -724,8 +724,8 @@
       <guid>https://pengtech.net/network/v2rayNG_install_and_config.html</guid>
       <pubDate>Tue, 30 Jan 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。&lt;/p&gt;
-&lt;p&gt;本文将详细介绍如何在 Android 手机上安装 v2rayNG 这款应用。&lt;/p&gt;</description>
+      <description>&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
+&lt;p&gt;本文将详细介绍如何在 Android 系统上如何快速安装、配置和使用 v2rayNG 这款科学上网应用。&lt;/p&gt;</description>
       
       
       
@@ -3674,7 +3674,7 @@
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package&quot;&gt;How To Write Unit Tests in Go&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Author: &lt;a href=&quot;https://www.digitalocean.com/community/users/nullterminator&quot;&gt;Tobi Balogun&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;http://www.philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;http://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;单元测试是一种软件测试方法, 用于测试代码的最小可测试单元, 通常是函数或方法. 它的目的是确保每个单元都能够按照预期工作, 并且在修改代码时不会破坏现有的功能,它们是Go编程语言的关键部分。&lt;br&gt;在本教程中，您将创建一个小程序，然后使用Go的测试包和Go test命令对代码运行一系列测试。完成教程后，您将拥有一个可工作的单元测试套件，其中包括一个基于表表格的单元测试、一个覆盖率测试、一项基准测试和一个文档化的示例。&lt;/p&gt;</description>
       
       
@@ -3869,7 +3869,7 @@
       <pubDate>Tue, 11 Apr 2023 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-译者序&quot;&gt;&lt;a href=&quot;#1-译者序&quot; class=&quot;headerlink&quot; title=&quot;1. 译者序&quot;&gt;&lt;/a&gt;1. 译者序&lt;/h2&gt;&lt;p&gt;这是一篇非常好的推广移动应用的想法或者说是策略, 翻译过来分享给大家. 或许有些观点已经很显而易见, 那么就权当是一个总结. 后续会基于此文章陆续更新关于应用推广方面的想法和观点.&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;https://www.philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;</description>
       
       
       
@@ -5036,32 +5036,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -5084,6 +5058,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
@@ -6070,9 +6070,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/OS/">OS</category>
-      
       <category domain="https://pengtech.net/tags/windows/">windows</category>
+      
+      <category domain="https://pengtech.net/tags/OS/">OS</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
