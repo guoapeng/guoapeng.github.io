@@ -667,7 +667,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-08-08T14:52:05.025Z</updated>
+    <updated>2024-08-09T05:14:45.480Z</updated>
     
     
     <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -3030,7 +3030,7 @@
     <link href="https://pengtech.net/angular/server_side_pagination.html"/>
     <id>https://pengtech.net/angular/server_side_pagination.html</id>
     <published>2023-06-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.338Z</updated>
+    <updated>2024-08-09T00:24:13.933Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在上一篇文章中，我们学习了如何使用 Angular 添加客户端分页。mat-tablemat-paginator&lt;/p&gt;
@@ -3049,6 +3049,8 @@
     <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
     
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+    <category term="pagination" scheme="https://pengtech.net/tags/pagination/"/>
     
   </entry>
   
