@@ -725,7 +725,7 @@
       <pubDate>Tue, 30 Jan 2024 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
-&lt;p&gt;本文将详细介绍如何在 Android 系统上如何快速安装、配置和使用 v2rayNG 这款科学上网应用。&lt;/p&gt;</description>
+&lt;p&gt;本文将详细讲述如何在 Android 系统上快速安装、配置和使用 v2rayNG 这款科学上网应用。&lt;/p&gt;</description>
       
       
       
@@ -1730,6 +1730,31 @@
     </item>
     
     <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -1753,31 +1778,6 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -5038,32 +5038,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5086,6 +5060,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
