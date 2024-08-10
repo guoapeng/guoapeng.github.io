@@ -85,7 +85,7 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-09T18:45:15.689Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 14 个精致的 Hexo 主题。&lt;/p&gt;</summary>
@@ -1598,14 +1598,16 @@
   </entry>
   
   <entry>
-    <title>Material 3 基础</title>
-    <link href="https://pengtech.net/material/material3_foundations.html"/>
-    <id>https://pengtech.net/material/material3_foundations.html</id>
+    <title>Material Design 3介绍</title>
+    <link href="https://pengtech.net/material/material3_introduction.html"/>
+    <id>https://pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
+&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
+&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
     
     
     
@@ -1621,16 +1623,14 @@
   </entry>
   
   <entry>
-    <title>Material Design 3介绍</title>
-    <link href="https://pengtech.net/material/material3_introduction.html"/>
-    <id>https://pengtech.net/material/material3_introduction.html</id>
+    <title>Material 3 基础</title>
+    <link href="https://pengtech.net/material/material3_foundations.html"/>
+    <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
-&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
-&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
     
     
     
@@ -3399,12 +3399,12 @@
     <link href="https://pengtech.net/golang/go_unit_test.html"/>
     <id>https://pengtech.net/golang/go_unit_test.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
-    <updated>2024-08-07T16:39:06.696Z</updated>
+    <updated>2024-08-10T01:41:16.197Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package&quot;&gt;How To Write Unit Tests in Go&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Author: &lt;a href=&quot;https://www.digitalocean.com/community/users/nullterminator&quot;&gt;Tobi Balogun&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;http://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队; 更多资讯可访问&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;单元测试是一种软件测试方法, 用于测试代码的最小可测试单元, 通常是函数或方法. 它的目的是确保每个单元都能够按照预期工作, 并且在修改代码时不会破坏现有的功能,它们是Go编程语言的关键部分。&lt;br&gt;在本教程中，您将创建一个小程序，然后使用Go的测试包和Go test命令对代码运行一系列测试。完成教程后，您将拥有一个可工作的单元测试套件，其中包括一个基于表表格的单元测试、一个覆盖率测试、一项基准测试和一个文档化的示例。&lt;/p&gt;</summary>
     
     
@@ -4666,15 +4666,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -4690,15 +4690,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5947,7 +5947,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-08-06T10:07:51.907Z</updated>
+    <updated>2024-08-10T02:36:31.100Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
