@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Fri, 26 Jul 2024 15:39:10 GMT</pubDate>
+    <pubDate>Sat, 10 Aug 2024 04:46:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>本地编译并启动 element-web</title>
+      <link>https://pengtech.net/matrix/build_element-web_on_local.html</link>
+      <guid>https://pengtech.net/matrix/build_element-web_on_local.html</guid>
+      <pubDate>Fri, 09 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Element-web（以前称为Vector和Riot）是一个使用Matrix React SDK构建的Matrix web客户端。&lt;/p&gt;
+&lt;p&gt;上一篇文章&lt;a href=&quot;https://pengtech.net/matrix/setup_matrix_homeserver.html&quot;&gt;使用 Dendrite 搭建 Matrix Homeserver&lt;/a&gt;, 我们讲述了安装Matrix HomeServer的过程。&lt;/p&gt;
+&lt;p&gt; 本文主要讲述如何在本地将其编译成docker镜像，并启动Element-web. 两种结合起来一个完整的聊天软件就建立起来了。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/IM/">IM</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Matrix/">Matrix</category>
+      
+      <category domain="https://pengtech.net/tags/element-web/">element-web</category>
+      
+      
+      <comments>https://pengtech.net/matrix/build_element-web_on_local.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 JavaScript 开启被禁用的网页选择功能</title>

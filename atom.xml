@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-07-26T15:39:10.157Z</updated>
+  <updated>2024-08-10T04:46:41.956Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>本地编译并启动 element-web</title>
+    <link href="https://pengtech.net/matrix/build_element-web_on_local.html"/>
+    <id>https://pengtech.net/matrix/build_element-web_on_local.html</id>
+    <published>2024-08-09T16:00:00.000Z</published>
+    <updated>2024-08-10T04:46:41.956Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Element-web（以前称为Vector和Riot）是一个使用Matrix React SDK构建的Matrix web客户端。&lt;/p&gt;
+&lt;p&gt;上一篇文章&lt;a href=&quot;https://pengtech.net/matrix/setup_matrix_homeserver.html&quot;&gt;使用 Dendrite 搭建 Matrix Homeserver&lt;/a&gt;, 我们讲述了安装Matrix HomeServer的过程。&lt;/p&gt;
+&lt;p&gt; 本文主要讲述如何在本地将其编译成docker镜像，并启动Element-web. 两种结合起来一个完整的聊天软件就建立起来了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="IM" scheme="https://pengtech.net/categories/IM/"/>
+    
+    
+    <category term="Matrix" scheme="https://pengtech.net/tags/Matrix/"/>
+    
+    <category term="element-web" scheme="https://pengtech.net/tags/element-web/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 JavaScript 开启被禁用的网页选择功能</title>
@@ -43,7 +66,7 @@
     <link href="https://pengtech.net/matrix/setup_matrix_homeserver.html"/>
     <id>https://pengtech.net/matrix/setup_matrix_homeserver.html</id>
     <published>2024-07-22T16:00:00.000Z</published>
-    <updated>2024-07-25T02:46:10.924Z</updated>
+    <updated>2024-08-10T04:44:29.104Z</updated>
     
     
     <summary type="html">&lt;p&gt;Dendrite 是 Matrix 协议的一个开源实现，旨在提供一个轻量级、可扩展且易于部署的 Matrix 服务器。Matrix 是一个开源的通信协议和开放标准，用于构建去中心化的实时通信系统。它支持多种类型的通信，包括文本消息、语音通话、视频通话以及文件共享等。Dendrite 作为 Matrix 生态系统中的一个重要组件，为开发者和运营商提供了构建自己通信服务的工具。&lt;/p&gt;</summary>
