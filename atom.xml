@@ -690,7 +690,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-01-30T16:00:00.000Z</published>
-    <updated>2024-08-09T05:23:14.158Z</updated>
+    <updated>2024-08-12T01:49:21.368Z</updated>
     
     
     <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -1221,7 +1221,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-07T13:53:41.699Z</updated>
+    <updated>2024-08-12T01:49:05.018Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1248,7 +1248,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-09T05:58:08.605Z</updated>
+    <updated>2024-08-12T01:48:43.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2915,7 +2915,7 @@
     <link href="https://pengtech.net/angular/angular_migrate_to_mdc.html"/>
     <id>https://pengtech.net/angular/angular_migrate_to_mdc.html</id>
     <published>2023-06-24T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.395Z</updated>
+    <updated>2024-08-11T00:51:22.761Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在 Angular Material v15 中，许多组件已基于官方的 Web Material Design Components (MDC) 进行了重构。 以下导入的组件已被重构：&lt;/p&gt;</summary>
@@ -3082,7 +3082,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-08-07T13:53:22.900Z</updated>
+    <updated>2024-08-12T01:49:10.606Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -3394,7 +3394,7 @@
     <link href="https://pengtech.net/network/frp_install.html"/>
     <id>https://pengtech.net/network/frp_install.html</id>
     <published>2023-05-01T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-11T00:41:50.670Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;frp 是一个开源、简洁易用、高性能的内网穿透和反向代理软件，支持 tcp, udp, http, https等协议。frp 项目官网是 &lt;a href=&quot;https://github.com/fatedier/frp&quot;&gt;https://github.com/fatedier/frp&lt;/a&gt;&lt;/p&gt;
@@ -6078,9 +6078,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="less" scheme="https://pengtech.net/tags/less/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
@@ -6307,9 +6307,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
     
   </entry>
   
