@@ -15,8 +15,35 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 10 Aug 2024 04:46:41 GMT</pubDate>
+    <pubDate>Tue, 13 Aug 2024 23:01:32 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>GoLang调用 google translate API 实现中英互译</title>
+      <link>https://pengtech.net/golang/golang_google_translate_api.html</link>
+      <guid>https://pengtech.net/golang/golang_google_translate_api.html</guid>
+      <pubDate>Mon, 12 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述如何使用golang调用google translate API。其中也详细介绍了使用google translate API的前提条件设置google ADC(Application Default Credentials )。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/language/">language</category>
+      
+      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
+      
+      
+      <category domain="https://pengtech.net/tags/database/">database</category>
+      
+      <category domain="https://pengtech.net/tags/Golang/">Golang</category>
+      
+      <category domain="https://pengtech.net/tags/GORM/">GORM</category>
+      
+      
+      <comments>https://pengtech.net/golang/golang_google_translate_api.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>本地编译并启动 element-web</title>
@@ -5169,32 +5196,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - Elevation（标高）</title>
-      <link>https://pengtech.net/material/Elevation.html</link>
-      <guid>https://pengtech.net/material/Elevation.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
-&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design基础 - 响应式布局网格</title>
       <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
       <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
@@ -5217,6 +5218,32 @@
       
       
       <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - Elevation（标高）</title>
+      <link>https://pengtech.net/material/Elevation.html</link>
+      <guid>https://pengtech.net/material/Elevation.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
+&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
       
     </item>
     
