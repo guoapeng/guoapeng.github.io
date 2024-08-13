@@ -1,3 +1,4 @@
+https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/git/windows_install_git.html
 https://pengtech.net/database/postgresql_advanced.html
 https://pengtech.net/webpack/webpack_angularjs_bootstrap.html
@@ -9,7 +10,6 @@ https://pengtech.net/git/install_setup_git_server.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/angular/angular_migrate_to_mdc.html
 https://pengtech.net/network/frp_install.html
 https://pengtech.net/matrix/build_element-web_on_local.html
