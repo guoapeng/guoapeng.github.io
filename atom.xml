@@ -2114,7 +2114,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.290Z</updated>
+    <updated>2024-08-13T09:44:04.494Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -2165,7 +2165,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_macos.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_macos.html</id>
     <published>2023-08-22T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.290Z</updated>
+    <updated>2024-08-13T09:43:53.325Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 macOS 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Homebrew，这是 macOS 著名的包管理器。&lt;/p&gt;
@@ -4122,7 +4122,7 @@
     <link href="https://pengtech.net/database/postgresql_advanced.html"/>
     <id>https://pengtech.net/database/postgresql_advanced.html</id>
     <published>2022-12-04T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-08-13T09:57:40.023Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</summary>
@@ -5208,7 +5208,7 @@
     <link href="https://pengtech.net/angular/angular2_installation.html"/>
     <id>https://pengtech.net/angular/angular2_installation.html</id>
     <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.421Z</updated>
+    <updated>2024-08-13T09:42:52.533Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Angular-介绍&quot;&gt;&lt;a href=&quot;#1-Angular-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Angular 介绍&quot;&gt;&lt;/a&gt;1. Angular 介绍&lt;/h2&gt;&lt;p&gt;关于 Angular 版本，Angular 官方已经统一命名 Angular 1.x 同一为 Angular JS；Angular 2.x 及以上统称 Angular；&lt;/p&gt;
@@ -5259,16 +5259,17 @@
     <link href="https://pengtech.net/git/windows_install_git.html"/>
     <id>https://pengtech.net/git/windows_install_git.html</id>
     <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2024-08-13T09:58:51.004Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1.</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
+  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -5324,9 +5325,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -5571,7 +5572,7 @@
     <link href="https://pengtech.net/git/install_setup_git_server.html"/>
     <id>https://pengtech.net/git/install_setup_git_server.html</id>
     <published>2021-12-15T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-08-13T09:41:55.197Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;br&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;br&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;br&gt;虽然git不必依赖一个中心化的仓库来工作, 但是中心化的仓库也能带来很多好处, 比如方便团队写作, 本文主要讲述, 如何配置git服务器, 让多人通过ssh协议的方式访问服务器端的代码仓库.&lt;/p&gt;</summary>
@@ -5817,7 +5818,7 @@
     <link href="https://pengtech.net/hexo/hexo_cli.html"/>
     <id>https://pengtech.net/hexo/hexo_cli.html</id>
     <published>2021-10-30T16:00:00.000Z</published>
-    <updated>2024-08-08T14:19:23.171Z</updated>
+    <updated>2024-08-13T09:43:31.722Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</summary>
@@ -6078,9 +6079,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6290,7 +6291,7 @@
     <link href="https://pengtech.net/webpack/webpack_angularjs_bootstrap.html"/>
     <id>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html</id>
     <published>2021-10-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.445Z</updated>
+    <updated>2024-08-13T09:44:33.266Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;h3 id=&quot;1-1-适用范围&quot;&gt;&lt;a href=&quot;#1-1-适用范围&quot; class=&quot;headerlink&quot; title=&quot;1.1. 适用范围&quot;&gt;&lt;/a&gt;1.1. 适用范围&lt;/h3&gt;&lt;ul&gt;
@@ -6307,9 +6308,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   

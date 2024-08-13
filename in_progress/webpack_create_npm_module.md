@@ -88,7 +88,7 @@ webpack听起来像一个打包器，实际上它更像是一个代码编译器�
 #### 引入webpack工具包
 
 第一步我们来按装webpack的工具包，并完成webpack的一些基本配置．
-先安装webpack,　webpack-cli这两个nodejs模块. 如何你还没有按照nodejs模块，可以参考我的文章[安装并配置nodejs](https://guoapeng.github.io/nodejs/install_and_config_nodejs/).
+先安装webpack,　webpack-cli这两个nodejs模块. 如何你还没有按照nodejs模块，可以参考我的文章[安装并配置nodejs](https://pengtech.net/nodejs/install_and_config_nodejs.html).
 
 ```bash
    cnpm install --save-dev webpack webpack-cli
@@ -213,7 +213,7 @@ $tree  -I "node_modules"
 
 ### webpack配置改造一：生成可发布的npm模块
 
-- 在如何发布一个nodejs模块 - [如何发布一个nodejs模块](https://guoapeng.github.io/nodejs/how_to_publish_node_modules/)中我们讲过，
+- 在如何发布一个nodejs模块 - [如何发布一个nodejs模块](https://pengtech.net/nodejs/how_to_publish_node_modules/)中我们讲过，
 一个完整的可发布的nodejs模块应该包括：
   - package.json 这里面一个包含版本信息，依赖．
   - README.md一些关于模块的说明，让使用或打算使用包的人对模块能有一个清晰的认识．

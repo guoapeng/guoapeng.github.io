@@ -5680,13 +5680,14 @@
       <guid>https://pengtech.net/git/windows_install_git.html</guid>
       <pubDate>Sat, 05 Mar 2022 16:00:00 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1.</description>
-          
-        
+      <description>&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
+  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       
       
       
@@ -5747,9 +5748,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -6559,9 +6560,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/less/">less</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/less/">less</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -6808,9 +6809,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/webpack/">webpack</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>
