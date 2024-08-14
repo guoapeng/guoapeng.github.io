@@ -1390,11 +1390,25 @@
       <category domain="https://pengtech.net/categories/network/v2ray/">v2ray</category>
       
       
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
+      
       <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
       <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
       
       <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
+      
+      <category domain="https://pengtech.net/tags/Macos/">Macos</category>
+      
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
+      
+      <category domain="https://pengtech.net/tags/Redhat/">Redhat</category>
       
       
       <comments>https://pengtech.net/network/v2rayA_install.html#disqus_thread</comments>
@@ -2615,11 +2629,11 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
       
       <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
       
-      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
       
       
       <comments>https://pengtech.net/vmware/vmware_install_ubuntu.html#disqus_thread</comments>
@@ -5775,9 +5789,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

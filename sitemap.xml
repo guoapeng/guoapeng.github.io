@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -389,6 +389,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/chrome/chrome_storage_api.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/ansible/ansible_install.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -417,15 +426,6 @@
   
   <url>
     <loc>https://pengtech.net/ansible/install_ansible_on_windows.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/chrome/chrome_storage_api.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -497,7 +497,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/spring_websocket.html</loc>
+    <loc>https://pengtech.net/java/websocket_java_client.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -506,7 +506,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/websocket_java_client.html</loc>
+    <loc>https://pengtech.net/java/spring_websocket.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -596,7 +596,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material3_foundations.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -605,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material3_foundations.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -623,7 +623,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    <loc>https://pengtech.net/material/material_typeahead.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -632,7 +632,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -812,7 +812,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -821,7 +821,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -965,7 +965,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vmware/vmware_macos_vm.html</loc>
+    <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -974,7 +974,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
+    <loc>https://pengtech.net/vmware/vmware_macos_vm.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2180,7 +2180,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
+    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2189,7 +2189,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
+    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2342,7 +2342,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ansible/ansible.html</loc>
+    <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2351,7 +2351,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
+    <loc>https://pengtech.net/ansible/ansible.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     

@@ -1,7 +1,7 @@
+https://pengtech.net/network/v2rayN_usage.html
+https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/golang/golang_google_translate_api.html
 https://pengtech.net/git/windows_install_git.html
 https://pengtech.net/database/postgresql_advanced.html
