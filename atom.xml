@@ -182,14 +182,14 @@
   </entry>
   
   <entry>
-    <title>15 个精美的 hexo 博客主题推荐</title>
+    <title>16 款精美的 hexo 博客主题推荐</title>
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-08-09T18:45:15.689Z</updated>
+    <updated>2024-08-16T14:30:01.596Z</updated>
     
     
-    <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 14 个精致的 Hexo 主题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</summary>
     
     
     
@@ -527,7 +527,7 @@
     <link href="https://pengtech.net/angular/angular_material3_theming.html"/>
     <id>https://pengtech.net/angular/angular_material3_theming.html</id>
     <published>2024-04-03T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.395Z</updated>
+    <updated>2024-08-15T16:30:05.746Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是-Material-3&quot;&gt;&lt;a href=&quot;#1-什么是-Material-3&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Material 3&quot;&gt;&lt;/a&gt;1. 什么是 Material 3&lt;/h2&gt;&lt;p&gt;Material 3 (M3)是 Google 开源设计系统 Material Design 的最新版本。它是 Angular Material 所遵循的设计系统 Material 2 (M2)的继承者。&lt;/p&gt;
@@ -1203,7 +1203,7 @@
     <link href="https://pengtech.net/sass/tailwind_best_component_libs.html"/>
     <id>https://pengtech.net/sass/tailwind_best_component_libs.html</id>
     <published>2023-12-07T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-15T16:37:41.438Z</updated>
     
     
     <summary type="html">&lt;p&gt;Tailwind 是一个实用程序优先的 CSS 框架，提供了一整套预先设计的样式和组件，使您可以轻松创建令人惊叹的 UI，而无需自定义 CSS。&lt;/p&gt;
@@ -1712,7 +1712,7 @@
     <link href="https://pengtech.net/product/sentry_install.html"/>
     <id>https://pengtech.net/product/sentry_install.html</id>
     <published>2023-10-10T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-15T21:30:35.757Z</updated>
     
     
     <summary type="html">&lt;p&gt;Sentry 是一个免费和开源的错误跟踪平台，可以实时监控和修复崩溃。它使软件开发人员能够看到重要的东西，更快地解决问题，并不断了解他们的应用程序。这个平台提供了对生产部署的实时洞察力，并提供了重现和修复崩溃的信息。Sentry 支持所有主要的语言和框架，并与你喜欢的应用程序和服务集成。&lt;/p&gt;</summary>
@@ -3598,7 +3598,7 @@
     <link href="https://pengtech.net/network/Internal_network_penetration.html"/>
     <id>https://pengtech.net/network/Internal_network_penetration.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-15T21:39:26.158Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WireGuard 是由 Jason Donenfeld 等人用 C 语言编写的一个开源 威屁恩 协议，被视为下一代 威屁恩 协议，旨在解决许多困扰 IPSec&amp;#x2F;IKEv2、Open威屁恩 或 L2TP 等其他 威屁恩 协议的问题。它与 Tinc 和 MeshBird 等现代 威屁恩 产品有一些相似之处，即加密技术先进、配置简单。从 2020 年 1 月开始，它已经并入了 Linux 内核的 5.6 版本，这意味着大多数 Linux 发行版的用户将拥有一个开箱即用的 WireGuard。&lt;/p&gt;</summary>
@@ -3940,7 +3940,7 @@
     <link href="https://pengtech.net/java/spring_websocket.html"/>
     <id>https://pengtech.net/java/spring_websocket.html</id>
     <published>2022-12-31T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-08-15T21:42:47.679Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WebSocket 是 HTML5 一种新的协议。它实现了浏览器与服务器全双工通信，能更好的节省服务器资源和带宽并达到实时通讯，它建立在 TCP 之上.&lt;/p&gt;
@@ -4448,7 +4448,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_ee_crack.html"/>
     <id>https://pengtech.net/gitlab/gitlab_ee_crack.html</id>
     <published>2022-10-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.438Z</updated>
+    <updated>2024-08-15T21:27:22.057Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -5364,9 +5364,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -5509,7 +5509,7 @@
     <link href="https://pengtech.net/linux/linux_shell_rsync.html"/>
     <id>https://pengtech.net/linux/linux_shell_rsync.html</id>
     <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:41.301Z</updated>
+    <updated>2024-08-15T21:46:20.815Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-rsync-简介&quot;&gt;&lt;a href=&quot;#1-rsync-简介&quot; class=&quot;headerlink&quot; title=&quot;1. rsync 简介&quot;&gt;&lt;/a&gt;1. rsync 简介&lt;/h2&gt;&lt;p&gt;rsync 就是远程同步的意思remote sync.&lt;br&gt;rsync 被用在UNIX &amp;#x2F; Linux执行备份操作操作.&lt;br&gt;rsync 工具包被用来从一个位置到另一个位置高效地同步文件和文件夹. rsync可以实现在同一台机器的不同文件直接备份,也可以跨服务器备份.&lt;/p&gt;
@@ -6442,16 +6442,15 @@
   </entry>
   
   <entry>
-    <title>Hexo配置Next主题</title>
-    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
-    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
+    <title>Hexo博客添加评论功能</title>
+    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
+    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:31.725Z</updated>
+    <updated>2024-08-14T16:15:37.783Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
     
     
     
@@ -6465,15 +6464,16 @@
   </entry>
   
   <entry>
-    <title>Hexo博客添加评论功能</title>
-    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
-    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
+    <title>Hexo配置Next主题</title>
+    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
+    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:37.783Z</updated>
+    <updated>2024-08-14T16:15:31.725Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
+    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     

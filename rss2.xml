@@ -198,12 +198,12 @@
     </item>
     
     <item>
-      <title>15 个精美的 hexo 博客主题推荐</title>
+      <title>16 款精美的 hexo 博客主题推荐</title>
       <link>https://pengtech.net/hexo/hexo_theme_recommendation.html</link>
       <guid>https://pengtech.net/hexo/hexo_theme_recommendation.html</guid>
       <pubDate>Sun, 14 Jul 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 14 个精致的 Hexo 主题。&lt;/p&gt;</description>
+      <description>&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</description>
       
       
       
@@ -5789,9 +5789,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -6956,6 +6956,30 @@
     </item>
     
     <item>
+      <title>Hexo博客添加评论功能</title>
+      <link>https://pengtech.net/hexo/hexo_blog_comments.html</link>
+      <guid>https://pengtech.net/hexo/hexo_blog_comments.html</guid>
+      <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://pengtech.net/hexo/hexo_blog_comments.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Hexo配置Next主题</title>
       <link>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</link>
       <guid>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</guid>
@@ -6977,30 +7001,6 @@
       
       
       <comments>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Hexo博客添加评论功能</title>
-      <link>https://pengtech.net/hexo/hexo_blog_comments.html</link>
-      <guid>https://pengtech.net/hexo/hexo_blog_comments.html</guid>
-      <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://pengtech.net/hexo/hexo_blog_comments.html#disqus_thread</comments>
       
     </item>
     
