@@ -186,7 +186,7 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-08-16T14:30:01.596Z</updated>
+    <updated>2024-08-16T14:45:21.041Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</summary>
@@ -203,11 +203,11 @@
   </entry>
   
   <entry>
-    <title>Hexo配置Icarus主题</title>
+    <title>Hexo 配置 Icarus 主题</title>
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-08-07T13:58:49.120Z</updated>
+    <updated>2024-08-16T14:43:33.197Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -5347,30 +5347,6 @@
   </entry>
   
   <entry>
-    <title>Linux下安装gradle</title>
-    <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
-    <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
-    <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:17.171Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
-  </entry>
-  
-  <entry>
     <title>在fedora35上安装virtualbox</title>
     <link href="https://pengtech.net/linux/install_virtualbox_on_fedora35.html"/>
     <id>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</id>
@@ -5395,6 +5371,30 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="virualbox" scheme="https://pengtech.net/tags/virualbox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下安装gradle</title>
+    <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
+    <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
+    <published>2022-01-09T16:00:00.000Z</published>
+    <updated>2024-08-06T10:14:17.171Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
+&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -5815,10 +5815,10 @@
     <link href="https://pengtech.net/hexo/hexo_mermaid_plugin.html"/>
     <id>https://pengtech.net/hexo/hexo_mermaid_plugin.html</id>
     <published>2021-11-01T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-16T14:58:05.219Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-mermaid简介&quot;&gt;&lt;a href=&quot;#1-mermaid简介&quot; class=&quot;headerlink&quot; title=&quot;1. mermaid简介&quot;&gt;&lt;/a&gt;1. mermaid简介&lt;/h2&gt;&lt;p&gt;mermaid(美人鱼)是一种基于文本的格式生成图表和流程图的工具，是markdown文本很好的补充。&lt;br&gt;可以生成各种图表，其中包括流程图, 时序图, 甘特图等等．&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-mermaid简介&quot;&gt;&lt;a href=&quot;#1-mermaid简介&quot; class=&quot;headerlink&quot; title=&quot;1. mermaid简介&quot;&gt;&lt;/a&gt;1. mermaid简介&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://philoenglish.com/query/mermaid&quot;&gt;mermaid&lt;/a&gt;是一种基于文本的格式生成图表和流程图的工具，是markdown文本很好的补充。&lt;br&gt;可以生成各种图表，其中包括流程图, 时序图, 甘特图等等．&lt;/p&gt;</summary>
     
     
     
@@ -6442,28 +6442,6 @@
   </entry>
   
   <entry>
-    <title>Hexo博客添加评论功能</title>
-    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
-    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
-    <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:37.783Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo配置Next主题</title>
     <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
@@ -6487,19 +6465,41 @@
   </entry>
   
   <entry>
+    <title>Hexo博客添加评论功能</title>
+    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
+    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
+    <published>2021-10-03T16:00:00.000Z</published>
+    <updated>2024-08-14T16:15:37.783Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用Hexo搭建自己的博客网站</title>
     <link href="https://pengtech.net/hexo/hexo_create_site.html"/>
     <id>https://pengtech.net/hexo/hexo_create_site.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:46.238Z</updated>
+    <updated>2024-08-16T14:55:57.321Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;说明：我的工作环境是 deepin linux, 出于安全性考虑一直运行在普通用户下, 如果你的安装环境是 Mac 或者 windows，请理解每一步骤的含义后执行调整命令和参数.&lt;br&gt;或者在我的博客下面留言，我有空的时候会统一回复．&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;说明：我的工作环境是 fedora linux, 出于安全性考虑一直运行在普通用户下, 如果你的安装环境是 Mac 或者 windows，请理解每一步骤的含义后执行调整命令和参数.&lt;br&gt;或者在我的博客下面留言，我有空的时候会统一回复．&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;说说我为什么选择 Hexo, 目前比较主流的博客生成系统有三个 hexo, jekyll 和 hugo，jekyll 是老牌的博客生成系统，受到了 github 官方的支持，但是是用的 ruby 的技术栈，&lt;br&gt;我是技术出生, 但是 ruby 一直不在我的技术栈范围之内，至于 jekyll 和 github 在部署的时候的结合度更高的问题，我想对于一个做技术的人来说应该不是什么难事，应该比较容易解决．&lt;br&gt;相比之下 hexo 使用的 nodejs 技术栈，hugo 是 golang 技术栈这两块技术栈我都比较熟悉，主要在这两个博客生成器系统之间徘徊．hugo 固然速度更快，github 上获得的星星数量也更多一些．由于考虑到博客系统更偏向于前端技术，这一块是 nodejs 特长，很多库都可以重用，从自己的职业嗅觉，我觉得一个博客系统或博客生成器采用 nodejs 技术栈更合适一点，另外很重要的一点 Hexo Theme 显得更成熟一些，所以我选择 Hexo, hexo 和 hugo 现在也很难说谁会在这一领域最终胜出．经过调查发现即使将来 hugo 胜出，迁移到 hugo 成本也不会太高．就我目前的个人需求和兴趣点来说，我还是比较偏向 Hexo.&lt;/p&gt;</summary>
+&lt;li&gt;&lt;p&gt;说说我为什么选择 Hexo, 目前比较主流的博客生成系统有三个 hexo, jekyll 和 hugo，jekyll 是老牌的博客生成系统，受到了 github 官方的支持，但是是用的 ruby 的技术栈，&lt;br&gt;我是技术出生, 但是 ruby 一直不在我的技术栈范围之内，至于 jekyll 和 github 在部署的时候的结合度更高的问题，我想对于一个做技术的人来说应该不是什么难事，应该比较容易解决．&lt;br&gt;相比之下 hexo 使用的 nodejs 技术栈，hugo 是 golang 技术栈这两块技术栈我都比较熟悉，主要在这两个博客生成器系统之间徘徊．hugo 固然速度更快，github 上获得的星星数量也更多一些．由于考虑到博客系统更偏向于前端技术，这一块为 nodejs 所擅长，很多库都可以重用。从自己的职业嗅觉，我觉得一个静态博客系统或博客生成器采用 nodejs 技术栈更合适一点，另外很重要的一点 Hexo Theme 显得更成熟一些，所以我选择 Hexo, hexo 和 hugo 现在也很难说谁会在这一领域最终胜出．经过调查发现即使将来 hugo 胜出，迁移到 hugo 成本也不会太高．就我目前的个人需求和兴趣点来说，我还是比较偏向 Hexo.&lt;/p&gt;</summary>
     
     
     
