@@ -5236,31 +5236,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - spacing methods</title>
-      <link>https://pengtech.net/material/Spacing_methods.html</link>
-      <guid>https://pengtech.net/material/Spacing_methods.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Spacing_methods.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design基础 - 响应式布局网格</title>
       <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
       <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
@@ -5283,6 +5258,31 @@
       
       
       <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - spacing methods</title>
+      <link>https://pengtech.net/material/Spacing_methods.html</link>
+      <guid>https://pengtech.net/material/Spacing_methods.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Spacing_methods.html#disqus_thread</comments>
       
     </item>
     
