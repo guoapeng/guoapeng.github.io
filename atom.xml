@@ -69,7 +69,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2024-08-14T23:45:17.451Z</updated>
+    <updated>2024-08-17T07:06:33.868Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -163,7 +163,7 @@
     <link href="https://pengtech.net/database/postgresql_upgrade.html"/>
     <id>https://pengtech.net/database/postgresql_upgrade.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-07-15T02:32:20.301Z</updated>
+    <updated>2024-08-17T01:49:00.841Z</updated>
     
     
     <summary type="html">&lt;p&gt;PostgreSQL 版本发布规则，一年一个大版本，一个季度一个小版本；PG 遇到的 BUG 问题，社区会很快进行修复，并在下一个版本中发布，因此有必要进行对数据库版本升级，避免触发已知的 BUG 带来业务系统的不稳定。本文主要分享一下，PG 小版本升级、跨版本升级和借助逻辑复制进行数据库升级。&lt;/p&gt;</summary>
@@ -186,10 +186,10 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-08-16T14:45:21.041Z</updated>
+    <updated>2024-08-16T18:21:09.649Z</updated>
     
     
-    <summary type="html">&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;根据 Github 影响力,是否在积极维护以及实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</summary>
     
     
     
@@ -1273,7 +1273,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-15T09:22:08.085Z</updated>
+    <updated>2024-08-17T07:06:56.340Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3786,7 +3786,7 @@
     <link href="https://pengtech.net/database/postgresql_backup_restore.html"/>
     <id>https://pengtech.net/database/postgresql_backup_restore.html</id>
     <published>2023-02-23T16:00:00.000Z</published>
-    <updated>2024-07-13T12:11:52.786Z</updated>
+    <updated>2024-08-17T01:58:09.164Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;数据库的备份有多种分类方式。&lt;/p&gt;
@@ -4850,15 +4850,14 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/Spacing_methods.html"/>
+    <id>https://pengtech.net/material/Spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -4874,14 +4873,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/Spacing_methods.html"/>
-    <id>https://pengtech.net/material/Spacing_methods.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     
@@ -5347,6 +5347,30 @@
   </entry>
   
   <entry>
+    <title>Linux下安装gradle</title>
+    <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
+    <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
+    <published>2022-01-09T16:00:00.000Z</published>
+    <updated>2024-08-06T10:14:17.171Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
+&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在fedora35上安装virtualbox</title>
     <link href="https://pengtech.net/linux/install_virtualbox_on_fedora35.html"/>
     <id>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</id>
@@ -5371,30 +5395,6 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="virualbox" scheme="https://pengtech.net/tags/virualbox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下安装gradle</title>
-    <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
-    <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
-    <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:17.171Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -6491,7 +6491,7 @@
     <link href="https://pengtech.net/hexo/hexo_create_site.html"/>
     <id>https://pengtech.net/hexo/hexo_create_site.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-16T14:55:57.321Z</updated>
+    <updated>2024-08-16T18:56:45.607Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;
@@ -6517,10 +6517,10 @@
     <link href="https://pengtech.net/rust/rust_study.html"/>
     <id>https://pengtech.net/rust/rust_study.html</id>
     <published>2021-10-02T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-16T20:43:07.235Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-第一章-Rust简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用Rust&lt;/h3&gt;&lt;p&gt;Rust是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换C&amp;#x2F;C++, Rust和他们具有同样的性能, 但是很多常见的bug在编译时就可以被消灭.&lt;br&gt;Rust是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-第一章-Rust-简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust-简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust 简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust 简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用-Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用-Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用 Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用 Rust&lt;/h3&gt;&lt;p&gt;Rust 是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换 C&amp;#x2F;C++, Rust 和他们具有同样的性能, 但是很多常见的 bug 在编译时就可以被消灭.&lt;br&gt;Rust 是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</summary>
     
     
     

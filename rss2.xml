@@ -203,7 +203,7 @@
       <guid>https://pengtech.net/hexo/hexo_theme_recommendation.html</guid>
       <pubDate>Sun, 14 Jul 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;根据 Github 影响力和实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</description>
+      <description>&lt;p&gt;根据 Github 影响力,是否在积极维护以及实际使用体验筛选出 16 个精致的 Hexo 主题。欢迎评论区留言说出您喜欢的主题。&lt;/p&gt;</description>
       
       
       
@@ -5236,6 +5236,31 @@
     </item>
     
     <item>
+      <title>Material Design基础 - spacing methods</title>
+      <link>https://pengtech.net/material/Spacing_methods.html</link>
+      <guid>https://pengtech.net/material/Spacing_methods.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Spacing_methods.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design基础 - 响应式布局网格</title>
       <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
       <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
@@ -5258,31 +5283,6 @@
       
       
       <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material Design基础 - spacing methods</title>
-      <link>https://pengtech.net/material/Spacing_methods.html</link>
-      <guid>https://pengtech.net/material/Spacing_methods.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Spacing_methods.html#disqus_thread</comments>
       
     </item>
     
@@ -5773,6 +5773,32 @@
     </item>
     
     <item>
+      <title>Linux下安装gradle</title>
+      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
+      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
+      <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
+&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      
+      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>在fedora35上安装virtualbox</title>
       <link>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</link>
       <guid>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</guid>
@@ -5799,32 +5825,6 @@
       
       
       <comments>https://pengtech.net/linux/install_virtualbox_on_fedora35.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Linux下安装gradle</title>
-      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
-      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
-      <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      
-      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
       
     </item>
     
@@ -7038,7 +7038,7 @@
       <guid>https://pengtech.net/rust/rust_study.html</guid>
       <pubDate>Sat, 02 Oct 2021 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-第一章-Rust简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用Rust&lt;/h3&gt;&lt;p&gt;Rust是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换C&amp;#x2F;C++, Rust和他们具有同样的性能, 但是很多常见的bug在编译时就可以被消灭.&lt;br&gt;Rust是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-第一章-Rust-简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust-简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust 简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust 简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用-Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用-Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用 Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用 Rust&lt;/h3&gt;&lt;p&gt;Rust 是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换 C&amp;#x2F;C++, Rust 和他们具有同样的性能, 但是很多常见的 bug 在编译时就可以被消灭.&lt;br&gt;Rust 是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</description>
       
       
       
