@@ -1,5 +1,7 @@
-https://pengtech.net/network/install_v2rayA_on_Windows.html
+https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/network/v2rayA_install.html
+https://pengtech.net/network/v2rayN_usage.html
+https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/material/typography.html
 https://pengtech.net/material/material3_foundations.html
 https://pengtech.net/hexo/hexo_apply_icarus_theme.html
@@ -11,5 +13,3 @@ https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/hexo/hexo_mermaid_plugin.html
 https://pengtech.net/linux/linux_shell_rsync.html
 https://pengtech.net/java/spring_websocket.html
-https://pengtech.net/network/Internal_network_penetration.html
-https://pengtech.net/product/sentry_install.html
