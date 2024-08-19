@@ -96,11 +96,11 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2024-08-19T07:07:00.287Z</updated>
+    <updated>2024-08-19T07:23:36.323Z</updated>
     
     
-    <summary type="html">&lt;p&gt;V2rayNG 是一款基于 V2Ray 内核的 Android 应用，支持多种传输协议和代理方式，包括 VMess、VLESS、Shadowsocks、Socks 等。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
-&lt;p&gt;本文将详细讲述如何在 Android 系统上快速安装、配置和使用 v2rayNG 这款科学上网应用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
+&lt;p&gt;本文将详细讲述如何在 Android 系统上&lt;strong&gt;快速安装&lt;/strong&gt;、配置和使用 v2rayNG 这款科学上网应用。&lt;/p&gt;</summary>
     
     
     
