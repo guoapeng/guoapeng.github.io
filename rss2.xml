@@ -1636,33 +1636,6 @@
     </item>
     
     <item>
-      <title>Angular 17 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_17_update.html</link>
-      <guid>https://pengtech.net/angular/angular_17_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -1687,6 +1660,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular 17 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_17_update.html</link>
+      <guid>https://pengtech.net/angular/angular_17_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
       
     </item>
     
@@ -6601,9 +6601,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/less/">less</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/less/">less</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -6850,9 +6850,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/webpack/">webpack</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>

@@ -1273,7 +1273,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-21T04:49:13.817Z</updated>
+    <updated>2024-08-21T10:11:41.821Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1512,14 +1512,15 @@
   </entry>
   
   <entry>
-    <title>Angular 17 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_17_update.html"/>
-    <id>https://pengtech.net/angular/angular_17_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:52.802Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
-    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -1537,15 +1538,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 17 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_17_update.html"/>
+    <id>https://pengtech.net/angular/angular_17_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:25.497Z</updated>
+    <updated>2024-08-06T10:03:52.802Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
     
     
     
@@ -6118,9 +6118,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6347,9 +6347,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
