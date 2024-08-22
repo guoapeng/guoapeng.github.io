@@ -186,7 +186,7 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-08-22T03:11:45.362Z</updated>
+    <updated>2024-08-22T05:09:15.605Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力,是否在积极维护以及实际使用体验筛选出 16 款精致的 Hexo 主题。欢迎评论区留言，告诉大家你最喜欢的主题。&lt;/p&gt;</summary>
@@ -231,7 +231,7 @@
     <link href="https://pengtech.net/angular/angular_debug.html"/>
     <id>https://pengtech.net/angular/angular_debug.html</id>
     <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.396Z</updated>
+    <updated>2024-08-22T07:20:02.928Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文演示如何调试 Angular 应用程序。在本文中，我们将讨论。&lt;/p&gt;
@@ -1052,14 +1052,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:11.836Z</updated>
+    <updated>2024-08-01T22:19:02.698Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -1077,14 +1077,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-08-01T22:19:02.698Z</updated>
+    <updated>2024-08-22T07:19:35.771Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -2153,7 +2153,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-08-13T09:44:04.494Z</updated>
+    <updated>2024-08-22T07:21:40.522Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -2274,7 +2274,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-08-06T10:09:59.853Z</updated>
+    <updated>2024-08-22T07:20:45.969Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
@@ -3481,16 +3481,16 @@
   </entry>
   
   <entry>
-    <title>mockery v2的介绍和使用</title>
-    <link href="https://pengtech.net/golang/mockery_v2.html"/>
-    <id>https://pengtech.net/golang/mockery_v2.html</id>
+    <title>在Golang中使用Testify mock框架</title>
+    <link href="https://pengtech.net/golang/mocking_in_golang_using_testify.html"/>
+    <id>https://pengtech.net/golang/mocking_in_golang_using_testify.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.390Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
-&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
-&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
+&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
+&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</summary>
     
     
     
@@ -3504,16 +3504,16 @@
   </entry>
   
   <entry>
-    <title>在Golang中使用Testify mock框架</title>
-    <link href="https://pengtech.net/golang/mocking_in_golang_using_testify.html"/>
-    <id>https://pengtech.net/golang/mocking_in_golang_using_testify.html</id>
+    <title>mockery v2的介绍和使用</title>
+    <link href="https://pengtech.net/golang/mockery_v2.html"/>
+    <id>https://pengtech.net/golang/mockery_v2.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.390Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
-&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
-&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
+&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
+&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</summary>
     
     
     
@@ -5364,9 +5364,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -6118,9 +6118,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6385,9 +6385,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   

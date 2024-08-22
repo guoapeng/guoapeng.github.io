@@ -1,5 +1,5 @@
+https://pengtech.net/nodejs/install_nvm_on_windows.html
+https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
+https://pengtech.net/angular/angular_debug.html
+https://pengtech.net/android/android_sdk_install.html
 https://pengtech.net/hexo/hexo_theme_recommendation.html
-https://pengtech.net/sass/tailwind_best_component_libs.html
-https://pengtech.net/vscode/vscode_install_and_config.html
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/network/install_v2rayA_on_Windows.html
