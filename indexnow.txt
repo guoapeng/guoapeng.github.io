@@ -1,5 +1,5 @@
+https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/golang/gin-swagger.html
 https://pengtech.net/angular/angular_tinyMCE_editor.html
 https://pengtech.net/nodejs/install_nvm_on_windows.html
 https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
-https://pengtech.net/angular/angular_debug.html

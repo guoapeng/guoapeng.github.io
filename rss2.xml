@@ -5312,32 +5312,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - 光线和阴影</title>
-      <link>https://pengtech.net/material/light_shadow.html</link>
-      <guid>https://pengtech.net/material/light_shadow.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
-&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design简介</title>
       <link>https://pengtech.net/material/introduction.html</link>
       <guid>https://pengtech.net/material/introduction.html</guid>
@@ -5399,6 +5373,32 @@
       
       
       <comments>https://pengtech.net/material/layout.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - 光线和阴影</title>
+      <link>https://pengtech.net/material/light_shadow.html</link>
+      <guid>https://pengtech.net/material/light_shadow.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
+&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
       
     </item>
     
@@ -5814,9 +5814,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

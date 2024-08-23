@@ -230,7 +230,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-08-17T07:41:40.384Z</updated>
+    <updated>2024-08-23T19:27:20.923Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -4920,30 +4920,6 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 光线和阴影</title>
-    <link href="https://pengtech.net/material/light_shadow.html"/>
-    <id>https://pengtech.net/material/light_shadow.html</id>
-    <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
-&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
-    
-    
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Material Design简介</title>
     <link href="https://pengtech.net/material/introduction.html"/>
     <id>https://pengtech.net/material/introduction.html</id>
@@ -4990,6 +4966,30 @@
 &lt;li&gt;&lt;p&gt;Responsive(响应的) 布局是自适应的。它们对用户、设备和屏幕元素的输入做出反应。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
+    
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Material Design基础 - 光线和阴影</title>
+    <link href="https://pengtech.net/material/light_shadow.html"/>
+    <id>https://pengtech.net/material/light_shadow.html</id>
+    <published>2022-04-29T16:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.587Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
+&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</summary>
     
     
     
@@ -5387,9 +5387,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
