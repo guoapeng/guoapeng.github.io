@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2024-08-24</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2024-08-24</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</loc>
     <lastmod>2024-08-23</lastmod>
   </url>
@@ -39,14 +47,6 @@
   <url>
     <loc>https://pengtech.net/vscode/vscode_install_and_config.html</loc>
     <lastmod>2024-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    <lastmod>2024-08-19</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
