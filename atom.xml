@@ -92,7 +92,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2024-08-24T04:05:58.450Z</updated>
+    <updated>2024-08-24T04:30:42.756Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -230,7 +230,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-08-23T19:27:20.923Z</updated>
+    <updated>2024-08-24T05:25:57.090Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -1296,7 +1296,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-24T04:07:40.431Z</updated>
+    <updated>2024-08-24T04:20:40.501Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3144,7 +3144,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-08-19T07:28:52.438Z</updated>
+    <updated>2024-08-24T04:24:01.798Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -5387,9 +5387,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
