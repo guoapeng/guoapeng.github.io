@@ -1400,7 +1400,7 @@
     </item>
     
     <item>
-      <title>2024 最新 v2rayA 安装与配置教程 for Windows、Macos、Linux、Android</title>
+      <title>2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos、Android</title>
       <link>https://pengtech.net/network/v2rayA_install.html</link>
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
       <pubDate>Fri, 17 Nov 2023 16:00:00 GMT</pubDate>
@@ -4466,19 +4466,19 @@
     </item>
     
     <item>
-      <title>Windows上安装PostgreSQL 14</title>
-      <link>https://pengtech.net/database/install_postgresql_on_windows.html</link>
-      <guid>https://pengtech.net/database/install_postgresql_on_windows.html</guid>
+      <title>PostgreSQL高级篇</title>
+      <link>https://pengtech.net/database/postgresql_advanced.html</link>
+      <guid>https://pengtech.net/database/postgresql_advanced.html</guid>
       <pubDate>Sun, 04 Dec 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</description>
       
       
       
       
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      <category domain="https://pengtech.net/categories/database/">database</category>
       
-      <category domain="https://pengtech.net/categories/OS/windows/">windows</category>
+      <category domain="https://pengtech.net/categories/database/postgresql/">postgresql</category>
       
       
       <category domain="https://pengtech.net/tags/linux/">linux</category>
@@ -4486,7 +4486,7 @@
       <category domain="https://pengtech.net/tags/database/">database</category>
       
       
-      <comments>https://pengtech.net/database/install_postgresql_on_windows.html#disqus_thread</comments>
+      <comments>https://pengtech.net/database/postgresql_advanced.html#disqus_thread</comments>
       
     </item>
     
@@ -4516,19 +4516,19 @@
     </item>
     
     <item>
-      <title>PostgreSQL高级篇</title>
-      <link>https://pengtech.net/database/postgresql_advanced.html</link>
-      <guid>https://pengtech.net/database/postgresql_advanced.html</guid>
+      <title>Windows上安装PostgreSQL 14</title>
+      <link>https://pengtech.net/database/install_postgresql_on_windows.html</link>
+      <guid>https://pengtech.net/database/install_postgresql_on_windows.html</guid>
       <pubDate>Sun, 04 Dec 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</description>
+      <description>&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</description>
       
       
       
       
-      <category domain="https://pengtech.net/categories/database/">database</category>
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
       
-      <category domain="https://pengtech.net/categories/database/postgresql/">postgresql</category>
+      <category domain="https://pengtech.net/categories/OS/windows/">windows</category>
       
       
       <category domain="https://pengtech.net/tags/linux/">linux</category>
@@ -4536,7 +4536,7 @@
       <category domain="https://pengtech.net/tags/database/">database</category>
       
       
-      <comments>https://pengtech.net/database/postgresql_advanced.html#disqus_thread</comments>
+      <comments>https://pengtech.net/database/install_postgresql_on_windows.html#disqus_thread</comments>
       
     </item>
     
@@ -6771,6 +6771,29 @@
     </item>
     
     <item>
+      <title>创建kubernetes集群</title>
+      <link>https://pengtech.net/k8s/setup_k8s_cluster.html</link>
+      <guid>https://pengtech.net/k8s/setup_k8s_cluster.html</guid>
+      <pubDate>Fri, 08 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
+      
+      
+      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
+      
+      
+      <comments>https://pengtech.net/k8s/setup_k8s_cluster.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>JDK17安装</title>
       <link>https://pengtech.net/java/jdk17_installation.html</link>
       <guid>https://pengtech.net/java/jdk17_installation.html</guid>
@@ -6791,29 +6814,6 @@
       
       
       <comments>https://pengtech.net/java/jdk17_installation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>创建kubernetes集群</title>
-      <link>https://pengtech.net/k8s/setup_k8s_cluster.html</link>
-      <guid>https://pengtech.net/k8s/setup_k8s_cluster.html</guid>
-      <pubDate>Fri, 08 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
-      
-      
-      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
-      
-      
-      <comments>https://pengtech.net/k8s/setup_k8s_cluster.html#disqus_thread</comments>
       
     </item>
     
@@ -7068,7 +7068,7 @@
     </item>
     
     <item>
-      <title>使用Hexo搭建自己的博客网站</title>
+      <title>使用 Hexo 快速搭建个人博客</title>
       <link>https://pengtech.net/hexo/hexo_create_site.html</link>
       <guid>https://pengtech.net/hexo/hexo_create_site.html</guid>
       <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
