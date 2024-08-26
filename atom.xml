@@ -1296,7 +1296,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-08-24T11:27:52.459Z</updated>
+    <updated>2024-08-26T12:21:12.809Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -5711,9 +5711,9 @@
     
     
     
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
   </entry>
   
@@ -6503,15 +6503,16 @@
   </entry>
   
   <entry>
-    <title>Hexo博客添加评论功能</title>
-    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
-    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
+    <title>Hexo配置Next主题</title>
+    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
+    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:37.783Z</updated>
+    <updated>2024-08-26T10:26:09.584Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
+    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -6525,16 +6526,15 @@
   </entry>
   
   <entry>
-    <title>Hexo配置Next主题</title>
-    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
-    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
+    <title>Hexo博客添加评论功能</title>
+    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
+    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-26T10:26:09.584Z</updated>
+    <updated>2024-08-14T16:15:37.783Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
     
     
     
