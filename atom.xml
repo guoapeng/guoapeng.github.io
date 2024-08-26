@@ -450,11 +450,11 @@
     <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
     <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-26T10:19:23.255Z</updated>
     
     
     <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
 &lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
@@ -2176,7 +2176,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-08-22T07:21:40.522Z</updated>
+    <updated>2024-08-26T10:30:39.698Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -2198,7 +2198,7 @@
     <link href="https://pengtech.net/vmware/windows_env_setup.html"/>
     <id>https://pengtech.net/vmware/windows_env_setup.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-26T10:34:32.485Z</updated>
     
     
       
@@ -2249,7 +2249,7 @@
     <link href="https://pengtech.net/tauri/setup_tauri_for_linux.html"/>
     <id>https://pengtech.net/tauri/setup_tauri_for_linux.html</id>
     <published>2023-08-21T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-26T10:31:50.002Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文讲述如何在linux操作系统中配置Tauri编译, 打包环境.&lt;/p&gt;
@@ -2297,7 +2297,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-08-22T07:20:45.969Z</updated>
+    <updated>2024-08-26T10:25:19.024Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
@@ -2470,11 +2470,11 @@
     <link href="https://pengtech.net/vmware/vmware_install_windows.html"/>
     <id>https://pengtech.net/vmware/vmware_install_windows.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-26T10:34:18.107Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
-&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
+&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows.html&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
     
     
     
@@ -2494,11 +2494,11 @@
     <link href="https://pengtech.net/vmware/vmware_macos_vm.html"/>
     <id>https://pengtech.net/vmware/vmware_macos_vm.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-26T10:19:38.428Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个 Tauri 桌面应用, 由于 Tauri 应用的跨平台编译特性还不是特别完善, 比如打包 macos 桌面应用程序, 需要在 Macos 上进行. 于是想到了是否能安装一台 macos 虚拟机用于打包, 并兼顾 Macos 上的测试. 于是就有了这篇文章. 当然安装 macos 虚拟机的好处远不指这些.&lt;/p&gt;
-&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
+&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</summary>
     
     
     
@@ -2593,7 +2593,7 @@
     <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
     <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-26T10:33:42.583Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
@@ -2715,7 +2715,7 @@
     <link href="https://pengtech.net/tauri/tauri_angular_desktop.html"/>
     <id>https://pengtech.net/tauri/tauri_angular_desktop.html</id>
     <published>2023-08-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-26T10:32:01.574Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 是一个应用程序构建工具包，可让您使用 Web 技术为所有主要桌面操作系统构建软件。核心库是用 Rust 编写的，用户界面几乎可以使用任何前端框架编写。它包括一个可选的、tree-shakeable JavaScript API用于舒适地访问底层操作系统、一个具有签名和验证的桌面二进制捆绑器、一个让您的用户保持最新版本的安全更新程序、一个可扩展的插件系统以及支持与操作系统整合，例如通知和应用程序托盘。&lt;/p&gt;
@@ -3392,7 +3392,7 @@
     <link href="https://pengtech.net/angular/angular_universal.html"/>
     <id>https://pengtech.net/angular/angular_universal.html</id>
     <published>2023-05-02T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.393Z</updated>
+    <updated>2024-08-26T10:21:40.389Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -3621,7 +3621,7 @@
     <link href="https://pengtech.net/network/Internal_network_penetration.html"/>
     <id>https://pengtech.net/network/Internal_network_penetration.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2024-08-15T21:39:26.158Z</updated>
+    <updated>2024-08-26T10:29:22.773Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WireGuard 是由 Jason Donenfeld 等人用 C 语言编写的一个开源 威屁恩 协议，被视为下一代 威屁恩 协议，旨在解决许多困扰 IPSec&amp;#x2F;IKEv2、Open威屁恩 或 L2TP 等其他 威屁恩 协议的问题。它与 Tinc 和 MeshBird 等现代 威屁恩 产品有一些相似之处，即加密技术先进、配置简单。从 2020 年 1 月开始，它已经并入了 Linux 内核的 5.6 版本，这意味着大多数 Linux 发行版的用户将拥有一个开箱即用的 WireGuard。&lt;/p&gt;</summary>
@@ -4134,20 +4134,20 @@
   </entry>
   
   <entry>
-    <title>PostgreSQL高级篇</title>
-    <link href="https://pengtech.net/database/postgresql_advanced.html"/>
-    <id>https://pengtech.net/database/postgresql_advanced.html</id>
+    <title>Windows上安装PostgreSQL 14</title>
+    <link href="https://pengtech.net/database/install_postgresql_on_windows.html"/>
+    <id>https://pengtech.net/database/install_postgresql_on_windows.html</id>
     <published>2022-12-04T16:00:00.000Z</published>
-    <updated>2024-08-13T09:57:40.023Z</updated>
+    <updated>2024-08-07T15:48:42.911Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</summary>
     
     
     
-    <category term="database" scheme="https://pengtech.net/categories/database/"/>
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
     
-    <category term="postgresql" scheme="https://pengtech.net/categories/database/postgresql/"/>
+    <category term="windows" scheme="https://pengtech.net/categories/OS/windows/"/>
     
     
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
@@ -4180,20 +4180,20 @@
   </entry>
   
   <entry>
-    <title>Windows上安装PostgreSQL 14</title>
-    <link href="https://pengtech.net/database/install_postgresql_on_windows.html"/>
-    <id>https://pengtech.net/database/install_postgresql_on_windows.html</id>
+    <title>PostgreSQL高级篇</title>
+    <link href="https://pengtech.net/database/postgresql_advanced.html"/>
+    <id>https://pengtech.net/database/postgresql_advanced.html</id>
     <published>2022-12-04T16:00:00.000Z</published>
-    <updated>2024-08-07T15:48:42.911Z</updated>
+    <updated>2024-08-26T10:23:06.888Z</updated>
     
     
-    <summary type="html">&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</summary>
     
     
     
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    <category term="database" scheme="https://pengtech.net/categories/database/"/>
     
-    <category term="windows" scheme="https://pengtech.net/categories/OS/windows/"/>
+    <category term="postgresql" scheme="https://pengtech.net/categories/database/postgresql/"/>
     
     
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
@@ -4273,7 +4273,7 @@
     <link href="https://pengtech.net/rust/vscode_rust_ide.html"/>
     <id>https://pengtech.net/rust/vscode_rust_ide.html</id>
     <published>2022-11-28T16:00:00.000Z</published>
-    <updated>2024-08-07T15:44:57.159Z</updated>
+    <updated>2024-08-26T10:31:24.503Z</updated>
     
     
       
@@ -4648,7 +4648,7 @@
     <link href="https://pengtech.net/angular/angular_material_design.html"/>
     <id>https://pengtech.net/angular/angular_material_design.html</id>
     <published>2022-05-28T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-26T10:21:08.543Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
@@ -5270,7 +5270,7 @@
     <link href="https://pengtech.net/angular/angular2_installation.html"/>
     <id>https://pengtech.net/angular/angular2_installation.html</id>
     <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-08-13T09:42:52.533Z</updated>
+    <updated>2024-08-26T10:22:20.250Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Angular-介绍&quot;&gt;&lt;a href=&quot;#1-Angular-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Angular 介绍&quot;&gt;&lt;/a&gt;1. Angular 介绍&lt;/h2&gt;&lt;p&gt;关于 Angular 版本，Angular 官方已经统一命名 Angular 1.x 同一为 Angular JS；Angular 2.x 及以上统称 Angular；&lt;/p&gt;
@@ -5532,7 +5532,7 @@
     <link href="https://pengtech.net/linux/linux_shell_rsync.html"/>
     <id>https://pengtech.net/linux/linux_shell_rsync.html</id>
     <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-08-15T21:46:20.815Z</updated>
+    <updated>2024-08-26T10:27:52.579Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-rsync-简介&quot;&gt;&lt;a href=&quot;#1-rsync-简介&quot; class=&quot;headerlink&quot; title=&quot;1. rsync 简介&quot;&gt;&lt;/a&gt;1. rsync 简介&lt;/h2&gt;&lt;p&gt;rsync 就是远程同步的意思remote sync.&lt;br&gt;rsync 被用在UNIX &amp;#x2F; Linux执行备份操作操作.&lt;br&gt;rsync 工具包被用来从一个位置到另一个位置高效地同步文件和文件夹. rsync可以实现在同一台机器的不同文件直接备份,也可以跨服务器备份.&lt;/p&gt;
@@ -5634,7 +5634,7 @@
     <link href="https://pengtech.net/git/install_setup_git_server.html"/>
     <id>https://pengtech.net/git/install_setup_git_server.html</id>
     <published>2021-12-15T16:00:00.000Z</published>
-    <updated>2024-08-13T09:41:55.197Z</updated>
+    <updated>2024-08-26T10:23:51.141Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;br&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;br&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;br&gt;虽然git不必依赖一个中心化的仓库来工作, 但是中心化的仓库也能带来很多好处, 比如方便团队写作, 本文主要讲述, 如何配置git服务器, 让多人通过ssh协议的方式访问服务器端的代码仓库.&lt;/p&gt;</summary>
@@ -5679,7 +5679,7 @@
     <link href="https://pengtech.net/linux/tmux.html"/>
     <id>https://pengtech.net/linux/tmux.html</id>
     <published>2021-11-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-26T10:28:20.889Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Tmux的作者&quot;&gt;&lt;a href=&quot;#1-Tmux的作者&quot; class=&quot;headerlink&quot; title=&quot;1. Tmux的作者&quot;&gt;&lt;/a&gt;1. Tmux的作者&lt;/h2&gt;&lt;p&gt;Tmux的作者是Nicholas Marriott, 网上关于Nicholas Marriott的介绍很少, 但是本人对创建如此复杂而功能强大的Tmux的开源开发者十分感兴趣, 希望知道的能补充一些关于Tmux的信息.&lt;/p&gt;
@@ -5722,7 +5722,7 @@
     <link href="https://pengtech.net/linux/linux-expect-explanation.html"/>
     <id>https://pengtech.net/linux/linux-expect-explanation.html</id>
     <published>2021-11-08T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-26T10:28:03.335Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Expect简介&quot;&gt;&lt;a href=&quot;#1-Expect简介&quot; class=&quot;headerlink&quot; title=&quot;1. Expect简介&quot;&gt;&lt;/a&gt;1. Expect简介&lt;/h2&gt;&lt;ul&gt;
@@ -6122,10 +6122,10 @@
     <link href="https://pengtech.net/web/web_basic_1.html"/>
     <id>https://pengtech.net/web/web_basic_1.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-08-07T16:39:50.487Z</updated>
+    <updated>2024-08-26T10:35:33.429Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1.html&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
 &lt;p&gt;编者: &lt;a href=&quot;https://philoenglish.com/&quot;&gt;菲利英语&lt;/a&gt;团队&lt;/p&gt;</summary>
     
     
@@ -6275,27 +6275,6 @@
   </entry>
   
   <entry>
-    <title>创建kubernetes集群</title>
-    <link href="https://pengtech.net/k8s/setup_k8s_cluster.html"/>
-    <id>https://pengtech.net/k8s/setup_k8s_cluster.html</id>
-    <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-08-07T15:41:46.994Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
-    
-    
-    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
-    
-  </entry>
-  
-  <entry>
     <title>JDK17安装</title>
     <link href="https://pengtech.net/java/jdk17_installation.html"/>
     <id>https://pengtech.net/java/jdk17_installation.html</id>
@@ -6314,6 +6293,27 @@
     
     
     <category term="Java" scheme="https://pengtech.net/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>创建kubernetes集群</title>
+    <link href="https://pengtech.net/k8s/setup_k8s_cluster.html"/>
+    <id>https://pengtech.net/k8s/setup_k8s_cluster.html</id>
+    <published>2021-10-08T16:00:00.000Z</published>
+    <updated>2024-08-07T15:41:46.994Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
+    
+    
+    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
     
   </entry>
   
@@ -6419,7 +6419,7 @@
     <link href="https://pengtech.net/nodejs/how_to_create_a_node_module.html"/>
     <id>https://pengtech.net/nodejs/how_to_create_a_node_module.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.306Z</updated>
+    <updated>2024-08-26T10:30:00.644Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;
@@ -6443,7 +6443,7 @@
     <link href="https://pengtech.net/nodejs/how_to_publish_node_modules.html"/>
     <id>https://pengtech.net/nodejs/how_to_publish_node_modules.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:58.085Z</updated>
+    <updated>2024-08-26T10:30:09.561Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本人写了一个音乐播放器程序，想把其中核心的部分发布成Nodejs模块，这样我无论是在web端，还是桌面端都能引用该核心模块，我想在web端实现一个网友播放器，桌面端利用Electron包装一下实现一个桌面版的播放器，这样同一套代码，多端就可以共用了．说干就干, 以下记录了nodejs发布的全过程．&lt;/p&gt;</summary>
@@ -6503,16 +6503,15 @@
   </entry>
   
   <entry>
-    <title>Hexo配置Next主题</title>
-    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
-    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
+    <title>Hexo博客添加评论功能</title>
+    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
+    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:31.725Z</updated>
+    <updated>2024-08-14T16:15:37.783Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
     
     
     
@@ -6526,15 +6525,16 @@
   </entry>
   
   <entry>
-    <title>Hexo博客添加评论功能</title>
-    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
-    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
+    <title>Hexo配置Next主题</title>
+    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
+    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:37.783Z</updated>
+    <updated>2024-08-26T10:26:09.584Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
+    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     

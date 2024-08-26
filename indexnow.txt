@@ -1,5 +1,5 @@
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/hexo/hexo_create_site.html
-https://pengtech.net/hexo/hexo_apply_icarus_theme.html
-https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/network/v2rayN_usage.html
+https://pengtech.net/web/web_basic_1.html
+https://pengtech.net/vmware/windows_env_setup.html
+https://pengtech.net/vmware/vmware_install_windows.html
+https://pengtech.net/tauri/tauri_gitlab_pipeline.html
+https://pengtech.net/tauri/tauri_angular_desktop.html

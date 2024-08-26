@@ -213,7 +213,7 @@ $tree  -I "node_modules"
 
 ### webpack配置改造一：生成可发布的npm模块
 
-- 在如何发布一个nodejs模块 - [如何发布一个nodejs模块](https://pengtech.net/nodejs/how_to_publish_node_modules/)中我们讲过，
+- 在如何发布一个nodejs模块 - [如何发布一个nodejs模块](https://pengtech.net/nodejs/how_to_publish_node_modules.html)中我们讲过，
 一个完整的可发布的nodejs模块应该包括：
   - package.json 这里面一个包含版本信息，依赖．
   - README.md一些关于模块的说明，让使用或打算使用包的人对模块能有一个清晰的认识．

@@ -490,7 +490,7 @@
       <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
 &lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</description>
       
       
@@ -2672,7 +2672,7 @@
       <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
-&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
+&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows.html&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
       
       
       
@@ -2698,7 +2698,7 @@
       <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个 Tauri 桌面应用, 由于 Tauri 应用的跨平台编译特性还不是特别完善, 比如打包 macos 桌面应用程序, 需要在 Macos 上进行. 于是想到了是否能安装一台 macos 虚拟机用于打包, 并兼顾 Macos 上的测试. 于是就有了这篇文章. 当然安装 macos 虚拟机的好处远不指这些.&lt;/p&gt;
-&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
+&lt;p&gt;原创不易, 本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;, 原文下面有打赏按钮, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
       
       
       
@@ -4466,19 +4466,19 @@
     </item>
     
     <item>
-      <title>PostgreSQL高级篇</title>
-      <link>https://pengtech.net/database/postgresql_advanced.html</link>
-      <guid>https://pengtech.net/database/postgresql_advanced.html</guid>
+      <title>Windows上安装PostgreSQL 14</title>
+      <link>https://pengtech.net/database/install_postgresql_on_windows.html</link>
+      <guid>https://pengtech.net/database/install_postgresql_on_windows.html</guid>
       <pubDate>Sun, 04 Dec 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</description>
+      <description>&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</description>
       
       
       
       
-      <category domain="https://pengtech.net/categories/database/">database</category>
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
       
-      <category domain="https://pengtech.net/categories/database/postgresql/">postgresql</category>
+      <category domain="https://pengtech.net/categories/OS/windows/">windows</category>
       
       
       <category domain="https://pengtech.net/tags/linux/">linux</category>
@@ -4486,7 +4486,7 @@
       <category domain="https://pengtech.net/tags/database/">database</category>
       
       
-      <comments>https://pengtech.net/database/postgresql_advanced.html#disqus_thread</comments>
+      <comments>https://pengtech.net/database/install_postgresql_on_windows.html#disqus_thread</comments>
       
     </item>
     
@@ -4516,19 +4516,19 @@
     </item>
     
     <item>
-      <title>Windows上安装PostgreSQL 14</title>
-      <link>https://pengtech.net/database/install_postgresql_on_windows.html</link>
-      <guid>https://pengtech.net/database/install_postgresql_on_windows.html</guid>
+      <title>PostgreSQL高级篇</title>
+      <link>https://pengtech.net/database/postgresql_advanced.html</link>
+      <guid>https://pengtech.net/database/postgresql_advanced.html</guid>
       <pubDate>Sun, 04 Dec 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt; 本文主要讲述如何在Windows上安装PostgreSQL 14。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-PG简介&quot;&gt;&lt;a href=&quot;#1-PG简介&quot; class=&quot;headerlink&quot; title=&quot;1. PG简介&quot;&gt;&lt;/a&gt;1. PG简介&lt;/h2&gt;&lt;p&gt;PostgreSQL是一个免费的对象-关系型数据库服务器(ORDBMS), 在灵活的BSD许可证下发行.&lt;br&gt;PostgreSQL开发者把它念作post-gress-Q-L.&lt;br&gt;PostgreSQL的Slogan是世界上最先进的开源关系型数据库.&lt;br&gt;开源界的Oracle, 去O首选&lt;/p&gt;</description>
       
       
       
       
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      <category domain="https://pengtech.net/categories/database/">database</category>
       
-      <category domain="https://pengtech.net/categories/OS/windows/">windows</category>
+      <category domain="https://pengtech.net/categories/database/postgresql/">postgresql</category>
       
       
       <category domain="https://pengtech.net/tags/linux/">linux</category>
@@ -4536,7 +4536,7 @@
       <category domain="https://pengtech.net/tags/database/">database</category>
       
       
-      <comments>https://pengtech.net/database/install_postgresql_on_windows.html#disqus_thread</comments>
+      <comments>https://pengtech.net/database/postgresql_advanced.html#disqus_thread</comments>
       
     </item>
     
@@ -6609,7 +6609,7 @@
       <guid>https://pengtech.net/web/web_basic_1.html</guid>
       <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
+      <description>&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1.html&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
 &lt;p&gt;编者: &lt;a href=&quot;https://philoenglish.com/&quot;&gt;菲利英语&lt;/a&gt;团队&lt;/p&gt;</description>
       
       
@@ -6771,29 +6771,6 @@
     </item>
     
     <item>
-      <title>创建kubernetes集群</title>
-      <link>https://pengtech.net/k8s/setup_k8s_cluster.html</link>
-      <guid>https://pengtech.net/k8s/setup_k8s_cluster.html</guid>
-      <pubDate>Fri, 08 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
-      
-      
-      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
-      
-      
-      <comments>https://pengtech.net/k8s/setup_k8s_cluster.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>JDK17安装</title>
       <link>https://pengtech.net/java/jdk17_installation.html</link>
       <guid>https://pengtech.net/java/jdk17_installation.html</guid>
@@ -6814,6 +6791,29 @@
       
       
       <comments>https://pengtech.net/java/jdk17_installation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>创建kubernetes集群</title>
+      <link>https://pengtech.net/k8s/setup_k8s_cluster.html</link>
+      <guid>https://pengtech.net/k8s/setup_k8s_cluster.html</guid>
+      <pubDate>Fri, 08 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述配置一个最简单的 k8s 集群, 本集群由 1 个 master(master01) 和 2 个 node 节点（node01, node02）组成. 当前(2021&amp;#x2F;02&amp;#x2F;15) kubernetes 的最新稳定版本为 v1.20.2. 但是我依然采用的是较老的版本 v1.13.2, 因为众多参考文档使用的是这个版本，目前不清楚各组件之间的版本兼容性问题，所以依然采用这个版本，后续经过多次重复安装，验证各版本的兼容性后再回头来更新版本信息。另外网上有很多的 k8s 实验平台, 只需轻松几个点击, 就可以搭建 k8s 集群, 如果只是学习目的, 可以跳过这唬人的安装过程, 直接进入概念学习阶段, 等对 k8s 玩得很溜了再回头来搭建环境. 欲练此功, 不安装 k8s 也可以. 这里推荐&lt;a href=&quot;https://labs.play-with-k8s.com/&quot;&gt;play-with-k8s.com&lt;/a&gt;, 创建过程可参考&lt;a href=&quot;https://www.hangge.com/blog/cache/detail_2420.html&quot;&gt;这篇文章&lt;/a&gt;只要有 github 账号即可以登录使用.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
+      
+      
+      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
+      
+      
+      <comments>https://pengtech.net/k8s/setup_k8s_cluster.html#disqus_thread</comments>
       
     </item>
     
@@ -7019,6 +7019,30 @@
     </item>
     
     <item>
+      <title>Hexo博客添加评论功能</title>
+      <link>https://pengtech.net/hexo/hexo_blog_comments.html</link>
+      <guid>https://pengtech.net/hexo/hexo_blog_comments.html</guid>
+      <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://pengtech.net/hexo/hexo_blog_comments.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Hexo配置Next主题</title>
       <link>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</link>
       <guid>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</guid>
@@ -7040,30 +7064,6 @@
       
       
       <comments>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Hexo博客添加评论功能</title>
-      <link>https://pengtech.net/hexo/hexo_blog_comments.html</link>
-      <guid>https://pengtech.net/hexo/hexo_blog_comments.html</guid>
-      <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景说明&quot;&gt;&lt;a href=&quot;#1-背景说明&quot; class=&quot;headerlink&quot; title=&quot;1. 背景说明&quot;&gt;&lt;/a&gt;1. 背景说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://pengtech.net/hexo/hexo_blog_comments.html#disqus_thread</comments>
       
     </item>
     
