@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-08-23T05:30:40.498Z</updated>
+  <updated>2024-08-28T08:37:00.474Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vultr 的羊毛要薅吗？300美金的服务器资源大放送</title>
+    <link href="https://pengtech.net/linux/vultr_account_creation.html"/>
+    <id>https://pengtech.net/linux/vultr_account_creation.html</id>
+    <published>2024-08-27T16:00:00.000Z</published>
+    <updated>2024-08-28T08:37:00.474Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Vultr 年度超级优惠来了，300美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月的300美金试用金，感觉这波优惠有点大，过了这段时间可能就没有了。&lt;/p&gt;
+&lt;p&gt;Vultr作为很多人的入门VPS，有着良好的口碑，尤其在做站方面，稳定。Vultr提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="backend" scheme="https://pengtech.net/categories/backend/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
+    
+  </entry>
   
   <entry>
     <title>golang gin 使用swagger生成接口文档</title>
@@ -5711,9 +5733,9 @@
     
     
     
-    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
-    
     <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
+    
+    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
     
   </entry>
   
