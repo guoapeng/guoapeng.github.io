@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/linux/vultr_account_creation.html</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
     <lastmod>2024-08-28</lastmod>
   </url>
   <url>
@@ -193,10 +201,6 @@
     <lastmod>2024-08-15</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
-    <lastmod>2024-08-14</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/linux_connect_wifi.html</loc>
     <lastmod>2024-08-14</lastmod>
   </url>
@@ -353,11 +357,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -409,11 +413,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -525,11 +529,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -689,11 +693,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -985,11 +989,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>

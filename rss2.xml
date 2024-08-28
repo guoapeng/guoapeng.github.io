@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 28 Aug 2024 08:37:00 GMT</pubDate>
+    <pubDate>Wed, 28 Aug 2024 14:18:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -24,8 +24,8 @@
       <guid>https://pengtech.net/linux/vultr_account_creation.html</guid>
       <pubDate>Tue, 27 Aug 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;Vultr 年度超级优惠来了，300美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月的300美金试用金，感觉这波优惠有点大，过了这段时间可能就没有了。&lt;/p&gt;
-&lt;p&gt;Vultr作为很多人的入门VPS，有着良好的口碑，尤其在做站方面，稳定。Vultr提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;</description>
+      <description>&lt;p&gt;Vultr 年度超级优惠来了，300美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，感觉这波优惠有点大，不过可能过了这段时间就没有了。&lt;/p&gt;
+&lt;p&gt;Vultr作为很多人的入门VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;</description>
       
       
       
@@ -39,6 +39,35 @@
       
       
       <comments>https://pengtech.net/linux/vultr_account_creation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Vultr + Code-server 自建 Cloud IDE</title>
+      <link>https://pengtech.net/vscode/cloud_ide_on_vultr.html</link>
+      <guid>https://pengtech.net/vscode/cloud_ide_on_vultr.html</guid>
+      <pubDate>Tue, 27 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
+&lt;p&gt;另外如果选择的是国外的 VPS, 那么额外的好处就是，你的 IDE 天然的就在墙外面了，下载各种软件，依赖包，那些奇奇怪怪的问题就没有了，而且你也不存在违规的风险。&lt;/p&gt;
+&lt;p&gt;其实 Web IDE 很早就有，但那些都只能说是玩具，直到现在才有一些不错的产品推出，比如微软家的 Visual Studio Codespaces、coding.net 的 Cloud Studio、华为云 CloudIDE 等。不过，这些产品要么还在测试，要么免费用会有很多限制， 付费的产品价格不菲，目前还不是非常方便。&lt;/p&gt;
+&lt;p&gt;如果想要低成本愉快地使用，自己动手搭建是一个不错的方案。对配置要求不高的话，一年几十块一百多块就能买到廉价的 VPS 或者云主机就足够了。&lt;/p&gt;
+&lt;p&gt;自己 DIY 一套 Web IDE 比较成熟的方案有两个，code-server 和 Theia。毕竟 code-server 是基于 VS code 魔改的，与 vs code 的插件体系兼容性更好。所以更推荐 code-server。Theia 虽然有自己的插件体系，也宣称兼容 vs code 的插件，也是一套优秀的 WEB IDE 解决方案，但是兼容程度谁知道呢？&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/vscode/">vscode</category>
+      
+      
+      <comments>https://pengtech.net/vscode/cloud_ide_on_vultr.html#disqus_thread</comments>
       
     </item>
     
@@ -4467,10 +4496,10 @@
       <guid>https://pengtech.net/vscode/cloud_ide.html</guid>
       <pubDate>Tue, 20 Dec 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;如果手头上有多个设备，需要经常轮换着使用，又或者经常出门不想带太沉的笔记本电脑，想随时随地写代码，Web IDE 可以帮到你。&lt;/p&gt;
-&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉的动物园树下，边看动物边敲代码，多惬意。&lt;/p&gt;
-&lt;p&gt;其实 Web IDE 很早就有，但都只能说是玩具，直到现在才有一些不错的产品推出，比如微软和 Github 的 Visual Studio Codespaces、coding.net 的 Cloud Studio、华为云 CloudIDE 等。不过，这些产品要么还在测试，要么免费用会有限制或者价格不低，目前还不是非常方便。&lt;/p&gt;
-&lt;p&gt;如果想要低成本愉快使用，自己来搭建是一个不错的方案。对配置要求不高的话，一年几十块一百多块就能买到廉价的 VPS 或者云主机。Web IDE 的部署方案推荐两个，code-server 和 Theia。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
+&lt;p&gt;其实 Web IDE 很早就有，但那些都只能说是玩具，直到现在才有一些不错的产品推出，比如微软和 Github 的 Visual Studio Codespaces、coding.net 的 Cloud Studio、华为云 CloudIDE 等。不过，这些产品要么还在测试，要么免费用会有限制或者价格不菲，目前还不是非常方便。&lt;/p&gt;
+&lt;p&gt;如果想要低成本愉快地使用，自己动手搭建是一个不错的方案。对配置要求不高的话，一年几十块一百多块就能买到廉价的 VPS 或者云主机就足够了。&lt;/p&gt;
+&lt;p&gt;自己DIY 一套Web IDE 比较成熟的方案有两个，code-server 和 Theia。毕竟 code-server 是基于VS code魔改的，与vs code的插件体系兼容性更好。所以更推荐code-server。Theia虽然有自己的插件体系，也宣称兼容vs code的插件，也是一套优秀的WEB IDE解决方案，但是兼容程度谁知道呢？&lt;/p&gt;</description>
       
       
       
@@ -5153,32 +5182,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5201,6 +5204,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
