@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Thu, 29 Aug 2024 10:34:43 GMT</pubDate>
+    <pubDate>Thu, 29 Aug 2024 10:40:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -2179,33 +2179,6 @@
     </item>
     
     <item>
-      <title>strapi的安装和使用</title>
-      <link>https://pengtech.net/strapi/install_strapi.html</link>
-      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
-      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
-      
-      
-      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular整合strapi CMS</title>
       <link>https://pengtech.net/strapi/angular_strapi_app.html</link>
       <guid>https://pengtech.net/strapi/angular_strapi_app.html</guid>
@@ -2235,6 +2208,33 @@
       
       
       <comments>https://pengtech.net/strapi/angular_strapi_app.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>strapi的安装和使用</title>
+      <link>https://pengtech.net/strapi/install_strapi.html</link>
+      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
+      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
+      
+      
+      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
       
     </item>
     
@@ -5953,9 +5953,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

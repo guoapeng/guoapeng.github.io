@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-08-29T10:34:43.376Z</updated>
+  <updated>2024-08-29T10:40:38.531Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-28T16:00:00.000Z</published>
-    <updated>2024-08-29T10:34:43.376Z</updated>
+    <updated>2024-08-29T10:40:38.531Z</updated>
     
     
     <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。申请过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;Vultr 的羊毛要薅吗？300 美金的服务器资源大放送&lt;/a&gt;。&lt;/p&gt;
@@ -2015,31 +2015,6 @@
   </entry>
   
   <entry>
-    <title>strapi的安装和使用</title>
-    <link href="https://pengtech.net/strapi/install_strapi.html"/>
-    <id>https://pengtech.net/strapi/install_strapi.html</id>
-    <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-08-07T15:43:25.051Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
-    
-    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Angular整合strapi CMS</title>
     <link href="https://pengtech.net/strapi/angular_strapi_app.html"/>
     <id>https://pengtech.net/strapi/angular_strapi_app.html</id>
@@ -2056,6 +2031,31 @@
 &lt;/ul&gt;
 &lt;p&gt;因为现在所有的Javascript技术，如React、Angular和Vue，在构建Web应用程序时都非常流行，所以我们可以很快得到第一个问题的答案。&lt;br&gt;但是后端呢？我应该使用NodeJS还是.NET Core？&lt;br&gt;使用关系数据库还是非关系数据库更好？&lt;br&gt;后端解决方案Strapi已经找到了所有这些问题的答案。&lt;/p&gt;
 &lt;p&gt;在本文中，我们将使用Strapi和Angular构建一个简单的web应用程序。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
+    
+    
+    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    
+    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>strapi的安装和使用</title>
+    <link href="https://pengtech.net/strapi/install_strapi.html"/>
+    <id>https://pengtech.net/strapi/install_strapi.html</id>
+    <published>2023-09-25T16:00:00.000Z</published>
+    <updated>2024-08-07T15:43:25.051Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
     
     
     
@@ -5516,9 +5516,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   

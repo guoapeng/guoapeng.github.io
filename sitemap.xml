@@ -911,7 +911,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -920,7 +920,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -965,7 +965,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/applying_density.html</loc>
+    <loc>https://pengtech.net/material/Spacing_methods.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -974,7 +974,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/Spacing_methods.html</loc>
+    <loc>https://pengtech.net/material/applying_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1037,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1046,7 +1046,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    <loc>https://pengtech.net/material/material_typeahead.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1190,33 +1190,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/sass/sass_notes.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/sass/tailwind_migration.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/sass/tailwindcss_tutorial.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/strapi/angular_strapi_app.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1236,6 +1209,33 @@
   
   <url>
     <loc>https://pengtech.net/strapi/strapi_slug_system.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sass/sass_notes.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sass/tailwind_migration.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sass/tailwindcss_tutorial.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1271,7 +1271,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1280,7 +1280,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1811,7 +1811,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1820,7 +1820,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2252,7 +2252,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
+    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2261,7 +2261,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
+    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2315,7 +2315,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/install_golang.html</loc>
+    <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2324,7 +2324,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
+    <loc>https://pengtech.net/golang/install_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2369,7 +2369,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2378,7 +2378,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
