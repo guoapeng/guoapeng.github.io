@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-08-28T14:18:33.603Z</updated>
+  <updated>2024-08-29T10:34:43.376Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vultr 部署 Wordpress 博客</title>
+    <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
+    <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
+    <published>2024-08-28T16:00:00.000Z</published>
+    <updated>2024-08-29T10:34:43.376Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。申请过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;Vultr 的羊毛要薅吗？300 美金的服务器资源大放送&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里[Vultr + Code-server 自建 Cloud IDE](&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;)。&lt;/p&gt;
+&lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
+&lt;p&gt;明天打算将 kubernates 集群也搬上 Vultr，关注我的博客，鹏叔将利用这波优惠，继续探索一些新花样。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
+    
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
+    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Vultr 的羊毛要薅吗？300美金的服务器资源大放送</title>
@@ -43,7 +71,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide_on_vultr.html"/>
     <id>https://pengtech.net/vscode/cloud_ide_on_vultr.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2024-08-28T14:23:02.829Z</updated>
+    <updated>2024-08-28T14:39:04.646Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -61,7 +89,59 @@
     
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
+    <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
+    
     <category term="vscode" scheme="https://pengtech.net/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Linux（AlmaLinux 9）上安装MariaDB</title>
+    <link href="https://pengtech.net/database/install_mariadb_on_linux.html"/>
+    <id>https://pengtech.net/database/install_mariadb_on_linux.html</id>
+    <published>2024-08-25T16:00:00.000Z</published>
+    <updated>2024-08-29T10:30:50.334Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;当 MariaDB Server 的前身 MySQL 于 2009 年被 Oracle 收购时，MySQL 创始人 Michael “Monty” Widenius 出于对 Oracle 管理权的担忧而分叉了该项目，并将新项目命名为 MariaDB。 MySQL 以他的第一个女儿 My 命名，而 MariaDB 则以他的第二个女儿 Maria 命名。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="database" scheme="https://pengtech.net/categories/database/"/>
+    
+    <category term="mariadb" scheme="https://pengtech.net/categories/database/mariadb/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="database" scheme="https://pengtech.net/tags/database/"/>
+    
+    <category term="MariaDB" scheme="https://pengtech.net/tags/MariaDB/"/>
+    
+    <category term="Almalinux" scheme="https://pengtech.net/tags/Almalinux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux（ Almalinux 9）上安装 nginx安装教程</title>
+    <link href="https://pengtech.net/nginx/nginx_installation_on_almalinux.html"/>
+    <id>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</id>
+    <published>2024-08-25T16:00:00.000Z</published>
+    <updated>2024-08-29T10:32:39.536Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-什么是-nginx&quot;&gt;&lt;a href=&quot;#1-1-什么是-nginx&quot; class=&quot;headerlink&quot; title=&quot;1.1. 什么是 nginx&quot;&gt;&lt;/a&gt;1.1. 什么是 nginx&lt;/h3&gt;&lt;p&gt;Nginx 是一款高性能的 http 服务器&amp;#x2F;反向代理服务器及电子邮件（IMAP&amp;#x2F;POP3）代理服务器。&lt;/p&gt;
+&lt;p&gt;由俄罗斯的程序设计师 Igor Sysoev 所开发，官方测试 nginx 能够支支撑 5 万并发链接，&lt;/p&gt;
+&lt;p&gt;并且 cpu、内存等资源消耗却非常低，运行非常稳定。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="nginx" scheme="https://pengtech.net/tags/nginx/"/>
     
   </entry>
   
@@ -1935,6 +2015,31 @@
   </entry>
   
   <entry>
+    <title>strapi的安装和使用</title>
+    <link href="https://pengtech.net/strapi/install_strapi.html"/>
+    <id>https://pengtech.net/strapi/install_strapi.html</id>
+    <published>2023-09-25T16:00:00.000Z</published>
+    <updated>2024-08-07T15:43:25.051Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
+    
+    
+    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    
+    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Angular整合strapi CMS</title>
     <link href="https://pengtech.net/strapi/angular_strapi_app.html"/>
     <id>https://pengtech.net/strapi/angular_strapi_app.html</id>
@@ -1951,31 +2056,6 @@
 &lt;/ul&gt;
 &lt;p&gt;因为现在所有的Javascript技术，如React、Angular和Vue，在构建Web应用程序时都非常流行，所以我们可以很快得到第一个问题的答案。&lt;br&gt;但是后端呢？我应该使用NodeJS还是.NET Core？&lt;br&gt;使用关系数据库还是非关系数据库更好？&lt;br&gt;后端解决方案Strapi已经找到了所有这些问题的答案。&lt;/p&gt;
 &lt;p&gt;在本文中，我们将使用Strapi和Angular构建一个简单的web应用程序。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
-    
-    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>strapi的安装和使用</title>
-    <link href="https://pengtech.net/strapi/install_strapi.html"/>
-    <id>https://pengtech.net/strapi/install_strapi.html</id>
-    <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-08-07T15:43:25.051Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
     
     
     
@@ -3218,12 +3298,12 @@
     <link href="https://pengtech.net/wordpress/install_buddypress.html"/>
     <id>https://pengtech.net/wordpress/install_buddypress.html</id>
     <published>2023-05-30T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:45.660Z</updated>
+    <updated>2024-08-29T07:04:11.702Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;当前环境说明:&lt;/p&gt;
 &lt;p&gt;OS: Centos 7.9&lt;/p&gt;
-&lt;h2 id=&quot;2-安装要求&quot;&gt;&lt;a href=&quot;#2-安装要求&quot; class=&quot;headerlink&quot; title=&quot;2. 安装要求&quot;&gt;&lt;/a&gt;2. 安装要求&lt;/h2&gt;&lt;p&gt;安装WordPress之前，服务器要求具备两个基本元素：&lt;/p&gt;</summary>
+&lt;h2 id=&quot;2-安装要求&quot;&gt;&lt;a href=&quot;#2-安装要求&quot; class=&quot;headerlink&quot; title=&quot;2. 安装要求&quot;&gt;&lt;/a&gt;2. 安装要求&lt;/h2&gt;&lt;p&gt;安装 WordPress 之前，服务器要求具备两个基本元素：&lt;/p&gt;</summary>
     
     
     
@@ -3241,7 +3321,7 @@
     <link href="https://pengtech.net/vscode/CodeWhisperer_vscode.html"/>
     <id>https://pengtech.net/vscode/CodeWhisperer_vscode.html</id>
     <published>2023-05-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-28T14:48:50.216Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;AWS的CodeWhisperer是Amazon于2021年12月推出的一款代码补全工具, 与GitHub Copilot类似。与Copilot不同的是CodeWhisperer对于个人用户免费, 也是其优势所在. CodeWhisperer是一款基于机器学习的通用代码生成器，由Amazon出品，可以给我们提供代码建议, 可以帮助程序员更快、更安全地编写代码的工具，可以在他们的开发环境中实时提供代码建议和推荐。&lt;/p&gt;</summary>
@@ -3835,7 +3915,7 @@
     <link href="https://pengtech.net/nginx/nginx_installation.html"/>
     <id>https://pengtech.net/nginx/nginx_installation.html</id>
     <published>2023-03-10T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-29T03:54:08.021Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-什么是nginx&quot;&gt;&lt;a href=&quot;#1-1-什么是nginx&quot; class=&quot;headerlink&quot; title=&quot;1.1. 什么是nginx&quot;&gt;&lt;/a&gt;1.1. 什么是nginx&lt;/h3&gt;&lt;p&gt;Nginx是一款高性能的http 服务器&amp;#x2F;反向代理服务器及电子邮件（IMAP&amp;#x2F;POP3）代理服务器。&lt;/p&gt;
@@ -4161,7 +4241,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide.html"/>
     <id>https://pengtech.net/vscode/cloud_ide.html</id>
     <published>2022-12-20T16:00:00.000Z</published>
-    <updated>2024-08-28T13:15:48.861Z</updated>
+    <updated>2024-08-28T14:49:30.062Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -4349,7 +4429,7 @@
     <link href="https://pengtech.net/database/install_mariadb_on_centos7.html"/>
     <id>https://pengtech.net/database/install_mariadb_on_centos7.html</id>
     <published>2022-11-26T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2024-08-29T01:49:24.310Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装&quot;&gt;&lt;a href=&quot;#1-安装&quot; class=&quot;headerlink&quot; title=&quot;1. 安装&quot;&gt;&lt;/a&gt;1. 安装&lt;/h2&gt;&lt;h3 id=&quot;1-1-检查是否已安装-mariadb&quot;&gt;&lt;a href=&quot;#1-1-检查是否已安装-mariadb&quot; class=&quot;headerlink&quot; title=&quot;1.1. 检查是否已安装 mariadb&quot;&gt;&lt;/a&gt;1.1. 检查是否已安装 mariadb&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yum list installed | grep mariadb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -5436,9 +5516,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -5475,7 +5555,7 @@
     <link href="https://pengtech.net/vscode/how_to_install_vscode_on_fedora.html"/>
     <id>https://pengtech.net/vscode/how_to_install_vscode_on_fedora.html</id>
     <published>2022-01-01T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-08-28T14:48:27.747Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -6268,7 +6348,7 @@
     <link href="https://pengtech.net/vscode/vscode_install_and_config.html"/>
     <id>https://pengtech.net/vscode/vscode_install_and_config.html</id>
     <published>2021-10-13T16:00:00.000Z</published>
-    <updated>2024-08-22T01:47:14.083Z</updated>
+    <updated>2024-08-28T14:47:56.545Z</updated>
     
     
     <summary type="html">&lt;ul&gt;

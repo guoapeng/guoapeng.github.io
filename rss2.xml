@@ -15,8 +15,38 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 28 Aug 2024 14:18:33 GMT</pubDate>
+    <pubDate>Thu, 29 Aug 2024 10:34:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Vultr 部署 Wordpress 博客</title>
+      <link>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</link>
+      <guid>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</guid>
+      <pubDate>Wed, 28 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。申请过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;Vultr 的羊毛要薅吗？300 美金的服务器资源大放送&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里[Vultr + Code-server 自建 Cloud IDE](&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;)。&lt;/p&gt;
+&lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
+&lt;p&gt;明天打算将 kubernates 集群也搬上 Vultr，关注我的博客，鹏叔将利用这波优惠，继续探索一些新花样。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
+      
+      <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
+      
+      <category domain="https://pengtech.net/tags/blog/">blog</category>
+      
+      
+      <comments>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Vultr 的羊毛要薅吗？300美金的服务器资源大放送</title>
@@ -64,10 +94,66 @@
       
       <category domain="https://pengtech.net/tags/linux/">linux</category>
       
+      <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
+      
       <category domain="https://pengtech.net/tags/vscode/">vscode</category>
       
       
       <comments>https://pengtech.net/vscode/cloud_ide_on_vultr.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在Linux（AlmaLinux 9）上安装MariaDB</title>
+      <link>https://pengtech.net/database/install_mariadb_on_linux.html</link>
+      <guid>https://pengtech.net/database/install_mariadb_on_linux.html</guid>
+      <pubDate>Sun, 25 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;当 MariaDB Server 的前身 MySQL 于 2009 年被 Oracle 收购时，MySQL 创始人 Michael “Monty” Widenius 出于对 Oracle 管理权的担忧而分叉了该项目，并将新项目命名为 MariaDB。 MySQL 以他的第一个女儿 My 命名，而 MariaDB 则以他的第二个女儿 Maria 命名。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/database/">database</category>
+      
+      <category domain="https://pengtech.net/categories/database/mariadb/">mariadb</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/database/">database</category>
+      
+      <category domain="https://pengtech.net/tags/MariaDB/">MariaDB</category>
+      
+      <category domain="https://pengtech.net/tags/Almalinux/">Almalinux</category>
+      
+      
+      <comments>https://pengtech.net/database/install_mariadb_on_linux.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux（ Almalinux 9）上安装 nginx安装教程</title>
+      <link>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</link>
+      <guid>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</guid>
+      <pubDate>Sun, 25 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-什么是-nginx&quot;&gt;&lt;a href=&quot;#1-1-什么是-nginx&quot; class=&quot;headerlink&quot; title=&quot;1.1. 什么是 nginx&quot;&gt;&lt;/a&gt;1.1. 什么是 nginx&lt;/h3&gt;&lt;p&gt;Nginx 是一款高性能的 http 服务器&amp;#x2F;反向代理服务器及电子邮件（IMAP&amp;#x2F;POP3）代理服务器。&lt;/p&gt;
+&lt;p&gt;由俄罗斯的程序设计师 Igor Sysoev 所开发，官方测试 nginx 能够支支撑 5 万并发链接，&lt;/p&gt;
+&lt;p&gt;并且 cpu、内存等资源消耗却非常低，运行非常稳定。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      
+      <comments>https://pengtech.net/nginx/nginx_installation_on_almalinux.html#disqus_thread</comments>
       
     </item>
     
@@ -2093,6 +2179,33 @@
     </item>
     
     <item>
+      <title>strapi的安装和使用</title>
+      <link>https://pengtech.net/strapi/install_strapi.html</link>
+      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
+      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
+      
+      
+      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular整合strapi CMS</title>
       <link>https://pengtech.net/strapi/angular_strapi_app.html</link>
       <guid>https://pengtech.net/strapi/angular_strapi_app.html</guid>
@@ -2122,33 +2235,6 @@
       
       
       <comments>https://pengtech.net/strapi/angular_strapi_app.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>strapi的安装和使用</title>
-      <link>https://pengtech.net/strapi/install_strapi.html</link>
-      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
-      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
-      
-      
-      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
       
     </item>
     
@@ -3481,7 +3567,7 @@
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;当前环境说明:&lt;/p&gt;
 &lt;p&gt;OS: Centos 7.9&lt;/p&gt;
-&lt;h2 id=&quot;2-安装要求&quot;&gt;&lt;a href=&quot;#2-安装要求&quot; class=&quot;headerlink&quot; title=&quot;2. 安装要求&quot;&gt;&lt;/a&gt;2. 安装要求&lt;/h2&gt;&lt;p&gt;安装WordPress之前，服务器要求具备两个基本元素：&lt;/p&gt;</description>
+&lt;h2 id=&quot;2-安装要求&quot;&gt;&lt;a href=&quot;#2-安装要求&quot; class=&quot;headerlink&quot; title=&quot;2. 安装要求&quot;&gt;&lt;/a&gt;2. 安装要求&lt;/h2&gt;&lt;p&gt;安装 WordPress 之前，服务器要求具备两个基本元素：&lt;/p&gt;</description>
       
       
       
@@ -5867,9 +5953,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
+    <lastmod>2024-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</loc>
+    <lastmod>2024-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
+    <lastmod>2024-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
+    <lastmod>2024-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nginx/nginx_installation.html</loc>
+    <lastmod>2024-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/database/install_mariadb_on_centos7.html</loc>
+    <lastmod>2024-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/vscode_install_and_config.html</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
     <lastmod>2024-08-28</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/linux/vultr_account_creation.html</loc>
-    <lastmod>2024-08-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
     <lastmod>2024-08-28</lastmod>
   </url>
   <url>
@@ -146,10 +182,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/sass/tailwind_best_component_libs.html</loc>
-    <lastmod>2024-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/vscode/vscode_install_and_config.html</loc>
     <lastmod>2024-08-22</lastmod>
   </url>
   <url>
@@ -305,10 +337,6 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/linux_shell_ifconfig.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
@@ -365,11 +393,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -389,11 +417,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/Spacing_methods.html</loc>
+    <loc>https://pengtech.net/material/applying_density.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/applying_density.html</loc>
+    <loc>https://pengtech.net/material/Spacing_methods.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -522,10 +550,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/vmware/vmware_install_ubuntu.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/vscode/how_to_install_vscode_on_fedora.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -769,11 +793,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -837,10 +861,6 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/vscode/how_to_upgrade_vscode.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -897,10 +917,6 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nginx/nginx_installation.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/linux_install_libreoffice.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -937,11 +953,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
+    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
+    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -965,11 +981,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
+    <loc>https://pengtech.net/golang/install_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/install_golang.html</loc>
+    <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -1014,10 +1030,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/database/install_mariadb_on_centos7.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
