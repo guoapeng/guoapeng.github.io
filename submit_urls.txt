@@ -1,3 +1,3 @@
+https://pengtech.net/k8s/linux_install_kubectl.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/nginx/nginx_installation_on_almalinux.html
-https://pengtech.net/database/install_mariadb_on_linux.html
