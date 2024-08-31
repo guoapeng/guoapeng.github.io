@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-08-30T03:51:01.570Z</updated>
+  <updated>2024-08-31T17:25:35.422Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linux 安装 kubectl 命令行工具</title>
+    <title>Vultr 上快速搭建 Kubernates 集群</title>
+    <link href="https://pengtech.net/k8s/kubernates_on_vultr.html"/>
+    <id>https://pengtech.net/k8s/kubernates_on_vultr.html</id>
+    <published>2024-08-30T16:00:00.000Z</published>
+    <updated>2024-08-31T17:25:35.422Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
+&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，前天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;昨天在 Vultr VPS 上使用 wordpress 搭建了一个博客，详情参考这篇文章 &lt;a href=&quot;https://pengtech.net/wordpress/deploy_wordpress_on_vps.html&quot;&gt;Vultr 部署 Wordpress 博客&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何安装 kubectl 命令行工具</title>
     <link href="https://pengtech.net/k8s/linux_install_kubectl.html"/>
     <id>https://pengtech.net/k8s/linux_install_kubectl.html</id>
     <published>2024-08-29T16:00:00.000Z</published>
-    <updated>2024-08-30T03:51:01.570Z</updated>
+    <updated>2024-08-31T17:19:20.946Z</updated>
     
     
     <summary type="html">&lt;p&gt;kubectl 是 Kubernetes 的命令行工具，用于与 Kubernetes 集群进行交互。它允许用户部署和管理容器化应用程序、查看集群资源、执行故障排查以及进行其他管理任务。kubectl 通过与 Kubernetes API 服务器通信来执行这些操作，API 服务器是 Kubernetes 集群的控制平面的一部分，负责处理集群中所有资源的请求。&lt;/p&gt;</summary>
@@ -44,11 +69,12 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-28T16:00:00.000Z</published>
-    <updated>2024-08-29T10:53:21.820Z</updated>
+    <updated>2024-08-31T12:57:59.539Z</updated>
     
     
-    <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。申请过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;Vultr 的羊毛要薅吗？300 美金的服务器资源大放送&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里[Vultr + Code-server 自建 Cloud IDE](&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;)。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
+&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Vultr 账号申请以及创建VPS过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;快速注册 Vultr 账号以及创建 Vultr VPS&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
 &lt;p&gt;明天打算将 kubernates 集群也搬上 Vultr，关注我的博客，鹏叔将利用这波优惠，继续探索一些新花样。&lt;/p&gt;</summary>
     
@@ -68,11 +94,11 @@
   </entry>
   
   <entry>
-    <title>Vultr 的羊毛要薅吗？300美金的服务器资源大放送</title>
+    <title>快速注册 Vultr 账号以及创建 Vultr VPS</title>
     <link href="https://pengtech.net/linux/vultr_account_creation.html"/>
     <id>https://pengtech.net/linux/vultr_account_creation.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2024-08-28T14:18:33.603Z</updated>
+    <updated>2024-08-31T13:40:27.326Z</updated>
     
     
     <summary type="html">&lt;p&gt;Vultr 年度超级优惠来了，300美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，感觉这波优惠有点大，不过可能过了这段时间就没有了。&lt;/p&gt;
@@ -94,7 +120,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide_on_vultr.html"/>
     <id>https://pengtech.net/vscode/cloud_ide_on_vultr.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2024-08-28T14:39:04.646Z</updated>
+    <updated>2024-08-31T12:54:39.029Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -598,14 +624,16 @@
   </entry>
   
   <entry>
-    <title>linux上安装vmware</title>
-    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
-    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
+    <title>如何制作 macOS Sonoma ISO 文件</title>
+    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
+    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-08-26T10:19:23.255Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
     
@@ -621,16 +649,14 @@
   </entry>
   
   <entry>
-    <title>如何制作 macOS Sonoma ISO 文件</title>
-    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
-    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
+    <title>linux上安装vmware</title>
+    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
+    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-08-26T10:19:23.255Z</updated>
+    <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
-&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
     
     
     
@@ -4903,15 +4929,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -4927,15 +4953,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -6209,22 +6235,22 @@
   </entry>
   
   <entry>
-    <title>block inline 和 inline-block三者之间的区别</title>
+    <title>block、inline 和 inline-block三者之间的区别</title>
     <link href="https://pengtech.net/web/block_inline_inline_block.html"/>
     <id>https://pengtech.net/web/block_inline_inline_block.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.399Z</updated>
+    <updated>2024-08-30T22:55:10.648Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;block和inline这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block元素通常被现实为独立的一块，会单独换一行；inline元素则前后不会产生换行，一系列inline元素都在一行内显示，直到该行排满。&lt;/li&gt;
-&lt;li&gt;大体来说HTML元素各有其自身的布局级别（block元素还是inline元素）：&lt;ul&gt;
+&lt;li&gt;block 和 inline 这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block 元素通常被现实为独立的一块，会单独换一行；inline 元素则前后不会产生换行，一系列 inline 元素都在一行内显示，直到该行排满。&lt;/li&gt;
+&lt;li&gt;大体来说 HTML 元素各有其自身的布局级别（block 元素还是 inline 元素）：&lt;ul&gt;
 &lt;li&gt;常见的块级元素有 DIV, FORM, TABLE, P, PRE, H1~H6, DL, OL, UL 等。&lt;/li&gt;
 &lt;li&gt;常见的内联元素有 SPAN, A, STRONG, EM, LABEL, INPUT, SELECT, TEXTAREA, IMG, BR 等。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;block元素可以包含block元素和inline元素；但inline元素只能包含inline元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含inline元素，而不能包含block元素。&lt;/li&gt;
-&lt;li&gt;一般来说，可以通过display:inline和display:block的设置，改变元素的布局级别。&lt;/li&gt;
+&lt;li&gt;block 元素可以包含 block 元素和 inline 元素；但 inline 元素只能包含 inline 元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含 inline 元素，而不能包含 block 元素。&lt;/li&gt;
+&lt;li&gt;一般来说，可以通过 display:inline 和 display:block 的设置，改变元素的布局级别。&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     

@@ -15,11 +15,38 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Fri, 30 Aug 2024 03:51:01 GMT</pubDate>
+    <pubDate>Sat, 31 Aug 2024 17:25:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Linux 安装 kubectl 命令行工具</title>
+      <title>Vultr 上快速搭建 Kubernates 集群</title>
+      <link>https://pengtech.net/k8s/kubernates_on_vultr.html</link>
+      <guid>https://pengtech.net/k8s/kubernates_on_vultr.html</guid>
+      <pubDate>Fri, 30 Aug 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
+&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，前天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;昨天在 Vultr VPS 上使用 wordpress 搭建了一个博客，详情参考这篇文章 &lt;a href=&quot;https://pengtech.net/wordpress/deploy_wordpress_on_vps.html&quot;&gt;Vultr 部署 Wordpress 博客&lt;/a&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
+      
+      
+      <comments>https://pengtech.net/k8s/kubernates_on_vultr.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何安装 kubectl 命令行工具</title>
       <link>https://pengtech.net/k8s/linux_install_kubectl.html</link>
       <guid>https://pengtech.net/k8s/linux_install_kubectl.html</guid>
       <pubDate>Thu, 29 Aug 2024 16:00:00 GMT</pubDate>
@@ -49,8 +76,9 @@
       <guid>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</guid>
       <pubDate>Wed, 28 Aug 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。申请过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;Vultr 的羊毛要薅吗？300 美金的服务器资源大放送&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里[Vultr + Code-server 自建 Cloud IDE](&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;)。&lt;/p&gt;
+      <description>&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
+&lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Vultr 账号申请以及创建VPS过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;快速注册 Vultr 账号以及创建 Vultr VPS&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
 &lt;p&gt;明天打算将 kubernates 集群也搬上 Vultr，关注我的博客，鹏叔将利用这波优惠，继续探索一些新花样。&lt;/p&gt;</description>
       
@@ -74,7 +102,7 @@
     </item>
     
     <item>
-      <title>Vultr 的羊毛要薅吗？300美金的服务器资源大放送</title>
+      <title>快速注册 Vultr 账号以及创建 Vultr VPS</title>
       <link>https://pengtech.net/linux/vultr_account_creation.html</link>
       <guid>https://pengtech.net/linux/vultr_account_creation.html</guid>
       <pubDate>Tue, 27 Aug 2024 16:00:00 GMT</pubDate>
@@ -648,31 +676,6 @@
     </item>
     
     <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何制作 macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -696,6 +699,31 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -5293,32 +5321,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5341,6 +5343,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -6703,20 +6731,20 @@
     </item>
     
     <item>
-      <title>block inline 和 inline-block三者之间的区别</title>
+      <title>block、inline 和 inline-block三者之间的区别</title>
       <link>https://pengtech.net/web/block_inline_inline_block.html</link>
       <guid>https://pengtech.net/web/block_inline_inline_block.html</guid>
       <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;block和inline这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block元素通常被现实为独立的一块，会单独换一行；inline元素则前后不会产生换行，一系列inline元素都在一行内显示，直到该行排满。&lt;/li&gt;
-&lt;li&gt;大体来说HTML元素各有其自身的布局级别（block元素还是inline元素）：&lt;ul&gt;
+&lt;li&gt;block 和 inline 这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block 元素通常被现实为独立的一块，会单独换一行；inline 元素则前后不会产生换行，一系列 inline 元素都在一行内显示，直到该行排满。&lt;/li&gt;
+&lt;li&gt;大体来说 HTML 元素各有其自身的布局级别（block 元素还是 inline 元素）：&lt;ul&gt;
 &lt;li&gt;常见的块级元素有 DIV, FORM, TABLE, P, PRE, H1~H6, DL, OL, UL 等。&lt;/li&gt;
 &lt;li&gt;常见的内联元素有 SPAN, A, STRONG, EM, LABEL, INPUT, SELECT, TEXTAREA, IMG, BR 等。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;block元素可以包含block元素和inline元素；但inline元素只能包含inline元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含inline元素，而不能包含block元素。&lt;/li&gt;
-&lt;li&gt;一般来说，可以通过display:inline和display:block的设置，改变元素的布局级别。&lt;/li&gt;
+&lt;li&gt;block 元素可以包含 block 元素和 inline 元素；但 inline 元素只能包含 inline 元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含 inline 元素，而不能包含 block 元素。&lt;/li&gt;
+&lt;li&gt;一般来说，可以通过 display:inline 和 display:block 的设置，改变元素的布局级别。&lt;/li&gt;
 &lt;/ul&gt;</description>
       
       
