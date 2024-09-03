@@ -1,5 +1,5 @@
-https://pengtech.net/k8s/kubernates_on_vultr.html
+https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html
+https://pengtech.net/k8s/helm_v3_cii_explanation.html
 https://pengtech.net/k8s/linux_install_kubectl.html
-https://pengtech.net/linux/vultr_account_creation.html
-https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
-https://pengtech.net/vscode/cloud_ide_on_vultr.html
+https://pengtech.net/network/dns_pollution_issue.html
+https://pengtech.net/k8s/install_helm_3.html

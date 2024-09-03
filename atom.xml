@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-08-31T17:25:35.422Z</updated>
+  <updated>2024-09-03T08:32:37.393Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,94 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Vultr 上快速搭建 Kubernates 集群</title>
+    <title>Helm应用升级与回滚</title>
+    <link href="https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html"/>
+    <id>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</id>
+    <published>2024-09-02T16:00:00.000Z</published>
+    <updated>2024-09-03T08:32:37.393Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在本教程中，我们首先会使用helm部署一个mysql实例，然后尝试升级mysql到更高版本，并魔力升级出错后回滚该次升级。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
+    
+    <category term="Helm" scheme="https://pengtech.net/tags/Helm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Helm v3 命令详解</title>
+    <link href="https://pengtech.net/k8s/helm_v3_cii_explanation.html"/>
+    <id>https://pengtech.net/k8s/helm_v3_cii_explanation.html</id>
+    <published>2024-09-02T16:00:00.000Z</published>
+    <updated>2024-09-03T06:50:53.053Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Helm 是云原生领域最火热的应用管理工具。众所周知 Kubernetes 是自动化的容器管理平台，然而 Kubernetes 并没有抽象出应用的概念，通常应用的描述是非常复杂的，一个应用可能是由多种资源组成。&lt;/p&gt;
+&lt;p&gt;我们通过多次 kubectl apply -f</summary>
+        
+      
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
+    
+    <category term="Helm" scheme="https://pengtech.net/tags/Helm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何安装 helm 命令行工具</title>
+    <link href="https://pengtech.net/k8s/install_helm_3.html"/>
+    <id>https://pengtech.net/k8s/install_helm_3.html</id>
+    <published>2024-09-01T16:00:00.000Z</published>
+    <updated>2024-09-01T21:32:42.011Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本指南介绍如何安装 Helm CLI。&lt;/p&gt;
+&lt;p&gt;Helm 项目提供了两种获取和安装 Helm 的方法。从源代码或预构建的二进制版本安装，这些是获取 Helm 版本的官方方法。除此之外，Helm 社区还提供了通过不同包管理器安装 Helm 的方法。通过这些方法进行安装的方法可以在官方方法下方找到。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/categories/devops/k8s/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
+    
+    <category term="Helm" scheme="https://pengtech.net/tags/Helm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vultr 上快速搭建 kubernetes 集群</title>
     <link href="https://pengtech.net/k8s/kubernates_on_vultr.html"/>
     <id>https://pengtech.net/k8s/kubernates_on_vultr.html</id>
     <published>2024-08-30T16:00:00.000Z</published>
-    <updated>2024-08-31T17:25:35.422Z</updated>
+    <updated>2024-09-01T12:21:18.491Z</updated>
     
     
     <summary type="html">&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
@@ -46,7 +129,7 @@
     <link href="https://pengtech.net/k8s/linux_install_kubectl.html"/>
     <id>https://pengtech.net/k8s/linux_install_kubectl.html</id>
     <published>2024-08-29T16:00:00.000Z</published>
-    <updated>2024-08-31T17:19:20.946Z</updated>
+    <updated>2024-09-02T00:44:36.434Z</updated>
     
     
     <summary type="html">&lt;p&gt;kubectl 是 Kubernetes 的命令行工具，用于与 Kubernetes 集群进行交互。它允许用户部署和管理容器化应用程序、查看集群资源、执行故障排查以及进行其他管理任务。kubectl 通过与 Kubernetes API 服务器通信来执行这些操作，API 服务器是 Kubernetes 集群的控制平面的一部分，负责处理集群中所有资源的请求。&lt;/p&gt;</summary>
@@ -69,14 +152,14 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-28T16:00:00.000Z</published>
-    <updated>2024-08-31T12:57:59.539Z</updated>
+    <updated>2024-09-01T12:21:18.511Z</updated>
     
     
     <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
 &lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Vultr 账号申请以及创建VPS过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;快速注册 Vultr 账号以及创建 Vultr VPS&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
-&lt;p&gt;明天打算将 kubernates 集群也搬上 Vultr，关注我的博客，鹏叔将利用这波优惠，继续探索一些新花样。&lt;/p&gt;</summary>
+&lt;p&gt;明天打算将 kubernetes 集群也搬上 Vultr，关注我的博客，鹏叔将利用这波优惠，继续探索一些新花样。&lt;/p&gt;</summary>
     
     
     
@@ -98,7 +181,7 @@
     <link href="https://pengtech.net/linux/vultr_account_creation.html"/>
     <id>https://pengtech.net/linux/vultr_account_creation.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2024-08-31T13:40:27.326Z</updated>
+    <updated>2024-09-01T12:21:18.522Z</updated>
     
     
     <summary type="html">&lt;p&gt;Vultr 年度超级优惠来了，300美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，感觉这波优惠有点大，不过可能过了这段时间就没有了。&lt;/p&gt;
@@ -505,14 +588,14 @@
   </entry>
   
   <entry>
-    <title>如何使用Visual Studio代码调试Go代码</title>
+    <title>如何使用VS Code调试Go代码</title>
     <link href="https://pengtech.net/golang/vscode_debug_golang.html"/>
     <id>https://pengtech.net/golang/vscode_debug_golang.html</id>
     <published>2024-07-03T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-09-01T00:50:47.709Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本教程将讨论使用 Visual Studio Code 调试 Go 代码所需的步骤。首先我们需要安装扩展、分析工具和调试器。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;本教程将讨论使用 VS Code 调试 Go 代码所需的步骤。首先我们需要安装扩展、分析工具和调试器。&lt;/p&gt;
 &lt;p&gt;然后，我们将创建一个示例应用程序。最后，我们将探索如何使用断点和条件断点。&lt;/p&gt;
 &lt;p&gt;凭借这套技能，您将能够更好地理解应用程序在代码执行的特定点上的值和状态。&lt;/p&gt;</summary>
     
@@ -1063,7 +1146,7 @@
     <link href="https://pengtech.net/network/dns_pollution_issue.html"/>
     <id>https://pengtech.net/network/dns_pollution_issue.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-09-01T21:37:42.831Z</updated>
     
     
     <summary type="html">&lt;p&gt;一直用的 GitHub，突然一下子不能访问了，最后发现是 DNS 解析的 IP 地址出了问题，按照以下方法修改又能访问 github 了。&lt;/p&gt;
@@ -1890,7 +1973,7 @@
     <link href="https://pengtech.net/material/material3_foundations.html"/>
     <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-08-17T07:49:43.631Z</updated>
+    <updated>2024-09-01T08:37:30.676Z</updated>
     
     
     <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
@@ -5889,9 +5972,9 @@
     
     
     
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
   </entry>
   
