@@ -3139,6 +3139,33 @@
     </item>
     
     <item>
+      <title>Tauri Mobile-使用JavaScript和Rust开发移动应用程序</title>
+      <link>https://pengtech.net/tauri/tauri_mobile.html</link>
+      <guid>https://pengtech.net/tauri/tauri_mobile.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_mobile.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
       <link>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</link>
       <guid>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</guid>
@@ -3163,33 +3190,6 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_gitlab_pipeline.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Tauri Mobile-使用JavaScript和Rust开发移动应用程序</title>
-      <link>https://pengtech.net/tauri/tauri_mobile.html</link>
-      <guid>https://pengtech.net/tauri/tauri_mobile.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_mobile.html#disqus_thread</comments>
       
     </item>
     
@@ -6966,9 +6966,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/less/">less</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/less/">less</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -7253,9 +7253,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/webpack/">webpack</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>

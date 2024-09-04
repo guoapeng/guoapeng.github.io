@@ -1612,7 +1612,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-09-04T16:16:23.737Z</updated>
+    <updated>2024-09-04T16:42:09.361Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2905,15 +2905,14 @@
   </entry>
   
   <entry>
-    <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
-    <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
-    <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
+    <title>Tauri Mobile-使用JavaScript和Rust开发移动应用程序</title>
+    <link href="https://pengtech.net/tauri/tauri_mobile.html"/>
+    <id>https://pengtech.net/tauri/tauri_mobile.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-08-26T10:33:42.583Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
-&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本来希望搜索能找到对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程, 在讲得关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</summary>
     
     
     
@@ -2931,14 +2930,15 @@
   </entry>
   
   <entry>
-    <title>Tauri Mobile-使用JavaScript和Rust开发移动应用程序</title>
-    <link href="https://pengtech.net/tauri/tauri_mobile.html"/>
-    <id>https://pengtech.net/tauri/tauri_mobile.html</id>
+    <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
+    <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
+    <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-08-26T10:33:42.583Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
+&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本来希望搜索能找到对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程, 在讲得关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
     
     
     
@@ -6457,9 +6457,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
@@ -6724,9 +6724,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
