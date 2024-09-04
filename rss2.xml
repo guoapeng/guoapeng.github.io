@@ -42,6 +42,48 @@
     </item>
     
     <item>
+      <title>Vultr 上安装并配置一台 VMESS/v2ray 服务器</title>
+      <link>https://pengtech.net/network/v2ray_server_install.html</link>
+      <guid>https://pengtech.net/network/v2ray_server_install.html</guid>
+      <pubDate>Tue, 03 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;VMess 协议是由 V2Ray 原创并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗墙的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
+&lt;p&gt;本文主要讲解如何使用自动化脚本方式以及手动方式，安装并配置一台 v2ray 服务器也称为 vmess server。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/network/">network</category>
+      
+      <category domain="https://pengtech.net/categories/network/v2ray/">v2ray</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
+      
+      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
+      
+      <category domain="https://pengtech.net/tags/Macos/">Macos</category>
+      
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
+      
+      <category domain="https://pengtech.net/tags/Redhat/">Redhat</category>
+      
+      
+      <comments>https://pengtech.net/network/v2ray_server_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Helm 应用升级与回滚</title>
       <link>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</link>
       <guid>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</guid>
@@ -6924,9 +6966,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/less/">less</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -7211,9 +7253,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>
