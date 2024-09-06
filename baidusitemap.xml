@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2024-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    <lastmod>2024-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2024-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2024-09-06</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
     <lastmod>2024-09-06</lastmod>
   </url>
@@ -11,22 +27,6 @@
   <url>
     <loc>https://pengtech.net/linux/vultr_account_creation.html</loc>
     <lastmod>2024-09-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-09-04</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    <lastmod>2024-09-04</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2024-09-04</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2024-09-04</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/k8s/setup_k8s_cluster.html</loc>
@@ -961,11 +961,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
+    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
+    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -1033,11 +1033,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
