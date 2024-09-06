@@ -48,7 +48,8 @@
       <pubDate>Tue, 03 Sep 2024 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;VMess 协议是由 V2Ray 原创并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗墙的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
-&lt;p&gt;本文主要讲解如何使用自动化脚本方式以及手动方式，安装并配置一台 v2ray 服务器也称为 vmess server。&lt;/p&gt;</description>
+&lt;p&gt;Vultr VPS 以其优越的性能、灵活的配置、广泛的数据中心分布、丰富的功能和便捷的支付方式，成为众多用户的首选。无论是个人学习、小型项目还是大型企业应用，Vultr VPS 都能提供稳定可靠的服务支持。&lt;/p&gt;
+&lt;p&gt;本文主要讲解在 Vultr 上，如何分别讲解如何使用自动化脚本方式和手动方式，安装并配置一台 v2ray 服务器也称为 vmess server。&lt;/p&gt;</description>
       
       
       
@@ -65,6 +66,8 @@
       <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
       
       <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
       
@@ -112,8 +115,8 @@
     
     <item>
       <title>Helm v3 命令详解</title>
-      <link>https://pengtech.net/k8s/helm_v3_cii_explanation.html</link>
-      <guid>https://pengtech.net/k8s/helm_v3_cii_explanation.html</guid>
+      <link>https://pengtech.net/k8s/helm_v3_cli_explanation.html</link>
+      <guid>https://pengtech.net/k8s/helm_v3_cli_explanation.html</guid>
       <pubDate>Mon, 02 Sep 2024 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;Helm 是云原生领域最火热的应用管理工具。众所周知 Kubernetes 是自动化的容器管理平台，然而 Kubernetes 并没有抽象出应用的概念，通常应用的描述是非常复杂的，一个应用可能是由多种资源组成。&lt;/p&gt;
@@ -134,7 +137,7 @@
       <category domain="https://pengtech.net/tags/Helm/">Helm</category>
       
       
-      <comments>https://pengtech.net/k8s/helm_v3_cii_explanation.html#disqus_thread</comments>
+      <comments>https://pengtech.net/k8s/helm_v3_cli_explanation.html#disqus_thread</comments>
       
     </item>
     
@@ -6154,9 +6157,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

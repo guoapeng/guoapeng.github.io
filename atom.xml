@@ -42,11 +42,12 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2024-09-04T17:58:50.508Z</updated>
+    <updated>2024-09-06T03:51:17.876Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray 原创并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗墙的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
-&lt;p&gt;本文主要讲解如何使用自动化脚本方式以及手动方式，安装并配置一台 v2ray 服务器也称为 vmess server。&lt;/p&gt;</summary>
+&lt;p&gt;Vultr VPS 以其优越的性能、灵活的配置、广泛的数据中心分布、丰富的功能和便捷的支付方式，成为众多用户的首选。无论是个人学习、小型项目还是大型企业应用，Vultr VPS 都能提供稳定可靠的服务支持。&lt;/p&gt;
+&lt;p&gt;本文主要讲解在 Vultr 上，如何分别讲解如何使用自动化脚本方式和手动方式，安装并配置一台 v2ray 服务器也称为 vmess server。&lt;/p&gt;</summary>
     
     
     
@@ -62,6 +63,8 @@
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
     
     <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
+    
+    <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
     
     <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
     
@@ -104,8 +107,8 @@
   
   <entry>
     <title>Helm v3 命令详解</title>
-    <link href="https://pengtech.net/k8s/helm_v3_cii_explanation.html"/>
-    <id>https://pengtech.net/k8s/helm_v3_cii_explanation.html</id>
+    <link href="https://pengtech.net/k8s/helm_v3_cli_explanation.html"/>
+    <id>https://pengtech.net/k8s/helm_v3_cli_explanation.html</id>
     <published>2024-09-02T16:00:00.000Z</published>
     <updated>2024-09-03T20:56:51.035Z</updated>
     
@@ -236,7 +239,7 @@
     <link href="https://pengtech.net/linux/vultr_account_creation.html"/>
     <id>https://pengtech.net/linux/vultr_account_creation.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2024-09-04T17:25:21.665Z</updated>
+    <updated>2024-09-06T03:45:20.561Z</updated>
     
     
     <summary type="html">&lt;p&gt;Vultr 年度超级优惠来了，300 美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额 300 美金的试用金，感觉这波优惠有点大，不过可能过了这段时间就没有了。&lt;/p&gt;
@@ -5703,9 +5706,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
