@@ -42,12 +42,12 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2024-09-06T03:51:17.876Z</updated>
+    <updated>2024-09-06T04:03:36.607Z</updated>
     
     
-    <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray 原创并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗墙的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
-&lt;p&gt;Vultr VPS 以其优越的性能、灵活的配置、广泛的数据中心分布、丰富的功能和便捷的支付方式，成为众多用户的首选。无论是个人学习、小型项目还是大型企业应用，Vultr VPS 都能提供稳定可靠的服务支持。&lt;/p&gt;
-&lt;p&gt;本文主要讲解在 Vultr 上，如何分别讲解如何使用自动化脚本方式和手动方式，安装并配置一台 v2ray 服务器也称为 vmess server。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray 创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
+&lt;p&gt;本文中采用Vultr VPS，一款性能优越、配置的VPS, 其拥有广泛的数据中心分布、丰富的功能和便捷的支付方式，成为众多用户的首选。无论是个人学习、小型项目还是大型企业应用，Vultr VPS 都能提供稳定可靠的服务支持。&lt;/p&gt;
+&lt;p&gt;本文主要讲解在 Vultr VPS上，如何使用自动化脚本和手动两种方式，安装并配置一台 v2ray 服务器（也称为 vmess server）。以及如何通过v2rayA, v2rayN, v2RayNG连接 v2ray 服务器并访问google和chatGPT。&lt;/p&gt;</summary>
     
     
     
@@ -5070,15 +5070,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5094,15 +5094,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5706,9 +5706,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
