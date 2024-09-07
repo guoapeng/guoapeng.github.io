@@ -4240,8 +4240,8 @@
       <guid>https://pengtech.net/linux/linux_RHEL_yum_extra_repos.html</guid>
       <pubDate>Sat, 15 Apr 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;CentOS默认自带CentOS-Base.repo源，但官方源中去除了很多有版权争议的软件，而且安装的软件也不是最新的稳定版。 Fedora自带的源中也找不到很多多媒体软件，如果需要安装，必需先添加其他源，如RPMFusion和RPMForge等第三方软件库。&lt;/p&gt;
-&lt;p&gt;下面鹏叔来一一介绍各种第三方软件库，以下软件库适用于与RHEL完全兼容的linux发行版&lt;/p&gt;</description>
+      <description>&lt;p&gt;CentOS 默认自带 CentOS-Base.repo 源，但官方源中去除了很多有版权争议的软件，而且安装的软件也不是最新的稳定版。 Fedora 自带的源中也找不到很多多媒体软件，如果需要安装，必需先添加其他源，如 RPMFusion 和 RPMForge 等第三方软件库。&lt;/p&gt;
+&lt;p&gt;下面鹏叔来一一介绍各种第三方软件库，以下软件库适用于与 RHEL 完全兼容的 linux 发行版&lt;/p&gt;</description>
       
       
       
@@ -5479,32 +5479,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5527,6 +5501,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -6671,29 +6671,6 @@
     </item>
     
     <item>
-      <title>Hexo命令详解</title>
-      <link>https://pengtech.net/hexo/hexo_cli.html</link>
-      <guid>https://pengtech.net/hexo/hexo_cli.html</guid>
-      <pubDate>Sat, 30 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://pengtech.net/hexo/hexo_cli.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Golang 运算符</title>
       <link>https://pengtech.net/golang/first_post.html</link>
       <guid>https://pengtech.net/golang/first_post.html</guid>
@@ -6713,6 +6690,29 @@
       
       
       <comments>https://pengtech.net/golang/first_post.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo命令详解</title>
+      <link>https://pengtech.net/hexo/hexo_cli.html</link>
+      <guid>https://pengtech.net/hexo/hexo_cli.html</guid>
+      <pubDate>Sat, 30 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://pengtech.net/hexo/hexo_cli.html#disqus_thread</comments>
       
     </item>
     
@@ -7014,13 +7014,7 @@
       <guid>https://pengtech.net/vscode/how_to_upgrade_vscode.html</guid>
       <pubDate>Thu, 14 Oct 2021 16:00:00 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1.</description>
-          
-        
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;vscode 自从发布以来，用过的人都赞不绝口，占用空间小，速度快，功能强大。一般的编辑器都不能兼具”轻快小”与”功能强大”的优点，但 vscode 做到了。同时 vscode 还能保持很快的更新速度，几天就能更新一次版本，以很快的速度变得越来越好用。&lt;/p&gt;</description>
       
       
       
@@ -7423,12 +7417,9 @@
       <guid>https://pengtech.net/hexo/hexo_create_site.html</guid>
       <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;本文是写给完全没有接触过技术的普通博客用户使用的，所以解释地比较细致，如果有技术基础，可以忽略其中的解释部分，按命令执行即可．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;说明：我的工作环境是 fedora linux, 出于安全性考虑一直运行在普通用户下, 如果你的安装环境是 Mac 或者 windows，请理解每一步骤的含义后执行调整命令和参数.&lt;br&gt;或者在我的博客下面留言，我有空的时候会统一回复．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;说说我为什么选择 Hexo, 目前比较主流的博客生成系统有三个 hexo, jekyll 和 hugo，jekyll 是老牌的博客生成系统，受到了 github 官方的支持，但是是用的 ruby 的技术栈，&lt;br&gt;我是技术出生, 但是 ruby 一直不在我的技术栈范围之内，至于 jekyll 和 github 在部署的时候的结合度更高的问题，我想对于一个做技术的人来说应该不是什么难事，应该比较容易解决．&lt;br&gt;相比之下 hexo 使用的 nodejs 技术栈，hugo 是 golang 技术栈这两块技术栈我都比较熟悉，主要在这两个博客生成器系统之间徘徊．hugo 固然速度更快，github 上获得的星星数量也更多一些．由于考虑到博客系统更偏向于前端技术，这一块为 nodejs 所擅长，很多库都可以重用。从自己的职业嗅觉，我觉得一个静态博客系统或博客生成器采用 nodejs 技术栈更合适一点，另外很重要的一点 Hexo Theme 显得更成熟一些，所以我选择 Hexo, hexo 和 hugo 现在也很难说谁会在这一领域最终胜出．经过调查发现即使将来 hugo 胜出，迁移到 hugo 成本也不会太高．就我目前的个人需求和兴趣点来说，我还是比较偏向 Hexo.&lt;/p&gt;</description>
+      <description>&lt;p&gt;在开始博客写作之前，一个重要的决定就是选择合适的博客框架进行独立部署。博客框架主要分为两种：动态博客和静态博客。除此之外，如果不愿意独立部署，还有一些一站式的博客平台可以选择。&lt;/p&gt;
+&lt;h2 id=&quot;1-什么是静态博客？&quot;&gt;&lt;a href=&quot;#1-什么是静态博客？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是静态博客？&quot;&gt;&lt;/a&gt;1. 什么是静态博客？&lt;/h2&gt;&lt;p&gt;静态Web网站是指主要由静态页面组成的网站，这些静态页面通常包括HTML、CSS、JavaScript、图片等文件，它们直接存储在服务器上，并在用户请求时由服务器发送给用户的浏览器进行显示。与动态Web网站相比，静态Web网站不依赖于服务器端脚本或数据库来生成页面内容，而是直接展示预先设计好的页面。&lt;/p&gt;
+&lt;p&gt;静态博客是指将博客内容（如文章、页面等）通过生成工具将作者书写的博文直接编译成 HTML、CSS、JS 等静态web技术支持的博客形式，并通过静态服务器进行托管和访问的博客系统。&lt;/p&gt;</description>
       
       
       
