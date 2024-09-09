@@ -182,7 +182,7 @@
       <guid>https://pengtech.net/k8s/kubernates_on_vultr.html</guid>
       <pubDate>Fri, 30 Aug 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
+      <description>&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
 &lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，前天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。 &lt;/p&gt;
 &lt;p&gt;昨天在 Vultr VPS 上使用 wordpress 搭建了一个博客，详情参考这篇文章 &lt;a href=&quot;https://pengtech.net/wordpress/deploy_wordpress_on_vps.html&quot;&gt;Vultr 部署 Wordpress 博客&lt;/a&gt;&lt;/p&gt;</description>
       
@@ -265,8 +265,8 @@
       <guid>https://pengtech.net/linux/vultr_account_creation.html</guid>
       <pubDate>Tue, 27 Aug 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;Vultr 年度超级优惠来了，300 美金的服务器资源大放送，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额 300 美金的试用金，感觉这波优惠有点大，不过可能过了这段时间就没有了。&lt;/p&gt;
-&lt;p&gt;Vultr 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
+&lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</description>
       
       
       
@@ -1438,31 +1438,6 @@
     </item>
     
     <item>
-      <title>命令行打包Chrome插件</title>
-      <link>https://pengtech.net/chrome/cli_build_chrome_extension.html</link>
-      <guid>https://pengtech.net/chrome/cli_build_chrome_extension.html</guid>
-      <pubDate>Thu, 28 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/browser/">browser</category>
-      
-      
-      <category domain="https://pengtech.net/tags/chrome/">chrome</category>
-      
-      <category domain="https://pengtech.net/tags/browser/">browser</category>
-      
-      
-      <comments>https://pengtech.net/chrome/cli_build_chrome_extension.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>命令行打包Firefox插件</title>
       <link>https://pengtech.net/firefox/cli_build_firefox_extension.html</link>
       <guid>https://pengtech.net/firefox/cli_build_firefox_extension.html</guid>
@@ -1484,6 +1459,31 @@
       
       
       <comments>https://pengtech.net/firefox/cli_build_firefox_extension.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>命令行打包Chrome插件</title>
+      <link>https://pengtech.net/chrome/cli_build_chrome_extension.html</link>
+      <guid>https://pengtech.net/chrome/cli_build_chrome_extension.html</guid>
+      <pubDate>Thu, 28 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/browser/">browser</category>
+      
+      
+      <category domain="https://pengtech.net/tags/browser/">browser</category>
+      
+      <category domain="https://pengtech.net/tags/chrome/">chrome</category>
+      
+      
+      <comments>https://pengtech.net/chrome/cli_build_chrome_extension.html#disqus_thread</comments>
       
     </item>
     
@@ -5479,32 +5479,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -5527,6 +5501,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
@@ -7412,7 +7412,7 @@
     </item>
     
     <item>
-      <title>使用 Hexo 快速搭建个人博客</title>
+      <title>使用 Hexo 快速搭建自己的博客系统</title>
       <link>https://pengtech.net/hexo/hexo_create_site.html</link>
       <guid>https://pengtech.net/hexo/hexo_create_site.html</guid>
       <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>

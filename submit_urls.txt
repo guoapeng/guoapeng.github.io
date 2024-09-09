@@ -1,3 +1,3 @@
-https://pengtech.net/hexo/hexo_create_site.html
-https://pengtech.net/linux/linux_RHEL_yum_extra_repos.html
-https://pengtech.net/vscode/how_to_upgrade_vscode.html
+https://pengtech.net/linux/vultr_account_creation.html
+https://pengtech.net/k8s/kubernates_on_vultr.html
+https://pengtech.net/network/v2ray_server_install.html
