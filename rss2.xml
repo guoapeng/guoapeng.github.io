@@ -15,8 +15,32 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 04 Sep 2024 06:32:27 GMT</pubDate>
+    <pubDate>Mon, 09 Sep 2024 08:17:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>使用 Astro 快速搭建自己的博客系统</title>
+      <link>https://pengtech.net/astro/astro_install_and_configure.html</link>
+      <guid>https://pengtech.net/astro/astro_install_and_configure.html</guid>
+      <pubDate>Sun, 08 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Astro 是一款现代化的前端框架，由开发团队 Snowpack 创建，旨在提供一种简单而强大的方式来构建快速、可靠且易于维护的 Web 应用程序。&lt;br&gt;Astro 支持静态站点生成，这意味着在构建时生成 HTML 文件，从而提高网站的加载速度和性能。&lt;/p&gt;
+&lt;p&gt;今天我们主要讲述如何使用 Astro 快速搭建自己的博客系统。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/Astro/">Astro</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Astro/">Astro</category>
+      
+      
+      <comments>https://pengtech.net/astro/astro_install_and_configure.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Linux systemd 服务详解</title>
@@ -6514,9 +6538,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/OS/">OS</category>
-      
       <category domain="https://pengtech.net/tags/windows/">windows</category>
+      
+      <category domain="https://pengtech.net/tags/OS/">OS</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
@@ -6836,29 +6860,6 @@
     </item>
     
     <item>
-      <title>如何配置git push</title>
-      <link>https://pengtech.net/git/how_to_configure_git_push.html</link>
-      <guid>https://pengtech.net/git/how_to_configure_git_push.html</guid>
-      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/git/">git</category>
-      
-      
-      <category domain="https://pengtech.net/tags/git/">git</category>
-      
-      
-      <comments>https://pengtech.net/git/how_to_configure_git_push.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Hexo博客搜索引擎优化</title>
       <link>https://pengtech.net/hexo/blog_seo_optimize.html</link>
       <guid>https://pengtech.net/hexo/blog_seo_optimize.html</guid>
@@ -6885,6 +6886,29 @@
       
       
       <comments>https://pengtech.net/hexo/blog_seo_optimize.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何配置git push</title>
+      <link>https://pengtech.net/git/how_to_configure_git_push.html</link>
+      <guid>https://pengtech.net/git/how_to_configure_git_push.html</guid>
+      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/git/">git</category>
+      
+      
+      <category domain="https://pengtech.net/tags/git/">git</category>
+      
+      
+      <comments>https://pengtech.net/git/how_to_configure_git_push.html#disqus_thread</comments>
       
     </item>
     
