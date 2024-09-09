@@ -42,7 +42,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2024-09-09T01:05:30.403Z</updated>
+    <updated>2024-09-09T06:19:03.636Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -1330,6 +1330,29 @@
   </entry>
   
   <entry>
+    <title>命令行打包Chrome插件</title>
+    <link href="https://pengtech.net/chrome/cli_build_chrome_extension.html"/>
+    <id>https://pengtech.net/chrome/cli_build_chrome_extension.html</id>
+    <published>2023-12-28T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.388Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="browser" scheme="https://pengtech.net/categories/web/browser/"/>
+    
+    
+    <category term="chrome" scheme="https://pengtech.net/tags/chrome/"/>
+    
+    <category term="browser" scheme="https://pengtech.net/tags/browser/"/>
+    
+  </entry>
+  
+  <entry>
     <title>命令行打包Firefox插件</title>
     <link href="https://pengtech.net/firefox/cli_build_firefox_extension.html"/>
     <id>https://pengtech.net/firefox/cli_build_firefox_extension.html</id>
@@ -1349,29 +1372,6 @@
     <category term="browser" scheme="https://pengtech.net/tags/browser/"/>
     
     <category term="firefox" scheme="https://pengtech.net/tags/firefox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>命令行打包Chrome插件</title>
-    <link href="https://pengtech.net/chrome/cli_build_chrome_extension.html"/>
-    <id>https://pengtech.net/chrome/cli_build_chrome_extension.html</id>
-    <published>2023-12-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="browser" scheme="https://pengtech.net/categories/web/browser/"/>
-    
-    
-    <category term="browser" scheme="https://pengtech.net/tags/browser/"/>
-    
-    <category term="chrome" scheme="https://pengtech.net/tags/chrome/"/>
     
   </entry>
   
@@ -6037,9 +6037,9 @@
     
     
     
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
   </entry>
   

@@ -1438,6 +1438,31 @@
     </item>
     
     <item>
+      <title>命令行打包Chrome插件</title>
+      <link>https://pengtech.net/chrome/cli_build_chrome_extension.html</link>
+      <guid>https://pengtech.net/chrome/cli_build_chrome_extension.html</guid>
+      <pubDate>Thu, 28 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/browser/">browser</category>
+      
+      
+      <category domain="https://pengtech.net/tags/chrome/">chrome</category>
+      
+      <category domain="https://pengtech.net/tags/browser/">browser</category>
+      
+      
+      <comments>https://pengtech.net/chrome/cli_build_chrome_extension.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>命令行打包Firefox插件</title>
       <link>https://pengtech.net/firefox/cli_build_firefox_extension.html</link>
       <guid>https://pengtech.net/firefox/cli_build_firefox_extension.html</guid>
@@ -1459,31 +1484,6 @@
       
       
       <comments>https://pengtech.net/firefox/cli_build_firefox_extension.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>命令行打包Chrome插件</title>
-      <link>https://pengtech.net/chrome/cli_build_chrome_extension.html</link>
-      <guid>https://pengtech.net/chrome/cli_build_chrome_extension.html</guid>
-      <pubDate>Thu, 28 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/browser/">browser</category>
-      
-      
-      <category domain="https://pengtech.net/tags/browser/">browser</category>
-      
-      <category domain="https://pengtech.net/tags/chrome/">chrome</category>
-      
-      
-      <comments>https://pengtech.net/chrome/cli_build_chrome_extension.html#disqus_thread</comments>
       
     </item>
     
@@ -6514,9 +6514,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/windows/">windows</category>
-      
       <category domain="https://pengtech.net/tags/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/tags/windows/">windows</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
