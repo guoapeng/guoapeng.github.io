@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-09-09T08:17:39.689Z</updated>
+  <updated>2024-09-09T11:30:43.587Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/astro/astro_install_and_configure.html"/>
     <id>https://pengtech.net/astro/astro_install_and_configure.html</id>
     <published>2024-09-08T16:00:00.000Z</published>
-    <updated>2024-09-09T08:17:39.689Z</updated>
+    <updated>2024-09-09T11:30:43.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;Astro 是一款现代化的前端框架，由开发团队 Snowpack 创建，旨在提供一种简单而强大的方式来构建快速、可靠且易于维护的 Web 应用程序。&lt;br&gt;Astro 支持静态站点生成，这意味着在构建时生成 HTML 文件，从而提高网站的加载速度和性能。&lt;/p&gt;
@@ -64,7 +64,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2024-09-09T06:25:28.521Z</updated>
+    <updated>2024-09-09T16:58:34.374Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -2887,14 +2887,14 @@
   </entry>
   
   <entry>
-    <title>Tauri cli详解</title>
-    <link href="https://pengtech.net/tauri/tauri_cli.html"/>
-    <id>https://pengtech.net/tauri/tauri_cli.html</id>
+    <title>Tauri开发环境配置</title>
+    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
+    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
@@ -2912,14 +2912,14 @@
   </entry>
   
   <entry>
-    <title>Tauri开发环境配置</title>
-    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
-    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
+    <title>Tauri cli详解</title>
+    <link href="https://pengtech.net/tauri/tauri_cli.html"/>
+    <id>https://pengtech.net/tauri/tauri_cli.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
     
     
     
@@ -3492,7 +3492,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-09-06T12:22:44.700Z</updated>
+    <updated>2024-09-10T10:45:02.382Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -5933,7 +5933,7 @@
     <link href="https://pengtech.net/others/wake_your_ass_up.html"/>
     <id>https://pengtech.net/others/wake_your_ass_up.html</id>
     <published>2021-12-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-09-09T13:55:41.069Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;为什么停下&quot;&gt;&lt;a href=&quot;#为什么停下&quot; class=&quot;headerlink&quot; title=&quot;为什么停下?&quot;&gt;&lt;/a&gt;为什么停下?&lt;/h2&gt;&lt;p&gt;what’s stopping you?&lt;br&gt;是什么在阻碍你?&lt;br&gt;Are you too tired?&lt;br&gt;是太累了吗?&lt;br&gt;Didn’t get enough sleep?&lt;br&gt;睡眠不足?&lt;br&gt;Don’t have enough energy?&lt;br&gt;精力不济?&lt;br&gt;Don’t have enough time?&lt;br&gt;时间不够?&lt;br&gt;Is that what’s stopping you right now?&lt;br&gt;是这些东西阻碍你吗?&lt;br&gt;Don’t have enough money?&lt;br&gt;还是因为缺钱?&lt;br&gt;Is that the thing?&lt;br&gt;是这样吗?&lt;br&gt;Or is the thing that’s stopping you&lt;br&gt;还是说真正阻碍你的&lt;br&gt;you?&lt;br&gt;是你自己?  &lt;/p&gt;</summary>
@@ -6356,6 +6356,27 @@
   </entry>
   
   <entry>
+    <title>如何配置git push</title>
+    <link href="https://pengtech.net/git/how_to_configure_git_push.html"/>
+    <id>https://pengtech.net/git/how_to_configure_git_push.html</id>
+    <published>2021-10-25T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.389Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
+    
+    
+    <category term="git" scheme="https://pengtech.net/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo博客搜索引擎优化</title>
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
@@ -6380,27 +6401,6 @@
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
     
     <category term="Seo" scheme="https://pengtech.net/tags/Seo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何配置git push</title>
-    <link href="https://pengtech.net/git/how_to_configure_git_push.html"/>
-    <id>https://pengtech.net/git/how_to_configure_git_push.html</id>
-    <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="git" scheme="https://pengtech.net/tags/git/"/>
     
   </entry>
   

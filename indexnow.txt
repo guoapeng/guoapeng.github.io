@@ -1,5 +1,5 @@
-https://pengtech.net/astro/astro_install_and_configure.html
+https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/network/v2ray_server_install.html
+https://pengtech.net/others/wake_your_ass_up.html
+https://pengtech.net/astro/astro_install_and_configure.html
 https://pengtech.net/linux/vultr_account_creation.html
-https://pengtech.net/k8s/kubernates_on_vultr.html
-https://pengtech.net/hexo/hexo_create_site.html

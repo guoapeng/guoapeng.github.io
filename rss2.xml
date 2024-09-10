@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Mon, 09 Sep 2024 08:17:39 GMT</pubDate>
+    <pubDate>Mon, 09 Sep 2024 11:30:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -3119,33 +3119,6 @@
     </item>
     
     <item>
-      <title>Tauri cli详解</title>
-      <link>https://pengtech.net/tauri/tauri_cli.html</link>
-      <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Tauri开发环境配置</title>
       <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
       <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
@@ -3169,6 +3142,33 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri cli详解</title>
+      <link>https://pengtech.net/tauri/tauri_cli.html</link>
+      <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
       
     </item>
     
@@ -6860,6 +6860,29 @@
     </item>
     
     <item>
+      <title>如何配置git push</title>
+      <link>https://pengtech.net/git/how_to_configure_git_push.html</link>
+      <guid>https://pengtech.net/git/how_to_configure_git_push.html</guid>
+      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/git/">git</category>
+      
+      
+      <category domain="https://pengtech.net/tags/git/">git</category>
+      
+      
+      <comments>https://pengtech.net/git/how_to_configure_git_push.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Hexo博客搜索引擎优化</title>
       <link>https://pengtech.net/hexo/blog_seo_optimize.html</link>
       <guid>https://pengtech.net/hexo/blog_seo_optimize.html</guid>
@@ -6886,29 +6909,6 @@
       
       
       <comments>https://pengtech.net/hexo/blog_seo_optimize.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何配置git push</title>
-      <link>https://pengtech.net/git/how_to_configure_git_push.html</link>
-      <guid>https://pengtech.net/git/how_to_configure_git_push.html</guid>
-      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/git/">git</category>
-      
-      
-      <category domain="https://pengtech.net/tags/git/">git</category>
-      
-      
-      <comments>https://pengtech.net/git/how_to_configure_git_push.html#disqus_thread</comments>
       
     </item>
     
