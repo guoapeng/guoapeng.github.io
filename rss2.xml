@@ -15,8 +15,36 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 11 Sep 2024 22:57:30 GMT</pubDate>
+    <pubDate>Thu, 12 Sep 2024 05:27:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>使用 Giscus 为 Astro 网站添加评论功能</title>
+      <link>https://pengtech.net/astro/astro_blog_comments.html</link>
+      <guid>https://pengtech.net/astro/astro_blog_comments.html</guid>
+      <pubDate>Wed, 11 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要。&lt;/p&gt;
+&lt;p&gt;目前Astro添加评论功能的方式不多，因为毕竟是一个比较新的框架，使用像 Astro 这样的静态站点生成器，添加评论系统可能会有点困难，因为您的内容主要托管在 Git 存储库内的 Markdown 文件中。如果你使用 Astro 搭建博客并希望在帖子中添加评论，本指南将演示如何使用 Giscus 在几分钟内完成操作。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/Astro/">Astro</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Astro/">Astro</category>
+      
+      <category domain="https://pengtech.net/tags/Comments/">Comments</category>
+      
+      <category domain="https://pengtech.net/tags/Giscus/">Giscus</category>
+      
+      
+      <comments>https://pengtech.net/astro/astro_blog_comments.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 Astro 快速搭建自己的博客系统</title>
@@ -3179,7 +3207,7 @@
       <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
-&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本来希望搜索能找到对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程, 在讲得关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</description>
+&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本人希望搜索到能对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程都不理想。 网上关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</description>
       
       
       
@@ -5609,32 +5637,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - 响应式布局网格</title>
-      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
-      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - Elevation（标高）</title>
       <link>https://pengtech.net/material/Elevation.html</link>
       <guid>https://pengtech.net/material/Elevation.html</guid>
@@ -5657,6 +5659,32 @@
       
       
       <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - 响应式布局网格</title>
+      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
+      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
       
     </item>
     

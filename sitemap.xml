@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/astro/astro_blog_comments.html</loc>
+    
+    <lastmod>2024-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
+    
+    <lastmod>2024-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     
     <lastmod>2024-09-12</lastmod>
@@ -345,15 +363,6 @@
   
   <url>
     <loc>https://pengtech.net/vmware/vmware_install_windows.html</loc>
-    
-    <lastmod>2024-08-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</loc>
     
     <lastmod>2024-08-26</lastmod>
     
@@ -1064,7 +1073,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/Responsive_layout_grid.html</loc>
+    <loc>https://pengtech.net/material/Elevation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1073,7 +1082,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/Elevation.html</loc>
+    <loc>https://pengtech.net/material/Responsive_layout_grid.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2441,7 +2450,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2450,7 +2459,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
