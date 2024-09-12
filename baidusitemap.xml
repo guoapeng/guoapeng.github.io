@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_blog_comments.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
+    <lastmod>2024-09-11</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2024-09-10</lastmod>
   </url>
@@ -10,10 +22,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/others/wake_your_ass_up.html</loc>
-    <lastmod>2024-09-09</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
     <lastmod>2024-09-09</lastmod>
   </url>
   <url>
@@ -50,10 +58,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2024-09-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2024-09-06</lastmod>
   </url>
   <url>
@@ -297,10 +301,6 @@
     <lastmod>2024-08-14</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/hexo/hexo_blog_comments.html</loc>
-    <lastmod>2024-08-14</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/gitlab/gitlab_runner_on_windows.html</loc>
     <lastmod>2024-08-14</lastmod>
   </url>
@@ -437,11 +437,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -793,15 +793,15 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/tauri/tauri_env_setup.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -917,11 +917,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
+    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
+    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
