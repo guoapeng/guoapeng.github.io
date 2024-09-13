@@ -516,7 +516,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2024-09-13T10:00:44.571Z</updated>
+    <updated>2024-09-13T10:03:00.615Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -543,7 +543,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2024-09-13T10:00:30.214Z</updated>
+    <updated>2024-09-13T10:04:29.588Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -1720,7 +1720,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-09-13T10:00:07.980Z</updated>
+    <updated>2024-09-13T10:03:44.682Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2107,16 +2107,14 @@
   </entry>
   
   <entry>
-    <title>Material Design 3介绍</title>
-    <link href="https://pengtech.net/material/material3_introduction.html"/>
-    <id>https://pengtech.net/material/material3_introduction.html</id>
+    <title>Material 3 基础</title>
+    <link href="https://pengtech.net/material/material3_foundations.html"/>
+    <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-09-01T08:37:30.676Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
-&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
-&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
     
     
     
@@ -2132,14 +2130,16 @@
   </entry>
   
   <entry>
-    <title>Material 3 基础</title>
-    <link href="https://pengtech.net/material/material3_foundations.html"/>
-    <id>https://pengtech.net/material/material3_foundations.html</id>
+    <title>Material Design 3介绍</title>
+    <link href="https://pengtech.net/material/material3_introduction.html"/>
+    <id>https://pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-09-01T08:37:30.676Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
+&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
+&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
     
     
     
@@ -3568,7 +3568,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-09-13T10:00:21.955Z</updated>
+    <updated>2024-09-13T10:04:17.826Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -5811,9 +5811,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
