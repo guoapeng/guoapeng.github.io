@@ -516,7 +516,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2024-09-06T12:23:21.136Z</updated>
+    <updated>2024-09-13T10:00:44.571Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -543,7 +543,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2024-09-06T12:23:02.208Z</updated>
+    <updated>2024-09-13T10:00:30.214Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -1720,7 +1720,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2024-09-12T02:44:09.548Z</updated>
+    <updated>2024-09-13T10:00:07.980Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3568,7 +3568,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-09-10T10:45:02.382Z</updated>
+    <updated>2024-09-13T10:00:21.955Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
