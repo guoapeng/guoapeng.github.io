@@ -1,5 +1,5 @@
+https://pengtech.net/astro/astro_authentication.html
+https://pengtech.net/product/query_on_auth_and_business_decoupled_systems.html
 https://pengtech.net/astro/astro_blog_comments.html
 https://pengtech.net/tauri/tauri_gitlab_pipeline.html
 https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/hexo/hexo_blog_comments.html
-https://pengtech.net/astro/astro_install_and_configure.html

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/astro/astro_authentication.html</loc>
+    <lastmod>2024-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/product/query_on_auth_and_business_decoupled_systems.html</loc>
+    <lastmod>2024-09-13</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/astro/astro_blog_comments.html</loc>
     <lastmod>2024-09-12</lastmod>
   </url>

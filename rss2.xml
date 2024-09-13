@@ -15,8 +15,62 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Thu, 12 Sep 2024 05:27:39 GMT</pubDate>
+    <pubDate>Fri, 13 Sep 2024 05:41:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>为 Astro 网站添加身份验证鉴权功能</title>
+      <link>https://pengtech.net/astro/astro_authentication.html</link>
+      <guid>https://pengtech.net/astro/astro_authentication.html</guid>
+      <pubDate>Thu, 12 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Clerk 号称是最开箱即用的登录鉴权 serverless 服务，确实可以帮助开发者避免前期重复无聊的鉴权逻辑从而快速开发一些小玩具。&lt;/p&gt;
+&lt;p&gt;Astro 是一个用于构建快速、轻量级网站的现代前端框架，特别适合静态网站生成和内容丰富的网站，如博客、文档站点等。&lt;/p&gt;
+&lt;p&gt;今天我们要讲解的是在基于 Astro 框架构建的网站中，如何使用 Clerk 快速地为网站添加用户身份鉴证和鉴权功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/Astro/">Astro</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Astro/">Astro</category>
+      
+      <category domain="https://pengtech.net/tags/Comments/">Comments</category>
+      
+      <category domain="https://pengtech.net/tags/Giscus/">Giscus</category>
+      
+      
+      <comments>https://pengtech.net/astro/astro_authentication.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在身份验证鉴权与业务分离的系统中, 如何实现根据用户属性查询业务信息?</title>
+      <link>https://pengtech.net/product/query_on_auth_and_business_decoupled_systems.html</link>
+      <guid>https://pengtech.net/product/query_on_auth_and_business_decoupled_systems.html</guid>
+      <pubDate>Thu, 12 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在身份验证与业务逻辑分离的系统中，如果需求要求根据用户的属性，例如名称、用户组、年龄、角色等非唯一标识符进行业务信息查询，常见的解决方案是将这些&lt;strong&gt;属性信息与唯一标识符（如 user_id）&lt;/strong&gt;进行关联，通过索引或联合查询来实现。以下是几种具体实现方案：&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
+      
+      
+      <category domain="https://pengtech.net/tags/product/">product</category>
+      
+      <category domain="https://pengtech.net/tags/marketing/">marketing</category>
+      
+      
+      <comments>https://pengtech.net/product/query_on_auth_and_business_decoupled_systems.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 Giscus 为 Astro 网站添加评论功能</title>
