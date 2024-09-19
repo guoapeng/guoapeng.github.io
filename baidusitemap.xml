@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/secure_nginx_with_let_s_encrypt_on_almalinux.html</loc>
+    <lastmod>2024-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_create_site.html</loc>
+    <lastmod>2024-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/almalinux_install.html</loc>
+    <lastmod>2024-09-19</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
     <lastmod>2024-09-16</lastmod>
   </url>
@@ -15,10 +27,6 @@
   <url>
     <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
     <lastmod>2024-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/hexo/hexo_create_site.html</loc>
-    <lastmod>2024-09-14</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
@@ -505,11 +513,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -561,11 +569,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -653,11 +661,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -793,11 +801,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
+    <loc>https://pengtech.net/angular/angular_platforms.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular_platforms.html</loc>
+    <loc>https://pengtech.net/angular/angular_platformBrowserDynamic.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1001,10 +1009,6 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/almalinux_install.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -1049,11 +1053,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>

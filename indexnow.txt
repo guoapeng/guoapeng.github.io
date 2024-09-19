@@ -1,5 +1,5 @@
+https://pengtech.net/network/secure_nginx_with_let_s_encrypt_on_almalinux.html
+https://pengtech.net/hexo/hexo_create_site.html
+https://pengtech.net/linux/almalinux_install.html
 https://pengtech.net/network/v2ray_server_install.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
-https://pengtech.net/database/install_mariadb_on_linux.html
-https://pengtech.net/wordpress/install_buddypress.html
-https://pengtech.net/hexo/hexo_create_site.html
