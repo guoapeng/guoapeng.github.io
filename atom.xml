@@ -166,7 +166,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-04T04:00:00.000Z</published>
-    <updated>2024-09-16T23:14:11.427Z</updated>
+    <updated>2024-09-25T09:58:21.357Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -341,10 +341,10 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-29T04:00:00.000Z</published>
-    <updated>2024-09-16T07:12:23.447Z</updated>
+    <updated>2024-09-25T09:58:33.791Z</updated>
     
     
-    <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
 &lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Vultr 账号申请以及创建VPS过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;快速注册 Vultr 账号以及创建 Vultr VPS&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
@@ -370,10 +370,10 @@
     <link href="https://pengtech.net/linux/vultr_account_creation.html"/>
     <id>https://pengtech.net/linux/vultr_account_creation.html</id>
     <published>2024-08-28T04:00:00.000Z</published>
-    <updated>2024-09-09T01:18:45.320Z</updated>
+    <updated>2024-09-25T09:58:13.568Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
 &lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</summary>
     
     
@@ -392,7 +392,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide_on_vultr.html"/>
     <id>https://pengtech.net/vscode/cloud_ide_on_vultr.html</id>
     <published>2024-08-28T04:00:00.000Z</published>
-    <updated>2024-08-31T12:54:39.029Z</updated>
+    <updated>2024-09-25T09:58:28.096Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -1554,7 +1554,7 @@
     <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
     <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-22T05:00:00.000Z</published>
-    <updated>2024-08-01T22:19:02.698Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
@@ -1742,11 +1742,11 @@
   </entry>
   
   <entry>
-    <title>2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos、Android</title>
+    <title>2024 科学上网秘籍：v2rayA 安装与配置指南 for Windows、Linux、Macos、Android</title>
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-18T05:00:00.000Z</published>
-    <updated>2024-09-13T10:03:44.682Z</updated>
+    <updated>2024-09-23T14:55:50.859Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2133,14 +2133,16 @@
   </entry>
   
   <entry>
-    <title>Material 3 基础</title>
-    <link href="https://pengtech.net/material/material3_foundations.html"/>
-    <id>https://pengtech.net/material/material3_foundations.html</id>
+    <title>Material Design 3介绍</title>
+    <link href="https://pengtech.net/material/material3_introduction.html"/>
+    <id>https://pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-12T04:00:00.000Z</published>
-    <updated>2024-09-01T08:37:30.676Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
+&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
+&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
     
     
     
@@ -2156,16 +2158,14 @@
   </entry>
   
   <entry>
-    <title>Material Design 3介绍</title>
-    <link href="https://pengtech.net/material/material3_introduction.html"/>
-    <id>https://pengtech.net/material/material3_introduction.html</id>
+    <title>Material 3 基础</title>
+    <link href="https://pengtech.net/material/material3_foundations.html"/>
+    <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-12T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-09-01T08:37:30.676Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
-&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
-&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
     
     
     
@@ -5620,16 +5620,16 @@
   </entry>
   
   <entry>
-    <title>Angular platform是什么?</title>
-    <link href="https://pengtech.net/angular/angular_platforms.html"/>
-    <id>https://pengtech.net/angular/angular_platforms.html</id>
+    <title>深度刨析@angular/platform-browser-dynamic</title>
+    <link href="https://pengtech.net/angular/angular_platformBrowserDynamic.html"/>
+    <id>https://pengtech.net/angular/angular_platformBrowserDynamic.html</id>
     <published>2022-04-03T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
+&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
+&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -5645,16 +5645,16 @@
   </entry>
   
   <entry>
-    <title>深度刨析@angular/platform-browser-dynamic</title>
-    <link href="https://pengtech.net/angular/angular_platformBrowserDynamic.html"/>
-    <id>https://pengtech.net/angular/angular_platformBrowserDynamic.html</id>
+    <title>Angular platform是什么?</title>
+    <link href="https://pengtech.net/angular/angular_platforms.html"/>
+    <id>https://pengtech.net/angular/angular_platforms.html</id>
     <published>2022-04-03T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
-&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
-&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
     
     
     

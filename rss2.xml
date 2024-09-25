@@ -368,7 +368,7 @@
       <guid>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</guid>
       <pubDate>Thu, 29 Aug 2024 04:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
+      <description>&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
 &lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，昨天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Vultr 账号申请以及创建VPS过程参考这篇文章 &lt;a href=&quot;https://pengtech.net/linux/vultr_account_creation.html&quot;&gt;快速注册 Vultr 账号以及创建 Vultr VPS&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;今天用 Vultr vps 结合 wordpress 搭建了一个动态博客网站（当然 wordpress 不只是能搭建博客这么简单）， 顺便将之前的文章更新了一遍。以下是搭建的全过程。&lt;/p&gt;
@@ -399,7 +399,7 @@
       <guid>https://pengtech.net/linux/vultr_account_creation.html</guid>
       <pubDate>Wed, 28 Aug 2024 04:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
 &lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</description>
       
       
@@ -1884,7 +1884,7 @@
     </item>
     
     <item>
-      <title>2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos、Android</title>
+      <title>2024 科学上网秘籍：v2rayA 安装与配置指南 for Windows、Linux、Macos、Android</title>
       <link>https://pengtech.net/network/v2rayA_install.html</link>
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
       <pubDate>Sat, 18 Nov 2023 05:00:00 GMT</pubDate>
@@ -2305,31 +2305,6 @@
     </item>
     
     <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -2353,6 +2328,31 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -6066,33 +6066,6 @@
     </item>
     
     <item>
-      <title>Angular platform是什么?</title>
-      <link>https://pengtech.net/angular/angular_platforms.html</link>
-      <guid>https://pengtech.net/angular/angular_platforms.html</guid>
-      <pubDate>Sun, 03 Apr 2022 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>深度刨析@angular/platform-browser-dynamic</title>
       <link>https://pengtech.net/angular/angular_platformBrowserDynamic.html</link>
       <guid>https://pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
@@ -6116,6 +6089,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular platform是什么?</title>
+      <link>https://pengtech.net/angular/angular_platforms.html</link>
+      <guid>https://pengtech.net/angular/angular_platforms.html</guid>
+      <pubDate>Sun, 03 Apr 2022 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
       
     </item>
     
