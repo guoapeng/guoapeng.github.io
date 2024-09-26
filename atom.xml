@@ -542,7 +542,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-30T04:00:00.000Z</published>
-    <updated>2024-09-26T14:25:10.435Z</updated>
+    <updated>2024-09-26T14:45:09.550Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1746,7 +1746,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-18T05:00:00.000Z</published>
-    <updated>2024-09-26T14:24:06.554Z</updated>
+    <updated>2024-09-26T14:44:46.832Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3728,16 +3728,15 @@
   </entry>
   
   <entry>
-    <title>nginx配置https</title>
-    <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
-    <id>https://pengtech.net/nginx/nginx_config_https.html</id>
+    <title>申请免费SSL证书</title>
+    <link href="https://pengtech.net/nginx/apply_ssl_certificate.html"/>
+    <id>https://pengtech.net/nginx/apply_ssl_certificate.html</id>
     <published>2023-05-15T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.395Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
-&lt;p&gt;SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP&amp;#x2F;IP 协议与各种应用层协议之间，为数据通讯提供安全支持。&lt;/p&gt;
-&lt;p&gt;TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2 三个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。TLS 1.3 改动会比较大，目前还在草案阶段，目前使用最广泛的是TLS 1.1、TLS 1.2。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</summary>
     
     
     
@@ -3751,15 +3750,16 @@
   </entry>
   
   <entry>
-    <title>申请免费SSL证书</title>
-    <link href="https://pengtech.net/nginx/apply_ssl_certificate.html"/>
-    <id>https://pengtech.net/nginx/apply_ssl_certificate.html</id>
+    <title>nginx配置https</title>
+    <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
+    <id>https://pengtech.net/nginx/nginx_config_https.html</id>
     <published>2023-05-15T04:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
+&lt;p&gt;SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP&amp;#x2F;IP 协议与各种应用层协议之间，为数据通讯提供安全支持。&lt;/p&gt;
+&lt;p&gt;TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2 三个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。TLS 1.3 改动会比较大，目前还在草案阶段，目前使用最广泛的是TLS 1.1、TLS 1.2。&lt;/p&gt;</summary>
     
     
     
