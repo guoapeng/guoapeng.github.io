@@ -1,5 +1,5 @@
+https://pengtech.net/network/install_v2rayA_on_Windows.html
+https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/vscode/cloud_ide_on_vultr.html
 https://pengtech.net/network/v2ray_server_install.html
-https://pengtech.net/linux/vultr_account_creation.html
-https://pengtech.net/network/v2rayA_install.html

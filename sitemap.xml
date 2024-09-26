@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    
+    <lastmod>2024-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2024-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
     
     <lastmod>2024-09-25</lastmod>
@@ -32,15 +50,6 @@
     <loc>https://pengtech.net/linux/vultr_account_creation.html</loc>
     
     <lastmod>2024-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    
-    <lastmod>2024-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    
-    <lastmod>2024-09-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
     
     <lastmod>2024-09-13</lastmod>
     
@@ -1073,7 +1073,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1082,7 +1082,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1190,7 +1190,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1199,7 +1199,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1433,7 +1433,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1442,7 +1442,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2677,7 +2677,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2024-09-25</lastmod>
+    <lastmod>2024-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
