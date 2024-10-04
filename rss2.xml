@@ -15,8 +15,31 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 28 Sep 2024 13:27:22 GMT</pubDate>
+    <pubDate>Fri, 04 Oct 2024 14:42:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Linux 上添加 swap 分区</title>
+      <link>https://pengtech.net/linux/add_swap_space_on_linux.html</link>
+      <guid>https://pengtech.net/linux/add_swap_space_on_linux.html</guid>
+      <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;防止应用程序出现内存不足错误的一种方法是向服务器添加一些交换空间。在本指南中，我们将介绍如何向 Almalinux 服务器添加 swap 分区。&lt;/p&gt;
+&lt;h2 id=&quot;1-什么是-Swap？&quot;&gt;&lt;a href=&quot;#1-什么是-Swap？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Swap？&quot;&gt;&lt;/a&gt;1. 什么是 Swap？&lt;/h2&gt;&lt;p&gt;swap 分区是硬盘存储空间的一部分，专门留给操作系统用来临时存储 RAM 中无法再保存的数据。这可以增加服务器在工作内存中可以保存的信息量，但有一些注意事项。硬盘上的交换空间主要在 RAM 中没有足够的空间来保存正在使用的应用程序数据时使用。&lt;/p&gt;
+&lt;p&gt;写入磁盘的信息将比保存在 RAM 中的信息慢得多，但操作系统会倾向于将正在运行的应用程序数据保留在内存中，并使用交换空间来存储较旧的数据。总的来说，在系统 RAM 耗尽时，将交换空间作为后备方案，可以很好地防止出现内存不足异常。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/backend/">backend</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      
+      <comments>https://pengtech.net/linux/add_swap_space_on_linux.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>关于 Almalinux Linux 安全加固的 13 条建议</title>
@@ -1387,6 +1410,33 @@
     </item>
     
     <item>
+      <title>记一次关于 Shared connection to remotehost 的 Ansible问题排查</title>
+      <link>https://pengtech.net/ansible/ansible_trouble_shooting.html</link>
+      <guid>https://pengtech.net/ansible/ansible_trouble_shooting.html</guid>
+      <pubDate>Sun, 21 Jan 2024 05:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;今天花了几乎一天的时间排查一个Ansible连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题搞懂了，特此记录下来，以便能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      <category domain="https://pengtech.net/tags/golang/">golang</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible_trouble_shooting.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>update-alternatives 命令详解</title>
       <link>https://pengtech.net/linux/linux_update_alternatives.html</link>
       <guid>https://pengtech.net/linux/linux_update_alternatives.html</guid>
@@ -1672,33 +1722,6 @@
     </item>
     
     <item>
-      <title>Fedora 上安装与配置 Android studio</title>
-      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
-      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
-      <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Windows上安装与配置Android SDK</title>
       <link>https://pengtech.net/android/android_sdk_install.html</link>
       <guid>https://pengtech.net/android/android_sdk_install.html</guid>
@@ -1722,6 +1745,33 @@
       
       
       <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 上安装与配置 Android studio</title>
+      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
+      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
+      <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
       
     </item>
     
@@ -6321,9 +6371,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -7133,9 +7183,9 @@
       
       <category domain="https://pengtech.net/tags/html/">html</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/less/">less</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       
       <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
@@ -7414,9 +7464,9 @@
       
       <category domain="https://pengtech.net/tags/angularjs/">angularjs</category>
       
-      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
-      
       <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
+      
+      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
       
       
       <comments>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html#disqus_thread</comments>

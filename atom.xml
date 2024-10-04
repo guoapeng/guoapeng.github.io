@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-09-28T13:27:22.685Z</updated>
+  <updated>2024-10-04T14:42:20.626Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux 上添加 swap 分区</title>
+    <link href="https://pengtech.net/linux/add_swap_space_on_linux.html"/>
+    <id>https://pengtech.net/linux/add_swap_space_on_linux.html</id>
+    <published>2024-10-04T04:00:00.000Z</published>
+    <updated>2024-10-04T14:42:20.626Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;防止应用程序出现内存不足错误的一种方法是向服务器添加一些交换空间。在本指南中，我们将介绍如何向 Almalinux 服务器添加 swap 分区。&lt;/p&gt;
+&lt;h2 id=&quot;1-什么是-Swap？&quot;&gt;&lt;a href=&quot;#1-什么是-Swap？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Swap？&quot;&gt;&lt;/a&gt;1. 什么是 Swap？&lt;/h2&gt;&lt;p&gt;swap 分区是硬盘存储空间的一部分，专门留给操作系统用来临时存储 RAM 中无法再保存的数据。这可以增加服务器在工作内存中可以保存的信息量，但有一些注意事项。硬盘上的交换空间主要在 RAM 中没有足够的空间来保存正在使用的应用程序数据时使用。&lt;/p&gt;
+&lt;p&gt;写入磁盘的信息将比保存在 RAM 中的信息慢得多，但操作系统会倾向于将正在运行的应用程序数据保留在内存中，并使用交换空间来存储较旧的数据。总的来说，在系统 RAM 耗尽时，将交换空间作为后备方案，可以很好地防止出现内存不足异常。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="backend" scheme="https://pengtech.net/categories/backend/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于 Almalinux Linux 安全加固的 13 条建议</title>
     <link href="https://pengtech.net/linux/almalinux_sercurity_enhancement.html"/>
     <id>https://pengtech.net/linux/almalinux_sercurity_enhancement.html</id>
     <published>2024-09-28T04:00:00.000Z</published>
-    <updated>2024-09-28T13:27:22.685Z</updated>
+    <updated>2024-09-29T14:56:54.866Z</updated>
     
     
     <summary type="html">&lt;p&gt;本帮助手册旨在指导系统管理人员或安全检查人员进行 Linux 操作系统的安全合规性检查和加固。&lt;/p&gt;</summary>
@@ -590,7 +611,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-29T04:00:00.000Z</published>
-    <updated>2024-09-13T10:04:29.588Z</updated>
+    <updated>2024-09-29T11:51:50.484Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -1283,6 +1304,31 @@
   </entry>
   
   <entry>
+    <title>记一次关于 Shared connection to remotehost 的 Ansible问题排查</title>
+    <link href="https://pengtech.net/ansible/ansible_trouble_shooting.html"/>
+    <id>https://pengtech.net/ansible/ansible_trouble_shooting.html</id>
+    <published>2024-01-21T05:00:00.000Z</published>
+    <updated>2024-10-04T14:41:47.171Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天花了几乎一天的时间排查一个Ansible连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题搞懂了，特此记录下来，以便能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
+    
+    <category term="golang" scheme="https://pengtech.net/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
     <title>update-alternatives 命令详解</title>
     <link href="https://pengtech.net/linux/linux_update_alternatives.html"/>
     <id>https://pengtech.net/linux/linux_update_alternatives.html</id>
@@ -1546,14 +1592,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-22T05:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2024-08-22T07:19:35.771Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -1571,14 +1617,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-22T05:00:00.000Z</published>
-    <updated>2024-08-22T07:19:35.771Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -4046,7 +4092,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-16T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-09-28T21:23:56.479Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是Docker容器？&quot;&gt;&lt;a href=&quot;#1-什么是Docker容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Docker容器？&quot;&gt;&lt;/a&gt;1. 什么是Docker容器？&lt;/h2&gt;&lt;p&gt;Docker是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行Linux或Windows等系统的服务器上。相较于传统虚拟机，Docker容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
@@ -5858,9 +5904,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -6105,7 +6151,7 @@
     <link href="https://pengtech.net/git/install_setup_git_server.html"/>
     <id>https://pengtech.net/git/install_setup_git_server.html</id>
     <published>2021-12-16T05:00:00.000Z</published>
-    <updated>2024-08-26T10:23:51.141Z</updated>
+    <updated>2024-10-04T01:16:31.895Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;br&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;br&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;br&gt;虽然git不必依赖一个中心化的仓库来工作, 但是中心化的仓库也能带来很多好处, 比如方便团队写作, 本文主要讲述, 如何配置git服务器, 让多人通过ssh协议的方式访问服务器端的代码仓库.&lt;/p&gt;</summary>
@@ -6612,9 +6658,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="less" scheme="https://pengtech.net/tags/less/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
@@ -6873,9 +6919,9 @@
     
     <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
-    <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
     
   </entry>
   
