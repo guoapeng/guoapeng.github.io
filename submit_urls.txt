@@ -1,3 +1,3 @@
-https://pengtech.net/linux/add_swap_space_on_linux.html
+https://pengtech.net/hexo/hexo_mermaid_plugin.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
-https://pengtech.net/git/install_setup_git_server.html
+https://pengtech.net/linux/add_swap_space_on_linux.html
