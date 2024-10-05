@@ -15,8 +15,35 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Fri, 04 Oct 2024 14:42:20 GMT</pubDate>
+    <pubDate>Sat, 05 Oct 2024 02:50:48 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>记一次关于 Shared connection to remotehost 的 Ansible问题排查</title>
+      <link>https://pengtech.net/ansible/ansible_trouble_shooting.html</link>
+      <guid>https://pengtech.net/ansible/ansible_trouble_shooting.html</guid>
+      <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;今天花了几乎一天的时间排查一个 Ansible 连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题搞懂了，特此记录下来，以便能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      <category domain="https://pengtech.net/tags/golang/">golang</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible_trouble_shooting.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Linux 上添加 swap 分区</title>
@@ -38,6 +65,30 @@
       
       
       <comments>https://pengtech.net/linux/add_swap_space_on_linux.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>华为电脑常用键盘快捷键</title>
+      <link>https://pengtech.net/windows/huawei_computer_hotkeys.html</link>
+      <guid>https://pengtech.net/windows/huawei_computer_hotkeys.html</guid>
+      <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;华为电脑键盘布局与其他电脑有一些差别，最大的差别是，它将 Home, End, Pagedown, Pageup 四个物理按键去掉了，在键盘中间靠上方布置了一个摄像头。&lt;/p&gt;
+&lt;p&gt;先不评价这种设计的优劣，今天主要了解这种布局带来的快捷键使用上的变化， 以尽快适应这种变化。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/windows/">windows</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://pengtech.net/windows/huawei_computer_hotkeys.html#disqus_thread</comments>
       
     </item>
     
@@ -1410,33 +1461,6 @@
     </item>
     
     <item>
-      <title>记一次关于 Shared connection to remotehost 的 Ansible问题排查</title>
-      <link>https://pengtech.net/ansible/ansible_trouble_shooting.html</link>
-      <guid>https://pengtech.net/ansible/ansible_trouble_shooting.html</guid>
-      <pubDate>Sun, 21 Jan 2024 05:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;今天花了几乎一天的时间排查一个Ansible连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题搞懂了，特此记录下来，以便能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      <category domain="https://pengtech.net/tags/golang/">golang</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible_trouble_shooting.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>update-alternatives 命令详解</title>
       <link>https://pengtech.net/linux/linux_update_alternatives.html</link>
       <guid>https://pengtech.net/linux/linux_update_alternatives.html</guid>
@@ -2378,6 +2402,31 @@
     </item>
     
     <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -2401,31 +2450,6 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -4343,31 +4367,6 @@
     </item>
     
     <item>
-      <title>在Golang中使用Testify mock框架</title>
-      <link>https://pengtech.net/golang/mocking_in_golang_using_testify.html</link>
-      <guid>https://pengtech.net/golang/mocking_in_golang_using_testify.html</guid>
-      <pubDate>Thu, 27 Apr 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
-&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
-&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/language/">language</category>
-      
-      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
-      
-      
-      <category domain="https://pengtech.net/tags/golang/">golang</category>
-      
-      
-      <comments>https://pengtech.net/golang/mocking_in_golang_using_testify.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>mockery v2的介绍和使用</title>
       <link>https://pengtech.net/golang/mockery_v2.html</link>
       <guid>https://pengtech.net/golang/mockery_v2.html</guid>
@@ -4389,6 +4388,31 @@
       
       
       <comments>https://pengtech.net/golang/mockery_v2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在Golang中使用Testify mock框架</title>
+      <link>https://pengtech.net/golang/mocking_in_golang_using_testify.html</link>
+      <guid>https://pengtech.net/golang/mocking_in_golang_using_testify.html</guid>
+      <pubDate>Thu, 27 Apr 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
+&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
+&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/language/">language</category>
+      
+      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
+      
+      
+      <category domain="https://pengtech.net/tags/golang/">golang</category>
+      
+      
+      <comments>https://pengtech.net/golang/mocking_in_golang_using_testify.html#disqus_thread</comments>
       
     </item>
     
@@ -5686,32 +5710,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Tue, 03 May 2022 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -5734,6 +5732,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Tue, 03 May 2022 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -6371,9 +6395,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

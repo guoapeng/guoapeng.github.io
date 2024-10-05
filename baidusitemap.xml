@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pengtech.net/hexo/hexo_mermaid_plugin.html</loc>
-    <lastmod>2024-10-04</lastmod>
+    <loc>https://pengtech.net/windows/huawei_computer_hotkeys.html</loc>
+    <lastmod>2024-10-05</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/ansible/ansible_trouble_shooting.html</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-05</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/linux/add_swap_space_on_linux.html</loc>
+    <lastmod>2024-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_create_site.html</loc>
+    <lastmod>2024-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_mermaid_plugin.html</loc>
     <lastmod>2024-10-04</lastmod>
   </url>
   <url>
@@ -66,10 +74,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/secure_nginx_with_let_s_encrypt_on_almalinux.html</loc>
-    <lastmod>2024-09-19</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/hexo/hexo_create_site.html</loc>
     <lastmod>2024-09-19</lastmod>
   </url>
   <url>
@@ -533,11 +537,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1049,11 +1053,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/mockery_v2.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/mockery_v2.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
