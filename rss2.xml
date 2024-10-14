@@ -15,16 +15,43 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 05 Oct 2024 02:50:48 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 22:47:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>记一次关于 Shared connection to remotehost 的 Ansible问题排查</title>
+      <title>使用 postfix 和 dovecot 快速搭建邮件服务器</title>
+      <link>https://pengtech.net/linux/email_server_install.html</link>
+      <guid>https://pengtech.net/linux/email_server_install.html</guid>
+      <pubDate>Mon, 14 Oct 2024 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在正式进行安装邮件服务器之前，我们需要对邮件服务器概念有一些基础的了解。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/backend/">backend</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/email/">email</category>
+      
+      <category domain="https://pengtech.net/tags/postfix/">postfix</category>
+      
+      <category domain="https://pengtech.net/tags/dovecot/">dovecot</category>
+      
+      
+      <comments>https://pengtech.net/linux/email_server_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>记一次关于 Shared connection to remotehost closed 的 Ansible问题排查</title>
       <link>https://pengtech.net/ansible/ansible_trouble_shooting.html</link>
       <guid>https://pengtech.net/ansible/ansible_trouble_shooting.html</guid>
       <pubDate>Fri, 04 Oct 2024 04:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;今天花了几乎一天的时间排查一个 Ansible 连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题搞懂了，特此记录下来，以便能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</description>
+      <description>&lt;p&gt;今天花了几乎一天的时间排查一个 Ansible 连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题解决了，特此记录下来，期望能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</description>
       
       
       
@@ -2402,31 +2429,6 @@
     </item>
     
     <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -2450,6 +2452,31 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -5710,32 +5737,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Tue, 03 May 2022 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -5758,6 +5759,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Tue, 03 May 2022 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     

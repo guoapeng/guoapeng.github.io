@@ -1,3 +1,3 @@
-https://pengtech.net/windows/huawei_computer_hotkeys.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
-https://pengtech.net/linux/add_swap_space_on_linux.html
+https://pengtech.net/linux/email_server_install.html
+https://pengtech.net/ansible/ansible.html
