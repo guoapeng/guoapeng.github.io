@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-10-14T22:47:22.367Z</updated>
+  <updated>2024-10-19T01:46:59.037Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/linux/email_server_install.html"/>
     <id>https://pengtech.net/linux/email_server_install.html</id>
     <published>2024-10-14T04:00:00.000Z</published>
-    <updated>2024-10-14T22:47:22.367Z</updated>
+    <updated>2024-10-19T01:46:59.037Z</updated>
     
     
     <summary type="html">&lt;p&gt;在正式进行安装邮件服务器之前，我们需要对邮件服务器概念有一些基础的了解。&lt;/p&gt;</summary>
@@ -38,6 +38,28 @@
     <category term="postfix" scheme="https://pengtech.net/tags/postfix/"/>
     
     <category term="dovecot" scheme="https://pengtech.net/tags/dovecot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一篇文章搞懂HTTPS协议</title>
+    <link href="https://pengtech.net/network/understand_https.html"/>
+    <id>https://pengtech.net/network/understand_https.html</id>
+    <published>2024-10-14T04:00:00.000Z</published>
+    <updated>2024-10-16T15:07:57.566Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-HTTP-协议&quot;&gt;&lt;a href=&quot;#1-HTTP-协议&quot; class=&quot;headerlink&quot; title=&quot;1. HTTP 协议&quot;&gt;&lt;/a&gt;1. HTTP 协议&lt;/h2&gt;&lt;p&gt;HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写,是用于从万维网（WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。&lt;/p&gt;
+&lt;p&gt;HTTP 是一个基于 TCP&amp;#x2F;IP 通信协议来传递数据，HTTP 协议承载的数据类型包括 HTML 文件,Javascript, css, 图片，json，yaml, pdf 等等数据类型。&lt;/p&gt;
+&lt;p&gt;HTTP 是一个属于应用层协议，应用层有专门的应用服务器，例如: Nginx, Apache HTTP Server, Candy, Apache Tomcat, IIS, Weblogic、WebSphere, jetty。&lt;/p&gt;
+&lt;p&gt;用户也可以使用各种语言提供的网络库，框架实现自己的 HTTP 服务.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="others" scheme="https://pengtech.net/categories/others/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
     
   </entry>
   
@@ -280,7 +302,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-04T04:00:00.000Z</published>
-    <updated>2024-09-25T09:58:21.357Z</updated>
+    <updated>2024-10-17T15:32:45.847Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -1860,7 +1882,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-18T05:00:00.000Z</published>
-    <updated>2024-09-26T14:44:46.832Z</updated>
+    <updated>2024-10-17T15:26:59.390Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -7110,7 +7132,7 @@
     <link href="https://pengtech.net/hexo/hexo_create_site.html"/>
     <id>https://pengtech.net/hexo/hexo_create_site.html</id>
     <published>2021-10-04T04:00:00.000Z</published>
-    <updated>2024-10-04T23:30:06.722Z</updated>
+    <updated>2024-10-18T16:04:01.394Z</updated>
     
     
     <summary type="html">&lt;p&gt;在开始博客写作之前，一个重要的决定就是选择合适的博客框架进行独立部署。博客框架主要分为两种：动态博客和静态博客。除此之外，如果不愿意独立部署，还有一些一站式的博客平台可以选择。&lt;/p&gt;

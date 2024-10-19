@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Mon, 14 Oct 2024 22:47:22 GMT</pubDate>
+    <pubDate>Sat, 19 Oct 2024 01:46:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -42,6 +42,30 @@
       
       
       <comments>https://pengtech.net/linux/email_server_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>一篇文章搞懂HTTPS协议</title>
+      <link>https://pengtech.net/network/understand_https.html</link>
+      <guid>https://pengtech.net/network/understand_https.html</guid>
+      <pubDate>Mon, 14 Oct 2024 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-HTTP-协议&quot;&gt;&lt;a href=&quot;#1-HTTP-协议&quot; class=&quot;headerlink&quot; title=&quot;1. HTTP 协议&quot;&gt;&lt;/a&gt;1. HTTP 协议&lt;/h2&gt;&lt;p&gt;HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写,是用于从万维网（WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。&lt;/p&gt;
+&lt;p&gt;HTTP 是一个基于 TCP&amp;#x2F;IP 通信协议来传递数据，HTTP 协议承载的数据类型包括 HTML 文件,Javascript, css, 图片，json，yaml, pdf 等等数据类型。&lt;/p&gt;
+&lt;p&gt;HTTP 是一个属于应用层协议，应用层有专门的应用服务器，例如: Nginx, Apache HTTP Server, Candy, Apache Tomcat, IIS, Weblogic、WebSphere, jetty。&lt;/p&gt;
+&lt;p&gt;用户也可以使用各种语言提供的网络库，框架实现自己的 HTTP 服务.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      
+      <comments>https://pengtech.net/network/understand_https.html#disqus_thread</comments>
       
     </item>
     
