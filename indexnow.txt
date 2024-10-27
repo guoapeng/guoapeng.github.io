@@ -1,5 +1,5 @@
-https://pengtech.net/linux/email_server_install.html
-https://pengtech.net/hexo/hexo_create_site.html
-https://pengtech.net/network/v2ray_server_install.html
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/network/understand_https.html
+https://pengtech.net/network/v2rayN_usage.html
+https://pengtech.net/linux/msys2_installation.html
+https://pengtech.net/ansible/ansible_install.html
+https://pengtech.net/ansible/install_ansible_on_windows.html
+https://pengtech.net/ansible/ansible.html

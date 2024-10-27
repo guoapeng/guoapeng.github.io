@@ -3377,33 +3377,6 @@
     </item>
     
     <item>
-      <title>Tauri cli详解</title>
-      <link>https://pengtech.net/tauri/tauri_cli.html</link>
-      <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
-      <pubDate>Tue, 15 Aug 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Tauri开发环境配置</title>
       <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
       <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
@@ -3427,6 +3400,33 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri cli详解</title>
+      <link>https://pengtech.net/tauri/tauri_cli.html</link>
+      <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
+      <pubDate>Tue, 15 Aug 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
       
     </item>
     
@@ -6410,7 +6410,7 @@
       <guid>https://pengtech.net/ansible/ansible_install.html</guid>
       <pubDate>Thu, 27 Jan 2022 05:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;Ansible是一种基于Python开发的开源配置和自动化工具，专为类Unix系统设计。它使用SSH协议与节点进行通信，无需在节点上安装任何客户端。&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ansible 是一种基于 Python 开发的开源配置和自动化工具，专为类 Unix 系统设计。它使用 SSH 协议与节点进行通信，无需在节点上安装任何客户端。&lt;/p&gt;</description>
       
       
       
@@ -6999,7 +6999,7 @@
     </item>
     
     <item>
-      <title>运维自动化之Ansible</title>
+      <title>Ansible 教程</title>
       <link>https://pengtech.net/ansible/ansible.html</link>
       <guid>https://pengtech.net/ansible/ansible.html</guid>
       <pubDate>Thu, 28 Oct 2021 04:00:00 GMT</pubDate>
@@ -7029,8 +7029,8 @@
       <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
       <pubDate>Thu, 28 Oct 2021 04:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为Windows, 在windows上要运行Ansible还需要安装Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</description>
       
       
       

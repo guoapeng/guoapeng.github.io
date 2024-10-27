@@ -2625,7 +2625,7 @@
     <link href="https://pengtech.net/angular/angular_ng2_charts.html"/>
     <id>https://pengtech.net/angular/angular_ng2_charts.html</id>
     <published>2023-09-04T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.395Z</updated>
+    <updated>2024-10-19T09:09:36.985Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;图表帮助我们以易于理解和交互的方式可视化大量数据。&lt;/p&gt;
@@ -3125,14 +3125,14 @@
   </entry>
   
   <entry>
-    <title>Tauri cli详解</title>
-    <link href="https://pengtech.net/tauri/tauri_cli.html"/>
-    <id>https://pengtech.net/tauri/tauri_cli.html</id>
+    <title>Tauri开发环境配置</title>
+    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
+    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
     <published>2023-08-15T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
@@ -3150,14 +3150,14 @@
   </entry>
   
   <entry>
-    <title>Tauri开发环境配置</title>
-    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
-    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
+    <title>Tauri cli详解</title>
+    <link href="https://pengtech.net/tauri/tauri_cli.html"/>
+    <id>https://pengtech.net/tauri/tauri_cli.html</id>
     <published>2023-08-15T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份Tauri cli中文版详细说明文档, 由&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt;团队翻译.&lt;br&gt;原文位于&lt;a href=&quot;https://pengtech.net/tauri/tauri_cli.html&quot;&gt;鹏叔的技术博客 - Tauri cli详解&lt;/a&gt;, 要获得最近更新及反馈问题请访问原文!&lt;/p&gt;</summary>
     
     
     
@@ -3730,7 +3730,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-04T04:00:00.000Z</published>
-    <updated>2024-09-13T10:04:17.826Z</updated>
+    <updated>2024-10-27T22:57:46.248Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -4140,7 +4140,7 @@
     <link href="https://pengtech.net/linux/msys2_installation.html"/>
     <id>https://pengtech.net/linux/msys2_installation.html</id>
     <published>2023-04-22T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-10-22T15:02:53.900Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;之前一直是使用的Cygwin作为命令行终端, 后来好像是因为Cygwin上的git不兼容还是什么原因, 具体记不太清了, 就安装了git for windows后来终端也就切换到了git bash, 使用了很长一段时间, 后面发现git for window安装不了额外的软件, 使用完整的Linux命令行都是在虚拟机上完成的, 也就一直这样别扭的用着. 今天发现一个可用在windows上使用bash并可以安装额外软件包的方法,特地写文章纪念一下.&lt;/p&gt;</summary>
@@ -5937,10 +5937,10 @@
     <link href="https://pengtech.net/ansible/ansible_install.html"/>
     <id>https://pengtech.net/ansible/ansible_install.html</id>
     <published>2022-01-27T05:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-10-22T14:58:04.228Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Ansible是一种基于Python开发的开源配置和自动化工具，专为类Unix系统设计。它使用SSH协议与节点进行通信，无需在节点上安装任何客户端。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Ansible 是一种基于 Python 开发的开源配置和自动化工具，专为类 Unix 系统设计。它使用 SSH 协议与节点进行通信，无需在节点上安装任何客户端。&lt;/p&gt;</summary>
     
     
     
@@ -6483,11 +6483,11 @@
   </entry>
   
   <entry>
-    <title>运维自动化之Ansible</title>
+    <title>Ansible 教程</title>
     <link href="https://pengtech.net/ansible/ansible.html"/>
     <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-28T04:00:00.000Z</published>
-    <updated>2024-10-14T07:18:13.278Z</updated>
+    <updated>2024-10-22T14:54:05.186Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
@@ -6510,11 +6510,11 @@
     <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
     <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-28T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible可以通过SSH、Powershell远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行界面实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为Windows, 在windows上要运行Ansible还需要安装Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     

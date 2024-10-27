@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    
+    <lastmod>2024-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/linux/msys2_installation.html</loc>
+    
+    <lastmod>2024-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ansible/ansible_install.html</loc>
+    
+    <lastmod>2024-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ansible/install_ansible_on_windows.html</loc>
+    
+    <lastmod>2024-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ansible/ansible.html</loc>
+    
+    <lastmod>2024-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/angular/angular_ng2_charts.html</loc>
+    
+    <lastmod>2024-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/linux/email_server_install.html</loc>
     
     <lastmod>2024-10-19</lastmod>
@@ -48,15 +102,6 @@
   
   <url>
     <loc>https://pengtech.net/ansible/ansible_trouble_shooting.html</loc>
-    
-    <lastmod>2024-10-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/ansible/ansible.html</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -237,15 +282,6 @@
   
   <url>
     <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
-    
-    <lastmod>2024-09-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     
     <lastmod>2024-09-13</lastmod>
     
@@ -1073,15 +1109,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1092,15 +1119,6 @@
   
   <url>
     <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/ansible/install_ansible_on_windows.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1325,15 +1343,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/msys2_installation.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/nas_installation_on_linux.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1379,7 +1388,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1388,7 +1397,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1739,15 +1748,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_ng2_charts.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/angular/angular_ngx_charts.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1928,15 +1928,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1947,6 +1938,15 @@
   
   <url>
     <loc>https://pengtech.net/tauri/tauri_env_setup.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2306,7 +2306,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/convert_web-app_into_desktop.html</loc>
+    <loc>https://pengtech.net/strapi/strapi_project_structure.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2315,7 +2315,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/strapi/strapi_project_structure.html</loc>
+    <loc>https://pengtech.net/tauri/convert_web-app_into_desktop.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2540,7 +2540,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2549,7 +2549,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2731,7 +2731,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2024-10-19</lastmod>
+    <lastmod>2024-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
