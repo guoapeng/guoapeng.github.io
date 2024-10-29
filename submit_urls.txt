@@ -1,3 +1,3 @@
+https://pengtech.net/network/v2rayA_install.html
+https://pengtech.net/hexo/blog_seo_optimize.html
 https://pengtech.net/network/v2rayN_usage.html
-https://pengtech.net/linux/msys2_installation.html
-https://pengtech.net/ansible/ansible_install.html

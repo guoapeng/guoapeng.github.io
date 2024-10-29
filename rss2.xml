@@ -3377,33 +3377,6 @@
     </item>
     
     <item>
-      <title>Tauri开发环境配置</title>
-      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
-      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
-      <pubDate>Tue, 15 Aug 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Tauri cli详解</title>
       <link>https://pengtech.net/tauri/tauri_cli.html</link>
       <guid>https://pengtech.net/tauri/tauri_cli.html</guid>
@@ -3427,6 +3400,33 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_cli.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri开发环境配置</title>
+      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
+      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
+      <pubDate>Tue, 15 Aug 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
       
     </item>
     
