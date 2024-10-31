@@ -1797,33 +1797,6 @@
     </item>
     
     <item>
-      <title>Windows上安装与配置Android SDK</title>
-      <link>https://pengtech.net/android/android_sdk_install.html</link>
-      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
-      <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Fedora 上安装与配置 Android studio</title>
       <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
       <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
@@ -1847,6 +1820,33 @@
       
       
       <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows上安装与配置Android SDK</title>
+      <link>https://pengtech.net/android/android_sdk_install.html</link>
+      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
+      <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
       
     </item>
     
@@ -5867,32 +5867,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - 响应式布局网格</title>
-      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
-      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
-      <pubDate>Sat, 30 Apr 2022 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - Elevation（标高）</title>
       <link>https://pengtech.net/material/Elevation.html</link>
       <guid>https://pengtech.net/material/Elevation.html</guid>
@@ -5915,6 +5889,32 @@
       
       
       <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - 响应式布局网格</title>
+      <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
+      <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
+      <pubDate>Sat, 30 Apr 2022 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
       
     </item>
     
@@ -6446,9 +6446,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>

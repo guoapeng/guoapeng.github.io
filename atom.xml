@@ -1661,14 +1661,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-22T05:00:00.000Z</published>
-    <updated>2024-10-27T23:01:33.053Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -1686,14 +1686,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-22T05:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2024-10-27T23:01:33.053Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -1882,7 +1882,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-18T05:00:00.000Z</published>
-    <updated>2024-10-31T09:30:17.953Z</updated>
+    <updated>2024-10-31T09:53:37.802Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -5435,15 +5435,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
+    <title>Material Design 基础 - Elevation（标高）</title>
+    <link href="https://pengtech.net/material/Elevation.html"/>
+    <id>https://pengtech.net/material/Elevation.html</id>
     <published>2022-04-30T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
+&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
     
     
     
@@ -5459,15 +5459,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - Elevation（标高）</title>
-    <link href="https://pengtech.net/material/Elevation.html"/>
-    <id>https://pengtech.net/material/Elevation.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
     <published>2022-04-30T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
-&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     
@@ -5973,9 +5973,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
