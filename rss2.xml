@@ -757,7 +757,7 @@
     </item>
     
     <item>
-      <title>Android 上安装与配置 v2rayNG</title>
+      <title>Android 上安装与配置 v2rayNG 详解</title>
       <link>https://pengtech.net/network/v2rayNG_install_and_config.html</link>
       <guid>https://pengtech.net/network/v2rayNG_install_and_config.html</guid>
       <pubDate>Mon, 29 Jul 2024 04:00:00 GMT</pubDate>
@@ -1797,33 +1797,6 @@
     </item>
     
     <item>
-      <title>Fedora 上安装与配置 Android studio</title>
-      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
-      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
-      <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Windows上安装与配置Android SDK</title>
       <link>https://pengtech.net/android/android_sdk_install.html</link>
       <guid>https://pengtech.net/android/android_sdk_install.html</guid>
@@ -1847,6 +1820,33 @@
       
       
       <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 上安装与配置 Android studio</title>
+      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
+      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
+      <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
       
     </item>
     
@@ -2453,6 +2453,31 @@
     </item>
     
     <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -2476,31 +2501,6 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Thu, 12 Oct 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -6446,9 +6446,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
