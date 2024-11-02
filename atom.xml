@@ -298,11 +298,11 @@
   </entry>
   
   <entry>
-    <title>Vultr 上安装并配置一台 VMESS/v2ray 服务器</title>
+    <title>Vultr 上安装并配置一台VMESS/v2ray 服务器</title>
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-04T04:00:00.000Z</published>
-    <updated>2024-11-02T11:53:36.955Z</updated>
+    <updated>2024-11-02T13:12:08.090Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -674,11 +674,11 @@
   </entry>
   
   <entry>
-    <title>Windows 上安装与配置 v2rayA</title>
+    <title>Windows 上安装与配置v2rayA</title>
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-30T04:00:00.000Z</published>
-    <updated>2024-11-02T02:33:37.240Z</updated>
+    <updated>2024-11-02T13:09:45.803Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -701,11 +701,11 @@
   </entry>
   
   <entry>
-    <title>Android 上安装与配置 v2rayNG 详解</title>
+    <title>Android 上安装与配置v2rayNG</title>
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-29T04:00:00.000Z</published>
-    <updated>2024-10-31T12:19:03.465Z</updated>
+    <updated>2024-11-02T13:10:36.650Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -791,11 +791,11 @@
   </entry>
   
   <entry>
-    <title>16 款精美的 hexo 博客主题推荐</title>
+    <title>16 款精美的hexo 博客主题推荐</title>
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-15T04:00:00.000Z</published>
-    <updated>2024-08-22T05:09:15.605Z</updated>
+    <updated>2024-11-02T13:04:36.815Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力,是否在积极维护以及实际使用体验筛选出 16 款精致的 Hexo 主题。欢迎评论区留言，告诉大家你最喜欢的主题。&lt;/p&gt;</summary>
@@ -840,7 +840,7 @@
     <link href="https://pengtech.net/angular/angular_debug.html"/>
     <id>https://pengtech.net/angular/angular_debug.html</id>
     <published>2024-07-07T04:00:00.000Z</published>
-    <updated>2024-10-27T23:01:50.769Z</updated>
+    <updated>2024-11-02T13:09:05.890Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文演示如何调试 Angular 应用程序。在本文中，我们将讨论。&lt;/p&gt;
@@ -1032,11 +1032,11 @@
   </entry>
   
   <entry>
-    <title>如何制作 macOS Sonoma ISO 文件</title>
+    <title>如何制作macOS Sonoma ISO 文件</title>
     <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
     <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-26T04:00:00.000Z</published>
-    <updated>2024-09-26T16:46:04.326Z</updated>
+    <updated>2024-11-02T13:03:23.412Z</updated>
     
     
     <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
@@ -1665,7 +1665,7 @@
     <link href="https://pengtech.net/android/android_sdk_install.html"/>
     <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-22T05:00:00.000Z</published>
-    <updated>2024-10-27T23:01:33.053Z</updated>
+    <updated>2024-11-02T13:09:13.157Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
@@ -1878,11 +1878,11 @@
   </entry>
   
   <entry>
-    <title>2024 科学上网秘籍：v2rayA 安装与配置教程 for Windows、Linux、Macos、Android</title>
+    <title>2024 最新v2rayA 安装与配置教程for Windows、Linux、Macos</title>
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-18T05:00:00.000Z</published>
-    <updated>2024-11-02T03:14:17.051Z</updated>
+    <updated>2024-11-02T13:12:22.650Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2762,7 +2762,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-25T04:00:00.000Z</published>
-    <updated>2024-10-27T23:02:23.363Z</updated>
+    <updated>2024-11-02T13:10:50.441Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -2883,7 +2883,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-21T04:00:00.000Z</published>
-    <updated>2024-10-27T23:02:01.892Z</updated>
+    <updated>2024-11-02T13:09:32.015Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
@@ -3730,7 +3730,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-04T04:00:00.000Z</published>
-    <updated>2024-10-29T09:44:33.104Z</updated>
+    <updated>2024-11-02T13:12:30.369Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是一款基于 V2RAY 协议的 Windows 客户端软件, 用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私. 它可以通过多种协议和代理方式连接到服务器, 包括 HTTP, HTTPS, Socks, Shadowsocks, VMess 等. V2rayN 提供了简单易用.&lt;/p&gt;</summary>
@@ -6297,9 +6297,9 @@
     
     
     
-    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
-    
     <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
+    
+    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
     
   </entry>
   
@@ -6619,7 +6619,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-26T04:00:00.000Z</published>
-    <updated>2024-10-27T23:03:46.439Z</updated>
+    <updated>2024-11-02T13:09:39.753Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;

@@ -324,7 +324,7 @@
     </item>
     
     <item>
-      <title>Vultr 上安装并配置一台 VMESS/v2ray 服务器</title>
+      <title>Vultr 上安装并配置一台VMESS/v2ray 服务器</title>
       <link>https://pengtech.net/network/v2ray_server_install.html</link>
       <guid>https://pengtech.net/network/v2ray_server_install.html</guid>
       <pubDate>Wed, 04 Sep 2024 04:00:00 GMT</pubDate>
@@ -728,7 +728,7 @@
     </item>
     
     <item>
-      <title>Windows 上安装与配置 v2rayA</title>
+      <title>Windows 上安装与配置v2rayA</title>
       <link>https://pengtech.net/network/install_v2rayA_on_Windows.html</link>
       <guid>https://pengtech.net/network/install_v2rayA_on_Windows.html</guid>
       <pubDate>Tue, 30 Jul 2024 04:00:00 GMT</pubDate>
@@ -757,7 +757,7 @@
     </item>
     
     <item>
-      <title>Android 上安装与配置 v2rayNG 详解</title>
+      <title>Android 上安装与配置v2rayNG</title>
       <link>https://pengtech.net/network/v2rayNG_install_and_config.html</link>
       <guid>https://pengtech.net/network/v2rayNG_install_and_config.html</guid>
       <pubDate>Mon, 29 Jul 2024 04:00:00 GMT</pubDate>
@@ -855,7 +855,7 @@
     </item>
     
     <item>
-      <title>16 款精美的 hexo 博客主题推荐</title>
+      <title>16 款精美的hexo 博客主题推荐</title>
       <link>https://pengtech.net/hexo/hexo_theme_recommendation.html</link>
       <guid>https://pengtech.net/hexo/hexo_theme_recommendation.html</guid>
       <pubDate>Mon, 15 Jul 2024 04:00:00 GMT</pubDate>
@@ -1116,7 +1116,7 @@
     </item>
     
     <item>
-      <title>如何制作 macOS Sonoma ISO 文件</title>
+      <title>如何制作macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
       <pubDate>Fri, 26 Apr 2024 04:00:00 GMT</pubDate>
@@ -2032,7 +2032,7 @@
     </item>
     
     <item>
-      <title>2024 科学上网秘籍：v2rayA 安装与配置教程 for Windows、Linux、Macos、Android</title>
+      <title>2024 最新v2rayA 安装与配置教程for Windows、Linux、Macos</title>
       <link>https://pengtech.net/network/v2rayA_install.html</link>
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
       <pubDate>Sat, 18 Nov 2023 05:00:00 GMT</pubDate>
@@ -6796,9 +6796,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/OS/">OS</category>
-      
       <category domain="https://pengtech.net/tags/windows/">windows</category>
+      
+      <category domain="https://pengtech.net/tags/OS/">OS</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
