@@ -4816,7 +4816,7 @@
     <link href="https://pengtech.net/rust/install_rust_on_windows.html"/>
     <id>https://pengtech.net/rust/install_rust_on_windows.html</id>
     <published>2022-11-29T05:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2024-11-02T13:57:33.349Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装-rust&quot;&gt;&lt;a href=&quot;#1-安装-rust&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 rust&quot;&gt;&lt;/a&gt;1. 安装 rust&lt;/h2&gt;&lt;ul&gt;
@@ -4825,23 +4825,7 @@
 &lt;h2 id=&quot;2-在-Linux-or-macOS-上安装-Rust&quot;&gt;&lt;a href=&quot;#2-在-Linux-or-macOS-上安装-Rust&quot; class=&quot;headerlink&quot; title=&quot;2. 在 Linux or macOS 上安装 Rust&quot;&gt;&lt;/a&gt;2. 在 Linux or macOS 上安装 Rust&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;在 Linux or Mac 上安装 Rust:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;curl --proto &lt;span class=&quot;string&quot;&gt;&amp;#x27;=https&amp;#x27;&lt;/span&gt; --tlsv1.2 https://sh.rustup.rs -sSf| sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;3-在-Windows-上安装-Rust&quot;&gt;&lt;a href=&quot;#3-在-Windows-上安装-Rust&quot; class=&quot;headerlink&quot; title=&quot;3. 在 Windows 上安装 Rust&quot;&gt;&lt;/a&gt;3. 在 Windows 上安装 Rust&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;windows: 按&lt;a href=&quot;https://www.rust-lang.org/tools/install&quot;&gt;官网安装指引操作&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;下载安装程序，&lt;a href=&quot;https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe&quot;&gt;下载 RUSTUP-INIT.exe 32 位安装程序&lt;/a&gt; 或 &lt;a href=&quot;https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe&quot;&gt;下载 RUSTUP-INIT.exe 64 位安装程序&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;然后运行程序并按照屏幕上的说明进行操作。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;当提示您安装&lt;a href=&quot;https://visualstudio.microsoft.com/visual-cpp-build-tools/&quot;&gt;Visual Studio C++ build tools&lt;/a&gt;时，您可能需要安装这些工具。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;完成安装后需要将 &amp;lt;home_dir&amp;gt;&amp;#x2F;.cargo&amp;#x2F;bin&amp;#x2F; 添加到 Path 环境变量, 这样在任何位置都可以执行 rustc, cargo 和 rustup 命令了&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;windows subsystem for Linux(WSL):&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;curl --proto &lt;span class=&quot;string&quot;&gt;&amp;#x27;=https&amp;#x27;&lt;/span&gt; --tlsv1.2 -sSf https://sh.rustup.rs | sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;curl --proto &lt;span class=&quot;string&quot;&gt;&amp;#x27;=https&amp;#x27;&lt;/span&gt; --tlsv1.2 https://sh.rustup.rs -sSf| sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -5337,15 +5321,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-03T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5361,15 +5345,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-03T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
