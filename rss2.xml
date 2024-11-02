@@ -4176,6 +4176,30 @@
     </item>
     
     <item>
+      <title>申请免费SSL证书</title>
+      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
+      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
+      <pubDate>Mon, 15 May 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      
+      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>nginx配置https</title>
       <link>https://pengtech.net/nginx/nginx_config_https.html</link>
       <guid>https://pengtech.net/nginx/nginx_config_https.html</guid>
@@ -4197,30 +4221,6 @@
       
       
       <comments>https://pengtech.net/nginx/nginx_config_https.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>申请免费SSL证书</title>
-      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
-      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
-      <pubDate>Mon, 15 May 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
-      
-      
-      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
       
     </item>
     
@@ -5867,32 +5867,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - Elevation（标高）</title>
-      <link>https://pengtech.net/material/Elevation.html</link>
-      <guid>https://pengtech.net/material/Elevation.html</guid>
-      <pubDate>Sat, 30 Apr 2022 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
-&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design基础 - 响应式布局网格</title>
       <link>https://pengtech.net/material/Responsive_layout_grid.html</link>
       <guid>https://pengtech.net/material/Responsive_layout_grid.html</guid>
@@ -5915,6 +5889,32 @@
       
       
       <comments>https://pengtech.net/material/Responsive_layout_grid.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - Elevation（标高）</title>
+      <link>https://pengtech.net/material/Elevation.html</link>
+      <guid>https://pengtech.net/material/Elevation.html</guid>
+      <pubDate>Sat, 30 Apr 2022 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
+&lt;h2 id=&quot;2-测量标高&quot;&gt;&lt;a href=&quot;#2-测量标高&quot; class=&quot;headerlink&quot; title=&quot;2. 测量标高&quot;&gt;&lt;/a&gt;2. 测量标高&lt;/h2&gt;&lt;p&gt;Material Design中的标高为Material surfaces之间的距离。从一个Material surface的前部到另一个Material surface前面的距离沿 z 轴以与dps(density-independent pixels)为单位进行测量，并使用阴影进行描绘（默认情况下）.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/Elevation.html#disqus_thread</comments>
       
     </item>
     
@@ -6446,9 +6446,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
