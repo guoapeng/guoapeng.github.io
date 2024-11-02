@@ -1154,15 +1154,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1173,6 +1164,15 @@
   
   <url>
     <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1280,7 +1280,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1289,7 +1289,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1388,7 +1388,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1397,7 +1397,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2279,7 +2279,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
+    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2288,7 +2288,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
+    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2513,7 +2513,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2522,7 +2522,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2540,7 +2540,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2549,7 +2549,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
