@@ -64,11 +64,11 @@
   </entry>
   
   <entry>
-    <title>记一次关于 Shared connection to remotehost closed 的 Ansible问题排查</title>
+    <title>记一次关于Ansible Shared connection to remotehost closed 问题的排查过程</title>
     <link href="https://pengtech.net/ansible/ansible_trouble_shooting.html"/>
     <id>https://pengtech.net/ansible/ansible_trouble_shooting.html</id>
     <published>2024-10-04T04:00:00.000Z</published>
-    <updated>2024-10-14T22:50:01.581Z</updated>
+    <updated>2024-11-02T02:54:39.839Z</updated>
     
     
     <summary type="html">&lt;p&gt;今天花了几乎一天的时间排查一个 Ansible 连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题解决了，特此记录下来，期望能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</summary>
@@ -302,7 +302,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-04T04:00:00.000Z</published>
-    <updated>2024-10-17T15:32:45.847Z</updated>
+    <updated>2024-11-02T11:53:36.955Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -311,7 +311,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://pengtech.net/wordpress/deploy_wordpress_on_vps.html&quot;&gt;Vultr 部署 Wordpress 博客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://pengtech.net/kubernates_on_vultr.html&quot;&gt;Vultr 上快速搭建 kubernetes 集群&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pengtech.net/k8s/kubernates_on_vultr.html&quot;&gt;Vultr 上快速搭建 kubernetes 集群&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;更多玩法等待您来解锁。&lt;/p&gt;
 &lt;p&gt;本文主要讲解在 Vultr VPS上，如何使用自动化脚本和手动两种方式，安装并配置一台 v2ray 服务器（也称为 vmess server）。以及如何通过v2rayA, v2rayN, v2RayNG连接 v2ray 服务器并访问google和chatGPT。&lt;/p&gt;</summary>
@@ -1084,7 +1084,7 @@
     <link href="https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html"/>
     <id>https://pengtech.net/angular/useSignal_is_the_future_of_web_frameworks.html</id>
     <published>2024-04-23T04:00:00.000Z</published>
-    <updated>2024-08-07T15:36:12.146Z</updated>
+    <updated>2024-11-02T12:44:28.147Z</updated>
     
     
     <summary type="html">&lt;p&gt;signal 是一种存储应用程序状态的方法，类似于 React 中的 useState()。但有一些关键的差异赋予了 Signals 另外的优势。&lt;/p&gt;</summary>
@@ -1882,10 +1882,10 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-18T05:00:00.000Z</published>
-    <updated>2024-11-02T02:41:41.757Z</updated>
+    <updated>2024-11-02T03:14:17.051Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统, 以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
     
     
     
@@ -3179,7 +3179,7 @@
     <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
     <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-15T04:00:00.000Z</published>
-    <updated>2024-09-12T03:51:28.776Z</updated>
+    <updated>2024-11-02T11:57:24.768Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
@@ -5412,8 +5412,8 @@
   
   <entry>
     <title>Material Design 基础 - Component behavior</title>
-    <link href="https://pengtech.net/material/Component_behavior.html"/>
-    <id>https://pengtech.net/material/Component_behavior.html</id>
+    <link href="https://pengtech.net/material/component_behavior.html"/>
+    <id>https://pengtech.net/material/component_behavior.html</id>
     <published>2022-04-30T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
@@ -5435,35 +5435,11 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/Responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/Responsive_layout_grid.html</id>
-    <published>2022-04-30T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
-    
-    
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Material Design 基础 - Elevation（标高）</title>
-    <link href="https://pengtech.net/material/Elevation.html"/>
-    <id>https://pengtech.net/material/Elevation.html</id>
+    <link href="https://pengtech.net/material/elevation.html"/>
+    <id>https://pengtech.net/material/elevation.html</id>
     <published>2022-04-30T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-11-02T12:06:11.866Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Elevation（标高）&quot;&gt;&lt;a href=&quot;#1-Elevation（标高）&quot; class=&quot;headerlink&quot; title=&quot;1. Elevation（标高）&quot;&gt;&lt;/a&gt;1. Elevation（标高）&lt;/h2&gt;&lt;p&gt;Elevation（标高）是沿 z 轴的两个Surface之间的相对距离。&lt;/p&gt;
@@ -5483,34 +5459,11 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/Spacing_methods.html"/>
-    <id>https://pengtech.net/material/Spacing_methods.html</id>
-    <published>2022-04-30T04:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
-    
-    
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Material Design简介</title>
     <link href="https://pengtech.net/material/introduction.html"/>
     <id>https://pengtech.net/material/introduction.html</id>
     <published>2022-04-30T04:00:00.000Z</published>
-    <updated>2024-08-06T10:01:47.270Z</updated>
+    <updated>2024-11-02T12:06:57.830Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Material 是 Google 创建的一个设计系统，旨在帮助团队为 Android、iOS、Flutter 和 Web 构建高质量的数字体验。&lt;/p&gt;
@@ -5601,6 +5554,53 @@
     <summary type="html">&lt;h2 id=&quot;1-像素密度-Pixel-Density&quot;&gt;&lt;a href=&quot;#1-像素密度-Pixel-Density&quot; class=&quot;headerlink&quot; title=&quot;1. 像素密度(Pixel Density)&quot;&gt;&lt;/a&gt;1. 像素密度(Pixel Density)&lt;/h2&gt;&lt;p&gt;一英寸屏幕上存在的像素数称为像素密度。&lt;/p&gt;
 &lt;p&gt;屏幕像素密度和分辨率因平台而异。&lt;/p&gt;
 &lt;h3 id=&quot;1-1-屏幕密度变化&quot;&gt;&lt;a href=&quot;#1-1-屏幕密度变化&quot; class=&quot;headerlink&quot; title=&quot;1.1. 屏幕密度变化&quot;&gt;&lt;/a&gt;1.1. 屏幕密度变化&lt;/h3&gt;&lt;p&gt;高密度屏幕的每英寸像素数比低密度屏幕的多。因此，相同像素尺寸的UI元素在低密度屏幕上显示得更大，而在高密度屏幕上显示得更小。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
+    
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/responsive_layout_grid.html</id>
+    <published>2022-04-30T04:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.587Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
+    
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/spacing_methods.html"/>
+    <id>https://pengtech.net/material/spacing_methods.html</id>
+    <published>2022-04-30T04:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.587Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -6297,9 +6297,9 @@
     
     
     
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
+    
+    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
   </entry>
   
@@ -7132,7 +7132,7 @@
     <link href="https://pengtech.net/hexo/hexo_create_site.html"/>
     <id>https://pengtech.net/hexo/hexo_create_site.html</id>
     <published>2021-10-04T04:00:00.000Z</published>
-    <updated>2024-10-18T16:04:01.394Z</updated>
+    <updated>2024-11-02T12:07:43.062Z</updated>
     
     
     <summary type="html">&lt;p&gt;在开始博客写作之前，一个重要的决定就是选择合适的博客框架进行独立部署。博客框架主要分为两种：动态博客和静态博客。除此之外，如果不愿意独立部署，还有一些一站式的博客平台可以选择。&lt;/p&gt;
