@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2024-11-06</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2024-11-06</lastmod>
   </url>
@@ -42,10 +46,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2024-11-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
     <lastmod>2024-11-02</lastmod>
   </url>
   <url>
@@ -505,19 +505,19 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/firefox/cli_build_firefox_extension.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/database/db_migrations.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <loc>https://pengtech.net/firefox/cli_build_firefox_extension.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -613,11 +613,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -965,11 +965,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
+    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
+    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -1069,15 +1069,19 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/golang/zap_logging.html</loc>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -1090,10 +1094,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/git/how_to_configure_git_push.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
