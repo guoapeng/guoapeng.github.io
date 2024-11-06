@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2024-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/tauri/setup_tauri_for_linux.html</loc>
+    <lastmod>2024-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
+    <lastmod>2024-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
+    <lastmod>2024-11-06</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
     <lastmod>2024-11-06</lastmod>
   </url>
@@ -25,10 +41,6 @@
     <lastmod>2024-11-02</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2024-11-02</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
     <lastmod>2024-11-02</lastmod>
   </url>
@@ -46,10 +58,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2024-11-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2024-11-02</lastmod>
   </url>
   <url>
@@ -273,19 +281,11 @@
     <lastmod>2024-08-26</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
-    <lastmod>2024-08-26</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/vmware/vmware_install_windows.html</loc>
     <lastmod>2024-08-26</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/tauri/tauri_angular_desktop.html</loc>
-    <lastmod>2024-08-26</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/tauri/setup_tauri_for_linux.html</loc>
     <lastmod>2024-08-26</lastmod>
   </url>
   <url>
@@ -557,11 +557,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
