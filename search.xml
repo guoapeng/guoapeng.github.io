@@ -3998,10 +3998,10 @@ customEditorConfig: EditorConfig = &#123;
 <td>until May 04, 2023</td>
 </tr>
 </tbody></table>
-<p>由于我目前使用的 angular 版本 13.3.11, 我选择了一个稳定版本<a href="mailto:&#110;&#103;&#x78;&#45;&#x71;&#117;&#105;&#108;&#x6c;&#x40;&#x31;&#54;&#46;&#50;&#x2e;&#x31;">&#110;&#103;&#x78;&#45;&#x71;&#117;&#105;&#108;&#x6c;&#x40;&#x31;&#54;&#46;&#50;&#x2e;&#x31;</a><br>查看<a href="mailto:&#110;&#103;&#x78;&#x2d;&#x71;&#x75;&#105;&#x6c;&#108;&#64;&#49;&#x36;&#46;&#50;&#x2e;&#x31;">&#110;&#103;&#x78;&#x2d;&#x71;&#x75;&#105;&#x6c;&#108;&#64;&#49;&#x36;&#46;&#50;&#x2e;&#x31;</a>的配置文件<a href="https://github.com/KillerCodeMonkey/ngx-quill/blob/v16.2.1/package.json">package.json</a>, 其对应的 quill 版本为<a href="mailto:&#x71;&#117;&#105;&#108;&#x6c;&#64;&#x31;&#46;&#51;&#x2e;&#55;">&#x71;&#117;&#105;&#108;&#x6c;&#64;&#x31;&#46;&#51;&#x2e;&#55;</a>, 所以这里 quill 使用<a href="mailto:&#113;&#117;&#105;&#x6c;&#x6c;&#64;&#49;&#x2e;&#x33;&#x2e;&#55;">&#113;&#117;&#105;&#x6c;&#x6c;&#64;&#49;&#x2e;&#x33;&#x2e;&#55;</a>. 为了让 typescript 能识别类型信息, 这里还需要导入一个开发依赖包@types&#x2F;<a href="mailto:&#x71;&#117;&#105;&#108;&#x6c;&#64;&#49;&#46;&#x33;&#x2e;&#x31;&#x30;">&#x71;&#117;&#105;&#108;&#x6c;&#64;&#49;&#46;&#x33;&#x2e;&#x31;&#x30;</a>, 版本也可以从 ngx-quill 的 package.json 中找到.</p>
+<p>由于我目前使用的 angular 版本 13.3.11, 我选择了一个稳定版本<a href="mailto:&#110;&#103;&#x78;&#45;&#113;&#x75;&#x69;&#108;&#108;&#64;&#49;&#54;&#46;&#50;&#46;&#x31;">&#110;&#103;&#x78;&#45;&#113;&#x75;&#x69;&#108;&#108;&#64;&#49;&#54;&#46;&#50;&#46;&#x31;</a><br>查看<a href="mailto:&#110;&#103;&#x78;&#x2d;&#x71;&#x75;&#x69;&#108;&#x6c;&#64;&#49;&#x36;&#x2e;&#50;&#46;&#49;">&#110;&#103;&#x78;&#x2d;&#x71;&#x75;&#x69;&#108;&#x6c;&#64;&#49;&#x36;&#x2e;&#50;&#46;&#49;</a>的配置文件<a href="https://github.com/KillerCodeMonkey/ngx-quill/blob/v16.2.1/package.json">package.json</a>, 其对应的 quill 版本为<a href="mailto:&#113;&#117;&#x69;&#x6c;&#108;&#x40;&#49;&#46;&#51;&#x2e;&#55;">&#113;&#117;&#x69;&#x6c;&#108;&#x40;&#49;&#46;&#51;&#x2e;&#55;</a>, 所以这里 quill 使用<a href="mailto:&#113;&#117;&#x69;&#x6c;&#108;&#64;&#x31;&#46;&#x33;&#x2e;&#x37;">&#113;&#117;&#x69;&#x6c;&#108;&#64;&#x31;&#46;&#x33;&#x2e;&#x37;</a>. 为了让 typescript 能识别类型信息, 这里还需要导入一个开发依赖包@types&#x2F;<a href="mailto:&#113;&#x75;&#x69;&#108;&#108;&#64;&#x31;&#x2e;&#x33;&#x2e;&#49;&#48;">&#113;&#x75;&#x69;&#108;&#108;&#64;&#x31;&#x2e;&#x33;&#x2e;&#49;&#48;</a>, 版本也可以从 ngx-quill 的 package.json 中找到.</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm install ngx-quill@16.2.1 --save</span><br><span class="line">npm install quill@1.3.7 --save</span><br><span class="line">npm install @types/quill@1.3.10 --save-dev</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>当前最新版本为 <a href="mailto:&#x6e;&#x67;&#x78;&#45;&#113;&#x75;&#x69;&#x6c;&#x6c;&#64;&#x32;&#48;&#46;&#48;&#46;&#49;">&#x6e;&#x67;&#x78;&#45;&#113;&#x75;&#x69;&#x6c;&#x6c;&#64;&#x32;&#48;&#46;&#48;&#46;&#49;</a> <a href="mailto:&#113;&#117;&#x69;&#108;&#108;&#64;&#x31;&#x2e;&#x33;&#x2e;&#55;">&#113;&#117;&#x69;&#108;&#108;&#64;&#x31;&#x2e;&#x33;&#x2e;&#55;</a></p>
+<p>当前最新版本为 <a href="mailto:&#110;&#103;&#120;&#45;&#x71;&#x75;&#x69;&#x6c;&#x6c;&#64;&#50;&#48;&#x2e;&#48;&#46;&#x31;">&#110;&#103;&#120;&#45;&#x71;&#x75;&#x69;&#x6c;&#x6c;&#64;&#50;&#48;&#x2e;&#48;&#46;&#x31;</a> <a href="mailto:&#113;&#117;&#105;&#x6c;&#108;&#64;&#49;&#46;&#x33;&#46;&#55;">&#113;&#117;&#105;&#x6c;&#108;&#64;&#49;&#46;&#x33;&#46;&#55;</a></p>
 <h2 id="3-创建编辑器"><a href="#3-创建编辑器" class="headerlink" title="3. 创建编辑器"></a>3. 创建编辑器</h2><h3 id="3-1-引入-Quill-模块"><a href="#3-1-引入-Quill-模块" class="headerlink" title="3.1. 引入 Quill 模块"></a>3.1. 引入 Quill 模块</h3><p>添加依赖包之后还不能直接使用 Quill, 还需要再使用 Quill 的 Module 声明文件引入它.</p>
 <p>以下以根模块为例讲解如何引入模块，引入 ngx-quill 的 QuillModule</p>
 <p>app.module.ts</p>
@@ -7956,7 +7956,7 @@ customEditorConfig: EditorConfig = &#123;
 <p><a href="https://pengtech.net/nodejs/install_nvm_on_windows.html">Windows 上安装 nvm 和 nodejs</a></p>
 <p>或者</p>
 <p><a href="https://pengtech.net/nodejs/install_and_config_nodejs.html">安装并配置 nodejs</a></p>
-<h4 id="3-2-3-升级-typescript"><a href="#3-2-3-升级-typescript" class="headerlink" title="3.2.3. 升级 typescript"></a>3.2.3. 升级 typescript</h4><p>Angular 15 中不再支持 typescript 4.8 以下的版本, 如果 typescript 不是 4.8 及以上版本, 需要升级 typescript<br>下面以<a href="mailto:&#116;&#x79;&#x70;&#101;&#x73;&#99;&#114;&#105;&#112;&#x74;&#x40;&#52;&#x2e;&#x38;&#46;&#52;">&#116;&#x79;&#x70;&#101;&#x73;&#99;&#114;&#105;&#112;&#x74;&#x40;&#52;&#x2e;&#x38;&#46;&#52;</a>为例</p>
+<h4 id="3-2-3-升级-typescript"><a href="#3-2-3-升级-typescript" class="headerlink" title="3.2.3. 升级 typescript"></a>3.2.3. 升级 typescript</h4><p>Angular 15 中不再支持 typescript 4.8 以下的版本, 如果 typescript 不是 4.8 及以上版本, 需要升级 typescript<br>下面以<a href="mailto:&#x74;&#121;&#x70;&#101;&#115;&#99;&#114;&#x69;&#x70;&#x74;&#x40;&#52;&#46;&#x38;&#x2e;&#x34;">&#x74;&#121;&#x70;&#101;&#115;&#99;&#114;&#x69;&#x70;&#x74;&#x40;&#52;&#46;&#x38;&#x2e;&#x34;</a>为例</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install typescript@4.8.4 -D</span><br></pre></td></tr></table></figure>
 
 <h4 id="3-2-4-步骤一-更新所有-Angular-的组件到-15"><a href="#3-2-4-步骤一-更新所有-Angular-的组件到-15" class="headerlink" title="3.2.4. 步骤一: 更新所有 Angular 的组件到 15"></a>3.2.4. 步骤一: 更新所有 Angular 的组件到 15</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ng update @angular/core@15 @angular/cli@15 @angular/material@15 --force</span><br></pre></td></tr></table></figure>
@@ -9544,6 +9544,71 @@ customEditorConfig: EditorConfig = &#123;
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">createdb -h localhost -p 5432 -U postgres exampleDB</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="4-参考文章"><a href="#4-参考文章" class="headerlink" title="4. 参考文章"></a>4. 参考文章</h2><p><a href="https://db-engines.com/en/ranking">数据库流行度排名</a></p>
+]]></content>
+      <categories>
+        <category>database</category>
+        <category>postgresql</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>database</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PostgreSQL备份与恢复</title>
+    <url>/database/postgresql_backup_restore.html</url>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>数据库的备份有多种分类方式。</p>
+<ol>
+<li>按照备份后的文件类型，可以分为物理备份（文件系统级别的备份）和逻辑备份（备份后的文件是sql文件或特定格式的导出文件）；</li>
+<li>按照备份过程中是否停止数据库服务，可分为冷备份（备份过程中停止数据库服务）和热备份（备份过程中数据库服务开启并可供用户访问）；</li>
+<li>按照备份是否是完整的数据库，可分为全量备份(备份是完整的数据库)和增量备份（备份是上一次全量备份后数据库改变的内容）。</li>
+</ol>
+<p>Postgresql的常见备份方式有以下三种：文件系统级别的冷备份, SQL转储, 连续归档.</p>
+<span id="more"></span>
+<h2 id="2-Postgresql的常见备份方式"><a href="#2-Postgresql的常见备份方式" class="headerlink" title="2. Postgresql的常见备份方式"></a>2. Postgresql的常见备份方式</h2><p>Postgresql常见的备份方式主要有三种: 1. 文件系统级别的冷备份, 2. SQL转储 3. 连续归档</p>
+<h3 id="2-1-文件系统级别的冷备份"><a href="#2-1-文件系统级别的冷备份" class="headerlink" title="2.1. 文件系统级别的冷备份"></a>2.1. 文件系统级别的冷备份</h3><p>这种备份方式需要关闭数据库，然后拷贝数据文件的完整目录。恢复数据库时，只需将数据目录复制到原来的位置。该方式实际工作中很少使用。</p>
+<h3 id="2-2-SQL转储"><a href="#2-2-SQL转储" class="headerlink" title="2.2. SQL转储"></a>2.2. SQL转储</h3><p>这里我们用到的工具是pg_dump和pg_dumpall。</p>
+<p>这种方式可以在数据库正在使用的时候进行完整一致的备份，并不阻塞其它用户对数据库的访问。它会产生一个脚本文件，里面包含备份开始时，已创建的各种数据库对象的SQL语句和每个表中的数据。可以使用数据库提供的工具pg_dumpall和pg_dump来进行备份。pg_dump只备份数据库集群中的某个数据库的数据，它不会导出角色和表空间相关的信息，因为这些信息是整个数据库集群共用的，不属于某个单独的数据库。pg_dumpall，对集簇中的每个数据库调用pg_dump来完成该工作,还会还转储对所有数据库公用的全局对象（pg_dump不保存这些对象）。 目前这包括适数据库用户和组、表空间以及适合所有数据库的访问权限等属性。</p>
+<pre><code>例如，在我的计算机上，可使用如下命令对名为dbname的数据库进行备份：
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">pg_dump -h 127.0.0.1 -p 5432 -U postgres -d dbname -c -C -f dbname_`<span class="built_in">date</span> <span class="string">&quot;+%Y%m%d%H%M%S&quot;</span>`.sql</span><br><span class="line"></span><br><span class="line">-c</span><br><span class="line">--clean</span><br><span class="line">    输出在创建数据库创建命令之前先清理（删除）该数据库对象的命令。</span><br><span class="line">    这个选项只是对纯文本格式有意义。对于归档格式，你可以在调用 pg_restore 的时候声明选项。</span><br><span class="line"></span><br><span class="line">-C</span><br><span class="line">--create</span><br><span class="line">    以一条创建该数据库本身并且与这个数据库联接等命令开头进行输出。（如果是这种形式的脚本，那么你在运行脚本之前和哪个数据库联接就不重要了。）</span><br><span class="line">    这个选项只对纯文本格式有意义。对于归档格式，你可以在调用 pg_restore 的时候声明该选项。</span><br><span class="line"></span><br><span class="line">-f file</span><br><span class="line">--file=file</span><br><span class="line">    把输出发往指定的文件。如果忽略这些，则使用标准输出。</span><br><span class="line"></span><br><span class="line">联接参数</span><br><span class="line">-h host</span><br><span class="line">--host=host</span><br><span class="line">    声明运行服务器的机器的主机名。如果数值以斜杠开头，则它被用做到 Unix 域套接字 的路径。缺省是从 PGHOST 环境变量中取得的，如果设置了这个环境变量的话，否则，尝试 一个 Unix 域套接字连接。</span><br><span class="line"></span><br><span class="line">-p port</span><br><span class="line">--port=port</span><br><span class="line">    声明服务器正在侦听并等待联接的 TCP 端口或本地 Unix 主控套接字文件句柄。缺省时使用环境变量 PGPORT 的值（如果存在），或者是编译时的缺省值。</span><br><span class="line"></span><br><span class="line">-U username</span><br><span class="line">    以给出用户身分联接</span><br></pre></td></tr></table></figure>
+
+使用如下命令可对全部pg数据库进行备份。
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">       </span><br><span class="line">pg_dumpall -h 127.0.0.1 -p 5432 -U postgres  -c  -C -f db_bak_`<span class="built_in">date</span> <span class="string">&quot;+%Y%m%d%H%M%S&quot;</span>`.sql</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</code></pre>
+<blockquote>
+<p>需要连续多次输入密码， 等待备份完成，等等时间取决于数据量。</p>
+</blockquote>
+<pre><code>恢复方式很简单。执行恢复命令即可：
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 普通用户权限即可</span></span><br><span class="line"> psql -h 127.0.0.1 -p 5432 -U postgres -f db_bak.sql</span><br></pre></td></tr></table></figure>
+</code></pre>
+<blockquote>
+<p>提示：<br>备份后建议压缩数据以减少占用空间<br><code>gzip db_bak_YYYYMMDDHHMISS.sql</code><br>并转存到不同设备，保存多份备份<br><code>rsync -avz --progress user_name@remote_host:/path_to_backup/db__bak_YYYYMMDDHHMISS.sql.gz /path_to_restore</code></p>
+</blockquote>
+<h3 id="2-3-连续归档"><a href="#2-3-连续归档" class="headerlink" title="2.3. 连续归档"></a>2.3. 连续归档</h3><p>这种方式的策略是把一个文件系统级别的全量备份和WAL(预写式日志)级别的增量备份结合起来。当需要恢复时，我们先恢复文件系统级别的备份，然后重放备份的WAL文件，把系统恢复到之前的某个状态。这种备份有显著的优点：</p>
+<p>不需要一个完美的一致的文件系统备份作为开始点。备份中的任何内部不一致性将通过日志重放来修正。<br>可以结合一个无穷长的WAL文件序列用于重放，可以通过简单地归档WAL文件来达到连续备份。<br>不需要重放WAL项一直到最后。可以在任何点停止重放，并使数据库恢复到当时的一致状态。<br>可以连续地将一系列WAL文件输送给另一台已经载入了相同基础备份文件的机器，得到一个实时的热备份系统。</p>
+<h4 id="2-3-1-如何进行连续归档呢？"><a href="#2-3-1-如何进行连续归档呢？" class="headerlink" title="2.3.1. 如何进行连续归档呢？"></a>2.3.1. 如何进行连续归档呢？</h4><p>实验环境:<br>OS: Centos 7.9<br>Postgresql: 14.6</p>
+<h5 id="2-3-1-1-配置postgresql-conf"><a href="#2-3-1-1-配置postgresql-conf" class="headerlink" title="2.3.1.1. 配置postgresql.conf"></a>2.3.1.1. 配置postgresql.conf</h5><p>首先需要配置&#x2F;etc&#x2F;sysconfig&#x2F;pgsql&#x2F;postgresql.conf</p>
+<p>如果&#x2F;etc&#x2F;sysconfig&#x2F;pgsql目录下没有该配置文件, 可以基于 &#x2F;usr&#x2F;pgsql-14&#x2F;share&#x2F;postgresql.conf.sample创建一个</p>
+<pre><code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">archive_mode = on</span><br><span class="line">wal_level = replica</span><br><span class="line"></span><br><span class="line">archive_mode = on</span><br><span class="line"></span><br><span class="line">archive_command = &#x27;cp /var/lib/pgsql/14/data/%p /var/lib/pgsql/14/backups/walback/%f&#x27;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</code></pre>
+<p>archive_command执行时，%p会被要被归档的文件路径所替代，而%f只会被文件名所替代。</p>
+<p>一些注意事项:<br>&#x2F;var&#x2F;lib&#x2F;pgsql&#x2F;14&#x2F;backups&#x2F;walback替换为归档日志的存放路径。<br>wal_level只能在服务器启动时修改。但是，archive_command可以通过重载配置文件来修改。<br>要确保归档的目录是存在的<br>walback文件夹的用户组和所有者应该是postgres, 否则会备份失败<br>如果你需要在参数archive_command中嵌入一个真正的%字符，可以使用%%</p>
+<p>之后需要重启数据库使配置生效。</p>
+<h5 id="2-3-1-2-制作一个基础备份"><a href="#2-3-1-2-制作一个基础备份" class="headerlink" title="2.3.1.2. 制作一个基础备份"></a>2.3.1.2. 制作一个基础备份</h5><p>接下来需要制作一个非排他的基础备份。Postgresql提供了排他备份和非排他备份两种备份方式，推荐使用非排他的备份方式。</p>
+<ol>
+<li><p>以一个具有运行pg_start_backup权利的用户连接到服务器（不在乎是哪个数据库）并且发出以下命令：</p>
+ <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Select</span> pg_start_backup(<span class="string">&#x27;backup_label&#x27;</span>, <span class="literal">false</span>, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>对数据库进行一次文件系统级别的备份。即将postgresql的安装目录下的data目录及其内容复制到其他位置。</p>
+</li>
+<li><p>在同一个连接中，发出命令：</p>
+ <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> pg_stop_backup(<span class="literal">false</span>);</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>这个命令代表结束一次非排他的备份。</p>
+<h2 id="3-参考文档"><a href="#3-参考文档" class="headerlink" title="3. 参考文档"></a>3. 参考文档</h2><p><a href="https://blog.csdn.net/international24/article/details/82689136">Postgresql的三种备份方式</a></p>
+<p><a href="http://www.postgres.cn/docs/14/continuous-archiving.html">26.3. 连续归档和时间点恢复（PITR</a></p>
 ]]></content>
       <categories>
         <category>database</category>
@@ -12084,71 +12149,6 @@ customEditorConfig: EditorConfig = &#123;
       </categories>
       <tags>
         <tag>SEO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PostgreSQL备份与恢复</title>
-    <url>/database/postgresql_backup_restore.html</url>
-    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>数据库的备份有多种分类方式。</p>
-<ol>
-<li>按照备份后的文件类型，可以分为物理备份（文件系统级别的备份）和逻辑备份（备份后的文件是sql文件或特定格式的导出文件）；</li>
-<li>按照备份过程中是否停止数据库服务，可分为冷备份（备份过程中停止数据库服务）和热备份（备份过程中数据库服务开启并可供用户访问）；</li>
-<li>按照备份是否是完整的数据库，可分为全量备份(备份是完整的数据库)和增量备份（备份是上一次全量备份后数据库改变的内容）。</li>
-</ol>
-<p>Postgresql的常见备份方式有以下三种：文件系统级别的冷备份, SQL转储, 连续归档.</p>
-<span id="more"></span>
-<h2 id="2-Postgresql的常见备份方式"><a href="#2-Postgresql的常见备份方式" class="headerlink" title="2. Postgresql的常见备份方式"></a>2. Postgresql的常见备份方式</h2><p>Postgresql常见的备份方式主要有三种: 1. 文件系统级别的冷备份, 2. SQL转储 3. 连续归档</p>
-<h3 id="2-1-文件系统级别的冷备份"><a href="#2-1-文件系统级别的冷备份" class="headerlink" title="2.1. 文件系统级别的冷备份"></a>2.1. 文件系统级别的冷备份</h3><p>这种备份方式需要关闭数据库，然后拷贝数据文件的完整目录。恢复数据库时，只需将数据目录复制到原来的位置。该方式实际工作中很少使用。</p>
-<h3 id="2-2-SQL转储"><a href="#2-2-SQL转储" class="headerlink" title="2.2. SQL转储"></a>2.2. SQL转储</h3><p>这里我们用到的工具是pg_dump和pg_dumpall。</p>
-<p>这种方式可以在数据库正在使用的时候进行完整一致的备份，并不阻塞其它用户对数据库的访问。它会产生一个脚本文件，里面包含备份开始时，已创建的各种数据库对象的SQL语句和每个表中的数据。可以使用数据库提供的工具pg_dumpall和pg_dump来进行备份。pg_dump只备份数据库集群中的某个数据库的数据，它不会导出角色和表空间相关的信息，因为这些信息是整个数据库集群共用的，不属于某个单独的数据库。pg_dumpall，对集簇中的每个数据库调用pg_dump来完成该工作,还会还转储对所有数据库公用的全局对象（pg_dump不保存这些对象）。 目前这包括适数据库用户和组、表空间以及适合所有数据库的访问权限等属性。</p>
-<pre><code>例如，在我的计算机上，可使用如下命令对名为dbname的数据库进行备份：
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">pg_dump -h 127.0.0.1 -p 5432 -U postgres -d dbname -c -C -f dbname_`<span class="built_in">date</span> <span class="string">&quot;+%Y%m%d%H%M%S&quot;</span>`.sql</span><br><span class="line"></span><br><span class="line">-c</span><br><span class="line">--clean</span><br><span class="line">    输出在创建数据库创建命令之前先清理（删除）该数据库对象的命令。</span><br><span class="line">    这个选项只是对纯文本格式有意义。对于归档格式，你可以在调用 pg_restore 的时候声明选项。</span><br><span class="line"></span><br><span class="line">-C</span><br><span class="line">--create</span><br><span class="line">    以一条创建该数据库本身并且与这个数据库联接等命令开头进行输出。（如果是这种形式的脚本，那么你在运行脚本之前和哪个数据库联接就不重要了。）</span><br><span class="line">    这个选项只对纯文本格式有意义。对于归档格式，你可以在调用 pg_restore 的时候声明该选项。</span><br><span class="line"></span><br><span class="line">-f file</span><br><span class="line">--file=file</span><br><span class="line">    把输出发往指定的文件。如果忽略这些，则使用标准输出。</span><br><span class="line"></span><br><span class="line">联接参数</span><br><span class="line">-h host</span><br><span class="line">--host=host</span><br><span class="line">    声明运行服务器的机器的主机名。如果数值以斜杠开头，则它被用做到 Unix 域套接字 的路径。缺省是从 PGHOST 环境变量中取得的，如果设置了这个环境变量的话，否则，尝试 一个 Unix 域套接字连接。</span><br><span class="line"></span><br><span class="line">-p port</span><br><span class="line">--port=port</span><br><span class="line">    声明服务器正在侦听并等待联接的 TCP 端口或本地 Unix 主控套接字文件句柄。缺省时使用环境变量 PGPORT 的值（如果存在），或者是编译时的缺省值。</span><br><span class="line"></span><br><span class="line">-U username</span><br><span class="line">    以给出用户身分联接</span><br></pre></td></tr></table></figure>
-
-使用如下命令可对全部pg数据库进行备份。
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">       </span><br><span class="line">pg_dumpall -h 127.0.0.1 -p 5432 -U postgres  -c  -C -f db_bak_`<span class="built_in">date</span> <span class="string">&quot;+%Y%m%d%H%M%S&quot;</span>`.sql</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</code></pre>
-<blockquote>
-<p>需要连续多次输入密码， 等待备份完成，等等时间取决于数据量。</p>
-</blockquote>
-<pre><code>恢复方式很简单。执行恢复命令即可：
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 普通用户权限即可</span></span><br><span class="line"> psql -h 127.0.0.1 -p 5432 -U postgres -f db_bak.sql</span><br></pre></td></tr></table></figure>
-</code></pre>
-<blockquote>
-<p>提示：<br>备份后建议压缩数据以减少占用空间<br><code>gzip db_bak_YYYYMMDDHHMISS.sql</code><br>并转存到不同设备，保存多份备份<br><code>rsync -avz --progress user_name@remote_host:/path_to_backup/db__bak_YYYYMMDDHHMISS.sql.gz /path_to_restore</code></p>
-</blockquote>
-<h3 id="2-3-连续归档"><a href="#2-3-连续归档" class="headerlink" title="2.3. 连续归档"></a>2.3. 连续归档</h3><p>这种方式的策略是把一个文件系统级别的全量备份和WAL(预写式日志)级别的增量备份结合起来。当需要恢复时，我们先恢复文件系统级别的备份，然后重放备份的WAL文件，把系统恢复到之前的某个状态。这种备份有显著的优点：</p>
-<p>不需要一个完美的一致的文件系统备份作为开始点。备份中的任何内部不一致性将通过日志重放来修正。<br>可以结合一个无穷长的WAL文件序列用于重放，可以通过简单地归档WAL文件来达到连续备份。<br>不需要重放WAL项一直到最后。可以在任何点停止重放，并使数据库恢复到当时的一致状态。<br>可以连续地将一系列WAL文件输送给另一台已经载入了相同基础备份文件的机器，得到一个实时的热备份系统。</p>
-<h4 id="2-3-1-如何进行连续归档呢？"><a href="#2-3-1-如何进行连续归档呢？" class="headerlink" title="2.3.1. 如何进行连续归档呢？"></a>2.3.1. 如何进行连续归档呢？</h4><p>实验环境:<br>OS: Centos 7.9<br>Postgresql: 14.6</p>
-<h5 id="2-3-1-1-配置postgresql-conf"><a href="#2-3-1-1-配置postgresql-conf" class="headerlink" title="2.3.1.1. 配置postgresql.conf"></a>2.3.1.1. 配置postgresql.conf</h5><p>首先需要配置&#x2F;etc&#x2F;sysconfig&#x2F;pgsql&#x2F;postgresql.conf</p>
-<p>如果&#x2F;etc&#x2F;sysconfig&#x2F;pgsql目录下没有该配置文件, 可以基于 &#x2F;usr&#x2F;pgsql-14&#x2F;share&#x2F;postgresql.conf.sample创建一个</p>
-<pre><code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">archive_mode = on</span><br><span class="line">wal_level = replica</span><br><span class="line"></span><br><span class="line">archive_mode = on</span><br><span class="line"></span><br><span class="line">archive_command = &#x27;cp /var/lib/pgsql/14/data/%p /var/lib/pgsql/14/backups/walback/%f&#x27;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</code></pre>
-<p>archive_command执行时，%p会被要被归档的文件路径所替代，而%f只会被文件名所替代。</p>
-<p>一些注意事项:<br>&#x2F;var&#x2F;lib&#x2F;pgsql&#x2F;14&#x2F;backups&#x2F;walback替换为归档日志的存放路径。<br>wal_level只能在服务器启动时修改。但是，archive_command可以通过重载配置文件来修改。<br>要确保归档的目录是存在的<br>walback文件夹的用户组和所有者应该是postgres, 否则会备份失败<br>如果你需要在参数archive_command中嵌入一个真正的%字符，可以使用%%</p>
-<p>之后需要重启数据库使配置生效。</p>
-<h5 id="2-3-1-2-制作一个基础备份"><a href="#2-3-1-2-制作一个基础备份" class="headerlink" title="2.3.1.2. 制作一个基础备份"></a>2.3.1.2. 制作一个基础备份</h5><p>接下来需要制作一个非排他的基础备份。Postgresql提供了排他备份和非排他备份两种备份方式，推荐使用非排他的备份方式。</p>
-<ol>
-<li><p>以一个具有运行pg_start_backup权利的用户连接到服务器（不在乎是哪个数据库）并且发出以下命令：</p>
- <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Select</span> pg_start_backup(<span class="string">&#x27;backup_label&#x27;</span>, <span class="literal">false</span>, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>对数据库进行一次文件系统级别的备份。即将postgresql的安装目录下的data目录及其内容复制到其他位置。</p>
-</li>
-<li><p>在同一个连接中，发出命令：</p>
- <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> pg_stop_backup(<span class="literal">false</span>);</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>这个命令代表结束一次非排他的备份。</p>
-<h2 id="3-参考文档"><a href="#3-参考文档" class="headerlink" title="3. 参考文档"></a>3. 参考文档</h2><p><a href="https://blog.csdn.net/international24/article/details/82689136">Postgresql的三种备份方式</a></p>
-<p><a href="http://www.postgres.cn/docs/14/continuous-archiving.html">26.3. 连续归档和时间点恢复（PITR</a></p>
-]]></content>
-      <categories>
-        <category>database</category>
-        <category>postgresql</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>database</tag>
       </tags>
   </entry>
   <entry>
@@ -17931,56 +17931,6 @@ https://github.com/volantis-x/hexo-theme-volantis
       </tags>
   </entry>
   <entry>
-    <title>如何使用Maven结合IDEA进行Debug</title>
-    <url>/java/how_to_debug_with_maven_cli.html</url>
-    <content><![CDATA[<h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>由于 Idea 和 Maven class loading 的规则不同， 同样的测试使用 Maven 运行和使用 Idea 运行可能会得到不同的结果。 而我们的 CI(持续集成)往往是使用 maven 命令去运行的。<br>在此情况下， 将测试使用 maven 运行起来， 然后结合 IDEA 强大的 debug 能力就显得非常必要。如果熟练掌握此种 debug 方式， 也可以减少我们依赖 idea 进行编译，更新 index 这些极其耗时的工作。</p>
-<span id="more"></span>
-
-<h2 id="2-创建一个测试"><a href="#2-创建一个测试" class="headerlink" title="2. 创建一个测试"></a>2. 创建一个测试</h2><p>假设我们已经创建了一个工程 maven_debug, 并且创建了一个测试类 MySuperClassTest</p>
-<h2 id="3-启动-mmaven-测试并运行在-debug-模式"><a href="#3-启动-mmaven-测试并运行在-debug-模式" class="headerlink" title="3. 启动 mmaven 测试并运行在 debug 模式"></a>3. 启动 mmaven 测试并运行在 debug 模式</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mvn -Dtest=MySuperClassTest -Dmaven.surefire.debug <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>JVM 参数 -Dmaven.surefire.debug 即表示将测试运行在 debug 模式下</li>
-<li>这时 maven 将会首先编译测试，然后启动测试，并等待 IDE 接入 debug 模式， 此时我们要配置 IDEA 运行一个 remote JVM debug 进程， 接入 mvn debug.</li>
-<li>通常情况下， 测试将会监听在 5005 端口。</li>
-</ul>
-<h2 id="4-配置-remote-JVM-debug-模板"><a href="#4-配置-remote-JVM-debug-模板" class="headerlink" title="4. 配置 remote JVM debug 模板"></a>4. 配置 remote JVM debug 模板</h2><ul>
-<li>打开 idea, 从以下路径 打开 remote JVM debug 配置界面 run-&gt; edit configurations-&gt; Edit configuration templates -&gt; remote JVM debug</li>
-<li>修改或检查 command line arguments for remote JVM 中的端口和其他参数正确， 端口即为上一步 mven debug 监听的端口， 默认为 5005</li>
-</ul>
-<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</span><br></pre></td></tr></table></figure>
-
-<p>说明</p>
-<ul>
-<li>这里的参数 jdwp 即为 java 的 debug 协议, 全称 Java Debug Wire Protocol</li>
-<li>transport&#x3D;dt_socket</li>
-<li>确保 host 参数正确， transport 参数正确</li>
-<li>参数都填写正确后， 点击 appy 按钮保存修改， 这一步完成，代表我们的 remote JVM debug 模板配置完成， 接下来我们需要基于此模版， 创建一个进程去连接 maven 测试。</li>
-</ul>
-<h2 id="5-启动-remote-JVM-debug-进程"><a href="#5-启动-remote-JVM-debug-进程" class="headerlink" title="5. 启动 remote JVM debug 进程"></a>5. 启动 remote JVM debug 进程</h2><p>打开 run&#x2F;debug configuration 界面， 路径 run-&gt; edit configurations<br>点左上角+按钮， 在弹出的选择框中， 选择 remote JVM debug 模板，创建一个 run&#x2F;debug 配置，点击 apply 保存。<br>此时在 tools bar run&#x2F;debug 下拉列表就可以看到新创建的 run&#x2F;debug 配置， 单击即可启动此该 remote JVM debug 进程</p>
-<h2 id="6-设置断点"><a href="#6-设置断点" class="headerlink" title="6. 设置断点"></a>6. 设置断点</h2><p>在 IDEA 中设置断点， 当程序运行到断点位置就会停下。</p>
-<h2 id="7-其他"><a href="#7-其他" class="headerlink" title="7. 其他"></a>7. 其他</h2><h3 id="7-1-如何-debug-maven-插件"><a href="#7-1-如何-debug-maven-插件" class="headerlink" title="7.1. 如何 debug maven 插件?"></a>7.1. 如何 debug maven 插件?</h3><p>如果你需要 debug 一个 maven 插件 那么需要使用另外一个 maven 命令 mvnDebug</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mvnDebug -Dtest=MySuperClassTest <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
-
-<p>mvnDebug 默认监听在 8000 端口， 需要启动一个 remote JVM debug 进程连接其 8000 端口, 这样即可在 IDEA 中 debug maven 插件。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,<span class="built_in">suspend</span>=n,address=8000</span><br></pre></td></tr></table></figure>
-
-<h2 id="8-后记"><a href="#8-后记" class="headerlink" title="8. 后记"></a>8. 后记</h2><p>本文原文位于<a href="https://pengtech.net/java/how_to_debug_with_maven_cli.html">如何 Maven 结合 IDEA 进行 Debug</a>, 若需最近更新, 请访问原文!</p>
-<h2 id="9-参考文档"><a href="#9-参考文档" class="headerlink" title="9. 参考文档"></a>9. 参考文档</h2><p><a href="https://doc.nuxeo.com/corg/how-to-debug-a-test-run-with-maven/">How to Debug a Test Run with Maven</a></p>
-<p><a href="https://stackoverflow.com/questions/31451553/run-maven-tests-with-dmaven-surefire-debug-and-dforkmode-never">Run Maven tests with -Dmaven.surefire.debug and -DforkMode&#x3D;never</a></p>
-<p><a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jpda/jdwp-spec.html">Java Debug Wire Protocol</a></p>
-]]></content>
-      <categories>
-        <category>tools</category>
-        <category>maven</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>maven</tag>
-        <tag>IDEA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何手动创建一个springBoot项目</title>
     <url>/java/how_to_create_springBoot_proj.html</url>
     <content><![CDATA[<h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>在本文中，您将学习如何创建一个简单的Spring Boot应用程序，以及您需要哪些依赖项和技术需要了解。<br>此外，我们将更深入地了解基本原理。我将解释一些最关键的工作机制，如果你想成为一名专业开发人员，你需要了解这些机制。</p>
@@ -18420,6 +18370,56 @@ https://github.com/volantis-x/hexo-theme-volantis
       <tags>
         <tag>Java</tag>
         <tag>spring</tag>
+        <tag>maven</tag>
+        <tag>IDEA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何使用Maven结合IDEA进行Debug</title>
+    <url>/java/how_to_debug_with_maven_cli.html</url>
+    <content><![CDATA[<h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>由于 Idea 和 Maven class loading 的规则不同， 同样的测试使用 Maven 运行和使用 Idea 运行可能会得到不同的结果。 而我们的 CI(持续集成)往往是使用 maven 命令去运行的。<br>在此情况下， 将测试使用 maven 运行起来， 然后结合 IDEA 强大的 debug 能力就显得非常必要。如果熟练掌握此种 debug 方式， 也可以减少我们依赖 idea 进行编译，更新 index 这些极其耗时的工作。</p>
+<span id="more"></span>
+
+<h2 id="2-创建一个测试"><a href="#2-创建一个测试" class="headerlink" title="2. 创建一个测试"></a>2. 创建一个测试</h2><p>假设我们已经创建了一个工程 maven_debug, 并且创建了一个测试类 MySuperClassTest</p>
+<h2 id="3-启动-mmaven-测试并运行在-debug-模式"><a href="#3-启动-mmaven-测试并运行在-debug-模式" class="headerlink" title="3. 启动 mmaven 测试并运行在 debug 模式"></a>3. 启动 mmaven 测试并运行在 debug 模式</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mvn -Dtest=MySuperClassTest -Dmaven.surefire.debug <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>JVM 参数 -Dmaven.surefire.debug 即表示将测试运行在 debug 模式下</li>
+<li>这时 maven 将会首先编译测试，然后启动测试，并等待 IDE 接入 debug 模式， 此时我们要配置 IDEA 运行一个 remote JVM debug 进程， 接入 mvn debug.</li>
+<li>通常情况下， 测试将会监听在 5005 端口。</li>
+</ul>
+<h2 id="4-配置-remote-JVM-debug-模板"><a href="#4-配置-remote-JVM-debug-模板" class="headerlink" title="4. 配置 remote JVM debug 模板"></a>4. 配置 remote JVM debug 模板</h2><ul>
+<li>打开 idea, 从以下路径 打开 remote JVM debug 配置界面 run-&gt; edit configurations-&gt; Edit configuration templates -&gt; remote JVM debug</li>
+<li>修改或检查 command line arguments for remote JVM 中的端口和其他参数正确， 端口即为上一步 mven debug 监听的端口， 默认为 5005</li>
+</ul>
+<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</span><br></pre></td></tr></table></figure>
+
+<p>说明</p>
+<ul>
+<li>这里的参数 jdwp 即为 java 的 debug 协议, 全称 Java Debug Wire Protocol</li>
+<li>transport&#x3D;dt_socket</li>
+<li>确保 host 参数正确， transport 参数正确</li>
+<li>参数都填写正确后， 点击 appy 按钮保存修改， 这一步完成，代表我们的 remote JVM debug 模板配置完成， 接下来我们需要基于此模版， 创建一个进程去连接 maven 测试。</li>
+</ul>
+<h2 id="5-启动-remote-JVM-debug-进程"><a href="#5-启动-remote-JVM-debug-进程" class="headerlink" title="5. 启动 remote JVM debug 进程"></a>5. 启动 remote JVM debug 进程</h2><p>打开 run&#x2F;debug configuration 界面， 路径 run-&gt; edit configurations<br>点左上角+按钮， 在弹出的选择框中， 选择 remote JVM debug 模板，创建一个 run&#x2F;debug 配置，点击 apply 保存。<br>此时在 tools bar run&#x2F;debug 下拉列表就可以看到新创建的 run&#x2F;debug 配置， 单击即可启动此该 remote JVM debug 进程</p>
+<h2 id="6-设置断点"><a href="#6-设置断点" class="headerlink" title="6. 设置断点"></a>6. 设置断点</h2><p>在 IDEA 中设置断点， 当程序运行到断点位置就会停下。</p>
+<h2 id="7-其他"><a href="#7-其他" class="headerlink" title="7. 其他"></a>7. 其他</h2><h3 id="7-1-如何-debug-maven-插件"><a href="#7-1-如何-debug-maven-插件" class="headerlink" title="7.1. 如何 debug maven 插件?"></a>7.1. 如何 debug maven 插件?</h3><p>如果你需要 debug 一个 maven 插件 那么需要使用另外一个 maven 命令 mvnDebug</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mvnDebug -Dtest=MySuperClassTest <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+
+<p>mvnDebug 默认监听在 8000 端口， 需要启动一个 remote JVM debug 进程连接其 8000 端口, 这样即可在 IDEA 中 debug maven 插件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,<span class="built_in">suspend</span>=n,address=8000</span><br></pre></td></tr></table></figure>
+
+<h2 id="8-后记"><a href="#8-后记" class="headerlink" title="8. 后记"></a>8. 后记</h2><p>本文原文位于<a href="https://pengtech.net/java/how_to_debug_with_maven_cli.html">如何 Maven 结合 IDEA 进行 Debug</a>, 若需最近更新, 请访问原文!</p>
+<h2 id="9-参考文档"><a href="#9-参考文档" class="headerlink" title="9. 参考文档"></a>9. 参考文档</h2><p><a href="https://doc.nuxeo.com/corg/how-to-debug-a-test-run-with-maven/">How to Debug a Test Run with Maven</a></p>
+<p><a href="https://stackoverflow.com/questions/31451553/run-maven-tests-with-dmaven-surefire-debug-and-dforkmode-never">Run Maven tests with -Dmaven.surefire.debug and -DforkMode&#x3D;never</a></p>
+<p><a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jpda/jdwp-spec.html">Java Debug Wire Protocol</a></p>
+]]></content>
+      <categories>
+        <category>tools</category>
+        <category>maven</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
         <tag>maven</tag>
         <tag>IDEA</tag>
       </tags>
@@ -20316,9 +20316,9 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <p>配置 SPF 记录:</p>
 <p>example.com -&gt; “v&#x3D;spf1 a mx -all”</p>
 <p>配置 DMARC 记录:</p>
-<p>_dmarc.example.com -&gt; “v&#x3D;DMARC1; p&#x3D;none; rua&#x3D;mailto:<a href="mailto:&#x64;&#x6d;&#x61;&#x72;&#x63;&#45;&#x72;&#101;&#112;&#111;&#114;&#116;&#x73;&#x40;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#x64;&#x6d;&#x61;&#x72;&#x63;&#45;&#x72;&#101;&#112;&#111;&#114;&#116;&#x73;&#x40;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#x6d;</a>“</p>
+<p>_dmarc.example.com -&gt; “v&#x3D;DMARC1; p&#x3D;none; rua&#x3D;mailto:<a href="mailto:&#100;&#109;&#x61;&#114;&#x63;&#x2d;&#x72;&#101;&#112;&#x6f;&#114;&#x74;&#115;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;">&#100;&#109;&#x61;&#114;&#x63;&#x2d;&#x72;&#101;&#112;&#x6f;&#114;&#x74;&#115;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;</a>“</p>
 <blockquote>
-<p>DMARC 记录不是必须的，但是对邮件传输遇到的问题非常有帮助。启动服务后需要创建一个账户<a href="mailto:&#100;&#109;&#97;&#x72;&#99;&#45;&#x72;&#x65;&#112;&#x6f;&#114;&#x74;&#x73;&#64;&#x65;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;">&#100;&#109;&#97;&#x72;&#99;&#45;&#x72;&#x65;&#112;&#x6f;&#114;&#x74;&#x73;&#64;&#x65;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;</a>专门用来接收 DMARC 报告。</p>
+<p>DMARC 记录不是必须的，但是对邮件传输遇到的问题非常有帮助。启动服务后需要创建一个账户<a href="mailto:&#100;&#109;&#x61;&#x72;&#99;&#45;&#x72;&#x65;&#x70;&#111;&#x72;&#x74;&#x73;&#64;&#101;&#x78;&#97;&#x6d;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#x6d;">&#100;&#109;&#x61;&#x72;&#99;&#45;&#x72;&#x65;&#x70;&#111;&#x72;&#x74;&#x73;&#64;&#101;&#x78;&#97;&#x6d;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#x6d;</a>专门用来接收 DMARC 报告。</p>
 </blockquote>
 <p>反向解析 PTR 记录</p>
 <p>PTR记录需要找VPS提供商设置</p>
@@ -20342,7 +20342,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">myorigin = <span class="variable">$mydomain</span></span><br></pre></td></tr></table></figure>
 
 <p>myorigin 的值可以与 mydomain 相同。</p>
-<p>在通过 Postfix 发送邮件的时候，如果 From 字段不完整，例如 From: user，Postfix 会根据 myorigin 的值将地址补全为 From: <a href="mailto:&#x75;&#x73;&#x65;&#x72;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#x63;&#111;&#x6d;">&#x75;&#x73;&#x65;&#x72;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#x63;&#111;&#x6d;</a>。</p>
+<p>在通过 Postfix 发送邮件的时候，如果 From 字段不完整，例如 From: user，Postfix 会根据 myorigin 的值将地址补全为 From: <a href="mailto:&#x75;&#115;&#101;&#x72;&#x40;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#111;&#x6d;">&#x75;&#115;&#101;&#x72;&#x40;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#111;&#x6d;</a>。</p>
 <p>mynetworks</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">mynetworks = 0.0.0.0/0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -20415,7 +20415,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 
 <h3 id="5-4-测试-dovecot-是否能够正常接收邮件"><a href="#5-4-测试-dovecot-是否能够正常接收邮件" class="headerlink" title="5.4. 测试 dovecot 是否能够正常接收邮件"></a>5.4. 测试 dovecot 是否能够正常接收邮件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ telnet mail.example.com 110</span><br><span class="line">Trying xx.xx.xx.xx...</span><br><span class="line">Connected to mail.example.com.</span><br><span class="line">Escape character is <span class="string">&#x27;^]&#x27;</span>.</span><br><span class="line">+OK Dovecot ready.</span><br><span class="line">user u2</span><br><span class="line">+OK</span><br><span class="line">pass ******</span><br><span class="line">+OK Logged <span class="keyword">in</span>.</span><br><span class="line">list</span><br><span class="line">+OK 1 messages:</span><br><span class="line">1 252</span><br><span class="line">.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>可以看到 <a href="mailto:&#117;&#50;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#111;&#x6d;">&#117;&#50;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#111;&#x6d;</a> 邮箱收到了一封邮件。</p>
+<p>可以看到 <a href="mailto:&#x75;&#50;&#x40;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#99;&#111;&#x6d;">&#x75;&#50;&#x40;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#99;&#111;&#x6d;</a> 邮箱收到了一封邮件。</p>
 <p>至此一台简单的邮件发送和接收服务器创建成功，我们可以使用各种图形化的邮件客户端，例如 thunderbird, foxmail 等邮箱客户端连接服务器。</p>
 <p>后续我们会使用 ssl 加固邮件服务器，关注<a href="https://pengtech.net/">鹏叔的技术博客空间</a>，给您带来更多技术分享。</p>
 <h2 id="6-进阶设置"><a href="#6-进阶设置" class="headerlink" title="6. 进阶设置"></a>6. 进阶设置</h2><h3 id="6-1-postfix-配置-ssl"><a href="#6-1-postfix-配置-ssl" class="headerlink" title="6.1. postfix 配置 ssl"></a>6.1. postfix 配置 ssl</h3><p>修改配置文件 &#x2F;etc&#x2F;postfix&#x2F;main.cf</p>
@@ -21377,6 +21377,32 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
+    <title>如何在fedora上关闭ipv6</title>
+    <url>/linux/linux_turnoff_ipv6.html</url>
+    <content><![CDATA[<p>有时因为某些服务器不支持ipv6会出现EHOSTUNREACH错误，需要关闭ipv6</p>
+<ol>
+<li>将如下几行配置添加到 &#x2F;etc&#x2F;sysctl.conf</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">net.ipv6.conf.all.disable_ipv6 = 1</span><br><span class="line">net.ipv6.conf.default.disable_ipv6 = 1</span><br><span class="line">net.ipv6.conf.lo.disable_ipv6 = 1</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>重新加载以上配置</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sysctl -p</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>Check. A ‘1’ means IPv6 has been disabled</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> /proc/sys/net/ipv6/conf/all/disable_ipv6</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>OS</category>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux systemd 服务详解</title>
     <url>/linux/linux_systemd_service_explanation.html</url>
     <content><![CDATA[<p>Linux 系统中也有“服务”这一说法, 也即 systemd service unit，通过服务我们可以便捷地管理一些程序功能，也可以作为程序开机自启的一个手段之一。今天我来分享一下如何创建自己简易的 Linux 服务。本文主要讲述如何在 Linux 下自定义 service.</p>
@@ -21487,32 +21513,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <p><a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd#sect-Managing_Services_with_systemd-Introduction">Chapter 10. Managing Services with systemd</a></p>
 <p><a href="https://cloud.tencent.com/developer/article/1516125">可能是史上最全面易懂的 Systemd 服务管理教程！</a></p>
 ]]></content>
-      <categories>
-        <category>OS</category>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在fedora上关闭ipv6</title>
-    <url>/linux/linux_turnoff_ipv6.html</url>
-    <content><![CDATA[<p>有时因为某些服务器不支持ipv6会出现EHOSTUNREACH错误，需要关闭ipv6</p>
-<ol>
-<li>将如下几行配置添加到 &#x2F;etc&#x2F;sysctl.conf</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">net.ipv6.conf.all.disable_ipv6 = 1</span><br><span class="line">net.ipv6.conf.default.disable_ipv6 = 1</span><br><span class="line">net.ipv6.conf.lo.disable_ipv6 = 1</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>重新加载以上配置</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sysctl -p</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>Check. A ‘1’ means IPv6 has been disabled</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> /proc/sys/net/ipv6/conf/all/disable_ipv6</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>OS</category>
         <category>linux</category>
@@ -22316,7 +22316,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <p>就感觉数据库存储服务有点贵，不过这个在 VPS 上自己搭建就好了，这里有教程<a href="https://pengtech.net/database/install_postgresql_on_linux.html">Linux 上安装 PostgreSQL</a>。</p>
 <h2 id="2-如何注册-Vultr？"><a href="#2-如何注册-Vultr？" class="headerlink" title="2. 如何注册 Vultr？"></a>2. 如何注册 Vultr？</h2><p>访问<a href="https://www.vultr.com/?ref=9651323-9J">https://www.vultr.com</a>，输入邮箱、密码，点击“Create account”按钮。（密码需要至少一个大写字母一个小写字母，长度 10 位数以上。）</p>
 <p><img src="https://pengtech.net/images/Vultr/register_vultr.webp" alt="Vultr 注册"></p>
-<p>进入邮箱，会收到一封来自 Vultr support team <a href="mailto:&#115;&#x75;&#112;&#112;&#111;&#114;&#116;&#x40;&#118;&#x75;&#x6c;&#x74;&#x72;&#x2e;&#x63;&#111;&#109;">&#115;&#x75;&#112;&#112;&#111;&#114;&#116;&#x40;&#118;&#x75;&#x6c;&#x74;&#x72;&#x2e;&#x63;&#111;&#109;</a>的验证邮件，拷贝验证码，再回到 Vultr 注册页面进行验证。</p>
+<p>进入邮箱，会收到一封来自 Vultr support team <a href="mailto:&#115;&#117;&#112;&#x70;&#x6f;&#x72;&#116;&#64;&#x76;&#x75;&#108;&#116;&#x72;&#x2e;&#99;&#111;&#109;">&#115;&#117;&#112;&#x70;&#x6f;&#x72;&#116;&#64;&#x76;&#x75;&#108;&#116;&#x72;&#x2e;&#99;&#111;&#109;</a>的验证邮件，拷贝验证码，再回到 Vultr 注册页面进行验证。</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Dear Customer,</span><br><span class="line"></span><br><span class="line">Here is the security code needed to log into your Vultr account:</span><br><span class="line"></span><br><span class="line">d6c398b8</span><br><span class="line"></span><br><span class="line">。。。。</span><br><span class="line"></span><br><span class="line">-- Vultr Support Team --</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>注册完成后进入账号设置页面，设置账号，主要分三个步骤，如下图所示，首先绑定信用卡，然后完善用户信息，最后就可以开始创建实例了。</p>
@@ -22929,6 +22929,165 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <h2 id="5-Material-Design-系列文章"><a href="#5-Material-Design-系列文章" class="headerlink" title="5. Material  Design 系列文章"></a>5. Material  Design 系列文章</h2><p><a href="https://pengtech.net/material/material3_foundations.html">Material 3 基础</a></p>
 <p>最新更新以及更多Material Design相关文章请访问 <a href="https://pengtech.net/material-design/">鹏叔的技术博客-Material Design</a></p>
 <h2 id="6-参考文档"><a href="#6-参考文档" class="headerlink" title="6. 参考文档"></a>6. 参考文档</h2><p><a href="https://m3.material.io/get-started">material 3 get started</a></p>
+]]></content>
+      <categories>
+        <category>web</category>
+        <category>material design</category>
+      </categories>
+      <tags>
+        <tag>material design</tag>
+        <tag>design</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Material Design 基础 - 颜色</title>
+    <url>/material/material_color.html</url>
+    <content><![CDATA[<h2 id="1-颜色系统"><a href="#1-颜色系统" class="headerlink" title="1. 颜色系统"></a>1. 颜色系统</h2><p>Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。</p>
+<h3 id="1-1-颜色用法和调色板"><a href="#1-1-颜色用法和调色板" class="headerlink" title="1.1. 颜色用法和调色板"></a>1.1. 颜色用法和调色板</h3><p>Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。</p>
+<span id="more"></span>
+<h3 id="1-2-颜色和主题"><a href="#1-2-颜色和主题" class="headerlink" title="1.2. 颜色和主题"></a>1.2. 颜色和主题</h3><p>颜色主题设计为和谐，确保文本可访问，并将 UI 元素和surfaces彼此区分开来。</p>
+<p><a href="https://material.io/design/color/the-color-system#tools-for-picking-colors">“质感设计”调色板工具</a>或 2014 材质设计调色板可用于帮助您选择颜色。</p>
+<h4 id="1-2-1-原则"><a href="#1-2-1-原则" class="headerlink" title="1.2.1. 原则"></a>1.2.1. 原则</h4><ul>
+<li><p>层次<br>颜色指示哪些元素是交互式的，它们与其他元素的关系以及它们的突出程度。重要元素应该最突出。</p>
+</li>
+<li><p>清晰<br>文本和重要元素（如图标）在彩色背景上显示时应符合易读性标准。</p>
+</li>
+<li><p>表达性<br>在令人难忘的时刻展示品牌色彩，强化您的品牌风格。</p>
+</li>
+</ul>
+<h3 id="1-3-基线材质颜色主题"><a href="#1-3-基线材质颜色主题" class="headerlink" title="1.3. 基线材质颜色主题"></a>1.3. 基线材质颜色主题</h3><p>Material设计采用内置的基线主题设计，可以按原样使用，直接开箱即用。</p>
+<p>这包括以下各项的默认颜色：</p>
+<p>原色和次色<br>原色和次色的变体<br>其他 UI 颜色，例如背景、曲面、错误、版式和图标的颜色。<br>所有这些颜色都可以针对你的应用进行自定义。</p>
+<h4 id="1-3-1-原色"><a href="#1-3-1-原色" class="headerlink" title="1.3.1. 原色"></a>1.3.1. 原色</h4><p>原色是在应用的屏幕和组件中最常显示的颜色。您的原色可用于制作颜色…</p>
+<p>原色是在应用的屏幕和组件中最常显示的颜色。</p>
+<p>深色和浅色主要变体<br>你的原色可用于为应用制作颜色主题，包括深色和浅色原色变体。</p>
+<p>区分 UI 元素<br>若要在 UI 元素（如系统栏的顶部应用栏）之间创建对比度，可以使用原色的浅色或深色变体。还可以使用它们来区分组件中的元素，例如浮动操作按钮的图标与其圆形容器。</p>
+<h4 id="1-3-2-辅助颜色"><a href="#1-3-2-辅助颜色" class="headerlink" title="1.3.2. 辅助颜色"></a>1.3.2. 辅助颜色</h4><p>辅助颜色提供了更多方法来强调和区分您的产品。具有辅助颜色是可选的，应谨慎应用于 UI 的选择部分。</p>
+<p>如果您没有辅助颜色，则原色也可用于强调元素。</p>
+<p>辅助颜色最适合：</p>
+<p>浮动操作按钮<br>选择控件，如滑块和开关<br>突出显示所选文本<br>进度条<br>链接和标题<br>深色和浅色次要变体<br>就像原色一样，辅助颜色可以有深色和浅色变体。颜色主题可以使用每种颜色的原色、辅助颜色以及深色和浅色变体。</p>
+<h4 id="1-3-3-Surface-background-and-error-colors"><a href="#1-3-3-Surface-background-and-error-colors" class="headerlink" title="1.3.3. Surface, background, and error colors"></a>1.3.3. Surface, background, and error colors</h4><p>表面、背景和错误颜色通常不代表品牌：</p>
+<p>表面颜色会影响组件（如卡片、图纸和菜单）的表面。<br>背景色显示在可滚动内容的后面。基线背景和表面颜色#FFFFFF。<br>错误颜色表示组件中的错误，例如文本字段中的文本无效。基线误差颜色#B00020。</p>
+<h4 id="1-3-4-Typography-and-iconography-colors"><a href="#1-3-4-Typography-and-iconography-colors" class="headerlink" title="1.3.4. Typography and iconography colors"></a>1.3.4. Typography and iconography colors</h4><p>“on” color<br>应用图面使用调色板中特定类别的颜色，例如原色。每当元素（如文本或图标）出现在这些曲面的前面时，这些元素应使用设计为清晰易读的颜色来对抗它们后面的颜色。</p>
+<p>此类别的颜色称为“on” color，指的是它们对出现在使用以下颜色的曲面之上的元素进行着色：原色、辅助颜色、表面颜色、背景色或错误颜色。当一种颜色出现在原色的“上”之上时，它被称为“on” top of a primary color。它们使用前缀为“on”的原始颜色类别（如原色）进行标记。</p>
+<p>“on” color主要应用于文本、图像和描边。有时，它们被应用于表面。</p>
+<p>“on” color的默认值为 #FFFFFF 和 #000000。</p>
+<h4 id="1-3-5-可访问的颜色"><a href="#1-3-5-可访问的颜色" class="headerlink" title="1.3.5. 可访问的颜色"></a>1.3.5. 可访问的颜色</h4><p>为确保浅色或深色文本后面的背景可访问，背景可以使用主色和辅助颜色的浅色或深色变体。</p>
+<p>或者，这些颜色可用于显示在浅色和深色背景前面的排版。</p>
+<h4 id="1-3-6-色样-color-swatch"><a href="#1-3-6-色样-color-swatch" class="headerlink" title="1.3.6. 色样(color swatch)"></a>1.3.6. 色样(color swatch)</h4><p>色样是从一系列相似颜色中选择的颜色的样本。</p>
+<p>复选框指示文本颜色在背景前面是否清晰可辨：</p>
+<ul>
+<li>白色复选标记指示白色文本在背景颜色上清晰可见的时间</li>
+<li>黑色复选标记表示黑色文本在背景颜色上清晰可见的时间</li>
+</ul>
+<p>使用白色文本的应用必须具有可针对白色文本访问的背景。这些白色复选标记指示何时可以在各种背景色色板上访问白色文本。</p>
+<p>使用黑色文本的应用必须具有可针对黑色访问的背景。这些黑色复选标记指示何时可以使用各种背景色色板访问黑色文本。</p>
+<h4 id="1-3-7-替代颜色"><a href="#1-3-7-替代颜色" class="headerlink" title="1.3.7. 替代颜色"></a>1.3.7. 替代颜色</h4><p>Material设计颜色系统支持替代颜色，这些颜色用作品牌原色和次色的替代颜色（它们构成主题的附加颜色）。替代颜色可用于区分 UI 的不同部分。</p>
+<p>替代颜色最适合：</p>
+<p>具有浅色和深色主题的应用<br>在不同版块中具有不同主题的应用<br>属于一套产品的应用<br>应谨慎使用替代颜色，因为它们可能难以与现有颜色主题一起实现。</p>
+<h4 id="1-3-8-浅色和深色主题"><a href="#1-3-8-浅色和深色主题" class="headerlink" title="1.3.8. 浅色和深色主题"></a>1.3.8. 浅色和深色主题</h4><p>某些应用同时具有浅色和深色主题。为了保持元素的可见性和文本的易读性，您可以为深色和浅色主题调整不同的配色方案。</p>
+<h4 id="1-3-9-主题的替代颜色"><a href="#1-3-9-主题的替代颜色" class="headerlink" title="1.3.9. 主题的替代颜色"></a>1.3.9. 主题的替代颜色</h4><p>替代颜色可用于主题应用的不同部分。</p>
+<h4 id="1-3-10-用于数据可视化的其他颜色"><a href="#1-3-10-用于数据可视化的其他颜色" class="headerlink" title="1.3.10. 用于数据可视化的其他颜色"></a>1.3.10. 用于数据可视化的其他颜色</h4><p>应用可以使用其他颜色来传达主颜色主题之外的类别。它们仍然是您完整调色板的一部分。</p>
+<h4 id="1-3-11-用于拾取颜色的工具"><a href="#1-3-11-用于拾取颜色的工具" class="headerlink" title="1.3.11. 用于拾取颜色的工具"></a>1.3.11. 用于拾取颜色的工具</h4><p>材质调色板生成器可用于为您输入的任何颜色生成调色板。色调、色度和亮度通过一种算法进行调整，该算法可创建可用且美观的调色板。</p>
+<p>输入颜色<br>可以根据主输入颜色生成调色板，以及所需调色板相对于原色应是相似、互补还是三元。</p>
+<p>或者，该工具可以基于任何原色和辅助颜色生成展开的调色板。</p>
+<p>用于辅助功能的颜色变化<br>这些调色板提供了使用主色和次色的其他方法。它们包括较亮和较暗的选项，用于分隔表面，并提供符合辅助功能标准的颜色。</p>
+<h4 id="1-3-12-2014-Material-Design调色板"><a href="#1-3-12-2014-Material-Design调色板" class="headerlink" title="1.3.12. 2014 Material Design调色板"></a>1.3.12. 2014 Material Design调色板</h4><p>这些调色板最初由Material Design于2014年创建，由设计为和谐地协同工作的颜色组成，可用于开发您的品牌调色板。要生成您自己的和谐调色板，请使用调色板生成工具。</p>
+<h2 id="2-将颜色应用于-UI"><a href="#2-将颜色应用于-UI" class="headerlink" title="2. 将颜色应用于 UI"></a>2. 将颜色应用于 UI</h2><p>颜色以一致且有意义的方式应用于 UI 元素和组件。<br>以下指南描述了颜色应用非常重要的各种UI组件和元素。</p>
+<h3 id="2-1-应用颜色的原则"><a href="#2-1-应用颜色的原则" class="headerlink" title="2.1. 应用颜色的原则"></a>2.1. 应用颜色的原则</h3><ul>
+<li><p>一致的<br>颜色应该在整个用户界面中一致应用，并与它所代表的品牌兼容。</p>
+</li>
+<li><p>不同的<br>颜色应该在元素之间产生区别，并在元素之间形成足够的对比度。</p>
+</li>
+<li><p>意图明确的<br>颜色应该有目的地使用，因为它可以以多种方式传达意义，例如元素之间的关系和等级。</p>
+</li>
+</ul>
+<h4 id="2-1-1-顶部和底部应用栏"><a href="#2-1-1-顶部和底部应用栏" class="headerlink" title="2.1.1. 顶部和底部应用栏"></a>2.1.1. 顶部和底部应用栏</h4><p>颜色应用于顶部和底部应用栏的方式可帮助用户识别它们并了解它们与周围元素的关系。</p>
+<h4 id="2-1-2-标识应用栏"><a href="#2-1-2-标识应用栏" class="headerlink" title="2.1.2. 标识应用栏"></a>2.1.2. 标识应用栏</h4><p>顶部和底部应用栏使用应用的原色。系统栏可以使用原色的深色或浅色变体将系统内容与顶部应用栏内容分开。</p>
+<p>应用栏上使用原色，系统栏上使用深色原色。<br>若要强调应用栏与其他图面之间的差异，请在附近的组件（如浮动操作按钮 （FAB））上使用辅助颜色。</p>
+<p>当应用程序的顶部或底部应用程序栏颜色与背景颜色相同时，它们会混合在一起，强调应用程序的内容而不是其结构。</p>
+<h4 id="2-1-3-背景"><a href="#2-1-3-背景" class="headerlink" title="2.1.3. 背景"></a>2.1.3. 背景</h4><p>背景有正面和背面。要区分这两个图层，基线后层颜色是原色，基线前层是白色。</p>
+<h4 id="2-1-4-表单和表面"><a href="#2-1-4-表单和表面" class="headerlink" title="2.1.4. 表单和表面"></a>2.1.4. 表单和表面</h4><p>工作表和曲面（如底部工作表、导航抽屉、菜单、对话框和卡片）的基线颜色为白色。这些组件可以合并颜色以在其他表面之间创建对比度。对比度可以使表面边缘变得明显，从而指示表面重叠时的标高差异。</p>
+<h4 id="2-1-5-Modal-sheets"><a href="#2-1-5-Modal-sheets" class="headerlink" title="2.1.5. Modal sheets"></a>2.1.5. Modal sheets</h4><p>在临时显示在屏幕上的曲面（如导航抽屉和底页）上使用对比色。通常，这些表面是白色的，但你可以使用应用的主要或次要颜色。</p>
+<h4 id="2-1-6-Cards"><a href="#2-1-6-Cards" class="headerlink" title="2.1.6. Cards"></a>2.1.6. Cards</h4><p>卡片的基线颜色为白色。这种颜色可以定制以表达品牌或提高易读性。卡片文本和图标也可以使用颜色主题来提高易读性。</p>
+<h2 id="3-颜色用法"><a href="#3-颜色用法" class="headerlink" title="3. 颜色用法"></a>3. 颜色用法</h2><h2 id="4-颜色层次"><a href="#4-颜色层次" class="headerlink" title="4. 颜色层次"></a>4. 颜色层次</h2><p>在“Material中，颜色将注意力吸引到屏幕上的特定元素上。当元素的颜色与其周围环境形成对比时，该元素会脱颖而出，因此用户可以判断它很重要。由于颜色主题各不相同 - 从粗体和明亮，到单色或柔和 - 有不同的方法来指示哪些元素更重要。</p>
+<p>例如，当黑色图标放置在白色背景上时，它们会脱颖而出。当多色卡片放置在单色旁边时，会引起人们对自身的注意。</p>
+<h3 id="4-1-表面对比度"><a href="#4-1-表面对比度" class="headerlink" title="4.1. 表面对比度"></a>4.1. 表面对比度</h3><p>要引起对重要事件的注意，请在元素之间使用更强的颜色对比度。</p>
+<h3 id="4-2-颜色和形状"><a href="#4-2-颜色和形状" class="headerlink" title="4.2. 颜色和形状"></a>4.2. 颜色和形状</h3><p>视觉重点放在同时改变颜色和形状的元素上。使用这种强调来表示已选择或需要立即注意的内容。</p>
+<h3 id="4-3-限制颜色"><a href="#4-3-限制颜色" class="headerlink" title="4.3. 限制颜色"></a>4.3. 限制颜色</h3><p>通过限制在应用中使用颜色，接收颜色的区域（如文本、图像和按钮等单个元素）将获得更多关注。</p>
+<p>由于本产品的内容是多色的，黑色浮动动作按钮与鲜艳的色彩形成鲜明对比，使其更加明显。</p>
+<p>灰度调色板最适合让摄影和文本脱颖而出。</p>
+<h2 id="5-品牌"><a href="#5-品牌" class="headerlink" title="5. 品牌"></a>5. 品牌</h2><p>您的品牌可以使用颜色来强调其存在感。品牌颜色可以在关键时刻使用，以将这些颜色与特定操作和信息相关联的方式使用。</p>
+<p>品牌色彩应用可以是大胆而傲慢的，微妙而精致的，或者介于两者之间的任何地方。你的品牌对颜色的个人方法应反映在你的应用中。</p>
+<h3 id="5-1-大胆使用颜色"><a href="#5-1-大胆使用颜色" class="headerlink" title="5.1. 大胆使用颜色"></a>5.1. 大胆使用颜色</h3><p>希望传达能量和兴奋感的品牌通常以大胆的方式使用颜色。他们的应用程序应反映相同的方法，同时保持内容的易读性和整体可用性。</p>
+<p>即使是具有更微妙的色彩方法的品牌也可以大胆的使用色彩。</p>
+<h3 id="5-2-onboarding"><a href="#5-2-onboarding" class="headerlink" title="5.2. onboarding"></a>5.2. onboarding</h3><p>载入期间使用的颜色可以将内容与品牌联系起来。</p>
+<h3 id="5-3-功能发现"><a href="#5-3-功能发现" class="headerlink" title="5.3. 功能发现"></a>5.3. 功能发现</h3><p>新功能可以突出显示，以确保用户通过使用颜色来引导用户关注来看到它们。</p>
+<h2 id="6-颜色的微妙使用"><a href="#6-颜色的微妙使用" class="headerlink" title="6. 颜色的微妙使用"></a>6. 颜色的微妙使用</h2><p>品牌可以以微妙的方式使用颜色，无论这意味着传达复杂性，强调内容还是以其他方式适合内容。使用具有微妙色彩的颜色时，请确保交互式区域和状态更改保持可识别且易于查看。</p>
+<h3 id="6-1-占位符-UI"><a href="#6-1-占位符-UI" class="headerlink" title="6.1. 占位符 UI"></a>6.1. 占位符 UI</h3><p>加载屏幕内容时将显示占位符 UI。在此处包含品牌颜色可向用户保证，在加载应用时，他们仍在应用中。</p>
+<h3 id="6-2-进度指标"><a href="#6-2-进度指标" class="headerlink" title="6.2. 进度指标"></a>6.2. 进度指标</h3><p>进度指示器是一个微妙但强大的地方，可以整合品牌颜色，因为它们将应用程序的功能与品牌联系起来。</p>
+<h3 id="6-3-状态更改"><a href="#6-3-状态更改" class="headerlink" title="6.3. 状态更改"></a>6.3. 状态更改</h3><p>状态的变化可以巧妙地加强品牌的存在。</p>
+<h2 id="7-意义"><a href="#7-意义" class="headerlink" title="7. 意义"></a>7. 意义</h2><p>颜色可以传达不同UI元素的含义。例如，天气应用可能显示指示当前天气状况的颜色，导航应用可能显示显示交通状况的颜色，道路颜色为红色或绿色</p>
+<h3 id="7-1-一致性和上下文"><a href="#7-1-一致性和上下文" class="headerlink" title="7.1. 一致性和上下文"></a>7.1. 一致性和上下文</h3><p>颜色应在产品中一致使用，以便某些颜色始终意味着同样的事情，即使上下文发生变化。还应注意具有当地或文化意义的颜色。例如，警报在某些区域性中通常显示为红色，但在其他区域性中则不然。</p>
+<h3 id="7-2-状态"><a href="#7-2-状态" class="headerlink" title="7.2. 状态"></a>7.2. 状态</h3><p>颜色可以提供有关应用、其组件和元素的状态的信息。这包括：</p>
+<p>元素或组件的当前状态，例如按钮是启用还是禁用<br>对应用程序、组件或元素的状态更改<br>在指示状态变化时，颜色应该很明显，因为可能会错过颜色的细微差异。最好以多种方式指示状态更改，例如显示图标或移动元素的位置。</p>
+<h3 id="7-3-标识交互"><a href="#7-3-标识交互" class="headerlink" title="7.3. 标识交互"></a>7.3. 标识交互</h3><p>若要强调特定交互，请相对于用户未交互的内容，对用户与之交互的内容使用强烈的颜色对比。</p>
+<h3 id="7-4-指示选择"><a href="#7-4-指示选择" class="headerlink" title="7.4. 指示选择"></a>7.4. 指示选择</h3><p>要强调所选元素，请在这些元素上使用强烈的颜色对比度。此列表中的电子邮件使用品牌颜色来指示所选的电子邮件,…</p>
+<h2 id="8-文本易读性"><a href="#8-文本易读性" class="headerlink" title="8. 文本易读性"></a>8. 文本易读性</h2><p>颜色在文本易读性中起着重要作用。</p>
+<h3 id="8-1-WCAG-标准"><a href="#8-1-WCAG-标准" class="headerlink" title="8.1. WCAG 标准"></a>8.1. WCAG 标准</h3><p>所有文本都应清晰易读，并符合无障碍标准 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">The Web Content Accessibility Guidelines</a> （WCAG 2.0） 级别 AA 要求普通文本的文本和背景之间的颜色对比度为 4.5：1，大文本的颜色对比度为 3：1。</p>
+<p>若要了解有关颜色、对比度和辅助功能设计的详细信息，请阅读<a href="https://material.io/design/usability/accessibility.html">Material Design Accessibility</a>。</p>
+<h3 id="8-2-文本背景"><a href="#8-2-文本背景" class="headerlink" title="8.2. 文本背景"></a>8.2. 文本背景</h3><h4 id="8-2-1-彩色背景上的文本"><a href="#8-2-1-彩色背景上的文本" class="headerlink" title="8.2.1. 彩色背景上的文本"></a>8.2.1. 彩色背景上的文本</h4><p>建议在浅色背景上使用黑色文本，在深色背景上使用白色文本。如果你的应用同时具有浅色和深色主题，请确保文本以与每个主题形成对比色。</p>
+<p>彩色背景或版式还会更改有关文本不透明度和不同文本状态的规则。</p>
+<h4 id="8-2-2-使用文本不透明度-opacity"><a href="#8-2-2-使用文本不透明度-opacity" class="headerlink" title="8.2.2. 使用文本不透明度(opacity)"></a>8.2.2. 使用文本不透明度(opacity)</h4><p>不要在彩色背景上使用灰色文本和图标，而是通过显示不透明度较低的白色或黑色文本来创建更好的对比度。</p>
+<p>例如，在绿色背景上以 75% 不透明度显示的黑色文本会使文本呈现黑色外观，并带有绿色提示。</p>
+<p>或者，您可以通过执行以下操作来计算文本的颜色：</p>
+<p>将颜色黑色放置在绿色背景前面，以降低的不透明度<br>确定生成的深绿色的十六进制值<br>将该颜色的十六进制值用于文本<br>在这种情况下，如果文本后面的曲面变色，则还必须更新十六进制颜色。<br>在彩色表面上使用透明版本的黑色以保持易读性。</p>
+<h4 id="8-2-3-浅色背景上的深色文本"><a href="#8-2-3-浅色背景上的深色文本" class="headerlink" title="8.2.3. 浅色背景上的深色文本"></a>8.2.3. 浅色背景上的深色文本</h4><p>浅色背景上的深色文本（此处显示为 #000000，#FFFFFF）应用以下不透明度级别：</p>
+<p>高强调文本的不透明度为 87%<br>中等加重文本和提示文本的不透明度为 60%<br>禁用文本的不透明度为 38%</p>
+<h3 id="8-3-彩色文本和背景"><a href="#8-3-彩色文本和背景" class="headerlink" title="8.3. 彩色文本和背景"></a>8.3. 彩色文本和背景</h3><p>应谨慎使用彩色文本以引起注意并进行选择性强调。理想情况下，应为标题、按钮和链接等文本元素保留彩色文本。</p>
+<p>使用<a href="https://material.io/resources/color">Material color tool</a>可以确定文本上使用的某些前景色是否符合背景色的辅助功能标准。</p>
+<h3 id="8-4-文本类型"><a href="#8-4-文本类型" class="headerlink" title="8.4. 文本类型"></a>8.4. 文本类型</h3><h4 id="8-4-1-帮助文本"><a href="#8-4-1-帮助文本" class="headerlink" title="8.4.1. 帮助文本"></a>8.4.1. 帮助文本</h4><p>帮助程序文本提供有关字段输入的上下文，例如如何使用输入。它可以采用品牌颜色，但应根据WCAG标准确定清晰易读。</p>
+<p>例如，浅色背景上的帮助程序文本可以应用以下不透明度级别和默认十六进制：</p>
+<p>高重音辅助工具：此文本使用十六进制值 #000000，不透明度为 87%<br>默认颜色帮助程序文本：此文本使用十六进制值 #000000，不透明度为 60%<br>默认错误帮助程序文本：此文本使用十六进制值 #B00020 100% 不透明度</p>
+<h4 id="8-4-2-选择文本"><a href="#8-4-2-选择文本" class="headerlink" title="8.4.2. 选择文本"></a>8.4.2. 选择文本</h4><p>为了反映品牌，选择文本可以使用主要或次要颜色的强调文字。选择文本应与所选颜色相对清晰，并且…</p>
+<p>选择文本应与所选颜色相对清晰，并且所选颜色应与背景色形成对比。或者，您可以显示轮廓、运动、复选标记图标或其他文本处理以指示选择文本。</p>
+<p>有关对比度的更多信息（或尝试使用颜色对比度分析仪），请访问 webaim.org。</p>
+<h4 id="8-4-3-图标和其他符号"><a href="#8-4-3-图标和其他符号" class="headerlink" title="8.4.3. 图标和其他符号"></a>8.4.3. 图标和其他符号</h4><p>图标和其他元素不需要满足WCAG易读性标准，但应尽可能可见，以指示功能或传达信息。</p>
+<p>例如，深色图标 （#000000） 或浅色背景（#FFFFFF）上的其他元素可以应用以下不透明度级别：</p>
+<p>活动图标的不透明度为 87%<br>非活动图标的不透明度为 60%<br>禁用图标的不透明度为 38%</p>
+<h2 id="9-深色主题"><a href="#9-深色主题" class="headerlink" title="9. 深色主题"></a>9. 深色主题</h2><p>深色主题是主要显示深色表面的低光 UI。</p>
+<h3 id="9-1-深色主题用法"><a href="#9-1-深色主题用法" class="headerlink" title="9.1. 深色主题用法"></a>9.1. 深色主题用法</h3><p>深色主题在大多数 UI 中显示深色表面。它被设计为默认（或浅色）主题的补充模式。</p>
+<p>深色主题会降低设备屏幕发出的亮度，同时仍满足最低色彩对比度。它们通过减少眼睛疲劳，根据当前照明条件调整亮度以及促进在黑暗环境中使用屏幕来帮助改善视觉人体工程学 - 同时节省电池电量。受益于OLED屏幕的设备在一天中的任何时间关闭黑色像素的功能。</p>
+<h3 id="9-2-深色主题原则"><a href="#9-2-深色主题原则" class="headerlink" title="9.2. 深色主题原则"></a>9.2. 深色主题原则</h3><ul>
+<li>用灰色变暗</li>
+</ul>
+<p>使用深灰色（而不是黑色）来表示深度范围更广的环境中的标高和空间。</p>
+<ul>
+<li>Color with accents</li>
+</ul>
+<p>在深色主题 UI 中应用有限的颜色，因此大部分空间仍然保持深色表面。</p>
+<ul>
+<li>节约能源</li>
+</ul>
+<p>在需要能源效率的产品（例如带有OLED屏幕的设备）中，通过减少亮像素的使用来节省电池寿命。</p>
+<h3 id="9-3-深色主题属性"><a href="#9-3-深色主题属性" class="headerlink" title="9.3. 深色主题属性"></a>9.3. 深色主题属性</h3><p>Material设计深色主题由以下属性定义：</p>
+<p>对比度：深色表面和 100% 白色正文文本的对比度至少为 15.8：1<br>深度：在较高的标高级别，组件通过显示较浅的表面颜色来表示深度<br>不饱和度：原色不饱和，因此它们在所有标高级别上都通过了 Web 内容无障碍指南 （WCAG） AA 标准，即至少为 4.5：1（与正文文本一起使用时）<br>颜色限制：大型表面使用深色表面颜色，颜色强调色有限（浅色、不饱和色和亮色饱和色）</p>
+<h3 id="9-4-深色主题刨析"><a href="#9-4-深色主题刨析" class="headerlink" title="9.4. 深色主题刨析"></a>9.4. 深色主题刨析</h3><p>深色主题 UI 主要使用深色表面，颜色强调色稀疏。它们发出的光水平较低，同时保持了高标准的可用性。</p>
+<ol>
+<li>Background (0dp elevation surface overlay)</li>
+<li>Surface (with 1dp elevation surface overlay)</li>
+<li>Primary</li>
+<li>Secondary</li>
+<li>On background</li>
+<li>On Surface</li>
+<li>On Primary</li>
+<li>On Secondary</li>
+</ol>
+<h3 id="9-5-深色主题行为"><a href="#9-5-深色主题行为" class="headerlink" title="9.5. 深色主题行为"></a>9.5. 深色主题行为</h3><p>可以使用显示的控件打开（或关闭）深色主题：</p>
+<p>突出显示，使用图标切换打开或关闭主题<br>降低突出度，在菜单或应用程序的设置中放置一个开关</p>
+<h2 id="10-Material-Design-系列文章"><a href="#10-Material-Design-系列文章" class="headerlink" title="10. Material  Design 系列文章"></a>10. Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://pengtech.net/material-design/">鹏叔的技术博客-Material Design</a></p>
+<h2 id="11-参考文档"><a href="#11-参考文档" class="headerlink" title="11. 参考文档"></a>11. 参考文档</h2><p><a href="https://material.io/design/color/text-legibility.html">Text legibility</a></p>
+<p><a href="https://material.io/design/color/the-color-system.html">Material Design color system</a>  </p>
 ]]></content>
       <categories>
         <category>web</category>
@@ -23752,165 +23911,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <url>/material/material_color.html</url>
-    <content><![CDATA[<h2 id="1-颜色系统"><a href="#1-颜色系统" class="headerlink" title="1. 颜色系统"></a>1. 颜色系统</h2><p>Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。</p>
-<h3 id="1-1-颜色用法和调色板"><a href="#1-1-颜色用法和调色板" class="headerlink" title="1.1. 颜色用法和调色板"></a>1.1. 颜色用法和调色板</h3><p>Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。</p>
-<span id="more"></span>
-<h3 id="1-2-颜色和主题"><a href="#1-2-颜色和主题" class="headerlink" title="1.2. 颜色和主题"></a>1.2. 颜色和主题</h3><p>颜色主题设计为和谐，确保文本可访问，并将 UI 元素和surfaces彼此区分开来。</p>
-<p><a href="https://material.io/design/color/the-color-system#tools-for-picking-colors">“质感设计”调色板工具</a>或 2014 材质设计调色板可用于帮助您选择颜色。</p>
-<h4 id="1-2-1-原则"><a href="#1-2-1-原则" class="headerlink" title="1.2.1. 原则"></a>1.2.1. 原则</h4><ul>
-<li><p>层次<br>颜色指示哪些元素是交互式的，它们与其他元素的关系以及它们的突出程度。重要元素应该最突出。</p>
-</li>
-<li><p>清晰<br>文本和重要元素（如图标）在彩色背景上显示时应符合易读性标准。</p>
-</li>
-<li><p>表达性<br>在令人难忘的时刻展示品牌色彩，强化您的品牌风格。</p>
-</li>
-</ul>
-<h3 id="1-3-基线材质颜色主题"><a href="#1-3-基线材质颜色主题" class="headerlink" title="1.3. 基线材质颜色主题"></a>1.3. 基线材质颜色主题</h3><p>Material设计采用内置的基线主题设计，可以按原样使用，直接开箱即用。</p>
-<p>这包括以下各项的默认颜色：</p>
-<p>原色和次色<br>原色和次色的变体<br>其他 UI 颜色，例如背景、曲面、错误、版式和图标的颜色。<br>所有这些颜色都可以针对你的应用进行自定义。</p>
-<h4 id="1-3-1-原色"><a href="#1-3-1-原色" class="headerlink" title="1.3.1. 原色"></a>1.3.1. 原色</h4><p>原色是在应用的屏幕和组件中最常显示的颜色。您的原色可用于制作颜色…</p>
-<p>原色是在应用的屏幕和组件中最常显示的颜色。</p>
-<p>深色和浅色主要变体<br>你的原色可用于为应用制作颜色主题，包括深色和浅色原色变体。</p>
-<p>区分 UI 元素<br>若要在 UI 元素（如系统栏的顶部应用栏）之间创建对比度，可以使用原色的浅色或深色变体。还可以使用它们来区分组件中的元素，例如浮动操作按钮的图标与其圆形容器。</p>
-<h4 id="1-3-2-辅助颜色"><a href="#1-3-2-辅助颜色" class="headerlink" title="1.3.2. 辅助颜色"></a>1.3.2. 辅助颜色</h4><p>辅助颜色提供了更多方法来强调和区分您的产品。具有辅助颜色是可选的，应谨慎应用于 UI 的选择部分。</p>
-<p>如果您没有辅助颜色，则原色也可用于强调元素。</p>
-<p>辅助颜色最适合：</p>
-<p>浮动操作按钮<br>选择控件，如滑块和开关<br>突出显示所选文本<br>进度条<br>链接和标题<br>深色和浅色次要变体<br>就像原色一样，辅助颜色可以有深色和浅色变体。颜色主题可以使用每种颜色的原色、辅助颜色以及深色和浅色变体。</p>
-<h4 id="1-3-3-Surface-background-and-error-colors"><a href="#1-3-3-Surface-background-and-error-colors" class="headerlink" title="1.3.3. Surface, background, and error colors"></a>1.3.3. Surface, background, and error colors</h4><p>表面、背景和错误颜色通常不代表品牌：</p>
-<p>表面颜色会影响组件（如卡片、图纸和菜单）的表面。<br>背景色显示在可滚动内容的后面。基线背景和表面颜色#FFFFFF。<br>错误颜色表示组件中的错误，例如文本字段中的文本无效。基线误差颜色#B00020。</p>
-<h4 id="1-3-4-Typography-and-iconography-colors"><a href="#1-3-4-Typography-and-iconography-colors" class="headerlink" title="1.3.4. Typography and iconography colors"></a>1.3.4. Typography and iconography colors</h4><p>“on” color<br>应用图面使用调色板中特定类别的颜色，例如原色。每当元素（如文本或图标）出现在这些曲面的前面时，这些元素应使用设计为清晰易读的颜色来对抗它们后面的颜色。</p>
-<p>此类别的颜色称为“on” color，指的是它们对出现在使用以下颜色的曲面之上的元素进行着色：原色、辅助颜色、表面颜色、背景色或错误颜色。当一种颜色出现在原色的“上”之上时，它被称为“on” top of a primary color。它们使用前缀为“on”的原始颜色类别（如原色）进行标记。</p>
-<p>“on” color主要应用于文本、图像和描边。有时，它们被应用于表面。</p>
-<p>“on” color的默认值为 #FFFFFF 和 #000000。</p>
-<h4 id="1-3-5-可访问的颜色"><a href="#1-3-5-可访问的颜色" class="headerlink" title="1.3.5. 可访问的颜色"></a>1.3.5. 可访问的颜色</h4><p>为确保浅色或深色文本后面的背景可访问，背景可以使用主色和辅助颜色的浅色或深色变体。</p>
-<p>或者，这些颜色可用于显示在浅色和深色背景前面的排版。</p>
-<h4 id="1-3-6-色样-color-swatch"><a href="#1-3-6-色样-color-swatch" class="headerlink" title="1.3.6. 色样(color swatch)"></a>1.3.6. 色样(color swatch)</h4><p>色样是从一系列相似颜色中选择的颜色的样本。</p>
-<p>复选框指示文本颜色在背景前面是否清晰可辨：</p>
-<ul>
-<li>白色复选标记指示白色文本在背景颜色上清晰可见的时间</li>
-<li>黑色复选标记表示黑色文本在背景颜色上清晰可见的时间</li>
-</ul>
-<p>使用白色文本的应用必须具有可针对白色文本访问的背景。这些白色复选标记指示何时可以在各种背景色色板上访问白色文本。</p>
-<p>使用黑色文本的应用必须具有可针对黑色访问的背景。这些黑色复选标记指示何时可以使用各种背景色色板访问黑色文本。</p>
-<h4 id="1-3-7-替代颜色"><a href="#1-3-7-替代颜色" class="headerlink" title="1.3.7. 替代颜色"></a>1.3.7. 替代颜色</h4><p>Material设计颜色系统支持替代颜色，这些颜色用作品牌原色和次色的替代颜色（它们构成主题的附加颜色）。替代颜色可用于区分 UI 的不同部分。</p>
-<p>替代颜色最适合：</p>
-<p>具有浅色和深色主题的应用<br>在不同版块中具有不同主题的应用<br>属于一套产品的应用<br>应谨慎使用替代颜色，因为它们可能难以与现有颜色主题一起实现。</p>
-<h4 id="1-3-8-浅色和深色主题"><a href="#1-3-8-浅色和深色主题" class="headerlink" title="1.3.8. 浅色和深色主题"></a>1.3.8. 浅色和深色主题</h4><p>某些应用同时具有浅色和深色主题。为了保持元素的可见性和文本的易读性，您可以为深色和浅色主题调整不同的配色方案。</p>
-<h4 id="1-3-9-主题的替代颜色"><a href="#1-3-9-主题的替代颜色" class="headerlink" title="1.3.9. 主题的替代颜色"></a>1.3.9. 主题的替代颜色</h4><p>替代颜色可用于主题应用的不同部分。</p>
-<h4 id="1-3-10-用于数据可视化的其他颜色"><a href="#1-3-10-用于数据可视化的其他颜色" class="headerlink" title="1.3.10. 用于数据可视化的其他颜色"></a>1.3.10. 用于数据可视化的其他颜色</h4><p>应用可以使用其他颜色来传达主颜色主题之外的类别。它们仍然是您完整调色板的一部分。</p>
-<h4 id="1-3-11-用于拾取颜色的工具"><a href="#1-3-11-用于拾取颜色的工具" class="headerlink" title="1.3.11. 用于拾取颜色的工具"></a>1.3.11. 用于拾取颜色的工具</h4><p>材质调色板生成器可用于为您输入的任何颜色生成调色板。色调、色度和亮度通过一种算法进行调整，该算法可创建可用且美观的调色板。</p>
-<p>输入颜色<br>可以根据主输入颜色生成调色板，以及所需调色板相对于原色应是相似、互补还是三元。</p>
-<p>或者，该工具可以基于任何原色和辅助颜色生成展开的调色板。</p>
-<p>用于辅助功能的颜色变化<br>这些调色板提供了使用主色和次色的其他方法。它们包括较亮和较暗的选项，用于分隔表面，并提供符合辅助功能标准的颜色。</p>
-<h4 id="1-3-12-2014-Material-Design调色板"><a href="#1-3-12-2014-Material-Design调色板" class="headerlink" title="1.3.12. 2014 Material Design调色板"></a>1.3.12. 2014 Material Design调色板</h4><p>这些调色板最初由Material Design于2014年创建，由设计为和谐地协同工作的颜色组成，可用于开发您的品牌调色板。要生成您自己的和谐调色板，请使用调色板生成工具。</p>
-<h2 id="2-将颜色应用于-UI"><a href="#2-将颜色应用于-UI" class="headerlink" title="2. 将颜色应用于 UI"></a>2. 将颜色应用于 UI</h2><p>颜色以一致且有意义的方式应用于 UI 元素和组件。<br>以下指南描述了颜色应用非常重要的各种UI组件和元素。</p>
-<h3 id="2-1-应用颜色的原则"><a href="#2-1-应用颜色的原则" class="headerlink" title="2.1. 应用颜色的原则"></a>2.1. 应用颜色的原则</h3><ul>
-<li><p>一致的<br>颜色应该在整个用户界面中一致应用，并与它所代表的品牌兼容。</p>
-</li>
-<li><p>不同的<br>颜色应该在元素之间产生区别，并在元素之间形成足够的对比度。</p>
-</li>
-<li><p>意图明确的<br>颜色应该有目的地使用，因为它可以以多种方式传达意义，例如元素之间的关系和等级。</p>
-</li>
-</ul>
-<h4 id="2-1-1-顶部和底部应用栏"><a href="#2-1-1-顶部和底部应用栏" class="headerlink" title="2.1.1. 顶部和底部应用栏"></a>2.1.1. 顶部和底部应用栏</h4><p>颜色应用于顶部和底部应用栏的方式可帮助用户识别它们并了解它们与周围元素的关系。</p>
-<h4 id="2-1-2-标识应用栏"><a href="#2-1-2-标识应用栏" class="headerlink" title="2.1.2. 标识应用栏"></a>2.1.2. 标识应用栏</h4><p>顶部和底部应用栏使用应用的原色。系统栏可以使用原色的深色或浅色变体将系统内容与顶部应用栏内容分开。</p>
-<p>应用栏上使用原色，系统栏上使用深色原色。<br>若要强调应用栏与其他图面之间的差异，请在附近的组件（如浮动操作按钮 （FAB））上使用辅助颜色。</p>
-<p>当应用程序的顶部或底部应用程序栏颜色与背景颜色相同时，它们会混合在一起，强调应用程序的内容而不是其结构。</p>
-<h4 id="2-1-3-背景"><a href="#2-1-3-背景" class="headerlink" title="2.1.3. 背景"></a>2.1.3. 背景</h4><p>背景有正面和背面。要区分这两个图层，基线后层颜色是原色，基线前层是白色。</p>
-<h4 id="2-1-4-表单和表面"><a href="#2-1-4-表单和表面" class="headerlink" title="2.1.4. 表单和表面"></a>2.1.4. 表单和表面</h4><p>工作表和曲面（如底部工作表、导航抽屉、菜单、对话框和卡片）的基线颜色为白色。这些组件可以合并颜色以在其他表面之间创建对比度。对比度可以使表面边缘变得明显，从而指示表面重叠时的标高差异。</p>
-<h4 id="2-1-5-Modal-sheets"><a href="#2-1-5-Modal-sheets" class="headerlink" title="2.1.5. Modal sheets"></a>2.1.5. Modal sheets</h4><p>在临时显示在屏幕上的曲面（如导航抽屉和底页）上使用对比色。通常，这些表面是白色的，但你可以使用应用的主要或次要颜色。</p>
-<h4 id="2-1-6-Cards"><a href="#2-1-6-Cards" class="headerlink" title="2.1.6. Cards"></a>2.1.6. Cards</h4><p>卡片的基线颜色为白色。这种颜色可以定制以表达品牌或提高易读性。卡片文本和图标也可以使用颜色主题来提高易读性。</p>
-<h2 id="3-颜色用法"><a href="#3-颜色用法" class="headerlink" title="3. 颜色用法"></a>3. 颜色用法</h2><h2 id="4-颜色层次"><a href="#4-颜色层次" class="headerlink" title="4. 颜色层次"></a>4. 颜色层次</h2><p>在“Material中，颜色将注意力吸引到屏幕上的特定元素上。当元素的颜色与其周围环境形成对比时，该元素会脱颖而出，因此用户可以判断它很重要。由于颜色主题各不相同 - 从粗体和明亮，到单色或柔和 - 有不同的方法来指示哪些元素更重要。</p>
-<p>例如，当黑色图标放置在白色背景上时，它们会脱颖而出。当多色卡片放置在单色旁边时，会引起人们对自身的注意。</p>
-<h3 id="4-1-表面对比度"><a href="#4-1-表面对比度" class="headerlink" title="4.1. 表面对比度"></a>4.1. 表面对比度</h3><p>要引起对重要事件的注意，请在元素之间使用更强的颜色对比度。</p>
-<h3 id="4-2-颜色和形状"><a href="#4-2-颜色和形状" class="headerlink" title="4.2. 颜色和形状"></a>4.2. 颜色和形状</h3><p>视觉重点放在同时改变颜色和形状的元素上。使用这种强调来表示已选择或需要立即注意的内容。</p>
-<h3 id="4-3-限制颜色"><a href="#4-3-限制颜色" class="headerlink" title="4.3. 限制颜色"></a>4.3. 限制颜色</h3><p>通过限制在应用中使用颜色，接收颜色的区域（如文本、图像和按钮等单个元素）将获得更多关注。</p>
-<p>由于本产品的内容是多色的，黑色浮动动作按钮与鲜艳的色彩形成鲜明对比，使其更加明显。</p>
-<p>灰度调色板最适合让摄影和文本脱颖而出。</p>
-<h2 id="5-品牌"><a href="#5-品牌" class="headerlink" title="5. 品牌"></a>5. 品牌</h2><p>您的品牌可以使用颜色来强调其存在感。品牌颜色可以在关键时刻使用，以将这些颜色与特定操作和信息相关联的方式使用。</p>
-<p>品牌色彩应用可以是大胆而傲慢的，微妙而精致的，或者介于两者之间的任何地方。你的品牌对颜色的个人方法应反映在你的应用中。</p>
-<h3 id="5-1-大胆使用颜色"><a href="#5-1-大胆使用颜色" class="headerlink" title="5.1. 大胆使用颜色"></a>5.1. 大胆使用颜色</h3><p>希望传达能量和兴奋感的品牌通常以大胆的方式使用颜色。他们的应用程序应反映相同的方法，同时保持内容的易读性和整体可用性。</p>
-<p>即使是具有更微妙的色彩方法的品牌也可以大胆的使用色彩。</p>
-<h3 id="5-2-onboarding"><a href="#5-2-onboarding" class="headerlink" title="5.2. onboarding"></a>5.2. onboarding</h3><p>载入期间使用的颜色可以将内容与品牌联系起来。</p>
-<h3 id="5-3-功能发现"><a href="#5-3-功能发现" class="headerlink" title="5.3. 功能发现"></a>5.3. 功能发现</h3><p>新功能可以突出显示，以确保用户通过使用颜色来引导用户关注来看到它们。</p>
-<h2 id="6-颜色的微妙使用"><a href="#6-颜色的微妙使用" class="headerlink" title="6. 颜色的微妙使用"></a>6. 颜色的微妙使用</h2><p>品牌可以以微妙的方式使用颜色，无论这意味着传达复杂性，强调内容还是以其他方式适合内容。使用具有微妙色彩的颜色时，请确保交互式区域和状态更改保持可识别且易于查看。</p>
-<h3 id="6-1-占位符-UI"><a href="#6-1-占位符-UI" class="headerlink" title="6.1. 占位符 UI"></a>6.1. 占位符 UI</h3><p>加载屏幕内容时将显示占位符 UI。在此处包含品牌颜色可向用户保证，在加载应用时，他们仍在应用中。</p>
-<h3 id="6-2-进度指标"><a href="#6-2-进度指标" class="headerlink" title="6.2. 进度指标"></a>6.2. 进度指标</h3><p>进度指示器是一个微妙但强大的地方，可以整合品牌颜色，因为它们将应用程序的功能与品牌联系起来。</p>
-<h3 id="6-3-状态更改"><a href="#6-3-状态更改" class="headerlink" title="6.3. 状态更改"></a>6.3. 状态更改</h3><p>状态的变化可以巧妙地加强品牌的存在。</p>
-<h2 id="7-意义"><a href="#7-意义" class="headerlink" title="7. 意义"></a>7. 意义</h2><p>颜色可以传达不同UI元素的含义。例如，天气应用可能显示指示当前天气状况的颜色，导航应用可能显示显示交通状况的颜色，道路颜色为红色或绿色</p>
-<h3 id="7-1-一致性和上下文"><a href="#7-1-一致性和上下文" class="headerlink" title="7.1. 一致性和上下文"></a>7.1. 一致性和上下文</h3><p>颜色应在产品中一致使用，以便某些颜色始终意味着同样的事情，即使上下文发生变化。还应注意具有当地或文化意义的颜色。例如，警报在某些区域性中通常显示为红色，但在其他区域性中则不然。</p>
-<h3 id="7-2-状态"><a href="#7-2-状态" class="headerlink" title="7.2. 状态"></a>7.2. 状态</h3><p>颜色可以提供有关应用、其组件和元素的状态的信息。这包括：</p>
-<p>元素或组件的当前状态，例如按钮是启用还是禁用<br>对应用程序、组件或元素的状态更改<br>在指示状态变化时，颜色应该很明显，因为可能会错过颜色的细微差异。最好以多种方式指示状态更改，例如显示图标或移动元素的位置。</p>
-<h3 id="7-3-标识交互"><a href="#7-3-标识交互" class="headerlink" title="7.3. 标识交互"></a>7.3. 标识交互</h3><p>若要强调特定交互，请相对于用户未交互的内容，对用户与之交互的内容使用强烈的颜色对比。</p>
-<h3 id="7-4-指示选择"><a href="#7-4-指示选择" class="headerlink" title="7.4. 指示选择"></a>7.4. 指示选择</h3><p>要强调所选元素，请在这些元素上使用强烈的颜色对比度。此列表中的电子邮件使用品牌颜色来指示所选的电子邮件,…</p>
-<h2 id="8-文本易读性"><a href="#8-文本易读性" class="headerlink" title="8. 文本易读性"></a>8. 文本易读性</h2><p>颜色在文本易读性中起着重要作用。</p>
-<h3 id="8-1-WCAG-标准"><a href="#8-1-WCAG-标准" class="headerlink" title="8.1. WCAG 标准"></a>8.1. WCAG 标准</h3><p>所有文本都应清晰易读，并符合无障碍标准 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">The Web Content Accessibility Guidelines</a> （WCAG 2.0） 级别 AA 要求普通文本的文本和背景之间的颜色对比度为 4.5：1，大文本的颜色对比度为 3：1。</p>
-<p>若要了解有关颜色、对比度和辅助功能设计的详细信息，请阅读<a href="https://material.io/design/usability/accessibility.html">Material Design Accessibility</a>。</p>
-<h3 id="8-2-文本背景"><a href="#8-2-文本背景" class="headerlink" title="8.2. 文本背景"></a>8.2. 文本背景</h3><h4 id="8-2-1-彩色背景上的文本"><a href="#8-2-1-彩色背景上的文本" class="headerlink" title="8.2.1. 彩色背景上的文本"></a>8.2.1. 彩色背景上的文本</h4><p>建议在浅色背景上使用黑色文本，在深色背景上使用白色文本。如果你的应用同时具有浅色和深色主题，请确保文本以与每个主题形成对比色。</p>
-<p>彩色背景或版式还会更改有关文本不透明度和不同文本状态的规则。</p>
-<h4 id="8-2-2-使用文本不透明度-opacity"><a href="#8-2-2-使用文本不透明度-opacity" class="headerlink" title="8.2.2. 使用文本不透明度(opacity)"></a>8.2.2. 使用文本不透明度(opacity)</h4><p>不要在彩色背景上使用灰色文本和图标，而是通过显示不透明度较低的白色或黑色文本来创建更好的对比度。</p>
-<p>例如，在绿色背景上以 75% 不透明度显示的黑色文本会使文本呈现黑色外观，并带有绿色提示。</p>
-<p>或者，您可以通过执行以下操作来计算文本的颜色：</p>
-<p>将颜色黑色放置在绿色背景前面，以降低的不透明度<br>确定生成的深绿色的十六进制值<br>将该颜色的十六进制值用于文本<br>在这种情况下，如果文本后面的曲面变色，则还必须更新十六进制颜色。<br>在彩色表面上使用透明版本的黑色以保持易读性。</p>
-<h4 id="8-2-3-浅色背景上的深色文本"><a href="#8-2-3-浅色背景上的深色文本" class="headerlink" title="8.2.3. 浅色背景上的深色文本"></a>8.2.3. 浅色背景上的深色文本</h4><p>浅色背景上的深色文本（此处显示为 #000000，#FFFFFF）应用以下不透明度级别：</p>
-<p>高强调文本的不透明度为 87%<br>中等加重文本和提示文本的不透明度为 60%<br>禁用文本的不透明度为 38%</p>
-<h3 id="8-3-彩色文本和背景"><a href="#8-3-彩色文本和背景" class="headerlink" title="8.3. 彩色文本和背景"></a>8.3. 彩色文本和背景</h3><p>应谨慎使用彩色文本以引起注意并进行选择性强调。理想情况下，应为标题、按钮和链接等文本元素保留彩色文本。</p>
-<p>使用<a href="https://material.io/resources/color">Material color tool</a>可以确定文本上使用的某些前景色是否符合背景色的辅助功能标准。</p>
-<h3 id="8-4-文本类型"><a href="#8-4-文本类型" class="headerlink" title="8.4. 文本类型"></a>8.4. 文本类型</h3><h4 id="8-4-1-帮助文本"><a href="#8-4-1-帮助文本" class="headerlink" title="8.4.1. 帮助文本"></a>8.4.1. 帮助文本</h4><p>帮助程序文本提供有关字段输入的上下文，例如如何使用输入。它可以采用品牌颜色，但应根据WCAG标准确定清晰易读。</p>
-<p>例如，浅色背景上的帮助程序文本可以应用以下不透明度级别和默认十六进制：</p>
-<p>高重音辅助工具：此文本使用十六进制值 #000000，不透明度为 87%<br>默认颜色帮助程序文本：此文本使用十六进制值 #000000，不透明度为 60%<br>默认错误帮助程序文本：此文本使用十六进制值 #B00020 100% 不透明度</p>
-<h4 id="8-4-2-选择文本"><a href="#8-4-2-选择文本" class="headerlink" title="8.4.2. 选择文本"></a>8.4.2. 选择文本</h4><p>为了反映品牌，选择文本可以使用主要或次要颜色的强调文字。选择文本应与所选颜色相对清晰，并且…</p>
-<p>选择文本应与所选颜色相对清晰，并且所选颜色应与背景色形成对比。或者，您可以显示轮廓、运动、复选标记图标或其他文本处理以指示选择文本。</p>
-<p>有关对比度的更多信息（或尝试使用颜色对比度分析仪），请访问 webaim.org。</p>
-<h4 id="8-4-3-图标和其他符号"><a href="#8-4-3-图标和其他符号" class="headerlink" title="8.4.3. 图标和其他符号"></a>8.4.3. 图标和其他符号</h4><p>图标和其他元素不需要满足WCAG易读性标准，但应尽可能可见，以指示功能或传达信息。</p>
-<p>例如，深色图标 （#000000） 或浅色背景（#FFFFFF）上的其他元素可以应用以下不透明度级别：</p>
-<p>活动图标的不透明度为 87%<br>非活动图标的不透明度为 60%<br>禁用图标的不透明度为 38%</p>
-<h2 id="9-深色主题"><a href="#9-深色主题" class="headerlink" title="9. 深色主题"></a>9. 深色主题</h2><p>深色主题是主要显示深色表面的低光 UI。</p>
-<h3 id="9-1-深色主题用法"><a href="#9-1-深色主题用法" class="headerlink" title="9.1. 深色主题用法"></a>9.1. 深色主题用法</h3><p>深色主题在大多数 UI 中显示深色表面。它被设计为默认（或浅色）主题的补充模式。</p>
-<p>深色主题会降低设备屏幕发出的亮度，同时仍满足最低色彩对比度。它们通过减少眼睛疲劳，根据当前照明条件调整亮度以及促进在黑暗环境中使用屏幕来帮助改善视觉人体工程学 - 同时节省电池电量。受益于OLED屏幕的设备在一天中的任何时间关闭黑色像素的功能。</p>
-<h3 id="9-2-深色主题原则"><a href="#9-2-深色主题原则" class="headerlink" title="9.2. 深色主题原则"></a>9.2. 深色主题原则</h3><ul>
-<li>用灰色变暗</li>
-</ul>
-<p>使用深灰色（而不是黑色）来表示深度范围更广的环境中的标高和空间。</p>
-<ul>
-<li>Color with accents</li>
-</ul>
-<p>在深色主题 UI 中应用有限的颜色，因此大部分空间仍然保持深色表面。</p>
-<ul>
-<li>节约能源</li>
-</ul>
-<p>在需要能源效率的产品（例如带有OLED屏幕的设备）中，通过减少亮像素的使用来节省电池寿命。</p>
-<h3 id="9-3-深色主题属性"><a href="#9-3-深色主题属性" class="headerlink" title="9.3. 深色主题属性"></a>9.3. 深色主题属性</h3><p>Material设计深色主题由以下属性定义：</p>
-<p>对比度：深色表面和 100% 白色正文文本的对比度至少为 15.8：1<br>深度：在较高的标高级别，组件通过显示较浅的表面颜色来表示深度<br>不饱和度：原色不饱和，因此它们在所有标高级别上都通过了 Web 内容无障碍指南 （WCAG） AA 标准，即至少为 4.5：1（与正文文本一起使用时）<br>颜色限制：大型表面使用深色表面颜色，颜色强调色有限（浅色、不饱和色和亮色饱和色）</p>
-<h3 id="9-4-深色主题刨析"><a href="#9-4-深色主题刨析" class="headerlink" title="9.4. 深色主题刨析"></a>9.4. 深色主题刨析</h3><p>深色主题 UI 主要使用深色表面，颜色强调色稀疏。它们发出的光水平较低，同时保持了高标准的可用性。</p>
-<ol>
-<li>Background (0dp elevation surface overlay)</li>
-<li>Surface (with 1dp elevation surface overlay)</li>
-<li>Primary</li>
-<li>Secondary</li>
-<li>On background</li>
-<li>On Surface</li>
-<li>On Primary</li>
-<li>On Secondary</li>
-</ol>
-<h3 id="9-5-深色主题行为"><a href="#9-5-深色主题行为" class="headerlink" title="9.5. 深色主题行为"></a>9.5. 深色主题行为</h3><p>可以使用显示的控件打开（或关闭）深色主题：</p>
-<p>突出显示，使用图标切换打开或关闭主题<br>降低突出度，在菜单或应用程序的设置中放置一个开关</p>
-<h2 id="10-Material-Design-系列文章"><a href="#10-Material-Design-系列文章" class="headerlink" title="10. Material  Design 系列文章"></a>10. Material  Design 系列文章</h2><p>最新更新以及更多Material Design相关文章请访问 <a href="https://pengtech.net/material-design/">鹏叔的技术博客-Material Design</a></p>
-<h2 id="11-参考文档"><a href="#11-参考文档" class="headerlink" title="11. 参考文档"></a>11. 参考文档</h2><p><a href="https://material.io/design/color/text-legibility.html">Text legibility</a></p>
-<p><a href="https://material.io/design/color/the-color-system.html">Material Design color system</a>  </p>
-]]></content>
-      <categories>
-        <category>web</category>
-        <category>material design</category>
-      </categories>
-      <tags>
-        <tag>material design</tag>
-        <tag>design</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Material Design 基础 - 导航</title>
     <url>/material/material_navigation.html</url>
     <content><![CDATA[<h2 id="1-说明"><a href="#1-说明" class="headerlink" title="1. 说明"></a>1. 说明</h2><p>导航允许用户在应用程序中移动。</p>
@@ -24385,35 +24385,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
-    <title>本地编译并启动 element-web</title>
-    <url>/matrix/build_element-web_on_local.html</url>
-    <content><![CDATA[<p>Element-web（以前称为Vector和Riot）是一个使用Matrix React SDK构建的Matrix web客户端。</p>
-<p>上一篇文章<a href="https://pengtech.net/matrix/setup_matrix_homeserver.html">使用 Dendrite 搭建 Matrix Homeserver</a>, 我们讲述了安装Matrix HomeServer的过程。</p>
-<p> 本文主要讲述如何在本地将其编译成docker镜像，并启动Element-web. 两种结合起来一个完整的聊天软件就建立起来了。</p>
-<span id="more"></span>
-
-<h2 id="下载-element-web"><a href="#下载-element-web" class="headerlink" title="下载 element-web"></a>下载 element-web</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/element-hq/element-web.git element-web</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="创建docker-镜像"><a href="#创建docker-镜像" class="headerlink" title="创建docker 镜像"></a>创建docker 镜像</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">cd</span> element-web</span><br><span class="line">git checkout master</span><br><span class="line"><span class="built_in">sudo</span> docker build .</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="启动镜像"><a href="#启动镜像" class="headerlink" title="启动镜像"></a>启动镜像</h2><p>查看编译好的镜像</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$sudo</span> docker image <span class="built_in">ls</span></span><br><span class="line">REPOSITORY               TAG             IMAGE ID       CREATED          SIZE</span><br><span class="line">&lt;none&gt;                   &lt;none&gt;          dbf813e1740d   19 minutes ago   75.5MB</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>找到镜像的IMAGE ID， 使用镜像ID启动element-web 容器</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> docker run -p 80:80 dbf813e1740d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="浏览器访问element-web"><a href="#浏览器访问element-web" class="headerlink" title="浏览器访问element-web"></a>浏览器访问element-web</h2><p>浏览器访问<a href="http://localhost/">http://localhost</a></p>
-<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://github.com/element-hq/element-web/blob/develop/docs/install.md">Installing Element Web</a></p>
-]]></content>
-      <categories>
-        <category>IM</category>
-      </categories>
-      <tags>
-        <tag>Matrix</tag>
-        <tag>element-web</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Material Design 基础 - 文字排版</title>
     <url>/material/typography.html</url>
     <content><![CDATA[<h2 id="1-文字系统-（The-type-system）"><a href="#1-文字系统-（The-type-system）" class="headerlink" title="1. 文字系统 （The type system）"></a>1. 文字系统 （The type system）</h2><p>使用排版尽可能清晰有效地呈现您的设计和内容。</p>
@@ -24730,6 +24701,35 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       <tags>
         <tag>material design</tag>
         <tag>design</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本地编译并启动 element-web</title>
+    <url>/matrix/build_element-web_on_local.html</url>
+    <content><![CDATA[<p>Element-web（以前称为Vector和Riot）是一个使用Matrix React SDK构建的Matrix web客户端。</p>
+<p>上一篇文章<a href="https://pengtech.net/matrix/setup_matrix_homeserver.html">使用 Dendrite 搭建 Matrix Homeserver</a>, 我们讲述了安装Matrix HomeServer的过程。</p>
+<p> 本文主要讲述如何在本地将其编译成docker镜像，并启动Element-web. 两种结合起来一个完整的聊天软件就建立起来了。</p>
+<span id="more"></span>
+
+<h2 id="下载-element-web"><a href="#下载-element-web" class="headerlink" title="下载 element-web"></a>下载 element-web</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/element-hq/element-web.git element-web</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="创建docker-镜像"><a href="#创建docker-镜像" class="headerlink" title="创建docker 镜像"></a>创建docker 镜像</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">cd</span> element-web</span><br><span class="line">git checkout master</span><br><span class="line"><span class="built_in">sudo</span> docker build .</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="启动镜像"><a href="#启动镜像" class="headerlink" title="启动镜像"></a>启动镜像</h2><p>查看编译好的镜像</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$sudo</span> docker image <span class="built_in">ls</span></span><br><span class="line">REPOSITORY               TAG             IMAGE ID       CREATED          SIZE</span><br><span class="line">&lt;none&gt;                   &lt;none&gt;          dbf813e1740d   19 minutes ago   75.5MB</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>找到镜像的IMAGE ID， 使用镜像ID启动element-web 容器</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> docker run -p 80:80 dbf813e1740d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="浏览器访问element-web"><a href="#浏览器访问element-web" class="headerlink" title="浏览器访问element-web"></a>浏览器访问element-web</h2><p>浏览器访问<a href="http://localhost/">http://localhost</a></p>
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://github.com/element-hq/element-web/blob/develop/docs/install.md">Installing Element Web</a></p>
+]]></content>
+      <categories>
+        <category>IM</category>
+      </categories>
+      <tags>
+        <tag>Matrix</tag>
+        <tag>element-web</tag>
       </tags>
   </entry>
   <entry>
@@ -25509,113 +25509,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
-    <title>v2rayN 安装与配置</title>
-    <url>/network/v2rayN_usage.html</url>
-    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于<strong>科学上网</strong>和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。</p>
-<span id="more"></span>
-
-<h2 id="2-下载-v2rayN-客户端"><a href="#2-下载-v2rayN-客户端" class="headerlink" title="2. 下载 v2rayN 客户端"></a>2. 下载 v2rayN 客户端</h2><p>v2rayN 官网下载地址：<a href="https://github.com/2dust/v2rayN/releases%E3%80%82">https://github.com/2dust/v2rayN/releases。</a></p>
-<p>前往下载界面后我们可以看到如下的不同版本号的下载内容。</p>
-<p>如无法访问，可以使用 ghproxy 代理下载， 点击连接 <a href="https://ghproxy.net/https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip">v2rayN-With-Core</a> 下载最新带内核版本。</p>
-<p><img src="https://pengtech.net/images/v2rayn/installation_download.png" alt="v2rayN installation files"></p>
-<h3 id="2-1-版本选择"><a href="#2-1-版本选择" class="headerlink" title="2.1. 版本选择"></a>2.1. 版本选择</h3><p>v2rayN版本一般分为pre-release和稳定版本。一般来说选择pre-release状态（预发布）的安装包具有最新的功能，但稳定及兼容性较弱，如果下载下来无法使用或者不兼容可以在下载页面往下拉到，找到 Latest 版本（最新发布版）安装。可以看到上图显示当前最新的版本号是6.60。</p>
-<h3 id="2-2-安装包选择"><a href="#2-2-安装包选择" class="headerlink" title="2.2. 安装包选择"></a>2.2. 安装包选择</h3><p>在下载安装包栏中有很多 zip 压缩包选择，我们推荐第一次安装的用户下载 v2rayN-With-Core.zip 压缩包。安装时会自动提示安装[Microsoft .NET 8.0 Desktop Runtime]。</p>
-<p>如下载 .Net 8.0 失败，可直接下载 v2rayN-With-Core-SelfContained.7z 尝试再次安装。</p>
-<p>v2rayN-With-Core.zip :包含所有Core文件，如您第一次请下载此包</p>
-<p>v2rayN-With-Core-SelfContained.7z:包含所有Core文件；独立包，不需要下载安装[Microsoft .NET 8.0 Desktop Runtime]</p>
-<p>v2rayN-32.zip:不包含Core文件</p>
-<p>v2rayN-arm64.zip:不包含Core文件</p>
-<h2 id="3-软件安装"><a href="#3-软件安装" class="headerlink" title="3. 软件安装"></a>3. 软件安装</h2><p>最新的软件安装压缩包，解压后文件如图，推荐将文件夹放在非系统盘。</p>
-<p><img src="https://pengtech.net/images/v2rayn/v2rayn-install.webp" alt="v2rayN installation process"></p>
-<p>首次安装点击 v2rayN 的exe应用程序，因软件依赖于 Microsoft .Net 的软件包，所以当们运行 V2ryN的安装包时，会提示我们需要先安装它的依赖包，我们根据提示点击下载，会自动触发下载任务。如下图：</p>
-<p><img src="https://pengtech.net/images/v2rayn/net-desktop-download.webp" alt=".net runtime env installation"></p>
-<h2 id="4-如何连接服务器"><a href="#4-如何连接服务器" class="headerlink" title="4. 如何连接服务器"></a>4. 如何连接服务器</h2><h3 id="4-1-获取机场订阅-url"><a href="#4-1-获取机场订阅-url" class="headerlink" title="4.1. 获取机场订阅 url"></a>4.1. 获取机场订阅 url</h3><p>可以从如下机场服务提供商列表中获取订阅或节点：</p>
-<p><span id="airport_node_list"></span></p>
-<p>从以上机场服务商列表， 选择一个机场服务商，然后注册账号，购买订阅，通常在“仪表盘 -&gt; 一键订阅”可以获取到订阅 url。</p>
-<h3 id="4-2-设置订阅地址"><a href="#4-2-设置订阅地址" class="headerlink" title="4.2. 设置订阅地址"></a>4.2. 设置订阅地址</h3><p>“打开软件”→“订阅分组”→”订阅分组设置“ →点击“订阅分组设置”菜单，如下图</p>
-<p><img src="https://pengtech.net/images/v2rayn/nav_to_add_subscription_group.png" alt="navigate to adding subscription group"></p>
-<p>“填写别名”→“粘贴订阅地址url到可选地址”→点击“确定”</p>
-<p><img src="https://pengtech.net/images/v2rayn/add_subscription_group.png" alt="adding subscription group"></p>
-<p>点击更新订阅可以得到节点信息，剩余流量与过期时间</p>
-<p>如果弹出配置错误提示，请重启客户端并重新操作一遍</p>
-<p><img src="https://pengtech.net/images/v2rayn/update_subscription_get_nodes.png" alt="update subscription to retrieve nodes"></p>
-<h3 id="4-3-选择节点"><a href="#4-3-选择节点" class="headerlink" title="4.3. 选择节点"></a>4.3. 选择节点</h3><p>在连接之前, 对各服务器进行一下测速. 在服务器列表中右击, 在弹出的菜单中选择”一键多线程测试延迟和速度”</p>
-<p>然后选中延迟最小速度最快的服务器按回车键将服务器设置为活跃服务器(active server).</p>
-<p><img src="https://pengtech.net/images/v2rayn/set_as_active_server.png" alt="set as active server"></p>
-<p>整个连接过程会有日志输出, 在界面下方信息栏, 如果看到类似如下日志信息表示连接成功.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">配置成功</span><br><span class="line">[Trojan] 韩国节点3(hg3***xyz:5689)</span><br><span class="line">启动服务(6/4/2023 7:56:15 PM)...</span><br><span class="line">Xray 1.8.0 (Xray, Penetrates Everything.) Custom (go1.20.2 windows/amd64)</span><br><span class="line">....</span><br><span class="line">2023/06/04 19:56:15 Using default config:  path_to_v2rayN-With-Core\guiConfigs\config.json</span><br><span class="line">2023/06/04 19:56:15 [Info] infra/conf/serial: Reading config: path_to_v2rayN-With-Core\guiConfigs\config.json</span><br><span class="line">2023/06/04 19:56:15 [Warning] core: Xray 1.8.0 started</span><br><span class="line">6/4/2023 7:56:16 PM 系统代理设置改变</span><br><span class="line">2023/06/04 19:56:16 127.0.0.1:43334 accepted //www.google.com:443 [http &gt;&gt; proxy]</span><br><span class="line">6/4/2023 7:56:17 PM 当前服务的真连接延迟: 142 ms</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-4-开启代理"><a href="#4-4-开启代理" class="headerlink" title="4.4. 开启代理"></a>4.4. 开启代理</h3><p>点击 系统代理 选项, 选择PAC模式</p>
-<p>打开 路由 选项,  选择V3-绕过大陆(Whitelist)；其他保持默认即可。</p>
-<p><img src="https://pengtech.net/images/v2rayn/select_system_proxy.png" alt="select system proxy and routing"></p>
-<h3 id="4-5-验证连接是否成功"><a href="#4-5-验证连接是否成功" class="headerlink" title="4.5. 验证连接是否成功"></a>4.5. 验证连接是否成功</h3><p>节点连接成功后打开google.com或者youtube.com, 如果能正常访问则表示配置成功. </p>
-<h2 id="5-进阶设置"><a href="#5-进阶设置" class="headerlink" title="5. 进阶设置"></a>5. 进阶设置</h2><p>在V2rayN能够正常使用后，我们在看看其他设置，这样可以让我们之后能够更好的使用软件。</p>
-<h3 id="5-1-系统代理"><a href="#5-1-系统代理" class="headerlink" title="5.1. 系统代理"></a>5.1. 系统代理</h3><p>系统代理分为：清除系统代理、自动配置系统代理、不改变系统代理、PAC模式</p>
-<p>清除系统代理：关闭代理，恢复原先的网络。</p>
-<p>自动配置系统代理：开启代理</p>
-<p>不改变系统代理：什么都不做.作用就是保留其他软件设定的代理</p>
-<p>PAC模式：也就是智能分流模式，根据规则去匹配你访问的网站，仅加速国外网站，国内网站不受影响。</p>
-<p>日常使用时推荐自动配置系统代理即可。</p>
-<h3 id="5-2-路由"><a href="#5-2-路由" class="headerlink" title="5.2. 路由"></a>5.2. 路由</h3><p>全局: 所有数据都走代理出站</p>
-<p>黑名单：除了黑名单内的网站，其余网站都通过节点服务器代理上网</p>
-<p>绕过大陆: 从geo文件中判断目标是否cn的,如果是走直连出站,其他走代理出站(局域网也已绕过)</p>
-<p>总结下，在我们平时使用过程中保持一下选择即可：</p>
-<p>系统代理 选择 自动配置系统代理</p>
-<p>路由高级功能 选择 绕过大陆</p>
-<h3 id="5-3-如何切换内核"><a href="#5-3-如何切换内核" class="headerlink" title="5.3. 如何切换内核"></a>5.3. 如何切换内核</h3><p>安装完成后建议将 Core 类型设置为 v2fly_v5, 以获得更好的性能.</p>
-<p>设置方法:</p>
-<p>打开设置&#x3D;&gt;Core 类型设置</p>
-<p>将 VMess, Custom, Shadowsocks, socks, VLess, Trojan 都设置为 v2fly_v5</p>
-<h3 id="5-4-如何开启开机启动？"><a href="#5-4-如何开启开机启动？" class="headerlink" title="5.4. 如何开启开机启动？"></a>5.4. 如何开启开机启动？</h3><p>   在设置→参数设置→v2rayN设置中开启开机启动即可。</p>
-<h2 id="6-更多-v2ray-客户端介绍"><a href="#6-更多-v2ray-客户端介绍" class="headerlink" title="6. 更多 v2ray 客户端介绍"></a>6. 更多 v2ray 客户端介绍</h2><p>在 Windows 操作系统上可以安装 v2ray 客户端有两种选择 一是 v2rayN 第二个是 v2rayA,</p>
-<blockquote>
-<p>v2rayA 是一个支持全局透明代理的 V2Ray 客户端，同时兼容 SS、SSR、Trojan(trojan-go)、PingTunnel 协议。</p>
-</blockquote>
-<p>windows 上可参考 <a href="https://pengtech.net/network/install_v2rayA_on_Windows.html">Windows 上安装与配置 v2rayA - 鹏叔的技术博客</a></p>
-<p>在 Linux 上安装 v2rayA. v2rayA 的安装可以参考<a href="https://pengtech.net/network/v2rayA_install.html">2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos - 鹏叔的技术博客</a>.</p>
-<p>Android 安卓手机建议安装 v2rayNG, 安装过程可参考<a href="https://pengtech.net/network/v2rayNG_install_and_config.html">Android 手机上安装与配置 v2rayNG | 鹏叔的技术博客</a></p>
-<h2 id="7-关联阅读"><a href="#7-关联阅读" class="headerlink" title="7. 关联阅读"></a>7. 关联阅读</h2><p><a href="https://pengtech.net/network/install_v2rayA_on_Windows.html">Windows 上安装与配置 v2rayA - 鹏叔的技术博客</a></p>
-<p><a href="https://pengtech.net/network/v2rayA_install.html">2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos - 鹏叔的技术博客</a></p>
-<p><a href="https://pengtech.net/network/v2rayNG_install_and_config.html">Android 上安装与配置 v2rayNG - 鹏叔的技术博客</a></p>
-<p><a href="https://pengtech.net/network/frp_install.html">frp 内网穿透</a></p>
-<p><a href="https://pengtech.net/network/Internal_network_penetration.html">使用 WireGuard 内网穿透</a></p>
-<!--
-## 6. 参考文档
-
-[V2Ray 一键脚本](https://ssrvps.org/archives/1028)
-
-[How to use or set up V2Ray on desktop in Microsoft Windows system](https://www.a-better-planet.com/how-to-set-up-v2ray-in-microsoft-windows-system/)
-
-[新版 v2rayN 配置使用教程 附全局设置](https://www.sky350.com/374.html)
-
-[V2rayA 在 linux 下安装使用教程](https://zhuanlan.zhihu.com/p/414998586)
- -->
-
-<script>
-  
-        function jsfun(url) {
-            window.open(url,'_blank');
-        }
-    
-    let url = 'https://i.airplanehub.xyz/'
-    let out_li =  ' \<button style="cursor:pointer; background-color: transparent; border:0px" onClick="jsfun(\''+url+'\')">\<font style="text-decoration: underline; font-size: 1.8rem; color: #5299e0">\<i class="fas fa-angle-right">\</i>\<i class="fas fa-angle-right">\</i>\<i class="fas fa-angle-right">\</i>&ensp;机&ensp;场&ensp;服&ensp;务&ensp;商&ensp;列&ensp;表 &ensp; (click me)</font> </button>'
-    
-        document.getElementById('airport_node_list').innerHTML = out_li;
-
-</script>
-]]></content>
-      <categories>
-        <category>network</category>
-        <category>v2ray</category>
-      </categories>
-      <tags>
-        <tag>network</tag>
-        <tag>v2ray</tag>
-        <tag>v2rayN</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024年最新v2rayA 安装与配置教程 for Windows、Macos、Linux</title>
+    <title>2024 最新v2rayA 安装与配置教程for Windows、Macos、Linux</title>
     <url>/network/v2rayA_install.html</url>
     <content><![CDATA[<p>本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款<strong>科学上网、魔法上网软件</strong>。</p>
 <span id="more"></span>
@@ -25946,6 +25840,112 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
         <tag>Linux</tag>
         <tag>Ubuntu</tag>
         <tag>Redhat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>v2rayN 安装与配置</title>
+    <url>/network/v2rayN_usage.html</url>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于<strong>科学上网</strong>和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。</p>
+<span id="more"></span>
+
+<h2 id="2-下载-v2rayN-客户端"><a href="#2-下载-v2rayN-客户端" class="headerlink" title="2. 下载 v2rayN 客户端"></a>2. 下载 v2rayN 客户端</h2><p>v2rayN 官网下载地址：<a href="https://github.com/2dust/v2rayN/releases%E3%80%82">https://github.com/2dust/v2rayN/releases。</a></p>
+<p>前往下载界面后我们可以看到如下的不同版本号的下载内容。</p>
+<p>如无法访问，可以使用 ghproxy 代理下载， 点击连接 <a href="https://ghproxy.net/https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip">v2rayN-With-Core</a> 下载最新带内核版本。</p>
+<p><img src="https://pengtech.net/images/v2rayn/installation_download.png" alt="v2rayN installation files"></p>
+<h3 id="2-1-版本选择"><a href="#2-1-版本选择" class="headerlink" title="2.1. 版本选择"></a>2.1. 版本选择</h3><p>v2rayN版本一般分为pre-release和稳定版本。一般来说选择pre-release状态（预发布）的安装包具有最新的功能，但稳定及兼容性较弱，如果下载下来无法使用或者不兼容可以在下载页面往下拉到，找到 Latest 版本（最新发布版）安装。可以看到上图显示当前最新的版本号是6.60。</p>
+<h3 id="2-2-安装包选择"><a href="#2-2-安装包选择" class="headerlink" title="2.2. 安装包选择"></a>2.2. 安装包选择</h3><p>在下载安装包栏中有很多 zip 压缩包选择，我们推荐第一次安装的用户下载 v2rayN-With-Core.zip 压缩包。安装时会自动提示安装[Microsoft .NET 8.0 Desktop Runtime]。</p>
+<p>如下载 .Net 8.0 失败，可直接下载 v2rayN-With-Core-SelfContained.7z 尝试再次安装。</p>
+<p>v2rayN-With-Core.zip :包含所有Core文件，如您第一次请下载此包</p>
+<p>v2rayN-With-Core-SelfContained.7z:包含所有Core文件；独立包，不需要下载安装[Microsoft .NET 8.0 Desktop Runtime]</p>
+<p>v2rayN-32.zip:不包含Core文件</p>
+<p>v2rayN-arm64.zip:不包含Core文件</p>
+<h2 id="3-软件安装"><a href="#3-软件安装" class="headerlink" title="3. 软件安装"></a>3. 软件安装</h2><p>最新的软件安装压缩包，解压后文件如图，推荐将文件夹放在非系统盘。</p>
+<p><img src="https://pengtech.net/images/v2rayn/v2rayn-install.webp" alt="v2rayN installation process"></p>
+<p>首次安装点击 v2rayN 的exe应用程序，因软件依赖于 Microsoft .Net 的软件包，所以当们运行 V2ryN的安装包时，会提示我们需要先安装它的依赖包，我们根据提示点击下载，会自动触发下载任务。如下图：</p>
+<p><img src="https://pengtech.net/images/v2rayn/net-desktop-download.webp" alt=".net runtime env installation"></p>
+<h2 id="4-如何连接服务器"><a href="#4-如何连接服务器" class="headerlink" title="4. 如何连接服务器"></a>4. 如何连接服务器</h2><h3 id="4-1-获取机场订阅-url"><a href="#4-1-获取机场订阅-url" class="headerlink" title="4.1. 获取机场订阅 url"></a>4.1. 获取机场订阅 url</h3><p>可以从如下机场服务提供商列表中获取订阅或节点：</p>
+<p><span id="airport_node_list"></span></p>
+<p>从以上机场服务商列表， 选择一个机场服务商，然后注册账号，购买订阅，通常在“仪表盘 -&gt; 一键订阅”可以获取到订阅 url。</p>
+<h3 id="4-2-设置订阅地址"><a href="#4-2-设置订阅地址" class="headerlink" title="4.2. 设置订阅地址"></a>4.2. 设置订阅地址</h3><p>“打开软件”→“订阅分组”→”订阅分组设置“ →点击“订阅分组设置”菜单，如下图</p>
+<p><img src="https://pengtech.net/images/v2rayn/nav_to_add_subscription_group.png" alt="navigate to adding subscription group"></p>
+<p>“填写别名”→“粘贴订阅地址url到可选地址”→点击“确定”</p>
+<p><img src="https://pengtech.net/images/v2rayn/add_subscription_group.png" alt="adding subscription group"></p>
+<p>点击更新订阅可以得到节点信息，剩余流量与过期时间</p>
+<p>如果弹出配置错误提示，请重启客户端并重新操作一遍</p>
+<p><img src="https://pengtech.net/images/v2rayn/update_subscription_get_nodes.png" alt="update subscription to retrieve nodes"></p>
+<h3 id="4-3-选择节点"><a href="#4-3-选择节点" class="headerlink" title="4.3. 选择节点"></a>4.3. 选择节点</h3><p>在连接之前, 对各服务器进行一下测速. 在服务器列表中右击, 在弹出的菜单中选择”一键多线程测试延迟和速度”</p>
+<p>然后选中延迟最小速度最快的服务器按回车键将服务器设置为活跃服务器(active server).</p>
+<p><img src="https://pengtech.net/images/v2rayn/set_as_active_server.png" alt="set as active server"></p>
+<p>整个连接过程会有日志输出, 在界面下方信息栏, 如果看到类似如下日志信息表示连接成功.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">配置成功</span><br><span class="line">[Trojan] 韩国节点3(hg3***xyz:5689)</span><br><span class="line">启动服务(6/4/2023 7:56:15 PM)...</span><br><span class="line">Xray 1.8.0 (Xray, Penetrates Everything.) Custom (go1.20.2 windows/amd64)</span><br><span class="line">....</span><br><span class="line">2023/06/04 19:56:15 Using default config:  path_to_v2rayN-With-Core\guiConfigs\config.json</span><br><span class="line">2023/06/04 19:56:15 [Info] infra/conf/serial: Reading config: path_to_v2rayN-With-Core\guiConfigs\config.json</span><br><span class="line">2023/06/04 19:56:15 [Warning] core: Xray 1.8.0 started</span><br><span class="line">6/4/2023 7:56:16 PM 系统代理设置改变</span><br><span class="line">2023/06/04 19:56:16 127.0.0.1:43334 accepted //www.google.com:443 [http &gt;&gt; proxy]</span><br><span class="line">6/4/2023 7:56:17 PM 当前服务的真连接延迟: 142 ms</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-4-开启代理"><a href="#4-4-开启代理" class="headerlink" title="4.4. 开启代理"></a>4.4. 开启代理</h3><p>点击 系统代理 选项, 选择PAC模式</p>
+<p>打开 路由 选项,  选择V3-绕过大陆(Whitelist)；其他保持默认即可。</p>
+<p><img src="https://pengtech.net/images/v2rayn/select_system_proxy.png" alt="select system proxy and routing"></p>
+<h3 id="4-5-验证连接是否成功"><a href="#4-5-验证连接是否成功" class="headerlink" title="4.5. 验证连接是否成功"></a>4.5. 验证连接是否成功</h3><p>节点连接成功后打开google.com或者youtube.com, 如果能正常访问则表示配置成功. </p>
+<h2 id="5-进阶设置"><a href="#5-进阶设置" class="headerlink" title="5. 进阶设置"></a>5. 进阶设置</h2><p>在V2rayN能够正常使用后，我们在看看其他设置，这样可以让我们之后能够更好的使用软件。</p>
+<h3 id="5-1-系统代理"><a href="#5-1-系统代理" class="headerlink" title="5.1. 系统代理"></a>5.1. 系统代理</h3><p>系统代理分为：清除系统代理、自动配置系统代理、不改变系统代理、PAC模式</p>
+<p>清除系统代理：关闭代理，恢复原先的网络。</p>
+<p>自动配置系统代理：开启代理</p>
+<p>不改变系统代理：什么都不做.作用就是保留其他软件设定的代理</p>
+<p>PAC模式：也就是智能分流模式，根据规则去匹配你访问的网站，仅加速国外网站，国内网站不受影响。</p>
+<p>日常使用时推荐自动配置系统代理即可。</p>
+<h3 id="5-2-路由"><a href="#5-2-路由" class="headerlink" title="5.2. 路由"></a>5.2. 路由</h3><p>全局: 所有数据都走代理出站</p>
+<p>黑名单：除了黑名单内的网站，其余网站都通过节点服务器代理上网</p>
+<p>绕过大陆: 从geo文件中判断目标是否cn的,如果是走直连出站,其他走代理出站(局域网也已绕过)</p>
+<p>总结下，在我们平时使用过程中保持一下选择即可：</p>
+<p>系统代理 选择 自动配置系统代理</p>
+<p>路由高级功能 选择 绕过大陆</p>
+<h3 id="5-3-如何切换内核"><a href="#5-3-如何切换内核" class="headerlink" title="5.3. 如何切换内核"></a>5.3. 如何切换内核</h3><p>安装完成后建议将 Core 类型设置为 v2fly_v5, 以获得更好的性能.</p>
+<p>设置方法:</p>
+<p>打开设置&#x3D;&gt;Core 类型设置</p>
+<p>将 VMess, Custom, Shadowsocks, socks, VLess, Trojan 都设置为 v2fly_v5</p>
+<h3 id="5-4-如何开启开机启动？"><a href="#5-4-如何开启开机启动？" class="headerlink" title="5.4. 如何开启开机启动？"></a>5.4. 如何开启开机启动？</h3><p>   在设置→参数设置→v2rayN设置中开启开机启动即可。</p>
+<h2 id="6-更多-v2ray-客户端介绍"><a href="#6-更多-v2ray-客户端介绍" class="headerlink" title="6. 更多 v2ray 客户端介绍"></a>6. 更多 v2ray 客户端介绍</h2><p>在 Windows 操作系统上可以安装 v2ray 客户端有两种选择 一是 v2rayN 第二个是 v2rayA,</p>
+<blockquote>
+<p>v2rayA 是一个支持全局透明代理的 V2Ray 客户端，同时兼容 SS、SSR、Trojan(trojan-go)、PingTunnel 协议。</p>
+</blockquote>
+<p>windows 上可参考 <a href="https://pengtech.net/network/install_v2rayA_on_Windows.html">Windows 上安装与配置 v2rayA - 鹏叔的技术博客</a></p>
+<p>在 Linux 上安装 v2rayA. v2rayA 的安装可以参考<a href="https://pengtech.net/network/v2rayA_install.html">2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos - 鹏叔的技术博客</a>.</p>
+<p>Android 安卓手机建议安装 v2rayNG, 安装过程可参考<a href="https://pengtech.net/network/v2rayNG_install_and_config.html">Android 手机上安装与配置 v2rayNG | 鹏叔的技术博客</a></p>
+<h2 id="7-关联阅读"><a href="#7-关联阅读" class="headerlink" title="7. 关联阅读"></a>7. 关联阅读</h2><p><a href="https://pengtech.net/network/install_v2rayA_on_Windows.html">Windows 上安装与配置 v2rayA - 鹏叔的技术博客</a></p>
+<p><a href="https://pengtech.net/network/v2rayA_install.html">2024 最新 v2rayA 安装与配置教程 for Windows、Linux、Macos - 鹏叔的技术博客</a></p>
+<p><a href="https://pengtech.net/network/v2rayNG_install_and_config.html">Android 上安装与配置 v2rayNG - 鹏叔的技术博客</a></p>
+<p><a href="https://pengtech.net/network/frp_install.html">frp 内网穿透</a></p>
+<p><a href="https://pengtech.net/network/Internal_network_penetration.html">使用 WireGuard 内网穿透</a></p>
+<!--
+## 6. 参考文档
+
+[V2Ray 一键脚本](https://ssrvps.org/archives/1028)
+
+[How to use or set up V2Ray on desktop in Microsoft Windows system](https://www.a-better-planet.com/how-to-set-up-v2ray-in-microsoft-windows-system/)
+
+[新版 v2rayN 配置使用教程 附全局设置](https://www.sky350.com/374.html)
+
+[V2rayA 在 linux 下安装使用教程](https://zhuanlan.zhihu.com/p/414998586)
+ -->
+
+<script>
+  
+        function jsfun(url) {
+            window.open(url,'_blank');
+        }
+    
+    let url = 'https://i.airplanehub.xyz/'
+    let out_li =  ' \<button style="cursor:pointer; background-color: transparent; border:0px" onClick="jsfun(\''+url+'\')">\<font style="text-decoration: underline; font-size: 1.8rem; color: #5299e0">\<i class="fas fa-angle-right">\</i>\<i class="fas fa-angle-right">\</i>\<i class="fas fa-angle-right">\</i>&ensp;机&ensp;场&ensp;服&ensp;务&ensp;商&ensp;列&ensp;表 &ensp; (click me)</font> </button>'
+    
+        document.getElementById('airport_node_list').innerHTML = out_li;
+
+</script>
+]]></content>
+      <categories>
+        <category>network</category>
+        <category>v2ray</category>
+      </categories>
+      <tags>
+        <tag>network</tag>
+        <tag>v2ray</tag>
+        <tag>v2rayN</tag>
       </tags>
   </entry>
   <entry>
@@ -26945,47 +26945,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
-    <title>npm create命令详解</title>
-    <url>/nodejs/npm_create_command.html</url>
-    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>今天使用<code>npm create tauri-app</code>时候发现npm不是简单的创建一个nodejs工程, 其还做了很多特定于tauri相关的操作, 顿时感到这个命令不单纯, 这个命令可能还能干很多活, 迅速燃起了研究的兴趣, 于是写下了这篇文章.</p>
-<span id="more"></span>
-
-<h2 id="2-npm-create"><a href="#2-npm-create" class="headerlink" title="2. npm create"></a>2. npm create</h2><p><code>npm create</code>实际上是<code>npm init</code> 的一个别名, npm init的语法如下:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm init &lt;initializer&gt; </span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>所以回到我们前言中提到的<code>npm create tauri-app</code>, 这里的tauri-app是一个initializer.</p>
-<p>initializer是一个名为create-&lt;initializer&gt;的npm包，它将由npm-exec安装，然后执行包的main bin来创建或更新package.json并运行任何其他与初始化相关的操作。</p>
-<p>init命令转换为相应的npm exec操作，如下所示：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm init foo -&gt; npm <span class="built_in">exec</span> create-foo</span><br><span class="line">npm init @usr/foo -&gt; npm <span class="built_in">exec</span> @usr/create-foo</span><br><span class="line">npm init @usr -&gt; npm <span class="built_in">exec</span> @usr/create</span><br><span class="line">npm init @usr@2.0.0 -&gt; npm <span class="built_in">exec</span> @usr/create@2.0.0</span><br><span class="line">npm init @usr/foo@2.0.0 -&gt; npm <span class="built_in">exec</span> @usr/create-foo@2.0.0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注意: 1, 如果用户已经全局安装了create-&lt;initializer&gt;包，那么npm init将使用该包。如果希望npm使用最新版本或其他特定版本，则必须指定它<br>2, 如果不提供initializer 即<code>npm init</code>, 那么init将回退到legacy模式, 它会问你一堆问题，然后为你写一个package.json。它将尝试根据现有字段、依赖项和所选选项进行合理的猜测。</p>
-</blockquote>
-<h2 id="3-指定initializer版本"><a href="#3-指定initializer版本" class="headerlink" title="3. 指定initializer版本"></a>3. 指定initializer版本</h2><p>如果你想使用特定版本的initializer, 可以参考如下命令:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm init initializer@latest <span class="comment"># 使用最新版本的initializer</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line"></span><br><span class="line">npm init initializer@1.2.3 <span class="comment"># 使用1.2.3版本的initializer</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="4-传递参数"><a href="#4-传递参数" class="headerlink" title="4. 传递参数"></a>4. 传递参数</h2><p>在使用initializer的过程中, 默认参数往往是不足够够的, 在交互模式下initializer可以通过提问的方式让用户输入参数.<br>在无人值守的的情况下, 或者我们需要改变initializer更多默认行为的时候, 则需要通过命令行的将参数提供给initializer, 因为这里的主命令是npm或者npm init, initializer只是其中一个子命令, 这时需要通过npm将参数传递给initializer, 其语法格式如下:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm init initializer -- --hello</span><br></pre></td></tr></table></figure>
-
-<p>需要使用 <code>--</code> 分割 npm参数与init参数.</p>
-<p>为了更好地说明如何转发选项，这里有一个更为深入的示例，显示了传递给npm-cli和initializer的参数，以下两个命令是等效的：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm init foo -y --registry=&lt;url&gt; -- --hello -a</span><br><span class="line"><span class="comment">#等效于</span></span><br><span class="line">npm <span class="built_in">exec</span> -y --registry=&lt;url&gt; -- create-foo --hello -a</span><br></pre></td></tr></table></figure>
-
-<p>这里的<code>-y --registry=&lt;url&gt;</code>为<code>npm exc</code>的参数, 而<code>--hello -a</code>为create-foo这个initializer的参数.</p>
-<p>至此npm create的基本用法讲解完了, 更多用法可以参考<a href="https://docs.npmjs.com/cli/v8/commands/npm-init">npm init文档</a></p>
-<h2 id="5-相关文章"><a href="#5-相关文章" class="headerlink" title="5. 相关文章"></a>5. 相关文章</h2><p>本文原文位于<a href="https://pengtech.net/nodejs/npm_create_command.html">鹏叔的技术博客 - npm create命令详解</a>, 需要获得最近更新请访问原文. 更多nodejs相关文章请访问<a href="https://pengtech.net/tags/Nodejs/">鹏叔的技术博客 - nodejs</a></p>
-<h2 id="6-参考资料"><a href="#6-参考资料" class="headerlink" title="6. 参考资料"></a>6. 参考资料</h2><p><a href="https://juejin.cn/post/6844903909958352909">npm create 命令</a></p>
-<p><a href="https://docs.npmjs.com/cli/v8/commands/npm-init">npm-init</a></p>
-]]></content>
-      <categories>
-        <category>web</category>
-        <category>nodejs</category>
-      </categories>
-      <tags>
-        <tag>Nodejs</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从 NPM 迁移到 PNPM</title>
     <url>/nodejs/migrate_to_pnpm.html</url>
     <content><![CDATA[<p>PNPM 一直被誉为 NPM 的更高性能和更可靠的替代品，旨在减少缓慢的构建时间并消除依赖项不匹配的问题。我主要研究 PNPM 作为一种加快 CI 管道完成时间的方法，以及在开发周期中使用更好的包管理器。</p>
@@ -27067,6 +27026,47 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
+    <title>npm create命令详解</title>
+    <url>/nodejs/npm_create_command.html</url>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>今天使用<code>npm create tauri-app</code>时候发现npm不是简单的创建一个nodejs工程, 其还做了很多特定于tauri相关的操作, 顿时感到这个命令不单纯, 这个命令可能还能干很多活, 迅速燃起了研究的兴趣, 于是写下了这篇文章.</p>
+<span id="more"></span>
+
+<h2 id="2-npm-create"><a href="#2-npm-create" class="headerlink" title="2. npm create"></a>2. npm create</h2><p><code>npm create</code>实际上是<code>npm init</code> 的一个别名, npm init的语法如下:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm init &lt;initializer&gt; </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>所以回到我们前言中提到的<code>npm create tauri-app</code>, 这里的tauri-app是一个initializer.</p>
+<p>initializer是一个名为create-&lt;initializer&gt;的npm包，它将由npm-exec安装，然后执行包的main bin来创建或更新package.json并运行任何其他与初始化相关的操作。</p>
+<p>init命令转换为相应的npm exec操作，如下所示：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm init foo -&gt; npm <span class="built_in">exec</span> create-foo</span><br><span class="line">npm init @usr/foo -&gt; npm <span class="built_in">exec</span> @usr/create-foo</span><br><span class="line">npm init @usr -&gt; npm <span class="built_in">exec</span> @usr/create</span><br><span class="line">npm init @usr@2.0.0 -&gt; npm <span class="built_in">exec</span> @usr/create@2.0.0</span><br><span class="line">npm init @usr/foo@2.0.0 -&gt; npm <span class="built_in">exec</span> @usr/create-foo@2.0.0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注意: 1, 如果用户已经全局安装了create-&lt;initializer&gt;包，那么npm init将使用该包。如果希望npm使用最新版本或其他特定版本，则必须指定它<br>2, 如果不提供initializer 即<code>npm init</code>, 那么init将回退到legacy模式, 它会问你一堆问题，然后为你写一个package.json。它将尝试根据现有字段、依赖项和所选选项进行合理的猜测。</p>
+</blockquote>
+<h2 id="3-指定initializer版本"><a href="#3-指定initializer版本" class="headerlink" title="3. 指定initializer版本"></a>3. 指定initializer版本</h2><p>如果你想使用特定版本的initializer, 可以参考如下命令:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm init initializer@latest <span class="comment"># 使用最新版本的initializer</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line"></span><br><span class="line">npm init initializer@1.2.3 <span class="comment"># 使用1.2.3版本的initializer</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="4-传递参数"><a href="#4-传递参数" class="headerlink" title="4. 传递参数"></a>4. 传递参数</h2><p>在使用initializer的过程中, 默认参数往往是不足够够的, 在交互模式下initializer可以通过提问的方式让用户输入参数.<br>在无人值守的的情况下, 或者我们需要改变initializer更多默认行为的时候, 则需要通过命令行的将参数提供给initializer, 因为这里的主命令是npm或者npm init, initializer只是其中一个子命令, 这时需要通过npm将参数传递给initializer, 其语法格式如下:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm init initializer -- --hello</span><br></pre></td></tr></table></figure>
+
+<p>需要使用 <code>--</code> 分割 npm参数与init参数.</p>
+<p>为了更好地说明如何转发选项，这里有一个更为深入的示例，显示了传递给npm-cli和initializer的参数，以下两个命令是等效的：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm init foo -y --registry=&lt;url&gt; -- --hello -a</span><br><span class="line"><span class="comment">#等效于</span></span><br><span class="line">npm <span class="built_in">exec</span> -y --registry=&lt;url&gt; -- create-foo --hello -a</span><br></pre></td></tr></table></figure>
+
+<p>这里的<code>-y --registry=&lt;url&gt;</code>为<code>npm exc</code>的参数, 而<code>--hello -a</code>为create-foo这个initializer的参数.</p>
+<p>至此npm create的基本用法讲解完了, 更多用法可以参考<a href="https://docs.npmjs.com/cli/v8/commands/npm-init">npm init文档</a></p>
+<h2 id="5-相关文章"><a href="#5-相关文章" class="headerlink" title="5. 相关文章"></a>5. 相关文章</h2><p>本文原文位于<a href="https://pengtech.net/nodejs/npm_create_command.html">鹏叔的技术博客 - npm create命令详解</a>, 需要获得最近更新请访问原文. 更多nodejs相关文章请访问<a href="https://pengtech.net/tags/Nodejs/">鹏叔的技术博客 - nodejs</a></p>
+<h2 id="6-参考资料"><a href="#6-参考资料" class="headerlink" title="6. 参考资料"></a>6. 参考资料</h2><p><a href="https://juejin.cn/post/6844903909958352909">npm create 命令</a></p>
+<p><a href="https://docs.npmjs.com/cli/v8/commands/npm-init">npm-init</a></p>
+]]></content>
+      <categories>
+        <category>web</category>
+        <category>nodejs</category>
+      </categories>
+      <tags>
+        <tag>Nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>npm debug指南</title>
     <url>/nodejs/npm_debug.html</url>
     <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。</p>
@@ -27103,57 +27103,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <p>设置断点, 点击开始debug按钮(绿色三角图标)</p>
 <h2 id="6-Nodejs-系列文章"><a href="#6-Nodejs-系列文章" class="headerlink" title="6. Nodejs 系列文章"></a>6. Nodejs 系列文章</h2><p>最新更新以及更多Nodejs相关文章请访问 <a href="https://pengtech.net/tags/Nodejs/">鹏叔的技术博客 - Nodejs</a></p>
 <h2 id="7-参考文档"><a href="#7-参考文档" class="headerlink" title="7. 参考文档"></a>7. 参考文档</h2><p><a href="https://nodejs.org/zh-cn/docs/guides/debugging-getting-started">debugging gettingstarted</a></p>
-]]></content>
-      <categories>
-        <category>web</category>
-        <category>nodejs</category>
-      </categories>
-      <tags>
-        <tag>Nodejs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nodejs升级以及快速版本切换</title>
-    <url>/nodejs/upgrade_nodejs.html</url>
-    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>要升级 Nodejs 有多种方法, 方法一重新安装新版本; 方法二, 安装 nodejs 版本管理器 例如: n 或者 nvm.</p>
-<p>方法一比较简单直接, 方法二可以在新旧版本之间切换, 非常符合需要同时支持多种版本 nodejs 的需求, 缺点是目前还不是正式版本, 目前还是 0.39.5 版本, 还没有到 1.0 版本, 遇到的奇奇怪怪的问题比较多, 不是特别成熟, 尤其是 Windows 上的 NVM. 在 Linux 或 Macos 上目前基本可用, 但是 Windows 不是太稳定.</p>
-<span id="more"></span>
-
-<h2 id="2-重新安装-nodejs"><a href="#2-重新安装-nodejs" class="headerlink" title="2. 重新安装 nodejs"></a>2. 重新安装 nodejs</h2><h3 id="windows-上重新安装-nodejs"><a href="#windows-上重新安装-nodejs" class="headerlink" title="windows 上重新安装 nodejs"></a>windows 上重新安装 nodejs</h3><ol>
-<li><p>从<a href="https://nodejs.org/en/download/">nodejs 官网</a>下载最新版本或指定版本的 nodejs</p>
-</li>
-<li><p>执行安装程序, 依照安装向导指引安装 nodejs</p>
-</li>
-<li><p>安装完成后执行 <code>node -v</code> 验证 nodejs 新版本是否安装成功</p>
-</li>
-</ol>
-<h3 id="linux-上重新安装-nodejs"><a href="#linux-上重新安装-nodejs" class="headerlink" title="linux 上重新安装 nodejs"></a>linux 上重新安装 nodejs</h3><p>下载安装包</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -O /tmp/node-v20.12.2-linux-x64.tar.gz  https://nodejs.org/dist/v20.12.2/node-v20.12.2-linux-x64.tar.gz</span><br></pre></td></tr></table></figure>
-
-<p>解压安装包</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压</span></span><br><span class="line"><span class="built_in">sudo</span> tar -zxvf /tmp/node-v20.12.2-linux-x64.tar.gz -C /usr/local</span><br></pre></td></tr></table></figure>
-
-<p>更新软链接</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除旧的链接</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">unlink</span> /usr/bin/nodejs</span><br><span class="line"><span class="comment"># 创建新的链接</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs /usr/local/node-v20.12.2-linux-x64 /usr/bin/nodejs</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs /usr/bin/nodejs/bin/npm /usr/bin/npm</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs /usr/bin/nodejs/bin/node /usr/bin/node</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>将&#x2F;usr&#x2F;bin&#x2F;nodejs&#x2F;bin 添加到 path 环境变量,</p>
-<p>这样做的好处是当升级或者切换版本时只需要更改软连接即可.</p>
-<p>不需要修改环境变量.</p>
-<p>vi ~&#x2F;.bashrc</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/bin/nodejs/bin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>之前安装的全局命令全部要重装一遍, 例如我安装了 gyp, pm2, angular, node-gyp-build, typescript</p>
-<p>全局安装的命令需要重载, 例如 node-gyp-build, node-gyp-build-optional, node-gyp-build-test, pm2</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> npm install -g typescript@5.3.2</span><br><span class="line"><span class="built_in">sudo</span> npm install -g node-gyp-build@4.2.2</span><br><span class="line"><span class="built_in">sudo</span> npm install -g pm2@5.3.0</span><br><span class="line"><span class="built_in">sudo</span> npm install -g @angular/cli@17.3.2</span><br><span class="line"><span class="built_in">sudo</span> npm install -g pnpm@9.6.0</span><br></pre></td></tr></table></figure>
-
-<p>如果没有创建软连接则创建软链接</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs  /usr/bin/nodejs/bin/ng /usr/bin/ng</span><br></pre></td></tr></table></figure>
-
-<p>检测版本</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-
-<h2 id="3-Nodejs-系列文章"><a href="#3-Nodejs-系列文章" class="headerlink" title="3. Nodejs 系列文章"></a>3. Nodejs 系列文章</h2><p>最新更新以及更多 Nodejs 相关文章请访问 <a href="https://pengtech.net/tags/Nodejs/">鹏叔的技术博客 - Nodejs</a></p>
-<h2 id="4-参考文档"><a href="#4-参考文档" class="headerlink" title="4. 参考文档"></a>4. 参考文档</h2><p><a href="https://blog.csdn.net/Fabulous1111/article/details/84983869">Node 快速切换版本、版本回退(降级)、版本更新(升级)</a></p>
 ]]></content>
       <categories>
         <category>web</category>
@@ -27218,6 +27167,57 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 <h2 id="2-Nodejs-系列文章"><a href="#2-Nodejs-系列文章" class="headerlink" title="2. Nodejs 系列文章"></a>2. Nodejs 系列文章</h2><p>最新更新以及更多Nodejs相关文章请访问 <a href="https://pengtech.net/tags/Nodejs/">鹏叔的技术博客 - Nodejs</a></p>
 <h2 id="3-参考文章"><a href="#3-参考文章" class="headerlink" title="3. 参考文章"></a>3. 参考文章</h2><p><a href="https://stackoverflow.com/questions/9633280/can-i-add-a-debug-script-to-npm">Can I add a debug script to NPM?</a></p>
 <p><a href="https://dirask.com/posts/VS-Code-debug-with-npm-run-jELw0p">VS Code - debug with npm run</a></p>
+]]></content>
+      <categories>
+        <category>web</category>
+        <category>nodejs</category>
+      </categories>
+      <tags>
+        <tag>Nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nodejs升级以及快速版本切换</title>
+    <url>/nodejs/upgrade_nodejs.html</url>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>要升级 Nodejs 有多种方法, 方法一重新安装新版本; 方法二, 安装 nodejs 版本管理器 例如: n 或者 nvm.</p>
+<p>方法一比较简单直接, 方法二可以在新旧版本之间切换, 非常符合需要同时支持多种版本 nodejs 的需求, 缺点是目前还不是正式版本, 目前还是 0.39.5 版本, 还没有到 1.0 版本, 遇到的奇奇怪怪的问题比较多, 不是特别成熟, 尤其是 Windows 上的 NVM. 在 Linux 或 Macos 上目前基本可用, 但是 Windows 不是太稳定.</p>
+<span id="more"></span>
+
+<h2 id="2-重新安装-nodejs"><a href="#2-重新安装-nodejs" class="headerlink" title="2. 重新安装 nodejs"></a>2. 重新安装 nodejs</h2><h3 id="windows-上重新安装-nodejs"><a href="#windows-上重新安装-nodejs" class="headerlink" title="windows 上重新安装 nodejs"></a>windows 上重新安装 nodejs</h3><ol>
+<li><p>从<a href="https://nodejs.org/en/download/">nodejs 官网</a>下载最新版本或指定版本的 nodejs</p>
+</li>
+<li><p>执行安装程序, 依照安装向导指引安装 nodejs</p>
+</li>
+<li><p>安装完成后执行 <code>node -v</code> 验证 nodejs 新版本是否安装成功</p>
+</li>
+</ol>
+<h3 id="linux-上重新安装-nodejs"><a href="#linux-上重新安装-nodejs" class="headerlink" title="linux 上重新安装 nodejs"></a>linux 上重新安装 nodejs</h3><p>下载安装包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -O /tmp/node-v20.12.2-linux-x64.tar.gz  https://nodejs.org/dist/v20.12.2/node-v20.12.2-linux-x64.tar.gz</span><br></pre></td></tr></table></figure>
+
+<p>解压安装包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压</span></span><br><span class="line"><span class="built_in">sudo</span> tar -zxvf /tmp/node-v20.12.2-linux-x64.tar.gz -C /usr/local</span><br></pre></td></tr></table></figure>
+
+<p>更新软链接</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除旧的链接</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">unlink</span> /usr/bin/nodejs</span><br><span class="line"><span class="comment"># 创建新的链接</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs /usr/local/node-v20.12.2-linux-x64 /usr/bin/nodejs</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs /usr/bin/nodejs/bin/npm /usr/bin/npm</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs /usr/bin/nodejs/bin/node /usr/bin/node</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>将&#x2F;usr&#x2F;bin&#x2F;nodejs&#x2F;bin 添加到 path 环境变量,</p>
+<p>这样做的好处是当升级或者切换版本时只需要更改软连接即可.</p>
+<p>不需要修改环境变量.</p>
+<p>vi ~&#x2F;.bashrc</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/bin/nodejs/bin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>之前安装的全局命令全部要重装一遍, 例如我安装了 gyp, pm2, angular, node-gyp-build, typescript</p>
+<p>全局安装的命令需要重载, 例如 node-gyp-build, node-gyp-build-optional, node-gyp-build-test, pm2</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> npm install -g typescript@5.3.2</span><br><span class="line"><span class="built_in">sudo</span> npm install -g node-gyp-build@4.2.2</span><br><span class="line"><span class="built_in">sudo</span> npm install -g pm2@5.3.0</span><br><span class="line"><span class="built_in">sudo</span> npm install -g @angular/cli@17.3.2</span><br><span class="line"><span class="built_in">sudo</span> npm install -g pnpm@9.6.0</span><br></pre></td></tr></table></figure>
+
+<p>如果没有创建软连接则创建软链接</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -fs  /usr/bin/nodejs/bin/ng /usr/bin/ng</span><br></pre></td></tr></table></figure>
+
+<p>检测版本</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-Nodejs-系列文章"><a href="#3-Nodejs-系列文章" class="headerlink" title="3. Nodejs 系列文章"></a>3. Nodejs 系列文章</h2><p>最新更新以及更多 Nodejs 相关文章请访问 <a href="https://pengtech.net/tags/Nodejs/">鹏叔的技术博客 - Nodejs</a></p>
+<h2 id="4-参考文档"><a href="#4-参考文档" class="headerlink" title="4. 参考文档"></a>4. 参考文档</h2><p><a href="https://blog.csdn.net/Fabulous1111/article/details/84983869">Node 快速切换版本、版本回退(降级)、版本更新(升级)</a></p>
 ]]></content>
       <categories>
         <category>web</category>
@@ -28150,76 +28150,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
-    <title>在各种操作系统上安装和配置Rust</title>
-    <url>/rust/install_rust_on_windows.html</url>
-    <content><![CDATA[<h2 id="1-安装-rust"><a href="#1-安装-rust" class="headerlink" title="1. 安装 rust"></a>1. 安装 rust</h2><ul>
-<li>Rust 官网: <a href="https://www.rust-lang.org/">https://www.rust-lang.org</a></li>
-</ul>
-<h2 id="2-在-Linux-or-macOS-上安装-Rust"><a href="#2-在-Linux-or-macOS-上安装-Rust" class="headerlink" title="2. 在 Linux or macOS 上安装 Rust"></a>2. 在 Linux or macOS 上安装 Rust</h2><ul>
-<li>在 Linux or Mac 上安装 Rust:</li>
-</ul>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 https://sh.rustup.rs -sSf| sh</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h2 id="3-在-Windows-上安装-Rust"><a href="#3-在-Windows-上安装-Rust" class="headerlink" title="3. 在 Windows 上安装 Rust"></a>3. 在 Windows 上安装 Rust</h2><ul>
-<li><p>windows: 按<a href="https://www.rust-lang.org/tools/install">官网安装指引操作</a></p>
-<ul>
-<li><p>下载安装程序，<a href="https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe">下载 RUSTUP-INIT.exe 32 位安装程序</a> 或 <a href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe">下载 RUSTUP-INIT.exe 64 位安装程序</a></p>
-</li>
-<li><p>然后运行程序并按照屏幕上的说明进行操作。</p>
-</li>
-<li><p>当提示您安装<a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">Visual Studio C++ build tools</a>时，您可能需要安装这些工具。</p>
-</li>
-<li><p>完成安装后需要将 &lt;home_dir&gt;&#x2F;.cargo&#x2F;bin&#x2F; 添加到 Path 环境变量, 这样在任何位置都可以执行 rustc, cargo 和 rustup 命令了</p>
-</li>
-</ul>
-</li>
-<li><p>windows subsystem for Linux(WSL):</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="4-配置-Rust"><a href="#4-配置-Rust" class="headerlink" title="4. 配置 Rust"></a>4. 配置 Rust</h2><h3 id="4-1-配置PATh"><a href="#4-1-配置PATh" class="headerlink" title="4.1. 配置PATh"></a>4.1. 配置PATh</h3><p>在Rust开发环境中，所有工具都安装到~&#x2F;.cargo&#x2F;bin目录中，在这里您可以找到Rust工具链，包括rustc、cargo和rustup。</p>
-<p>为了在任何目录下都能使用这些工具，需要将~&#x2F;.cargo&#x2F;bin添加到环境变量PATH中。</p>
-<h3 id="4-2-替换镜像-linux-Windows-macOS-通用"><a href="#4-2-替换镜像-linux-Windows-macOS-通用" class="headerlink" title="4.2. 替换镜像(linux, Windows, macOS 通用)"></a>4.2. 替换镜像(linux, Windows, macOS 通用)</h3><p>安装完成后需要将 crates.io 替换成国内镜像.</p>
-<p><a href="https://crates.io/">https://crates.io</a> 的访问非常缓慢，github 的仓库也经常不能访问，建议大家切换到国内镜像站。镜像站实时缓存，托管在码云的 gitee 仓库每隔 30 分钟与 github 同步。</p>
-<p>配置方式</p>
-<ul>
-<li>在 &lt;home_dir&gt;&#x2F;.cargo 目录新建文件 config</li>
-</ul>
-<blockquote>
-<p>注意：新安装的机器没有这个文件，需要新建，并且该文件没有后缀名</p>
-</blockquote>
-<p>编辑文件内容：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[source.crates-io]</span><br><span class="line">registry=<span class="string">&quot;https://github.com/rust-lang/crates.io-index&quot;</span> <span class="comment"># 这行可以不要,只是说明原始地址</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 替换成你偏好的镜像源</span></span><br><span class="line">replace-with = <span class="string">&#x27;tuna&#x27;</span></span><br><span class="line"><span class="comment">#replace-with = &#x27;ustc&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.crates-cn]</span><br><span class="line">registry=<span class="string">&quot;https://gitee.com/crates/crates.io-index.git&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 清华大学</span></span><br><span class="line">[source.tuna]</span><br><span class="line">registry = <span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 中国科学技术大学</span></span><br><span class="line">[source.ustc]</span><br><span class="line">registry = <span class="string">&quot;git://mirrors.ustc.edu.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 上海交通大学</span></span><br><span class="line">[source.sjtu]</span><br><span class="line">registry = <span class="string">&quot;https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># rustcc社区</span></span><br><span class="line">[source.rustcc]</span><br><span class="line">registry = <span class="string">&quot;git://crates.rustcc.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line">[net]</span><br><span class="line">git-fetch-with-cli =<span class="literal">true</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>修改完保存后即可编译 Rust 项目</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cargo build</span><br></pre></td></tr></table></figure>
-
-<h2 id="5-更新-Rust"><a href="#5-更新-Rust" class="headerlink" title="5. 更新 Rust"></a>5. 更新 Rust</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustup update</span><br></pre></td></tr></table></figure>
-
-<h2 id="6-卸载-Rust"><a href="#6-卸载-Rust" class="headerlink" title="6. 卸载 Rust"></a>6. 卸载 Rust</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustup self uninstall</span><br></pre></td></tr></table></figure>
-
-<h2 id="7-安装指定版本的Rust（例如-1-56）"><a href="#7-安装指定版本的Rust（例如-1-56）" class="headerlink" title="7. 安装指定版本的Rust（例如 1.56）"></a>7. 安装指定版本的Rust（例如 1.56）</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustup install 1.56</span><br></pre></td></tr></table></figure>
-
-<h2 id="8-验证安装是否成功"><a href="#8-验证安装是否成功" class="headerlink" title="8. 验证安装是否成功"></a>8. 验证安装是否成功</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustc --version</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>结果格式: rustc x.y. z (abcabcabc yyyy-mm-dd)</li>
-<li>会显示最新稳定版的: 版本号, commit hash, commit 日期</li>
-<li>当前我安装的版本为 rustc 1.56.1 (59eed8a2a 2021-11-01)</li>
-</ul>
-<h2 id="9-延申阅读"><a href="#9-延申阅读" class="headerlink" title="9. 延申阅读"></a>9. 延申阅读</h2><p><a href="https://pengtech.net/rust/rust_study.html">Rust 编程语言入门教程</a></p>
-<h2 id="10-参考文章"><a href="#10-参考文章" class="headerlink" title="10. 参考文章"></a>10. 参考文章</h2><p><a href="https://www.rust-lang.org/tools/install">Notes about Rust installation</a></p>
-]]></content>
-      <categories>
-        <category>language</category>
-        <category>rust</category>
-      </categories>
-      <tags>
-        <tag>Rust</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何在Ubuntu 22.04上安装Sentry</title>
     <url>/product/sentry_install.html</url>
     <content><![CDATA[<p>Sentry 是一个免费和开源的错误跟踪平台，可以实时监控和修复崩溃。它使软件开发人员能够看到重要的东西，更快地解决问题，并不断了解他们的应用程序。这个平台提供了对生产部署的实时洞察力，并提供了重现和修复崩溃的信息。Sentry 支持所有主要的语言和框架，并与你喜欢的应用程序和服务集成。</p>
@@ -28376,6 +28306,76 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
         <tag>sentry</tag>
         <tag>product</tag>
         <tag>backend</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在各种操作系统上安装和配置Rust</title>
+    <url>/rust/install_rust_on_windows.html</url>
+    <content><![CDATA[<h2 id="1-安装-rust"><a href="#1-安装-rust" class="headerlink" title="1. 安装 rust"></a>1. 安装 rust</h2><ul>
+<li>Rust 官网: <a href="https://www.rust-lang.org/">https://www.rust-lang.org</a></li>
+</ul>
+<h2 id="2-在-Linux-or-macOS-上安装-Rust"><a href="#2-在-Linux-or-macOS-上安装-Rust" class="headerlink" title="2. 在 Linux or macOS 上安装 Rust"></a>2. 在 Linux or macOS 上安装 Rust</h2><ul>
+<li>在 Linux or Mac 上安装 Rust:</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 https://sh.rustup.rs -sSf| sh</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h2 id="3-在-Windows-上安装-Rust"><a href="#3-在-Windows-上安装-Rust" class="headerlink" title="3. 在 Windows 上安装 Rust"></a>3. 在 Windows 上安装 Rust</h2><ul>
+<li><p>windows: 按<a href="https://www.rust-lang.org/tools/install">官网安装指引操作</a></p>
+<ul>
+<li><p>下载安装程序，<a href="https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe">下载 RUSTUP-INIT.exe 32 位安装程序</a> 或 <a href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe">下载 RUSTUP-INIT.exe 64 位安装程序</a></p>
+</li>
+<li><p>然后运行程序并按照屏幕上的说明进行操作。</p>
+</li>
+<li><p>当提示您安装<a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">Visual Studio C++ build tools</a>时，您可能需要安装这些工具。</p>
+</li>
+<li><p>完成安装后需要将 &lt;home_dir&gt;&#x2F;.cargo&#x2F;bin&#x2F; 添加到 Path 环境变量, 这样在任何位置都可以执行 rustc, cargo 和 rustup 命令了</p>
+</li>
+</ul>
+</li>
+<li><p>windows subsystem for Linux(WSL):</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="4-配置-Rust"><a href="#4-配置-Rust" class="headerlink" title="4. 配置 Rust"></a>4. 配置 Rust</h2><h3 id="4-1-配置PATh"><a href="#4-1-配置PATh" class="headerlink" title="4.1. 配置PATh"></a>4.1. 配置PATh</h3><p>在Rust开发环境中，所有工具都安装到~&#x2F;.cargo&#x2F;bin目录中，在这里您可以找到Rust工具链，包括rustc、cargo和rustup。</p>
+<p>为了在任何目录下都能使用这些工具，需要将~&#x2F;.cargo&#x2F;bin添加到环境变量PATH中。</p>
+<h3 id="4-2-替换镜像-linux-Windows-macOS-通用"><a href="#4-2-替换镜像-linux-Windows-macOS-通用" class="headerlink" title="4.2. 替换镜像(linux, Windows, macOS 通用)"></a>4.2. 替换镜像(linux, Windows, macOS 通用)</h3><p>安装完成后需要将 crates.io 替换成国内镜像.</p>
+<p><a href="https://crates.io/">https://crates.io</a> 的访问非常缓慢，github 的仓库也经常不能访问，建议大家切换到国内镜像站。镜像站实时缓存，托管在码云的 gitee 仓库每隔 30 分钟与 github 同步。</p>
+<p>配置方式</p>
+<ul>
+<li>在 &lt;home_dir&gt;&#x2F;.cargo 目录新建文件 config</li>
+</ul>
+<blockquote>
+<p>注意：新安装的机器没有这个文件，需要新建，并且该文件没有后缀名</p>
+</blockquote>
+<p>编辑文件内容：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[source.crates-io]</span><br><span class="line">registry=<span class="string">&quot;https://github.com/rust-lang/crates.io-index&quot;</span> <span class="comment"># 这行可以不要,只是说明原始地址</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 替换成你偏好的镜像源</span></span><br><span class="line">replace-with = <span class="string">&#x27;tuna&#x27;</span></span><br><span class="line"><span class="comment">#replace-with = &#x27;ustc&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.crates-cn]</span><br><span class="line">registry=<span class="string">&quot;https://gitee.com/crates/crates.io-index.git&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 清华大学</span></span><br><span class="line">[source.tuna]</span><br><span class="line">registry = <span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 中国科学技术大学</span></span><br><span class="line">[source.ustc]</span><br><span class="line">registry = <span class="string">&quot;git://mirrors.ustc.edu.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 上海交通大学</span></span><br><span class="line">[source.sjtu]</span><br><span class="line">registry = <span class="string">&quot;https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># rustcc社区</span></span><br><span class="line">[source.rustcc]</span><br><span class="line">registry = <span class="string">&quot;git://crates.rustcc.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line">[net]</span><br><span class="line">git-fetch-with-cli =<span class="literal">true</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>修改完保存后即可编译 Rust 项目</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cargo build</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-更新-Rust"><a href="#5-更新-Rust" class="headerlink" title="5. 更新 Rust"></a>5. 更新 Rust</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustup update</span><br></pre></td></tr></table></figure>
+
+<h2 id="6-卸载-Rust"><a href="#6-卸载-Rust" class="headerlink" title="6. 卸载 Rust"></a>6. 卸载 Rust</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustup self uninstall</span><br></pre></td></tr></table></figure>
+
+<h2 id="7-安装指定版本的Rust（例如-1-56）"><a href="#7-安装指定版本的Rust（例如-1-56）" class="headerlink" title="7. 安装指定版本的Rust（例如 1.56）"></a>7. 安装指定版本的Rust（例如 1.56）</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustup install 1.56</span><br></pre></td></tr></table></figure>
+
+<h2 id="8-验证安装是否成功"><a href="#8-验证安装是否成功" class="headerlink" title="8. 验证安装是否成功"></a>8. 验证安装是否成功</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustc --version</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>结果格式: rustc x.y. z (abcabcabc yyyy-mm-dd)</li>
+<li>会显示最新稳定版的: 版本号, commit hash, commit 日期</li>
+<li>当前我安装的版本为 rustc 1.56.1 (59eed8a2a 2021-11-01)</li>
+</ul>
+<h2 id="9-延申阅读"><a href="#9-延申阅读" class="headerlink" title="9. 延申阅读"></a>9. 延申阅读</h2><p><a href="https://pengtech.net/rust/rust_study.html">Rust 编程语言入门教程</a></p>
+<h2 id="10-参考文章"><a href="#10-参考文章" class="headerlink" title="10. 参考文章"></a>10. 参考文章</h2><p><a href="https://www.rust-lang.org/tools/install">Notes about Rust installation</a></p>
+]]></content>
+      <categories>
+        <category>language</category>
+        <category>rust</category>
+      </categories>
+      <tags>
+        <tag>Rust</tag>
       </tags>
   </entry>
   <entry>
@@ -32964,6 +32964,58 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
+    <title>block、inline 和 inline-block三者之间的区别</title>
+    <url>/web/block_inline_inline_block.html</url>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><ul>
+<li>block 和 inline 这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block 元素通常被现实为独立的一块，会单独换一行；inline 元素则前后不会产生换行，一系列 inline 元素都在一行内显示，直到该行排满。</li>
+<li>大体来说 HTML 元素各有其自身的布局级别（block 元素还是 inline 元素）：<ul>
+<li>常见的块级元素有 DIV, FORM, TABLE, P, PRE, H1~H6, DL, OL, UL 等。</li>
+<li>常见的内联元素有 SPAN, A, STRONG, EM, LABEL, INPUT, SELECT, TEXTAREA, IMG, BR 等。</li>
+</ul>
+</li>
+<li>block 元素可以包含 block 元素和 inline 元素；但 inline 元素只能包含 inline 元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含 inline 元素，而不能包含 block 元素。</li>
+<li>一般来说，可以通过 display:inline 和 display:block 的设置，改变元素的布局级别。</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="2-display-block"><a href="#2-display-block" class="headerlink" title="2. display: block"></a>2. display: block</h2><ul>
+<li>block 元素会独占一行，多个 block 元素会各自新起一行。默认情况下，block 元素宽度自动填满其父元素宽度。</li>
+<li>block 元素可以设置 width,height 属性。块级元素即使设置了宽度,仍然是独占一行。</li>
+<li>block 元素可以设置 margin 和 padding 属性。</li>
+</ul>
+<h2 id="3-display-inline"><a href="#3-display-inline" class="headerlink" title="3. display:inline"></a>3. display:inline</h2><ul>
+<li>inline 元素不会独占一行，多个相邻的行内元素会排列在同一行里，直到一行排列不下，才会新换一行，其宽度随元素的内容而变化。</li>
+<li>inline 元素设置 width,height 属性无效。</li>
+<li>inline 元素的 margin 和 padding 属性，水平方向的 padding-left, padding-right, margin-left, margin-right 都产生边距效果；但竖直方向的 padding-top, padding-bottom, margin-top, margin-bottom 不会产生边距效果。</li>
+<li>例外: input, video 和 img 等元素设置为 inline 元素 width 和 height 是有效的其 margin 和 padding 属性竖直方向也都是有效的</li>
+</ul>
+<h2 id="4-display-inline-block"><a href="#4-display-inline-block" class="headerlink" title="4. display: inline-block"></a>4. display: inline-block</h2><p>简单来说就是将对象呈现为 inline 对象，但是对象的内容作为 block 对象呈现。</p>
+<p>与 display: inline 相比，主要区别在于 display: inline-block 允许在元素上设置宽度和高度。</p>
+<p>同样，如果设置了 display: inline-block，将保留上下外边距&#x2F;内边距，而 display: inline 则不会。</p>
+<p>与 display: block 相比，主要区别在于 display：inline-block 在元素之后不添加换行符，因此该元素可以位于其他元素旁边。</p>
+<p>下例展示 display: inline、display: inline-block 以及 display: block 的不同行为：</p>
+<blockquote>
+<p>注意: IE（低版本 IE）本来是不支持 inline-block 的，所以在 IE 中对内联元素使用 display:inline-block，理论上 IE 是不识别的，但使用 display:inline-block 在 IE 下会触发 layout，从而使内联元素拥有了 display:inline-block 属性的表象。</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">span</span><span class="selector-class">.a</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: inline; <span class="comment">/* the default for span */</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">padding</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid blue;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: yellow;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">span</span><span class="selector-class">.b</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: inline-block;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">padding</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid blue;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: yellow;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">span</span><span class="selector-class">.c</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: block;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">padding</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid blue;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: yellow;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>display 属性<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>display: inline<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">      Shanghai is one of the four direct-administered municipalities of</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span>&gt;</span>the People&#x27;s Republic of China<span class="tag">&lt;/<span class="name">span</span>&gt;</span>. Welcome to</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span>&gt;</span>Shanghai<span class="tag">&lt;/<span class="name">span</span>&gt;</span>!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>display: inline-block<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">      Shanghai is one of the four direct-administered municipalities of</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;b&quot;</span>&gt;</span>the People&#x27;s Republic of China<span class="tag">&lt;/<span class="name">span</span>&gt;</span>. Welcome to</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;b&quot;</span>&gt;</span>Shanghai<span class="tag">&lt;/<span class="name">span</span>&gt;</span>!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>display: block<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">      Shanghai is one of the four direct-administered municipalities of</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;c&quot;</span>&gt;</span>the People&#x27;s Republic of China<span class="tag">&lt;/<span class="name">span</span>&gt;</span>. Welcome to</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;c&quot;</span>&gt;</span>Shanghai<span class="tag">&lt;/<span class="name">span</span>&gt;</span>!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="5-补充说明"><a href="#5-补充说明" class="headerlink" title="5. 补充说明"></a>5. 补充说明</h2><p>一般我们会用 display:block，display:inline 或者 display:inline-block 来调整元素的布局级别，其实 display 的参数远远不止这三种，仅仅是比较常用而已。</p>
+<p>display 所有的参数如下:</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* precomposed values */</span></span><br><span class="line"><span class="attribute">display</span>: block;</span><br><span class="line"><span class="attribute">display</span>: inline;</span><br><span class="line"><span class="attribute">display</span>: inline-block;</span><br><span class="line"><span class="attribute">display</span>: flex;</span><br><span class="line"><span class="attribute">display</span>: inline-flex;</span><br><span class="line"><span class="attribute">display</span>: grid;</span><br><span class="line"><span class="attribute">display</span>: inline-grid;</span><br><span class="line"><span class="attribute">display</span>: flow-root;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* box generation */</span></span><br><span class="line"><span class="attribute">display</span>: none;</span><br><span class="line"><span class="attribute">display</span>: contents;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* two-value syntax */</span></span><br><span class="line"><span class="attribute">display</span>: block flow;</span><br><span class="line"><span class="attribute">display</span>: inline flow;</span><br><span class="line"><span class="attribute">display</span>: inline flow-root;</span><br><span class="line"><span class="attribute">display</span>: block flex;</span><br><span class="line"><span class="attribute">display</span>: inline flex;</span><br><span class="line"><span class="attribute">display</span>: block grid;</span><br><span class="line"><span class="attribute">display</span>: inline grid;</span><br><span class="line"><span class="attribute">display</span>: block flow-root;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* other values */</span></span><br><span class="line"><span class="attribute">display</span>: table;</span><br><span class="line"><span class="attribute">display</span>: table-row; <span class="comment">/* all table elements have an equivalent CSS display value */</span></span><br><span class="line"><span class="attribute">display</span>: list-item;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Global values */</span></span><br><span class="line"><span class="attribute">display</span>: inherit;</span><br><span class="line"><span class="attribute">display</span>: initial;</span><br><span class="line"><span class="attribute">display</span>: revert;</span><br><span class="line"><span class="attribute">display</span>: revert-layer;</span><br><span class="line"><span class="attribute">display</span>: unset;</span><br></pre></td></tr></table></figure>
+
+<h2 id="6-参考文档"><a href="#6-参考文档" class="headerlink" title="6. 参考文档"></a>6. 参考文档</h2><p><a href="https://www.cnblogs.com/KeithWang/p/3139517.html">block，inline 和 inline-block 概念和区别</a></p>
+<p><a href="https://www.w3school.com.cn/css/css_inline-block.asp">CSS 布局 - display: inline-block</a></p>
+]]></content>
+      <categories>
+        <category>web</category>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VSCode安装和配置指南</title>
     <url>/vscode/vscode_install_and_config.html</url>
     <content><![CDATA[<ul>
@@ -33315,74 +33367,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
       </tags>
   </entry>
   <entry>
-    <title>block、inline 和 inline-block三者之间的区别</title>
-    <url>/web/block_inline_inline_block.html</url>
-    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><ul>
-<li>block 和 inline 这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block 元素通常被现实为独立的一块，会单独换一行；inline 元素则前后不会产生换行，一系列 inline 元素都在一行内显示，直到该行排满。</li>
-<li>大体来说 HTML 元素各有其自身的布局级别（block 元素还是 inline 元素）：<ul>
-<li>常见的块级元素有 DIV, FORM, TABLE, P, PRE, H1~H6, DL, OL, UL 等。</li>
-<li>常见的内联元素有 SPAN, A, STRONG, EM, LABEL, INPUT, SELECT, TEXTAREA, IMG, BR 等。</li>
-</ul>
-</li>
-<li>block 元素可以包含 block 元素和 inline 元素；但 inline 元素只能包含 inline 元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含 inline 元素，而不能包含 block 元素。</li>
-<li>一般来说，可以通过 display:inline 和 display:block 的设置，改变元素的布局级别。</li>
-</ul>
-<span id="more"></span>
-
-<h2 id="2-display-block"><a href="#2-display-block" class="headerlink" title="2. display: block"></a>2. display: block</h2><ul>
-<li>block 元素会独占一行，多个 block 元素会各自新起一行。默认情况下，block 元素宽度自动填满其父元素宽度。</li>
-<li>block 元素可以设置 width,height 属性。块级元素即使设置了宽度,仍然是独占一行。</li>
-<li>block 元素可以设置 margin 和 padding 属性。</li>
-</ul>
-<h2 id="3-display-inline"><a href="#3-display-inline" class="headerlink" title="3. display:inline"></a>3. display:inline</h2><ul>
-<li>inline 元素不会独占一行，多个相邻的行内元素会排列在同一行里，直到一行排列不下，才会新换一行，其宽度随元素的内容而变化。</li>
-<li>inline 元素设置 width,height 属性无效。</li>
-<li>inline 元素的 margin 和 padding 属性，水平方向的 padding-left, padding-right, margin-left, margin-right 都产生边距效果；但竖直方向的 padding-top, padding-bottom, margin-top, margin-bottom 不会产生边距效果。</li>
-<li>例外: input, video 和 img 等元素设置为 inline 元素 width 和 height 是有效的其 margin 和 padding 属性竖直方向也都是有效的</li>
-</ul>
-<h2 id="4-display-inline-block"><a href="#4-display-inline-block" class="headerlink" title="4. display: inline-block"></a>4. display: inline-block</h2><p>简单来说就是将对象呈现为 inline 对象，但是对象的内容作为 block 对象呈现。</p>
-<p>与 display: inline 相比，主要区别在于 display: inline-block 允许在元素上设置宽度和高度。</p>
-<p>同样，如果设置了 display: inline-block，将保留上下外边距&#x2F;内边距，而 display: inline 则不会。</p>
-<p>与 display: block 相比，主要区别在于 display：inline-block 在元素之后不添加换行符，因此该元素可以位于其他元素旁边。</p>
-<p>下例展示 display: inline、display: inline-block 以及 display: block 的不同行为：</p>
-<blockquote>
-<p>注意: IE（低版本 IE）本来是不支持 inline-block 的，所以在 IE 中对内联元素使用 display:inline-block，理论上 IE 是不识别的，但使用 display:inline-block 在 IE 下会触发 layout，从而使内联元素拥有了 display:inline-block 属性的表象。</p>
-</blockquote>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">span</span><span class="selector-class">.a</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: inline; <span class="comment">/* the default for span */</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">padding</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid blue;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: yellow;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">span</span><span class="selector-class">.b</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: inline-block;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">padding</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid blue;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: yellow;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">span</span><span class="selector-class">.c</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: block;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">padding</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid blue;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: yellow;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>display 属性<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>display: inline<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">      Shanghai is one of the four direct-administered municipalities of</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span>&gt;</span>the People&#x27;s Republic of China<span class="tag">&lt;/<span class="name">span</span>&gt;</span>. Welcome to</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span>&gt;</span>Shanghai<span class="tag">&lt;/<span class="name">span</span>&gt;</span>!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>display: inline-block<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">      Shanghai is one of the four direct-administered municipalities of</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;b&quot;</span>&gt;</span>the People&#x27;s Republic of China<span class="tag">&lt;/<span class="name">span</span>&gt;</span>. Welcome to</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;b&quot;</span>&gt;</span>Shanghai<span class="tag">&lt;/<span class="name">span</span>&gt;</span>!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>display: block<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">      Shanghai is one of the four direct-administered municipalities of</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;c&quot;</span>&gt;</span>the People&#x27;s Republic of China<span class="tag">&lt;/<span class="name">span</span>&gt;</span>. Welcome to</span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;c&quot;</span>&gt;</span>Shanghai<span class="tag">&lt;/<span class="name">span</span>&gt;</span>!</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="5-补充说明"><a href="#5-补充说明" class="headerlink" title="5. 补充说明"></a>5. 补充说明</h2><p>一般我们会用 display:block，display:inline 或者 display:inline-block 来调整元素的布局级别，其实 display 的参数远远不止这三种，仅仅是比较常用而已。</p>
-<p>display 所有的参数如下:</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* precomposed values */</span></span><br><span class="line"><span class="attribute">display</span>: block;</span><br><span class="line"><span class="attribute">display</span>: inline;</span><br><span class="line"><span class="attribute">display</span>: inline-block;</span><br><span class="line"><span class="attribute">display</span>: flex;</span><br><span class="line"><span class="attribute">display</span>: inline-flex;</span><br><span class="line"><span class="attribute">display</span>: grid;</span><br><span class="line"><span class="attribute">display</span>: inline-grid;</span><br><span class="line"><span class="attribute">display</span>: flow-root;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* box generation */</span></span><br><span class="line"><span class="attribute">display</span>: none;</span><br><span class="line"><span class="attribute">display</span>: contents;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* two-value syntax */</span></span><br><span class="line"><span class="attribute">display</span>: block flow;</span><br><span class="line"><span class="attribute">display</span>: inline flow;</span><br><span class="line"><span class="attribute">display</span>: inline flow-root;</span><br><span class="line"><span class="attribute">display</span>: block flex;</span><br><span class="line"><span class="attribute">display</span>: inline flex;</span><br><span class="line"><span class="attribute">display</span>: block grid;</span><br><span class="line"><span class="attribute">display</span>: inline grid;</span><br><span class="line"><span class="attribute">display</span>: block flow-root;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* other values */</span></span><br><span class="line"><span class="attribute">display</span>: table;</span><br><span class="line"><span class="attribute">display</span>: table-row; <span class="comment">/* all table elements have an equivalent CSS display value */</span></span><br><span class="line"><span class="attribute">display</span>: list-item;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Global values */</span></span><br><span class="line"><span class="attribute">display</span>: inherit;</span><br><span class="line"><span class="attribute">display</span>: initial;</span><br><span class="line"><span class="attribute">display</span>: revert;</span><br><span class="line"><span class="attribute">display</span>: revert-layer;</span><br><span class="line"><span class="attribute">display</span>: unset;</span><br></pre></td></tr></table></figure>
-
-<h2 id="6-参考文档"><a href="#6-参考文档" class="headerlink" title="6. 参考文档"></a>6. 参考文档</h2><p><a href="https://www.cnblogs.com/KeithWang/p/3139517.html">block，inline 和 inline-block 概念和区别</a></p>
-<p><a href="https://www.w3school.com.cn/css/css_inline-block.asp">CSS 布局 - display: inline-block</a></p>
-]]></content>
-      <categories>
-        <category>web</category>
-        <category>css</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>canvas实现文字图片合成一张图片</title>
-    <url>/web/draw_pic_in_convas.html</url>
-    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/talon9527/article/details/120079825">angular 11使用canvas实现文字图片合成一张图片</a></p>
-<p><a href="https://blog.csdn.net/Lakeson/article/details/103671275">canvas + angular</a></p>
-<p><a href="https://juejin.cn/post/7013564623680962573">Canvas文本绘制实现自动换行以及调节文字换行间距</a></p>
-]]></content>
-      <categories>
-        <category>web</category>
-        <category>html</category>
-      </categories>
-      <tags>
-        <tag>javascript</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Chart.js教程</title>
     <url>/web/chartjs_tutorial.html</url>
     <content><![CDATA[<h2 id="1-chart-js-介绍"><a href="#1-chart-js-介绍" class="headerlink" title="1. chart.js 介绍"></a>1. chart.js 介绍</h2><p><a href="https://github.com/chartjs/Chart.js">Chart.js</a>是一个流行的由社区维护的开源数据可视化框架。它使我们能够生成响应式条形图、饼图、线图、甜甜圈图、散点图等。我们所要做的就是简单地指出你想在页面的什么地方显示图表，你想绘制什么样的图表，然后向 Chart.js 提供数据、标签和其他设置。在这之后，这个库就完成了所有繁重的工作。</p>
@@ -33534,6 +33518,22 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
         <tag>javascript</tag>
         <tag>web</tag>
         <tag>chartjs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>canvas实现文字图片合成一张图片</title>
+    <url>/web/draw_pic_in_convas.html</url>
+    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/talon9527/article/details/120079825">angular 11使用canvas实现文字图片合成一张图片</a></p>
+<p><a href="https://blog.csdn.net/Lakeson/article/details/103671275">canvas + angular</a></p>
+<p><a href="https://juejin.cn/post/7013564623680962573">Canvas文本绘制实现自动换行以及调节文字换行间距</a></p>
+]]></content>
+      <categories>
+        <category>web</category>
+        <category>html</category>
+      </categories>
+      <tags>
+        <tag>javascript</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>

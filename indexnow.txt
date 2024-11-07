@@ -126,8 +126,8 @@ https://pengtech.net/ansible/ansible_install_java.html
 https://pengtech.net/chrome/chrome_storage_api.html
 https://pengtech.net/database/db_migrations.html
 https://pengtech.net/firefox/cli_build_firefox_extension.html
-https://pengtech.net/java/how_to_debug_with_maven_cli.html
 https://pengtech.net/java/how_to_create_springBoot_proj.html
+https://pengtech.net/java/how_to_debug_with_maven_cli.html
 https://pengtech.net/java/how_to_get_columns_by_table_name.html
 https://pengtech.net/java/jdk17_installation.html
 https://pengtech.net/java/websocket_java_client.html
@@ -222,8 +222,8 @@ https://pengtech.net/nodejs/install_nvm_on_centos.html
 https://pengtech.net/nodejs/install_and_config_nodejs.html
 https://pengtech.net/nodejs/npm_create_command.html
 https://pengtech.net/nodejs/npm_debug.html
-https://pengtech.net/nodejs/upgrade_nodejs.html
 https://pengtech.net/nodejs/npm_run_debug.html
+https://pengtech.net/nodejs/upgrade_nodejs.html
 https://pengtech.net/nodejs/why_pnpm.html
 https://pengtech.net/angular/angular_async_pipe.html
 https://pengtech.net/angular/angular_async_pipe_error_handling.html
