@@ -2032,7 +2032,7 @@
     </item>
     
     <item>
-      <title>2024 科学上网秘籍：v2rayA 安装与配置指南for Windows、Linux、Macos</title>
+      <title>2024 最新 v2rayA 安装与配置教程 for Windows、Macos、Linux、Android</title>
       <link>https://pengtech.net/network/v2rayA_install.html</link>
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
       <pubDate>Sat, 18 Nov 2023 05:00:00 GMT</pubDate>
@@ -3949,29 +3949,6 @@
     </item>
     
     <item>
-      <title>npm debug指南</title>
-      <link>https://pengtech.net/nodejs/npm_debug.html</link>
-      <guid>https://pengtech.net/nodejs/npm_debug.html</guid>
-      <pubDate>Thu, 22 Jun 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
-      
-      
-      <comments>https://pengtech.net/nodejs/npm_debug.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>记一次npm run问题排查的详细过程</title>
       <link>https://pengtech.net/nodejs/npm_run_debug.html</link>
       <guid>https://pengtech.net/nodejs/npm_run_debug.html</guid>
@@ -3991,6 +3968,29 @@
       
       
       <comments>https://pengtech.net/nodejs/npm_run_debug.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>npm debug指南</title>
+      <link>https://pengtech.net/nodejs/npm_debug.html</link>
+      <guid>https://pengtech.net/nodejs/npm_debug.html</guid>
+      <pubDate>Thu, 22 Jun 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
+      
+      
+      <comments>https://pengtech.net/nodejs/npm_debug.html#disqus_thread</comments>
       
     </item>
     
