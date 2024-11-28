@@ -333,15 +333,15 @@
     
     <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
     
+    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
+    
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    
     <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
     
     <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
-    
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
-    
-    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
     
     <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
     
@@ -477,7 +477,7 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-29T04:00:00.000Z</published>
-    <updated>2024-09-25T09:58:33.791Z</updated>
+    <updated>2024-11-28T06:27:53.639Z</updated>
     
     
     <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
@@ -705,7 +705,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-29T04:00:00.000Z</published>
-    <updated>2024-11-13T14:44:29.862Z</updated>
+    <updated>2024-11-13T17:21:12.596Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -1902,15 +1902,15 @@
     
     <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
+    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
+    
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    
     <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
     
     <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
-    
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
-    
-    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
     
     <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
     
@@ -2121,14 +2121,15 @@
   </entry>
   
   <entry>
-    <title>Angular 17 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_17_update.html"/>
-    <id>https://pengtech.net/angular/angular_17_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-06T05:00:00.000Z</published>
-    <updated>2024-08-06T10:03:52.802Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
-    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -2146,15 +2147,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 17 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_17_update.html"/>
+    <id>https://pengtech.net/angular/angular_17_update.html</id>
     <published>2023-11-06T05:00:00.000Z</published>
-    <updated>2024-08-06T10:03:25.497Z</updated>
+    <updated>2024-08-06T10:03:52.802Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
     
     
     
@@ -3043,11 +3043,11 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    <category term="vmware" scheme="https://pengtech.net/tags/vmware/"/>
     
     <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
     
-    <category term="vmware" scheme="https://pengtech.net/tags/vmware/"/>
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
     
   </entry>
   
@@ -6425,27 +6425,6 @@
   </entry>
   
   <entry>
-    <title>Golang 运算符</title>
-    <link href="https://pengtech.net/golang/first_post.html"/>
-    <id>https://pengtech.net/golang/first_post.html</id>
-    <published>2021-10-31T04:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</summary>
-    
-    
-    
-    <category term="language" scheme="https://pengtech.net/categories/language/"/>
-    
-    <category term="golang" scheme="https://pengtech.net/categories/language/golang/"/>
-    
-    
-    <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo命令详解</title>
     <link href="https://pengtech.net/hexo/hexo_cli.html"/>
     <id>https://pengtech.net/hexo/hexo_cli.html</id>
@@ -6463,6 +6442,27 @@
     
     
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Golang 运算符</title>
+    <link href="https://pengtech.net/golang/first_post.html"/>
+    <id>https://pengtech.net/golang/first_post.html</id>
+    <published>2021-10-31T04:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.390Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="language" scheme="https://pengtech.net/categories/language/"/>
+    
+    <category term="golang" scheme="https://pengtech.net/categories/language/golang/"/>
+    
+    
+    <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
     
   </entry>
   
@@ -6709,9 +6709,9 @@
     
     <category term="css" scheme="https://pengtech.net/tags/css/"/>
     
-    <category term="html" scheme="https://pengtech.net/tags/html/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
     <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
