@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 19 Oct 2024 01:46:59 GMT</pubDate>
+    <pubDate>Tue, 03 Dec 2024 12:56:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -358,15 +358,15 @@
       
       <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
       
-      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
-      
-      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
-      
       <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
       
       <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
+      
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
       
       <category domain="https://pengtech.net/tags/Redhat/">Redhat</category>
       
@@ -464,7 +464,7 @@
       <guid>https://pengtech.net/k8s/kubernates_on_vultr.html</guid>
       <pubDate>Sat, 31 Aug 2024 04:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
+      <description>&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;https://www.vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
 &lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，前天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。 &lt;/p&gt;
 &lt;p&gt;昨天在 Vultr VPS 上使用 wordpress 搭建了一个博客，详情参考这篇文章 &lt;a href=&quot;https://pengtech.net/wordpress/deploy_wordpress_on_vps.html&quot;&gt;Vultr 部署 Wordpress 博客&lt;/a&gt;&lt;/p&gt;</description>
       
@@ -548,7 +548,7 @@
       <pubDate>Wed, 28 Aug 2024 04:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
-&lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</description>
+&lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</description>
       
       
       
@@ -2055,15 +2055,15 @@
       
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
-      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
-      
-      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
-      
       <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
       
       <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
+      
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
       
       <category domain="https://pengtech.net/tags/Redhat/">Redhat</category>
       
@@ -3286,11 +3286,11 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
       
       <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
       
-      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
       
       
       <comments>https://pengtech.net/vmware/vmware_install_ubuntu.html#disqus_thread</comments>
@@ -6937,29 +6937,6 @@
     </item>
     
     <item>
-      <title>Hexo命令详解</title>
-      <link>https://pengtech.net/hexo/hexo_cli.html</link>
-      <guid>https://pengtech.net/hexo/hexo_cli.html</guid>
-      <pubDate>Sun, 31 Oct 2021 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://pengtech.net/hexo/hexo_cli.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Golang 运算符</title>
       <link>https://pengtech.net/golang/first_post.html</link>
       <guid>https://pengtech.net/golang/first_post.html</guid>
@@ -6979,6 +6956,29 @@
       
       
       <comments>https://pengtech.net/golang/first_post.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo命令详解</title>
+      <link>https://pengtech.net/hexo/hexo_cli.html</link>
+      <guid>https://pengtech.net/hexo/hexo_cli.html</guid>
+      <pubDate>Sun, 31 Oct 2021 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://pengtech.net/hexo/hexo_cli.html#disqus_thread</comments>
       
     </item>
     
@@ -7240,9 +7240,9 @@
       
       <category domain="https://pengtech.net/tags/css/">css</category>
       
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
       <category domain="https://pengtech.net/tags/html/">html</category>
+      
+      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
       
       <category domain="https://pengtech.net/tags/less/">less</category>
       

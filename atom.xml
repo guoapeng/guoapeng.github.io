@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-10-19T01:46:59.037Z</updated>
+  <updated>2024-12-03T12:56:15.918Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/linux/email_server_install.html"/>
     <id>https://pengtech.net/linux/email_server_install.html</id>
     <published>2024-10-14T04:00:00.000Z</published>
-    <updated>2024-10-19T01:46:59.037Z</updated>
+    <updated>2024-12-03T12:56:15.918Z</updated>
     
     
     <summary type="html">&lt;p&gt;在正式进行安装邮件服务器之前，我们需要对邮件服务器概念有一些基础的了解。&lt;/p&gt;</summary>
@@ -302,7 +302,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-04T04:00:00.000Z</published>
-    <updated>2024-11-13T14:43:45.399Z</updated>
+    <updated>2024-12-14T18:27:53.025Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -333,15 +333,15 @@
     
     <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
     
-    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
-    
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
-    
     <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
     
     <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
+    
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
     
     <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
     
@@ -429,10 +429,10 @@
     <link href="https://pengtech.net/k8s/kubernates_on_vultr.html"/>
     <id>https://pengtech.net/k8s/kubernates_on_vultr.html</id>
     <published>2024-08-31T04:00:00.000Z</published>
-    <updated>2024-09-09T01:05:41.135Z</updated>
+    <updated>2024-12-14T18:27:23.349Z</updated>
     
     
-    <summary type="html">&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;上前天获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;https://www.vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。。&lt;/p&gt;
 &lt;p&gt;这两天一直在琢磨如何把这 300 美金霍霍完，免得过期浪费。于是把之前一些好玩的东西从家里的服务器迁移到了 Vultr 上，前天用 Vultr vps 搭建了一个了一个 WEB IDE, 过程记录在这篇文章里&lt;a href=&quot;https://pengtech.net/vscode/cloud_ide_on_vultr.html&quot;&gt;Vultr + Code-server 自建 Cloud IDE&lt;/a&gt;。 &lt;/p&gt;
 &lt;p&gt;昨天在 Vultr VPS 上使用 wordpress 搭建了一个博客，详情参考这篇文章 &lt;a href=&quot;https://pengtech.net/wordpress/deploy_wordpress_on_vps.html&quot;&gt;Vultr 部署 Wordpress 博客&lt;/a&gt;&lt;/p&gt;</summary>
     
@@ -477,7 +477,7 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-29T04:00:00.000Z</published>
-    <updated>2024-11-28T06:27:53.639Z</updated>
+    <updated>2024-12-14T18:28:08.370Z</updated>
     
     
     <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
@@ -506,11 +506,11 @@
     <link href="https://pengtech.net/linux/vultr_account_creation.html"/>
     <id>https://pengtech.net/linux/vultr_account_creation.html</id>
     <published>2024-08-28T04:00:00.000Z</published>
-    <updated>2024-09-25T09:58:13.568Z</updated>
+    <updated>2024-12-14T18:27:36.580Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr&lt;/a&gt; 作为很多人的入门 VPS，有着良好的口碑，尤其在建站方面，稳定。Vultr 提供众多应用一键安装模板，但是由于英文界面，加上新手很多新手不知道如何去操作，这里写下详细新手图文教程。另外请持续关注博客，鹏叔将利用这波优惠，探索一些新花样。&lt;/p&gt;
-&lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9645837&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</summary>
+&lt;p&gt;Vultr 目前正在做活动，新用户访问&lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;https://www.vultr.com&lt;/a&gt;进行注册，可以获得为期一个月金额300美金的试用金，不过可能过了这段时间就没有了。&lt;/p&gt;</summary>
     
     
     
@@ -528,7 +528,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide_on_vultr.html"/>
     <id>https://pengtech.net/vscode/cloud_ide_on_vultr.html</id>
     <published>2024-08-28T04:00:00.000Z</published>
-    <updated>2024-09-25T09:58:28.096Z</updated>
+    <updated>2024-12-14T18:28:00.147Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -1902,15 +1902,15 @@
     
     <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
-    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
-    
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
-    
     <category term="v2rayA" scheme="https://pengtech.net/tags/v2rayA/"/>
     
     <category term="v2ray" scheme="https://pengtech.net/tags/v2ray/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
+    
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
     
     <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
     
@@ -3043,11 +3043,11 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="vmware" scheme="https://pengtech.net/tags/vmware/"/>
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
     
     <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
     
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    <category term="vmware" scheme="https://pengtech.net/tags/vmware/"/>
     
   </entry>
   
@@ -6425,27 +6425,6 @@
   </entry>
   
   <entry>
-    <title>Hexo命令详解</title>
-    <link href="https://pengtech.net/hexo/hexo_cli.html"/>
-    <id>https://pengtech.net/hexo/hexo_cli.html</id>
-    <published>2021-10-31T04:00:00.000Z</published>
-    <updated>2024-08-13T09:43:31.722Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Golang 运算符</title>
     <link href="https://pengtech.net/golang/first_post.html"/>
     <id>https://pengtech.net/golang/first_post.html</id>
@@ -6463,6 +6442,27 @@
     
     
     <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo命令详解</title>
+    <link href="https://pengtech.net/hexo/hexo_cli.html"/>
+    <id>https://pengtech.net/hexo/hexo_cli.html</id>
+    <published>2021-10-31T04:00:00.000Z</published>
+    <updated>2024-08-13T09:43:31.722Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
     
   </entry>
   
@@ -6709,9 +6709,9 @@
     
     <category term="css" scheme="https://pengtech.net/tags/css/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
+    
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
     <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
