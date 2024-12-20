@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2024-12-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
     
     <lastmod>2024-12-14</lastmod>
@@ -122,15 +131,6 @@
     <loc>https://pengtech.net/android/android_sdk_install.html</loc>
     
     <lastmod>2024-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    
-    <lastmod>2024-11-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1199,7 +1199,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1208,7 +1208,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2504,15 +2504,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mockery_v2.html</loc>
-    
-    <lastmod>2024-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
@@ -2523,6 +2514,15 @@
   
   <url>
     <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    
+    <lastmod>2024-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/golang/mockery_v2.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2731,7 +2731,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2024-12-14</lastmod>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
