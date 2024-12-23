@@ -1,3 +1,4 @@
+https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/vscode/cloud_ide_on_vultr.html
@@ -47,4 +48,3 @@ https://pengtech.net/product/query_on_auth_and_business_decoupled_systems.html
 https://pengtech.net/astro/astro_blog_comments.html
 https://pengtech.net/hexo/hexo_blog_comments.html
 https://pengtech.net/others/wake_your_ass_up.html
-https://pengtech.net/linux/linux_RHEL_yum_extra_repos.html
