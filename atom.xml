@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-12-23T16:35:05.063Z</updated>
+  <updated>2024-12-24T11:18:25.566Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>全平台科学上网软件 Hiddify Next 安装与配置详解</title>
+    <title>全平台科学上网客户端 Hiddify Next 安装与配置详解</title>
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-23T05:00:00.000Z</published>
-    <updated>2024-12-23T16:35:05.063Z</updated>
+    <updated>2024-12-24T11:18:25.566Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为HiddifyApp了，本文中HiddifyApp和HiddifyApp可能会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>

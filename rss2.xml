@@ -15,11 +15,11 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Mon, 23 Dec 2024 16:35:05 GMT</pubDate>
+    <pubDate>Tue, 24 Dec 2024 11:18:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>全平台科学上网软件 Hiddify Next 安装与配置详解</title>
+      <title>全平台科学上网客户端 Hiddify Next 安装与配置详解</title>
       <link>https://pengtech.net/network/hiddifyApp_install_and_config.html</link>
       <guid>https://pengtech.net/network/hiddifyApp_install_and_config.html</guid>
       <pubDate>Mon, 23 Dec 2024 05:00:00 GMT</pubDate>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    <lastmod>2024-12-23</lastmod>
+    <lastmod>2024-12-24</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayA_install.html</loc>
@@ -525,11 +525,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -669,11 +669,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -709,11 +709,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
