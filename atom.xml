@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2024-12-26T11:05:50.751Z</updated>
+  <updated>2025-01-08T09:44:46.361Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 Linux 上安装 Flutter 开发环境</title>
+    <link href="https://pengtech.net/flutter/install_flutter.html"/>
+    <id>https://pengtech.net/flutter/install_flutter.html</id>
+    <published>2025-01-08T05:00:00.000Z</published>
+    <updated>2025-01-08T09:44:46.361Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Flutter 是一个流行的开源 UI 软件开发工具包，被世界各地的开发人员用来从单个代码库构建适用于移动、Web 和桌面的原生编译应用程序。&lt;/p&gt;
+&lt;p&gt;在中国安装和使用 Flutter，请使用可信的 Flutter 镜像。这需要在你的机器上设置两个环境变量。以下所有示例均假定你正在使用 CFUG 的镜像。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="frontend" scheme="https://pengtech.net/categories/frontend/"/>
+    
+    
+    <category term="flutter" scheme="https://pengtech.net/tags/flutter/"/>
+    
+    <category term="fedora" scheme="https://pengtech.net/tags/fedora/"/>
+    
+  </entry>
   
   <entry>
     <title>全平台科学上网客户端 Hiddify Next 安装与配置详解</title>
@@ -1073,16 +1095,14 @@
   </entry>
   
   <entry>
-    <title>如何制作macOS Sonoma ISO 文件</title>
-    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
-    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
+    <title>linux上安装vmware</title>
+    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
+    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
     <published>2024-04-26T04:00:00.000Z</published>
-    <updated>2024-11-02T13:03:23.412Z</updated>
+    <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
-&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
     
     
     
@@ -1098,14 +1118,16 @@
   </entry>
   
   <entry>
-    <title>linux上安装vmware</title>
-    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
-    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
+    <title>如何制作macOS Sonoma ISO 文件</title>
+    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
+    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-26T04:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-11-02T13:03:23.412Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
     
@@ -5362,15 +5384,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-03T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5386,15 +5408,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-03T04:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
