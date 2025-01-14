@@ -1183,31 +1183,6 @@
     </item>
     
     <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Fri, 26 Apr 2024 04:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何制作macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -1231,6 +1206,31 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Fri, 26 Apr 2024 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -4243,30 +4243,6 @@
     </item>
     
     <item>
-      <title>申请免费SSL证书</title>
-      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
-      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
-      <pubDate>Mon, 15 May 2023 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
-      
-      
-      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>nginx配置https</title>
       <link>https://pengtech.net/nginx/nginx_config_https.html</link>
       <guid>https://pengtech.net/nginx/nginx_config_https.html</guid>
@@ -4288,6 +4264,30 @@
       
       
       <comments>https://pengtech.net/nginx/nginx_config_https.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>申请免费SSL证书</title>
+      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
+      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
+      <pubDate>Mon, 15 May 2023 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      
+      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
       
     </item>
     
@@ -7004,29 +7004,6 @@
     </item>
     
     <item>
-      <title>Golang 运算符</title>
-      <link>https://pengtech.net/golang/first_post.html</link>
-      <guid>https://pengtech.net/golang/first_post.html</guid>
-      <pubDate>Sun, 31 Oct 2021 04:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/language/">language</category>
-      
-      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Golang/">Golang</category>
-      
-      
-      <comments>https://pengtech.net/golang/first_post.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Hexo命令详解</title>
       <link>https://pengtech.net/hexo/hexo_cli.html</link>
       <guid>https://pengtech.net/hexo/hexo_cli.html</guid>
@@ -7050,27 +7027,25 @@
     </item>
     
     <item>
-      <title>Ansible 教程</title>
-      <link>https://pengtech.net/ansible/ansible.html</link>
-      <guid>https://pengtech.net/ansible/ansible.html</guid>
-      <pubDate>Thu, 28 Oct 2021 04:00:00 GMT</pubDate>
+      <title>Golang 运算符</title>
+      <link>https://pengtech.net/golang/first_post.html</link>
+      <guid>https://pengtech.net/golang/first_post.html</guid>
+      <pubDate>Sun, 31 Oct 2021 04:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
-      
-      
+      <description>&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</description>
       
       
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      <category domain="https://pengtech.net/categories/language/">language</category>
       
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
       
       
-      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
+      <category domain="https://pengtech.net/tags/Golang/">Golang</category>
+      
+      
+      <comments>https://pengtech.net/golang/first_post.html#disqus_thread</comments>
       
     </item>
     
@@ -7097,6 +7072,31 @@
       
       
       <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Ansible 教程</title>
+      <link>https://pengtech.net/ansible/ansible.html</link>
+      <guid>https://pengtech.net/ansible/ansible.html</guid>
+      <pubDate>Thu, 28 Oct 2021 04:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
       
     </item>
     

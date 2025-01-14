@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2025-01-14</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/flutter/install_flutter.html</loc>
     <lastmod>2025-01-08</lastmod>
   </url>
@@ -18,10 +22,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2024-12-26</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     <lastmod>2024-12-26</lastmod>
   </url>
   <url>
@@ -625,11 +625,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -985,11 +985,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/tauri/convert_web-app_into_desktop.html</loc>
+    <loc>https://pengtech.net/strapi/strapi_project_structure.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/strapi/strapi_project_structure.html</loc>
+    <loc>https://pengtech.net/tauri/convert_web-app_into_desktop.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
@@ -1089,11 +1089,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
