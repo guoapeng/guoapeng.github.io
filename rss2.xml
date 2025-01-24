@@ -15,8 +15,37 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Tue, 21 Jan 2025 04:37:58 GMT</pubDate>
+    <pubDate>Fri, 24 Jan 2025 15:49:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows 上安装与配置v2rayA</title>
+      <link>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</link>
+      <guid>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</guid>
+      <pubDate>Thu, 23 Jan 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/network/">network</category>
+      
+      <category domain="https://pengtech.net/categories/network/v2ray/">v2ray</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
+      
+      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
+      
+      
+      <comments>https://pengtech.net/network/install_v2rayA_on_Windows_2.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hexo 配置 Stellar 主题</title>
@@ -867,35 +896,6 @@
       
       
       <comments>https://pengtech.net/network/install_v2rayA_on_Windows.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Windows 上安装与配置v2rayA</title>
-      <link>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</link>
-      <guid>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</guid>
-      <pubDate>Mon, 29 Jul 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/network/">network</category>
-      
-      <category domain="https://pengtech.net/categories/network/v2ray/">v2ray</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
-      
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
-      
-      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
-      
-      
-      <comments>https://pengtech.net/network/install_v2rayA_on_Windows_2.html#disqus_thread</comments>
       
     </item>
     
@@ -5968,32 +5968,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -6016,6 +5990,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
