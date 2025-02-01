@@ -1535,7 +1535,7 @@
     <link href="https://pengtech.net/linux/linux_update_alternatives.html"/>
     <id>https://pengtech.net/linux/linux_update_alternatives.html</id>
     <published>2024-01-20T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2025-01-28T17:09:56.382Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;update-alternatives 命令在 Linux 系统中具有重要的作用。它主要用于维护符号链接，这些符号链接确定了各种任务或实用工具的默认命令或应用程序。update-alternatives 允许系统管理员或用户选择在其系统上使用哪个版本的特定命令或应用程序。&lt;/p&gt;</summary>
@@ -1627,7 +1627,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-01-18T14:44:56.624Z</updated>
+    <updated>2025-01-31T03:52:52.278Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2052,7 +2052,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-01-18T15:58:36.494Z</updated>
+    <updated>2025-01-31T03:53:18.293Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2091,7 +2091,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-01-19T16:37:48.938Z</updated>
+    <updated>2025-01-31T03:53:26.125Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3642,15 +3642,16 @@
   </entry>
   
   <entry>
-    <title>什么是客户满意度？</title>
-    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
-    <id>https://pengtech.net/product/customer_satisfaction.html</id>
+    <title>买家决策过程详解</title>
+    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
+    <id>https://pengtech.net/product/buyer_decision_process.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
+&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
+&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
     
     
     
@@ -3664,16 +3665,15 @@
   </entry>
   
   <entry>
-    <title>买家决策过程详解</title>
-    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
-    <id>https://pengtech.net/product/buyer_decision_process.html</id>
+    <title>什么是客户满意度？</title>
+    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
+    <id>https://pengtech.net/product/customer_satisfaction.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.396Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
-&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
-&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
     
     
     

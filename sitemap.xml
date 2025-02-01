@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/linux/linux_update_alternatives.html</loc>
+    
+    <lastmod>2025-01-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/tools/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
     
     <lastmod>2025-01-24</lastmod>
@@ -41,33 +86,6 @@
     <loc>https://pengtech.net/sites/vps_chosing.html</loc>
     
     <lastmod>2025-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    
-    <lastmod>2025-01-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    
-    <lastmod>2025-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    
-    <lastmod>2025-01-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -482,15 +500,6 @@
     <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
     
     <lastmod>2024-09-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/tools/</loc>
-    
-    <lastmod>2024-09-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1271,7 +1280,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1289,7 +1298,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1298,7 +1307,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/jdk17_installation.html</loc>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1703,7 +1712,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1712,7 +1721,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1973,7 +1982,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1982,7 +1991,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2441,15 +2450,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/linux_update_alternatives.html</loc>
-    
-    <lastmod>2024-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/snap_commands.html</loc>
     
     <lastmod>2024-07-10</lastmod>
@@ -2549,7 +2549,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/install_golang.html</loc>
+    <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2558,7 +2558,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
+    <loc>https://pengtech.net/golang/install_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2794,7 +2794,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-01-24</lastmod>
+    <lastmod>2025-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
