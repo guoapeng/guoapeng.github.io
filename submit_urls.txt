@@ -1,3 +1,4 @@
+https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_config_v2rayA_on_linux.html
@@ -7,7 +8,6 @@ https://pengtech.net/hexo/hexo_apply_stellar_theme.html
 https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/hexo/hexo_create_site.html
 https://pengtech.net/sites/vps_chosing.html
-https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/flutter/install_flutter.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
