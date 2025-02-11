@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-01-24T15:49:08.341Z</updated>
+  <updated>2025-02-11T05:19:36.373Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-01-24T15:49:08.341Z</updated>
+    <updated>2025-02-11T05:19:36.373Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -49,6 +49,30 @@
     <id>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</id>
     <published>2025-01-19T16:00:00.000Z</published>
     <updated>2025-01-21T04:37:58.738Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 配置 Webstack 主题</title>
+    <link href="https://pengtech.net/hexo/hexo_apply_webstack_theme.html"/>
+    <id>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</id>
+    <published>2025-01-19T16:00:00.000Z</published>
+    <updated>2025-02-07T07:14:00.690Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -113,7 +137,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-02-03T15:22:46.589Z</updated>
+    <updated>2025-02-11T05:19:36.371Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -811,7 +835,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2024-12-26T14:30:59.599Z</updated>
+    <updated>2025-02-11T05:19:36.380Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -838,7 +862,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2024-12-30T06:34:58.786Z</updated>
+    <updated>2025-02-11T05:19:36.439Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -949,7 +973,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2024-08-24T05:25:57.090Z</updated>
+    <updated>2025-02-05T17:07:23.246Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -1627,7 +1651,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-01-31T03:52:52.278Z</updated>
+    <updated>2025-02-11T05:19:36.439Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2052,7 +2076,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-01-31T03:53:18.293Z</updated>
+    <updated>2025-02-11T05:19:36.422Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2091,7 +2115,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-01-31T03:53:26.125Z</updated>
+    <updated>2025-02-11T05:19:36.439Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3939,7 +3963,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2024-12-26T11:08:33.199Z</updated>
+    <updated>2025-02-11T05:19:36.438Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -5530,15 +5554,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5554,15 +5578,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     

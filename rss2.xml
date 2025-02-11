@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Fri, 24 Jan 2025 15:49:08 GMT</pubDate>
+    <pubDate>Tue, 11 Feb 2025 05:19:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -70,6 +70,32 @@
       
       
       <comments>https://pengtech.net/hexo/hexo_apply_stellar_theme.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo 配置 Webstack 主题</title>
+      <link>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</link>
+      <guid>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</guid>
+      <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://pengtech.net/hexo/hexo_apply_webstack_theme.html#disqus_thread</comments>
       
     </item>
     
@@ -5968,32 +5994,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -6016,6 +6016,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
