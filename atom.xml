@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-02-11T05:19:36.373Z</updated>
+  <updated>2025-02-19T13:29:01.390Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-02-11T05:19:36.373Z</updated>
+    <updated>2025-02-19T13:29:01.390Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -48,7 +48,7 @@
     <link href="https://pengtech.net/hexo/hexo_apply_stellar_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</id>
     <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-01-21T04:37:58.738Z</updated>
+    <updated>2025-02-19T09:56:21.128Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
@@ -96,7 +96,7 @@
     <link href="https://pengtech.net/sites/vps_chosing.html"/>
     <id>https://pengtech.net/sites/vps_chosing.html</id>
     <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-01-20T23:35:16.917Z</updated>
+    <updated>2025-02-19T13:31:06.748Z</updated>
     
     
     <summary type="html">&lt;p&gt;在当今数字时代，VPS 已经成为许多企业和个人网站的首选托管解决方案。但是在选择适合您需求的 VPS 时，有一些关键因素需要考虑。本文将介绍在面临 VPS 选择时必须知道的 17 个关键因素。&lt;/p&gt;</summary>
@@ -137,7 +137,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-02-11T05:19:36.371Z</updated>
+    <updated>2025-02-19T14:37:41.714Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -459,7 +459,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2024-12-14T18:27:53.025Z</updated>
+    <updated>2025-02-19T13:29:19.865Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -835,7 +835,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-02-11T05:19:36.380Z</updated>
+    <updated>2025-02-19T14:39:00.437Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -862,7 +862,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2025-02-11T05:19:36.439Z</updated>
+    <updated>2025-02-19T13:29:35.997Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -997,7 +997,7 @@
     <link href="https://pengtech.net/angular/angular_debug.html"/>
     <id>https://pengtech.net/angular/angular_debug.html</id>
     <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2024-11-13T14:43:11.875Z</updated>
+    <updated>2025-02-19T13:27:13.368Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文演示如何调试 Angular 应用程序。在本文中，我们将讨论。&lt;/p&gt;
@@ -1855,14 +1855,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-11-13T14:43:02.140Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -1880,14 +1880,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2025-02-19T13:27:06.684Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -2811,11 +2811,11 @@
     <link href="https://pengtech.net/history/computer_history_brief_timeline.html"/>
     <id>https://pengtech.net/history/computer_history_brief_timeline.html</id>
     <published>2023-09-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2025-02-19T10:53:04.223Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我为什么要写这篇文章? 计算机发展的速度太快了, 已经进入了蓬勃发展期. 但是依然看不到它的尽头, 看不清它的终极形态. 很多人都在追逐新的技术, 但是很少有人拿起笔系统的记录它的过去. 很多年以后当我们要追寻一项技术的来龙去脉的时候, 可能连它的”尸身”都找不到了.&lt;/p&gt;
-&lt;p&gt;比如说软盘驱动器（floppy disk driver）现在谁手上还保存有一张1.44MB的3.5英寸软盘, 谁电脑上还会装有软驱呢, 这在当时可是一项创新性的技术, 是便携式存储的鼻祖, 是一代人的回忆. 一张小小的软盘能装下一整套DOS操作系统, 能装下一个夏天的劳动成果. 但是现在当我想介绍存储技术的演进过程时, 不仅找不到一部软驱, 一张软盘, 就连一张合适的图片的很难找到了. 同样的命运的还有寻呼机机, 这个承载着很多人青春记忆的通信设备, 可能剩下脑海中的BiBi声了. 同样的命运的还有功能机, 早已过了手机换脸盆的淘汰期, 曾经层出不穷的款式, 不知道现在还有几款健在. 更不用说他们所依赖的生态系统, 比如基站设备, 外设装置.&lt;/p&gt;
+&lt;p&gt;比如说软盘驱动器（floppy disk driver）现在谁手上还保存有一张 1.44MB 的 3.5 英寸软盘, 谁电脑上还会装有软驱呢, 这在当时可是一项创新性的技术, 是便携式存储的鼻祖, 是一代人的回忆. 一张小小的软盘能装下一整套 DOS 操作系统, 能装下一个夏天的劳动成果. 但是现在当我想介绍存储技术的演进过程时, 不仅找不到一部软驱, 一张软盘, 就连一张合适的图片的很难找到了. 同样的命运的还有寻呼机机, 这个承载着很多人青春记忆的通信设备, 可能剩下脑海中的 BiBi 声了. 同样的命运的还有功能机, 早已过了手机换脸盆的淘汰期, 曾经层出不穷的款式, 不知道现在还有几款健在. 更不用说他们所依赖的生态系统, 比如基站设备, 外设装置.&lt;/p&gt;
 &lt;p&gt;站在当下这个似乎还能朦朦胧胧看到过去的时间节点, 在不费太多力气的情况下, 将不太遥远的过去记录下来, 省得后来人花费昂贵的代价去考古, 也不失为一件幸事.&lt;/p&gt;
 &lt;p&gt;为什么以编年体的形式记录这段历史? 其实这是我的某项计划的一部分, 还处于材料收集阶段, 收集计算机发展史也是我副业中的副业, 没有太多时间深入研究和系统性地整理, 只能以最简单的方式快速呈现内容, 不至于让整个计划胎死腹中(我已经有很多文章由于计划过于宏大而胎死腹中的先例了). 编年体是快速理清脉络, 呈现材料的最好方式. 它不需要花太多时间去整理去构思, 而且呈现效果也非常清晰. 另外我也非常喜欢将软件工程中的一些概念应用到写作中, 那就是小步快跑, 快速迭代; 再者就是重构. 有了足够的材料后, 我相信通过不断地重构, 不断地迭代, 能将其打造为我心中理想的样子. 所以这篇文章会是一篇不断完善的文章, 请有兴趣的朋友关注&lt;a href=&quot;https://pengtech.net/&quot;&gt;鹏叔的技术博客&lt;/a&gt;获取最新内容. 另外如何您有兴趣资助鹏叔的计划, &lt;a href=&quot;https://pengtech.net/history/computer_history_brief_timeline.html&quot;&gt;原文&lt;/a&gt;末尾有打赏功能, 请点一点, 在此表示感谢!&lt;/p&gt;</summary>
     
@@ -2995,7 +2995,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2024-11-13T14:44:39.842Z</updated>
+    <updated>2025-02-19T13:29:40.890Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -3112,19 +3112,14 @@
   </entry>
   
   <entry>
-    <title>fedora上安装gitlab-runner安装与配置</title>
-    <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
+    <title>macOS上安装gitlab-runner安装与配置</title>
+    <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
+    <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-11-13T14:43:20.309Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
-&lt;p&gt;本文是gitlab-runner安装和配置姊妹篇中的一篇，主要针对fedora操作系统，其它操作系统可以参考针对特定操作系统的姊妹篇。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
     
     
     
@@ -3138,14 +3133,19 @@
   </entry>
   
   <entry>
-    <title>macOS上安装gitlab-runner安装与配置</title>
-    <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
+    <title>fedora上安装gitlab-runner安装与配置</title>
+    <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
+    <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.421Z</updated>
+    <updated>2025-02-19T13:27:43.935Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
+&lt;p&gt;本文是gitlab-runner安装和配置姊妹篇中的一篇，主要针对fedora操作系统，其它操作系统可以参考针对特定操作系统的姊妹篇。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -3963,7 +3963,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-02-11T05:19:36.438Z</updated>
+    <updated>2025-02-19T13:29:31.196Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -5388,7 +5388,7 @@
     <link href="https://pengtech.net/others/worth_watching_movies.html"/>
     <id>https://pengtech.net/others/worth_watching_movies.html</id>
     <published>2022-06-16T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2025-02-19T11:09:05.515Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;值得观看的电影&quot;&gt;&lt;a href=&quot;#值得观看的电影&quot; class=&quot;headerlink&quot; title=&quot;值得观看的电影&quot;&gt;&lt;/a&gt;值得观看的电影&lt;/h2&gt;&lt;h3 id=&quot;《白日梦想家》&quot;&gt;&lt;a href=&quot;#《白日梦想家》&quot; class=&quot;headerlink&quot; title=&quot;《白日梦想家》&quot;&gt;&lt;/a&gt;《白日梦想家》&lt;/h3&gt;&lt;h3 id=&quot;《辩护人》&quot;&gt;&lt;a href=&quot;#《辩护人》&quot; class=&quot;headerlink&quot; title=&quot;《辩护人》&quot;&gt;&lt;/a&gt;《辩护人》&lt;/h3&gt;&lt;h3 id=&quot;《勇敢的心》&quot;&gt;&lt;a href=&quot;#《勇敢的心》&quot; class=&quot;headerlink&quot; title=&quot;《勇敢的心》&quot;&gt;&lt;/a&gt;《勇敢的心》&lt;/h3&gt;&lt;h3 id=&quot;《阿甘正传》&quot;&gt;&lt;a href=&quot;#《阿甘正传》&quot; class=&quot;headerlink&quot; title=&quot;《阿甘正传》&quot;&gt;&lt;/a&gt;《阿甘正传》&lt;/h3&gt;</summary>
@@ -5554,15 +5554,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5578,15 +5578,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -6700,14 +6700,15 @@
   </entry>
   
   <entry>
-    <title>Ansible 教程</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:54:05.186Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
@@ -6723,15 +6724,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>Ansible 教程</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
+    <updated>2024-10-22T14:54:05.186Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     
@@ -6836,7 +6836,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-11-13T14:43:27.335Z</updated>
+    <updated>2025-02-19T13:28:26.296Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
