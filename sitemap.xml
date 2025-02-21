@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/linux/email_server_install.html</loc>
+    
+    <lastmod>2025-02-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     
     <lastmod>2025-02-20</lastmod>
@@ -239,15 +248,6 @@
     <loc>https://pengtech.net/friends/</loc>
     
     <lastmod>2024-12-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/linux/email_server_install.html</loc>
-    
-    <lastmod>2024-12-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1307,15 +1307,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1326,6 +1317,15 @@
   
   <url>
     <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1541,7 +1541,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
+    <loc>https://pengtech.net/product/landing_page_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1550,7 +1550,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/landing_page_design.html</loc>
+    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1640,7 +1640,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1649,7 +1649,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/chocolatey_installation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1811,7 +1811,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_breadcrumbs.html</loc>
+    <loc>https://pengtech.net/angular/angular_chart_solutions.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1820,7 +1820,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_chart_solutions.html</loc>
+    <loc>https://pengtech.net/angular/angular_breadcrumbs.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2000,7 +2000,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2009,7 +2009,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2333,7 +2333,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/</loc>
+    <loc>https://pengtech.net/linux/</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2342,7 +2342,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/</loc>
+    <loc>https://pengtech.net/java/</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2585,7 +2585,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2594,7 +2594,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     

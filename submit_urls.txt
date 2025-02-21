@@ -1,3 +1,4 @@
+https://pengtech.net/linux/email_server_install.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/sites/vps_chosing.html
@@ -22,7 +23,6 @@ https://pengtech.net/linux/linux_update_alternatives.html
 https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/hexo/hexo_create_site.html
 https://pengtech.net/flutter/install_flutter.html
-https://pengtech.net/linux/email_server_install.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/vscode/cloud_ide_on_vultr.html
 https://pengtech.net/linux/vultr_account_creation.html

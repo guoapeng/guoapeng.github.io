@@ -2485,6 +2485,33 @@
     </item>
     
     <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular 14 有哪些更新</title>
       <link>https://pengtech.net/angular/angular_14_update.html</link>
       <guid>https://pengtech.net/angular/angular_14_update.html</guid>
@@ -2511,33 +2538,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_14_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -6679,9 +6679,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
