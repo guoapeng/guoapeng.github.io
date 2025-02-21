@@ -2005,33 +2005,6 @@
     </item>
     
     <item>
-      <title>Fedora 上安装与配置 Android studio</title>
-      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
-      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
-      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Windows上安装与配置Android SDK</title>
       <link>https://pengtech.net/android/android_sdk_install.html</link>
       <guid>https://pengtech.net/android/android_sdk_install.html</guid>
@@ -2055,6 +2028,33 @@
       
       
       <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 上安装与配置 Android studio</title>
+      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
+      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
+      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
       
     </item>
     
@@ -3360,29 +3360,6 @@
     </item>
     
     <item>
-      <title>macOS上安装gitlab-runner安装与配置</title>
-      <link>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</link>
-      <guid>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</guid>
-      <pubDate>Sun, 20 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/gitlab/">gitlab</category>
-      
-      
-      <category domain="https://pengtech.net/tags/gitlab/">gitlab</category>
-      
-      
-      <comments>https://pengtech.net/gitlab/gitlab_runner_on_macos.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>fedora上安装gitlab-runner安装与配置</title>
       <link>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</link>
       <guid>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</guid>
@@ -3407,6 +3384,29 @@
       
       
       <comments>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>macOS上安装gitlab-runner安装与配置</title>
+      <link>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</link>
+      <guid>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</guid>
+      <pubDate>Sun, 20 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/gitlab/">gitlab</category>
+      
+      
+      <category domain="https://pengtech.net/tags/gitlab/">gitlab</category>
+      
+      
+      <comments>https://pengtech.net/gitlab/gitlab_runner_on_macos.html#disqus_thread</comments>
       
     </item>
     
@@ -5994,32 +5994,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -6042,6 +6016,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
@@ -6679,9 +6679,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -7232,6 +7232,31 @@
     </item>
     
     <item>
+      <title>Ansible 教程</title>
+      <link>https://pengtech.net/ansible/ansible.html</link>
+      <guid>https://pengtech.net/ansible/ansible.html</guid>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>在Windows上安装Ansible</title>
       <link>https://pengtech.net/ansible/install_ansible_on_windows.html</link>
       <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
@@ -7254,31 +7279,6 @@
       
       
       <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Ansible 教程</title>
-      <link>https://pengtech.net/ansible/ansible.html</link>
-      <guid>https://pengtech.net/ansible/ansible.html</guid>
-      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
       
     </item>
     

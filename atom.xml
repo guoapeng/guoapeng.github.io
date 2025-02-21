@@ -137,7 +137,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-02-19T14:37:41.714Z</updated>
+    <updated>2025-02-20T15:04:36.996Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -1855,14 +1855,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2025-02-19T13:27:06.684Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -1880,14 +1880,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2025-02-19T13:27:06.684Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -3112,27 +3112,6 @@
   </entry>
   
   <entry>
-    <title>macOS上安装gitlab-runner安装与配置</title>
-    <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
-    <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.421Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="gitlab" scheme="https://pengtech.net/categories/devops/gitlab/"/>
-    
-    
-    <category term="gitlab" scheme="https://pengtech.net/tags/gitlab/"/>
-    
-  </entry>
-  
-  <entry>
     <title>fedora上安装gitlab-runner安装与配置</title>
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
@@ -3146,6 +3125,27 @@
 &lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="gitlab" scheme="https://pengtech.net/categories/devops/gitlab/"/>
+    
+    
+    <category term="gitlab" scheme="https://pengtech.net/tags/gitlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macOS上安装gitlab-runner安装与配置</title>
+    <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
+    <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
+    <published>2023-08-20T16:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.421Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
     
     
     
@@ -5554,15 +5554,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5578,15 +5578,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -6190,9 +6190,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -6700,15 +6700,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>Ansible 教程</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
+    <updated>2024-10-22T14:54:05.186Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     
@@ -6724,14 +6723,15 @@
   </entry>
   
   <entry>
-    <title>Ansible 教程</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:54:05.186Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
