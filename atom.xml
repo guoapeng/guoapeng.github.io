@@ -46,7 +46,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-02-19T13:29:01.390Z</updated>
+    <updated>2025-03-01T08:16:56.103Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -203,7 +203,7 @@
     <link href="https://pengtech.net/linux/email_server_install.html"/>
     <id>https://pengtech.net/linux/email_server_install.html</id>
     <published>2024-10-13T16:00:00.000Z</published>
-    <updated>2025-02-21T03:19:49.434Z</updated>
+    <updated>2025-03-04T11:20:46.419Z</updated>
     
     
     <summary type="html">&lt;p&gt;在正式进行安装邮件服务器之前，我们需要对邮件服务器概念有一些基础的了解。&lt;/p&gt;</summary>
@@ -484,7 +484,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2025-02-21T04:23:10.121Z</updated>
+    <updated>2025-03-01T08:17:44.084Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -860,7 +860,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-02-19T14:39:00.437Z</updated>
+    <updated>2025-03-01T08:16:51.943Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2140,7 +2140,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-02-11T05:19:36.439Z</updated>
+    <updated>2025-03-01T08:19:08.575Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2998,7 +2998,7 @@
     <link href="https://pengtech.net/windows/wsl_install.html"/>
     <id>https://pengtech.net/windows/wsl_install.html</id>
     <published>2023-08-28T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.445Z</updated>
+    <updated>2025-03-08T00:25:48.549Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WSL（Windows Subsyetem for Linux，适用于 Linux 的 Windows 子系统），是 Microsoft 公司于 2016 年在 Windows 10 平台发布的一项新功能，其使得用户可以在 Windows 操作系统上运行 ELF 格式的 Linux 可执行文件。&lt;/p&gt;
@@ -3020,7 +3020,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2025-02-19T13:29:40.890Z</updated>
+    <updated>2025-03-08T00:34:30.301Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -3283,7 +3283,7 @@
     <link href="https://pengtech.net/vmware/vmware_install_ubuntu.html"/>
     <id>https://pengtech.net/vmware/vmware_install_ubuntu.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2025-03-08T00:22:57.089Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;安装Ubuntu虚拟机主要是为了打包Tauri桌面应用, 这里使用的虚拟化平台是VMWare ESXi 6.7.&lt;/p&gt;
@@ -3437,7 +3437,7 @@
     <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
     <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-11-02T11:57:24.768Z</updated>
+    <updated>2025-03-08T00:23:40.438Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
@@ -3587,7 +3587,7 @@
     <link href="https://pengtech.net/web/svg.html"/>
     <id>https://pengtech.net/web/svg.html</id>
     <published>2023-08-07T16:00:00.000Z</published>
-    <updated>2024-08-07T16:39:45.628Z</updated>
+    <updated>2025-03-08T00:32:31.449Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SVG 是一种 XML 语言，类似 XHTML，可以用来绘制矢量图形，英文全称是Scalable Vector Graphics 可缩放矢量图, 是W3C的一项建议. 基于像素的图像, 如果被放大会看到明显的失真, 而svg是基于形状描述的, svg图像无论放大多少倍都不会失真.&lt;/p&gt;</summary>
@@ -3988,7 +3988,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-02-19T13:29:31.196Z</updated>
+    <updated>2025-03-01T08:18:34.200Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -4465,7 +4465,7 @@
     <link href="https://pengtech.net/network/Internal_network_penetration.html"/>
     <id>https://pengtech.net/network/Internal_network_penetration.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2024-08-26T10:29:22.773Z</updated>
+    <updated>2025-03-08T00:21:14.393Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;WireGuard 是由 Jason Donenfeld 等人用 C 语言编写的一个开源 威屁恩 协议，被视为下一代 威屁恩 协议，旨在解决许多困扰 IPSec&amp;#x2F;IKEv2、Open威屁恩 或 L2TP 等其他 威屁恩 协议的问题。它与 Tinc 和 MeshBird 等现代 威屁恩 产品有一些相似之处，即加密技术先进、配置简单。从 2020 年 1 月开始，它已经并入了 Linux 内核的 5.6 版本，这意味着大多数 Linux 发行版的用户将拥有一个开箱即用的 WireGuard。&lt;/p&gt;</summary>
@@ -5074,7 +5074,7 @@
     <link href="https://pengtech.net/rust/install_rust_on_windows.html"/>
     <id>https://pengtech.net/rust/install_rust_on_windows.html</id>
     <published>2022-11-28T16:00:00.000Z</published>
-    <updated>2024-11-02T13:57:33.349Z</updated>
+    <updated>2025-03-08T00:27:43.855Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装-rust&quot;&gt;&lt;a href=&quot;#1-安装-rust&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 rust&quot;&gt;&lt;/a&gt;1. 安装 rust&lt;/h2&gt;&lt;ul&gt;
@@ -5154,7 +5154,7 @@
     <link href="https://pengtech.net/database/install_postgresql_on_linux.html"/>
     <id>https://pengtech.net/database/install_postgresql_on_linux.html</id>
     <published>2022-11-26T16:00:00.000Z</published>
-    <updated>2024-07-13T19:30:15.702Z</updated>
+    <updated>2025-03-08T00:16:22.828Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文以PostgreSQL 15 为例讲解如何在linux上安装PostgreSQL。&lt;/p&gt;
@@ -5579,15 +5579,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5603,15 +5603,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -6215,9 +6215,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -6360,7 +6360,7 @@
     <link href="https://pengtech.net/linux/linux_shell_rsync.html"/>
     <id>https://pengtech.net/linux/linux_shell_rsync.html</id>
     <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-08-26T10:27:52.579Z</updated>
+    <updated>2025-03-08T00:33:49.592Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-rsync-简介&quot;&gt;&lt;a href=&quot;#1-rsync-简介&quot; class=&quot;headerlink&quot; title=&quot;1. rsync 简介&quot;&gt;&lt;/a&gt;1. rsync 简介&lt;/h2&gt;&lt;p&gt;rsync 就是远程同步的意思remote sync.&lt;br&gt;rsync 被用在UNIX &amp;#x2F; Linux执行备份操作操作.&lt;br&gt;rsync 工具包被用来从一个位置到另一个位置高效地同步文件和文件夹. rsync可以实现在同一台机器的不同文件直接备份,也可以跨服务器备份.&lt;/p&gt;
@@ -6436,7 +6436,7 @@
     <link href="https://pengtech.net/git/centos7_install_git_via_sourcecode.html"/>
     <id>https://pengtech.net/git/centos7_install_git_via_sourcecode.html</id>
     <published>2021-12-15T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2025-03-08T00:35:13.656Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;由于运行gitlab pipeline job遇到如下错误&lt;/p&gt;
@@ -6574,7 +6574,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_installation_upgrade.html"/>
     <id>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</id>
     <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.438Z</updated>
+    <updated>2025-03-08T00:29:19.112Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -6624,7 +6624,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_installation.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_installation.html</id>
     <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.421Z</updated>
+    <updated>2025-03-08T00:20:16.438Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装前准备工作&quot;&gt;&lt;a href=&quot;#1-安装前准备工作&quot; class=&quot;headerlink&quot; title=&quot;1. 安装前准备工作&quot;&gt;&lt;/a&gt;1. 安装前准备工作&lt;/h2&gt;&lt;h3 id=&quot;1-1-配置yum源&quot;&gt;&lt;a href=&quot;#1-1-配置yum源&quot; class=&quot;headerlink&quot; title=&quot;1.1. 配置yum源&quot;&gt;&lt;/a&gt;1.1. 配置yum源&lt;/h3&gt;&lt;p&gt;网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-runner已经到14.4.0了，在其&lt;a href=&quot;https://gitlab.com/gitlab-org/gitlab-runner&quot;&gt;gitliab仓库&lt;/a&gt;上已经说明 Project ‘gitlab-org&amp;#x2F;gitlab-ci-multi-runner’ was moved to ‘gitlab-org&amp;#x2F;gitlab-runner’. Please update any links and bookmarks that may still have the old path.&lt;br&gt;关于gitlab-runner与gitlab的兼容性原则，gitlab和gitlab-runner在主版本和小版本(major.minor)保持同步，具有相同主版本和小版本号的gitlab和gitlab-runner兼容性最好, 较老的runner可能可以兼容比較新的gitlab,反之亦然，但是不能完全保证．详情请参考&lt;a href=&quot;https://docs.gitlab.com/runner/#compatibility-with-gitlab-versions&quot;&gt;官网关于兼容性原文&lt;/a&gt;&lt;/p&gt;</summary>
@@ -6666,7 +6666,7 @@
     <link href="https://pengtech.net/hexo/hexo_mermaid_plugin.html"/>
     <id>https://pengtech.net/hexo/hexo_mermaid_plugin.html</id>
     <published>2021-11-01T16:00:00.000Z</published>
-    <updated>2024-10-04T15:52:27.286Z</updated>
+    <updated>2025-03-08T00:24:21.791Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-mermaid简介&quot;&gt;&lt;a href=&quot;#1-mermaid简介&quot; class=&quot;headerlink&quot; title=&quot;1. mermaid简介&quot;&gt;&lt;/a&gt;1. mermaid简介&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://philoenglish.com/query/mermaid&quot;&gt;mermaid&lt;/a&gt;是一种基于文本的格式生成图表和流程图的工具，是markdown文本很好的补充。&lt;br&gt;可以生成各种图表，其中包括流程图, 时序图, 甘特图等等．&lt;/p&gt;</summary>
@@ -6840,7 +6840,7 @@
     <link href="https://pengtech.net/git/how_to_configure_git_push.html"/>
     <id>https://pengtech.net/git/how_to_configure_git_push.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2025-03-08T00:31:11.453Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</summary>
@@ -6861,7 +6861,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2025-02-28T18:29:59.456Z</updated>
+    <updated>2025-03-08T00:25:05.832Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
@@ -6950,7 +6950,7 @@
     <link href="https://pengtech.net/web/web_basic_1.html"/>
     <id>https://pengtech.net/web/web_basic_1.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2024-08-26T10:35:33.429Z</updated>
+    <updated>2025-03-08T00:31:42.863Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1.html&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
@@ -7041,7 +7041,7 @@
     <link href="https://pengtech.net/vscode/vscode_install_and_config.html"/>
     <id>https://pengtech.net/vscode/vscode_install_and_config.html</id>
     <published>2021-10-13T16:00:00.000Z</published>
-    <updated>2024-08-28T14:47:56.545Z</updated>
+    <updated>2025-03-08T00:22:06.426Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -7168,7 +7168,7 @@
     <link href="https://pengtech.net/windows/chocolatey_installation.html"/>
     <id>https://pengtech.net/windows/chocolatey_installation.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.445Z</updated>
+    <updated>2025-03-08T00:26:52.798Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是-Chocolatey&quot;&gt;&lt;a href=&quot;#1-什么是-Chocolatey&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Chocolatey&quot;&gt;&lt;/a&gt;1. 什么是 Chocolatey&lt;/h2&gt;&lt;p&gt;Chocolatey 是一种软件管理解决方案，不同于您在 Windows 上体验过的任何解决方案。 可以这样想 - 您使用一个小 PowerShell 创建一个软件部署包，然后您可以将它部署到任何拥有 Windows 的地方（例如 Puppet、SCCM、Altiris、Connectwise Automate 等)。&lt;/p&gt;</summary>
@@ -7286,7 +7286,7 @@
     <link href="https://pengtech.net/nodejs/install_and_config_nodejs.html"/>
     <id>https://pengtech.net/nodejs/install_and_config_nodejs.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.290Z</updated>
+    <updated>2025-03-08T00:28:31.246Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-安装-nodejs&quot;&gt;&lt;a href=&quot;#1-安装-nodejs&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 nodejs&quot;&gt;&lt;/a&gt;1. 安装 nodejs&lt;/h2&gt;&lt;p&gt;Node.js 是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。&lt;/p&gt;</summary>
@@ -7374,7 +7374,7 @@
     <link href="https://pengtech.net/hexo/hexo_create_site.html"/>
     <id>https://pengtech.net/hexo/hexo_create_site.html</id>
     <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2025-01-21T01:14:54.441Z</updated>
+    <updated>2025-03-08T00:30:06.136Z</updated>
     
     
     <summary type="html">&lt;p&gt;在开始博客写作之前，一个重要的决定就是选择合适的博客框架进行独立部署。博客框架主要分为两种：动态博客和静态博客。除此之外，如果不愿意独立部署，还有一些一站式的博客平台可以选择。&lt;/p&gt;
