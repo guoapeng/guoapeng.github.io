@@ -43,10 +43,10 @@
     <link href="https://pengtech.net/hexo/hexo_seo_and_canonical_links.html"/>
     <id>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</id>
     <published>2025-03-04T16:00:00.000Z</published>
-    <updated>2025-03-08T01:16:31.728Z</updated>
+    <updated>2025-03-08T01:23:21.599Z</updated>
     
     
-    <summary type="html">&lt;p&gt;最近自己的网站突然被限流了，经过研究网站可能是被搜索引擎被惩罚了，问题可能出在重复的内容上，于是对 SEO 和 canonical link （权威链接）进行了一些研究。幸运的是，这项研究恰好及时帮助了一位有类似问题的博主，尽管原因不同。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;最近自己的网站突然被限流了，经过研究网站可能是被搜索引擎被惩罚了，问题可能出在重复的内容上，于是对 SEO 和 canonical link （规范链接）进行了一些研究。幸运的是，这项研究恰好及时帮助了一位有类似问题的博主，尽管原因不同。&lt;/p&gt;</summary>
     
     
     
@@ -2376,14 +2376,15 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -2401,15 +2402,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:25.497Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -4010,7 +4010,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-03-01T08:18:34.200Z</updated>
+    <updated>2025-03-08T01:30:43.502Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -5601,15 +5601,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -5625,15 +5625,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -6747,14 +6747,15 @@
   </entry>
   
   <entry>
-    <title>Ansible 教程</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:54:05.186Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
@@ -6770,15 +6771,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>Ansible 教程</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
+    <updated>2024-10-22T14:54:05.186Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     

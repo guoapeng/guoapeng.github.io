@@ -48,7 +48,7 @@
       <guid>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</guid>
       <pubDate>Tue, 04 Mar 2025 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;最近自己的网站突然被限流了，经过研究网站可能是被搜索引擎被惩罚了，问题可能出在重复的内容上，于是对 SEO 和 canonical link （权威链接）进行了一些研究。幸运的是，这项研究恰好及时帮助了一位有类似问题的博主，尽管原因不同。&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近自己的网站突然被限流了，经过研究网站可能是被搜索引擎被惩罚了，问题可能出在重复的内容上，于是对 SEO 和 canonical link （规范链接）进行了一些研究。幸运的是，这项研究恰好及时帮助了一位有类似问题的博主，尽管原因不同。&lt;/p&gt;</description>
       
       
       
@@ -2566,33 +2566,6 @@
     </item>
     
     <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -2617,6 +2590,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -6045,32 +6045,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -6093,6 +6067,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -7283,31 +7283,6 @@
     </item>
     
     <item>
-      <title>Ansible 教程</title>
-      <link>https://pengtech.net/ansible/ansible.html</link>
-      <guid>https://pengtech.net/ansible/ansible.html</guid>
-      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>在Windows上安装Ansible</title>
       <link>https://pengtech.net/ansible/install_ansible_on_windows.html</link>
       <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
@@ -7330,6 +7305,31 @@
       
       
       <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Ansible 教程</title>
+      <link>https://pengtech.net/ansible/ansible.html</link>
+      <guid>https://pengtech.net/ansible/ansible.html</guid>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
       
     </item>
     
