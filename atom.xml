@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-03-01T05:25:45.552Z</updated>
+  <updated>2025-03-08T01:14:55.185Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2025年各大主流国际域名服务商介绍</title>
+    <link href="https://pengtech.net/sites/domain-service-providers.html"/>
+    <id>https://pengtech.net/sites/domain-service-providers.html</id>
+    <published>2025-03-06T16:00:00.000Z</published>
+    <updated>2025-03-08T01:14:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在推广新的在线业务时，选择反映品牌的域名是关键步骤。好的域名容易记忆且输入快捷。一旦有了创业点子和一个令人印象深刻的名字，就需要购买和注册域名，并在服务器上托管网站。&lt;/p&gt;
+&lt;p&gt;为了简化这个复杂繁琐的过程，本文列出了国内外最好的域名注册商，以及如何选择最适合你的业务的域名注册商。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Domain" scheme="https://pengtech.net/categories/Domain/"/>
+    
+    
+    <category term="VPS" scheme="https://pengtech.net/tags/VPS/"/>
+    
+    <category term="Domain" scheme="https://pengtech.net/tags/Domain/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo SEO 之 canonical links</title>
     <link href="https://pengtech.net/hexo/hexo_seo_and_canonical_links.html"/>
     <id>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</id>
-    <published>2025-02-28T16:00:00.000Z</published>
-    <updated>2025-03-01T05:25:45.552Z</updated>
+    <published>2025-03-04T16:00:00.000Z</published>
+    <updated>2025-03-08T01:16:31.728Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近自己的网站突然被限流了，经过研究网站可能是被搜索引擎被惩罚了，问题可能出在重复的内容上，于是对 SEO 和 canonical link （权威链接）进行了一些研究。幸运的是，这项研究恰好及时帮助了一位有类似问题的博主，尽管原因不同。&lt;/p&gt;</summary>

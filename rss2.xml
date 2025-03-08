@@ -15,14 +15,38 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 01 Mar 2025 05:25:45 GMT</pubDate>
+    <pubDate>Sat, 08 Mar 2025 01:14:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>2025年各大主流国际域名服务商介绍</title>
+      <link>https://pengtech.net/sites/domain-service-providers.html</link>
+      <guid>https://pengtech.net/sites/domain-service-providers.html</guid>
+      <pubDate>Thu, 06 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在推广新的在线业务时，选择反映品牌的域名是关键步骤。好的域名容易记忆且输入快捷。一旦有了创业点子和一个令人印象深刻的名字，就需要购买和注册域名，并在服务器上托管网站。&lt;/p&gt;
+&lt;p&gt;为了简化这个复杂繁琐的过程，本文列出了国内外最好的域名注册商，以及如何选择最适合你的业务的域名注册商。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/Domain/">Domain</category>
+      
+      
+      <category domain="https://pengtech.net/tags/VPS/">VPS</category>
+      
+      <category domain="https://pengtech.net/tags/Domain/">Domain</category>
+      
+      
+      <comments>https://pengtech.net/sites/domain-service-providers.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hexo SEO 之 canonical links</title>
       <link>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</link>
       <guid>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</guid>
-      <pubDate>Fri, 28 Feb 2025 16:00:00 GMT</pubDate>
+      <pubDate>Tue, 04 Mar 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;最近自己的网站突然被限流了，经过研究网站可能是被搜索引擎被惩罚了，问题可能出在重复的内容上，于是对 SEO 和 canonical link （权威链接）进行了一些研究。幸运的是，这项研究恰好及时帮助了一位有类似问题的博主，尽管原因不同。&lt;/p&gt;</description>
       

@@ -1,3 +1,5 @@
+https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
+https://pengtech.net/sites/domain-service-providers.html
 https://pengtech.net/git/centos7_install_git_via_sourcecode.html
 https://pengtech.net/nodejs/install_nvm_on_windows.html
 https://pengtech.net/linux/linux_shell_rsync.html
@@ -24,7 +26,6 @@ https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/network/v2ray_server_install.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
 https://pengtech.net/k8s/kubernates_on_vultr.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/sites/vps_chosing.html
@@ -47,4 +48,3 @@ https://pengtech.net/vscode/cloud_ide_on_vultr.html
 https://pengtech.net/linux/vultr_account_creation.html
 https://pengtech.net/tauri/setup_tauri_for_linux.html
 https://pengtech.net/vmware/windows_env_setup.html
-https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html
