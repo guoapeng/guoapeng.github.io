@@ -2,7 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/bitcoin/xmrig_setup.html</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/bitcoin/LolMiner_on_linux.html</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/understand_https.html</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_theme_recommendation.html</loc>
+    
+    <lastmod>2025-03-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sites/domain-service-providers.html</loc>
     
     <lastmod>2025-03-08</lastmod>
     
@@ -21,15 +75,6 @@
   
   <url>
     <loc>https://pengtech.net/hexo/</loc>
-    
-    <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/sites/domain-service-providers.html</loc>
     
     <lastmod>2025-03-08</lastmod>
     
@@ -506,27 +551,9 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/hexo/hexo_theme_recommendation.html</loc>
-    
-    <lastmod>2025-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/flutter/install_flutter.html</loc>
     
     <lastmod>2025-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
-    
-    <lastmod>2024-12-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -653,15 +680,6 @@
     <loc>https://pengtech.net/angular/angular_ng2_charts.html</loc>
     
     <lastmod>2024-10-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/understand_https.html</loc>
-    
-    <lastmod>2024-10-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1469,7 +1487,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1478,7 +1496,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/java/how_to_create_springBoot_proj.html</loc>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1568,7 +1586,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1577,7 +1595,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1685,7 +1703,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1694,7 +1712,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2117,7 +2135,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2126,7 +2144,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2785,7 +2803,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <lastmod>2025-03-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

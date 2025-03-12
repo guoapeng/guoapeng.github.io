@@ -15,11 +15,55 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 08 Mar 2025 01:14:55 GMT</pubDate>
+    <pubDate>Wed, 12 Mar 2025 11:06:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>2025年各大主流国际域名服务商介绍</title>
+      <title>如何在 Linux 上运行 LolMiner 挖矿教程</title>
+      <link>https://pengtech.net/bitcoin/LolMiner_on_linux.html</link>
+      <guid>https://pengtech.net/bitcoin/LolMiner_on_linux.html</guid>
+      <pubDate>Mon, 10 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;LolMiner 是一款开源的加密货币挖矿软件，它支持多种加密货币的挖掘，包括以太坊（ETH）、以太坊经典（ETC）、狗狗币（DOGE）等，同时兼容多种算法，如 Ethash、KawPow、Cuckoo Cycle 等。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/Bitcoin/">Bitcoin</category>
+      
+      
+      <category domain="https://pengtech.net/tags/LolMiner/">LolMiner</category>
+      
+      <category domain="https://pengtech.net/tags/Dogecoin/">Dogecoin</category>
+      
+      
+      <comments>https://pengtech.net/bitcoin/LolMiner_on_linux.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
+      <link>https://pengtech.net/bitcoin/xmrig_setup.html</link>
+      <guid>https://pengtech.net/bitcoin/xmrig_setup.html</guid>
+      <pubDate>Mon, 10 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;XMRig是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于CryptoNight算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/bitcoin/">bitcoin</category>
+      
+      
+      <category domain="https://pengtech.net/tags/bitcoin/">bitcoin</category>
+      
+      
+      <comments>https://pengtech.net/bitcoin/xmrig_setup.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>2025年各大主流域名服务商汇总</title>
       <link>https://pengtech.net/sites/domain-service-providers.html</link>
       <guid>https://pengtech.net/sites/domain-service-providers.html</guid>
       <pubDate>Thu, 06 Mar 2025 16:00:00 GMT</pubDate>
@@ -273,7 +317,7 @@
       
       <description>&lt;h2 id=&quot;1-HTTP-协议&quot;&gt;&lt;a href=&quot;#1-HTTP-协议&quot; class=&quot;headerlink&quot; title=&quot;1. HTTP 协议&quot;&gt;&lt;/a&gt;1. HTTP 协议&lt;/h2&gt;&lt;p&gt;HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写,是用于从万维网（WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。&lt;/p&gt;
 &lt;p&gt;HTTP 是一个基于 TCP&amp;#x2F;IP 通信协议来传递数据，HTTP 协议承载的数据类型包括 HTML 文件,Javascript, css, 图片，json，yaml, pdf 等等数据类型。&lt;/p&gt;
-&lt;p&gt;HTTP 是一个属于应用层协议，应用层有专门的应用服务器，例如: Nginx, Apache HTTP Server, Candy, Apache Tomcat, IIS, Weblogic、WebSphere, jetty。&lt;/p&gt;
+&lt;p&gt;HTTP 是一个属于应用层协议，应用层有专门的应用服务器，例如: Nginx, Apache HTTP Server, Candy, Apache Tomcat, IIS, Weblogic、WebSphere, jetty等等。&lt;/p&gt;
 &lt;p&gt;用户也可以使用各种语言提供的网络库，框架实现自己的 HTTP 服务.&lt;/p&gt;</description>
       
       
@@ -2566,6 +2610,33 @@
     </item>
     
     <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -2590,33 +2661,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -3598,32 +3642,6 @@
     </item>
     
     <item>
-      <title>如何使用VMware ESXi安装一台Windows虚拟机</title>
-      <link>https://pengtech.net/vmware/vmware_install_windows.html</link>
-      <guid>https://pengtech.net/vmware/vmware_install_windows.html</guid>
-      <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
-&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows.html&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      <category domain="https://pengtech.net/tags/macOS/">macOS</category>
-      
-      
-      <comments>https://pengtech.net/vmware/vmware_install_windows.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>用Vmware安装一台MacOS虚拟机</title>
       <link>https://pengtech.net/vmware/vmware_macos_vm.html</link>
       <guid>https://pengtech.net/vmware/vmware_macos_vm.html</guid>
@@ -3646,6 +3664,32 @@
       
       
       <comments>https://pengtech.net/vmware/vmware_macos_vm.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何使用VMware ESXi安装一台Windows虚拟机</title>
+      <link>https://pengtech.net/vmware/vmware_install_windows.html</link>
+      <guid>https://pengtech.net/vmware/vmware_install_windows.html</guid>
+      <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
+&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows.html&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      <category domain="https://pengtech.net/tags/macOS/">macOS</category>
+      
+      
+      <comments>https://pengtech.net/vmware/vmware_install_windows.html#disqus_thread</comments>
       
     </item>
     
@@ -3704,33 +3748,6 @@
     </item>
     
     <item>
-      <title>Tauri开发环境配置</title>
-      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
-      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
       <link>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</link>
       <guid>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</guid>
@@ -3755,6 +3772,33 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_gitlab_pipeline.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri开发环境配置</title>
+      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
+      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
       
     </item>
     
@@ -6045,32 +6089,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -6093,6 +6111,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     

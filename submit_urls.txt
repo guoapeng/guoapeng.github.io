@@ -1,6 +1,11 @@
+https://pengtech.net/bitcoin/xmrig_setup.html
+https://pengtech.net/bitcoin/LolMiner_on_linux.html
+https://pengtech.net/network/understand_https.html
 https://pengtech.net/network/v2rayN_usage.html
-https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
+https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
+https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/sites/domain-service-providers.html
+https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
 https://pengtech.net/git/centos7_install_git_via_sourcecode.html
 https://pengtech.net/nodejs/install_nvm_on_windows.html
 https://pengtech.net/linux/linux_shell_rsync.html
@@ -41,10 +46,5 @@ https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/hexo/hexo_apply_webstack_theme.html
 https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/linux/linux_update_alternatives.html
-https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/flutter/install_flutter.html
-https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/vscode/cloud_ide_on_vultr.html
-https://pengtech.net/linux/vultr_account_creation.html
-https://pengtech.net/tauri/setup_tauri_for_linux.html
-https://pengtech.net/vmware/windows_env_setup.html
