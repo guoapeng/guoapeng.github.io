@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sun, 16 Mar 2025 03:48:59 GMT</pubDate>
+    <pubDate>Mon, 17 Mar 2025 15:57:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>部署 docker 镜像加速服务</title>
+      <link>https://pengtech.net/docker/install_docker_proxy.html</link>
+      <guid>https://pengtech.net/docker/install_docker_proxy.html</guid>
+      <pubDate>Sun, 16 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;由于近期 hub.docker.com 等容器镜像站在国内已经被墙，并且现在看来也无重新可用的可能性了。所以手里有闲置服务器的佬友可以选择自己搭建一个 Docker 镜像加速服务，以便能够中转对 Docker 官方镜像仓库的请求，解决国内无法访问或访问缓慢的问题。本文主要讲述如何使用一台海外 VPS,手动搭建一台镜像加速服务器。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/docker/">docker</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/docker/">docker</category>
+      
+      
+      <comments>https://pengtech.net/docker/install_docker_proxy.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>linux 下清空回收站命令</title>
@@ -2151,33 +2176,6 @@
     </item>
     
     <item>
-      <title>Windows上安装与配置Android SDK</title>
-      <link>https://pengtech.net/android/android_sdk_install.html</link>
-      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
-      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Fedora 上安装与配置 Android studio</title>
       <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
       <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
@@ -2201,6 +2199,33 @@
       
       
       <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows上安装与配置Android SDK</title>
+      <link>https://pengtech.net/android/android_sdk_install.html</link>
+      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
+      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
       
     </item>
     
@@ -2631,6 +2656,33 @@
     </item>
     
     <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular 14 有哪些更新</title>
       <link>https://pengtech.net/angular/angular_14_update.html</link>
       <guid>https://pengtech.net/angular/angular_14_update.html</guid>
@@ -2657,33 +2709,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_14_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -7205,9 +7230,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/windows/">windows</category>
-      
       <category domain="https://pengtech.net/tags/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/tags/windows/">windows</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
