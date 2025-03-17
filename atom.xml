@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-03-15T11:14:24.101Z</updated>
+  <updated>2025-03-16T03:48:59.291Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux 下清空回收站命令</title>
+    <link href="https://pengtech.net/linux/linux_cleanup_trash.html"/>
+    <id>https://pengtech.net/linux/linux_cleanup_trash.html</id>
+    <published>2025-03-14T16:00:00.000Z</published>
+    <updated>2025-03-16T03:48:59.291Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;相信每个人都对 回收站(trashcan)很熟悉，因为无论是对 Linux 用户，还是 Windows 用户，或者 Mac 用户来说，它都很常见。当你删除一个文件或目录的时候，该文件或目录会被移动到回收站中。&lt;/p&gt;
+&lt;p&gt;需要注意的是，当把文件移动到回收站以后，文件系统空间并没有被释放，除非把回收站清空。&lt;/p&gt;
+&lt;p&gt;如果不想永久删除文件的话（清空回收站），可以利用回收站临时存储被删除了的文件，从而在必要的时候能够帮助我们恢复删除了的文件。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>如何在 VSCode 中免费使用 codepilot?</title>
@@ -1738,12 +1761,13 @@
     <link href="https://pengtech.net/network/dns_pollution_issue.html"/>
     <id>https://pengtech.net/network/dns_pollution_issue.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2024-09-01T21:37:42.831Z</updated>
+    <updated>2025-03-16T00:43:58.882Z</updated>
     
     
     <summary type="html">&lt;p&gt;一直用的 GitHub，突然一下子不能访问了，最后发现是 DNS 解析的 IP 地址出了问题，按照以下方法修改又能访问 github 了。&lt;/p&gt;
 &lt;p&gt;最后发现是DNS解析被污染了，解析到了无法访问的ip地址，通过ipaddress等网站查询到正确的地址，采用本地解析的方式，最终解决了问题。&lt;/p&gt;
-&lt;p&gt;关于DNS解析污染参考&lt;a href=&quot;https://github.com/hoochanlon/fq-book/blob/master/docs/doub/6t3mypbm-5.md&quot;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;关于DNS解析污染参考&lt;a href=&quot;https://github.com/hoochanlon/fq-book/blob/master/docs/doub/6t3mypbm-5.md&quot;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当然终极方法还是搭建梯子，搭建梯子的方法有很多种，可以到&lt;a href=&quot;https://pengtech.net/&quot;&gt;我的首页&lt;/a&gt;去找。&lt;/p&gt;</summary>
     
     
     
@@ -4504,7 +4528,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2024-09-28T21:23:56.479Z</updated>
+    <updated>2025-03-16T11:57:29.756Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是Docker容器？&quot;&gt;&lt;a href=&quot;#1-什么是Docker容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Docker容器？&quot;&gt;&lt;/a&gt;1. 什么是Docker容器？&lt;/h2&gt;&lt;p&gt;Docker是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行Linux或Windows等系统的服务器上。相较于传统虚拟机，Docker容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
@@ -5239,7 +5263,7 @@
     <link href="https://pengtech.net/database/install_postgresql_on_linux.html"/>
     <id>https://pengtech.net/database/install_postgresql_on_linux.html</id>
     <published>2022-11-26T16:00:00.000Z</published>
-    <updated>2025-03-08T00:16:22.828Z</updated>
+    <updated>2025-03-16T08:11:33.755Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文以PostgreSQL 15 为例讲解如何在linux上安装PostgreSQL。&lt;/p&gt;

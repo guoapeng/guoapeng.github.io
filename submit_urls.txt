@@ -1,3 +1,7 @@
+https://pengtech.net/docker/docker_install.html
+https://pengtech.net/database/install_postgresql_on_linux.html
+https://pengtech.net/linux/linux_cleanup_trash.html
+https://pengtech.net/network/dns_pollution_issue.html
 https://pengtech.net/vscode/how_to_use_codepilot_free.html
 https://pengtech.net/vscode/vscode_install_and_config.html
 https://pengtech.net/history/computer_history_brief_timeline.html
@@ -28,7 +32,6 @@ https://pengtech.net/tauri/tauri_gitlab_pipeline.html
 https://pengtech.net/vmware/vmware_install_ubuntu.html
 https://pengtech.net/network/Internal_network_penetration.html
 https://pengtech.net/gitlab/gitlab_runner_installation.html
-https://pengtech.net/database/install_postgresql_on_linux.html
 https://pengtech.net/linux/email_server_install.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/v2ray_server_install.html
@@ -45,6 +48,3 @@ https://pengtech.net/others/worth_watching_movies.html
 https://pengtech.net/hexo/hexo_apply_stellar_theme.html
 https://pengtech.net/network/install_config_v2rayA_on_linux.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
-https://pengtech.net/hexo/hexo_apply_webstack_theme.html
-https://pengtech.net/hexo/hexo_apply_icarus_theme.html
-https://pengtech.net/linux/linux_update_alternatives.html

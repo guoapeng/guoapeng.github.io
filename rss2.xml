@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 15 Mar 2025 11:14:24 GMT</pubDate>
+    <pubDate>Sun, 16 Mar 2025 03:48:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>linux 下清空回收站命令</title>
+      <link>https://pengtech.net/linux/linux_cleanup_trash.html</link>
+      <guid>https://pengtech.net/linux/linux_cleanup_trash.html</guid>
+      <pubDate>Fri, 14 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;相信每个人都对 回收站(trashcan)很熟悉，因为无论是对 Linux 用户，还是 Windows 用户，或者 Mac 用户来说，它都很常见。当你删除一个文件或目录的时候，该文件或目录会被移动到回收站中。&lt;/p&gt;
+&lt;p&gt;需要注意的是，当把文件移动到回收站以后，文件系统空间并没有被释放，除非把回收站清空。&lt;/p&gt;
+&lt;p&gt;如果不想永久删除文件的话（清空回收站），可以利用回收站临时存储被删除了的文件，从而在必要的时候能够帮助我们恢复删除了的文件。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      
+      <comments>https://pengtech.net/linux/linux_cleanup_trash.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>如何在 VSCode 中免费使用 codepilot?</title>
@@ -1883,7 +1908,8 @@
       
       <description>&lt;p&gt;一直用的 GitHub，突然一下子不能访问了，最后发现是 DNS 解析的 IP 地址出了问题，按照以下方法修改又能访问 github 了。&lt;/p&gt;
 &lt;p&gt;最后发现是DNS解析被污染了，解析到了无法访问的ip地址，通过ipaddress等网站查询到正确的地址，采用本地解析的方式，最终解决了问题。&lt;/p&gt;
-&lt;p&gt;关于DNS解析污染参考&lt;a href=&quot;https://github.com/hoochanlon/fq-book/blob/master/docs/doub/6t3mypbm-5.md&quot;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;关于DNS解析污染参考&lt;a href=&quot;https://github.com/hoochanlon/fq-book/blob/master/docs/doub/6t3mypbm-5.md&quot;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当然终极方法还是搭建梯子，搭建梯子的方法有很多种，可以到&lt;a href=&quot;https://pengtech.net/&quot;&gt;我的首页&lt;/a&gt;去找。&lt;/p&gt;</description>
       
       
       
