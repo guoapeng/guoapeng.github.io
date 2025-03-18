@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/docker/install_docker_proxy.html</loc>
     <lastmod>2025-03-17</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/docker/docker_install.html</loc>
-    <lastmod>2025-03-16</lastmod>
+    <lastmod>2025-03-17</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/database/install_postgresql_on_linux.html</loc>
@@ -769,11 +773,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -797,11 +801,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>

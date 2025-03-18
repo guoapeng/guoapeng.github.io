@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-03-17T15:57:28.148Z</updated>
+  <updated>2025-03-18T11:32:23.144Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>部署 docker 镜像加速服务</title>
+    <title>2025 年最新国内可用 Docker 镜像加速器汇总</title>
+    <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
+    <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
+    <published>2025-03-17T16:00:00.000Z</published>
+    <updated>2025-03-18T11:32:23.144Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，并更新这个列表。如果您知道新的可用站点，也欢迎随时补充！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/categories/devops/docker/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/tags/docker/"/>
+    
+    <category term="docker-registry" scheme="https://pengtech.net/tags/docker-registry/"/>
+    
+    <category term="mirrors" scheme="https://pengtech.net/tags/mirrors/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手动部署 docker 镜像加速服务</title>
     <link href="https://pengtech.net/docker/install_docker_proxy.html"/>
     <id>https://pengtech.net/docker/install_docker_proxy.html</id>
     <published>2025-03-16T16:00:00.000Z</published>
-    <updated>2025-03-17T15:57:28.148Z</updated>
+    <updated>2025-03-17T22:04:13.183Z</updated>
     
     
     <summary type="html">&lt;p&gt;由于近期 hub.docker.com 等容器镜像站在国内已经被墙，并且现在看来也无重新可用的可能性了。所以手里有闲置服务器的佬友可以选择自己搭建一个 Docker 镜像加速服务，以便能够中转对 Docker 官方镜像仓库的请求，解决国内无法访问或访问缓慢的问题。本文主要讲述如何使用一台海外 VPS,手动搭建一台镜像加速服务器。&lt;/p&gt;</summary>
@@ -2012,14 +2039,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2025-02-19T13:27:06.684Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -2037,14 +2064,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2025-02-19T13:27:06.684Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -2458,14 +2485,17 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 14 有哪些更新</title>
+    <link href="https://pengtech.net/angular/angular_14_update.html"/>
+    <id>https://pengtech.net/angular/angular_14_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:17.067Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
+&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
+&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
+&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
     
     
     
@@ -2483,17 +2513,14 @@
   </entry>
   
   <entry>
-    <title>Angular 14 有哪些更新</title>
-    <link href="https://pengtech.net/angular/angular_14_update.html"/>
-    <id>https://pengtech.net/angular/angular_14_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:17.067Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
-&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
-&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
-&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -4551,7 +4578,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-03-16T11:57:29.756Z</updated>
+    <updated>2025-03-17T15:59:06.169Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是Docker容器？&quot;&gt;&lt;a href=&quot;#1-什么是Docker容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Docker容器？&quot;&gt;&lt;/a&gt;1. 什么是Docker容器？&lt;/h2&gt;&lt;p&gt;Docker是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行Linux或Windows等系统的服务器上。相较于传统虚拟机，Docker容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
@@ -6347,9 +6374,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -6699,9 +6726,9 @@
     
     
     
-    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
-    
     <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
+    
+    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
     
   </entry>
   
@@ -7511,27 +7538,6 @@
     
     
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Rust 编程语言入门教程</title>
-    <link href="https://pengtech.net/rust/rust_study.html"/>
-    <id>https://pengtech.net/rust/rust_study.html</id>
-    <published>2021-10-02T16:00:00.000Z</published>
-    <updated>2024-08-16T20:43:07.235Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-第一章-Rust-简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust-简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust 简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust 简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用-Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用-Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用 Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用 Rust&lt;/h3&gt;&lt;p&gt;Rust 是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换 C&amp;#x2F;C++, Rust 和他们具有同样的性能, 但是很多常见的 bug 在编译时就可以被消灭.&lt;br&gt;Rust 是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="language" scheme="https://pengtech.net/categories/language/"/>
-    
-    <category term="rust" scheme="https://pengtech.net/categories/language/rust/"/>
-    
-    
-    <category term="Rust" scheme="https://pengtech.net/tags/Rust/"/>
     
   </entry>
   

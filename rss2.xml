@@ -15,11 +15,40 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Mon, 17 Mar 2025 15:57:28 GMT</pubDate>
+    <pubDate>Tue, 18 Mar 2025 11:32:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>部署 docker 镜像加速服务</title>
+      <title>2025 年最新国内可用 Docker 镜像加速器汇总</title>
+      <link>https://pengtech.net/docker/docker-registry-mirrors.html</link>
+      <guid>https://pengtech.net/docker/docker-registry-mirrors.html</guid>
+      <pubDate>Mon, 17 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，并更新这个列表。如果您知道新的可用站点，也欢迎随时补充！&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/docker/">docker</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/docker/">docker</category>
+      
+      <category domain="https://pengtech.net/tags/docker-registry/">docker-registry</category>
+      
+      <category domain="https://pengtech.net/tags/mirrors/">mirrors</category>
+      
+      
+      <comments>https://pengtech.net/docker/docker-registry-mirrors.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>手动部署 docker 镜像加速服务</title>
       <link>https://pengtech.net/docker/install_docker_proxy.html</link>
       <guid>https://pengtech.net/docker/install_docker_proxy.html</guid>
       <pubDate>Sun, 16 Mar 2025 16:00:00 GMT</pubDate>
@@ -2176,33 +2205,6 @@
     </item>
     
     <item>
-      <title>Fedora 上安装与配置 Android studio</title>
-      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
-      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
-      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Windows上安装与配置Android SDK</title>
       <link>https://pengtech.net/android/android_sdk_install.html</link>
       <guid>https://pengtech.net/android/android_sdk_install.html</guid>
@@ -2226,6 +2228,33 @@
       
       
       <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 上安装与配置 Android studio</title>
+      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
+      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
+      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
       
     </item>
     
@@ -2656,33 +2685,6 @@
     </item>
     
     <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular 14 有哪些更新</title>
       <link>https://pengtech.net/angular/angular_14_update.html</link>
       <guid>https://pengtech.net/angular/angular_14_update.html</guid>
@@ -2709,6 +2711,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_14_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -6850,9 +6879,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -7230,9 +7259,9 @@
       
       
       
-      <category domain="https://pengtech.net/tags/OS/">OS</category>
-      
       <category domain="https://pengtech.net/tags/windows/">windows</category>
+      
+      <category domain="https://pengtech.net/tags/OS/">OS</category>
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
@@ -8111,29 +8140,6 @@
       
       
       <comments>https://pengtech.net/hexo/hexo_create_site.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Rust 编程语言入门教程</title>
-      <link>https://pengtech.net/rust/rust_study.html</link>
-      <guid>https://pengtech.net/rust/rust_study.html</guid>
-      <pubDate>Sat, 02 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-第一章-Rust-简介&quot;&gt;&lt;a href=&quot;#1-第一章-Rust-简介&quot; class=&quot;headerlink&quot; title=&quot;1. 第一章: Rust 简介&quot;&gt;&lt;/a&gt;1. 第一章: Rust 简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-为什么要用-Rust&quot;&gt;&lt;a href=&quot;#1-1-为什么要用-Rust&quot; class=&quot;headerlink&quot; title=&quot;1.1. 为什么要用 Rust&quot;&gt;&lt;/a&gt;1.1. 为什么要用 Rust&lt;/h3&gt;&lt;p&gt;Rust 是一种令人兴奋的新编程语言, 它可以让每一个人编写可靠且高效的软件.&lt;br&gt;它可以用来替换 C&amp;#x2F;C++, Rust 和他们具有同样的性能, 但是很多常见的 bug 在编译时就可以被消灭.&lt;br&gt;Rust 是一种通用的编程语言, 但是它更善于以下场景:&lt;br&gt;需要运行时的速度&lt;br&gt;需要内存安全&lt;br&gt;更好的利用多处理器&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/language/">language</category>
-      
-      <category domain="https://pengtech.net/categories/language/rust/">rust</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Rust/">Rust</category>
-      
-      
-      <comments>https://pengtech.net/rust/rust_study.html#disqus_thread</comments>
       
     </item>
     
