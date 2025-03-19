@@ -1,4 +1,5 @@
 https://pengtech.net/docker/docker-registry-mirrors.html
+https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html
 https://pengtech.net/docker/install_docker_proxy.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/database/install_postgresql_on_linux.html
@@ -47,4 +48,3 @@ https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
 https://pengtech.net/angular/angular_debug.html
 https://pengtech.net/android/android_sdk_install.html
 https://pengtech.net/others/worth_watching_movies.html
-https://pengtech.net/hexo/hexo_apply_stellar_theme.html

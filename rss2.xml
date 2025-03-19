@@ -15,8 +15,39 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Tue, 18 Mar 2025 11:32:23 GMT</pubDate>
+    <pubDate>Wed, 19 Mar 2025 12:37:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>如何设置Docker、 Containerd、 Podman容器镜像加速器</title>
+      <link>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</link>
+      <guid>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</guid>
+      <pubDate>Tue, 18 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;从官方镜像仓库（如 Docker Hub、Kubernetes 镜像库）拉取镜像时，国内访问可能较慢，使用镜像加速器可以显著提高下载速度。官方镜像库可能受限于网络封锁、网络波动、带宽限制或地理位置的影响，导致拉取超时。加速器通常部署在更接近用户的服务器上，优化访问路径，减少超时问题。&lt;/p&gt;
+&lt;p&gt;如何获取国内可用的 Docker 镜像加速器可以参考 &lt;a href=&quot;https://pengtech.net/docker/docker-registry-mirrors.html&quot;&gt;2025 年最新国内可用 Docker 镜像加速器汇总&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;获取到镜像加速器地址后可以按以下指引进行配置。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/docker/">docker</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/docker/">docker</category>
+      
+      <category domain="https://pengtech.net/tags/docker-registry/">docker-registry</category>
+      
+      <category domain="https://pengtech.net/tags/mirrors/">mirrors</category>
+      
+      
+      <comments>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2025 年最新国内可用 Docker 镜像加速器汇总</title>
@@ -2902,6 +2933,31 @@
     </item>
     
     <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -2925,31 +2981,6 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -6863,32 +6894,6 @@
     </item>
     
     <item>
-      <title>Linux下安装gradle</title>
-      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
-      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
-      <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      
-      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>在fedora35上安装virtualbox</title>
       <link>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</link>
       <guid>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</guid>
@@ -6915,6 +6920,32 @@
       
       
       <comments>https://pengtech.net/linux/install_virtualbox_on_fedora35.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux下安装gradle</title>
+      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
+      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
+      <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
+&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      
+      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
       
     </item>
     
@@ -8115,31 +8146,6 @@
       
       
       <comments>https://pengtech.net/hexo/hexo_blog_comments.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>使用 Hexo 快速搭建自己的博客系统</title>
-      <link>https://pengtech.net/hexo/hexo_create_site.html</link>
-      <guid>https://pengtech.net/hexo/hexo_create_site.html</guid>
-      <pubDate>Sun, 03 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在开始博客写作之前，一个重要的决定就是选择合适的博客框架进行独立部署。博客框架主要分为两种：动态博客和静态博客。除此之外，如果不愿意独立部署，还有一些一站式的博客平台可以选择。&lt;/p&gt;
-&lt;h2 id=&quot;1-什么是静态博客？&quot;&gt;&lt;a href=&quot;#1-什么是静态博客？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是静态博客？&quot;&gt;&lt;/a&gt;1. 什么是静态博客？&lt;/h2&gt;&lt;p&gt;静态Web网站是指主要由静态页面组成的网站，这些静态页面通常包括HTML、CSS、JavaScript、图片等文件，它们直接存储在服务器上，并在用户请求时由服务器发送给用户的浏览器进行显示。与动态Web网站相比，静态Web网站不依赖于服务器端脚本或数据库来生成页面内容，而是直接展示预先设计好的页面。&lt;/p&gt;
-&lt;p&gt;静态博客是指将博客内容（如文章、页面等）通过生成工具将作者书写的博文直接编译成 HTML、CSS、JS 等静态web技术支持的博客形式，并通过静态服务器进行托管和访问的博客系统。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://pengtech.net/hexo/hexo_create_site.html#disqus_thread</comments>
       
     </item>
     
