@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-03-19T12:37:07.325Z</updated>
+  <updated>2025-03-20T08:50:52.118Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>如何设置Docker、 Containerd、 Podman容器镜像加速器</title>
+    <title>如何设置Docker、 Containerd、 Podman容器镜像加速器？</title>
     <link href="https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</id>
     <published>2025-03-18T16:00:00.000Z</published>
-    <updated>2025-03-19T12:37:07.325Z</updated>
+    <updated>2025-03-20T08:50:52.118Z</updated>
     
     
     <summary type="html">&lt;p&gt;从官方镜像仓库（如 Docker Hub、Kubernetes 镜像库）拉取镜像时，国内访问可能较慢，使用镜像加速器可以显著提高下载速度。官方镜像库可能受限于网络封锁、网络波动、带宽限制或地理位置的影响，导致拉取超时。加速器通常部署在更接近用户的服务器上，优化访问路径，减少超时问题。&lt;/p&gt;
@@ -50,7 +50,7 @@
     <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-03-19T12:39:28.112Z</updated>
+    <updated>2025-03-19T23:16:00.925Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，并更新这个列表。如果您知道新的可用站点，也欢迎随时补充！&lt;/p&gt;</summary>
@@ -77,7 +77,7 @@
     <link href="https://pengtech.net/docker/install_docker_proxy.html"/>
     <id>https://pengtech.net/docker/install_docker_proxy.html</id>
     <published>2025-03-16T16:00:00.000Z</published>
-    <updated>2025-03-17T22:04:13.183Z</updated>
+    <updated>2025-03-20T09:09:51.644Z</updated>
     
     
     <summary type="html">&lt;p&gt;由于近期 hub.docker.com 等容器镜像站在国内已经被墙，并且现在看来也无重新可用的可能性了。所以手里有闲置服务器的佬友可以选择自己搭建一个 Docker 镜像加速服务，以便能够中转对 Docker 官方镜像仓库的请求，解决国内无法访问或访问缓慢的问题。本文主要讲述如何使用一台海外 VPS,手动搭建一台镜像加速服务器。&lt;/p&gt;</summary>
@@ -6337,7 +6337,7 @@
     <link href="https://pengtech.net/git/windows_install_git.html"/>
     <id>https://pengtech.net/git/windows_install_git.html</id>
     <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-08-13T09:58:51.004Z</updated>
+    <updated>2025-03-20T11:47:00.359Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
@@ -6941,14 +6941,15 @@
   </entry>
   
   <entry>
-    <title>Ansible 教程</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:54:05.186Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
@@ -6964,15 +6965,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>Ansible 教程</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
+    <updated>2024-10-22T14:54:05.186Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     
