@@ -1,3 +1,5 @@
+https://pengtech.net/vmware/vmware_macos_vm.html
+https://pengtech.net/angular/angular_universal.html
 https://pengtech.net/git/windows_install_git.html
 https://pengtech.net/docker/install_docker_proxy.html
 https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html
@@ -46,5 +48,3 @@ https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/sites/vps_chosing.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
-https://pengtech.net/angular/angular_debug.html
-https://pengtech.net/android/android_sdk_install.html
