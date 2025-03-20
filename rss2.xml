@@ -2716,12 +2716,15 @@
     </item>
     
     <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <title>Angular 14 有哪些更新</title>
+      <link>https://pengtech.net/angular/angular_14_update.html</link>
+      <guid>https://pengtech.net/angular/angular_14_update.html</guid>
       <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      <description>&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
+&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
+&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
+&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</description>
       
       
       
@@ -2738,7 +2741,7 @@
       <category domain="https://pengtech.net/tags/Angular/">Angular</category>
       
       
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      <comments>https://pengtech.net/angular/angular_14_update.html#disqus_thread</comments>
       
     </item>
     
@@ -2771,6 +2774,33 @@
     </item>
     
     <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular 17 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_17_update.html</link>
       <guid>https://pengtech.net/angular/angular_17_update.html</guid>
@@ -2794,36 +2824,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Angular 14 有哪些更新</title>
-      <link>https://pengtech.net/angular/angular_14_update.html</link>
-      <guid>https://pengtech.net/angular/angular_14_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
-&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
-&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
-&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_14_update.html#disqus_thread</comments>
       
     </item>
     
@@ -6678,33 +6678,6 @@
     </item>
     
     <item>
-      <title>Angular platform是什么?</title>
-      <link>https://pengtech.net/angular/angular_platforms.html</link>
-      <guid>https://pengtech.net/angular/angular_platforms.html</guid>
-      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>深度刨析@angular/platform-browser-dynamic</title>
       <link>https://pengtech.net/angular/angular_platformBrowserDynamic.html</link>
       <guid>https://pengtech.net/angular/angular_platformBrowserDynamic.html</guid>
@@ -6728,6 +6701,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_platformBrowserDynamic.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular platform是什么?</title>
+      <link>https://pengtech.net/angular/angular_platforms.html</link>
+      <guid>https://pengtech.net/angular/angular_platforms.html</guid>
+      <pubDate>Sat, 02 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
+&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_platforms.html#disqus_thread</comments>
       
     </item>
     
@@ -6910,9 +6910,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
