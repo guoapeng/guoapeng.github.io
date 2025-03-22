@@ -1,9 +1,18 @@
+https://pengtech.net/docker/docker-registry-mirrors.html
+https://pengtech.net/hexo/blog_seo_optimize.html
+https://pengtech.net/webpack/webpack_angularjs_bootstrap.html
+https://pengtech.net/web/web_basic_1.html
+https://pengtech.net/nodejs/how_to_create_a_node_module.html
+https://pengtech.net/java/jdk17_installation.html
+https://pengtech.net/java/how_to_create_springBoot_proj.html
+https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html
+https://pengtech.net/ansible/ansible_trouble_shooting.html
+https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/vmware/vmware_macos_vm.html
 https://pengtech.net/angular/angular_universal.html
 https://pengtech.net/git/windows_install_git.html
 https://pengtech.net/docker/install_docker_proxy.html
 https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html
-https://pengtech.net/docker/docker-registry-mirrors.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/database/install_postgresql_on_linux.html
 https://pengtech.net/linux/linux_cleanup_trash.html
@@ -16,7 +25,6 @@ https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
 https://pengtech.net/network/understand_https.html
 https://pengtech.net/bitcoin/xmrig_setup.html
 https://pengtech.net/bitcoin/LolMiner_on_linux.html
-https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/sites/domain-service-providers.html
@@ -24,7 +32,6 @@ https://pengtech.net/git/centos7_install_git_via_sourcecode.html
 https://pengtech.net/nodejs/install_nvm_on_windows.html
 https://pengtech.net/linux/linux_shell_rsync.html
 https://pengtech.net/web/svg.html
-https://pengtech.net/web/web_basic_1.html
 https://pengtech.net/git/how_to_configure_git_push.html
 https://pengtech.net/hexo/hexo_create_site.html
 https://pengtech.net/gitlab/gitlab_installation_upgrade.html
@@ -32,7 +39,6 @@ https://pengtech.net/nodejs/install_and_config_nodejs.html
 https://pengtech.net/rust/install_rust_on_windows.html
 https://pengtech.net/windows/chocolatey_installation.html
 https://pengtech.net/windows/wsl_install.html
-https://pengtech.net/hexo/blog_seo_optimize.html
 https://pengtech.net/hexo/hexo_mermaid_plugin.html
 https://pengtech.net/tauri/tauri_gitlab_pipeline.html
 https://pengtech.net/vmware/vmware_install_ubuntu.html
@@ -42,9 +48,3 @@ https://pengtech.net/linux/email_server_install.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/v2ray_server_install.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
-https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/k8s/kubernates_on_vultr.html
-https://pengtech.net/network/hiddifyApp_install_and_config.html
-https://pengtech.net/sites/vps_chosing.html
-https://pengtech.net/network/v2rayNG_install_and_config.html
-https://pengtech.net/gitlab/gitlab_runner_on_fedora.html

@@ -50,7 +50,7 @@
     <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-03-19T23:16:00.925Z</updated>
+    <updated>2025-03-22T14:27:16.717Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，并更新这个列表。如果您知道新的可用站点，也欢迎随时补充！&lt;/p&gt;</summary>
@@ -437,7 +437,7 @@
     <link href="https://pengtech.net/ansible/ansible_trouble_shooting.html"/>
     <id>https://pengtech.net/ansible/ansible_trouble_shooting.html</id>
     <published>2024-10-03T16:00:00.000Z</published>
-    <updated>2024-11-02T02:54:39.839Z</updated>
+    <updated>2025-03-22T13:14:01.203Z</updated>
     
     
     <summary type="html">&lt;p&gt;今天花了几乎一天的时间排查一个 Ansible 连接异常断开的问题。翻遍了几乎所有的帖子都没有找到正确的答案，经过不断的尝试，终于把这个问题解决了，特此记录下来，期望能帮助到同样正在被这个问题折磨的人。&lt;/p&gt;</summary>
@@ -2542,15 +2542,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:25.497Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -2568,14 +2567,15 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -4176,7 +4176,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-03-09T11:04:45.794Z</updated>
+    <updated>2025-03-20T12:42:33.430Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -5113,7 +5113,7 @@
     <link href="https://pengtech.net/java/how_to_create_springBoot_proj.html"/>
     <id>https://pengtech.net/java/how_to_create_springBoot_proj.html</id>
     <published>2022-12-20T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2025-03-22T13:15:11.680Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;在本文中，您将学习如何创建一个简单的Spring Boot应用程序，以及您需要哪些依赖项和技术需要了解。&lt;br&gt;此外，我们将更深入地了解基本原理。我将解释一些最关键的工作机制，如果你想成为一名专业开发人员，你需要了解这些机制。&lt;/p&gt;
@@ -5193,7 +5193,7 @@
     <link href="https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html"/>
     <id>https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html</id>
     <published>2022-12-04T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2025-03-22T13:14:38.503Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要实验所用的环境, 后端是golang, gin web框架.&lt;/p&gt;</summary>
@@ -7077,7 +7077,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2025-03-08T00:25:05.832Z</updated>
+    <updated>2025-03-22T13:16:40.572Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
@@ -7166,7 +7166,7 @@
     <link href="https://pengtech.net/web/web_basic_1.html"/>
     <id>https://pengtech.net/web/web_basic_1.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2025-03-08T00:31:42.863Z</updated>
+    <updated>2025-03-22T13:15:44.573Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1.html&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;
@@ -7279,7 +7279,7 @@
     <link href="https://pengtech.net/java/jdk17_installation.html"/>
     <id>https://pengtech.net/java/jdk17_installation.html</id>
     <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2025-03-22T13:15:17.982Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
@@ -7391,7 +7391,7 @@
     <link href="https://pengtech.net/webpack/webpack_angularjs_bootstrap.html"/>
     <id>https://pengtech.net/webpack/webpack_angularjs_bootstrap.html</id>
     <published>2021-10-05T16:00:00.000Z</published>
-    <updated>2024-08-13T09:44:33.266Z</updated>
+    <updated>2025-03-22T13:15:59.883Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;h3 id=&quot;1-1-适用范围&quot;&gt;&lt;a href=&quot;#1-1-适用范围&quot; class=&quot;headerlink&quot; title=&quot;1.1. 适用范围&quot;&gt;&lt;/a&gt;1.1. 适用范围&lt;/h3&gt;&lt;ul&gt;
@@ -7419,7 +7419,7 @@
     <link href="https://pengtech.net/nodejs/how_to_create_a_node_module.html"/>
     <id>https://pengtech.net/nodejs/how_to_create_a_node_module.html</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-26T10:30:00.644Z</updated>
+    <updated>2025-03-22T13:15:36.961Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;ul&gt;

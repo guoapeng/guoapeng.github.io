@@ -43,7 +43,7 @@ tags:
     test command:
     git repository:
     keywords: audioplayer
-    author: eagle.guo
+    author: jack
     license: (MIT)
     About to write to your_proj_path/h5-audio-player/package.json:
     {
@@ -57,7 +57,7 @@ tags:
     "keywords": [
     "audioplayer"
     ],
-    "author": "eagle",
+    "author": "Jack",
     "license": "MIT"
     }
     Is this OK? (yes) yes
