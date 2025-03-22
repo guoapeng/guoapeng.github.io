@@ -50,7 +50,7 @@
     <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-03-22T14:27:16.717Z</updated>
+    <updated>2025-03-22T16:09:55.768Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，并更新这个列表。如果您知道新的可用站点，也欢迎随时补充！&lt;/p&gt;</summary>
@@ -628,7 +628,7 @@
     <link href="https://pengtech.net/astro/astro_install_and_configure.html"/>
     <id>https://pengtech.net/astro/astro_install_and_configure.html</id>
     <published>2024-09-08T16:00:00.000Z</published>
-    <updated>2024-09-13T14:13:40.172Z</updated>
+    <updated>2025-03-22T15:29:55.110Z</updated>
     
     
     <summary type="html">&lt;p&gt;Astro 是一款现代化的前端框架，由开发团队 Snowpack 创建，旨在提供一种简单而强大的方式来构建快速、可靠且易于维护的 Web 应用程序。&lt;br&gt;Astro 支持静态站点生成，这意味着在构建时生成 HTML 文件，从而提高网站的加载速度和性能。&lt;/p&gt;
@@ -4607,7 +4607,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-03-17T15:59:06.169Z</updated>
+    <updated>2025-03-22T15:50:36.659Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是Docker容器？&quot;&gt;&lt;a href=&quot;#1-什么是Docker容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Docker容器？&quot;&gt;&lt;/a&gt;1. 什么是Docker容器？&lt;/h2&gt;&lt;p&gt;Docker是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行Linux或Windows等系统的服务器上。相较于传统虚拟机，Docker容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;

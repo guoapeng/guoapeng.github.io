@@ -5,6 +5,14 @@
     <lastmod>2025-03-22</lastmod>
   </url>
   <url>
+    <loc>https://pengtech.net/docker/docker_install.html</loc>
+    <lastmod>2025-03-22</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
+    <lastmod>2025-03-22</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2025-03-22</lastmod>
   </url>
@@ -59,10 +67,6 @@
   <url>
     <loc>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</loc>
     <lastmod>2025-03-20</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
-    <lastmod>2025-03-17</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/database/install_postgresql_on_linux.html</loc>
@@ -351,10 +355,6 @@
   <url>
     <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
     <lastmod>2024-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
-    <lastmod>2024-09-13</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/astro/astro_authentication.html</loc>
@@ -993,11 +993,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
