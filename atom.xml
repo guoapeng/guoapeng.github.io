@@ -3683,14 +3683,15 @@
   </entry>
   
   <entry>
-    <title>Tauri开发环境配置</title>
-    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
-    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
+    <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
+    <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
+    <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2025-03-08T00:23:40.438Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
+&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本人希望搜索到能对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程都不理想。 网上关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
     
     
     
@@ -3708,15 +3709,14 @@
   </entry>
   
   <entry>
-    <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
-    <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
-    <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
+    <title>Tauri开发环境配置</title>
+    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
+    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2025-03-08T00:23:40.438Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
-&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本人希望搜索到能对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程都不理想。 网上关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
