@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-03-20T08:50:52.118Z</updated>
+  <updated>2025-04-03T07:55:40.980Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MacOS 上安装与配置 Hiddify Next</title>
+    <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html"/>
+    <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</id>
+    <published>2025-04-02T16:00:00.000Z</published>
+    <updated>2025-04-03T07:55:40.980Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 MacOS 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="network" scheme="https://pengtech.net/categories/network/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/categories/network/Hiddify/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="HiddifyApp" scheme="https://pengtech.net/tags/HiddifyApp/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/tags/Hiddify/"/>
+    
+    <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 上安装与配置 Hiddify Next</title>
+    <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
+    <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
+    <published>2025-04-02T16:00:00.000Z</published>
+    <updated>2025-04-03T07:51:44.679Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="network" scheme="https://pengtech.net/categories/network/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/categories/network/Hiddify/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
+    
+    <category term="HiddifyApp" scheme="https://pengtech.net/tags/HiddifyApp/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/tags/Hiddify/"/>
+    
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
+    
+    <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 上安装与配置 Hiddify Next</title>
+    <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
+    <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
+    <published>2025-04-02T16:00:00.000Z</published>
+    <updated>2025-04-03T07:47:23.519Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="network" scheme="https://pengtech.net/categories/network/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/categories/network/Hiddify/"/>
+    
+    
+    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="HiddifyApp" scheme="https://pengtech.net/tags/HiddifyApp/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/tags/Hiddify/"/>
+    
+  </entry>
   
   <entry>
     <title>如何设置Docker、 Containerd、 Podman容器镜像加速器？</title>
@@ -5999,14 +6086,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/spacing_methods.html"/>
-    <id>https://pengtech.net/material/spacing_methods.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     
@@ -6022,15 +6110,14 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/responsive_layout_grid.html</id>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/spacing_methods.html"/>
+    <id>https://pengtech.net/material/spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -7477,73 +7564,6 @@
     
     
     <category term="Nodejs" scheme="https://pengtech.net/tags/Nodejs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nodejs升级以及快速版本切换</title>
-    <link href="https://pengtech.net/nodejs/upgrade_nodejs.html"/>
-    <id>https://pengtech.net/nodejs/upgrade_nodejs.html</id>
-    <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.277Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;要升级 Nodejs 有多种方法, 方法一重新安装新版本; 方法二, 安装 nodejs 版本管理器 例如: n 或者 nvm.&lt;/p&gt;
-&lt;p&gt;方法一比较简单直接, 方法二可以在新旧版本之间切换, 非常符合需要同时支持多种版本 nodejs 的需求, 缺点是目前还不是正式版本, 目前还是 0.39.5 版本, 还没有到 1.0 版本, 遇到的奇奇怪怪的问题比较多, 不是特别成熟, 尤其是 Windows 上的 NVM. 在 Linux 或 Macos 上目前基本可用, 但是 Windows 不是太稳定.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="nodejs" scheme="https://pengtech.net/categories/web/nodejs/"/>
-    
-    
-    <category term="Nodejs" scheme="https://pengtech.net/tags/Nodejs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo配置Next主题</title>
-    <link href="https://pengtech.net/hexo/hexo_advance_apply_next_theme.html"/>
-    <id>https://pengtech.net/hexo/hexo_advance_apply_next_theme.html</id>
-    <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-08-26T10:26:09.584Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客添加评论功能</title>
-    <link href="https://pengtech.net/hexo/hexo_blog_comments.html"/>
-    <id>https://pengtech.net/hexo/hexo_blog_comments.html</id>
-    <published>2021-10-03T16:00:00.000Z</published>
-    <updated>2024-09-12T00:58:25.972Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;考虑到每篇博客都有可能有错误的地方，需要用户及时反馈，我能相应的做出修改，逐渐完善整个博客系统，所以评论功能对我来说非常重要．</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
     
   </entry>
   

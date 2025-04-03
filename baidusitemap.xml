@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <lastmod>2025-04-03</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2025-04-03</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2025-04-03</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
     <lastmod>2025-03-24</lastmod>
   </url>
@@ -697,11 +709,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/spacing_methods.html</loc>
+    <loc>https://pengtech.net/material/responsive_layout_grid.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/responsive_layout_grid.html</loc>
+    <loc>https://pengtech.net/material/spacing_methods.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -949,11 +961,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>

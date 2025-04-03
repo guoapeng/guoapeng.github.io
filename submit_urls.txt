@@ -1,3 +1,6 @@
+https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
+https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
+https://pengtech.net/network/install_hiddifyApp_on_windows.html
 https://pengtech.net/docker/docker-registry-mirrors.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/astro/astro_install_and_configure.html
@@ -45,6 +48,3 @@ https://pengtech.net/tauri/tauri_gitlab_pipeline.html
 https://pengtech.net/vmware/vmware_install_ubuntu.html
 https://pengtech.net/network/Internal_network_penetration.html
 https://pengtech.net/gitlab/gitlab_runner_installation.html
-https://pengtech.net/linux/email_server_install.html
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/network/v2ray_server_install.html
