@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/git/manage_multiple_github_accounts_on_a_host.html</loc>
+    
+    <lastmod>2025-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/v2rayA/</loc>
     
     <lastmod>2025-04-21</lastmod>
@@ -335,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tools/</loc>
+    <loc>https://pengtech.net/java/tools/</loc>
     
     <lastmod>2025-03-08</lastmod>
     
@@ -1694,7 +1703,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    <loc>https://pengtech.net/material/material_typeahead.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1703,7 +1712,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2621,7 +2630,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
+    <loc>https://pengtech.net/linux/snap_commands.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2630,7 +2639,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/snap_commands.html</loc>
+    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2884,7 +2893,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-04-21</lastmod>
+    <lastmod>2025-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
