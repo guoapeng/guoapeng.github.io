@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pengtech.net/git/manage_multiple_github_accounts_on_a_host.html</loc>
+    <loc>https://pengtech.net/v2rayA/</loc>
     
     <lastmod>2025-04-22</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/v2rayA/</loc>
+    <loc>https://pengtech.net/git/manage_multiple_github_accounts_on_a_host.html</loc>
     
-    <lastmod>2025-04-21</lastmod>
+    <lastmod>2025-04-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
