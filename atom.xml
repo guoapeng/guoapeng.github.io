@@ -25,8 +25,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -169,7 +169,7 @@
     <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-03-24T10:56:28.801Z</updated>
+    <updated>2025-04-24T08:07:51.256Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，并更新这个列表。如果您知道新的可用站点，也欢迎随时评论区留言补充！&lt;/p&gt;</summary>
@@ -261,25 +261,6 @@
   </entry>
   
   <entry>
-    <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
-    <link href="https://pengtech.net/bitcoin/xmrig_setup.html"/>
-    <id>https://pengtech.net/bitcoin/xmrig_setup.html</id>
-    <published>2025-03-10T16:00:00.000Z</published>
-    <updated>2025-03-12T11:23:49.675Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="bitcoin" scheme="https://pengtech.net/categories/bitcoin/"/>
-    
-    
-    <category term="bitcoin" scheme="https://pengtech.net/tags/bitcoin/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何在 Linux 上运行 LolMiner 挖矿教程</title>
     <link href="https://pengtech.net/bitcoin/LolMiner_on_linux.html"/>
     <id>https://pengtech.net/bitcoin/LolMiner_on_linux.html</id>
@@ -297,6 +278,25 @@
     <category term="LolMiner" scheme="https://pengtech.net/tags/LolMiner/"/>
     
     <category term="Dogecoin" scheme="https://pengtech.net/tags/Dogecoin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
+    <link href="https://pengtech.net/bitcoin/xmrig_setup.html"/>
+    <id>https://pengtech.net/bitcoin/xmrig_setup.html</id>
+    <published>2025-03-10T16:00:00.000Z</published>
+    <updated>2025-03-12T11:23:49.675Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="bitcoin" scheme="https://pengtech.net/categories/bitcoin/"/>
+    
+    
+    <category term="bitcoin" scheme="https://pengtech.net/tags/bitcoin/"/>
     
   </entry>
   
@@ -352,7 +352,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-04-23T06:35:26.228Z</updated>
+    <updated>2025-04-23T17:03:01.228Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -790,7 +790,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2025-03-01T08:17:44.084Z</updated>
+    <updated>2025-04-23T17:03:01.201Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -1166,7 +1166,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-04-23T06:36:11.211Z</updated>
+    <updated>2025-04-23T17:03:01.228Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1193,7 +1193,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2025-04-23T06:36:11.310Z</updated>
+    <updated>2025-04-23T17:03:01.229Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -1328,7 +1328,7 @@
     <link href="https://pengtech.net/angular/angular_debug.html"/>
     <id>https://pengtech.net/angular/angular_debug.html</id>
     <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2025-04-21T14:53:04.950Z</updated>
+    <updated>2025-04-23T17:03:00.877Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文演示如何调试 Angular 应用程序。在本文中，我们将讨论。&lt;/p&gt;
@@ -1959,7 +1959,7 @@
     <link href="https://pengtech.net/network/dns_pollution_issue.html"/>
     <id>https://pengtech.net/network/dns_pollution_issue.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-04-21T14:27:23.549Z</updated>
+    <updated>2025-04-24T07:25:31.048Z</updated>
     
     
     <summary type="html">&lt;p&gt;一直用的 GitHub，突然一下子不能访问了，最后发现是 DNS 解析的 IP 地址出了问题，按照以下方法修改又能访问 github 了。&lt;/p&gt;
@@ -2191,7 +2191,7 @@
     <link href="https://pengtech.net/android/android_sdk_install.html"/>
     <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2025-02-19T13:27:06.684Z</updated>
+    <updated>2025-04-23T17:03:00.864Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
@@ -2443,14 +2443,14 @@
   </entry>
   
   <entry>
-    <title>2025 科学上网秘籍：v2rayA 安装与配置指南for Windows、Macos、Linux</title>
+    <title>2025 科学上网教程：v2rayA 安装与使用</title>
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-04-23T06:36:11.217Z</updated>
+    <updated>2025-04-23T17:31:06.400Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Windows, debian 系列和 redhat 系列 Linux 操作系统以及 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
+    <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
     
     
     
@@ -3327,7 +3327,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2025-03-08T00:34:30.301Z</updated>
+    <updated>2025-04-23T17:03:01.229Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -3448,7 +3448,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2025-02-19T13:27:43.935Z</updated>
+    <updated>2025-04-23T17:03:01.230Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
@@ -4295,7 +4295,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-04-23T06:36:11.360Z</updated>
+    <updated>2025-04-23T17:01:33.854Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -7018,27 +7018,6 @@
   </entry>
   
   <entry>
-    <title>Golang 运算符</title>
-    <link href="https://pengtech.net/golang/first_post.html"/>
-    <id>https://pengtech.net/golang/first_post.html</id>
-    <published>2021-10-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</summary>
-    
-    
-    
-    <category term="language" scheme="https://pengtech.net/categories/language/"/>
-    
-    <category term="golang" scheme="https://pengtech.net/categories/language/golang/"/>
-    
-    
-    <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo命令详解</title>
     <link href="https://pengtech.net/hexo/hexo_cli.html"/>
     <id>https://pengtech.net/hexo/hexo_cli.html</id>
@@ -7056,6 +7035,27 @@
     
     
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Golang 运算符</title>
+    <link href="https://pengtech.net/golang/first_post.html"/>
+    <id>https://pengtech.net/golang/first_post.html</id>
+    <published>2021-10-30T16:00:00.000Z</published>
+    <updated>2024-07-10T10:42:45.390Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="language" scheme="https://pengtech.net/categories/language/"/>
+    
+    <category term="golang" scheme="https://pengtech.net/categories/language/golang/"/>
+    
+    
+    <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
     
   </entry>
   
@@ -7196,7 +7196,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2025-03-22T13:16:40.572Z</updated>
+    <updated>2025-04-23T17:03:01.230Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
