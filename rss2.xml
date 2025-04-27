@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 26 Apr 2025 18:43:25 GMT</pubDate>
+    <pubDate>Sun, 27 Apr 2025 07:54:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -96,14 +96,41 @@
     </item>
     
     <item>
+      <title>什么是 Docker？</title>
+      <link>https://pengtech.net/docker/what_is_docker.html</link>
+      <guid>https://pengtech.net/docker/what_is_docker.html</guid>
+      <pubDate>Tue, 22 Apr 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;你有没有想过市场上涌现 Docker 容器的原因？在 Docker 出现之前，大多数开发人员在编写代码时都会遇到一个大问题：代码在自己的电脑上可以运行，但当他们尝试在服务器上运行该代码时，却无法正常工作。这是因为应用程序需要合适的运行环境（例如合适的操作系统、库和设置）。如果你的电脑和服务器上的某些东西出现差异，就会出现问题。&lt;/p&gt;
+&lt;p&gt;为了解决这个问题，Docker 容器应运而生。&lt;strong&gt;Docker 是一个开源容器化平台&lt;/strong&gt;，你可以将应用程序及其所有依赖项打包到一个名为“容器”的标准化单元中。容器是轻量级的，易于移植，并且与底层基础设施以及其他容器相互隔离。你可以在任何安装了 Docker 的机器上将 Docker 镜像运行为 Docker 容器，而无需依赖宿主机的操作系统。&lt;/p&gt;
+&lt;p&gt;Docker 有两个主要部分：Docker 引擎，它是在本地计算机和服务器上运行的二进制程序，负责处理容器的创建和管理。Docker Hub 是一个网站和云服务，方便每个人轻松共享他们的 Docker 镜像。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/docker/">docker</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/docker/">docker</category>
+      
+      
+      <comments>https://pengtech.net/docker/what_is_docker.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>如何在一台电脑上管理多个 github 账号？</title>
       <link>https://pengtech.net/git/manage_multiple_github_accounts_on_a_host.html</link>
       <guid>https://pengtech.net/git/manage_multiple_github_accounts_on_a_host.html</guid>
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -6679,6 +6706,31 @@
     </item>
     
     <item>
+      <title>Material Design基础 - spacing methods</title>
+      <link>https://pengtech.net/material/spacing_methods.html</link>
+      <guid>https://pengtech.net/material/spacing_methods.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/spacing_methods.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design基础 - 响应式布局网格</title>
       <link>https://pengtech.net/material/responsive_layout_grid.html</link>
       <guid>https://pengtech.net/material/responsive_layout_grid.html</guid>
@@ -6701,31 +6753,6 @@
       
       
       <comments>https://pengtech.net/material/responsive_layout_grid.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material Design基础 - spacing methods</title>
-      <link>https://pengtech.net/material/spacing_methods.html</link>
-      <guid>https://pengtech.net/material/spacing_methods.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/spacing_methods.html#disqus_thread</comments>
       
     </item>
     
@@ -7114,9 +7141,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -7697,6 +7724,31 @@
     </item>
     
     <item>
+      <title>Ansible 教程</title>
+      <link>https://pengtech.net/ansible/ansible.html</link>
+      <guid>https://pengtech.net/ansible/ansible.html</guid>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
+      
+      
+      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>在Windows上安装Ansible</title>
       <link>https://pengtech.net/ansible/install_ansible_on_windows.html</link>
       <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
@@ -7719,31 +7771,6 @@
       
       
       <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Ansible 教程</title>
-      <link>https://pengtech.net/ansible/ansible.html</link>
-      <guid>https://pengtech.net/ansible/ansible.html</guid>
-      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
       
     </item>
     
@@ -8148,32 +8175,6 @@
       
       
       <comments>https://pengtech.net/windows/chocolatey_installation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>sass学习笔记</title>
-      <link>https://pengtech.net/sass/sass_notes.html</link>
-      <guid>https://pengtech.net/sass/sass_notes.html</guid>
-      <pubDate>Thu, 07 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-sass-安装&quot;&gt;&lt;a href=&quot;#1-sass-安装&quot; class=&quot;headerlink&quot; title=&quot;1. sass 安装&quot;&gt;&lt;/a&gt;1. sass 安装&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cnpm install -g sass&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;检查是否安装成功&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sass --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1.42.1 compiled with dart2js 2.14.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/css/">css</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Rust/">Rust</category>
-      
-      
-      <comments>https://pengtech.net/sass/sass_notes.html#disqus_thread</comments>
       
     </item>
     
