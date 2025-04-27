@@ -96,8 +96,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -236,11 +236,11 @@
   </entry>
   
   <entry>
-    <title>2025 年最新国内可用 Docker 镜像加速器汇总</title>
+    <title>2025 年最新国内可用 Docker 镜像加速器汇总附带监测</title>
     <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-04-26T18:36:32.170Z</updated>
+    <updated>2025-04-27T02:30:48.405Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，然后更新这个列表。如果您知道新的可用站点，也欢迎随时评论区留言补充！&lt;/p&gt;</summary>
@@ -2905,16 +2905,14 @@
   </entry>
   
   <entry>
-    <title>Material Design 3介绍</title>
-    <link href="https://pengtech.net/material/material3_introduction.html"/>
-    <id>https://pengtech.net/material/material3_introduction.html</id>
+    <title>Material 3 基础</title>
+    <link href="https://pengtech.net/material/material3_foundations.html"/>
+    <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-09-01T08:37:30.676Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
-&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
-&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
     
     
     
@@ -2930,14 +2928,16 @@
   </entry>
   
   <entry>
-    <title>Material 3 基础</title>
-    <link href="https://pengtech.net/material/material3_foundations.html"/>
-    <id>https://pengtech.net/material/material3_foundations.html</id>
+    <title>Material Design 3介绍</title>
+    <link href="https://pengtech.net/material/material3_introduction.html"/>
+    <id>https://pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-09-01T08:37:30.676Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
+&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
+&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
     
     
     
@@ -5957,15 +5957,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -5981,15 +5981,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -6593,9 +6593,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   

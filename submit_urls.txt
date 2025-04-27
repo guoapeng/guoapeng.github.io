@@ -1,5 +1,5 @@
-https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/docker/docker-registry-mirrors.html
+https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/web/web_basic_1.html
 https://pengtech.net/github/github_action_update_github_page.html
 https://pengtech.net/network/dns_pollution_issue.html
