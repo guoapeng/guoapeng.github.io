@@ -1,3 +1,4 @@
+https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/docker/docker-registry-mirrors.html
 https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/web/web_basic_1.html
@@ -17,4 +18,3 @@ https://pengtech.net/angular/angular_debug.html
 https://pengtech.net/android/android_sdk_install.html
 https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
-https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
