@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-04-27T07:54:17.365Z</updated>
+  <updated>2025-04-27T18:13:06.931Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Docker 的架构</title>
+    <link href="https://pengtech.net/docker/architecture-of-docker.html"/>
+    <id>https://pengtech.net/docker/architecture-of-docker.html</id>
+    <published>2025-04-26T16:00:00.000Z</published>
+    <updated>2025-04-27T18:13:06.931Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Docker 采用客户端-服务器架构。Docker 客户端与 Docker 守护进程通信，后者负责构建、运行和分发 Docker 容器。Docker 客户端与守护进程在同一系统上运行，或者我们可以将 Docker 客户端与 Docker 守护进程远程连接。借助 UNIX 套接字或网络上的 REST API，Docker 客户端和守护进程可以相互交互。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/categories/devops/docker/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
     <title>国内 Docker 镜像加速器状态监测</title>
     <link href="https://pengtech.net/docker/docker-registry-mirrors-status.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors-status.html</id>
     <published>2025-04-24T16:00:00.000Z</published>
-    <updated>2025-04-27T07:54:17.365Z</updated>
+    <updated>2025-04-27T12:05:29.186Z</updated>
     
     
     <summary type="html">&lt;p&gt;每日更新国内 Docker 镜像加速器状态，以显著提升镜像拉取速度和开发效率。&lt;/p&gt;</summary>
@@ -88,11 +111,34 @@
   </entry>
   
   <entry>
-    <title>什么是 Docker？</title>
+    <title>Docker 的特点</title>
+    <link href="https://pengtech.net/docker/features-of-docker.html"/>
+    <id>https://pengtech.net/docker/features-of-docker.html</id>
+    <published>2025-04-22T16:00:00.000Z</published>
+    <updated>2025-04-27T17:05:59.238Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Docker 是用于开发和自动化应用程序部署的最流行的开源平台之一。它将应用程序部署到容器中，并使我们能够将应用程序与基础架构分离。它旨在提供一个轻量级且快速的代码运行环境，以及一个高效的工作流程，将代码从笔记本电脑传输到测试环境，再投入生产。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/categories/devops/docker/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 简介</title>
     <link href="https://pengtech.net/docker/what_is_docker.html"/>
     <id>https://pengtech.net/docker/what_is_docker.html</id>
     <published>2025-04-22T16:00:00.000Z</published>
-    <updated>2025-04-27T11:51:51.008Z</updated>
+    <updated>2025-04-27T16:30:10.993Z</updated>
     
     
     <summary type="html">&lt;p&gt;你有没有想过市场上涌现 Docker 容器的原因？在 Docker 出现之前，大多数开发人员在编写代码时都会遇到一个大问题：代码在自己的电脑上可以运行，但当他们尝试在服务器上运行该代码时，却无法正常工作。这是因为应用程序需要合适的运行环境（例如合适的操作系统、库和设置）。如果你的电脑和服务器上的某些东西出现差异，就会出现问题。&lt;/p&gt;
@@ -121,8 +167,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -6214,14 +6260,15 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/spacing_methods.html"/>
-    <id>https://pengtech.net/material/spacing_methods.html</id>
+    <title>Material Design基础 - 响应式布局网格</title>
+    <link href="https://pengtech.net/material/responsive_layout_grid.html"/>
+    <id>https://pengtech.net/material/responsive_layout_grid.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
     
     
     
@@ -6237,15 +6284,14 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - 响应式布局网格</title>
-    <link href="https://pengtech.net/material/responsive_layout_grid.html"/>
-    <id>https://pengtech.net/material/responsive_layout_grid.html</id>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/spacing_methods.html"/>
+    <id>https://pengtech.net/material/spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-响应式布局网格&quot;&gt;&lt;a href=&quot;#1-响应式布局网格&quot; class=&quot;headerlink&quot; title=&quot;1. 响应式布局网格&quot;&gt;&lt;/a&gt;1. 响应式布局网格&lt;/h2&gt;&lt;p&gt;Material Design的响应式布局网格可根据屏幕大小和方向进行调整，确保布局的一致性。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Columns-gutters-and-margins&quot;&gt;&lt;a href=&quot;#1-1-Columns-gutters-and-margins&quot; class=&quot;headerlink&quot; title=&quot;1.1. Columns, gutters, and margins&quot;&gt;&lt;/a&gt;1.1. Columns, gutters, and margins&lt;/h3&gt;&lt;p&gt;响应式布局网格由三个元素组成：Columns, gutters, 和 margins。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -7528,51 +7574,6 @@
     
     
     <category term="k8s" scheme="https://pengtech.net/tags/k8s/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux命令行连接wifi</title>
-    <link href="https://pengtech.net/linux/linux_connect_wifi.html"/>
-    <id>https://pengtech.net/linux/linux_connect_wifi.html</id>
-    <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2024-08-14T16:15:53.036Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-环境描述&quot;&gt;&lt;a href=&quot;#1-环境描述&quot; class=&quot;headerlink&quot; title=&quot;1. 环境描述&quot;&gt;&lt;/a&gt;1. 环境描述&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;以下是验证本教程使用的环境</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>chocolatey安装和使用</title>
-    <link href="https://pengtech.net/windows/chocolatey_installation.html"/>
-    <id>https://pengtech.net/windows/chocolatey_installation.html</id>
-    <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2025-03-08T00:26:52.798Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-什么是-Chocolatey&quot;&gt;&lt;a href=&quot;#1-什么是-Chocolatey&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Chocolatey&quot;&gt;&lt;/a&gt;1. 什么是 Chocolatey&lt;/h2&gt;&lt;p&gt;Chocolatey 是一种软件管理解决方案，不同于您在 Windows 上体验过的任何解决方案。 可以这样想 - 您使用一个小 PowerShell 创建一个软件部署包，然后您可以将它部署到任何拥有 Windows 的地方（例如 Puppet、SCCM、Altiris、Connectwise Automate 等)。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="windows" scheme="https://pengtech.net/categories/OS/windows/"/>
-    
-    
-    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
   </entry>
   

@@ -1,3 +1,5 @@
+https://pengtech.net/docker/architecture-of-docker.html
+https://pengtech.net/docker/features-of-docker.html
 https://pengtech.net/docker/what_is_docker.html
 https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
@@ -16,5 +18,3 @@ https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
 https://pengtech.net/hexo/blog_seo_optimize.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/nodejs/install_nvm_on_windows.html
-https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/network/install_v2rayA_on_Windows_2.html

@@ -1,3 +1,5 @@
+https://pengtech.net/docker/architecture-of-docker.html
+https://pengtech.net/docker/features-of-docker.html
 https://pengtech.net/docker/what_is_docker.html
 https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
@@ -46,5 +48,3 @@ https://pengtech.net/linux/install_virtualbox_on_fedora40.html
 https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
 https://pengtech.net/network/understand_https.html
 https://pengtech.net/bitcoin/xmrig_setup.html
-https://pengtech.net/bitcoin/LolMiner_on_linux.html
-https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
