@@ -1,3 +1,4 @@
+https://pengtech.net/docker/what-is-docker-hub.html
 https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
@@ -47,4 +48,3 @@ https://pengtech.net/vscode/vscode_install_and_config.html
 https://pengtech.net/history/computer_history_brief_timeline.html
 https://pengtech.net/linux/install_virtualbox_on_fedora40.html
 https://pengtech.net/network/understand_https.html
-https://pengtech.net/bitcoin/xmrig_setup.html
