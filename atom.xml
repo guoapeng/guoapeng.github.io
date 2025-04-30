@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-04-27T18:13:06.931Z</updated>
+  <updated>2025-04-30T17:37:48.178Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 Emlog 搭建一款多用户博客系统</title>
+    <link href="https://pengtech.net/sites/emlog_install.html"/>
+    <id>https://pengtech.net/sites/emlog_install.html</id>
+    <published>2025-04-29T16:00:00.000Z</published>
+    <updated>2025-04-30T17:37:48.178Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;个人博客早就玩得有点腻了， 独乐乐不如众乐乐，自己也写了一个多用户博客，但是集成在一个比较大的系统里面，一直想把它分拆出来进行，但是一直没有时间和精力去做，考虑到更加没有时间去做推广。花费时间意义又不太大，本着想吃鱼不必去养鱼的想法，一直在寻找一款开源的解决方案。之前试用过 wordpress 的多用户博客，体验下来不太理想。其他的比如 Astro, Strapi 加自定义前端一个比较耗时，体验也不是很好。&lt;br&gt;今天偶然间发现 emlog，我理想中的功能都有，而且还超过了我的预期。所以花了一点点时间把它安装了一下。官方教程写得不够详细，主要在数据库连接方面写得不够详细，花费了一些时间，最终选择了通用安装方式，从我的角度看比较理想。当然在此教程的基础上修改为 docker 或 docker compose 安装方案也比较容易。这里将安装过程记录下来，以便对有同样需求的人有所帮助。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="site_building" scheme="https://pengtech.net/categories/site-building/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
+    
+    <category term="emlog" scheme="https://pengtech.net/tags/emlog/"/>
+    
+    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker 的架构</title>
@@ -44,7 +69,7 @@
     <link href="https://pengtech.net/docker/what-is-docker-hub.html"/>
     <id>https://pengtech.net/docker/what-is-docker-hub.html</id>
     <published>2025-04-26T16:00:00.000Z</published>
-    <updated>2025-04-29T13:24:19.313Z</updated>
+    <updated>2025-04-29T13:57:49.526Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;Docker Hub&lt;/strong&gt;是一个基于云的存储库服务，用户可以随时随地通过互联网将 Docker 容器镜像推送到 Docker Hub，也可以从&lt;strong&gt;Docker Hub&lt;/strong&gt;拉取 Docker 容器镜像。它提供多种功能，例如，用户可以将镜像推送为私有镜像或公开镜像。&lt;/p&gt;</summary>
@@ -190,8 +215,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -218,7 +243,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-04-28T14:50:35.708Z</updated>
+    <updated>2025-04-30T02:17:04.976Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 MacOS 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -245,7 +270,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-04-28T14:50:29.262Z</updated>
+    <updated>2025-04-30T02:16:22.221Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -278,7 +303,7 @@
     <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
     <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-04-28T14:50:23.764Z</updated>
+    <updated>2025-04-30T02:17:54.140Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
@@ -633,7 +658,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-04-28T14:50:18.394Z</updated>
+    <updated>2025-04-30T02:18:31.156Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -1130,7 +1155,7 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-28T16:00:00.000Z</published>
-    <updated>2025-03-09T00:10:56.457Z</updated>
+    <updated>2025-04-30T15:44:39.217Z</updated>
     
     
     <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
@@ -1148,9 +1173,9 @@
     
     <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
     
-    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
-    
     <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
+    
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
     
   </entry>
   
@@ -1210,7 +1235,7 @@
     <link href="https://pengtech.net/database/install_mariadb_on_linux.html"/>
     <id>https://pengtech.net/database/install_mariadb_on_linux.html</id>
     <published>2024-08-25T16:00:00.000Z</published>
-    <updated>2024-09-28T13:40:22.858Z</updated>
+    <updated>2025-04-30T10:40:20.430Z</updated>
     
     
     <summary type="html">&lt;p&gt;当 MariaDB Server 的前身 MySQL 于 2009 年被 Oracle 收购时，MySQL 创始人 Michael “Monty” Widenius 出于对 Oracle 管理权的担忧而分叉了该项目，并将新项目命名为 MariaDB。 MySQL 以他的第一个女儿 My 命名，而 MariaDB 则以他的第二个女儿 Maria 命名。&lt;/p&gt;</summary>
@@ -3233,11 +3258,11 @@
   </entry>
   
   <entry>
-    <title>strapi的安装和使用</title>
+    <title>Strapi的安装和使用</title>
     <link href="https://pengtech.net/strapi/install_strapi.html"/>
     <id>https://pengtech.net/strapi/install_strapi.html</id>
     <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2024-08-07T15:43:25.051Z</updated>
+    <updated>2025-04-30T03:50:34.792Z</updated>
     
     
     <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
@@ -4891,11 +4916,11 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-03-22T15:50:36.659Z</updated>
+    <updated>2025-04-30T14:20:24.197Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Docker容器？&quot;&gt;&lt;a href=&quot;#1-什么是Docker容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Docker容器？&quot;&gt;&lt;/a&gt;1. 什么是Docker容器？&lt;/h2&gt;&lt;p&gt;Docker是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行Linux或Windows等系统的服务器上。相较于传统虚拟机，Docker容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
-&lt;p&gt;本文主要讲述如何在Centos 7.9操作系统上安装Docker, 当然本教程也适合RHEL系列的其他Linux发型版本.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是-Docker-容器？&quot;&gt;&lt;a href=&quot;#1-什么是-Docker-容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Docker 容器？&quot;&gt;&lt;/a&gt;1. 什么是 Docker 容器？&lt;/h2&gt;&lt;p&gt;Docker 是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行 Linux 或 Windows 等系统的服务器上。相较于传统虚拟机，Docker 容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
+&lt;p&gt;本文主要讲述如何在 Centos 7.9 操作系统上安装 Docker, 当然本教程也适合 RHEL 系列的其他 Linux 发型版本.&lt;/p&gt;</summary>
     
     
     
@@ -6051,15 +6076,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -6075,15 +6100,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -7225,15 +7250,14 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
+    <title>Ansible 教程</title>
+    <link href="https://pengtech.net/ansible/ansible.html"/>
+    <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
+    <updated>2024-10-22T14:54:05.186Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
     
     
     
@@ -7249,14 +7273,15 @@
   </entry>
   
   <entry>
-    <title>Ansible 教程</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:54:05.186Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
@@ -7554,28 +7579,6 @@
     
     
     <category term="vscode" scheme="https://pengtech.net/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JDK17安装</title>
-    <link href="https://pengtech.net/java/jdk17_installation.html"/>
-    <id>https://pengtech.net/java/jdk17_installation.html</id>
-    <published>2021-10-08T16:00:00.000Z</published>
-    <updated>2025-03-22T13:15:17.982Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;JDK17是自2018年JDK11后的第二个长期支持版本, 支持到2029年9月, 支持时间长达8年, 这下可以不用死守JDK8了, JDK17+也可以是一种新的选择了.&lt;br&gt;这次更新之所以重要, 伴随着新版本的发布, Oracle还做了重要决定, 从JDK17开始, 后面的版本全部免费提供, 包括商用, 更详细的条款可以阅读&lt;a href=&quot;https://www.oracle.com/downloads/licenses/no-fee-license.html&quot;&gt;这里&lt;/a&gt;. Oracle这次真是发善心了.&lt;br&gt;英文版的通用安装说明可以移步到&lt;a href=&quot;https://docs.oracle.com/en/java/javase/17/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A&quot;&gt;这里&lt;/a&gt;</summary>
-    
-    
-    
-    <category term="language" scheme="https://pengtech.net/categories/language/"/>
-    
-    <category term="java" scheme="https://pengtech.net/categories/language/java/"/>
-    
-    
-    <category term="Java" scheme="https://pengtech.net/tags/Java/"/>
     
   </entry>
   

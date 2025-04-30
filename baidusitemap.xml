@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/sites/emlog_install.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker_install.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/strapi/install_strapi.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/docker/what-is-docker-hub.html</loc>
     <lastmod>2025-04-29</lastmod>
   </url>
@@ -10,22 +46,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     <lastmod>2025-04-28</lastmod>
   </url>
   <url>
@@ -129,10 +149,6 @@
     <lastmod>2025-04-22</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
-    <lastmod>2025-03-22</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/astro/astro_install_and_configure.html</loc>
     <lastmod>2025-03-22</lastmod>
   </url>
@@ -207,10 +223,6 @@
   <url>
     <loc>https://pengtech.net/bitcoin/LolMiner_on_linux.html</loc>
     <lastmod>2025-03-12</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
-    <lastmod>2025-03-09</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/hexo/hexo_theme_recommendation.html</loc>
@@ -379,10 +391,6 @@
   <url>
     <loc>https://pengtech.net/linux/almalinux_sercurity_enhancement.html</loc>
     <lastmod>2024-09-29</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
-    <lastmod>2024-09-28</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/android/fedora_install_android_studio.html</loc>
@@ -641,10 +649,6 @@
     <lastmod>2024-08-07</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/strapi/install_strapi.html</loc>
-    <lastmod>2024-08-07</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/angular/angular_getter_setter.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
@@ -725,19 +729,19 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -777,11 +781,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -853,11 +857,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
