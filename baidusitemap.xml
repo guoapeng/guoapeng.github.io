@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/docker/what-is-docker-cloud.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</loc>
+    <lastmod>2025-04-30</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/sites/emlog_install.html</loc>
     <lastmod>2025-04-30</lastmod>
   </url>
@@ -481,10 +489,6 @@
     <lastmod>2024-08-30</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</loc>
-    <lastmod>2024-08-29</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/nginx/nginx_installation.html</loc>
     <lastmod>2024-08-29</lastmod>
   </url>
@@ -729,11 +733,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
