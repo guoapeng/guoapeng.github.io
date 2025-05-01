@@ -1,3 +1,7 @@
+https://pengtech.net/docker/docker-registry-mirrors-status.html
+https://pengtech.net/github/selfhosted-github-runner.html
+https://pengtech.net/docker/docker_install.html
+https://pengtech.net/k8s/linux_install_kubectl.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
@@ -13,11 +17,9 @@ https://pengtech.net/docker/what-is-docker-cloud.html
 https://pengtech.net/nginx/nginx_installation_on_almalinux.html
 https://pengtech.net/sites/emlog_install.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
-https://pengtech.net/docker/docker_install.html
 https://pengtech.net/database/install_mariadb_on_linux.html
 https://pengtech.net/strapi/install_strapi.html
 https://pengtech.net/docker/what-is-docker-hub.html
-https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/hexo/hexo_seo_and_canonical_links.html
 https://pengtech.net/docker/install_docker_proxy.html
 https://pengtech.net/docker/architecture-of-docker.html
@@ -46,5 +48,3 @@ https://pengtech.net/database/migrate_to_postgressql_from_mariadb.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
 https://pengtech.net/vmware/vmware_macos_vm.html
 https://pengtech.net/angular/angular_universal.html
-https://pengtech.net/git/windows_install_git.html
-https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html

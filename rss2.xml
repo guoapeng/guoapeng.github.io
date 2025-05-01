@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 30 Apr 2025 17:37:48 GMT</pubDate>
+    <pubDate>Thu, 01 May 2025 14:59:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>如何使用自托管 GitHub Runner 运行 GitHub Actions 工作流？</title>
+      <link>https://pengtech.net/github/selfhosted-github-runner.html</link>
+      <guid>https://pengtech.net/github/selfhosted-github-runner.html</guid>
+      <pubDate>Wed, 30 Apr 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;有时候github action 提供的runner不能满足我们的一些需求，此时我们可以使用自托管runner来运行github action jobs, 设置步骤如下.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/github/">github</category>
+      
+      
+      <category domain="https://pengtech.net/tags/github/">github</category>
+      
+      <category domain="https://pengtech.net/tags/github-action/">github action</category>
+      
+      
+      <comments>https://pengtech.net/github/selfhosted-github-runner.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 Emlog 搭建一款多用户博客系统</title>
@@ -256,8 +281,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -636,32 +661,6 @@
     </item>
     
     <item>
-      <title>Hexo 配置 Stellar 主题</title>
-      <link>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</link>
-      <guid>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</guid>
-      <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
-&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://pengtech.net/hexo/hexo_apply_stellar_theme.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Hexo 配置 Webstack 主题</title>
       <link>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</link>
       <guid>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</guid>
@@ -684,6 +683,32 @@
       
       
       <comments>https://pengtech.net/hexo/hexo_apply_webstack_theme.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo 配置 Stellar 主题</title>
+      <link>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</link>
+      <guid>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</guid>
+      <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+&lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/hexo/">hexo</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://pengtech.net/hexo/hexo_apply_stellar_theme.html#disqus_thread</comments>
       
     </item>
     
@@ -4103,6 +4128,32 @@
     </item>
     
     <item>
+      <title>如何使用VMware ESXi安装一台Windows虚拟机</title>
+      <link>https://pengtech.net/vmware/vmware_install_windows.html</link>
+      <guid>https://pengtech.net/vmware/vmware_install_windows.html</guid>
+      <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
+&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows.html&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      <category domain="https://pengtech.net/tags/macOS/">macOS</category>
+      
+      
+      <comments>https://pengtech.net/vmware/vmware_install_windows.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>安装Ubuntu虚拟机</title>
       <link>https://pengtech.net/vmware/vmware_install_ubuntu.html</link>
       <guid>https://pengtech.net/vmware/vmware_install_ubuntu.html</guid>
@@ -4132,32 +4183,6 @@
       
       
       <comments>https://pengtech.net/vmware/vmware_install_ubuntu.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何使用VMware ESXi安装一台Windows虚拟机</title>
-      <link>https://pengtech.net/vmware/vmware_install_windows.html</link>
-      <guid>https://pengtech.net/vmware/vmware_install_windows.html</guid>
-      <pubDate>Thu, 17 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个Tauri桌面应用, 由于Tauri应用的跨平台编译特性还不是特别完善, 比如打包Windows桌面应用程序, 需要在Windows上进行. 于是想到了是否能安装一台Windows虚拟机用于打包, 并兼顾Windows上的测试. 于是就有了这篇文章.&lt;/p&gt;
-&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/vmware/vmware_install_windows.html&quot;&gt;鹏叔的博客空间 - 如何安装一台Windows虚拟机&lt;/a&gt;, 原文下面有打赏按钮, 原创不易, 希望得到您的支持, 您的支持是持续输出更多好文的动力!&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      <category domain="https://pengtech.net/tags/macOS/">macOS</category>
-      
-      
-      <comments>https://pengtech.net/vmware/vmware_install_windows.html#disqus_thread</comments>
       
     </item>
     
@@ -5014,30 +5039,6 @@
     </item>
     
     <item>
-      <title>申请免费SSL证书</title>
-      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
-      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
-      <pubDate>Sun, 14 May 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
-      
-      
-      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>nginx配置https</title>
       <link>https://pengtech.net/nginx/nginx_config_https.html</link>
       <guid>https://pengtech.net/nginx/nginx_config_https.html</guid>
@@ -5059,6 +5060,30 @@
       
       
       <comments>https://pengtech.net/nginx/nginx_config_https.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>申请免费SSL证书</title>
+      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
+      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
+      <pubDate>Sun, 14 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      
+      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
       
     </item>
     
@@ -5256,31 +5281,6 @@
     </item>
     
     <item>
-      <title>mockery v2的介绍和使用</title>
-      <link>https://pengtech.net/golang/mockery_v2.html</link>
-      <guid>https://pengtech.net/golang/mockery_v2.html</guid>
-      <pubDate>Wed, 26 Apr 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
-&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
-&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/language/">language</category>
-      
-      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
-      
-      
-      <category domain="https://pengtech.net/tags/golang/">golang</category>
-      
-      
-      <comments>https://pengtech.net/golang/mockery_v2.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>在Golang中使用Testify mock框架</title>
       <link>https://pengtech.net/golang/mocking_in_golang_using_testify.html</link>
       <guid>https://pengtech.net/golang/mocking_in_golang_using_testify.html</guid>
@@ -5302,6 +5302,31 @@
       
       
       <comments>https://pengtech.net/golang/mocking_in_golang_using_testify.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>mockery v2的介绍和使用</title>
+      <link>https://pengtech.net/golang/mockery_v2.html</link>
+      <guid>https://pengtech.net/golang/mockery_v2.html</guid>
+      <pubDate>Wed, 26 Apr 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
+&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
+&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/language/">language</category>
+      
+      <category domain="https://pengtech.net/categories/language/golang/">golang</category>
+      
+      
+      <category domain="https://pengtech.net/tags/golang/">golang</category>
+      
+      
+      <comments>https://pengtech.net/golang/mockery_v2.html#disqus_thread</comments>
       
     </item>
     
@@ -8161,27 +8186,6 @@
       
       
       <comments>https://pengtech.net/vscode/how_to_upgrade_vscode.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>vscode常用快捷键</title>
-      <link>https://pengtech.net/vscode/vscode_hotkey.html</link>
-      <guid>https://pengtech.net/vscode/vscode_hotkey.html</guid>
-      <pubDate>Wed, 13 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;本文主要介绍 vscode 的一些常用快捷键的使用.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      
-      <category domain="https://pengtech.net/tags/vscode/">vscode</category>
-      
-      
-      <comments>https://pengtech.net/vscode/vscode_hotkey.html#disqus_thread</comments>
       
     </item>
     
