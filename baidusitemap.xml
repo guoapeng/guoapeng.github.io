@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    <lastmod>2025-05-01</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/docker/what-is-docker-cloud.html</loc>
     <lastmod>2025-05-01</lastmod>
   </url>
@@ -29,22 +73,6 @@
     <lastmod>2025-04-30</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    <lastmod>2025-04-30</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
-    <lastmod>2025-04-30</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
-    <lastmod>2025-04-30</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    <lastmod>2025-04-30</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/docker/what-is-docker-hub.html</loc>
     <lastmod>2025-04-29</lastmod>
   </url>
@@ -58,22 +86,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/docker/install_docker_proxy.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    <lastmod>2025-04-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
     <lastmod>2025-04-28</lastmod>
   </url>
   <url>
@@ -117,19 +129,11 @@
     <lastmod>2025-04-24</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2025-04-23</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
     <lastmod>2025-04-23</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
-    <lastmod>2025-04-23</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
     <lastmod>2025-04-23</lastmod>
   </url>
   <url>
@@ -146,10 +150,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/android/android_sdk_install.html</loc>
-    <lastmod>2025-04-23</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2025-04-23</lastmod>
   </url>
   <url>
