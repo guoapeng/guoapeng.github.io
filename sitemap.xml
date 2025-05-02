@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/docker/docker-commands.html</loc>
+    
+    <lastmod>2025-05-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/docker/docker-registry-mirrors-status.html</loc>
     
     <lastmod>2025-05-01</lastmod>
@@ -1667,7 +1676,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/db_migrations.html</loc>
+    <loc>https://pengtech.net/chrome/chrome_storage_api.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1676,7 +1685,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/chrome/chrome_storage_api.html</loc>
+    <loc>https://pengtech.net/database/db_migrations.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2846,7 +2855,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2855,7 +2864,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2900,7 +2909,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/install_pgadmin_on_fedora.html</loc>
+    <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2909,7 +2918,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
+    <loc>https://pengtech.net/database/install_pgadmin_on_fedora.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
