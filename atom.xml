@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-05-02T02:32:51.909Z</updated>
+  <updated>2025-05-07T12:13:34.633Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux 上如何清除 DNS 缓存</title>
+    <link href="https://pengtech.net/network/cleanup-dns-cache-on-linux.html"/>
+    <id>https://pengtech.net/network/cleanup-dns-cache-on-linux.html</id>
+    <published>2025-05-06T16:00:00.000Z</published>
+    <updated>2025-05-07T12:13:34.633Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在日常使用 Linux 系统的过程中，DNS 缓存的管理是一个常见但容易被忽视的问题。当 DNS 缓存出现问题时，可能会导致域名解析失败，从而影响网络连接。本文将介绍如何在不同的 Linux 发行版上清除 DNS 缓存，以帮助您快速解决相关问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="network" scheme="https://pengtech.net/categories/network/"/>
+    
+    <category term="dns" scheme="https://pengtech.net/categories/network/dns/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker 命令</title>
@@ -285,8 +306,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -313,7 +334,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.830Z</updated>
+    <updated>2025-05-05T10:47:13.688Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 MacOS 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -340,7 +361,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.879Z</updated>
+    <updated>2025-05-05T10:47:08.383Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -373,7 +394,7 @@
     <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
     <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.883Z</updated>
+    <updated>2025-05-05T10:46:43.118Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
@@ -597,13 +618,13 @@
     <category term="SEO" scheme="https://pengtech.net/categories/SEO/"/>
     
     
-    <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
-    
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
     
     <category term="Seo" scheme="https://pengtech.net/tags/Seo/"/>
     
     <category term="canonical link" scheme="https://pengtech.net/tags/canonical-link/"/>
+    
+    <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
     
   </entry>
   
@@ -612,7 +633,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:29.098Z</updated>
+    <updated>2025-05-05T10:46:50.524Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -728,7 +749,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.815Z</updated>
+    <updated>2025-05-05T10:46:27.379Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -1426,7 +1447,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.816Z</updated>
+    <updated>2025-05-05T10:46:59.375Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2243,7 +2264,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:29.197Z</updated>
+    <updated>2025-05-05T10:46:32.318Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2668,7 +2689,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.877Z</updated>
+    <updated>2025-05-05T10:46:38.151Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2707,7 +2728,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:28.875Z</updated>
+    <updated>2025-05-05T10:45:58.636Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -3087,9 +3108,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -3112,9 +3133,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -3135,9 +3156,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -4404,9 +4425,9 @@
     
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
     
   </entry>
   
@@ -4856,9 +4877,9 @@
     
     <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
     
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
     <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
+    
+    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
     
   </entry>
   
@@ -5431,11 +5452,11 @@
     
     <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
     
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
     
     <category term="springboot" scheme="https://pengtech.net/tags/springboot/"/>
-    
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -5969,9 +5990,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6139,9 +6160,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6163,9 +6184,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6187,9 +6208,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6237,9 +6258,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6261,9 +6282,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6291,9 +6312,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6322,9 +6343,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6346,9 +6367,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6371,9 +6392,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6395,9 +6416,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6418,9 +6439,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6443,9 +6464,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="design" scheme="https://pengtech.net/tags/design/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -6661,6 +6682,36 @@
   </entry>
   
   <entry>
+    <title>Windows上安装git2.x</title>
+    <link href="https://pengtech.net/git/windows_install_git.html"/>
+    <id>https://pengtech.net/git/windows_install_git.html</id>
+    <published>2022-03-05T16:00:00.000Z</published>
+    <updated>2025-03-20T11:47:00.359Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
+  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
+    
+    
+    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
+    
+    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Angular CLI 安装和使用</title>
     <link href="https://pengtech.net/angular/angular2_installation.html"/>
     <id>https://pengtech.net/angular/angular2_installation.html</id>
@@ -6708,36 +6759,6 @@
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows上安装git2.x</title>
-    <link href="https://pengtech.net/git/windows_install_git.html"/>
-    <id>https://pengtech.net/git/windows_install_git.html</id>
-    <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2025-03-20T11:47:00.359Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
-  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
-    
-    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
   </entry>
   
@@ -7456,7 +7477,7 @@
     <link href="https://pengtech.net/hexo/blog_seo_optimize.html"/>
     <id>https://pengtech.net/hexo/blog_seo_optimize.html</id>
     <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:01.230Z</updated>
+    <updated>2025-05-07T11:09:04.541Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-如何让自己的博客网站被收录&quot;&gt;&lt;a href=&quot;#1-如何让自己的博客网站被收录&quot; class=&quot;headerlink&quot; title=&quot;1. 如何让自己的博客网站被收录&quot;&gt;&lt;/a&gt;1. 如何让自己的博客网站被收录&lt;/h2&gt;&lt;h3 id=&quot;1-1-首先检查自己的站点有没有被收录&quot;&gt;&lt;a href=&quot;#1-1-首先检查自己的站点有没有被收录&quot; class=&quot;headerlink&quot; title=&quot;1.1. 首先检查自己的站点有没有被收录&quot;&gt;&lt;/a&gt;1.1. 首先检查自己的站点有没有被收录&lt;/h3&gt;&lt;p&gt;以百度为例&lt;/p&gt;
@@ -7563,30 +7584,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
-    
     <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
-  </entry>
-  
-  <entry>
-    <title>JavaScript之this关键字</title>
-    <link href="https://pengtech.net/javascript/js_this_explanation.html"/>
-    <id>https://pengtech.net/javascript/js_this_explanation.html</id>
-    <published>2021-10-24T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;在开发过程中，常常被javascript中的this搞晕，直到自己静下心来系统的把他梳理清楚，下面是由浅如深的理解this关键字.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="javascript" scheme="https://pengtech.net/categories/web/javascript/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
     
   </entry>
   
