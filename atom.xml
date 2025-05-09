@@ -183,7 +183,7 @@
     <link href="https://pengtech.net/docker/docker-registry-mirrors-status.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors-status.html</id>
     <published>2025-04-24T16:00:00.000Z</published>
-    <updated>2025-05-01T15:16:16.309Z</updated>
+    <updated>2025-05-07T16:21:47.106Z</updated>
     
     
     <summary type="html">&lt;p&gt;每日更新国内 Docker 镜像加速器状态，以显著提升镜像拉取速度和开发效率。&lt;/p&gt;</summary>
@@ -306,8 +306,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -618,13 +618,13 @@
     <category term="SEO" scheme="https://pengtech.net/categories/SEO/"/>
     
     
+    <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
+    
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
     
     <category term="Seo" scheme="https://pengtech.net/tags/Seo/"/>
     
     <category term="canonical link" scheme="https://pengtech.net/tags/canonical-link/"/>
-    
-    <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
     
   </entry>
   
@@ -3108,9 +3108,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -3133,9 +3133,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -3156,9 +3156,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -4425,9 +4425,9 @@
     
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
-    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
-    
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+    <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
     
   </entry>
   
@@ -4877,9 +4877,9 @@
     
     <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
     
-    <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
-    
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+    <category term="SEO" scheme="https://pengtech.net/tags/SEO/"/>
     
   </entry>
   
@@ -5452,11 +5452,11 @@
     
     <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
     
     <category term="springboot" scheme="https://pengtech.net/tags/springboot/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -5990,9 +5990,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6160,9 +6160,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6184,9 +6184,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6208,9 +6208,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6258,9 +6258,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6282,9 +6282,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6312,9 +6312,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6343,9 +6343,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6367,9 +6367,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6392,9 +6392,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6416,9 +6416,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6439,9 +6439,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6464,9 +6464,9 @@
     <category term="material design" scheme="https://pengtech.net/categories/web/material-design/"/>
     
     
-    <category term="design" scheme="https://pengtech.net/tags/design/"/>
-    
     <category term="material design" scheme="https://pengtech.net/tags/material-design/"/>
+    
+    <category term="design" scheme="https://pengtech.net/tags/design/"/>
     
   </entry>
   
@@ -6682,36 +6682,6 @@
   </entry>
   
   <entry>
-    <title>Windows上安装git2.x</title>
-    <link href="https://pengtech.net/git/windows_install_git.html"/>
-    <id>https://pengtech.net/git/windows_install_git.html</id>
-    <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2025-03-20T11:47:00.359Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
-  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
-    
-    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Angular CLI 安装和使用</title>
     <link href="https://pengtech.net/angular/angular2_installation.html"/>
     <id>https://pengtech.net/angular/angular2_installation.html</id>
@@ -6759,6 +6729,36 @@
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows上安装git2.x</title>
+    <link href="https://pengtech.net/git/windows_install_git.html"/>
+    <id>https://pengtech.net/git/windows_install_git.html</id>
+    <published>2022-03-05T16:00:00.000Z</published>
+    <updated>2025-03-20T11:47:00.359Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
+  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
+    
+    
+    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
+    
+    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
   </entry>
   
@@ -6838,19 +6838,14 @@
   </entry>
   
   <entry>
-    <title>在fedora40上安装virtualbox</title>
+    <title>在 fedora40 上安装 virtualbox</title>
     <link href="https://pengtech.net/linux/install_virtualbox_on_fedora40.html"/>
     <id>https://pengtech.net/linux/install_virtualbox_on_fedora40.html</id>
     <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2025-03-14T09:18:35.699Z</updated>
+    <updated>2025-05-09T02:27:55.988Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-安装-virtualBox&quot;&gt;&lt;a href=&quot;#1-安装-virtualBox&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 virtualBox&quot;&gt;&lt;/a&gt;1. 安装 virtualBox&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;首先下载oracle_vbox.asc文件到本地：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;wget -q &lt;a href=&quot;https://www.virtualbox.org/download/oracle_vbox.asc&quot;&gt;https://www.virtualbox.org/download/oracle_vbox.asc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;再执行import：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; rpm --import oracle_vbox.asc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;p&gt;Oracle VirtualBox 是一款功能强大的虚拟化工具，可让您在一台计算机上运行多个操作系统。如果您是 Fedora 用户，并且想要安装 VirtualBox，那么您来对地方了。本指南将指导您在 Fedora Linux 上安装 VirtualBox 的过程。&lt;/p&gt;</summary>
     
     
     
@@ -7345,7 +7340,7 @@
     <link href="https://pengtech.net/ansible/ansible.html"/>
     <id>https://pengtech.net/ansible/ansible.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:54:05.186Z</updated>
+    <updated>2025-05-07T18:48:08.807Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
@@ -7584,9 +7579,9 @@
     
     <category term="html" scheme="https://pengtech.net/tags/html/"/>
     
-    <category term="less" scheme="https://pengtech.net/tags/less/"/>
-    
     <category term="bootstrap" scheme="https://pengtech.net/tags/bootstrap/"/>
+    
+    <category term="less" scheme="https://pengtech.net/tags/less/"/>
     
   </entry>
   
