@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2025-05-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2025-05-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <lastmod>2025-05-10</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    <lastmod>2025-05-10</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/linux/install_virtualbox_on_fedora40.html</loc>
     <lastmod>2025-05-09</lastmod>
   </url>
@@ -38,22 +54,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
-    <lastmod>2025-05-05</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    <lastmod>2025-05-05</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    <lastmod>2025-05-05</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    <lastmod>2025-05-05</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2025-05-05</lastmod>
   </url>
   <url>
@@ -1217,11 +1217,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
