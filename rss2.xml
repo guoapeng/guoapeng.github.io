@@ -15,8 +15,77 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 07 May 2025 12:13:34 GMT</pubDate>
+    <pubDate>Mon, 26 May 2025 09:06:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>如何使用 vLLM 部署千问 3 大语言模型？</title>
+      <link>https://pengtech.net/ai/vllm_install_qwen3.html</link>
+      <guid>https://pengtech.net/ai/vllm_install_qwen3.html</guid>
+      <pubDate>Sun, 25 May 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/AI/">AI</category>
+      
+      
+      <category domain="https://pengtech.net/tags/AI/">AI</category>
+      
+      <category domain="https://pengtech.net/tags/vLLM/">vLLM</category>
+      
+      <category domain="https://pengtech.net/tags/Qwen3/">Qwen3</category>
+      
+      
+      <comments>https://pengtech.net/ai/vllm_install_qwen3.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何使用源码安装 vLLM？</title>
+      <link>https://pengtech.net/ai/install_vllm_from_sourcecode.html</link>
+      <guid>https://pengtech.net/ai/install_vllm_from_sourcecode.html</guid>
+      <pubDate>Sat, 24 May 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;vLLM 是一个专为 高性能推理 优化的大型语言模型（LLM）推理引擎，它由 UC Berkeley、CMU(卡内基梅隆大学)、Stanford 等高校的研究人员联合开发，旨在解决当前 LLM 推理中的效率与资源浪费问题。vLLM (virtualized Large Language Model) 是一个项目名称，其含义更侧重于强调它的&lt;strong&gt;虚拟化 + 大语言模型（LLM）&lt;/strong&gt; 特性。virtualized 指的是该项目核心技术 —— 利用一种“虚拟内存”式的 KV 缓存管理机制（PagedAttention）。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/AI/">AI</category>
+      
+      
+      <category domain="https://pengtech.net/tags/AI/">AI</category>
+      
+      <category domain="https://pengtech.net/tags/vLLM/">vLLM</category>
+      
+      
+      <comments>https://pengtech.net/ai/install_vllm_from_sourcecode.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何使用 Astral UV 管理 Python 虚拟环境？</title>
+      <link>https://pengtech.net/python/linux_install_python.html</link>
+      <guid>https://pengtech.net/python/linux_install_python.html</guid>
+      <pubDate>Thu, 22 May 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Astral UV 是一款由 Astral 公司（以开发高性能 Python 工具 Ruff 闻名）推出的 超高速 Python 包管理和项目管理工具，完全用 Rust 编写。它旨在取代传统的 Python 工具链（如 pip、virtualenv、poetry、pyenv 等），提供更快的速度和更统一的工作流。在 Astral UV 的上下文中，象征工具的高速性（Ultra-Velocity）和多功能性（Universal）。本文主要讲述如何在 Linux 下安装 Astral UV。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/python/">python</category>
+      
+      
+      <category domain="https://pengtech.net/tags/python/">python</category>
+      
+      
+      <comments>https://pengtech.net/python/linux_install_python.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Linux 上如何清除 DNS 缓存</title>
@@ -330,8 +399,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1947,6 +2016,31 @@
     </item>
     
     <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>如何制作macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -1970,31 +2064,6 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -8088,102 +8157,6 @@
       
       
       <comments>https://pengtech.net/hexo/blog_seo_optimize.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>block、inline 和 inline-block三者之间的区别</title>
-      <link>https://pengtech.net/web/block_inline_inline_block.html</link>
-      <guid>https://pengtech.net/web/block_inline_inline_block.html</guid>
-      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;block 和 inline 这两个概念是简略的说法，完整确切的说应该是 block-level elements (块级元素) 和 inline elements (内联元素)。block 元素通常被现实为独立的一块，会单独换一行；inline 元素则前后不会产生换行，一系列 inline 元素都在一行内显示，直到该行排满。&lt;/li&gt;
-&lt;li&gt;大体来说 HTML 元素各有其自身的布局级别（block 元素还是 inline 元素）：&lt;ul&gt;
-&lt;li&gt;常见的块级元素有 DIV, FORM, TABLE, P, PRE, H1~H6, DL, OL, UL 等。&lt;/li&gt;
-&lt;li&gt;常见的内联元素有 SPAN, A, STRONG, EM, LABEL, INPUT, SELECT, TEXTAREA, IMG, BR 等。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;block 元素可以包含 block 元素和 inline 元素；但 inline 元素只能包含 inline 元素。要注意的是这个是个大概的说法，每个特定的元素能包含的元素也是特定的，所以具体到个别元素上，这条规律是不适用的。比如 P 元素，只能包含 inline 元素，而不能包含 block 元素。&lt;/li&gt;
-&lt;li&gt;一般来说，可以通过 display:inline 和 display:block 的设置，改变元素的布局级别。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/css/">css</category>
-      
-      
-      <category domain="https://pengtech.net/tags/css/">css</category>
-      
-      <category domain="https://pengtech.net/tags/html/">html</category>
-      
-      
-      <comments>https://pengtech.net/web/block_inline_inline_block.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>canvas实现文字图片合成一张图片</title>
-      <link>https://pengtech.net/web/draw_pic_in_convas.html</link>
-      <guid>https://pengtech.net/web/draw_pic_in_convas.html</guid>
-      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;参考文档&quot;&gt;&lt;a href=&quot;#参考文档&quot; class=&quot;headerlink&quot; title=&quot;参考文档&quot;&gt;&lt;/a&gt;参考文档&lt;/h2&gt;&lt;p&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/html/">html</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/html/">html</category>
-      
-      
-      <comments>https://pengtech.net/web/draw_pic_in_convas.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Web基础大全</title>
-      <link>https://pengtech.net/web/web_basic_1.html</link>
-      <guid>https://pengtech.net/web/web_basic_1.html</guid>
-      <pubDate>Mon, 25 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-HTML-基础&quot;&gt;&lt;a href=&quot;#1-HTML-基础&quot; class=&quot;headerlink&quot; title=&quot;1. HTML 基础&quot;&gt;&lt;/a&gt;1. HTML 基础&lt;/h2&gt;&lt;p&gt;本文原文位于&lt;a href=&quot;https://pengtech.net/web/web_basic_1.html&quot;&gt;鹏叔的技术博客 - Web 基础大全&lt;/a&gt;, 请访问原文获取最新更新.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/html/">html</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/css/">css</category>
-      
-      <category domain="https://pengtech.net/tags/html/">html</category>
-      
-      <category domain="https://pengtech.net/tags/bootstrap/">bootstrap</category>
-      
-      <category domain="https://pengtech.net/tags/less/">less</category>
-      
-      
-      <comments>https://pengtech.net/web/web_basic_1.html#disqus_thread</comments>
       
     </item>
     

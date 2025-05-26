@@ -1,3 +1,9 @@
+https://pengtech.net/ai/install_vllm_from_sourcecode.html
+https://pengtech.net/ai/vllm_install_qwen3.html
+https://pengtech.net/nodejs/install_and_config_nodejs.html
+https://pengtech.net/python/linux_install_python.html
+https://pengtech.net/ansible/ansible_trouble_shooting.html
+https://pengtech.net/docker/what-is-docker-cloud.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
@@ -19,7 +25,6 @@ https://pengtech.net/docker/docker-commands.html
 https://pengtech.net/github/selfhosted-github-runner.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/k8s/linux_install_kubectl.html
-https://pengtech.net/docker/what-is-docker-cloud.html
 https://pengtech.net/nginx/nginx_installation_on_almalinux.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/database/install_mariadb_on_linux.html
@@ -43,8 +48,3 @@ https://pengtech.net/network/v2ray_server_install.html
 https://pengtech.net/angular/angular_debug.html
 https://pengtech.net/android/android_sdk_install.html
 https://pengtech.net/git/manage_multiple_github_accounts_on_a_host.html
-https://pengtech.net/astro/astro_install_and_configure.html
-https://pengtech.net/webpack/webpack_angularjs_bootstrap.html
-https://pengtech.net/nodejs/how_to_create_a_node_module.html
-https://pengtech.net/java/jdk17_installation.html
-https://pengtech.net/java/how_to_create_springBoot_proj.html

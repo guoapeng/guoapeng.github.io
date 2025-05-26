@@ -1,3 +1,9 @@
+https://pengtech.net/ai/install_vllm_from_sourcecode.html
+https://pengtech.net/ai/vllm_install_qwen3.html
+https://pengtech.net/nodejs/install_and_config_nodejs.html
+https://pengtech.net/python/linux_install_python.html
+https://pengtech.net/ansible/ansible_trouble_shooting.html
+https://pengtech.net/docker/what-is-docker-cloud.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
@@ -12,9 +18,3 @@ https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/install_hiddifyApp_on_windows.html
-https://pengtech.net/network/v2rayNG_install_and_config.html
-https://pengtech.net/network/v2rayN_usage.html
-https://pengtech.net/sites/emlog_install.html
-https://pengtech.net/docker/docker-commands.html
-https://pengtech.net/github/selfhosted-github-runner.html
-https://pengtech.net/docker/docker_install.html
