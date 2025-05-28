@@ -1,6 +1,10 @@
+https://pengtech.net/vps/hostinger_account_creation.html
+https://pengtech.net/ai/vllm_install_qwen3.html
+https://pengtech.net/ai/install-dify.html
+https://pengtech.net/docker/install-docker-on-ubuntu.html
+https://pengtech.net/docker/docker_install.html
 https://pengtech.net/ai/mcp-resources.html
 https://pengtech.net/ai/install_vllm_from_sourcecode.html
-https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/nodejs/install_and_config_nodejs.html
 https://pengtech.net/python/linux_install_python.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
@@ -14,7 +18,3 @@ https://pengtech.net/ansible/ansible.html
 https://pengtech.net/docker/docker-registry-mirrors-status.html
 https://pengtech.net/network/cleanup-dns-cache-on-linux.html
 https://pengtech.net/hexo/blog_seo_optimize.html
-https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
-https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
-https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/network/install_v2rayA_on_Windows_2.html

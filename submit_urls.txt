@@ -1,6 +1,10 @@
+https://pengtech.net/vps/hostinger_account_creation.html
+https://pengtech.net/ai/vllm_install_qwen3.html
+https://pengtech.net/ai/install-dify.html
+https://pengtech.net/docker/install-docker-on-ubuntu.html
+https://pengtech.net/docker/docker_install.html
 https://pengtech.net/ai/mcp-resources.html
 https://pengtech.net/ai/install_vllm_from_sourcecode.html
-https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/nodejs/install_and_config_nodejs.html
 https://pengtech.net/python/linux_install_python.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
@@ -24,7 +28,6 @@ https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/sites/emlog_install.html
 https://pengtech.net/docker/docker-commands.html
 https://pengtech.net/github/selfhosted-github-runner.html
-https://pengtech.net/docker/docker_install.html
 https://pengtech.net/k8s/linux_install_kubectl.html
 https://pengtech.net/nginx/nginx_installation_on_almalinux.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
@@ -45,6 +48,3 @@ https://pengtech.net/vscode/how_to_use_codepilot_free.html
 https://pengtech.net/nodejs/how_to_call_cli_in_nodejs.html
 https://pengtech.net/gitlab/gitlab_runner_on_fedora.html
 https://pengtech.net/nodejs/install_nvm_on_windows.html
-https://pengtech.net/network/v2ray_server_install.html
-https://pengtech.net/angular/angular_debug.html
-https://pengtech.net/android/android_sdk_install.html

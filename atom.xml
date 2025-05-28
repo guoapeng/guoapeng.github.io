@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-05-27T08:52:01.164Z</updated>
+  <updated>2025-05-27T17:40:40.387Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何部署 Dify？</title>
+    <link href="https://pengtech.net/ai/install-dify.html"/>
+    <id>https://pengtech.net/ai/install-dify.html</id>
+    <published>2025-05-26T16:00:00.000Z</published>
+    <updated>2025-05-27T17:40:40.387Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Dify 是一款开源的大语言模型（LLM）应用开发平台，融合了后端即服务（Backend as a Service, BaaS）和 LLMOps 的理念，旨在帮助开发者快速构建和部署生成式 AI 应用。本篇文章将带您了解如何在本地环境中部署 Dify。通过本地部署，您可以更好地掌控数据和应用的运行环境，同时体验 Dify 强大的功能和灵活性。无论您是开发者还是对生成式 AI 应用感兴趣的技术爱好者，这篇指南都将为您提供清晰的步骤和实用的建议。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="https://pengtech.net/categories/AI/"/>
+    
+    
+    <category term="AI" scheme="https://pengtech.net/tags/AI/"/>
+    
+    <category term="Dify" scheme="https://pengtech.net/tags/Dify/"/>
+    
+  </entry>
   
   <entry>
     <title>2025 年最新 MCP 资源库汇总</title>
@@ -38,11 +59,55 @@
   </entry>
   
   <entry>
+    <title>Ubuntu 安装并配置 docker</title>
+    <link href="https://pengtech.net/docker/install-docker-on-ubuntu.html"/>
+    <id>https://pengtech.net/docker/install-docker-on-ubuntu.html</id>
+    <published>2025-05-26T16:00:00.000Z</published>
+    <updated>2025-05-27T16:27:35.029Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Docker 是现代软件开发和部署中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了轻量级、便捷且高效的解决方案。本文将详细介绍如何在 Ubuntu 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/categories/devops/docker/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速注册 Hostinger 账号以及创建 Hostinger VPS</title>
+    <link href="https://pengtech.net/vps/hostinger_account_creation.html"/>
+    <id>https://pengtech.net/vps/hostinger_account_creation.html</id>
+    <published>2025-05-26T16:00:00.000Z</published>
+    <updated>2025-05-28T03:48:27.538Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hostinger是一家成立于2004年的全球知名主机服务提供商，至今已有二十年的历史。总部位于欧洲，Hostinger从一个小型初创公司起步，如今已发展成为全球范围内提供多元化主机解决方案的顶级企业，拥有超过2900万用户，遍布178个国家。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="VPS" scheme="https://pengtech.net/categories/VPS/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="Hostinger" scheme="https://pengtech.net/tags/Hostinger/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何使用 vLLM 部署千问 3 大语言模型？</title>
     <link href="https://pengtech.net/ai/vllm_install_qwen3.html"/>
     <id>https://pengtech.net/ai/vllm_install_qwen3.html</id>
     <published>2025-05-25T16:00:00.000Z</published>
-    <updated>2025-05-26T09:06:37.478Z</updated>
+    <updated>2025-05-28T02:47:06.937Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</summary>
@@ -390,8 +455,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1885,16 +1950,14 @@
   </entry>
   
   <entry>
-    <title>如何制作macOS Sonoma ISO 文件</title>
-    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
-    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
+    <title>linux上安装vmware</title>
+    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
+    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-11-02T13:03:23.412Z</updated>
+    <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
-&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
     
     
     
@@ -1910,14 +1973,16 @@
   </entry>
   
   <entry>
-    <title>linux上安装vmware</title>
-    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
-    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
+    <title>如何制作macOS Sonoma ISO 文件</title>
+    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
+    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-11-02T13:03:23.412Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
     
@@ -4363,16 +4428,15 @@
   </entry>
   
   <entry>
-    <title>买家决策过程详解</title>
-    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
-    <id>https://pengtech.net/product/buyer_decision_process.html</id>
+    <title>什么是客户满意度？</title>
+    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
+    <id>https://pengtech.net/product/customer_satisfaction.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.396Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
-&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
-&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
     
     
     
@@ -4386,15 +4450,16 @@
   </entry>
   
   <entry>
-    <title>什么是客户满意度？</title>
-    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
-    <id>https://pengtech.net/product/customer_satisfaction.html</id>
+    <title>买家决策过程详解</title>
+    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
+    <id>https://pengtech.net/product/buyer_decision_process.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
+&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
+&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
     
     
     
@@ -5087,15 +5152,14 @@
   </entry>
   
   <entry>
-    <title>安装并配置docker</title>
+    <title>如何在 RHEL 系列 linux 上安装并配置 docker?</title>
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-05-01T14:27:32.053Z</updated>
+    <updated>2025-05-27T09:53:04.924Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是-Docker-容器？&quot;&gt;&lt;a href=&quot;#1-什么是-Docker-容器？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 Docker 容器？&quot;&gt;&lt;/a&gt;1. 什么是 Docker 容器？&lt;/h2&gt;&lt;p&gt;Docker 是一种轻量级的虚拟化技术，同时是一个开源的应用容器运行环境搭建平台，可以让开发者以便捷方式打包应用到一个可移植的容器中，然后安装至任何运行 Linux 或 Windows 等系统的服务器上。相较于传统虚拟机，Docker 容器提供轻量化的虚拟化方式、安装便捷、启停速度快。&lt;/p&gt;
-&lt;p&gt;本文主要讲述如何在 Centos 7.9 操作系统上安装 Docker, 当然本教程也适合 RHEL 系列的其他 Linux 发型版本.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Docker 是现代软件开发和运维中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了一个轻量级、高效且灵活的解决方案。无论是构建、测试还是部署应用程序，Docker 都能显著简化流程并提升效率。在本篇文章中，我们将详细介绍如何在 RHEL 系列 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
     
     
     
@@ -6887,9 +6951,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -7420,30 +7484,6 @@
   </entry>
   
   <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
-    <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Ansible 教程</title>
     <link href="https://pengtech.net/ansible/ansible.html"/>
     <id>https://pengtech.net/ansible/ansible.html</id>
@@ -7467,87 +7507,26 @@
   </entry>
   
   <entry>
-    <title>linux环境下创建rpm仓库</title>
-    <link href="https://pengtech.net/linux/create_rpm_repository_on_linux.html"/>
-    <id>https://pengtech.net/linux/create_rpm_repository_on_linux.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-环境说明&quot;&gt;&lt;a href=&quot;#1-环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 环境说明&quot;&gt;&lt;/a&gt;1. 环境说明&lt;/h2&gt;&lt;p&gt;centos 7.7&lt;/p&gt;
-&lt;h2 id=&quot;2-简要说明&quot;&gt;&lt;a href=&quot;#2-简要说明&quot; class=&quot;headerlink&quot; title=&quot;2. 简要说明&quot;&gt;&lt;/a&gt;2. 简要说明&lt;/h2&gt;&lt;p&gt;第一步：首先配置本地可以安装的rpm仓库&lt;/p&gt;
-&lt;p&gt;第二步：然后安装apache将仓库export出去，&lt;/p&gt;
-&lt;p&gt;第三步：让局域网上其他计算机其他计算机可以使用自己创建的rpm仓库，也可以称为yum源。&lt;/p&gt;
-&lt;p&gt;第四步：如果能让internet上其他计算机可以访问该yum源，需要公网IP，如果方便用户记忆需要配置dns解析。(本文由于篇幅所限，不讲解此步骤, 可自行百度了解, 如何配置DNS解析)&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
     
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
     
     
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
-  </entry>
-  
-  <entry>
-    <title>如何制作RPM安装包</title>
-    <link href="https://pengtech.net/linux/how_to_create_rpm_package.html"/>
-    <id>https://pengtech.net/linux/how_to_create_rpm_package.html</id>
-    <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-原文&quot;&gt;&lt;a href=&quot;#1-原文&quot; class=&quot;headerlink&quot; title=&quot;1. 原文&quot;&gt;&lt;/a&gt;1. 原文&lt;/h2&gt;&lt;p&gt;原文&lt;a href=&quot;https://access.redhat.com/sites/default/files/attachments/rpm_building_howto.pdf&quot;&gt;how to build RPM&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Author: Chris Negus&lt;/p&gt;
-&lt;p&gt;Editor: Allison Pranger&lt;/p&gt;
-&lt;p&gt;Date: 09&amp;#x2F;16&amp;#x2F;2011&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt; 团队&lt;/p&gt;
-&lt;h2 id=&quot;2-概览&quot;&gt;&lt;a href=&quot;#2-概览&quot; class=&quot;headerlink&quot; title=&quot;2. 概览&quot;&gt;&lt;/a&gt;2. 概览&lt;/h2&gt;&lt;p&gt;您已经创建了一些要安装在Red Hat Enterprise Linux系统上的软件。现在的问题是，“软件编写完成后，如何打包该软件以使其他人易于安装和管理？”&lt;/p&gt;
-&lt;p&gt;答案是将其打包成RPM安装包。&lt;/p&gt;
-&lt;p&gt;尽管有其他方式，可以将软件打包成特定格式的压缩包（通过压缩包或其他类型的存档文件）通过解压缩的方式安装到Linux系统，但是将Linux软件打包为RPM，可以为您带来一下好处：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;在包中包括描述其组件，版本号，大小，包的元数据, 组，项目网址等待信息。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;将软件包添加到yum存储库，以便客户可以轻松找到您的软件&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;让客户端使用常见的Linux工具（yum，rpm和PackageKit）来安装，删除和管理您的软件。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用相同的Linux安装工具轻松更新和部署软件的新版本&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;您无需成为程序员即可创建RPM：只需了解如何创建SPEC文件并使用命令来构建该SPEC文件, 并将内容打包到RPM中。如何打包RPM格式的安装包是本文要详述的内容。创建RPM安装包不仅对管理公司的软件有用，而且也被列为红帽认证工程师（RHCE）考试技能测试范畴。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何配置git push</title>
-    <link href="https://pengtech.net/git/how_to_configure_git_push.html"/>
-    <id>https://pengtech.net/git/how_to_configure_git_push.html</id>
-    <published>2021-10-25T16:00:00.000Z</published>
-    <updated>2025-03-08T00:31:11.453Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;有时我们在push代码时候，需要写很长一段命令，尤其在branch的名字非常长的时候，而且在团队合作的环境中，分支名都是自解释型的，名称通常都很长。当然在理解git原理的前提下，可以自己写shell脚本去读取当前分支名，将很长的一串命令缩短，配置一个简短的别名去调用脚本，也是可以的。这里介绍一种简单的通过配置git configuration方式达到使用git push将change推送到远程同名分支的方式。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="git" scheme="https://pengtech.net/tags/git/"/>
+    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
     
   </entry>
   

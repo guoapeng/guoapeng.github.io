@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/vps/hostinger_account_creation.html</loc>
+    <lastmod>2025-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
+    <lastmod>2025-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/ai/install-dify.html</loc>
+    <lastmod>2025-05-27</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/install-docker-on-ubuntu.html</loc>
+    <lastmod>2025-05-27</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker_install.html</loc>
+    <lastmod>2025-05-27</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/ai/mcp-resources.html</loc>
     <lastmod>2025-05-27</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/ai/install_vllm_from_sourcecode.html</loc>
-    <lastmod>2025-05-26</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
     <lastmod>2025-05-26</lastmod>
   </url>
   <url>
@@ -102,10 +118,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/github/selfhosted-github-runner.html</loc>
-    <lastmod>2025-05-01</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
     <lastmod>2025-05-01</lastmod>
   </url>
   <url>
@@ -813,11 +825,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1233,11 +1245,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
