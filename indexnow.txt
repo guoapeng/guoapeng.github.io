@@ -1,10 +1,14 @@
-https://pengtech.net/vps/hostinger_account_creation.html
+https://pengtech.net/vscode/cloud_ide_on_vultr.html
 https://pengtech.net/ai/vllm_install_qwen3.html
+https://pengtech.net/docker/install_docker_proxy.html
+https://pengtech.net/ai/install_vllm_from_sourcecode.html
+https://pengtech.net/sites/emlog_install.html
+https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
+https://pengtech.net/vps/hostinger_account_creation.html
 https://pengtech.net/ai/install-dify.html
 https://pengtech.net/docker/install-docker-on-ubuntu.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/ai/mcp-resources.html
-https://pengtech.net/ai/install_vllm_from_sourcecode.html
 https://pengtech.net/nodejs/install_and_config_nodejs.html
 https://pengtech.net/python/linux_install_python.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
@@ -14,7 +18,3 @@ https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_config_v2rayA_on_linux.html
 https://pengtech.net/linux/install_virtualbox_on_fedora40.html
-https://pengtech.net/ansible/ansible.html
-https://pengtech.net/docker/docker-registry-mirrors-status.html
-https://pengtech.net/network/cleanup-dns-cache-on-linux.html
-https://pengtech.net/hexo/blog_seo_optimize.html

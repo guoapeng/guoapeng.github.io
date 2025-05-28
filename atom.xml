@@ -86,7 +86,7 @@
     <link href="https://pengtech.net/vps/hostinger_account_creation.html"/>
     <id>https://pengtech.net/vps/hostinger_account_creation.html</id>
     <published>2025-05-26T16:00:00.000Z</published>
-    <updated>2025-05-28T03:48:27.538Z</updated>
+    <updated>2025-05-28T03:54:31.240Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hostinger是一家成立于2004年的全球知名主机服务提供商，至今已有二十年的历史。总部位于欧洲，Hostinger从一个小型初创公司起步，如今已发展成为全球范围内提供多元化主机解决方案的顶级企业，拥有超过2900万用户，遍布178个国家。&lt;/p&gt;</summary>
@@ -107,7 +107,7 @@
     <link href="https://pengtech.net/ai/vllm_install_qwen3.html"/>
     <id>https://pengtech.net/ai/vllm_install_qwen3.html</id>
     <published>2025-05-25T16:00:00.000Z</published>
-    <updated>2025-05-28T02:47:06.937Z</updated>
+    <updated>2025-05-28T04:18:02.205Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</summary>
@@ -130,7 +130,7 @@
     <link href="https://pengtech.net/ai/install_vllm_from_sourcecode.html"/>
     <id>https://pengtech.net/ai/install_vllm_from_sourcecode.html</id>
     <published>2025-05-24T16:00:00.000Z</published>
-    <updated>2025-05-26T09:06:43.566Z</updated>
+    <updated>2025-05-28T04:16:07.299Z</updated>
     
     
     <summary type="html">&lt;p&gt;vLLM 是一个专为 高性能推理 优化的大型语言模型（LLM）推理引擎，它由 UC Berkeley、CMU(卡内基梅隆大学)、Stanford 等高校的研究人员联合开发，旨在解决当前 LLM 推理中的效率与资源浪费问题。vLLM (virtualized Large Language Model) 是一个项目名称，其含义更侧重于强调它的&lt;strong&gt;虚拟化 + 大语言模型（LLM）&lt;/strong&gt; 特性。virtualized 指的是该项目核心技术 —— 利用一种“虚拟内存”式的 KV 缓存管理机制（PagedAttention）。&lt;/p&gt;</summary>
@@ -238,7 +238,7 @@
     <link href="https://pengtech.net/sites/emlog_install.html"/>
     <id>https://pengtech.net/sites/emlog_install.html</id>
     <published>2025-04-29T16:00:00.000Z</published>
-    <updated>2025-05-03T13:13:02.201Z</updated>
+    <updated>2025-05-28T04:13:57.668Z</updated>
     
     
     <summary type="html">&lt;p&gt;个人博客早就玩得有点腻了， 独乐乐不如众乐乐，自己也写了一个多用户博客，但是集成在一个比较大的系统里面，一直想把它分拆出来进行，但是一直没有时间和精力去做，考虑到更加没有时间去做推广。花费时间意义又不太大，本着想吃鱼不必去养鱼的想法，一直在寻找一款开源的解决方案。之前试用过 wordpress 的多用户博客，体验下来不太理想。其他的比如 Astro, Strapi 加自定义前端一个比较耗时，体验也不是很好。&lt;br&gt;今天偶然间发现 emlog，我理想中的功能都有，而且还超过了我的预期。所以花了一点点时间把它安装了一下。官方教程写得不够详细，主要在数据库连接方面写得不够详细，花费了一些时间，最终选择了通用安装方式，从我的角度看比较理想。当然在此教程的基础上修改为 docker 或 docker compose 安装方案也比较容易。这里将安装过程记录下来，以便对有同样需求的人有所帮助。&lt;/p&gt;</summary>
@@ -455,8 +455,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -626,7 +626,7 @@
     <link href="https://pengtech.net/docker/install_docker_proxy.html"/>
     <id>https://pengtech.net/docker/install_docker_proxy.html</id>
     <published>2025-03-16T16:00:00.000Z</published>
-    <updated>2025-04-28T11:03:07.502Z</updated>
+    <updated>2025-05-28T04:17:49.163Z</updated>
     
     
     <summary type="html">&lt;p&gt;由于近期 hub.docker.com 等容器镜像站在国内已经被墙，并且现在看来也无重新可用的可能性了。所以手里有闲置服务器的佬友可以选择自己搭建一个 Docker 镜像加速服务，以便能够中转对 Docker 官方镜像仓库的请求，解决国内无法访问或访问缓慢的问题。本文主要讲述如何使用一台海外 VPS,手动搭建一台镜像加速服务器。&lt;/p&gt;</summary>
@@ -1395,7 +1395,7 @@
     <link href="https://pengtech.net/wordpress/deploy_wordpress_on_vps.html"/>
     <id>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</id>
     <published>2024-08-28T16:00:00.000Z</published>
-    <updated>2025-04-30T15:44:39.217Z</updated>
+    <updated>2025-05-28T04:12:28.534Z</updated>
     
     
     <summary type="html">&lt;p&gt;昨天我获得了 &lt;a href=&quot;https://www.vultr.com/?ref=9651323-9J&quot;&gt;Vultr.com&lt;/a&gt; 300 美金的试用金，限期 1 个月。&lt;/p&gt;
@@ -1446,7 +1446,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide_on_vultr.html"/>
     <id>https://pengtech.net/vscode/cloud_ide_on_vultr.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2024-12-14T18:28:00.147Z</updated>
+    <updated>2025-05-28T04:19:28.958Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -1950,14 +1950,16 @@
   </entry>
   
   <entry>
-    <title>linux上安装vmware</title>
-    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
-    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
+    <title>如何制作macOS Sonoma ISO 文件</title>
+    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
+    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-11-02T13:03:23.412Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
     
@@ -1973,16 +1975,14 @@
   </entry>
   
   <entry>
-    <title>如何制作macOS Sonoma ISO 文件</title>
-    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
-    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
+    <title>linux上安装vmware</title>
+    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
+    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-11-02T13:03:23.412Z</updated>
+    <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
-&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
     
     
     
@@ -4428,15 +4428,16 @@
   </entry>
   
   <entry>
-    <title>什么是客户满意度？</title>
-    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
-    <id>https://pengtech.net/product/customer_satisfaction.html</id>
+    <title>买家决策过程详解</title>
+    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
+    <id>https://pengtech.net/product/buyer_decision_process.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
+&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
+&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
     
     
     
@@ -4450,16 +4451,15 @@
   </entry>
   
   <entry>
-    <title>买家决策过程详解</title>
-    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
-    <id>https://pengtech.net/product/buyer_decision_process.html</id>
+    <title>什么是客户满意度？</title>
+    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
+    <id>https://pengtech.net/product/customer_satisfaction.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.396Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
-&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
-&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
     
     
     
@@ -4650,14 +4650,14 @@
   </entry>
   
   <entry>
-    <title>npm debug指南</title>
-    <link href="https://pengtech.net/nodejs/npm_debug.html"/>
-    <id>https://pengtech.net/nodejs/npm_debug.html</id>
+    <title>记一次npm run问题排查的详细过程</title>
+    <link href="https://pengtech.net/nodejs/npm_run_debug.html"/>
+    <id>https://pengtech.net/nodejs/npm_run_debug.html</id>
     <published>2023-06-21T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.277Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</summary>
     
     
     
@@ -4671,14 +4671,14 @@
   </entry>
   
   <entry>
-    <title>记一次npm run问题排查的详细过程</title>
-    <link href="https://pengtech.net/nodejs/npm_run_debug.html"/>
-    <id>https://pengtech.net/nodejs/npm_run_debug.html</id>
+    <title>npm debug指南</title>
+    <link href="https://pengtech.net/nodejs/npm_debug.html"/>
+    <id>https://pengtech.net/nodejs/npm_debug.html</id>
     <published>2023-06-21T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.277Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</summary>
     
     
     
@@ -4859,15 +4859,16 @@
   </entry>
   
   <entry>
-    <title>申请免费SSL证书</title>
-    <link href="https://pengtech.net/nginx/apply_ssl_certificate.html"/>
-    <id>https://pengtech.net/nginx/apply_ssl_certificate.html</id>
+    <title>nginx配置https</title>
+    <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
+    <id>https://pengtech.net/nginx/nginx_config_https.html</id>
     <published>2023-05-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
+&lt;p&gt;SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP&amp;#x2F;IP 协议与各种应用层协议之间，为数据通讯提供安全支持。&lt;/p&gt;
+&lt;p&gt;TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2 三个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。TLS 1.3 改动会比较大，目前还在草案阶段，目前使用最广泛的是TLS 1.1、TLS 1.2。&lt;/p&gt;</summary>
     
     
     
@@ -4881,16 +4882,15 @@
   </entry>
   
   <entry>
-    <title>nginx配置https</title>
-    <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
-    <id>https://pengtech.net/nginx/nginx_config_https.html</id>
+    <title>申请免费SSL证书</title>
+    <link href="https://pengtech.net/nginx/apply_ssl_certificate.html"/>
+    <id>https://pengtech.net/nginx/apply_ssl_certificate.html</id>
     <published>2023-05-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.395Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
-&lt;p&gt;SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP&amp;#x2F;IP 协议与各种应用层协议之间，为数据通讯提供安全支持。&lt;/p&gt;
-&lt;p&gt;TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2 三个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。TLS 1.3 改动会比较大，目前还在草案阶段，目前使用最广泛的是TLS 1.1、TLS 1.2。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</summary>
     
     
     

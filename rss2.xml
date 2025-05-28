@@ -493,8 +493,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -2110,31 +2110,6 @@
     </item>
     
     <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何制作macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -2158,6 +2133,31 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -4786,30 +4786,6 @@
     </item>
     
     <item>
-      <title>什么是客户满意度？</title>
-      <link>https://pengtech.net/product/customer_satisfaction.html</link>
-      <guid>https://pengtech.net/product/customer_satisfaction.html</guid>
-      <pubDate>Tue, 18 Jul 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/others/">others</category>
-      
-      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
-      
-      
-      <category domain="https://pengtech.net/tags/product/">product</category>
-      
-      
-      <comments>https://pengtech.net/product/customer_satisfaction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>买家决策过程详解</title>
       <link>https://pengtech.net/product/buyer_decision_process.html</link>
       <guid>https://pengtech.net/product/buyer_decision_process.html</guid>
@@ -4831,6 +4807,30 @@
       
       
       <comments>https://pengtech.net/product/buyer_decision_process.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>什么是客户满意度？</title>
+      <link>https://pengtech.net/product/customer_satisfaction.html</link>
+      <guid>https://pengtech.net/product/customer_satisfaction.html</guid>
+      <pubDate>Tue, 18 Jul 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
+      
+      
+      <category domain="https://pengtech.net/tags/product/">product</category>
+      
+      
+      <comments>https://pengtech.net/product/customer_satisfaction.html#disqus_thread</comments>
       
     </item>
     
@@ -5024,29 +5024,6 @@
     </item>
     
     <item>
-      <title>npm debug指南</title>
-      <link>https://pengtech.net/nodejs/npm_debug.html</link>
-      <guid>https://pengtech.net/nodejs/npm_debug.html</guid>
-      <pubDate>Wed, 21 Jun 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
-      
-      
-      <comments>https://pengtech.net/nodejs/npm_debug.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>记一次npm run问题排查的详细过程</title>
       <link>https://pengtech.net/nodejs/npm_run_debug.html</link>
       <guid>https://pengtech.net/nodejs/npm_run_debug.html</guid>
@@ -5066,6 +5043,29 @@
       
       
       <comments>https://pengtech.net/nodejs/npm_run_debug.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>npm debug指南</title>
+      <link>https://pengtech.net/nodejs/npm_debug.html</link>
+      <guid>https://pengtech.net/nodejs/npm_debug.html</guid>
+      <pubDate>Wed, 21 Jun 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
+      
+      
+      <comments>https://pengtech.net/nodejs/npm_debug.html#disqus_thread</comments>
       
     </item>
     
@@ -5251,30 +5251,6 @@
     </item>
     
     <item>
-      <title>申请免费SSL证书</title>
-      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
-      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
-      <pubDate>Sun, 14 May 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
-      
-      
-      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>nginx配置https</title>
       <link>https://pengtech.net/nginx/nginx_config_https.html</link>
       <guid>https://pengtech.net/nginx/nginx_config_https.html</guid>
@@ -5296,6 +5272,30 @@
       
       
       <comments>https://pengtech.net/nginx/nginx_config_https.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>申请免费SSL证书</title>
+      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
+      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
+      <pubDate>Sun, 14 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      
+      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
       
     </item>
     

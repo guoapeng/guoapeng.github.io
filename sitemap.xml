@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pengtech.net/vps/hostinger_account_creation.html</loc>
+    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
     
     <lastmod>2025-05-28</lastmod>
     
@@ -12,6 +12,51 @@
   
   <url>
     <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
+    
+    <lastmod>2025-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/docker/install_docker_proxy.html</loc>
+    
+    <lastmod>2025-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ai/install_vllm_from_sourcecode.html</loc>
+    
+    <lastmod>2025-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sites/emlog_install.html</loc>
+    
+    <lastmod>2025-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
+    
+    <lastmod>2025-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vps/hostinger_account_creation.html</loc>
     
     <lastmod>2025-05-28</lastmod>
     
@@ -59,15 +104,6 @@
     <loc>https://pengtech.net/ai/mcp-resources.html</loc>
     
     <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/ai/install_vllm_from_sourcecode.html</loc>
-    
-    <lastmod>2025-05-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -254,15 +290,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/sites/emlog_install.html</loc>
-    
-    <lastmod>2025-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/docker/docker-commands.html</loc>
     
     <lastmod>2025-05-02</lastmod>
@@ -299,15 +326,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html</loc>
-    
-    <lastmod>2025-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
     
     <lastmod>2025-04-30</lastmod>
@@ -336,15 +354,6 @@
   
   <url>
     <loc>https://pengtech.net/hexo/hexo_seo_and_canonical_links.html</loc>
-    
-    <lastmod>2025-04-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/docker/install_docker_proxy.html</loc>
     
     <lastmod>2025-04-28</lastmod>
     
@@ -968,15 +977,6 @@
     <loc>https://pengtech.net/flutter/install_flutter.html</loc>
     
     <lastmod>2025-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
-    
-    <lastmod>2024-12-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2405,7 +2405,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2414,7 +2414,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2549,7 +2549,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/npm_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2558,7 +2558,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2927,7 +2927,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2936,7 +2936,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
