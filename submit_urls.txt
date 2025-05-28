@@ -1,3 +1,5 @@
+https://pengtech.net/ai/dify-config-self-hosted-vllm.html
+https://pengtech.net/ai/install-dify.html
 https://pengtech.net/vscode/cloud_ide_on_vultr.html
 https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/docker/install_docker_proxy.html
@@ -5,7 +7,6 @@ https://pengtech.net/ai/install_vllm_from_sourcecode.html
 https://pengtech.net/sites/emlog_install.html
 https://pengtech.net/wordpress/deploy_wordpress_on_vps.html
 https://pengtech.net/vps/hostinger_account_creation.html
-https://pengtech.net/ai/install-dify.html
 https://pengtech.net/docker/install-docker-on-ubuntu.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/ai/mcp-resources.html
@@ -47,4 +48,3 @@ https://pengtech.net/github/github_action_update_github_page.html
 https://pengtech.net/network/dns_pollution_issue.html
 https://pengtech.net/vscode/how_to_use_codepilot_free.html
 https://pengtech.net/nodejs/how_to_call_cli_in_nodejs.html
-https://pengtech.net/gitlab/gitlab_runner_on_fedora.html

@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-05-27T17:40:40.387Z</updated>
+  <updated>2025-05-28T11:51:12.573Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>如何部署 Dify？</title>
+    <title>在 Dify 中配置 self-hosted vllm 模型</title>
+    <link href="https://pengtech.net/ai/dify-config-self-hosted-vllm.html"/>
+    <id>https://pengtech.net/ai/dify-config-self-hosted-vllm.html</id>
+    <published>2025-05-27T16:00:00.000Z</published>
+    <updated>2025-05-28T11:51:12.573Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 Dify 中配置 self-hosted vllm 模型 作为模型供应商时，应选择 OpenAI-API-compatible&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="https://pengtech.net/categories/AI/"/>
+    
+    
+    <category term="AI" scheme="https://pengtech.net/tags/AI/"/>
+    
+    <category term="Dify" scheme="https://pengtech.net/tags/Dify/"/>
+    
+    <category term="vLLM" scheme="https://pengtech.net/tags/vLLM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Linux 上通过 docker-compose 部署 Dify？</title>
     <link href="https://pengtech.net/ai/install-dify.html"/>
     <id>https://pengtech.net/ai/install-dify.html</id>
     <published>2025-05-26T16:00:00.000Z</published>
-    <updated>2025-05-27T17:40:40.387Z</updated>
+    <updated>2025-05-28T09:33:40.844Z</updated>
     
     
     <summary type="html">&lt;p&gt;Dify 是一款开源的大语言模型（LLM）应用开发平台，融合了后端即服务（Backend as a Service, BaaS）和 LLMOps 的理念，旨在帮助开发者快速构建和部署生成式 AI 应用。本篇文章将带您了解如何在本地环境中部署 Dify。通过本地部署，您可以更好地掌控数据和应用的运行环境，同时体验 Dify 强大的功能和灵活性。无论您是开发者还是对生成式 AI 应用感兴趣的技术爱好者，这篇指南都将为您提供清晰的步骤和实用的建议。&lt;/p&gt;</summary>
@@ -455,8 +478,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -4650,14 +4673,14 @@
   </entry>
   
   <entry>
-    <title>记一次npm run问题排查的详细过程</title>
-    <link href="https://pengtech.net/nodejs/npm_run_debug.html"/>
-    <id>https://pengtech.net/nodejs/npm_run_debug.html</id>
+    <title>npm debug指南</title>
+    <link href="https://pengtech.net/nodejs/npm_debug.html"/>
+    <id>https://pengtech.net/nodejs/npm_debug.html</id>
     <published>2023-06-21T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.277Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</summary>
     
     
     
@@ -4671,14 +4694,14 @@
   </entry>
   
   <entry>
-    <title>npm debug指南</title>
-    <link href="https://pengtech.net/nodejs/npm_debug.html"/>
-    <id>https://pengtech.net/nodejs/npm_debug.html</id>
+    <title>记一次npm run问题排查的详细过程</title>
+    <link href="https://pengtech.net/nodejs/npm_run_debug.html"/>
+    <id>https://pengtech.net/nodejs/npm_run_debug.html</id>
     <published>2023-06-21T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.277Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本指南将帮助您开始调试Node.js应用程序和npm run-script脚本。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</summary>
     
     
     
@@ -4859,16 +4882,15 @@
   </entry>
   
   <entry>
-    <title>nginx配置https</title>
-    <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
-    <id>https://pengtech.net/nginx/nginx_config_https.html</id>
+    <title>申请免费SSL证书</title>
+    <link href="https://pengtech.net/nginx/apply_ssl_certificate.html"/>
+    <id>https://pengtech.net/nginx/apply_ssl_certificate.html</id>
     <published>2023-05-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.395Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
-&lt;p&gt;SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP&amp;#x2F;IP 协议与各种应用层协议之间，为数据通讯提供安全支持。&lt;/p&gt;
-&lt;p&gt;TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2 三个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。TLS 1.3 改动会比较大，目前还在草案阶段，目前使用最广泛的是TLS 1.1、TLS 1.2。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</summary>
     
     
     
@@ -4882,15 +4904,16 @@
   </entry>
   
   <entry>
-    <title>申请免费SSL证书</title>
-    <link href="https://pengtech.net/nginx/apply_ssl_certificate.html"/>
-    <id>https://pengtech.net/nginx/apply_ssl_certificate.html</id>
+    <title>nginx配置https</title>
+    <link href="https://pengtech.net/nginx/nginx_config_https.html"/>
+    <id>https://pengtech.net/nginx/nginx_config_https.html</id>
     <published>2023-05-14T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.395Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL&amp;#x2F;TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。HTTPS 相比 HTTP 多了一层 SSL&amp;#x2F;TLS.&lt;/p&gt;
+&lt;p&gt;SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP&amp;#x2F;IP 协议与各种应用层协议之间，为数据通讯提供安全支持。&lt;/p&gt;
+&lt;p&gt;TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2 三个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。TLS 1.3 改动会比较大，目前还在草案阶段，目前使用最广泛的是TLS 1.1、TLS 1.2。&lt;/p&gt;</summary>
     
     
     
@@ -6951,9 +6974,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -7492,30 +7515,6 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
-    <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     

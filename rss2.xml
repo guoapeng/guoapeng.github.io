@@ -15,11 +15,36 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Tue, 27 May 2025 17:40:40 GMT</pubDate>
+    <pubDate>Wed, 28 May 2025 11:51:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>如何部署 Dify？</title>
+      <title>在 Dify 中配置 self-hosted vllm 模型</title>
+      <link>https://pengtech.net/ai/dify-config-self-hosted-vllm.html</link>
+      <guid>https://pengtech.net/ai/dify-config-self-hosted-vllm.html</guid>
+      <pubDate>Tue, 27 May 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在 Dify 中配置 self-hosted vllm 模型 作为模型供应商时，应选择 OpenAI-API-compatible&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/AI/">AI</category>
+      
+      
+      <category domain="https://pengtech.net/tags/AI/">AI</category>
+      
+      <category domain="https://pengtech.net/tags/Dify/">Dify</category>
+      
+      <category domain="https://pengtech.net/tags/vLLM/">vLLM</category>
+      
+      
+      <comments>https://pengtech.net/ai/dify-config-self-hosted-vllm.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何在 Linux 上通过 docker-compose 部署 Dify？</title>
       <link>https://pengtech.net/ai/install-dify.html</link>
       <guid>https://pengtech.net/ai/install-dify.html</guid>
       <pubDate>Mon, 26 May 2025 16:00:00 GMT</pubDate>
@@ -493,8 +518,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -5024,29 +5049,6 @@
     </item>
     
     <item>
-      <title>记一次npm run问题排查的详细过程</title>
-      <link>https://pengtech.net/nodejs/npm_run_debug.html</link>
-      <guid>https://pengtech.net/nodejs/npm_run_debug.html</guid>
-      <pubDate>Wed, 21 Jun 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
-      
-      
-      <comments>https://pengtech.net/nodejs/npm_run_debug.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>npm debug指南</title>
       <link>https://pengtech.net/nodejs/npm_debug.html</link>
       <guid>https://pengtech.net/nodejs/npm_debug.html</guid>
@@ -5066,6 +5068,29 @@
       
       
       <comments>https://pengtech.net/nodejs/npm_debug.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>记一次npm run问题排查的详细过程</title>
+      <link>https://pengtech.net/nodejs/npm_run_debug.html</link>
+      <guid>https://pengtech.net/nodejs/npm_run_debug.html</guid>
+      <pubDate>Wed, 21 Jun 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;今天遇到一个特别难整的问题, 在执行&lt;code&gt;npm run a_task&lt;/code&gt; 出错, 报错信息特别简单, 对于查找问题没有任何帮助. 尝试过几种方法来定位问题, 收效很差, 最后不得不祭出npm的大杀器npm debug来一探究竟.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/nodejs/">nodejs</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Nodejs/">Nodejs</category>
+      
+      
+      <comments>https://pengtech.net/nodejs/npm_run_debug.html#disqus_thread</comments>
       
     </item>
     
@@ -5251,6 +5276,30 @@
     </item>
     
     <item>
+      <title>申请免费SSL证书</title>
+      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
+      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
+      <pubDate>Sun, 14 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
+&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      
+      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>nginx配置https</title>
       <link>https://pengtech.net/nginx/nginx_config_https.html</link>
       <guid>https://pengtech.net/nginx/nginx_config_https.html</guid>
@@ -5272,30 +5321,6 @@
       
       
       <comments>https://pengtech.net/nginx/nginx_config_https.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>申请免费SSL证书</title>
-      <link>https://pengtech.net/nginx/apply_ssl_certificate.html</link>
-      <guid>https://pengtech.net/nginx/apply_ssl_certificate.html</guid>
-      <pubDate>Sun, 14 May 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;SSL证书（SSL Certificates）可以说是现在一个网站的标配，如果没有用SSL证书，浏览器上会显示不安全，导致一部分用户以为网站有问题。另外在微信小程序和iOS APP上，提供的API必须要用HTTS协议，否则不允许上架，所以掌握好SSL证书的配置是一个后端开发必备的技能。&lt;/p&gt;
-&lt;p&gt;在阿里云上，提供了每年可以申请一次的免费SSL证书，对于一些个人站点或者小公司的网站来说，确实是一个不错的选择。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
-      
-      
-      <comments>https://pengtech.net/nginx/apply_ssl_certificate.html#disqus_thread</comments>
       
     </item>
     
@@ -7504,9 +7529,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -8103,32 +8128,6 @@
       
       
       <comments>https://pengtech.net/ansible/ansible.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>在Windows上安装Ansible</title>
-      <link>https://pengtech.net/ansible/install_ansible_on_windows.html</link>
-      <guid>https://pengtech.net/ansible/install_ansible_on_windows.html</guid>
-      <pubDate>Wed, 27 Oct 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/install_ansible_on_windows.html#disqus_thread</comments>
       
     </item>
     

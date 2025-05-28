@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/ai/dify-config-self-hosted-vllm.html</loc>
+    <lastmod>2025-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/ai/install-dify.html</loc>
+    <lastmod>2025-05-28</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
     <lastmod>2025-05-28</lastmod>
   </url>
@@ -27,10 +35,6 @@
   <url>
     <loc>https://pengtech.net/vps/hostinger_account_creation.html</loc>
     <lastmod>2025-05-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/ai/install-dify.html</loc>
-    <lastmod>2025-05-27</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/docker/install-docker-on-ubuntu.html</loc>
@@ -1017,11 +1021,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1081,11 +1085,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_debug.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/npm_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
