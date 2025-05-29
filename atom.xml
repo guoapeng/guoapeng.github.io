@@ -130,7 +130,7 @@
     <link href="https://pengtech.net/ai/vllm_install_qwen3.html"/>
     <id>https://pengtech.net/ai/vllm_install_qwen3.html</id>
     <published>2025-05-25T16:00:00.000Z</published>
-    <updated>2025-05-28T04:18:02.205Z</updated>
+    <updated>2025-05-28T21:51:44.367Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</summary>
@@ -478,8 +478,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1222,7 +1222,7 @@
     <link href="https://pengtech.net/linux/linux_systemd_service_explanation.html"/>
     <id>https://pengtech.net/linux/linux_systemd_service_explanation.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2024-09-04T06:32:27.439Z</updated>
+    <updated>2025-05-28T21:23:45.480Z</updated>
     
     
     <summary type="html">&lt;p&gt;Linux 系统中也有“服务”这一说法, 也即 systemd service unit，通过服务我们可以便捷地管理一些程序功能，也可以作为程序开机自启的一个手段之一。今天我来分享一下如何创建自己简易的 Linux 服务。本文主要讲述如何在 Linux 下自定义 service.&lt;/p&gt;</summary>
@@ -7507,14 +7507,15 @@
   </entry>
   
   <entry>
-    <title>Ansible 教程</title>
-    <link href="https://pengtech.net/ansible/ansible.html"/>
-    <id>https://pengtech.net/ansible/ansible.html</id>
+    <title>在Windows上安装Ansible</title>
+    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
+    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
     <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2025-05-07T18:48:08.807Z</updated>
+    <updated>2024-10-22T14:56:03.016Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-Ansible-发展和起源&quot;&gt;&lt;a href=&quot;#1-1-Ansible-发展和起源&quot; class=&quot;headerlink&quot; title=&quot;1.1. Ansible 发展和起源&quot;&gt;&lt;/a&gt;1.1. Ansible 发展和起源&lt;/h3&gt;&lt;p&gt;Ansible 是一款开源的 IT 配置管理工具，常被 IT 界的小伙伴们用于服务部署、配置管理等工作。配置文件采用最常见的 yaml 格式，学习起来也是比较容易，并且不像 SaltStack，Ansible 并不需要也没有 agent，只有一个控制端。该工具使用简单但功能非常强大，可以解决众多工作中繁琐的服务安装、配置等问题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
+&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
     
     
     

@@ -1,7 +1,8 @@
+https://pengtech.net/ai/vllm_install_qwen3.html
+https://pengtech.net/linux/linux_systemd_service_explanation.html
 https://pengtech.net/ai/dify-config-self-hosted-vllm.html
 https://pengtech.net/ai/install-dify.html
 https://pengtech.net/vscode/cloud_ide_on_vultr.html
-https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/docker/install_docker_proxy.html
 https://pengtech.net/ai/install_vllm_from_sourcecode.html
 https://pengtech.net/sites/emlog_install.html
@@ -17,4 +18,3 @@ https://pengtech.net/docker/what-is-docker-cloud.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
-https://pengtech.net/network/install_config_v2rayA_on_linux.html

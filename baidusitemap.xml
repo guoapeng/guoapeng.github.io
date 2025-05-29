@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
+    <lastmod>2025-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/linux_systemd_service_explanation.html</loc>
+    <lastmod>2025-05-28</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/ai/dify-config-self-hosted-vllm.html</loc>
     <lastmod>2025-05-28</lastmod>
   </url>
@@ -10,10 +18,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
-    <lastmod>2025-05-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
     <lastmod>2025-05-28</lastmod>
   </url>
   <url>
@@ -505,10 +509,6 @@
     <lastmod>2024-09-04</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/linux_systemd_service_explanation.html</loc>
-    <lastmod>2024-09-04</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/k8s/helm_v3_cli_explanation.html</loc>
     <lastmod>2024-09-03</lastmod>
   </url>
@@ -829,11 +829,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
