@@ -1,3 +1,5 @@
+https://pengtech.net/ai/prompt-engineering.html
+https://pengtech.net/ai/install-Cherry-Studio-on-linux.html
 https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/linux/linux_systemd_service_explanation.html
 https://pengtech.net/ai/dify-config-self-hosted-vllm.html
@@ -46,5 +48,3 @@ https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/docker/docker-registry-mirrors.html
 https://pengtech.net/web/web_basic_1.html
 https://pengtech.net/github/github_action_update_github_page.html
-https://pengtech.net/network/dns_pollution_issue.html
-https://pengtech.net/vscode/how_to_use_codepilot_free.html

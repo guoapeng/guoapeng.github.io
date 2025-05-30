@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-05-28T11:51:12.573Z</updated>
+  <updated>2025-05-30T12:36:41.746Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Prompt 提示词工程核心技巧</title>
+    <link href="https://pengtech.net/ai/prompt-engineering.html"/>
+    <id>https://pengtech.net/ai/prompt-engineering.html</id>
+    <published>2025-05-29T16:00:00.000Z</published>
+    <updated>2025-05-30T12:36:41.746Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;什么是提示词？&quot;&gt;&lt;a href=&quot;#什么是提示词？&quot; class=&quot;headerlink&quot; title=&quot;什么是提示词？&quot;&gt;&lt;/a&gt;什么是提示词？&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;提示词&lt;/strong&gt;（prompt）是引导 LLM 进行内容生成的命令，它可以是任何内容：一句话，一个问题，或者一个计算公式。当 LLM 收到提示词以后便开始根据提示词和之前训练的数据，生成相关的回应。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="https://pengtech.net/categories/AI/"/>
+    
+    
+    <category term="AI" scheme="https://pengtech.net/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 上安装 Cherry Studio</title>
+    <link href="https://pengtech.net/ai/install-Cherry-Studio-on-linux.html"/>
+    <id>https://pengtech.net/ai/install-Cherry-Studio-on-linux.html</id>
+    <published>2025-05-28T16:00:00.000Z</published>
+    <updated>2025-05-29T10:51:58.787Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Cherry Studio 是一款开源、跨平台的多模型 AI 对话客户端，支持 Windows、macOS 和 Linux 系统，未来还将扩展至移动端。它集成了多种主流大语言模型（如 OpenAI、DeepSeek、Anthropic、Gemini 等）以及本地模型运行功能，并提供丰富的 AI 助手、知识库管理、联网搜索等特性，适用于专业用户、开发者和普通 AI 爱好者。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="https://pengtech.net/categories/AI/"/>
+    
+    
+    <category term="AI" scheme="https://pengtech.net/tags/AI/"/>
+    
+    <category term="Cherry-Studio" scheme="https://pengtech.net/tags/Cherry-Studio/"/>
+    
+  </entry>
   
   <entry>
     <title>在 Dify 中配置 self-hosted vllm 模型</title>
@@ -478,8 +518,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -7482,51 +7522,6 @@
     
     
     <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo命令详解</title>
-    <link href="https://pengtech.net/hexo/hexo_cli.html"/>
-    <id>https://pengtech.net/hexo/hexo_cli.html</id>
-    <published>2021-10-30T16:00:00.000Z</published>
-    <updated>2024-08-13T09:43:31.722Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;本文主要讲解 hexo cli 的使用和详细信息，以及相关示例．&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在Windows上安装Ansible</title>
-    <link href="https://pengtech.net/ansible/install_ansible_on_windows.html"/>
-    <id>https://pengtech.net/ansible/install_ansible_on_windows.html</id>
-    <published>2021-10-27T16:00:00.000Z</published>
-    <updated>2024-10-22T14:56:03.016Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Ansible 是一种无代理自动化工具，可安装在单个主机（称为控制节点）上。从控制节点，Ansible 可以通过 SSH、Powershell 远程处理和许多其他传输远程管理整个机器和其他设备（称为托管节点），所有这些都是通过一个简单的命令行实现的，不需要数据库或守护程序。&lt;/p&gt;
-&lt;p&gt;本教程是安装环境为 Windows, 在 windows 上要运行 Ansible 还需要安装 Msys2, 主要用于运行 GNU 软件的开发和运行环境。同时它也是一个在 Cygwin （POSIX 兼容性层） 和 MinGW-w64（从”MinGW-生成”）基础上产生的，追求更好的互操作性的 Windows 软件.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
     
   </entry>
   

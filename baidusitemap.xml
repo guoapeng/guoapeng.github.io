@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/ai/prompt-engineering.html</loc>
+    <lastmod>2025-05-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/ai/install-Cherry-Studio-on-linux.html</loc>
+    <lastmod>2025-05-29</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
     <lastmod>2025-05-28</lastmod>
   </url>

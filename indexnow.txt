@@ -1,3 +1,5 @@
+https://pengtech.net/ai/prompt-engineering.html
+https://pengtech.net/ai/install-Cherry-Studio-on-linux.html
 https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/linux/linux_systemd_service_explanation.html
 https://pengtech.net/ai/dify-config-self-hosted-vllm.html
@@ -16,5 +18,3 @@ https://pengtech.net/python/linux_install_python.html
 https://pengtech.net/ansible/ansible_trouble_shooting.html
 https://pengtech.net/docker/what-is-docker-cloud.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/network/install_config_v2rayA_on_macOS.html
