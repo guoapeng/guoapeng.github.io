@@ -2,7 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/friends/</loc>
+    
+    <lastmod>2025-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2025-05-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vscode/how_to_use_codepilot_free.html</loc>
+    
+    <lastmod>2025-05-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/ai/prompt-engineering.html</loc>
+    
+    <lastmod>2025-05-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
     
     <lastmod>2025-05-30</lastmod>
     
@@ -14,15 +59,6 @@
     <loc>https://pengtech.net/ai/install-Cherry-Studio-on-linux.html</loc>
     
     <lastmod>2025-05-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
-    
-    <lastmod>2025-05-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -183,15 +219,6 @@
   
   <url>
     <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    
-    <lastmod>2025-05-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     
     <lastmod>2025-05-10</lastmod>
     
@@ -452,15 +479,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/friends/</loc>
-    
-    <lastmod>2025-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/web/web_basic_1.html</loc>
     
     <lastmod>2025-04-26</lastmod>
@@ -480,15 +498,6 @@
   
   <url>
     <loc>https://pengtech.net/network/dns_pollution_issue.html</loc>
-    
-    <lastmod>2025-04-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vscode/how_to_use_codepilot_free.html</loc>
     
     <lastmod>2025-04-25</lastmod>
     
@@ -2000,7 +2009,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2009,7 +2018,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2171,7 +2180,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2180,7 +2189,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2585,7 +2594,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2594,7 +2603,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3091,7 +3100,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-05-30</lastmod>
+    <lastmod>2025-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

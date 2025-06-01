@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-05-30T12:36:41.746Z</updated>
+  <updated>2025-06-01T13:34:32.519Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,14 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0成本搭建企业邮箱</title>
+    <link href="https://pengtech.net/vps/enterprise-email-setup.html"/>
+    <id>https://pengtech.net/vps/enterprise-email-setup.html</id>
+    <published>2025-05-31T16:00:00.000Z</published>
+    <updated>2025-06-01T13:34:32.519Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;之前介绍过&lt;a href=&quot;https://pengtech.net/linux/email_server_install.html&quot;&gt;使用 postfix 和 dovecot 快速搭建邮件服务器&lt;/a&gt;自建企业邮件服务器，这个方案有几个优点，就是完全自主可控，用户数量，邮箱大小，附件大小都不受到限制，可定制性也比较强。但是缺点也比较明显，有一定的技术门槛，另外需要专人维护服务器安全，监控服务器的健康状况等，人力成本较高，安全性也难以保证。&lt;/p&gt;
+&lt;p&gt;今天介绍一种低成本或者零成本搭建企业邮箱的方式，而且维护成本低安全性高的搭建企业邮箱的方案。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="VPS" scheme="https://pengtech.net/categories/VPS/"/>
+    
+    
+    <category term="email" scheme="https://pengtech.net/tags/email/"/>
+    
+    <category term="Zoho" scheme="https://pengtech.net/tags/Zoho/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Prompt 提示词工程核心技巧</title>
     <link href="https://pengtech.net/ai/prompt-engineering.html"/>
     <id>https://pengtech.net/ai/prompt-engineering.html</id>
     <published>2025-05-29T16:00:00.000Z</published>
-    <updated>2025-05-30T12:36:41.746Z</updated>
+    <updated>2025-05-30T12:52:08.458Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;什么是提示词？&quot;&gt;&lt;a href=&quot;#什么是提示词？&quot; class=&quot;headerlink&quot; title=&quot;什么是提示词？&quot;&gt;&lt;/a&gt;什么是提示词？&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;提示词&lt;/strong&gt;（prompt）是引导 LLM 进行内容生成的命令，它可以是任何内容：一句话，一个问题，或者一个计算公式。当 LLM 收到提示词以后便开始根据提示词和之前训练的数据，生成相关的回应。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是提示词？&quot;&gt;&lt;a href=&quot;#1-什么是提示词？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是提示词？&quot;&gt;&lt;/a&gt;1. 什么是提示词？&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;提示词&lt;/strong&gt;（prompt）是引导 LLM 进行内容生成的命令，它可以是任何内容：一句话，一个问题，或者一个计算公式。当 LLM 收到提示词以后便开始根据提示词和之前训练的数据，生成相关的回应。&lt;/p&gt;</summary>
     
     
     
@@ -32,6 +54,8 @@
     
     
     <category term="AI" scheme="https://pengtech.net/tags/AI/"/>
+    
+    <category term="Prompt" scheme="https://pengtech.net/tags/Prompt/"/>
     
   </entry>
   
@@ -170,7 +194,7 @@
     <link href="https://pengtech.net/ai/vllm_install_qwen3.html"/>
     <id>https://pengtech.net/ai/vllm_install_qwen3.html</id>
     <published>2025-05-25T16:00:00.000Z</published>
-    <updated>2025-05-28T21:51:44.367Z</updated>
+    <updated>2025-05-30T12:42:05.804Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</summary>
@@ -518,8 +542,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -735,7 +759,7 @@
     <link href="https://pengtech.net/vscode/how_to_use_codepilot_free.html"/>
     <id>https://pengtech.net/vscode/how_to_use_codepilot_free.html</id>
     <published>2025-03-13T16:00:00.000Z</published>
-    <updated>2025-04-25T02:10:05.693Z</updated>
+    <updated>2025-05-30T17:20:15.246Z</updated>
     
     
     <summary type="html">&lt;p&gt;GitHub 于 2024 年 12 月 18 日推出了适用于 Visual Studio Code 的 GitHub Copilot 免费计划。在此之前若开发者要使用 GitHub Copilot 需要付费订阅，每月订阅费用起步价为 10 美元，而经过验证的学生、教师和开源项目维护者则可以申请免费使用。&lt;/p&gt;</summary>
@@ -2940,7 +2964,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-05-10T15:25:34.248Z</updated>
+    <updated>2025-05-30T18:51:10.848Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -7501,27 +7525,6 @@
     
     
     <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Golang 运算符</title>
-    <link href="https://pengtech.net/golang/first_post.html"/>
-    <id>https://pengtech.net/golang/first_post.html</id>
-    <published>2021-10-30T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Golang-运算符&quot;&gt;&lt;a href=&quot;#1-Golang-运算符&quot; class=&quot;headerlink&quot; title=&quot;1. Golang 运算符&quot;&gt;&lt;/a&gt;1. Golang 运算符&lt;/h2&gt;&lt;h3 id=&quot;1-1-算术运算符（Arithmetic-Operators）&quot;&gt;&lt;a href=&quot;#1-1-算术运算符（Arithmetic-Operators）&quot; class=&quot;headerlink&quot; title=&quot;1.1. 算术运算符（Arithmetic Operators）&quot;&gt;&lt;/a&gt;1.1. 算术运算符（Arithmetic Operators）&lt;/h3&gt;</summary>
-    
-    
-    
-    <category term="language" scheme="https://pengtech.net/categories/language/"/>
-    
-    <category term="golang" scheme="https://pengtech.net/categories/language/golang/"/>
-    
-    
-    <category term="Golang" scheme="https://pengtech.net/tags/Golang/"/>
     
   </entry>
   
