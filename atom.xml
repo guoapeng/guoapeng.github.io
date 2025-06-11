@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-06-01T16:52:16.468Z</updated>
+  <updated>2025-06-11T10:29:57.179Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Wordpress 备份与恢复</title>
+    <link href="https://pengtech.net/wordpress/wordpress-backup-and-restore.html"/>
+    <id>https://pengtech.net/wordpress/wordpress-backup-and-restore.html</id>
+    <published>2025-06-10T16:00:00.000Z</published>
+    <updated>2025-06-11T10:29:57.179Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;作为一个 Wordpress 网站的维护人员，懂得如何备份与恢复 wordpress 网站至关重要。当我们在升级 WordPress 的核心、主题或插件之前对 wordpress 进行备份，这样在升级的过程中遇到因为兼容性问题可能导致的网站崩溃是，不至于手足无措，游刃有余。当我们需要将主机有一个 VPS 提供商移植到到另外一个 VPS 提供商，由一台主机移植到另外一台主机时都需要掌握 wordpress 备份与恢复技巧。当然需要使用到备份与恢复技能的地方还很多。备份不仅是技术操作，更是网站运营的核心保障。通过定期备份，我们可以确保数据的完整性和安全性，避免因意外情况导致的不可逆损失。恢复则是备份的延续，能够快速将网站恢复到正常状态，减少停机时间对用户体验和业务的影响。无论是个人博客还是企业级网站，掌握备份与恢复的技巧都是不可或缺的技能。接下来，我们将详细探讨如何高效地备份和恢复 WordPress 网站，帮助您轻松应对各种挑战。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="wordpress" scheme="https://pengtech.net/categories/wordpress/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
+    
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
     <title>0成本搭建企业邮箱</title>
     <link href="https://pengtech.net/vps/enterprise-email-setup.html"/>
     <id>https://pengtech.net/vps/enterprise-email-setup.html</id>
     <published>2025-05-31T16:00:00.000Z</published>
-    <updated>2025-06-01T16:52:16.468Z</updated>
+    <updated>2025-06-04T16:40:43.632Z</updated>
     
     
     <summary type="html">&lt;p&gt;之前介绍过&lt;a href=&quot;https://pengtech.net/linux/email_server_install.html&quot;&gt;使用 postfix 和 dovecot 快速搭建邮件服务器&lt;/a&gt;自建企业邮件服务器，这个方案有几个优点，就是完全自主可控，用户数量，邮箱大小，附件大小都不受到限制，可定制性也比较强。但是缺点也比较明显，有一定的技术门槛，另外需要专人维护服务器安全，监控服务器的健康状况等，人力成本较高，安全性也难以保证。&lt;/p&gt;
@@ -542,8 +565,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -2424,29 +2447,6 @@
   </entry>
   
   <entry>
-    <title>使用ansible安装java</title>
-    <link href="https://pengtech.net/ansible/ansible_install_java.html"/>
-    <id>https://pengtech.net/ansible/ansible_install_java.html</id>
-    <published>2024-01-18T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文主要讲述如何使用Ansible在Redhat Linux系列上安装java 17。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用ansible安装golang</title>
     <link href="https://pengtech.net/ansible/ansible_install_golang.html"/>
     <id>https://pengtech.net/ansible/ansible_install_golang.html</id>
@@ -2468,6 +2468,29 @@
     <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
     
     <category term="golang" scheme="https://pengtech.net/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用ansible安装java</title>
+    <link href="https://pengtech.net/ansible/ansible_install_java.html"/>
+    <id>https://pengtech.net/ansible/ansible_install_java.html</id>
+    <published>2024-01-18T16:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.587Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文主要讲述如何使用Ansible在Redhat Linux系列上安装java 17。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
     
   </entry>
   
@@ -3150,14 +3173,17 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 14 有哪些更新</title>
+    <link href="https://pengtech.net/angular/angular_14_update.html"/>
+    <id>https://pengtech.net/angular/angular_14_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:17.067Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
+&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
+&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
+&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
     
     
     
@@ -3175,17 +3201,14 @@
   </entry>
   
   <entry>
-    <title>Angular 14 有哪些更新</title>
-    <link href="https://pengtech.net/angular/angular_14_update.html"/>
-    <id>https://pengtech.net/angular/angular_14_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:17.067Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
-&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
-&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
-&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -3351,14 +3374,16 @@
   </entry>
   
   <entry>
-    <title>Material 3 基础</title>
-    <link href="https://pengtech.net/material/material3_foundations.html"/>
-    <id>https://pengtech.net/material/material3_foundations.html</id>
+    <title>Material Design 3介绍</title>
+    <link href="https://pengtech.net/material/material3_introduction.html"/>
+    <id>https://pengtech.net/material/material3_introduction.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-09-01T08:37:30.676Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
+&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
+&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
     
     
     
@@ -3374,16 +3399,14 @@
   </entry>
   
   <entry>
-    <title>Material Design 3介绍</title>
-    <link href="https://pengtech.net/material/material3_introduction.html"/>
-    <id>https://pengtech.net/material/material3_introduction.html</id>
+    <title>Material 3 基础</title>
+    <link href="https://pengtech.net/material/material3_foundations.html"/>
+    <id>https://pengtech.net/material/material3_foundations.html</id>
     <published>2023-10-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-09-01T08:37:30.676Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是Material-Design？&quot;&gt;&lt;a href=&quot;#1-什么是Material-Design？&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是Material Design？&quot;&gt;&lt;/a&gt;1. 什么是Material Design？&lt;/h2&gt;&lt;p&gt;Material Design 是由 Google 设计师和开发人员构建和支持的设计系统。Material.io包含针对 Android、Flutter 和 Web 的深入 UX 指南和 UI 组件实现。&lt;/p&gt;
-&lt;p&gt;Material于2014年推出，多年来不断发展。&lt;br&gt;材料设计1（M1）：第一代Material Design于2014年推出，存档并可访问：&lt;a href=&quot;https://material.io/archive/guidelines&quot;&gt;https://Material.io/archive/guidelines&lt;/a&gt;。&lt;br&gt;材料设计2（M2）：2018年推出的第二代材料设计引入了Material主题和Material组件。&lt;br&gt;Material Design 3（M3）：2021年推出的第三代Material包括Material You功能，支持个性化、自适应和富有表现力的体验 - 从动态颜色和增强的无障碍功能，到大屏幕布局和设计Tokens的基础。&lt;br&gt;Material You：新的Material视觉风格和一系列功能，满足个人用户的个人和表达需求，是Material Design 3的一部分&lt;/p&gt;
-&lt;p&gt;最新版本 Material 3 支持个性化、响应式和富有表现力的体验 - 从动态颜色和增强的可访问性，到大屏幕布局和Design tokens的基础。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</summary>
     
     
     
@@ -5243,7 +5266,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-05-27T09:53:04.924Z</updated>
+    <updated>2025-06-04T04:25:07.855Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 是现代软件开发和运维中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了一个轻量级、高效且灵活的解决方案。无论是构建、测试还是部署应用程序，Docker 都能显著简化流程并提升效率。在本篇文章中，我们将详细介绍如何在 RHEL 系列 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
@@ -7504,27 +7527,6 @@
     
     
     <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo中插入mermaid图表</title>
-    <link href="https://pengtech.net/hexo/hexo_mermaid_plugin.html"/>
-    <id>https://pengtech.net/hexo/hexo_mermaid_plugin.html</id>
-    <published>2021-11-01T16:00:00.000Z</published>
-    <updated>2025-03-08T00:24:21.791Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-mermaid简介&quot;&gt;&lt;a href=&quot;#1-mermaid简介&quot; class=&quot;headerlink&quot; title=&quot;1. mermaid简介&quot;&gt;&lt;/a&gt;1. mermaid简介&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://philoenglish.com/query/mermaid&quot;&gt;mermaid&lt;/a&gt;是一种基于文本的格式生成图表和流程图的工具，是markdown文本很好的补充。&lt;br&gt;可以生成各种图表，其中包括流程图, 时序图, 甘特图等等．&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
     
   </entry>
   

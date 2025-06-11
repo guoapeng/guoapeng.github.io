@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/wordpress/wordpress-backup-and-restore.html</loc>
+    <lastmod>2025-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
+    <lastmod>2025-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker_install.html</loc>
+    <lastmod>2025-06-04</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2025-06-02</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
     <lastmod>2025-06-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
-    <lastmod>2025-06-01</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/vscode/how_to_use_codepilot_free.html</loc>
@@ -66,10 +74,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/docker/install-docker-on-ubuntu.html</loc>
-    <lastmod>2025-05-27</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
     <lastmod>2025-05-27</lastmod>
   </url>
   <url>
@@ -733,11 +737,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -797,11 +801,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    <loc>https://pengtech.net/material/material_typeahead.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1033,11 +1037,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>

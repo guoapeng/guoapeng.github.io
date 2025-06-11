@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/wordpress/wordpress-backup-and-restore.html</loc>
+    
+    <lastmod>2025-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
+    
+    <lastmod>2025-06-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/docker/docker_install.html</loc>
+    
+    <lastmod>2025-06-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     
     <lastmod>2025-06-02</lastmod>
@@ -14,15 +41,6 @@
     <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
     
     <lastmod>2025-06-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
-    
-    <lastmod>2025-06-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -165,15 +183,6 @@
   
   <url>
     <loc>https://pengtech.net/golang/</loc>
-    
-    <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
     
     <lastmod>2025-05-27</lastmod>
     
@@ -1766,7 +1775,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1775,7 +1784,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1910,7 +1919,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1919,7 +1928,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    <loc>https://pengtech.net/material/material_typeahead.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2441,7 +2450,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2450,7 +2459,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3100,7 +3109,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-06-02</lastmod>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
