@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-06-11T10:29:57.179Z</updated>
+  <updated>2025-06-17T07:45:43.744Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,88 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>使用 fail2ban 保护你的 VPS</title>
+    <link href="https://pengtech.net/linux/protect-vps-with-fail2ban.html"/>
+    <id>https://pengtech.net/linux/protect-vps-with-fail2ban.html</id>
+    <published>2025-06-15T16:00:00.000Z</published>
+    <updated>2025-06-17T07:45:43.744Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Fail2Ban 是一款开源的入侵防御工具，主要用于防止暴力破解、DoS 攻击和恶意扫描。它通过监控系统日志（如 SSH、FTP、Web 服务器等），自动检测多次失败的登录尝试或其他可疑行为，并动态调整防火墙规则（如 iptables、firewalld 等）来封锁恶意 IP 地址。适用于 Linux&amp;#x2F;Unix 系统，Fail2Ban 能有效降低暴力破解风险，且资源占用低，是服务器安全加固的常用工具。需注意合理配置以避免误封合法 IP。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="VPS" scheme="https://pengtech.net/tags/VPS/"/>
+    
+    <category term="fail2ban" scheme="https://pengtech.net/tags/fail2ban/"/>
+    
+    <category term="sshd" scheme="https://pengtech.net/tags/sshd/"/>
+    
+    <category term="nginx" scheme="https://pengtech.net/tags/nginx/"/>
+    
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Ansible 为 WordPress 设置默认语言</title>
+    <link href="https://pengtech.net/wordpress/ansible-site-wordpress-locale.html"/>
+    <id>https://pengtech.net/wordpress/ansible-site-wordpress-locale.html</id>
+    <published>2025-06-15T16:00:00.000Z</published>
+    <updated>2025-06-16T09:50:36.120Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;要通过 Ansible 为 WordPress 设置默认语言，你可以采用以下几种方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="wordpress" scheme="https://pengtech.net/categories/wordpress/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
+    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何修改WordPress最大上传文件大小限制？</title>
+    <link href="https://pengtech.net/wordpress/wordpress-maximum-upload-size.html"/>
+    <id>https://pengtech.net/wordpress/wordpress-maximum-upload-size.html</id>
+    <published>2025-06-15T16:00:00.000Z</published>
+    <updated>2025-06-16T12:54:15.641Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;网上找了一堆的修改 WordPress 最大上传文件大小限制文章，有些说需要联系 vps 或站点托管管理员修改，最后发现只要在 wordpress 主目录修改添加或修改.user.ini 最有效。无论你的 web 服务器是 nginx 还是 apache 都有效。而且还有以下优势&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="wordpress" scheme="https://pengtech.net/categories/wordpress/"/>
+    
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
+    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Wordpress 备份与恢复</title>
     <link href="https://pengtech.net/wordpress/wordpress-backup-and-restore.html"/>
     <id>https://pengtech.net/wordpress/wordpress-backup-and-restore.html</id>
     <published>2025-06-10T16:00:00.000Z</published>
-    <updated>2025-06-11T10:29:57.179Z</updated>
+    <updated>2025-06-11T11:15:38.154Z</updated>
     
     
     <summary type="html">&lt;p&gt;作为一个 Wordpress 网站的维护人员，懂得如何备份与恢复 wordpress 网站至关重要。当我们在升级 WordPress 的核心、主题或插件之前对 wordpress 进行备份，这样在升级的过程中遇到因为兼容性问题可能导致的网站崩溃是，不至于手足无措，游刃有余。当我们需要将主机有一个 VPS 提供商移植到到另外一个 VPS 提供商，由一台主机移植到另外一台主机时都需要掌握 wordpress 备份与恢复技巧。当然需要使用到备份与恢复技能的地方还很多。备份不仅是技术操作，更是网站运营的核心保障。通过定期备份，我们可以确保数据的完整性和安全性，避免因意外情况导致的不可逆损失。恢复则是备份的延续，能够快速将网站恢复到正常状态，减少停机时间对用户体验和业务的影响。无论是个人博客还是企业级网站，掌握备份与恢复的技巧都是不可或缺的技能。接下来，我们将详细探讨如何高效地备份和恢复 WordPress 网站，帮助您轻松应对各种挑战。&lt;/p&gt;</summary>
@@ -33,9 +110,9 @@
     
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
-    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
-    
     <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
+    <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
     
   </entry>
   
@@ -565,8 +642,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1521,11 +1598,11 @@
     
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
+    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
+    
     <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
     
     <category term="blog" scheme="https://pengtech.net/tags/blog/"/>
-    
-    <category term="wordpress" scheme="https://pengtech.net/tags/wordpress/"/>
     
   </entry>
   
@@ -2727,14 +2804,14 @@
   </entry>
   
   <entry>
-    <title>Windows上安装与配置Android SDK</title>
-    <link href="https://pengtech.net/android/android_sdk_install.html"/>
-    <id>https://pengtech.net/android/android_sdk_install.html</id>
+    <title>Fedora 上安装与配置 Android studio</title>
+    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
+    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:00.864Z</updated>
+    <updated>2024-09-23T03:17:07.346Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -2752,14 +2829,14 @@
   </entry>
   
   <entry>
-    <title>Fedora 上安装与配置 Android studio</title>
-    <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
-    <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
+    <title>Windows上安装与配置Android SDK</title>
+    <link href="https://pengtech.net/android/android_sdk_install.html"/>
+    <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2025-04-23T17:03:00.864Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
     
     
     
@@ -4185,7 +4262,7 @@
     <link href="https://pengtech.net/vmware/vmware_macos_vm.html"/>
     <id>https://pengtech.net/vmware/vmware_macos_vm.html</id>
     <published>2023-08-17T16:00:00.000Z</published>
-    <updated>2025-03-20T11:59:33.897Z</updated>
+    <updated>2025-06-14T00:30:21.153Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在开发一个 Tauri 桌面应用, 由于 Tauri 应用的跨平台编译特性还不是特别完善, 比如打包 macos 桌面应用程序, 需要在 Macos 上进行. 于是想到了是否能安装一台 macos 虚拟机用于打包, 并兼顾 Macos 上的测试. 于是就有了这篇文章. 当然安装 macos 虚拟机的好处远不指这些.&lt;/p&gt;
@@ -5266,7 +5343,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-06-04T04:25:07.855Z</updated>
+    <updated>2025-06-12T23:34:35.965Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 是现代软件开发和运维中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了一个轻量级、高效且灵活的解决方案。无论是构建、测试还是部署应用程序，Docker 都能显著简化流程并提升效率。在本篇文章中，我们将详细介绍如何在 RHEL 系列 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
@@ -5802,13 +5879,13 @@
     <link href="https://pengtech.net/vscode/cloud_ide.html"/>
     <id>https://pengtech.net/vscode/cloud_ide.html</id>
     <published>2022-12-20T16:00:00.000Z</published>
-    <updated>2024-08-28T14:49:30.062Z</updated>
+    <updated>2025-06-16T16:23:07.307Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
 &lt;p&gt;其实 Web IDE 很早就有，但那些都只能说是玩具，直到现在才有一些不错的产品推出，比如微软和 Github 的 Visual Studio Codespaces、coding.net 的 Cloud Studio、华为云 CloudIDE 等。不过，这些产品要么还在测试，要么免费用会有限制或者价格不菲，目前还不是非常方便。&lt;/p&gt;
 &lt;p&gt;如果想要低成本愉快地使用，自己动手搭建是一个不错的方案。对配置要求不高的话，一年几十块一百多块就能买到廉价的 VPS 或者云主机就足够了。&lt;/p&gt;
-&lt;p&gt;自己DIY 一套Web IDE 比较成熟的方案有两个，code-server 和 Theia。毕竟 code-server 是基于VS code魔改的，与vs code的插件体系兼容性更好。所以更推荐code-server。Theia虽然有自己的插件体系，也宣称兼容vs code的插件，也是一套优秀的WEB IDE解决方案，但是兼容程度谁知道呢？&lt;/p&gt;</summary>
+&lt;p&gt;自己 DIY 一套 Web IDE 比较成熟的方案有两个，code-server 和 Theia。毕竟 code-server 是基于 VS code 魔改的，与 vs code 的插件体系兼容性更好。所以更推荐 code-server。Theia 虽然有自己的插件体系，也宣称兼容 vs code 的插件，也是一套优秀的 WEB IDE 解决方案，但是兼容程度谁知道呢？&lt;/p&gt;</summary>
     
     
     
@@ -7435,98 +7512,6 @@
     
     
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>gitlab安装升级及迁移</title>
-    <link href="https://pengtech.net/gitlab/gitlab_installation_upgrade.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</id>
-    <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2025-03-08T00:29:19.112Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-gitlab%E7%AE%80%E4%BB%8B&quot;&gt;1. gitlab简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D&quot;&gt;2. 安装环境介绍&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3-gitlab-%E5%AE%89%E8%A3%85&quot;&gt;3. gitlab 安装&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#4-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82&quot;&gt;4. 系统要求&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#41-%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C&quot;&gt;4.1. 安装准备工作&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#42-%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85gitlab&quot;&gt;4.2. 开始安装gitlab&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#5-gitlab%E5%8D%87%E7%BA%A7&quot;&gt;5. gitlab升级&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#51-%E5%8D%87%E7%BA%A7%E5%89%8D%E5%A4%87%E4%BB%BD&quot;&gt;5.1. 升级前备份&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#52-%E5%BC%80%E5%90%AFyum%E7%BC%93%E5%AD%98&quot;&gt;5.2. 开启yum缓存&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#53-%E5%BC%80%E5%A7%8B%E5%8D%87%E7%BA%A7&quot;&gt;5.3. 开始升级&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#6-gitlab%E8%BF%81%E7%A7%BB&quot;&gt;6. gitlab迁移&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#61-%E5%A4%87%E4%BB%BD%E6%95%B0%E6%8D%AE&quot;&gt;6.1. 备份数据&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#62-%E5%9C%A8%E6%96%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%89%E8%A3%85gitlab&quot;&gt;6.2. 在新服务器上安装gitlab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#63-%E8%BF%98%E5%8E%9F%E5%A4%87%E4%BB%BD&quot;&gt;6.3. 还原备份&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#7-%E5%A6%82%E4%BD%95%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDgitlab&quot;&gt;7. 如何彻底卸载gitlab?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#71-%E5%8D%B8%E8%BD%BD%E5%89%8D%E5%A4%87%E4%BB%BD&quot;&gt;7.1. 卸载前备份&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#72-%E6%89%A7%E8%A1%8C%E5%8D%B8%E8%BD%BD&quot;&gt;7.2. 执行卸载&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#8-%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5&quot;&gt;8. 问题排查&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#9-%E5%85%B3%E8%81%94%E9%98%85%E8%AF%BB&quot;&gt;9. 关联阅读&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;1-gitlab简介&quot;&gt;&lt;a href=&quot;#1-gitlab简介&quot; class=&quot;headerlink&quot; title=&quot;1. gitlab简介&quot;&gt;&lt;/a&gt;1. gitlab简介&lt;/h2&gt;&lt;p&gt;GitLab 是一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的Web服务。&lt;br&gt;GitLab是由GitLabInc.开发，使用MIT许可证的基于网络的Git仓库管理工具，且具有wiki和issue跟踪功能。使用Git作为代码管理工具，并在此基础上搭建起来的web服务。&lt;br&gt;GitLab由乌克兰程序员DmitriyZaporozhets和ValerySizov开发，它使用Ruby语言写成。后来，一些部分用Go语言重写。截止2018年5月，该公司约有290名团队成员，以及2000多名开源贡献者。GitLab被IBM，Sony，JülichResearchCenter，NASA，Alibaba，Invincea，O’ReillyMedia，Leibniz-Rechenzentrum(LRZ)，CERN，SpaceX等组织使用。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="gitlab" scheme="https://pengtech.net/categories/devops/gitlab/"/>
-    
-    
-    <category term="gitlab" scheme="https://pengtech.net/tags/gitlab/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>gitlab-runner安装与配置</title>
-    <link href="https://pengtech.net/gitlab/gitlab_runner_installation.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_runner_installation.html</id>
-    <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2025-03-08T00:20:16.438Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-安装前准备工作&quot;&gt;&lt;a href=&quot;#1-安装前准备工作&quot; class=&quot;headerlink&quot; title=&quot;1. 安装前准备工作&quot;&gt;&lt;/a&gt;1. 安装前准备工作&lt;/h2&gt;&lt;h3 id=&quot;1-1-配置yum源&quot;&gt;&lt;a href=&quot;#1-1-配置yum源&quot; class=&quot;headerlink&quot; title=&quot;1.1. 配置yum源&quot;&gt;&lt;/a&gt;1.1. 配置yum源&lt;/h3&gt;&lt;p&gt;网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-runner已经到14.4.0了，在其&lt;a href=&quot;https://gitlab.com/gitlab-org/gitlab-runner&quot;&gt;gitliab仓库&lt;/a&gt;上已经说明 Project ‘gitlab-org&amp;#x2F;gitlab-ci-multi-runner’ was moved to ‘gitlab-org&amp;#x2F;gitlab-runner’. Please update any links and bookmarks that may still have the old path.&lt;br&gt;关于gitlab-runner与gitlab的兼容性原则，gitlab和gitlab-runner在主版本和小版本(major.minor)保持同步，具有相同主版本和小版本号的gitlab和gitlab-runner兼容性最好, 较老的runner可能可以兼容比較新的gitlab,反之亦然，但是不能完全保证．详情请参考&lt;a href=&quot;https://docs.gitlab.com/runner/#compatibility-with-gitlab-versions&quot;&gt;官网关于兼容性原文&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="gitlab" scheme="https://pengtech.net/categories/devops/gitlab/"/>
-    
-    
-    <category term="gitlab" scheme="https://pengtech.net/tags/gitlab/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>javascript 内置对象</title>
-    <link href="https://pengtech.net/javascript/js-builtin-object.html"/>
-    <id>https://pengtech.net/javascript/js-builtin-object.html</id>
-    <published>2021-11-02T15:08:32.000Z</published>
-    <updated>2024-07-10T10:42:45.392Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-BOM对象概述&quot;&gt;&lt;a href=&quot;#1-BOM对象概述&quot; class=&quot;headerlink&quot; title=&quot;1. BOM对象概述&quot;&gt;&lt;/a&gt;1. BOM对象概述&lt;/h2&gt;&lt;p&gt;BOM：浏览器对象模型（Browser Object Model）&lt;br&gt;BOM提供了独立于内容的、可以与浏览器窗口进行互动的对象结构.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="javascript" scheme="https://pengtech.net/categories/web/javascript/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
     
   </entry>
   

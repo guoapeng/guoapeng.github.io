@@ -15,8 +15,91 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Wed, 11 Jun 2025 10:29:57 GMT</pubDate>
+    <pubDate>Tue, 17 Jun 2025 07:45:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>使用 fail2ban 保护你的 VPS</title>
+      <link>https://pengtech.net/linux/protect-vps-with-fail2ban.html</link>
+      <guid>https://pengtech.net/linux/protect-vps-with-fail2ban.html</guid>
+      <pubDate>Sun, 15 Jun 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Fail2Ban 是一款开源的入侵防御工具，主要用于防止暴力破解、DoS 攻击和恶意扫描。它通过监控系统日志（如 SSH、FTP、Web 服务器等），自动检测多次失败的登录尝试或其他可疑行为，并动态调整防火墙规则（如 iptables、firewalld 等）来封锁恶意 IP 地址。适用于 Linux&amp;#x2F;Unix 系统，Fail2Ban 能有效降低暴力破解风险，且资源占用低，是服务器安全加固的常用工具。需注意合理配置以避免误封合法 IP。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/VPS/">VPS</category>
+      
+      <category domain="https://pengtech.net/tags/fail2ban/">fail2ban</category>
+      
+      <category domain="https://pengtech.net/tags/sshd/">sshd</category>
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
+      
+      
+      <comments>https://pengtech.net/linux/protect-vps-with-fail2ban.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>使用 Ansible 为 WordPress 设置默认语言</title>
+      <link>https://pengtech.net/wordpress/ansible-site-wordpress-locale.html</link>
+      <guid>https://pengtech.net/wordpress/ansible-site-wordpress-locale.html</guid>
+      <pubDate>Sun, 15 Jun 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;要通过 Ansible 为 WordPress 设置默认语言，你可以采用以下几种方法。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/wordpress/">wordpress</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
+      
+      <category domain="https://pengtech.net/tags/blog/">blog</category>
+      
+      
+      <comments>https://pengtech.net/wordpress/ansible-site-wordpress-locale.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何修改WordPress最大上传文件大小限制？</title>
+      <link>https://pengtech.net/wordpress/wordpress-maximum-upload-size.html</link>
+      <guid>https://pengtech.net/wordpress/wordpress-maximum-upload-size.html</guid>
+      <pubDate>Sun, 15 Jun 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;网上找了一堆的修改 WordPress 最大上传文件大小限制文章，有些说需要联系 vps 或站点托管管理员修改，最后发现只要在 wordpress 主目录修改添加或修改.user.ini 最有效。无论你的 web 服务器是 nginx 还是 apache 都有效。而且还有以下优势&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/wordpress/">wordpress</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
+      
+      <category domain="https://pengtech.net/tags/blog/">blog</category>
+      
+      
+      <comments>https://pengtech.net/wordpress/wordpress-maximum-upload-size.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Wordpress 备份与恢复</title>
@@ -34,9 +117,9 @@
       
       <category domain="https://pengtech.net/tags/web/">web</category>
       
-      <category domain="https://pengtech.net/tags/blog/">blog</category>
-      
       <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
+      
+      <category domain="https://pengtech.net/tags/blog/">blog</category>
       
       
       <comments>https://pengtech.net/wordpress/wordpress-backup-and-restore.html#disqus_thread</comments>
@@ -613,8 +696,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1644,11 +1727,11 @@
       
       <category domain="https://pengtech.net/tags/web/">web</category>
       
+      <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
+      
       <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
       
       <category domain="https://pengtech.net/tags/blog/">blog</category>
-      
-      <category domain="https://pengtech.net/tags/wordpress/">wordpress</category>
       
       
       <comments>https://pengtech.net/wordpress/deploy_wordpress_on_vps.html#disqus_thread</comments>
@@ -2951,33 +3034,6 @@
     </item>
     
     <item>
-      <title>Windows上安装与配置Android SDK</title>
-      <link>https://pengtech.net/android/android_sdk_install.html</link>
-      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
-      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Fedora 上安装与配置 Android studio</title>
       <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
       <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
@@ -3001,6 +3057,33 @@
       
       
       <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows上安装与配置Android SDK</title>
+      <link>https://pengtech.net/android/android_sdk_install.html</link>
+      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
+      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
       
     </item>
     
@@ -6272,7 +6355,7 @@
       <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
 &lt;p&gt;其实 Web IDE 很早就有，但那些都只能说是玩具，直到现在才有一些不错的产品推出，比如微软和 Github 的 Visual Studio Codespaces、coding.net 的 Cloud Studio、华为云 CloudIDE 等。不过，这些产品要么还在测试，要么免费用会有限制或者价格不菲，目前还不是非常方便。&lt;/p&gt;
 &lt;p&gt;如果想要低成本愉快地使用，自己动手搭建是一个不错的方案。对配置要求不高的话，一年几十块一百多块就能买到廉价的 VPS 或者云主机就足够了。&lt;/p&gt;
-&lt;p&gt;自己DIY 一套Web IDE 比较成熟的方案有两个，code-server 和 Theia。毕竟 code-server 是基于VS code魔改的，与vs code的插件体系兼容性更好。所以更推荐code-server。Theia虽然有自己的插件体系，也宣称兼容vs code的插件，也是一套优秀的WEB IDE解决方案，但是兼容程度谁知道呢？&lt;/p&gt;</description>
+&lt;p&gt;自己 DIY 一套 Web IDE 比较成熟的方案有两个，code-server 和 Theia。毕竟 code-server 是基于 VS code 魔改的，与 vs code 的插件体系兼容性更好。所以更推荐 code-server。Theia 虽然有自己的插件体系，也宣称兼容 vs code 的插件，也是一套优秀的 WEB IDE 解决方案，但是兼容程度谁知道呢？&lt;/p&gt;</description>
       
       
       
@@ -8031,104 +8114,6 @@
       
       
       <comments>https://pengtech.net/linux/linux-expect-explanation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>gitlab安装升级及迁移</title>
-      <link>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</link>
-      <guid>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</guid>
-      <pubDate>Fri, 05 Nov 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-gitlab%E7%AE%80%E4%BB%8B&quot;&gt;1. gitlab简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D&quot;&gt;2. 安装环境介绍&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3-gitlab-%E5%AE%89%E8%A3%85&quot;&gt;3. gitlab 安装&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#4-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82&quot;&gt;4. 系统要求&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#41-%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C&quot;&gt;4.1. 安装准备工作&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#42-%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85gitlab&quot;&gt;4.2. 开始安装gitlab&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#5-gitlab%E5%8D%87%E7%BA%A7&quot;&gt;5. gitlab升级&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#51-%E5%8D%87%E7%BA%A7%E5%89%8D%E5%A4%87%E4%BB%BD&quot;&gt;5.1. 升级前备份&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#52-%E5%BC%80%E5%90%AFyum%E7%BC%93%E5%AD%98&quot;&gt;5.2. 开启yum缓存&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#53-%E5%BC%80%E5%A7%8B%E5%8D%87%E7%BA%A7&quot;&gt;5.3. 开始升级&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#6-gitlab%E8%BF%81%E7%A7%BB&quot;&gt;6. gitlab迁移&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#61-%E5%A4%87%E4%BB%BD%E6%95%B0%E6%8D%AE&quot;&gt;6.1. 备份数据&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#62-%E5%9C%A8%E6%96%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%89%E8%A3%85gitlab&quot;&gt;6.2. 在新服务器上安装gitlab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#63-%E8%BF%98%E5%8E%9F%E5%A4%87%E4%BB%BD&quot;&gt;6.3. 还原备份&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#7-%E5%A6%82%E4%BD%95%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDgitlab&quot;&gt;7. 如何彻底卸载gitlab?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#71-%E5%8D%B8%E8%BD%BD%E5%89%8D%E5%A4%87%E4%BB%BD&quot;&gt;7.1. 卸载前备份&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#72-%E6%89%A7%E8%A1%8C%E5%8D%B8%E8%BD%BD&quot;&gt;7.2. 执行卸载&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#8-%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5&quot;&gt;8. 问题排查&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#9-%E5%85%B3%E8%81%94%E9%98%85%E8%AF%BB&quot;&gt;9. 关联阅读&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;1-gitlab简介&quot;&gt;&lt;a href=&quot;#1-gitlab简介&quot; class=&quot;headerlink&quot; title=&quot;1. gitlab简介&quot;&gt;&lt;/a&gt;1. gitlab简介&lt;/h2&gt;&lt;p&gt;GitLab 是一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的Web服务。&lt;br&gt;GitLab是由GitLabInc.开发，使用MIT许可证的基于网络的Git仓库管理工具，且具有wiki和issue跟踪功能。使用Git作为代码管理工具，并在此基础上搭建起来的web服务。&lt;br&gt;GitLab由乌克兰程序员DmitriyZaporozhets和ValerySizov开发，它使用Ruby语言写成。后来，一些部分用Go语言重写。截止2018年5月，该公司约有290名团队成员，以及2000多名开源贡献者。GitLab被IBM，Sony，JülichResearchCenter，NASA，Alibaba，Invincea，O’ReillyMedia，Leibniz-Rechenzentrum(LRZ)，CERN，SpaceX等组织使用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/gitlab/">gitlab</category>
-      
-      
-      <category domain="https://pengtech.net/tags/gitlab/">gitlab</category>
-      
-      
-      <comments>https://pengtech.net/gitlab/gitlab_installation_upgrade.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>gitlab-runner安装与配置</title>
-      <link>https://pengtech.net/gitlab/gitlab_runner_installation.html</link>
-      <guid>https://pengtech.net/gitlab/gitlab_runner_installation.html</guid>
-      <pubDate>Fri, 05 Nov 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-安装前准备工作&quot;&gt;&lt;a href=&quot;#1-安装前准备工作&quot; class=&quot;headerlink&quot; title=&quot;1. 安装前准备工作&quot;&gt;&lt;/a&gt;1. 安装前准备工作&lt;/h2&gt;&lt;h3 id=&quot;1-1-配置yum源&quot;&gt;&lt;a href=&quot;#1-1-配置yum源&quot; class=&quot;headerlink&quot; title=&quot;1.1. 配置yum源&quot;&gt;&lt;/a&gt;1.1. 配置yum源&lt;/h3&gt;&lt;p&gt;网上大部分教程是介绍如何安装gitlab-ci-multi-runner如何安装，我也按这些教程中的一种安装了，最终发现，不能和最新的gitlab兼容，网上也很少有文章介绍gitlab-ci-multi-runner和gitlab-runner的区别, 实际上gitlab-ci-multi-runner是一个被废弃了的项目, 最新版本只到9.5.1, 而gitlab-runner已经到14.4.0了，在其&lt;a href=&quot;https://gitlab.com/gitlab-org/gitlab-runner&quot;&gt;gitliab仓库&lt;/a&gt;上已经说明 Project ‘gitlab-org&amp;#x2F;gitlab-ci-multi-runner’ was moved to ‘gitlab-org&amp;#x2F;gitlab-runner’. Please update any links and bookmarks that may still have the old path.&lt;br&gt;关于gitlab-runner与gitlab的兼容性原则，gitlab和gitlab-runner在主版本和小版本(major.minor)保持同步，具有相同主版本和小版本号的gitlab和gitlab-runner兼容性最好, 较老的runner可能可以兼容比較新的gitlab,反之亦然，但是不能完全保证．详情请参考&lt;a href=&quot;https://docs.gitlab.com/runner/#compatibility-with-gitlab-versions&quot;&gt;官网关于兼容性原文&lt;/a&gt;&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/gitlab/">gitlab</category>
-      
-      
-      <category domain="https://pengtech.net/tags/gitlab/">gitlab</category>
-      
-      
-      <comments>https://pengtech.net/gitlab/gitlab_runner_installation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>javascript 内置对象</title>
-      <link>https://pengtech.net/javascript/js-builtin-object.html</link>
-      <guid>https://pengtech.net/javascript/js-builtin-object.html</guid>
-      <pubDate>Tue, 02 Nov 2021 15:08:32 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-BOM对象概述&quot;&gt;&lt;a href=&quot;#1-BOM对象概述&quot; class=&quot;headerlink&quot; title=&quot;1. BOM对象概述&quot;&gt;&lt;/a&gt;1. BOM对象概述&lt;/h2&gt;&lt;p&gt;BOM：浏览器对象模型（Browser Object Model）&lt;br&gt;BOM提供了独立于内容的、可以与浏览器窗口进行互动的对象结构.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/javascript/">javascript</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      
-      <comments>https://pengtech.net/javascript/js-builtin-object.html#disqus_thread</comments>
       
     </item>
     
