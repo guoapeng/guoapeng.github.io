@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
+    
+    <lastmod>2025-06-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/friends/</loc>
     
     <lastmod>2025-06-17</lastmod>
@@ -533,15 +542,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
-    
-    <lastmod>2025-04-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/web/web_basic_1.html</loc>
     
     <lastmod>2025-04-26</lastmod>
@@ -858,15 +858,6 @@
   
   <url>
     <loc>https://pengtech.net/backend/</loc>
-    
-    <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vscode/</loc>
     
     <lastmod>2025-03-08</lastmod>
     
@@ -2009,16 +2000,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nginx/nginx_config_https.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nginx/nginx_log_analyze.html</loc>
+    <loc>https://pengtech.net/product/baidu_analytics.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2028,15 +2010,6 @@
   
   <url>
     <loc>https://pengtech.net/product/buyer_decision_process.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/product/baidu_analytics.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2135,6 +2108,24 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/nginx/nginx_config_https.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nginx/nginx_log_analyze.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/vmware/macos_env_setup.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2216,7 +2207,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2225,7 +2216,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2873,7 +2864,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
+    <loc>https://pengtech.net/linux/snap_commands.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2882,7 +2873,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/snap_commands.html</loc>
+    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3124,19 +3115,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://pengtech.net/baidu_verify_codeva-1TKHma47RE.html</loc>
-    
-    <lastmod>2024-05-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-06-17</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
