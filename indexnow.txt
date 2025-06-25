@@ -1,3 +1,5 @@
+https://pengtech.net/github/github_create_organization.html
+https://pengtech.net/chrome/cli_build_chrome_extension.html
 https://pengtech.net/docker/docker-registry-mirrors.html
 https://pengtech.net/vscode/cloud_ide.html
 https://pengtech.net/linux/protect-vps-with-fail2ban.html
@@ -16,5 +18,3 @@ https://pengtech.net/ai/install-Cherry-Studio-on-linux.html
 https://pengtech.net/linux/linux_systemd_service_explanation.html
 https://pengtech.net/ai/dify-config-self-hosted-vllm.html
 https://pengtech.net/ai/install-dify.html
-https://pengtech.net/vscode/cloud_ide_on_vultr.html
-https://pengtech.net/docker/install_docker_proxy.html

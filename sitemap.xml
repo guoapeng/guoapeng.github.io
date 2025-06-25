@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/github/github_create_organization.html</loc>
+    
+    <lastmod>2025-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
+    
+    <lastmod>2025-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
     
     <lastmod>2025-06-20</lastmod>
@@ -2000,6 +2018,24 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/nginx/nginx_config_https.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nginx/nginx_log_analyze.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/product/baidu_analytics.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2100,24 +2136,6 @@
   
   <url>
     <loc>https://pengtech.net/strapi/strapi_slug_system.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nginx/nginx_config_https.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nginx/nginx_log_analyze.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3044,15 +3062,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
-    
-    <lastmod>2024-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/database/install_pgadmin_on_fedora.html</loc>
     
     <lastmod>2024-07-10</lastmod>
@@ -3118,7 +3127,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-06-24</lastmod>
+    <lastmod>2025-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

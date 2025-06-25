@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-06-17T07:45:43.744Z</updated>
+  <updated>2025-06-25T14:55:37.152Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何创建 github 组织（organization）?</title>
+    <link href="https://pengtech.net/github/github_create_organization.html"/>
+    <id>https://pengtech.net/github/github_create_organization.html</id>
+    <published>2025-06-24T16:00:00.000Z</published>
+    <updated>2025-06-25T14:55:37.152Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 GitHub 上创建组织（GitHub Organization）有以下几个重要的好处，尤其适合团队协作、项目管理和品牌运营。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="github" scheme="https://pengtech.net/categories/devops/github/"/>
+    
+    
+    <category term="github" scheme="https://pengtech.net/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 fail2ban 保护你的 VPS</title>
@@ -642,8 +663,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -2737,7 +2758,7 @@
     <link href="https://pengtech.net/chrome/cli_build_chrome_extension.html"/>
     <id>https://pengtech.net/chrome/cli_build_chrome_extension.html</id>
     <published>2023-12-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.388Z</updated>
+    <updated>2025-06-25T14:07:10.483Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文介绍了如何打包、托管和更新通用 Web 服务器中的 crx 文件。&lt;/p&gt;</summary>
@@ -3278,15 +3299,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:25.497Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -3304,14 +3324,15 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -7138,9 +7159,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
@@ -7488,30 +7509,6 @@
     <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
     
     <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux expect 详解</title>
-    <link href="https://pengtech.net/linux/linux-expect-explanation.html"/>
-    <id>https://pengtech.net/linux/linux-expect-explanation.html</id>
-    <published>2021-11-08T16:00:00.000Z</published>
-    <updated>2024-08-26T10:28:03.335Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Expect简介&quot;&gt;&lt;a href=&quot;#1-Expect简介&quot; class=&quot;headerlink&quot; title=&quot;1. Expect简介&quot;&gt;&lt;/a&gt;1. Expect简介&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Expect&lt;/strong&gt;是Unix系统中用来进行自动化控制和测试的软件工具，由Don Libes制作，作为Tcl(Tool Command Language)脚本语言的一个扩展，应用在交互式软件中如telnet，ftp，passwd，fsck，rlogin，tip，ssh等等。该工具利用Unix伪终端包装其子进程，允许任意程序通过终端接入进行自动化控制；也可利用Tk工具，将交互程序包装在X11的图形用户界面中。  &lt;/li&gt;
-&lt;li&gt;Expect含有利用正则表达式进行模式匹配以及通用的编程功能，允许简单的脚本智能地管理如下工具：telnet,ftp和ssh（这些工具都缺少编程的功能），宏以及其它程序。Expect脚本的出现使得这些老的软件工具有了新的功能和更多的灵活性。&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   

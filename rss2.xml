@@ -15,8 +15,31 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Tue, 17 Jun 2025 07:45:43 GMT</pubDate>
+    <pubDate>Wed, 25 Jun 2025 14:55:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>如何创建 github 组织（organization）?</title>
+      <link>https://pengtech.net/github/github_create_organization.html</link>
+      <guid>https://pengtech.net/github/github_create_organization.html</guid>
+      <pubDate>Tue, 24 Jun 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在 GitHub 上创建组织（GitHub Organization）有以下几个重要的好处，尤其适合团队协作、项目管理和品牌运营。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/github/">github</category>
+      
+      
+      <category domain="https://pengtech.net/tags/github/">github</category>
+      
+      
+      <comments>https://pengtech.net/github/github_create_organization.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 fail2ban 保护你的 VPS</title>
@@ -696,8 +719,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -3544,6 +3567,33 @@
     </item>
     
     <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -3568,33 +3618,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -7707,9 +7730,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -8088,32 +8111,6 @@
       
       
       <comments>https://pengtech.net/windows/cygwin-install-and-configuration.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Linux expect 详解</title>
-      <link>https://pengtech.net/linux/linux-expect-explanation.html</link>
-      <guid>https://pengtech.net/linux/linux-expect-explanation.html</guid>
-      <pubDate>Mon, 08 Nov 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Expect简介&quot;&gt;&lt;a href=&quot;#1-Expect简介&quot; class=&quot;headerlink&quot; title=&quot;1. Expect简介&quot;&gt;&lt;/a&gt;1. Expect简介&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Expect&lt;/strong&gt;是Unix系统中用来进行自动化控制和测试的软件工具，由Don Libes制作，作为Tcl(Tool Command Language)脚本语言的一个扩展，应用在交互式软件中如telnet，ftp，passwd，fsck，rlogin，tip，ssh等等。该工具利用Unix伪终端包装其子进程，允许任意程序通过终端接入进行自动化控制；也可利用Tk工具，将交互程序包装在X11的图形用户界面中。  &lt;/li&gt;
-&lt;li&gt;Expect含有利用正则表达式进行模式匹配以及通用的编程功能，允许简单的脚本智能地管理如下工具：telnet,ftp和ssh（这些工具都缺少编程的功能），宏以及其它程序。Expect脚本的出现使得这些老的软件工具有了新的功能和更多的灵活性。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      
-      <comments>https://pengtech.net/linux/linux-expect-explanation.html#disqus_thread</comments>
       
     </item>
     
