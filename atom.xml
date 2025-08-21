@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-06-25T14:55:37.152Z</updated>
+  <updated>2025-07-22T04:38:43.207Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux 上设置 IPv4 优先</title>
+    <link href="https://pengtech.net/linux/linux-setup-ipv4-preferrence.html"/>
+    <id>https://pengtech.net/linux/linux-setup-ipv4-preferrence.html</id>
+    <published>2025-07-21T16:00:00.000Z</published>
+    <updated>2025-07-22T04:38:43.207Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天遇到一个情况，在访问下游服务的时候，下游服务的授权是根据 ip 进行授权的。&lt;/p&gt;
+&lt;p&gt;而我一台服务器上既有 ipv4 地址又有 ipv6 地址，如果为两个 ip 都授权，那么服务费就 double 了，这显然有些浪费，所以我只授权了 ipv4 地址。&lt;/p&gt;
+&lt;p&gt;这样就出现了下游服务不稳定的情况，如果服务器访问下游服务的时候以 ipv6 作为出口就会失败，反之以 ipv4 就能成功。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>如何创建 github 组织（organization）?</title>
@@ -567,7 +590,7 @@
     <link href="https://pengtech.net/github/github_action_update_github_page.html"/>
     <id>https://pengtech.net/github/github_action_update_github_page.html</id>
     <published>2025-04-24T16:00:00.000Z</published>
-    <updated>2025-04-25T08:08:42.075Z</updated>
+    <updated>2025-08-03T11:13:53.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;首先我们会讲解如何使用 github action 部署一个简单的 html 页面到脚本所在仓库的 gh-pages 分支，接着我们会讲解如何部署到不同仓库的指定分支。&lt;/p&gt;</summary>
@@ -663,8 +686,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -691,7 +714,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-05-05T10:47:13.688Z</updated>
+    <updated>2025-08-21T17:57:01.619Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 MacOS 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -718,7 +741,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-05-05T10:47:08.383Z</updated>
+    <updated>2025-08-21T17:57:01.657Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -751,7 +774,7 @@
     <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
     <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-05-05T10:46:43.118Z</updated>
+    <updated>2025-08-21T17:57:01.626Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
@@ -990,7 +1013,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-07-15T04:38:36.312Z</updated>
+    <updated>2025-08-21T17:57:01.627Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1106,7 +1129,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-05-10T15:47:31.458Z</updated>
+    <updated>2025-08-21T17:56:24.256Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -1804,7 +1827,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-07-15T04:39:21.001Z</updated>
+    <updated>2025-08-21T17:57:01.619Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1831,7 +1854,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:29.196Z</updated>
+    <updated>2025-08-21T17:57:01.630Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -2621,7 +2644,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-07-15T04:36:54.518Z</updated>
+    <updated>2025-08-21T17:57:01.484Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2702,14 +2725,14 @@
     <link href="https://pengtech.net/linux/linux_turnoff_ipv6.html"/>
     <id>https://pengtech.net/linux/linux_turnoff_ipv6.html</id>
     <published>2024-01-01T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2025-07-21T22:05:31.254Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;有时因为某些服务器不支持ipv6会出现EHOSTUNREACH错误，需要关闭ipv6&lt;/p&gt;
+    <summary type="html">&lt;p&gt;有时因为某些服务器不支持 ipv6 会出现 EHOSTUNREACH 错误，需要关闭 ipv6&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;将如下几行配置添加到 &amp;#x2F;etc&amp;#x2F;sysctl.conf&lt;/li&gt;
 &lt;/ol&gt;
@@ -3046,7 +3069,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-07-15T04:38:04.419Z</updated>
+    <updated>2025-08-21T17:57:01.630Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3085,7 +3108,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-07-15T04:40:12.424Z</updated>
+    <updated>2025-08-21T17:57:01.636Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -3271,17 +3294,14 @@
   </entry>
   
   <entry>
-    <title>Angular 14 有哪些更新</title>
-    <link href="https://pengtech.net/angular/angular_14_update.html"/>
-    <id>https://pengtech.net/angular/angular_14_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:17.067Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
-&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
-&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
-&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -3299,14 +3319,17 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 14 有哪些更新</title>
+    <link href="https://pengtech.net/angular/angular_14_update.html"/>
+    <id>https://pengtech.net/angular/angular_14_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:17.067Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
+&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
+&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
+&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
     
     
     
@@ -4933,7 +4956,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-05-03T17:36:29.173Z</updated>
+    <updated>2025-08-21T17:57:01.630Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -7490,25 +7513,6 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="tmux" scheme="https://pengtech.net/tags/tmux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cygwin install and configuration</title>
-    <link href="https://pengtech.net/windows/cygwin-install-and-configuration.html"/>
-    <id>https://pengtech.net/windows/cygwin-install-and-configuration.html</id>
-    <published>2021-11-11T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.445Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-cygwin-介绍&quot;&gt;&lt;a href=&quot;#1-cygwin-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. cygwin 介绍&quot;&gt;&lt;/a&gt;1. cygwin 介绍&lt;/h2&gt;&lt;p&gt;Cygwin 是一个在 windows 平台上运行的类 UNIX 模拟环境，是 cygnus solutions 公司开发的自由软件（该公司开发的著名工具还有 eCos，不过现已被 Redhat 收购）。它对于学习 UNIX&amp;#x2F;Linux 操作环境，或者从 UNIX 到 Windows 的应用程序移植，或者进行某些特殊的开发工作，尤其是使用 GNU 工具集在 Windows 上进行嵌入式系统开发，非常有用。随着嵌入式系统开发在国内日渐流行，越来越多的开发者对 Cygwin 产生了兴趣&lt;br&gt;Cygwin 提供一个 UNIX 模拟 DLL 以及在其上层构建的多种可以在 Linux 系统中找到的软件包，在 Windows XP SP3 以上的版本提供良好的支持。Cygwin 主要由 Red Hat 及其下属社区负责维护。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="windows" scheme="https://pengtech.net/tags/windows/"/>
-    
-    <category term="OS" scheme="https://pengtech.net/tags/OS/"/>
     
   </entry>
   
