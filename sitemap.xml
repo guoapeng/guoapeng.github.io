@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
+    
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
+    
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
     
     <lastmod>2025-08-21</lastmod>
@@ -173,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
-    
-    <lastmod>2025-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
     
     <lastmod>2025-06-17</lastmod>
@@ -281,15 +299,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
-    
-    <lastmod>2025-05-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/ai/install-Cherry-Studio-on-linux.html</loc>
     
     <lastmod>2025-05-29</lastmod>
@@ -318,15 +327,6 @@
   
   <url>
     <loc>https://pengtech.net/ai/install-dify.html</loc>
-    
-    <lastmod>2025-05-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
     
     <lastmod>2025-05-28</lastmod>
     
@@ -1829,7 +1829,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1838,7 +1838,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2243,7 +2243,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2252,7 +2252,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3136,7 +3136,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-08-21</lastmod>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
