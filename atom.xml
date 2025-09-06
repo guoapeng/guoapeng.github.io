@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-07-22T04:38:43.207Z</updated>
+  <updated>2025-09-06T01:24:37.726Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,73 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何对文档项目进行搜索引擎优化?</title>
+    <link href="https://pengtech.net/seo/seo-for-document-projects.html"/>
+    <id>https://pengtech.net/seo/seo-for-document-projects.html</id>
+    <published>2025-09-04T16:00:00.000Z</published>
+    <updated>2025-09-06T01:24:37.726Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文解释了如何优化文档以出现在搜索结果中, 最终增加文档型网站的流量。&lt;/p&gt;
+&lt;p&gt;当您优化文档以使其对搜索引擎蜘蛛&amp;#x2F;爬虫更加友好时, 重要的是要记住,你的最终目标是为您的用户制作更多可发现的文档。&lt;/p&gt;
+&lt;p&gt;通过我们介绍的 SEO 最佳实践, 您可以确保当用户在搜索引擎中输入问题时, 他们可以从搜索结果中的文档获取答案。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="hexo" scheme="https://pengtech.net/categories/tools/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://pengtech.net/tags/Hexo/"/>
+    
+    <category term="Seo" scheme="https://pengtech.net/tags/Seo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Mkdocs 快速搭建自己的文档系统</title>
+    <link href="https://pengtech.net/mkdocs/mkdocs-create-site.html"/>
+    <id>https://pengtech.net/mkdocs/mkdocs-create-site.html</id>
+    <published>2025-09-02T16:00:00.000Z</published>
+    <updated>2025-09-06T11:03:23.175Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MkDocs 是一款专为项目文档设计的静态网站生成器，它以其高效、简洁和美观的特点受到开发者的青睐。通过使用 Markdown 语言编写的源文件和一个单一的 YAML 配置文件，用户能够轻松地创建并维护文档站点。生成的 HTML 网站不仅加载速度快，而且可以方便地部署到 GitHub Pages 等静态网站托管平台上，使得分享和协作变得简单。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="Mkdocs" scheme="https://pengtech.net/categories/tools/Mkdocs/"/>
+    
+    
+    <category term="Mkdocs" scheme="https://pengtech.net/tags/Mkdocs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MkDocs 搭建的网站如何做 SEO 优化？</title>
+    <link href="https://pengtech.net/mkdocs/mkdocs-seo.html"/>
+    <id>https://pengtech.net/mkdocs/mkdocs-seo.html</id>
+    <published>2025-09-02T16:00:00.000Z</published>
+    <updated>2025-09-06T09:30:19.739Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MkDocs 本身只是一个 静态文档生成器，并没有内建 SEO 功能，但结合 MkDocs-Material 和一些插件&amp;#x2F;配置，可以做比较完整的 SEO 优化。下面给你一份系统的方案。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
+    
+    <category term="Mkdocs" scheme="https://pengtech.net/categories/tools/Mkdocs/"/>
+    
+    
+    <category term="Mkdocs" scheme="https://pengtech.net/tags/Mkdocs/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux 上设置 IPv4 优先</title>
@@ -61,11 +128,11 @@
   </entry>
   
   <entry>
-    <title>使用 fail2ban 保护你的 VPS</title>
+    <title>使用 fail2ban 保护你的 VPS?</title>
     <link href="https://pengtech.net/linux/protect-vps-with-fail2ban.html"/>
     <id>https://pengtech.net/linux/protect-vps-with-fail2ban.html</id>
     <published>2025-06-15T16:00:00.000Z</published>
-    <updated>2025-06-17T07:45:43.744Z</updated>
+    <updated>2025-09-01T04:19:28.274Z</updated>
     
     
     <summary type="html">&lt;p&gt;Fail2Ban 是一款开源的入侵防御工具，主要用于防止暴力破解、DoS 攻击和恶意扫描。它通过监控系统日志（如 SSH、FTP、Web 服务器等），自动检测多次失败的登录尝试或其他可疑行为，并动态调整防火墙规则（如 iptables、firewalld 等）来封锁恶意 IP 地址。适用于 Linux&amp;#x2F;Unix 系统，Fail2Ban 能有效降低暴力破解风险，且资源占用低，是服务器安全加固的常用工具。需注意合理配置以避免误封合法 IP。&lt;/p&gt;</summary>
@@ -338,7 +405,7 @@
     <link href="https://pengtech.net/ai/vllm_install_qwen3.html"/>
     <id>https://pengtech.net/ai/vllm_install_qwen3.html</id>
     <published>2025-05-25T16:00:00.000Z</published>
-    <updated>2025-08-22T21:13:06.280Z</updated>
+    <updated>2025-09-01T04:15:32.579Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</summary>
@@ -382,7 +449,7 @@
     <link href="https://pengtech.net/python/linux_install_python.html"/>
     <id>https://pengtech.net/python/linux_install_python.html</id>
     <published>2025-05-22T16:00:00.000Z</published>
-    <updated>2025-05-26T05:45:50.625Z</updated>
+    <updated>2025-09-05T08:06:30.740Z</updated>
     
     
     <summary type="html">&lt;p&gt;Astral UV 是一款由 Astral 公司（以开发高性能 Python 工具 Ruff 闻名）推出的 超高速 Python 包管理和项目管理工具，完全用 Rust 编写。它旨在取代传统的 Python 工具链（如 pip、virtualenv、poetry、pyenv 等），提供更快的速度和更统一的工作流。在 Astral UV 的上下文中，象征工具的高速性（Ultra-Velocity）和多功能性（Universal）。本文主要讲述如何在 Linux 下安装 Astral UV。&lt;/p&gt;</summary>
@@ -686,8 +753,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -714,7 +781,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.619Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 MacOS 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -741,7 +808,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.657Z</updated>
+    <updated>2025-09-06T19:22:25.785Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -774,7 +841,7 @@
     <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
     <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.626Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
@@ -1013,7 +1080,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.627Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1129,7 +1196,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2025-08-21T17:56:24.256Z</updated>
+    <updated>2025-09-06T19:22:25.794Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -1195,7 +1262,7 @@
     <link href="https://pengtech.net/network/understand_https.html"/>
     <id>https://pengtech.net/network/understand_https.html</id>
     <published>2024-10-13T16:00:00.000Z</published>
-    <updated>2025-03-13T09:52:08.684Z</updated>
+    <updated>2025-08-26T23:46:28.161Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-HTTP-协议&quot;&gt;&lt;a href=&quot;#1-HTTP-协议&quot; class=&quot;headerlink&quot; title=&quot;1. HTTP 协议&quot;&gt;&lt;/a&gt;1. HTTP 协议&lt;/h2&gt;&lt;p&gt;HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写,是用于从万维网（WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。&lt;/p&gt;
@@ -1827,7 +1894,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.619Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1854,7 +1921,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.630Z</updated>
+    <updated>2025-09-06T19:22:25.782Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -2568,29 +2635,6 @@
   </entry>
   
   <entry>
-    <title>使用ansible安装java</title>
-    <link href="https://pengtech.net/ansible/ansible_install_java.html"/>
-    <id>https://pengtech.net/ansible/ansible_install_java.html</id>
-    <published>2024-01-18T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文主要讲述如何使用Ansible在Redhat Linux系列上安装java 17。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
-    
-    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用ansible安装golang</title>
     <link href="https://pengtech.net/ansible/ansible_install_golang.html"/>
     <id>https://pengtech.net/ansible/ansible_install_golang.html</id>
@@ -2612,6 +2656,29 @@
     <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
     
     <category term="golang" scheme="https://pengtech.net/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用ansible安装java</title>
+    <link href="https://pengtech.net/ansible/ansible_install_java.html"/>
+    <id>https://pengtech.net/ansible/ansible_install_java.html</id>
+    <published>2024-01-18T16:00:00.000Z</published>
+    <updated>2024-08-06T10:05:40.587Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文主要讲述如何使用Ansible在Redhat Linux系列上安装java 17。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="ansible" scheme="https://pengtech.net/categories/devops/ansible/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
     
   </entry>
   
@@ -2644,7 +2711,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.484Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3069,7 +3136,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.630Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3108,7 +3175,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.636Z</updated>
+    <updated>2025-09-06T19:22:25.782Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -4061,12 +4128,12 @@
     <link href="https://pengtech.net/tauri/setup_tauri_for_linux.html"/>
     <id>https://pengtech.net/tauri/setup_tauri_for_linux.html</id>
     <published>2023-08-21T16:00:00.000Z</published>
-    <updated>2024-11-06T11:13:42.270Z</updated>
+    <updated>2025-08-26T11:50:48.967Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文讲述如何在linux操作系统中配置Tauri编译, 打包环境.&lt;/p&gt;
-&lt;h2 id=&quot;2-安装依赖工具和开发包&quot;&gt;&lt;a href=&quot;#2-安装依赖工具和开发包&quot; class=&quot;headerlink&quot; title=&quot;2. 安装依赖工具和开发包&quot;&gt;&lt;/a&gt;2. 安装依赖工具和开发包&lt;/h2&gt;&lt;p&gt;您将需要安装几个系统依赖项，例如C编译器和webkit2gtk。以下是一些流行发行版的命令：&lt;/p&gt;
-&lt;p&gt;debian 系列Linux发行版,&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文讲述如何在 linux 操作系统中配置 Tauri 编译, 打包环境.&lt;/p&gt;
+&lt;h2 id=&quot;2-安装依赖工具和开发包&quot;&gt;&lt;a href=&quot;#2-安装依赖工具和开发包&quot; class=&quot;headerlink&quot; title=&quot;2. 安装依赖工具和开发包&quot;&gt;&lt;/a&gt;2. 安装依赖工具和开发包&lt;/h2&gt;&lt;p&gt;您将需要安装几个系统依赖项，例如 C 编译器和 webkit2gtk。以下是一些流行发行版的命令：&lt;/p&gt;
+&lt;p&gt;debian 系列 Linux 发行版,&lt;/p&gt;</summary>
     
     
     
@@ -4105,19 +4172,14 @@
   </entry>
   
   <entry>
-    <title>fedora上安装gitlab-runner安装与配置</title>
-    <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
+    <title>macOS上安装gitlab-runner安装与配置</title>
+    <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
+    <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:01.230Z</updated>
+    <updated>2024-08-06T10:05:40.421Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
-&lt;p&gt;本文是gitlab-runner安装和配置姊妹篇中的一篇，主要针对fedora操作系统，其它操作系统可以参考针对特定操作系统的姊妹篇。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
     
     
     
@@ -4131,14 +4193,19 @@
   </entry>
   
   <entry>
-    <title>macOS上安装gitlab-runner安装与配置</title>
-    <link href="https://pengtech.net/gitlab/gitlab_runner_on_macos.html"/>
-    <id>https://pengtech.net/gitlab/gitlab_runner_on_macos.html</id>
+    <title>fedora上安装gitlab-runner安装与配置</title>
+    <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
+    <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.421Z</updated>
+    <updated>2025-04-23T17:03:01.230Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要介绍使用二进制文件方式在macOS上安装并注册gitlab-runner.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
+&lt;p&gt;本文是gitlab-runner安装和配置姊妹篇中的一篇，主要针对fedora操作系统，其它操作系统可以参考针对特定操作系统的姊妹篇。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_installation.html&quot;&gt;gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_macos.html&quot;&gt;macOS上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_ubuntu.html&quot;&gt;ubuntu上安装gitlab-runner安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pengtech.net/gitlab/gitlab_runner_on_windows.html&quot;&gt;windows上安装gitlab-runner&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -4956,7 +5023,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-08-21T17:57:01.630Z</updated>
+    <updated>2025-09-06T19:22:25.786Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -7444,75 +7511,6 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Centos7上搭建git服务器</title>
-    <link href="https://pengtech.net/git/install_setup_git_server.html"/>
-    <id>https://pengtech.net/git/install_setup_git_server.html</id>
-    <published>2021-12-15T16:00:00.000Z</published>
-    <updated>2024-10-04T01:16:31.895Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;br&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;br&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;br&gt;虽然git不必依赖一个中心化的仓库来工作, 但是中心化的仓库也能带来很多好处, 比如方便团队写作, 本文主要讲述, 如何配置git服务器, 让多人通过ssh协议的方式访问服务器端的代码仓库.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="git" scheme="https://pengtech.net/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux文件目录结构详解</title>
-    <link href="https://pengtech.net/linux/Linux_FHS.html"/>
-    <id>https://pengtech.net/linux/Linux_FHS.html</id>
-    <published>2021-12-01T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:32.580Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-FHS是什么&quot;&gt;&lt;a href=&quot;#1-FHS是什么&quot; class=&quot;headerlink&quot; title=&quot;1. FHS是什么?&quot;&gt;&lt;/a&gt;1. FHS是什么?&lt;/h2&gt;&lt;p&gt;Filesystem Hierarchy Standard（文件系统层次化标准）的缩写，多数Linux版本采用这种文件组织形式，类似于Windows操作系统中c盘的文件目录，FHS采用树形结构组织文件。FHS定义了系统中每个区域的用途、所需要的最小构成的文件和目录，同时还给出了例外处理与矛盾处理。&lt;/p&gt;
-&lt;p&gt;通俗的讲就是解决哪些鸡蛋应该放在哪些篮子的问题.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tmux使用说明</title>
-    <link href="https://pengtech.net/linux/tmux.html"/>
-    <id>https://pengtech.net/linux/tmux.html</id>
-    <published>2021-11-11T16:00:00.000Z</published>
-    <updated>2024-08-26T10:28:20.889Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Tmux的作者&quot;&gt;&lt;a href=&quot;#1-Tmux的作者&quot; class=&quot;headerlink&quot; title=&quot;1. Tmux的作者&quot;&gt;&lt;/a&gt;1. Tmux的作者&lt;/h2&gt;&lt;p&gt;Tmux的作者是Nicholas Marriott, 网上关于Nicholas Marriott的介绍很少, 但是本人对创建如此复杂而功能强大的Tmux的开源开发者十分感兴趣, 希望知道的能补充一些关于Tmux的信息.&lt;/p&gt;
-&lt;h2 id=&quot;2-Tmux-是什么？&quot;&gt;&lt;a href=&quot;#2-Tmux-是什么？&quot; class=&quot;headerlink&quot; title=&quot;2. Tmux 是什么？&quot;&gt;&lt;/a&gt;2. Tmux 是什么？&lt;/h2&gt;&lt;p&gt;Tmux 是一个终端复用器（terminal multiplexer），非常有用，属于常用的开发工具。&lt;br&gt;打开一个终端窗口（terminal window，以下简称”窗口”），在里面输入命令。用户与称为一次”会话”（session） 。&lt;br&gt;口与其中启动的进程是连在一起的。打开窗口，会话开始；关闭窗口，会话结束，会话不管有没有运行完。&lt;br&gt;登录远程计算机，打开一个远程窗口执行命令。这时，网络突然断线，再次登录的时命令的。因为上一次 SSH 会话已经终止了，里面的进程也随之消失了。&lt;br&gt;窗口可以”解绑”：窗口关闭时，会话并不终止，而是继续运行，等到以后需要的时候.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="tmux" scheme="https://pengtech.net/tags/tmux/"/>
     
   </entry>
   

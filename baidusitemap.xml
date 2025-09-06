@@ -1,60 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/mkdocs/mkdocs-create-site.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/mkdocs/mkdocs-seo.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/seo/seo-for-document-projects.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/python/linux_install_python.html</loc>
+    <lastmod>2025-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/understand_https.html</loc>
+    <lastmod>2025-08-26</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/tauri/setup_tauri_for_linux.html</loc>
+    <lastmod>2025-08-26</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
     <lastmod>2025-08-26</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
     <lastmod>2025-08-26</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
-    <lastmod>2025-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    <lastmod>2025-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    <lastmod>2025-08-21</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/github/github_action_update_github_page.html</loc>
@@ -86,10 +114,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
-    <lastmod>2025-06-17</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
     <lastmod>2025-06-17</lastmod>
   </url>
   <url>
@@ -170,10 +194,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2025-05-26</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/python/linux_install_python.html</loc>
     <lastmod>2025-05-26</lastmod>
   </url>
   <url>
@@ -337,10 +357,6 @@
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/understand_https.html</loc>
-    <lastmod>2025-03-13</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/bitcoin/xmrig_setup.html</loc>
     <lastmod>2025-03-12</lastmod>
   </url>
@@ -447,10 +463,6 @@
   <url>
     <loc>https://pengtech.net/linux/vultr_account_creation.html</loc>
     <lastmod>2024-12-14</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/tauri/setup_tauri_for_linux.html</loc>
-    <lastmod>2024-11-06</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/vmware/windows_env_setup.html</loc>
@@ -765,11 +777,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/ansible/ansible_install_golang.html</loc>
+    <loc>https://pengtech.net/ansible/ansible_install_java.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -949,11 +961,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1289,11 +1301,11 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
