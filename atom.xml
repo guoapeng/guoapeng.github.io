@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-09-06T01:24:37.726Z</updated>
+  <updated>2025-09-29T16:50:11.046Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Almalinux 服务器安装图形化界面</title>
+    <link href="https://pengtech.net/linux/almalinux_install_desktop.html"/>
+    <id>https://pengtech.net/linux/almalinux_install_desktop.html</id>
+    <published>2025-09-28T16:00:00.000Z</published>
+    <updated>2025-09-29T16:50:11.046Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;AlmaLinux 9 与 Rocky Linux 9 在企业级 Linux 发行版中以稳定性著称。虽然它们常用于无界面（CLI）服务器环境，但在某些场景下（例如远程管理或使用图形工具）为服务器安装图形界面（GUI）也是有意义的。本文将逐步指导你如何在这两种系统上安装 GNOME 桌面环境、配置 XRDP 远程访问，并开启防火墙端口，从而在远端通过 RDP 客户端访问图形界面。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>如何对文档项目进行搜索引擎优化?</title>
@@ -153,7 +174,7 @@
     <link href="https://pengtech.net/linux/protect-vps-with-fail2ban.html"/>
     <id>https://pengtech.net/linux/protect-vps-with-fail2ban.html</id>
     <published>2025-06-15T16:00:00.000Z</published>
-    <updated>2025-09-01T04:19:28.274Z</updated>
+    <updated>2025-09-26T13:42:45.249Z</updated>
     
     
     <summary type="html">&lt;p&gt;Fail2Ban 是一款开源的入侵防御工具，主要用于防止暴力破解、DoS 攻击和恶意扫描。它通过监控系统日志（如 SSH、FTP、Web 服务器等），自动检测多次失败的登录尝试或其他可疑行为，并动态调整防火墙规则（如 iptables、firewalld 等）来封锁恶意 IP 地址。适用于 Linux&amp;#x2F;Unix 系统，Fail2Ban 能有效降低暴力破解风险，且资源占用低，是服务器安全加固的常用工具。需注意合理配置以避免误封合法 IP。&lt;/p&gt;</summary>
@@ -774,8 +795,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#108;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -7409,31 +7430,6 @@
   </entry>
   
   <entry>
-    <title>linux上ifconfig命令详解</title>
-    <link href="https://pengtech.net/linux/linux_shell_ifconfig.html"/>
-    <id>https://pengtech.net/linux/linux_shell_ifconfig.html</id>
-    <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:37.676Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-ifconfig-简介&quot;&gt;&lt;a href=&quot;#1-ifconfig-简介&quot; class=&quot;headerlink&quot; title=&quot;1. ifconfig 简介&quot;&gt;&lt;/a&gt;1. ifconfig 简介&lt;/h2&gt;&lt;p&gt;用于显示或设置网络设备&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="shell" scheme="https://pengtech.net/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
     <title>linux上的rsync命令详解</title>
     <link href="https://pengtech.net/linux/linux_shell_rsync.html"/>
     <id>https://pengtech.net/linux/linux_shell_rsync.html</id>
@@ -7462,6 +7458,31 @@
   </entry>
   
   <entry>
+    <title>linux上ifconfig命令详解</title>
+    <link href="https://pengtech.net/linux/linux_shell_ifconfig.html"/>
+    <id>https://pengtech.net/linux/linux_shell_ifconfig.html</id>
+    <published>2021-12-22T16:00:00.000Z</published>
+    <updated>2024-08-06T10:14:37.676Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-ifconfig-简介&quot;&gt;&lt;a href=&quot;#1-ifconfig-简介&quot; class=&quot;headerlink&quot; title=&quot;1. ifconfig 简介&quot;&gt;&lt;/a&gt;1. ifconfig 简介&lt;/h2&gt;&lt;p&gt;用于显示或设置网络设备&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="shell" scheme="https://pengtech.net/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何使用Maven结合IDEA进行Debug</title>
     <link href="https://pengtech.net/java/how_to_debug_with_maven_cli.html"/>
     <id>https://pengtech.net/java/how_to_debug_with_maven_cli.html</id>
@@ -7483,29 +7504,6 @@
     <category term="maven" scheme="https://pengtech.net/tags/maven/"/>
     
     <category term="IDEA" scheme="https://pengtech.net/tags/IDEA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>唤醒心中猛兽</title>
-    <link href="https://pengtech.net/others/wake_your_ass_up.html"/>
-    <id>https://pengtech.net/others/wake_your_ass_up.html</id>
-    <published>2021-12-18T16:00:00.000Z</published>
-    <updated>2024-09-09T13:55:41.069Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;为什么停下&quot;&gt;&lt;a href=&quot;#为什么停下&quot; class=&quot;headerlink&quot; title=&quot;为什么停下?&quot;&gt;&lt;/a&gt;为什么停下?&lt;/h2&gt;&lt;p&gt;what’s stopping you?&lt;br&gt;是什么在阻碍你?&lt;br&gt;Are you too tired?&lt;br&gt;是太累了吗?&lt;br&gt;Didn’t get enough sleep?&lt;br&gt;睡眠不足?&lt;br&gt;Don’t have enough energy?&lt;br&gt;精力不济?&lt;br&gt;Don’t have enough time?&lt;br&gt;时间不够?&lt;br&gt;Is that what’s stopping you right now?&lt;br&gt;是这些东西阻碍你吗?&lt;br&gt;Don’t have enough money?&lt;br&gt;还是因为缺钱?&lt;br&gt;Is that the thing?&lt;br&gt;是这样吗?&lt;br&gt;Or is the thing that’s stopping you&lt;br&gt;还是说真正阻碍你的&lt;br&gt;you?&lt;br&gt;是你自己?  &lt;/p&gt;</summary>
-    
-    
-    
-    <category term="others" scheme="https://pengtech.net/categories/others/"/>
-    
-    <category term="English" scheme="https://pengtech.net/categories/others/English/"/>
-    
-    
-    <category term="life" scheme="https://pengtech.net/tags/life/"/>
-    
-    <category term="English" scheme="https://pengtech.net/tags/English/"/>
     
   </entry>
   
