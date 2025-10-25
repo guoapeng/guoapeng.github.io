@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/udp-connectivity-test.html</loc>
+    
+    <lastmod>2025-10-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
     
     <lastmod>2025-10-15</lastmod>
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
     
     <lastmod>2025-09-06</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
     
     <lastmod>2025-09-06</lastmod>
     
@@ -1946,15 +1955,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/applying_density.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/material/better_design_for_big_screen.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -1973,7 +1973,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/layout.html</loc>
+    <loc>https://pengtech.net/material/applying_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1983,6 +1983,15 @@
   
   <url>
     <loc>https://pengtech.net/material/light_shadow.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/material/layout.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2009,15 +2018,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/material/material_typeahead.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2028,6 +2028,15 @@
   
   <url>
     <loc>https://pengtech.net/material/pixel_density.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2189,7 +2198,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/strapi/strapi_deployment.html</loc>
+    <loc>https://pengtech.net/strapi/strapi_slug_system.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2198,7 +2207,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/strapi/strapi_slug_system.html</loc>
+    <loc>https://pengtech.net/strapi/strapi_deployment.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2279,6 +2288,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/angular/angular2_auth.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2289,15 +2307,6 @@
   
   <url>
     <loc>https://pengtech.net/angular/angular2_guard.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2360,15 +2369,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_breadcrumbs.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/angular/angular_chart_solutions.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2378,7 +2378,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular_editor.html</loc>
+    <loc>https://pengtech.net/angular/angular_breadcrumbs.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2388,6 +2388,15 @@
   
   <url>
     <loc>https://pengtech.net/angular/angular_flex_layout.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/angular/angular_editor.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2612,7 +2621,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_env_setup.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2621,7 +2630,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_env_setup.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2702,7 +2711,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2711,7 +2720,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    <loc>https://pengtech.net/nodejs/npm_run_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2945,7 +2954,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
+    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2954,7 +2963,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
+    <loc>https://pengtech.net/linux/terraform_vm_exsi.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3181,7 +3190,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

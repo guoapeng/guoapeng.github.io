@@ -15,8 +15,29 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Tue, 30 Sep 2025 11:13:06 GMT</pubDate>
+    <pubDate>Mon, 20 Oct 2025 18:12:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>使用 netcat 测试 UDP 端口的连通性</title>
+      <link>https://pengtech.net/network/udp-connectivity-test.html</link>
+      <guid>https://pengtech.net/network/udp-connectivity-test.html</guid>
+      <pubDate>Sun, 19 Oct 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;因为公司网络防火墙一般对端口会有一些限制，通过公司网络访问外部服务器特定端口时，需要检测与目标服务器特定端口的连通性；对于服务器可达性通常采用 ping 方法，tcp 可以使用 telnet, tcping 工具进行测试。对于 udp 连通性我们通常采用 netcat 工具进行测试。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      
+      <comments>https://pengtech.net/network/udp-connectivity-test.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Almalinux 服务器安装图形化界面</title>
@@ -389,29 +410,6 @@
     </item>
     
     <item>
-      <title>如何在 Linux 上通过 docker-compose 部署 Dify？</title>
-      <link>https://pengtech.net/ai/install-dify.html</link>
-      <guid>https://pengtech.net/ai/install-dify.html</guid>
-      <pubDate>Mon, 26 May 2025 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Dify 是一款开源的大语言模型（LLM）应用开发平台，融合了后端即服务（Backend as a Service, BaaS）和 LLMOps 的理念，旨在帮助开发者快速构建和部署生成式 AI 应用。本篇文章将带您了解如何在本地环境中部署 Dify。通过本地部署，您可以更好地掌控数据和应用的运行环境，同时体验 Dify 强大的功能和灵活性。无论您是开发者还是对生成式 AI 应用感兴趣的技术爱好者，这篇指南都将为您提供清晰的步骤和实用的建议。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/AI/">AI</category>
-      
-      
-      <category domain="https://pengtech.net/tags/AI/">AI</category>
-      
-      <category domain="https://pengtech.net/tags/Dify/">Dify</category>
-      
-      
-      <comments>https://pengtech.net/ai/install-dify.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>2025 年最新 MCP 资源库汇总</title>
       <link>https://pengtech.net/ai/mcp-resources.html</link>
       <guid>https://pengtech.net/ai/mcp-resources.html</guid>
@@ -431,6 +429,29 @@
       
       
       <comments>https://pengtech.net/ai/mcp-resources.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何在 Linux 上通过 docker-compose 部署 Dify？</title>
+      <link>https://pengtech.net/ai/install-dify.html</link>
+      <guid>https://pengtech.net/ai/install-dify.html</guid>
+      <pubDate>Mon, 26 May 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Dify 是一款开源的大语言模型（LLM）应用开发平台，融合了后端即服务（Backend as a Service, BaaS）和 LLMOps 的理念，旨在帮助开发者快速构建和部署生成式 AI 应用。本篇文章将带您了解如何在本地环境中部署 Dify。通过本地部署，您可以更好地掌控数据和应用的运行环境，同时体验 Dify 强大的功能和灵活性。无论您是开发者还是对生成式 AI 应用感兴趣的技术爱好者，这篇指南都将为您提供清晰的步骤和实用的建议。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/AI/">AI</category>
+      
+      
+      <category domain="https://pengtech.net/tags/AI/">AI</category>
+      
+      <category domain="https://pengtech.net/tags/Dify/">Dify</category>
+      
+      
+      <comments>https://pengtech.net/ai/install-dify.html#disqus_thread</comments>
       
     </item>
     
@@ -643,9 +664,9 @@
       
       <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
       
-      <category domain="https://pengtech.net/tags/emlog/">emlog</category>
-      
       <category domain="https://pengtech.net/tags/blog/">blog</category>
+      
+      <category domain="https://pengtech.net/tags/emlog/">emlog</category>
       
       
       <comments>https://pengtech.net/sites/emlog_install.html#disqus_thread</comments>
@@ -863,8 +884,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -3201,33 +3222,6 @@
     </item>
     
     <item>
-      <title>Windows上安装与配置Android SDK</title>
-      <link>https://pengtech.net/android/android_sdk_install.html</link>
-      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
-      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Fedora 上安装与配置 Android studio</title>
       <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
       <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
@@ -3251,6 +3245,33 @@
       
       
       <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows上安装与配置Android SDK</title>
+      <link>https://pengtech.net/android/android_sdk_install.html</link>
+      <guid>https://pengtech.net/android/android_sdk_install.html</guid>
+      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
       
     </item>
     
@@ -3711,33 +3732,6 @@
     </item>
     
     <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -3789,6 +3783,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -4056,34 +4077,6 @@
     </item>
     
     <item>
-      <title>在Angular中使用async-await特性</title>
-      <link>https://pengtech.net/angular/angular_async-await.html</link>
-      <guid>https://pengtech.net/angular/angular_async-await.html</guid>
-      <pubDate>Tue, 26 Sep 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Promise 和回调函数是在 JavaScript 中编写异步代码的构建块。&lt;/p&gt;
-&lt;p&gt;在 Angular 应用程序中，我们可以使用 Rx.js 来利用 Observables、Subject、BehaviorSubject 等的强大功能，以优雅的方式编写异步代码。&lt;/p&gt;
-&lt;p&gt;随着最新版本的 ECMA Script 草案，JavaScript 开始支持“异步等待”功能。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://tc39.github.io/ecma262/#sec-async-function-definitions&quot;&gt;ECMAScript 最新草案 (ECMA-262)&lt;/a&gt;&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_async-await.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular Async Pipe详解</title>
       <link>https://pengtech.net/angular/angular_async_pipe.html</link>
       <guid>https://pengtech.net/angular/angular_async_pipe.html</guid>
@@ -4113,6 +4106,61 @@
       
       
       <comments>https://pengtech.net/angular/angular_async_pipe.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在Angular中使用async-await特性</title>
+      <link>https://pengtech.net/angular/angular_async-await.html</link>
+      <guid>https://pengtech.net/angular/angular_async-await.html</guid>
+      <pubDate>Tue, 26 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Promise 和回调函数是在 JavaScript 中编写异步代码的构建块。&lt;/p&gt;
+&lt;p&gt;在 Angular 应用程序中，我们可以使用 Rx.js 来利用 Observables、Subject、BehaviorSubject 等的强大功能，以优雅的方式编写异步代码。&lt;/p&gt;
+&lt;p&gt;随着最新版本的 ECMA Script 草案，JavaScript 开始支持“异步等待”功能。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tc39.github.io/ecma262/#sec-async-function-definitions&quot;&gt;ECMAScript 最新草案 (ECMA-262)&lt;/a&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_async-await.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Strapi的安装和使用</title>
+      <link>https://pengtech.net/strapi/install_strapi.html</link>
+      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
+      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
+      
+      
+      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
       
     </item>
     
@@ -4150,14 +4198,12 @@
     </item>
     
     <item>
-      <title>Strapi的安装和使用</title>
-      <link>https://pengtech.net/strapi/install_strapi.html</link>
-      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
+      <title>如何在Strapi v4中创建Slug系统</title>
+      <link>https://pengtech.net/strapi/strapi_slug_system.html</link>
+      <guid>https://pengtech.net/strapi/strapi_slug_system.html</guid>
       <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
+      <description>&lt;p&gt;在为客户或您自己构建网站时，您通常希望通过 URL 中的人类可读的 slug 来访问您的公共内容。这将有助于搜索引擎优化 (SEO)，并且更容易让用户理解。值得庆幸的是，借助Strapi，您可以轻松地以这种方式访问​​您的内容。&lt;/p&gt;</description>
       
       
       
@@ -4172,7 +4218,7 @@
       <category domain="https://pengtech.net/tags/strapi/">strapi</category>
       
       
-      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
+      <comments>https://pengtech.net/strapi/strapi_slug_system.html#disqus_thread</comments>
       
     </item>
     
@@ -4198,31 +4244,6 @@
       
       
       <comments>https://pengtech.net/strapi/strapi_project_structure.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何在Strapi v4中创建Slug系统</title>
-      <link>https://pengtech.net/strapi/strapi_slug_system.html</link>
-      <guid>https://pengtech.net/strapi/strapi_slug_system.html</guid>
-      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在为客户或您自己构建网站时，您通常希望通过 URL 中的人类可读的 slug 来访问您的公共内容。这将有助于搜索引擎优化 (SEO)，并且更容易让用户理解。值得庆幸的是，借助Strapi，您可以轻松地以这种方式访问​​您的内容。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
-      
-      
-      <comments>https://pengtech.net/strapi/strapi_slug_system.html#disqus_thread</comments>
       
     </item>
     
@@ -5156,6 +5177,30 @@
     </item>
     
     <item>
+      <title>什么是客户满意度？</title>
+      <link>https://pengtech.net/product/customer_satisfaction.html</link>
+      <guid>https://pengtech.net/product/customer_satisfaction.html</guid>
+      <pubDate>Tue, 18 Jul 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
+      
+      
+      <category domain="https://pengtech.net/tags/product/">product</category>
+      
+      
+      <comments>https://pengtech.net/product/customer_satisfaction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>买家决策过程详解</title>
       <link>https://pengtech.net/product/buyer_decision_process.html</link>
       <guid>https://pengtech.net/product/buyer_decision_process.html</guid>
@@ -5177,30 +5222,6 @@
       
       
       <comments>https://pengtech.net/product/buyer_decision_process.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>什么是客户满意度？</title>
-      <link>https://pengtech.net/product/customer_satisfaction.html</link>
-      <guid>https://pengtech.net/product/customer_satisfaction.html</guid>
-      <pubDate>Tue, 18 Jul 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/others/">others</category>
-      
-      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
-      
-      
-      <category domain="https://pengtech.net/tags/product/">product</category>
-      
-      
-      <comments>https://pengtech.net/product/customer_satisfaction.html#disqus_thread</comments>
       
     </item>
     
@@ -7353,6 +7374,32 @@
     </item>
     
     <item>
+      <title>Material Design基础 - 光线和阴影</title>
+      <link>https://pengtech.net/material/light_shadow.html</link>
+      <guid>https://pengtech.net/material/light_shadow.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
+&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 基础 - Layout</title>
       <link>https://pengtech.net/material/layout.html</link>
       <guid>https://pengtech.net/material/layout.html</guid>
@@ -7382,32 +7429,6 @@
       
       
       <comments>https://pengtech.net/material/layout.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material Design基础 - 光线和阴影</title>
-      <link>https://pengtech.net/material/light_shadow.html</link>
-      <guid>https://pengtech.net/material/light_shadow.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
-&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
       
     </item>
     
@@ -7465,31 +7486,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - spacing methods</title>
-      <link>https://pengtech.net/material/spacing_methods.html</link>
-      <guid>https://pengtech.net/material/spacing_methods.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/spacing_methods.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design基础 - Surfaces</title>
       <link>https://pengtech.net/material/surfaces.html</link>
       <guid>https://pengtech.net/material/surfaces.html</guid>
@@ -7513,6 +7509,31 @@
       
       
       <comments>https://pengtech.net/material/surfaces.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - spacing methods</title>
+      <link>https://pengtech.net/material/spacing_methods.html</link>
+      <guid>https://pengtech.net/material/spacing_methods.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/spacing_methods.html#disqus_thread</comments>
       
     </item>
     
@@ -7858,32 +7879,6 @@
     </item>
     
     <item>
-      <title>Linux下安装gradle</title>
-      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
-      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
-      <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      
-      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>在fedora35上安装virtualbox</title>
       <link>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</link>
       <guid>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</guid>
@@ -7935,6 +7930,32 @@
       
       
       <comments>https://pengtech.net/linux/install_virtualbox_on_fedora40.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux下安装gradle</title>
+      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
+      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
+      <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
+&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      
+      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
       
     </item>
     
@@ -8079,33 +8100,6 @@
       
       
       <comments>https://pengtech.net/linux/linux_shell_rsync.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何使用Maven结合IDEA进行Debug</title>
-      <link>https://pengtech.net/java/how_to_debug_with_maven_cli.html</link>
-      <guid>https://pengtech.net/java/how_to_debug_with_maven_cli.html</guid>
-      <pubDate>Tue, 21 Dec 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;由于 Idea 和 Maven class loading 的规则不同， 同样的测试使用 Maven 运行和使用 Idea 运行可能会得到不同的结果。 而我们的 CI(持续集成)往往是使用 maven 命令去运行的。&lt;br&gt;在此情况下， 将测试使用 maven 运行起来， 然后结合 IDEA 强大的 debug 能力就显得非常必要。如果熟练掌握此种 debug 方式， 也可以减少我们依赖 idea 进行编译，更新 index 这些极其耗时的工作。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/maven/">maven</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Java/">Java</category>
-      
-      <category domain="https://pengtech.net/tags/maven/">maven</category>
-      
-      <category domain="https://pengtech.net/tags/IDEA/">IDEA</category>
-      
-      
-      <comments>https://pengtech.net/java/how_to_debug_with_maven_cli.html#disqus_thread</comments>
       
     </item>
     
