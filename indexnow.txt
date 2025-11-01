@@ -1,3 +1,5 @@
+https://pengtech.net/nginx/nginx-deploy-php.html
+https://pengtech.net/nginx/nginx_installation.html
 https://pengtech.net/linux/protect-vps-with-fail2ban.html
 https://pengtech.net/network/udp-connectivity-test.html
 https://pengtech.net/network/v2rayNG_install_and_config.html
@@ -6,8 +8,8 @@ https://pengtech.net/mkdocs/add-a-comment-system-for-mkdocs.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
 https://pengtech.net/network/install_config_v2rayA_on_linux.html
-https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_hiddifyApp_on_windows.html
+https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/v2rayN_usage.html
@@ -16,5 +18,3 @@ https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/mkdocs/mkdocs-create-site.html
 https://pengtech.net/mkdocs/mkdocs-seo.html
 https://pengtech.net/seo/seo-for-document-projects.html
-https://pengtech.net/python/linux_install_python.html
-https://pengtech.net/ai/vllm_install_qwen3.html

@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Mon, 20 Oct 2025 18:12:22 GMT</pubDate>
+    <pubDate>Sat, 01 Nov 2025 15:41:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>使用 Nginx 部署 PHP 项目</title>
+      <link>https://pengtech.net/nginx/nginx-deploy-php.html</link>
+      <guid>https://pengtech.net/nginx/nginx-deploy-php.html</guid>
+      <pubDate>Fri, 31 Oct 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Nginx（读作 “engine-x”）是一款高性能的 Web 服务器 + 反向代理服务器。Nginx 不会直接执行 PHP 脚本。它只懂得发送文件、转发请求，不会解析 .php 文件里的逻辑代码。所以 Nginx 必须结合 PHP 解析器才能很好的处理 PHP 请求，而且 NGINX 也只懂得如何响应和转发请求，它也不太懂如何管理 PHP 进程以及调用，连接 nginx 和 PHP 解析器的桥梁则是 FastCGI 协议，这里简单介绍一下 FastCGI ，FastCGI（Fast Common Gateway Interface）&lt;br&gt;是一种用于 Web 服务器（Nginx 或 Apache）与应用程序（如 PHP、Python、Perl）之间通信的协议。而 PHP-FPM 则是 FastCGI 的一种具体实现，拥有处理 Web 服务器和 PHP 应用程序之间的通信。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/backend/">backend</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/nginx/">nginx</category>
+      
+      <category domain="https://pengtech.net/tags/PHP/">PHP</category>
+      
+      
+      <comments>https://pengtech.net/nginx/nginx-deploy-php.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 netcat 测试 UDP 端口的连通性</title>
@@ -884,8 +909,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -7210,32 +7235,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 颜色</title>
-      <link>https://pengtech.net/material/material_color.html</link>
-      <guid>https://pengtech.net/material/material_color.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 导航</title>
       <link>https://pengtech.net/material/material_navigation.html</link>
       <guid>https://pengtech.net/material/material_navigation.html</guid>
@@ -7258,6 +7257,32 @@
       
       
       <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 颜色</title>
+      <link>https://pengtech.net/material/material_color.html</link>
+      <guid>https://pengtech.net/material/material_color.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
       
     </item>
     
@@ -7895,9 +7920,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -8070,36 +8095,6 @@
       
       
       <comments>https://pengtech.net/linux/linux_shell_ifconfig.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>linux上的rsync命令详解</title>
-      <link>https://pengtech.net/linux/linux_shell_rsync.html</link>
-      <guid>https://pengtech.net/linux/linux_shell_rsync.html</guid>
-      <pubDate>Wed, 22 Dec 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-rsync-简介&quot;&gt;&lt;a href=&quot;#1-rsync-简介&quot; class=&quot;headerlink&quot; title=&quot;1. rsync 简介&quot;&gt;&lt;/a&gt;1. rsync 简介&lt;/h2&gt;&lt;p&gt;rsync 就是远程同步的意思remote sync.&lt;br&gt;rsync 被用在UNIX &amp;#x2F; Linux执行备份操作操作.&lt;br&gt;rsync 工具包被用来从一个位置到另一个位置高效地同步文件和文件夹. rsync可以实现在同一台机器的不同文件直接备份,也可以跨服务器备份.&lt;/p&gt;
-&lt;h2 id=&quot;2-rsync的重要特性&quot;&gt;&lt;a href=&quot;#2-rsync的重要特性&quot; class=&quot;headerlink&quot; title=&quot;2. rsync的重要特性&quot;&gt;&lt;/a&gt;2. rsync的重要特性&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;速度快: 初次同步时, rsync会全量拷贝从源文件或目录到目标位置. 第二次往后同步时, rsync 仅仅会拷贝变化的数据块或字节到目标位置这将使得文件传输非常迅速.&lt;/li&gt;
-&lt;li&gt;安全: rsync 可以使用ssh协议加密传输.&lt;/li&gt;
-&lt;li&gt;占用带宽少: rsync 在发送时会压缩数据块, 接收后再解压缩数据块. 所以和其他文件传输协议比起来, rsync在跨主机传输文件时会占用较小的带宽.&lt;/li&gt;
-&lt;li&gt;不需要特殊权限: 安装和运行rsync 不需要特殊权限.</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/shell/">shell</category>
-      
-      
-      <comments>https://pengtech.net/linux/linux_shell_rsync.html#disqus_thread</comments>
       
     </item>
     

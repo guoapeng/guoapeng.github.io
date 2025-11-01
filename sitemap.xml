@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/nginx/nginx-deploy-php.html</loc>
+    
+    <lastmod>2025-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nginx/nginx_installation.html</loc>
+    
+    <lastmod>2025-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
     
     <lastmod>2025-10-29</lastmod>
@@ -83,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
     
     <lastmod>2025-09-06</lastmod>
     
@@ -92,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
     
     <lastmod>2025-09-06</lastmod>
     
@@ -1478,15 +1496,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nginx/nginx_installation.html</loc>
-    
-    <lastmod>2024-08-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/database/install_mariadb_on_centos7.html</loc>
     
     <lastmod>2024-08-29</lastmod>
@@ -2009,7 +2018,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2018,7 +2027,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2297,7 +2306,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2306,7 +2315,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2864,7 +2873,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
+    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2873,7 +2882,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/typescript/typescript_tutorial.html</loc>
+    <loc>https://pengtech.net/vmware/esxi_upgrade.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3190,7 +3199,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
