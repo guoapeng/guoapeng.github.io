@@ -1,3 +1,8 @@
+https://pengtech.net/android/install-android-ndk-on-ubuntu.html
+https://pengtech.net/android/fedora_install_android_studio.html
+https://pengtech.net/flutter/install_flutter.html
+https://pengtech.net/golang/install_golang.html
+https://pengtech.net/linux/ubuntu_install_desktop.html
 https://pengtech.net/nginx/nginx-deploy-php.html
 https://pengtech.net/nginx/nginx_installation.html
 https://pengtech.net/linux/protect-vps-with-fail2ban.html
@@ -43,8 +48,3 @@ https://pengtech.net/ai/prompt-engineering.html
 https://pengtech.net/ai/install-Cherry-Studio-on-linux.html
 https://pengtech.net/linux/linux_systemd_service_explanation.html
 https://pengtech.net/ai/dify-config-self-hosted-vllm.html
-https://pengtech.net/ai/install-dify.html
-https://pengtech.net/docker/install_docker_proxy.html
-https://pengtech.net/ai/install_vllm_from_sourcecode.html
-https://pengtech.net/sites/emlog_install.html
-https://pengtech.net/wordpress/deploy_wordpress_on_vps.html

@@ -15,8 +15,36 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 01 Nov 2025 15:41:29 GMT</pubDate>
+    <pubDate>Sat, 08 Nov 2025 06:24:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Ubuntu 上安装与配置 Android NDK</title>
+      <link>https://pengtech.net/android/install-android-ndk-on-ubuntu.html</link>
+      <guid>https://pengtech.net/android/install-android-ndk-on-ubuntu.html</guid>
+      <pubDate>Thu, 06 Nov 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;什么是-Android-NDK？&quot;&gt;&lt;a href=&quot;#什么是-Android-NDK？&quot; class=&quot;headerlink&quot; title=&quot;什么是 Android NDK？&quot;&gt;&lt;/a&gt;什么是 Android NDK？&lt;/h2&gt;&lt;p&gt;NDK（Native Development Kit） 是 Android 提供的一套开发工具，用来在应用中使用 C&amp;#x2F;C++ 语言编写、编译和集成本地代码（Native Code）。它的核心作用就是：&lt;br&gt;让 Android 应用可以调用和运行底层的 C&amp;#x2F;C++ 代码，而不仅仅是 Java&amp;#x2F;Kotlin。通俗讲：Android SDK(Android SDK（Software Development Kit）) 是写 Java&amp;#x2F;Kotlin 层 的；Android NDK 是写 C&amp;#x2F;C++ 层（Native 层） 的。&lt;/p&gt;
+&lt;p&gt;在 Linux 上安装 Android NDK 有几种方式，最推荐的方法是使用 Android SDK 的命令行工具 (sdkmanager)，因为这样可以保持版本一致、方便更新。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/install-android-ndk-on-ubuntu.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>使用 Nginx 部署 PHP 项目</title>
@@ -909,8 +937,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -3279,7 +3307,7 @@
       <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
       <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</description>
+      <description>&lt;p&gt;本文讲述如何在 Fedora 上安装 Android studio.&lt;/p&gt;</description>
       
       
       
@@ -5744,7 +5772,7 @@
       <guid>https://pengtech.net/linux/ubuntu_install_desktop.html</guid>
       <pubDate>Wed, 10 May 2023 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在阿里云上创建云主机, 主要是需要使用浏览某些网站, 说实在的我只需要浏览器就够用了, 但是无奈阿里云提供了桌面的镜像只有Windows的几个版本.&lt;br&gt;而使用windows得镜像要比Linux得镜像贵好几倍, 一来是服务器硬件资源要求较Linux高, 而来Windows镜像都是需要License费用或者额外购买License的.&lt;br&gt;于是考虑在创建Linux云主机后, 安装一个Linux桌面系统, 果然让我实验成功了, 特写此文, 以防遗忘, 另外给后来人以方便.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在阿里云上创建云主机, 主要是需要使用浏览某些网站, 说实在的我只需要浏览器就够用了, 但是无奈阿里云提供了桌面的镜像只有 Windows 的几个版本.&lt;br&gt;而使用 windows 得镜像要比 Linux 得镜像贵好几倍, 一来是服务器硬件资源要求较 Linux 高, 而来 Windows 镜像都是需要 License 费用或者额外购买 License 的.&lt;br&gt;于是考虑在创建 Linux 云主机后, 安装一个 Linux 桌面系统, 果然让我实验成功了, 特写此文, 以防遗忘, 另外给后来人以方便.&lt;/p&gt;</description>
       
       
       
@@ -7235,32 +7263,6 @@
     </item>
     
     <item>
-      <title>Material Design 基础 - 导航</title>
-      <link>https://pengtech.net/material/material_navigation.html</link>
-      <guid>https://pengtech.net/material/material_navigation.html</guid>
-      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - 颜色</title>
       <link>https://pengtech.net/material/material_color.html</link>
       <guid>https://pengtech.net/material/material_color.html</guid>
@@ -7283,6 +7285,32 @@
       
       
       <comments>https://pengtech.net/material/material_color.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design 基础 - 导航</title>
+      <link>https://pengtech.net/material/material_navigation.html</link>
+      <guid>https://pengtech.net/material/material_navigation.html</guid>
+      <pubDate>Mon, 02 May 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material_navigation.html#disqus_thread</comments>
       
     </item>
     
@@ -7563,12 +7591,12 @@
     </item>
     
     <item>
-      <title>安装Golang</title>
+      <title>安装 Golang</title>
       <link>https://pengtech.net/golang/install_golang.html</link>
       <guid>https://pengtech.net/golang/install_golang.html</guid>
       <pubDate>Thu, 21 Apr 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Go（又称 Golang）是 Google 开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于 2007 年 9 月开始设计 Go，稍后 Ian Lance Taylor、Russ Cox 加入项目。&lt;/p&gt;</description>
       
       
       
@@ -7920,9 +7948,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -8068,33 +8096,6 @@
       
       
       <comments>https://pengtech.net/webpack/webpack_env_variables.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>linux上ifconfig命令详解</title>
-      <link>https://pengtech.net/linux/linux_shell_ifconfig.html</link>
-      <guid>https://pengtech.net/linux/linux_shell_ifconfig.html</guid>
-      <pubDate>Wed, 22 Dec 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-ifconfig-简介&quot;&gt;&lt;a href=&quot;#1-ifconfig-简介&quot; class=&quot;headerlink&quot; title=&quot;1. ifconfig 简介&quot;&gt;&lt;/a&gt;1. ifconfig 简介&lt;/h2&gt;&lt;p&gt;用于显示或设置网络设备&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/shell/">shell</category>
-      
-      
-      <comments>https://pengtech.net/linux/linux_shell_ifconfig.html#disqus_thread</comments>
       
     </item>
     

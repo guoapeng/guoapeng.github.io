@@ -1,3 +1,8 @@
+https://pengtech.net/android/install-android-ndk-on-ubuntu.html
+https://pengtech.net/android/fedora_install_android_studio.html
+https://pengtech.net/flutter/install_flutter.html
+https://pengtech.net/golang/install_golang.html
+https://pengtech.net/linux/ubuntu_install_desktop.html
 https://pengtech.net/nginx/nginx-deploy-php.html
 https://pengtech.net/nginx/nginx_installation.html
 https://pengtech.net/linux/protect-vps-with-fail2ban.html
@@ -13,8 +18,3 @@ https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/v2rayN_usage.html
-https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
-https://pengtech.net/network/v2rayA_install.html
-https://pengtech.net/mkdocs/mkdocs-create-site.html
-https://pengtech.net/mkdocs/mkdocs-seo.html
-https://pengtech.net/seo/seo-for-document-projects.html

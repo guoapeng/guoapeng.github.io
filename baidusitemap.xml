@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/android/install-android-ndk-on-ubuntu.html</loc>
+    <lastmod>2025-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/android/fedora_install_android_studio.html</loc>
+    <lastmod>2025-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/flutter/install_flutter.html</loc>
+    <lastmod>2025-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/golang/install_golang.html</loc>
+    <lastmod>2025-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
+    <lastmod>2025-11-06</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/nginx/nginx-deploy-php.html</loc>
     <lastmod>2025-11-01</lastmod>
   </url>
@@ -477,10 +497,6 @@
     <lastmod>2025-01-28</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/flutter/install_flutter.html</loc>
-    <lastmod>2025-01-08</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/vultr_account_creation.html</loc>
     <lastmod>2024-12-14</lastmod>
   </url>
@@ -535,10 +551,6 @@
   <url>
     <loc>https://pengtech.net/linux/almalinux_sercurity_enhancement.html</loc>
     <lastmod>2024-09-29</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/android/fedora_install_android_studio.html</loc>
-    <lastmod>2024-09-23</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/network/secure_nginx_with_let_s_encrypt_on_almalinux.html</loc>
@@ -849,11 +861,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -977,11 +989,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1269,10 +1281,6 @@
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/javascript/js-builtin-object.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
@@ -1306,10 +1314,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/golang/golang_logging_libs.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/golang/install_golang.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>

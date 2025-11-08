@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2025-11-01T15:41:29.959Z</updated>
+  <updated>2025-11-08T06:24:53.666Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu 上安装与配置 Android NDK</title>
+    <link href="https://pengtech.net/android/install-android-ndk-on-ubuntu.html"/>
+    <id>https://pengtech.net/android/install-android-ndk-on-ubuntu.html</id>
+    <published>2025-11-06T16:00:00.000Z</published>
+    <updated>2025-11-08T06:24:53.666Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;什么是-Android-NDK？&quot;&gt;&lt;a href=&quot;#什么是-Android-NDK？&quot; class=&quot;headerlink&quot; title=&quot;什么是 Android NDK？&quot;&gt;&lt;/a&gt;什么是 Android NDK？&lt;/h2&gt;&lt;p&gt;NDK（Native Development Kit） 是 Android 提供的一套开发工具，用来在应用中使用 C&amp;#x2F;C++ 语言编写、编译和集成本地代码（Native Code）。它的核心作用就是：&lt;br&gt;让 Android 应用可以调用和运行底层的 C&amp;#x2F;C++ 代码，而不仅仅是 Java&amp;#x2F;Kotlin。通俗讲：Android SDK(Android SDK（Software Development Kit）) 是写 Java&amp;#x2F;Kotlin 层 的；Android NDK 是写 C&amp;#x2F;C++ 层（Native 层） 的。&lt;/p&gt;
+&lt;p&gt;在 Linux 上安装 Android NDK 有几种方式，最推荐的方法是使用 Android SDK 的命令行工具 (sdkmanager)，因为这样可以保持版本一致、方便更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="android" scheme="https://pengtech.net/categories/OS/android/"/>
+    
+    
+    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    
+    <category term="web" scheme="https://pengtech.net/tags/web/"/>
+    
+    <category term="Android" scheme="https://pengtech.net/tags/Android/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 Nginx 部署 PHP 项目</title>
@@ -837,8 +863,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1258,7 +1284,7 @@
     <link href="https://pengtech.net/flutter/install_flutter.html"/>
     <id>https://pengtech.net/flutter/install_flutter.html</id>
     <published>2025-01-07T16:00:00.000Z</published>
-    <updated>2025-01-08T09:44:46.361Z</updated>
+    <updated>2025-11-06T18:43:40.247Z</updated>
     
     
     <summary type="html">&lt;p&gt;Flutter 是一个流行的开源 UI 软件开发工具包，被世界各地的开发人员用来从单个代码库构建适用于移动、Web 和桌面的原生编译应用程序。&lt;/p&gt;
@@ -3028,10 +3054,10 @@
     <link href="https://pengtech.net/android/fedora_install_android_studio.html"/>
     <id>https://pengtech.net/android/fedora_install_android_studio.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2024-09-23T03:17:07.346Z</updated>
+    <updated>2025-11-07T09:25:56.840Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何在Fedora上安装Android studio.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文讲述如何在 Fedora 上安装 Android studio.&lt;/p&gt;</summary>
     
     
     
@@ -5311,10 +5337,10 @@
     <link href="https://pengtech.net/linux/ubuntu_install_desktop.html"/>
     <id>https://pengtech.net/linux/ubuntu_install_desktop.html</id>
     <published>2023-05-10T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2025-11-06T05:35:34.405Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在阿里云上创建云主机, 主要是需要使用浏览某些网站, 说实在的我只需要浏览器就够用了, 但是无奈阿里云提供了桌面的镜像只有Windows的几个版本.&lt;br&gt;而使用windows得镜像要比Linux得镜像贵好几倍, 一来是服务器硬件资源要求较Linux高, 而来Windows镜像都是需要License费用或者额外购买License的.&lt;br&gt;于是考虑在创建Linux云主机后, 安装一个Linux桌面系统, 果然让我实验成功了, 特写此文, 以防遗忘, 另外给后来人以方便.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近在阿里云上创建云主机, 主要是需要使用浏览某些网站, 说实在的我只需要浏览器就够用了, 但是无奈阿里云提供了桌面的镜像只有 Windows 的几个版本.&lt;br&gt;而使用 windows 得镜像要比 Linux 得镜像贵好几倍, 一来是服务器硬件资源要求较 Linux 高, 而来 Windows 镜像都是需要 License 费用或者额外购买 License 的.&lt;br&gt;于是考虑在创建 Linux 云主机后, 安装一个 Linux 桌面系统, 果然让我实验成功了, 特写此文, 以防遗忘, 另外给后来人以方便.&lt;/p&gt;</summary>
     
     
     
@@ -6697,15 +6723,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -6721,15 +6747,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -7001,14 +7027,14 @@
   </entry>
   
   <entry>
-    <title>安装Golang</title>
+    <title>安装 Golang</title>
     <link href="https://pengtech.net/golang/install_golang.html"/>
     <id>https://pengtech.net/golang/install_golang.html</id>
     <published>2022-04-21T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.390Z</updated>
+    <updated>2025-11-06T18:20:14.411Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Go（又称 Golang）是 Google 开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于 2007 年 9 月开始设计 Go，稍后 Ian Lance Taylor、Russ Cox 加入项目。&lt;/p&gt;</summary>
     
     
     
@@ -7333,9 +7359,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -7468,31 +7494,6 @@
     
     
     <category term="webpack" scheme="https://pengtech.net/tags/webpack/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux上ifconfig命令详解</title>
-    <link href="https://pengtech.net/linux/linux_shell_ifconfig.html"/>
-    <id>https://pengtech.net/linux/linux_shell_ifconfig.html</id>
-    <published>2021-12-22T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:37.676Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-ifconfig-简介&quot;&gt;&lt;a href=&quot;#1-ifconfig-简介&quot; class=&quot;headerlink&quot; title=&quot;1. ifconfig 简介&quot;&gt;&lt;/a&gt;1. ifconfig 简介&lt;/h2&gt;&lt;p&gt;用于显示或设置网络设备&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="shell" scheme="https://pengtech.net/tags/shell/"/>
     
   </entry>
   
