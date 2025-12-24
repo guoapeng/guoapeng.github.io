@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/linux/almalinux_install_desktop.html</loc>
+    <lastmod>2025-12-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
+    <lastmod>2025-12-04</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
+    <lastmod>2025-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/database/install_mariadb_on_centos7.html</loc>
+    <lastmod>2025-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
+    <lastmod>2025-11-22</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/android/install-android-ndk-on-ubuntu.html</loc>
     <lastmod>2025-11-08</lastmod>
   </url>
@@ -17,10 +37,6 @@
     <lastmod>2025-11-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/ubuntu_install_desktop.html</loc>
-    <lastmod>2025-11-06</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/nginx/nginx-deploy-php.html</loc>
     <lastmod>2025-11-01</lastmod>
   </url>
@@ -29,20 +45,12 @@
     <lastmod>2025-11-01</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/network/udp-connectivity-test.html</loc>
     <lastmod>2025-10-20</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
     <lastmod>2025-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/linux/almalinux_install_desktop.html</loc>
-    <lastmod>2025-09-30</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/mkdocs/add-a-comment-system-for-mkdocs.html</loc>
@@ -65,11 +73,11 @@
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
@@ -278,10 +286,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/nginx/nginx_installation_on_almalinux.html</loc>
-    <lastmod>2025-04-30</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
     <lastmod>2025-04-30</lastmod>
   </url>
   <url>
@@ -629,10 +633,6 @@
     <lastmod>2024-08-30</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/database/install_mariadb_on_centos7.html</loc>
-    <lastmod>2024-08-29</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/vscode/CodeWhisperer_vscode.html</loc>
     <lastmod>2024-08-28</lastmod>
   </url>
@@ -849,11 +849,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/layout.html</loc>
+    <loc>https://pengtech.net/material/light_shadow.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/light_shadow.html</loc>
+    <loc>https://pengtech.net/material/layout.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -989,11 +989,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
