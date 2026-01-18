@@ -1,6 +1,10 @@
+https://pengtech.net/linux/protect-vps-with-fail2ban.html
+https://pengtech.net/sites/domain-service-providers.html
+https://pengtech.net/vps/hostinger-email-setup.html
+https://pengtech.net/linux/email_server_install.html
+https://pengtech.net/vps/enterprise-email-setup.html
 https://pengtech.net/linux/almalinux_install_desktop.html
 https://pengtech.net/linux/ubuntu_install_desktop.html
-https://pengtech.net/linux/protect-vps-with-fail2ban.html
 https://pengtech.net/database/install_mariadb_on_centos7.html
 https://pengtech.net/database/install_mariadb_on_linux.html
 https://pengtech.net/android/install-android-ndk-on-ubuntu.html
@@ -15,9 +19,9 @@ https://pengtech.net/mkdocs/add-a-comment-system-for-mkdocs.html
 https://pengtech.net/network/hiddifyApp_install_and_config.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
 https://pengtech.net/network/install_config_v2rayA_on_linux.html
+https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_hiddifyApp_on_windows.html
 https://pengtech.net/network/install_v2rayA_on_Windows.html
-https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
@@ -44,7 +48,3 @@ https://pengtech.net/wordpress/ansible-site-wordpress-locale.html
 https://pengtech.net/vmware/vmware_macos_vm.html
 https://pengtech.net/docker/docker_install.html
 https://pengtech.net/wordpress/wordpress-backup-and-restore.html
-https://pengtech.net/vps/enterprise-email-setup.html
-https://pengtech.net/vscode/how_to_use_codepilot_free.html
-https://pengtech.net/ai/prompt-engineering.html
-https://pengtech.net/ai/install-Cherry-Studio-on-linux.html

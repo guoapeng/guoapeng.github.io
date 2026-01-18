@@ -15,8 +15,32 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Sat, 08 Nov 2025 06:24:53 GMT</pubDate>
+    <pubDate>Fri, 02 Jan 2026 03:36:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>使用 Hostinger 搭建企业邮箱</title>
+      <link>https://pengtech.net/vps/hostinger-email-setup.html</link>
+      <guid>https://pengtech.net/vps/hostinger-email-setup.html</guid>
+      <pubDate>Thu, 01 Jan 2026 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;之前介绍过&lt;a href=&quot;https://pengtech.net/linux/email_server_install.html&quot;&gt;使用 postfix 和 dovecot 快速搭建邮件服务器&lt;/a&gt;自建企业邮件服务器，这个方案有几个优点，就是完全自主可控，用户数量，邮箱大小，附件大小都不受到限制，可定制性也比较强。但是缺点也比较明显，有一定的技术门槛，另外需要专人维护服务器安全，监控服务器的健康状况等，人力成本较高，安全性也难以保证。&lt;/p&gt;
+&lt;p&gt;后来我也介绍过另外一种低成本搭建企业邮箱的方式即使用 Zoho &lt;a href=&quot;https://pengtech.net/vps/enterprise-email-setup.html&quot;&gt;0 成本搭建企业邮箱&lt;/a&gt;.今天我将介绍另一种低成本搭建企业邮箱的方式即：【使用 Hostinger 搭建企业邮箱】，而且维护成本低安全性高的搭建企业邮箱的方案。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/VPS/">VPS</category>
+      
+      
+      <category domain="https://pengtech.net/tags/email/">email</category>
+      
+      <category domain="https://pengtech.net/tags/Hostinger/">Hostinger</category>
+      
+      
+      <comments>https://pengtech.net/vps/hostinger-email-setup.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Ubuntu 上安装与配置 Android NDK</title>
@@ -937,8 +961,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#121;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1237,7 +1261,7 @@
     </item>
     
     <item>
-      <title>2025年各大主流域名服务商汇总</title>
+      <title>2026年各大主流域名服务商汇总</title>
       <link>https://pengtech.net/sites/domain-service-providers.html</link>
       <guid>https://pengtech.net/sites/domain-service-providers.html</guid>
       <pubDate>Thu, 06 Mar 2025 16:00:00 GMT</pubDate>
@@ -2554,31 +2578,6 @@
     </item>
     
     <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何制作macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -2602,6 +2601,31 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -4950,33 +4974,6 @@
     </item>
     
     <item>
-      <title>Tauri Mobile-使用JavaScript和Rust开发移动应用程序</title>
-      <link>https://pengtech.net/tauri/tauri_mobile.html</link>
-      <guid>https://pengtech.net/tauri/tauri_mobile.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_mobile.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
       <link>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</link>
       <guid>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</guid>
@@ -5001,6 +4998,33 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_gitlab_pipeline.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri Mobile-使用JavaScript和Rust开发移动应用程序</title>
+      <link>https://pengtech.net/tauri/tauri_mobile.html</link>
+      <guid>https://pengtech.net/tauri/tauri_mobile.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Tauri 定位为一个为所有主要桌面平台构建微小、速度极快的二进制文件的框架。开发人员可以集成任何可编译为 HTML、JS 和 CSS 的前端框架来构建用户界面。应用程序的后端是一个 Rust 二进制文件，具有前端可以与之交互的 API。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_mobile.html#disqus_thread</comments>
       
     </item>
     
@@ -7427,32 +7451,6 @@
     </item>
     
     <item>
-      <title>Material Design基础 - 光线和阴影</title>
-      <link>https://pengtech.net/material/light_shadow.html</link>
-      <guid>https://pengtech.net/material/light_shadow.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
-&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 基础 - Layout</title>
       <link>https://pengtech.net/material/layout.html</link>
       <guid>https://pengtech.net/material/layout.html</guid>
@@ -7482,6 +7480,32 @@
       
       
       <comments>https://pengtech.net/material/layout.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material Design基础 - 光线和阴影</title>
+      <link>https://pengtech.net/material/light_shadow.html</link>
+      <guid>https://pengtech.net/material/light_shadow.html</guid>
+      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-光线和阴影&quot;&gt;&lt;a href=&quot;#1-光线和阴影&quot; class=&quot;headerlink&quot; title=&quot;1. 光线和阴影&quot;&gt;&lt;/a&gt;1. 光线和阴影&lt;/h2&gt;&lt;p&gt;material surface阻挡光源时会投射阴影。&lt;/p&gt;
+&lt;p&gt;在material设计环境中，虚拟灯光照亮UI。关键灯光创建更清晰的方向性阴影，称为关键光阴影。环境光从各个角度出现，以创建漫射的柔和阴影，称为环境光阴影。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/light_shadow.html#disqus_thread</comments>
       
     </item>
     
@@ -7948,9 +7972,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
@@ -8073,29 +8097,6 @@
       
       
       <comments>https://pengtech.net/angular/angular2_migration.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>webpack中使用环境变量</title>
-      <link>https://pengtech.net/webpack/webpack_env_variables.html</link>
-      <guid>https://pengtech.net/webpack/webpack_env_variables.html</guid>
-      <pubDate>Fri, 24 Dec 2021 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-背景介绍&quot;&gt;&lt;a href=&quot;#1-背景介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 背景介绍&quot;&gt;&lt;/a&gt;1. 背景介绍&lt;/h2&gt;&lt;p&gt;由于前端项目在不同的阶段需要连接不同的后端服务器, 在没有引入环境变量前, 需要手动修改服务器地址. 经常容易出错, 而且不利于便于自动化打包. 所以这里引入 DefinePlugin 便于引入环境变量进行环境区分.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/build-tools/">build tools</category>
-      
-      
-      <category domain="https://pengtech.net/tags/webpack/">webpack</category>
-      
-      
-      <comments>https://pengtech.net/webpack/webpack_env_variables.html#disqus_thread</comments>
       
     </item>
     

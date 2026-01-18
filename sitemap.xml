@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/tools/</loc>
+    
+    <lastmod>2026-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
+    
+    <lastmod>2026-01-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sites/domain-service-providers.html</loc>
+    
+    <lastmod>2026-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vps/hostinger-email-setup.html</loc>
+    
+    <lastmod>2026-01-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/linux/email_server_install.html</loc>
+    
+    <lastmod>2026-01-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
+    
+    <lastmod>2026-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/linux/almalinux_install_desktop.html</loc>
     
     <lastmod>2025-12-04</lastmod>
@@ -20,15 +74,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
-    
-    <lastmod>2025-12-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/database/install_mariadb_on_centos7.html</loc>
     
     <lastmod>2025-11-22</lastmod>
@@ -41,15 +86,6 @@
     <loc>https://pengtech.net/database/install_mariadb_on_linux.html</loc>
     
     <lastmod>2025-11-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/tools/</loc>
-    
-    <lastmod>2025-11-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -173,6 +209,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    
+    <lastmod>2025-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
     
     <lastmod>2025-09-06</lastmod>
@@ -183,15 +228,6 @@
   
   <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
     
     <lastmod>2025-09-06</lastmod>
     
@@ -428,15 +464,6 @@
     <loc>https://pengtech.net/wordpress/wordpress-backup-and-restore.html</loc>
     
     <lastmod>2025-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
-    
-    <lastmod>2025-06-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -965,15 +992,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/sites/domain-service-providers.html</loc>
-    
-    <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/hexo/</loc>
     
     <lastmod>2025-03-08</lastmod>
@@ -1166,15 +1184,6 @@
     <loc>https://pengtech.net/gitlab/gitlab_runner_installation.html</loc>
     
     <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/linux/email_server_install.html</loc>
-    
-    <lastmod>2025-03-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2018,7 +2027,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/light_shadow.html</loc>
+    <loc>https://pengtech.net/material/layout.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2027,7 +2036,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/layout.html</loc>
+    <loc>https://pengtech.net/material/light_shadow.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3208,7 +3217,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2025-12-24</lastmod>
+    <lastmod>2026-01-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
