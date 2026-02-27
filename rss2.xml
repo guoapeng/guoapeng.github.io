@@ -510,7 +510,7 @@
     </item>
     
     <item>
-      <title>2025 年最新 MCP 资源库汇总</title>
+      <title>2026 年最新 MCP 资源库汇总</title>
       <link>https://pengtech.net/ai/mcp-resources.html</link>
       <guid>https://pengtech.net/ai/mcp-resources.html</guid>
       <pubDate>Mon, 26 May 2025 16:00:00 GMT</pubDate>
@@ -961,8 +961,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1088,7 +1088,7 @@
       <pubDate>Tue, 18 Mar 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;p&gt;从官方镜像仓库（如 Docker Hub、Kubernetes 镜像库）拉取镜像时，国内访问可能较慢，使用镜像加速器可以显著提高下载速度。官方镜像库可能受限于网络封锁、网络波动、带宽限制或地理位置的影响，导致拉取超时。加速器通常部署在更接近用户的服务器上，优化访问路径，减少超时问题。&lt;/p&gt;
-&lt;p&gt;如何获取国内可用的 Docker 镜像加速器可以参考 &lt;a href=&quot;https://pengtech.net/docker/docker-registry-mirrors.html&quot;&gt;2025 年最新国内可用 Docker 镜像加速器汇总&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如何获取国内可用的 Docker 镜像加速器可以参考 &lt;a href=&quot;https://pengtech.net/docker/docker-registry-mirrors.html&quot;&gt;2026 年最新国内可用 Docker 镜像加速器汇总&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;获取到镜像加速器地址后可以按以下指引进行配置。&lt;/p&gt;</description>
       
       
@@ -1113,7 +1113,7 @@
     </item>
     
     <item>
-      <title>2025 年最新国内可用 Docker 镜像加速器汇总附带监测</title>
+      <title>2026 年最新国内可用 Docker 镜像加速器汇总附带监测</title>
       <link>https://pengtech.net/docker/docker-registry-mirrors.html</link>
       <guid>https://pengtech.net/docker/docker-registry-mirrors.html</guid>
       <pubDate>Mon, 17 Mar 2025 16:00:00 GMT</pubDate>
@@ -1346,7 +1346,7 @@
       <guid>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</guid>
       <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置 Stellar 主题。&lt;/p&gt;
 &lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -1372,7 +1372,7 @@
       <guid>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</guid>
       <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置 Webstack 主题。&lt;/p&gt;
 &lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -2345,7 +2345,7 @@
       <guid>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</guid>
       <pubDate>Mon, 08 Jul 2024 16:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+      <description>&lt;p&gt;本文讲述如何给 hexo 博客网站配置 Icarus 主题。&lt;/p&gt;
 &lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -3575,7 +3575,7 @@
     </item>
     
     <item>
-      <title>2025 科学上网教程：v2rayA 安装与使用</title>
+      <title>2026 科学上网教程：v2rayA 安装与使用</title>
       <link>https://pengtech.net/network/v2rayA_install.html</link>
       <guid>https://pengtech.net/network/v2rayA_install.html</guid>
       <pubDate>Fri, 17 Nov 2023 16:00:00 GMT</pubDate>

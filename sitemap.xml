@@ -2,6 +2,276 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    
+    <lastmod>2026-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sites/vps_chosing.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/install_nvm_on_windows.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/docker/install-docker-on-ubuntu.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/docker/docker_install.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/angular/angular_debug.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/android/android_sdk_install.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ai/mcp-resources.html</loc>
+    
+    <lastmod>2026-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_create_site.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
+    
+    <lastmod>2026-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_theme_recommendation.html</loc>
+    
+    <lastmod>2026-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</loc>
+    
+    <lastmod>2026-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</loc>
+    
+    <lastmod>2026-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    
+    <lastmod>2026-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
+    
+    <lastmod>2026-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/linux/linux_install_libreoffice.html</loc>
+    
+    <lastmod>2026-02-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
+    
+    <lastmod>2026-02-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/sites/domain-service-providers.html</loc>
+    
+    <lastmod>2026-02-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ai/install-dify.html</loc>
+    
+    <lastmod>2026-02-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/tools/</loc>
     
     <lastmod>2026-01-18</lastmod>
@@ -20,15 +290,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/sites/domain-service-providers.html</loc>
-    
-    <lastmod>2026-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/vps/hostinger-email-setup.html</loc>
     
     <lastmod>2026-01-02</lastmod>
@@ -41,15 +302,6 @@
     <loc>https://pengtech.net/linux/email_server_install.html</loc>
     
     <lastmod>2026-01-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
-    
-    <lastmod>2026-01-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -155,15 +407,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    
-    <lastmod>2025-10-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/friends/</loc>
     
     <lastmod>2025-09-14</lastmod>
@@ -227,51 +470,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/mkdocs/mkdocs-create-site.html</loc>
     
     <lastmod>2025-09-06</lastmod>
@@ -308,15 +506,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ai/vllm_install_qwen3.html</loc>
-    
-    <lastmod>2025-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/network/understand_https.html</loc>
     
     <lastmod>2025-08-26</lastmod>
@@ -327,15 +516,6 @@
   
   <url>
     <loc>https://pengtech.net/tauri/setup_tauri_for_linux.html</loc>
-    
-    <lastmod>2025-08-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
     
     <lastmod>2025-08-26</lastmod>
     
@@ -452,15 +632,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
-    
-    <lastmod>2025-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/wordpress/wordpress-backup-and-restore.html</loc>
     
     <lastmod>2025-06-11</lastmod>
@@ -515,15 +686,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/ai/install-dify.html</loc>
-    
-    <lastmod>2025-05-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/docker/install_docker_proxy.html</loc>
     
     <lastmod>2025-05-28</lastmod>
@@ -569,36 +731,9 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/install-docker-on-ubuntu.html</loc>
-    
-    <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/golang/</loc>
     
     <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/ai/mcp-resources.html</loc>
-    
-    <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    
-    <lastmod>2025-05-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -651,15 +786,6 @@
   
   <url>
     <loc>https://pengtech.net/network/cleanup-dns-cache-on-linux.html</loc>
-    
-    <lastmod>2025-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
     
     <lastmod>2025-05-07</lastmod>
     
@@ -767,15 +893,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</loc>
-    
-    <lastmod>2025-04-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/web/web_basic_1.html</loc>
     
     <lastmod>2025-04-26</lastmod>
@@ -797,51 +914,6 @@
     <loc>https://pengtech.net/nodejs/how_to_call_cli_in_nodejs.html</loc>
     
     <lastmod>2025-04-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</loc>
-    
-    <lastmod>2025-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nodejs/install_nvm_on_windows.html</loc>
-    
-    <lastmod>2025-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
-    
-    <lastmod>2025-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/angular/angular_debug.html</loc>
-    
-    <lastmod>2025-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/android/android_sdk_install.html</loc>
-    
-    <lastmod>2025-04-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -929,15 +1001,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</loc>
-    
-    <lastmod>2025-03-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/linux_cleanup_trash.html</loc>
     
     <lastmod>2025-03-16</lastmod>
@@ -977,15 +1040,6 @@
     <loc>https://pengtech.net/bitcoin/LolMiner_on_linux.html</loc>
     
     <lastmod>2025-03-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/hexo/hexo_theme_recommendation.html</loc>
-    
-    <lastmod>2025-03-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1100,15 +1154,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/hexo/hexo_create_site.html</loc>
-    
-    <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/gitlab/gitlab_installation_upgrade.html</loc>
     
     <lastmod>2025-03-08</lastmod>
@@ -1199,36 +1244,9 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/sites/vps_chosing.html</loc>
-    
-    <lastmod>2025-02-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/others/worth_watching_movies.html</loc>
     
     <lastmod>2025-02-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</loc>
-    
-    <lastmod>2025-02-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</loc>
-    
-    <lastmod>2025-02-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1946,7 +1964,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/db_migrations.html</loc>
+    <loc>https://pengtech.net/chrome/chrome_storage_api.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -1955,7 +1973,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/chrome/chrome_storage_api.html</loc>
+    <loc>https://pengtech.net/database/db_migrations.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2153,7 +2171,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/baidu_analytics.html</loc>
+    <loc>https://pengtech.net/product/buyer_decision_process.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2162,7 +2180,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/buyer_decision_process.html</loc>
+    <loc>https://pengtech.net/product/baidu_analytics.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2765,15 +2783,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/nodejs/why_pnpm.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2891,7 +2900,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vscode/vscode_hotkey.html</loc>
+    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2900,7 +2909,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
+    <loc>https://pengtech.net/vscode/vscode_hotkey.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2973,15 +2982,6 @@
   
   <url>
     <loc>https://pengtech.net/nginx/apply_ssl_certificate.html</loc>
-    
-    <lastmod>2024-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/linux/linux_install_libreoffice.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3125,7 +3125,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3134,7 +3134,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3217,7 +3217,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-01-22</lastmod>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

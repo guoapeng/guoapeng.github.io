@@ -364,7 +364,7 @@
     <link href="https://pengtech.net/vps/enterprise-email-setup.html"/>
     <id>https://pengtech.net/vps/enterprise-email-setup.html</id>
     <published>2025-05-31T16:00:00.000Z</published>
-    <updated>2026-01-01T16:11:57.248Z</updated>
+    <updated>2026-02-02T01:34:16.108Z</updated>
     
     
     <summary type="html">&lt;p&gt;之前介绍过&lt;a href=&quot;https://pengtech.net/linux/email_server_install.html&quot;&gt;使用 postfix 和 dovecot 快速搭建邮件服务器&lt;/a&gt;自建企业邮件服务器，这个方案有几个优点，就是完全自主可控，用户数量，邮箱大小，附件大小都不受到限制，可定制性也比较强。但是缺点也比较明显，有一定的技术门槛，另外需要专人维护服务器安全，监控服务器的健康状况等，人力成本较高，安全性也难以保证。&lt;/p&gt;
@@ -451,7 +451,7 @@
     <link href="https://pengtech.net/ai/install-dify.html"/>
     <id>https://pengtech.net/ai/install-dify.html</id>
     <published>2025-05-26T16:00:00.000Z</published>
-    <updated>2025-05-28T09:33:40.844Z</updated>
+    <updated>2026-02-02T01:18:27.620Z</updated>
     
     
     <summary type="html">&lt;p&gt;Dify 是一款开源的大语言模型（LLM）应用开发平台，融合了后端即服务（Backend as a Service, BaaS）和 LLMOps 的理念，旨在帮助开发者快速构建和部署生成式 AI 应用。本篇文章将带您了解如何在本地环境中部署 Dify。通过本地部署，您可以更好地掌控数据和应用的运行环境，同时体验 Dify 强大的功能和灵活性。无论您是开发者还是对生成式 AI 应用感兴趣的技术爱好者，这篇指南都将为您提供清晰的步骤和实用的建议。&lt;/p&gt;</summary>
@@ -468,11 +468,11 @@
   </entry>
   
   <entry>
-    <title>2025 年最新 MCP 资源库汇总</title>
+    <title>2026 年最新 MCP 资源库汇总</title>
     <link href="https://pengtech.net/ai/mcp-resources.html"/>
     <id>https://pengtech.net/ai/mcp-resources.html</id>
     <published>2025-05-26T16:00:00.000Z</published>
-    <updated>2025-05-27T08:52:01.164Z</updated>
+    <updated>2026-02-22T22:33:56.137Z</updated>
     
     
     <summary type="html">&lt;p&gt;MCP（Model Context Protocol）作为一种新兴的通信协议，正在迅速改变 AI 应用的开发方式。本文旨在为开发者和技术爱好者提供一份全面的 MCP 资源指南，帮助大家更好地理解和使用 MCP 协议。无论是初学者还是资深开发者，都可以通过本文找到适合自己的工具、平台和学习资源，从而更高效地构建智能化应用。&lt;/p&gt;</summary>
@@ -493,7 +493,7 @@
     <link href="https://pengtech.net/docker/install-docker-on-ubuntu.html"/>
     <id>https://pengtech.net/docker/install-docker-on-ubuntu.html</id>
     <published>2025-05-26T16:00:00.000Z</published>
-    <updated>2025-05-27T16:27:35.029Z</updated>
+    <updated>2026-02-22T22:36:16.049Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 是现代软件开发和部署中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了轻量级、便捷且高效的解决方案。本文将详细介绍如何在 Ubuntu 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
@@ -537,7 +537,7 @@
     <link href="https://pengtech.net/ai/vllm_install_qwen3.html"/>
     <id>https://pengtech.net/ai/vllm_install_qwen3.html</id>
     <published>2025-05-25T16:00:00.000Z</published>
-    <updated>2025-09-01T04:15:32.579Z</updated>
+    <updated>2026-02-17T02:02:04.717Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文主要讲述如何使用 vLLM 部署 千问 3 大语言模型。本文使用的是 Qwen3-0.6B 一个参数较小的模型，主要是为了体验整个部署过程。另外大模型运行在 CPU 上(因为支持 GPU 的 VPS 普遍较贵， 一直是用爱发电，能省则省).最后我们安装了一个 open-webui 用于和 self-hosted 的千问模型以图形界面的方式与模型进行对话。整个部署过程非常丝滑，适合有一定动手能力的用户，部署体验, 成本非常低， 仅需一台 8U32G 的 VPS， 不需要显卡。在本文的基础上略做修改也可以用于开发自己的 AI Agentic 应用。&lt;/p&gt;</summary>
@@ -885,8 +885,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -940,7 +940,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.785Z</updated>
+    <updated>2026-02-27T16:16:06.665Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -1000,11 +1000,11 @@
     <link href="https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/how-to-setup-docker-registry-mirrors.html</id>
     <published>2025-03-18T16:00:00.000Z</published>
-    <updated>2025-03-20T08:50:52.118Z</updated>
+    <updated>2026-02-22T22:35:48.067Z</updated>
     
     
     <summary type="html">&lt;p&gt;从官方镜像仓库（如 Docker Hub、Kubernetes 镜像库）拉取镜像时，国内访问可能较慢，使用镜像加速器可以显著提高下载速度。官方镜像库可能受限于网络封锁、网络波动、带宽限制或地理位置的影响，导致拉取超时。加速器通常部署在更接近用户的服务器上，优化访问路径，减少超时问题。&lt;/p&gt;
-&lt;p&gt;如何获取国内可用的 Docker 镜像加速器可以参考 &lt;a href=&quot;https://pengtech.net/docker/docker-registry-mirrors.html&quot;&gt;2025 年最新国内可用 Docker 镜像加速器汇总&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如何获取国内可用的 Docker 镜像加速器可以参考 &lt;a href=&quot;https://pengtech.net/docker/docker-registry-mirrors.html&quot;&gt;2026 年最新国内可用 Docker 镜像加速器汇总&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;获取到镜像加速器地址后可以按以下指引进行配置。&lt;/p&gt;</summary>
     
     
@@ -1025,11 +1025,11 @@
   </entry>
   
   <entry>
-    <title>2025 年最新国内可用 Docker 镜像加速器汇总附带监测</title>
+    <title>2026 年最新国内可用 Docker 镜像加速器汇总附带监测</title>
     <link href="https://pengtech.net/docker/docker-registry-mirrors.html"/>
     <id>https://pengtech.net/docker/docker-registry-mirrors.html</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-08-26T05:07:46.677Z</updated>
+    <updated>2026-02-22T22:35:03.670Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近几个月发现许多曾经常用的国内镜像站（包括各种云服务商和高校镜像站）已经无法使用， 这极大地影响了工作效率和开发进度。因此，本人开始搜索并汇总了目前可用的镜像站和镜像加速地址，并计划定期测试它们的可用性，然后更新这个列表。如果您知道新的可用站点，也欢迎随时评论区留言补充！&lt;/p&gt;</summary>
@@ -1165,7 +1165,7 @@
     <link href="https://pengtech.net/sites/domain-service-providers.html"/>
     <id>https://pengtech.net/sites/domain-service-providers.html</id>
     <published>2025-03-06T16:00:00.000Z</published>
-    <updated>2026-01-03T02:59:58.507Z</updated>
+    <updated>2026-02-02T01:34:01.301Z</updated>
     
     
     <summary type="html">&lt;p&gt;在推广新的在线业务时，选择反映品牌的域名是关键步骤。好的域名容易记忆且输入快捷。一旦有了创业点子和一个令人印象深刻的名字，就需要购买和注册域名，并在服务器上托管网站。&lt;/p&gt;
@@ -1212,7 +1212,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.786Z</updated>
+    <updated>2026-02-22T22:37:15.899Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1239,10 +1239,10 @@
     <link href="https://pengtech.net/hexo/hexo_apply_stellar_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_stellar_theme.html</id>
     <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-02-19T09:56:21.128Z</updated>
+    <updated>2026-02-15T03:18:03.967Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置 Stellar 主题。&lt;/p&gt;
 &lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -1263,10 +1263,10 @@
     <link href="https://pengtech.net/hexo/hexo_apply_webstack_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_webstack_theme.html</id>
     <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-02-07T07:14:00.690Z</updated>
+    <updated>2026-02-20T19:05:37.725Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置 Webstack 主题。&lt;/p&gt;
 &lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -1287,7 +1287,7 @@
     <link href="https://pengtech.net/sites/vps_chosing.html"/>
     <id>https://pengtech.net/sites/vps_chosing.html</id>
     <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-02-19T13:31:06.748Z</updated>
+    <updated>2026-02-22T22:39:11.273Z</updated>
     
     
     <summary type="html">&lt;p&gt;在当今数字时代，VPS 已经成为许多企业和个人网站的首选托管解决方案。但是在选择适合您需求的 VPS 时，有一些关键因素需要考虑。本文将介绍在面临 VPS 选择时必须知道的 17 个关键因素。&lt;/p&gt;</summary>
@@ -1650,7 +1650,7 @@
     <link href="https://pengtech.net/network/v2ray_server_install.html"/>
     <id>https://pengtech.net/network/v2ray_server_install.html</id>
     <published>2024-09-03T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:01.201Z</updated>
+    <updated>2026-02-22T22:37:22.487Z</updated>
     
     
     <summary type="html">&lt;p&gt;VMess 协议是由 V2Ray （科学上网软件）创立并使用于 V2Ray 的加密传输协议，如同 Shadowsocks 一样为了对抗审查的深度包检测而研发的。在 V2Ray 上客户端与服务器的通信主要是通过 VMess 协议通信。&lt;/p&gt;
@@ -2026,7 +2026,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.786Z</updated>
+    <updated>2026-02-22T22:37:58.911Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2053,7 +2053,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2025-10-15T06:07:34.846Z</updated>
+    <updated>2026-02-22T22:38:11.091Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -2143,7 +2143,7 @@
     <link href="https://pengtech.net/hexo/hexo_theme_recommendation.html"/>
     <id>https://pengtech.net/hexo/hexo_theme_recommendation.html</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2025-03-08T10:25:41.017Z</updated>
+    <updated>2026-02-15T12:58:20.796Z</updated>
     
     
     <summary type="html">&lt;p&gt;根据 Github 影响力,是否在积极维护以及实际使用体验筛选出 16 款精致的 Hexo 主题。欢迎评论区留言，告诉大家你最喜欢的主题。&lt;/p&gt;</summary>
@@ -2164,10 +2164,10 @@
     <link href="https://pengtech.net/hexo/hexo_apply_icarus_theme.html"/>
     <id>https://pengtech.net/hexo/hexo_apply_icarus_theme.html</id>
     <published>2024-07-08T16:00:00.000Z</published>
-    <updated>2025-04-27T04:11:02.046Z</updated>
+    <updated>2026-02-15T03:18:16.884Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;本文讲述如何给 hexo 博客网站配置 Icarus 主题。&lt;/p&gt;
 &lt;h2 id=&quot;1-安装环境说明&quot;&gt;&lt;a href=&quot;#1-安装环境说明&quot; class=&quot;headerlink&quot; title=&quot;1. 安装环境说明&quot;&gt;&lt;/a&gt;1. 安装环境说明&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;首先粘贴本教程测试使用的环境，如果在安装配置中，环境有差异，请酌情修改或调整参数．&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -2188,7 +2188,7 @@
     <link href="https://pengtech.net/angular/angular_debug.html"/>
     <id>https://pengtech.net/angular/angular_debug.html</id>
     <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:00.877Z</updated>
+    <updated>2026-02-22T22:34:23.392Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文演示如何调试 Angular 应用程序。在本文中，我们将讨论。&lt;/p&gt;
@@ -2725,7 +2725,7 @@
     <link href="https://pengtech.net/linux/linux_install_libreoffice.html"/>
     <id>https://pengtech.net/linux/linux_install_libreoffice.html</id>
     <published>2024-01-28T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.393Z</updated>
+    <updated>2026-02-03T04:20:39.364Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-办公软件产品介绍&quot;&gt;&lt;a href=&quot;#1-办公软件产品介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 办公软件产品介绍&quot;&gt;&lt;/a&gt;1. 办公软件产品介绍&lt;/h2&gt;&lt;ul&gt;
@@ -3051,7 +3051,7 @@
     <link href="https://pengtech.net/android/android_sdk_install.html"/>
     <id>https://pengtech.net/android/android_sdk_install.html</id>
     <published>2023-12-21T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:00.864Z</updated>
+    <updated>2026-02-22T22:34:08.215Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-Android-SDK-介绍&quot;&gt;&lt;a href=&quot;#1-Android-SDK-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Android SDK 介绍&quot;&gt;&lt;/a&gt;1. Android SDK 介绍&lt;/h2&gt;&lt;p&gt;Android SDK 是软件开发工具包，可让您创建 Android 应用程序。它包括一系列工具、API、文档和示例代码，可帮助您构建、测试和部署 Android 应用程序。&lt;/p&gt;</summary>
@@ -3303,11 +3303,11 @@
   </entry>
   
   <entry>
-    <title>2025 科学上网教程：v2rayA 安装与使用</title>
+    <title>2026 科学上网教程：v2rayA 安装与使用</title>
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.782Z</updated>
+    <updated>2026-02-22T22:37:30.422Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -4187,7 +4187,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:01.229Z</updated>
+    <updated>2026-02-22T22:38:30.133Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -4308,7 +4308,7 @@
     <link href="https://pengtech.net/gitlab/gitlab_runner_on_fedora.html"/>
     <id>https://pengtech.net/gitlab/gitlab_runner_on_fedora.html</id>
     <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2025-04-23T17:03:01.230Z</updated>
+    <updated>2026-02-22T22:36:03.985Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文主要讲述如何在fedora上安装gitlab-runner，安装和配置过程同样适用于其他Linux发行版。&lt;/p&gt;
@@ -5155,7 +5155,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.786Z</updated>
+    <updated>2026-02-22T22:37:50.914Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -5586,7 +5586,7 @@
     <link href="https://pengtech.net/docker/docker_install.html"/>
     <id>https://pengtech.net/docker/docker_install.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2025-06-12T23:34:35.965Z</updated>
+    <updated>2026-02-22T22:34:50.437Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 是现代软件开发和运维中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了一个轻量级、高效且灵活的解决方案。无论是构建、测试还是部署应用程序，Docker 都能显著简化流程并提升效率。在本篇文章中，我们将详细介绍如何在 RHEL 系列 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
