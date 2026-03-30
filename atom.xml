@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2026-01-02T03:36:54.419Z</updated>
+  <updated>2026-03-16T03:32:18.097Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 namesilo 搭建企业邮箱</title>
+    <link href="https://pengtech.net/vps/namesilo-enterprise-email-setup.html"/>
+    <id>https://pengtech.net/vps/namesilo-enterprise-email-setup.html</id>
+    <published>2026-03-14T16:00:00.000Z</published>
+    <updated>2026-03-16T03:32:18.097Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这几年玩过的企业邮箱解决方案不少，但是一直没有找到一个理想的解决方案，手动搭建自主可控，但是技术门槛较高，需要专人维护服务器安全，监控服务器的健康状况等，人力成本较高，安全性也难以保证。&lt;/p&gt;
+&lt;p&gt;说说我的经历，起初打算使用开源方案搭建企业邮箱，见我的博客&lt;a href=&quot;https://pengtech.net/linux/email_server_install.html&quot;&gt;使用 postfix 和 dovecot 快速搭建邮件服务器&lt;/a&gt;搭建自己的企业邮箱。第一个困难是解决被识别为垃圾邮件或被主流邮箱拒收的问题，要彻底解决这个问题会非常繁琐，而且由于是全新域名和 ip，因此 SMTP 信誉非常低，非常容易被认定为垃圾邮件被拒收或进入垃圾信箱。第二个困难是安全性问题，25 端口是 SMTP 协议（用于发送邮件）监听端口，大多数 VPS 服务商都是将其关闭的， 通常不会开放， 有部分 VPS 服务商允许有条件地开放 25 端口，通常都需要交保证金。刚开始搭建邮件系统也没什么经验，25 端口完全暴露在公网上，安全措施也不强，刚刚搭建好才过一晚上邮箱就被攻破被用来发垃圾邮件， 一晚上醒来存在 vps 服务商账号上的保证金全部被扣光。于是意识到为了带自己域名的能首发邮件的邮箱二背负如此沉重的维护和安全性负担非常不划算。于是想到专业的事情还是要交给专业的人去做，于是打算使用企业邮箱服务商现成的解决方案，这样可以将维护和安全成本转给企业邮箱服务商，而自己主要集中在主要业务上。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="VPS" scheme="https://pengtech.net/categories/VPS/"/>
+    
+    
+    <category term="email" scheme="https://pengtech.net/tags/email/"/>
+    
+    <category term="Namesilo" scheme="https://pengtech.net/tags/Namesilo/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 Hostinger 搭建企业邮箱</title>
@@ -364,7 +386,7 @@
     <link href="https://pengtech.net/vps/enterprise-email-setup.html"/>
     <id>https://pengtech.net/vps/enterprise-email-setup.html</id>
     <published>2025-05-31T16:00:00.000Z</published>
-    <updated>2026-02-02T01:34:16.108Z</updated>
+    <updated>2026-03-15T03:42:24.716Z</updated>
     
     
     <summary type="html">&lt;p&gt;之前介绍过&lt;a href=&quot;https://pengtech.net/linux/email_server_install.html&quot;&gt;使用 postfix 和 dovecot 快速搭建邮件服务器&lt;/a&gt;自建企业邮件服务器，这个方案有几个优点，就是完全自主可控，用户数量，邮箱大小，附件大小都不受到限制，可定制性也比较强。但是缺点也比较明显，有一定的技术门槛，另外需要专人维护服务器安全，监控服务器的健康状况等，人力成本较高，安全性也难以保证。&lt;/p&gt;
@@ -885,8 +907,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#x61;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1212,7 +1234,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2026-02-22T22:37:15.899Z</updated>
+    <updated>2026-02-28T13:19:54.963Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2026,7 +2048,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2026-02-22T22:37:58.911Z</updated>
+    <updated>2026-02-28T13:20:08.185Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2380,14 +2402,16 @@
   </entry>
   
   <entry>
-    <title>linux上安装vmware</title>
-    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
-    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
+    <title>如何制作macOS Sonoma ISO 文件</title>
+    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
+    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.398Z</updated>
+    <updated>2024-11-02T13:03:23.412Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
+&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
+&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
     
     
     
@@ -2403,16 +2427,14 @@
   </entry>
   
   <entry>
-    <title>如何制作macOS Sonoma ISO 文件</title>
-    <link href="https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html"/>
-    <id>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</id>
+    <title>linux上安装vmware</title>
+    <link href="https://pengtech.net/vmware/linux_install_vmware_player.html"/>
+    <id>https://pengtech.net/vmware/linux_install_vmware_player.html</id>
     <published>2024-04-25T16:00:00.000Z</published>
-    <updated>2024-11-02T13:03:23.412Z</updated>
+    <updated>2024-07-10T10:42:45.398Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为我的一些编译和测试工作需要在 macOS 上进行， 然而项目预算有限不够支撑去购买一台 macOS，而且测试需要在不同版本的 macOS 上进行。此时在虚拟机上安装 macOS 操作系统成为了一个不错的选择。&lt;/p&gt;
-&lt;p&gt;此前曾经在 VMWare esxi 上成功安装了一台 macOS High Sierra 10.13.6 虚拟机， 教程可参考&lt;a href=&quot;https://pengtech.net/vmware/vmware_macos_vm.html&quot;&gt;如何安装一台 MacOS 虚拟机 | 鹏叔的技术博客 &lt;/a&gt;，由于 VMWare esxi 的版本太低，一直运行的是 6,7 版本的 VMWare esxi，而且由于服务器硬件的原因无法升级到更高级版本，导致不能将 macOS 更高版本。&lt;/p&gt;
-&lt;p&gt;因此打算在一台较新的个人电脑上安装 VMware player 最新版本(17.5.0), 然后在在其上安装 macOS Sonoma.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</summary>
     
     
     
@@ -2843,7 +2865,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.786Z</updated>
+    <updated>2026-02-28T13:18:48.411Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3268,7 +3290,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2025-09-06T19:22:25.786Z</updated>
+    <updated>2026-02-28T13:19:36.405Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3307,7 +3329,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2026-02-22T22:37:30.422Z</updated>
+    <updated>2026-02-28T13:20:17.928Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -7001,16 +7023,14 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - Surfaces</title>
-    <link href="https://pengtech.net/material/surfaces.html"/>
-    <id>https://pengtech.net/material/surfaces.html</id>
+    <title>Material Design基础 - spacing methods</title>
+    <link href="https://pengtech.net/material/spacing_methods.html"/>
+    <id>https://pengtech.net/material/spacing_methods.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.584Z</updated>
+    <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-Material-Surfaces&quot;&gt;&lt;a href=&quot;#1-Material-Surfaces&quot; class=&quot;headerlink&quot; title=&quot;1. Material Surfaces&quot;&gt;&lt;/a&gt;1. Material Surfaces&lt;/h2&gt;&lt;p&gt;Material设计具有三个维度的特质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-Material-environment&quot;&gt;&lt;a href=&quot;#1-1-Material-environment&quot; class=&quot;headerlink&quot; title=&quot;1.1. Material environment&quot;&gt;&lt;/a&gt;1.1. Material environment&lt;/h3&gt;&lt;p&gt;在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。&lt;/p&gt;
-&lt;p&gt;Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中移动的方式进行通信。此空间模型还可以跨应用程序一致地应用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
     
     
     
@@ -7026,14 +7046,16 @@
   </entry>
   
   <entry>
-    <title>Material Design基础 - spacing methods</title>
-    <link href="https://pengtech.net/material/spacing_methods.html"/>
-    <id>https://pengtech.net/material/spacing_methods.html</id>
+    <title>Material Design基础 - Surfaces</title>
+    <link href="https://pengtech.net/material/surfaces.html"/>
+    <id>https://pengtech.net/material/surfaces.html</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.587Z</updated>
+    <updated>2024-08-06T10:05:40.584Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-spacing-methods&quot;&gt;&lt;a href=&quot;#1-spacing-methods&quot; class=&quot;headerlink&quot; title=&quot;1. spacing methods&quot;&gt;&lt;/a&gt;1. spacing methods&lt;/h2&gt;&lt;p&gt;spacing methods使用基线网格、关键线、填充和增量间距来调整比率、容器和触摸目标。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Material-Surfaces&quot;&gt;&lt;a href=&quot;#1-Material-Surfaces&quot; class=&quot;headerlink&quot; title=&quot;1. Material Surfaces&quot;&gt;&lt;/a&gt;1. Material Surfaces&lt;/h2&gt;&lt;p&gt;Material设计具有三个维度的特质，这些品质反映在其对表面(Surfaces)、深度和阴影的使用中。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-Material-environment&quot;&gt;&lt;a href=&quot;#1-1-Material-environment&quot; class=&quot;headerlink&quot; title=&quot;1.1. Material environment&quot;&gt;&lt;/a&gt;1.1. Material environment&lt;/h3&gt;&lt;p&gt;在真实世界中，物体可以堆叠或相互接触，但不能相互传递。它们投射阴影并反射光线。&lt;/p&gt;
+&lt;p&gt;Material设计在Material UI 中如何显示和移动曲面来反映这些品质。表面以及它们在三维空间中的移动方式以类似于它们在物理世界中移动的方式进行通信。此空间模型还可以跨应用程序一致地应用。&lt;/p&gt;</summary>
     
     
     
@@ -7381,9 +7403,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
@@ -7466,35 +7488,6 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="vscode" scheme="https://pengtech.net/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何从Angularjs 升级到 Angular</title>
-    <link href="https://pengtech.net/angular/angular2_migration.html"/>
-    <id>https://pengtech.net/angular/angular2_migration.html</id>
-    <published>2021-12-31T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://angular.io/guide/upgrade#using-angularjs-component-directives-from-angular-code&quot;&gt;Upgrading from AngularJS to Angular&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Author: AngularJS 官方&lt;/p&gt;
-&lt;p&gt;译者：&lt;a href=&quot;https://philoenglish.com/&quot;&gt;philoenglish.com&lt;/a&gt; 团队&lt;/p&gt;
-&lt;p&gt;关键字： Angularjs Angular Angular1.x Angular2.x migration 迁移， 升级&lt;/p&gt;
-&lt;p&gt;这里的 Angular 是指 Angular 2.x, 而 AngularJS 是指 AngularJS 1.x 版本。 Angular (通常是指 “Angular 2+” 或 “Angular v2 及更高版本”) 是一个基于 TypeScript 的 开源 Web 应用框架 由 Google 的 Angular 团队以及社区共同领导。Angular 是由 AngularJS 的同一个开发团队完全重写的。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angularjs" scheme="https://pengtech.net/categories/web/angularjs/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-    <category term="angularjs" scheme="https://pengtech.net/tags/angularjs/"/>
     
   </entry>
   

@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/vps/namesilo-enterprise-email-setup.html</loc>
+    
+    <lastmod>2026-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
+    
+    <lastmod>2026-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2026-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    
+    <lastmod>2026-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    
+    <lastmod>2026-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    
+    <lastmod>2026-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    
+    <lastmod>2026-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
     
     <lastmod>2026-02-28</lastmod>
@@ -38,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    
-    <lastmod>2026-02-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     
     <lastmod>2026-02-22</lastmod>
@@ -56,25 +110,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    
-    <lastmod>2026-02-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
-    
-    <lastmod>2026-02-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
     
     <lastmod>2026-02-22</lastmod>
     
@@ -239,15 +275,6 @@
     <loc>https://pengtech.net/linux/linux_install_libreoffice.html</loc>
     
     <lastmod>2026-02-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
-    
-    <lastmod>2026-02-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -435,24 +462,6 @@
   
   <url>
     <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    
-    <lastmod>2025-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
     
     <lastmod>2025-09-06</lastmod>
     
@@ -2207,7 +2216,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
+    <loc>https://pengtech.net/product/landing_page_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2216,7 +2225,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/landing_page_design.html</loc>
+    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3217,7 +3226,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-02-28</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
