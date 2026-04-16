@@ -1,36 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/vps/namesilo-enterprise-email-setup.html</loc>
     <lastmod>2026-03-16</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/vps/enterprise-email-setup.html</loc>
     <lastmod>2026-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2026-02-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    <lastmod>2026-02-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    <lastmod>2026-02-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    <lastmod>2026-02-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    <lastmod>2026-02-28</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/sites/vps_chosing.html</loc>
@@ -41,19 +65,7 @@
     <lastmod>2026-02-22</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    <lastmod>2026-02-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2026-02-22</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/network/v2ray_server_install.html</loc>
-    <lastmod>2026-02-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/hexo/blog_seo_optimize.html</loc>
     <lastmod>2026-02-22</lastmod>
   </url>
   <url>
@@ -191,18 +203,6 @@
   <url>
     <loc>https://pengtech.net/mkdocs/add-a-comment-system-for-mkdocs.html</loc>
     <lastmod>2025-09-11</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    <lastmod>2025-09-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
-    <lastmod>2025-09-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
-    <lastmod>2025-09-06</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/mkdocs/mkdocs-create-site.html</loc>
@@ -937,11 +937,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/landing_page_design.html</loc>
+    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
+    <loc>https://pengtech.net/product/landing_page_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1005,11 +1005,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
