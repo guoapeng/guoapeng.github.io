@@ -2135,15 +2135,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/material/responsive_layout_grid.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2154,6 +2145,15 @@
   
   <url>
     <loc>https://pengtech.net/material/spacing_methods.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2225,7 +2225,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2234,7 +2234,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2333,7 +2333,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2342,7 +2342,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3125,7 +3125,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3134,7 +3134,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
