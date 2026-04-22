@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/nodejs/install-nodejs-on-fedora43.html</loc>
+    <lastmod>2026-04-22</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nodejs/install_nvm_on_centos.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/nodejs/install_nvm_on_macos.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/vscode-migration.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/linux/almalinux_install.html</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
     <lastmod>2026-04-16</lastmod>
   </url>
@@ -10,10 +54,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    <lastmod>2026-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
     <lastmod>2026-04-16</lastmod>
   </url>
   <url>
@@ -30,18 +70,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
-    <lastmod>2026-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2026-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    <lastmod>2026-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     <lastmod>2026-04-16</lastmod>
   </url>
   <url>
@@ -125,10 +153,6 @@
     <lastmod>2026-02-15</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    <lastmod>2026-02-15</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/nodejs/upgrade_nodejs.html</loc>
     <lastmod>2026-02-15</lastmod>
   </url>
@@ -143,10 +167,6 @@
   <url>
     <loc>https://pengtech.net/ai/install-dify.html</loc>
     <lastmod>2026-02-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
-    <lastmod>2026-01-04</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/vps/hostinger-email-setup.html</loc>
@@ -577,10 +597,6 @@
     <lastmod>2024-09-19</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/linux/almalinux_install.html</loc>
-    <lastmod>2024-09-19</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/wordpress/install_buddypress.html</loc>
     <lastmod>2024-09-15</lastmod>
   </url>
@@ -757,10 +773,6 @@
     <lastmod>2024-08-13</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/nodejs/install_nvm_on_macos.html</loc>
-    <lastmod>2024-08-13</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/hexo/hexo_cli.html</loc>
     <lastmod>2024-08-13</lastmod>
   </url>
@@ -929,11 +941,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -977,11 +989,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
+    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/windows/cygwin-install-and-configuration.html</loc>
+    <loc>https://pengtech.net/windows/cmder_install_configuration.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1005,11 +1017,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1174,10 +1186,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/nodejs/migrate_to_pnpm.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/nodejs/install_nvm_on_centos.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
