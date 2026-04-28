@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/python/vscode-debug-python.html</loc>
+    
+    <lastmod>2026-04-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/nodejs/install-nodejs-on-fedora43.html</loc>
     
     <lastmod>2026-04-22</lastmod>
@@ -2135,6 +2144,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/material/pixel_density.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/material/responsive_layout_grid.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2145,15 +2163,6 @@
   
   <url>
     <loc>https://pengtech.net/material/spacing_methods.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/material/pixel_density.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2711,7 +2720,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2720,7 +2729,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3125,7 +3134,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3134,7 +3143,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3244,7 +3253,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
