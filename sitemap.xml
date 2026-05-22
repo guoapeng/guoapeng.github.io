@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/linux/Linux_FHS.html</loc>
+    
+    <lastmod>2026-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/understand_https.html</loc>
+    
+    <lastmod>2026-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/ansible/ansible_trouble_shooting.html</loc>
+    
+    <lastmod>2026-05-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/python/vscode-debug-python.html</loc>
     
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-04-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -569,15 +596,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/understand_https.html</loc>
-    
-    <lastmod>2025-08-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/tauri/setup_tauri_for_linux.html</loc>
     
     <lastmod>2025-08-26</lastmod>
@@ -797,15 +815,6 @@
     <loc>https://pengtech.net/golang/</loc>
     
     <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/ansible/ansible_trouble_shooting.html</loc>
-    
-    <lastmod>2025-05-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1973,15 +1982,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/Linux_FHS.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/install_gradle_on_linux.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2720,7 +2720,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2729,7 +2729,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3253,7 +3253,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

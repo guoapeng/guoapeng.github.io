@@ -1,3 +1,6 @@
+https://pengtech.net/linux/Linux_FHS.html
+https://pengtech.net/network/understand_https.html
+https://pengtech.net/ansible/ansible_trouble_shooting.html
 https://pengtech.net/python/vscode-debug-python.html
 https://pengtech.net/nodejs/install-nodejs-on-fedora43.html
 https://pengtech.net/linux/protect-vps-with-fail2ban.html
@@ -45,6 +48,3 @@ https://pengtech.net/vps/hostinger-email-setup.html
 https://pengtech.net/linux/email_server_install.html
 https://pengtech.net/linux/almalinux_install_desktop.html
 https://pengtech.net/linux/ubuntu_install_desktop.html
-https://pengtech.net/database/install_mariadb_on_centos7.html
-https://pengtech.net/database/install_mariadb_on_linux.html
-https://pengtech.net/android/install-android-ndk-on-ubuntu.html

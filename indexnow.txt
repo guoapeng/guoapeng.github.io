@@ -1,3 +1,6 @@
+https://pengtech.net/linux/Linux_FHS.html
+https://pengtech.net/network/understand_https.html
+https://pengtech.net/ansible/ansible_trouble_shooting.html
 https://pengtech.net/python/vscode-debug-python.html
 https://pengtech.net/nodejs/install-nodejs-on-fedora43.html
 https://pengtech.net/linux/protect-vps-with-fail2ban.html
@@ -15,6 +18,3 @@ https://pengtech.net/network/install_v2rayA_on_Windows.html
 https://pengtech.net/network/v2rayN_usage.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
 https://pengtech.net/network/install_v2rayA_on_Windows_2.html
-https://pengtech.net/network/install_hiddifyApp_on_windows.html
-https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
-https://pengtech.net/hexo/blog_seo_optimize.html
