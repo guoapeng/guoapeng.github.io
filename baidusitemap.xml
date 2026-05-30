@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2026-05-30</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2026-05-30</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/linux/Linux_FHS.html</loc>
     <lastmod>2026-05-22</lastmod>
   </url>
@@ -26,10 +34,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    <lastmod>2026-04-21</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     <lastmod>2026-04-21</lastmod>
   </url>
   <url>
@@ -78,10 +82,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    <lastmod>2026-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
     <lastmod>2026-04-16</lastmod>
   </url>
   <url>
