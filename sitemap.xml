@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/github/selfhosted-github-runner.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/github/github_action_update_github_page.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/install_nvm_on_windows.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/install_nvm_on_macos.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/install_nvm_on_centos.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/nodejs/install-nodejs-on-fedora43.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
     
     <lastmod>2026-05-30</lastmod>
@@ -56,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/install-nodejs-on-fedora43.html</loc>
-    
-    <lastmod>2026-04-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/protect-vps-with-fail2ban.html</loc>
     
     <lastmod>2026-04-21</lastmod>
@@ -101,25 +146,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/nodejs/install_nvm_on_centos.html</loc>
-    
-    <lastmod>2026-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/nodejs/install_and_config_nodejs.html</loc>
-    
-    <lastmod>2026-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nodejs/install_nvm_on_macos.html</loc>
     
     <lastmod>2026-04-21</lastmod>
     
@@ -228,15 +255,6 @@
   
   <url>
     <loc>https://pengtech.net/sites/vps_chosing.html</loc>
-    
-    <lastmod>2026-02-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/nodejs/install_nvm_on_windows.html</loc>
     
     <lastmod>2026-02-22</lastmod>
     
@@ -614,15 +632,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/github/github_action_update_github_page.html</loc>
-    
-    <lastmod>2025-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/linux-setup-ipv4-preferrence.html</loc>
     
     <lastmod>2025-07-22</lastmod>
@@ -869,15 +878,6 @@
     <loc>https://pengtech.net/docker/docker-commands.html</loc>
     
     <lastmod>2025-05-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/github/selfhosted-github-runner.html</loc>
-    
-    <lastmod>2025-05-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3253,7 +3253,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

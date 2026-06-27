@@ -44,7 +44,7 @@
     <link href="https://pengtech.net/nodejs/install-nodejs-on-fedora43.html"/>
     <id>https://pengtech.net/nodejs/install-nodejs-on-fedora43.html</id>
     <published>2026-04-20T16:00:00.000Z</published>
-    <updated>2026-04-22T09:50:23.576Z</updated>
+    <updated>2026-06-18T12:28:27.616Z</updated>
     
     
       
@@ -736,7 +736,7 @@
     <link href="https://pengtech.net/github/selfhosted-github-runner.html"/>
     <id>https://pengtech.net/github/selfhosted-github-runner.html</id>
     <published>2025-04-30T16:00:00.000Z</published>
-    <updated>2025-05-01T14:59:11.228Z</updated>
+    <updated>2026-06-18T12:45:53.066Z</updated>
     
     
     <summary type="html">&lt;p&gt;有时候github action 提供的runner不能满足我们的一些需求，此时我们可以使用自托管runner来运行github action jobs, 设置步骤如下.&lt;/p&gt;</summary>
@@ -880,7 +880,7 @@
     <link href="https://pengtech.net/github/github_action_update_github_page.html"/>
     <id>https://pengtech.net/github/github_action_update_github_page.html</id>
     <published>2025-04-24T16:00:00.000Z</published>
-    <updated>2025-08-03T11:13:53.587Z</updated>
+    <updated>2026-06-18T12:45:31.325Z</updated>
     
     
     <summary type="html">&lt;p&gt;首先我们会讲解如何使用 github action 部署一个简单的 html 页面到脚本所在仓库的 gh-pages 分支，接着我们会讲解如何部署到不同仓库的指定分支。&lt;/p&gt;</summary>
@@ -976,8 +976,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#107;&amp;#64;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -3692,7 +3692,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_centos.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_centos.html</id>
     <published>2023-10-31T16:00:00.000Z</published>
-    <updated>2026-04-21T11:02:35.061Z</updated>
+    <updated>2026-06-18T12:30:53.474Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 macOS 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Homebrew，这是 macOS 著名的包管理器。&lt;/p&gt;
@@ -4278,7 +4278,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_windows.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_windows.html</id>
     <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2026-02-22T22:38:30.133Z</updated>
+    <updated>2026-06-18T12:32:56.636Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 windows 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Chocolatey，这是微软出品的包管理器。&lt;/p&gt;
@@ -4329,7 +4329,7 @@
     <link href="https://pengtech.net/nodejs/install_nvm_on_macos.html"/>
     <id>https://pengtech.net/nodejs/install_nvm_on_macos.html</id>
     <published>2023-08-22T16:00:00.000Z</published>
-    <updated>2026-04-21T04:18:33.777Z</updated>
+    <updated>2026-06-18T12:31:51.649Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Node Version Manager (NVM) 是一种广泛使用的工具，允许开发人员在单台计算机上管理 Node.js 的多个版本。它的重要性怎么强调都不为过，因为 Nodejs 应用程序有时可能是依赖特定版本运行，然而不同的项目可能需要不同的 Nodejs 版本。NVM 提供的灵活性确保了不同项目同时运行在同一台机的开发过程的顺利进行，允许开发人员在 Node 版本之间无缝切换。在 macOS 上，有多种安装 NVM 的方法，但最流行、最有效的方法之一是使用 Homebrew，这是 macOS 著名的包管理器。&lt;/p&gt;
@@ -7472,9 +7472,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
     <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
   </entry>
   
