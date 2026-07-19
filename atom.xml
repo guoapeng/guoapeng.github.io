@@ -803,14 +803,14 @@
   </entry>
   
   <entry>
-    <title>Docker Cloud 介绍</title>
-    <link href="https://pengtech.net/docker/what-is-docker-cloud.html"/>
-    <id>https://pengtech.net/docker/what-is-docker-cloud.html</id>
+    <title>Docker Hub 介绍</title>
+    <link href="https://pengtech.net/docker/what-is-docker-hub.html"/>
+    <id>https://pengtech.net/docker/what-is-docker-hub.html</id>
     <published>2025-04-26T16:00:00.000Z</published>
-    <updated>2025-05-10T15:56:57.004Z</updated>
+    <updated>2025-04-29T13:57:49.526Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Docker 是一个软件平台，就像一个服务提供商一样，提供了一些特别的功能，比如让你可以更快速地在一个统一的平台上构建、测试和部署你的应用程序。Docker Cloud 基本上就是 Docker 提供的一项服务，它的作用包括：不依赖具体的操作系统（操作系统无关性），只打包运行应用所需的最小内容，让运行更高效，让应用可以在不同的基础设施之间轻松迁移和互通。除此之外，还有很多其他功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;Docker Hub&lt;/strong&gt;是一个基于云的存储库服务，用户可以随时随地通过互联网将 Docker 容器镜像推送到 Docker Hub，也可以从&lt;strong&gt;Docker Hub&lt;/strong&gt;拉取 Docker 容器镜像。它提供多种功能，例如，用户可以将镜像推送为私有镜像或公开镜像。&lt;/p&gt;</summary>
     
     
     
@@ -826,14 +826,14 @@
   </entry>
   
   <entry>
-    <title>Docker Hub 介绍</title>
-    <link href="https://pengtech.net/docker/what-is-docker-hub.html"/>
-    <id>https://pengtech.net/docker/what-is-docker-hub.html</id>
+    <title>Docker Cloud 介绍</title>
+    <link href="https://pengtech.net/docker/what-is-docker-cloud.html"/>
+    <id>https://pengtech.net/docker/what-is-docker-cloud.html</id>
     <published>2025-04-26T16:00:00.000Z</published>
-    <updated>2025-04-29T13:57:49.526Z</updated>
+    <updated>2025-05-10T15:56:57.004Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Docker Hub&lt;/strong&gt;是一个基于云的存储库服务，用户可以随时随地通过互联网将 Docker 容器镜像推送到 Docker Hub，也可以从&lt;strong&gt;Docker Hub&lt;/strong&gt;拉取 Docker 容器镜像。它提供多种功能，例如，用户可以将镜像推送为私有镜像或公开镜像。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Docker 是一个软件平台，就像一个服务提供商一样，提供了一些特别的功能，比如让你可以更快速地在一个统一的平台上构建、测试和部署你的应用程序。Docker Cloud 基本上就是 Docker 提供的一项服务，它的作用包括：不依赖具体的操作系统（操作系统无关性），只打包运行应用所需的最小内容，让运行更高效，让应用可以在不同的基础设施之间轻松迁移和互通。除此之外，还有很多其他功能。&lt;/p&gt;</summary>
     
     
     
@@ -976,8 +976,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1004,7 +1004,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.238Z</updated>
+    <updated>2026-07-19T13:52:45.690Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 MacOS 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -1031,7 +1031,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.239Z</updated>
+    <updated>2026-07-19T13:52:45.701Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -1064,7 +1064,7 @@
     <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
     <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.239Z</updated>
+    <updated>2026-07-19T13:52:45.713Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
@@ -1303,7 +1303,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows_2.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</id>
     <published>2025-01-23T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.246Z</updated>
+    <updated>2026-07-19T13:52:45.689Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -1419,7 +1419,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.238Z</updated>
+    <updated>2026-07-19T13:52:45.701Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -2117,7 +2117,7 @@
     <link href="https://pengtech.net/network/install_v2rayA_on_Windows.html"/>
     <id>https://pengtech.net/network/install_v2rayA_on_Windows.html</id>
     <published>2024-07-29T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.280Z</updated>
+    <updated>2026-07-19T13:52:45.692Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 &lt;strong&gt;Windows&lt;/strong&gt; 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -2144,7 +2144,7 @@
     <link href="https://pengtech.net/network/v2rayNG_install_and_config.html"/>
     <id>https://pengtech.net/network/v2rayNG_install_and_config.html</id>
     <published>2024-07-28T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.281Z</updated>
+    <updated>2026-07-19T13:52:45.696Z</updated>
     
     
     <summary type="html">&lt;p&gt;v2rayNG 是一款专为 Android 设计的 V2Ray 客户端应用程序，它提供了一个简洁易用的图形用户界面，使用户能够方便地在移动设备上配置和使用V2Ray代理服务。&lt;br&gt;支持多种传输协议和网络协议，包括 VMess、VLESS、Shadowsocks、Socks 等，能够帮助用户绕过网络封锁，保护隐私和安全，提升网络访问体验。用户可以根据自己的需求选择合适的协议和代理方式来进行网络代理。适用于安卓手机及支持部分基于安卓系统的电视（TV）或者电视盒子。&lt;/p&gt;
@@ -2934,7 +2934,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.279Z</updated>
+    <updated>2026-07-19T13:52:45.701Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3359,7 +3359,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.246Z</updated>
+    <updated>2026-07-19T13:52:45.701Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3398,7 +3398,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.288Z</updated>
+    <updated>2026-07-19T13:52:45.691Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -3637,15 +3637,14 @@
   </entry>
   
   <entry>
-    <title>Angular 16 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_16_update.html"/>
-    <id>https://pengtech.net/angular/angular_16_update.html</id>
+    <title>Angular 17 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_17_update.html"/>
+    <id>https://pengtech.net/angular/angular_17_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:25.497Z</updated>
+    <updated>2024-08-06T10:03:52.802Z</updated>
     
     
-    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
-&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
     
     
     
@@ -3663,14 +3662,15 @@
   </entry>
   
   <entry>
-    <title>Angular 17 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_17_update.html"/>
-    <id>https://pengtech.net/angular/angular_17_update.html</id>
+    <title>Angular 16 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_16_update.html"/>
+    <id>https://pengtech.net/angular/angular_16_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:52.802Z</updated>
+    <updated>2024-08-06T10:03:25.497Z</updated>
     
     
-    <summary type="html">&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;六个月前，我们通过将 standalone API 从开发者预览版中升级到稳定版，在 Angular 的简单性和开发者体验方面达到了一个重要的里程碑。今天，我们很高兴与大家分享，我们将继续保持 Angular 的势头，推出自 Angular 首次推出以来最大规模的版本, 在反应性、服务器端渲染和工具方面取得了巨大飞跃。所有这些都伴随着针对功能请求的数十项用户体验改进，GitHub 上总共有超过 2500 个点赞！&lt;/p&gt;
+&lt;p&gt;这篇文章包含大量内容，涵盖了我们在过去六个月中所做的大部分改进。&lt;/p&gt;</summary>
     
     
     
@@ -4949,16 +4949,15 @@
   </entry>
   
   <entry>
-    <title>买家决策过程详解</title>
-    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
-    <id>https://pengtech.net/product/buyer_decision_process.html</id>
+    <title>什么是客户满意度？</title>
+    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
+    <id>https://pengtech.net/product/customer_satisfaction.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.446Z</updated>
+    <updated>2024-07-10T10:42:45.396Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
-&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
-&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
     
     
     
@@ -4972,15 +4971,16 @@
   </entry>
   
   <entry>
-    <title>什么是客户满意度？</title>
-    <link href="https://pengtech.net/product/customer_satisfaction.html"/>
-    <id>https://pengtech.net/product/customer_satisfaction.html</id>
+    <title>买家决策过程详解</title>
+    <link href="https://pengtech.net/product/buyer_decision_process.html"/>
+    <id>https://pengtech.net/product/buyer_decision_process.html</id>
     <published>2023-07-18T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.396Z</updated>
+    <updated>2024-08-06T10:05:40.446Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为消费者行为的一部分，购买决策过程是消费者在购买商品或服务之前、期间和之后对市场交易进行的决策过程。它可以被视为存在多种替代方案的情况下成本效益分析的一种特殊形式。&lt;/p&gt;
+&lt;p&gt;常见的例子包括购物和决定吃什么。决策是一种心理建构。这意味着，虽然决策无法“看到”，但我们可以从可观察的行为推断已经做出了决策。因此，我们得出结论，发生了心理“决策”事件。这是一种将承诺归于行动的结构。也就是说，根据可观察到的行动，我们假设人们已经做出了实施该行动的承诺。&lt;/p&gt;
+&lt;p&gt;诺贝尔奖获得者赫伯特·A·西蒙 (Herbert A. Simon)认为经济决策是理性的徒劳尝试。西蒙声称（1947 年和 1957 年），如果要进行完整的分析，做出决定将非常复杂。西蒙还写道，人的信息处理能力是有限的。经济行为者完全理性的假设是不现实的。消费者受到情感和非理性考虑的影响，使得理性的尝试只能部分成功。他呼吁用适合认知受限主体的理性概念来取代经济人的完美理性假设。即使买方的决策过程是高度理性的，所需的产品信息和&amp;#x2F;或知识通常在质量或范围上受到很大限制，潜在替代品的可用性也是如此。认知努力和决策时间等因素也发挥了作用。&lt;/p&gt;</summary>
     
     
     
@@ -5246,7 +5246,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2026-07-19T13:44:05.281Z</updated>
+    <updated>2026-07-19T13:52:45.701Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -7472,9 +7472,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
