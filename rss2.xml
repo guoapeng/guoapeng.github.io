@@ -875,31 +875,6 @@
     </item>
     
     <item>
-      <title>Docker Hub 介绍</title>
-      <link>https://pengtech.net/docker/what-is-docker-hub.html</link>
-      <guid>https://pengtech.net/docker/what-is-docker-hub.html</guid>
-      <pubDate>Sat, 26 Apr 2025 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;&lt;strong&gt;Docker Hub&lt;/strong&gt;是一个基于云的存储库服务，用户可以随时随地通过互联网将 Docker 容器镜像推送到 Docker Hub，也可以从&lt;strong&gt;Docker Hub&lt;/strong&gt;拉取 Docker 容器镜像。它提供多种功能，例如，用户可以将镜像推送为私有镜像或公开镜像。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/docker/">docker</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/docker/">docker</category>
-      
-      
-      <comments>https://pengtech.net/docker/what-is-docker-hub.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Docker Cloud 介绍</title>
       <link>https://pengtech.net/docker/what-is-docker-cloud.html</link>
       <guid>https://pengtech.net/docker/what-is-docker-cloud.html</guid>
@@ -921,6 +896,31 @@
       
       
       <comments>https://pengtech.net/docker/what-is-docker-cloud.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Docker Hub 介绍</title>
+      <link>https://pengtech.net/docker/what-is-docker-hub.html</link>
+      <guid>https://pengtech.net/docker/what-is-docker-hub.html</guid>
+      <pubDate>Sat, 26 Apr 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;strong&gt;Docker Hub&lt;/strong&gt;是一个基于云的存储库服务，用户可以随时随地通过互联网将 Docker 容器镜像推送到 Docker Hub，也可以从&lt;strong&gt;Docker Hub&lt;/strong&gt;拉取 Docker 容器镜像。它提供多种功能，例如，用户可以将镜像推送为私有镜像或公开镜像。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/docker/">docker</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/docker/">docker</category>
+      
+      
+      <comments>https://pengtech.net/docker/what-is-docker-hub.html#disqus_thread</comments>
       
     </item>
     
@@ -1060,8 +1060,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#109;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1316,6 +1316,27 @@
     </item>
     
     <item>
+      <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
+      <link>https://pengtech.net/bitcoin/xmrig_setup.html</link>
+      <guid>https://pengtech.net/bitcoin/xmrig_setup.html</guid>
+      <pubDate>Mon, 10 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/bitcoin/">bitcoin</category>
+      
+      
+      <category domain="https://pengtech.net/tags/bitcoin/">bitcoin</category>
+      
+      
+      <comments>https://pengtech.net/bitcoin/xmrig_setup.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>如何在 Linux 上运行 LolMiner 挖矿教程</title>
       <link>https://pengtech.net/bitcoin/LolMiner_on_linux.html</link>
       <guid>https://pengtech.net/bitcoin/LolMiner_on_linux.html</guid>
@@ -1335,27 +1356,6 @@
       
       
       <comments>https://pengtech.net/bitcoin/LolMiner_on_linux.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
-      <link>https://pengtech.net/bitcoin/xmrig_setup.html</link>
-      <guid>https://pengtech.net/bitcoin/xmrig_setup.html</guid>
-      <pubDate>Mon, 10 Mar 2025 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/bitcoin/">bitcoin</category>
-      
-      
-      <category domain="https://pengtech.net/tags/bitcoin/">bitcoin</category>
-      
-      
-      <comments>https://pengtech.net/bitcoin/xmrig_setup.html#disqus_thread</comments>
       
     </item>
     
@@ -3935,33 +3935,6 @@
     </item>
     
     <item>
-      <title>Angular 17 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_17_update.html</link>
-      <guid>https://pengtech.net/angular/angular_17_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -3986,6 +3959,33 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Angular 17 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_17_update.html</link>
+      <guid>https://pengtech.net/angular/angular_17_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;上个月是 Angular 红盾诞生 13 周年。AngularJS 是新一波 JavaScript 框架的起点，旨在支持对丰富 Web 体验日益增长的需求。今天，我们凭借新的外观和一系列前瞻性功能，通过版本 17 带领大家走向未来，为性能和开发人员体验设定了新标准。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_17_update.html#disqus_thread</comments>
       
     </item>
     
@@ -5353,30 +5353,6 @@
     </item>
     
     <item>
-      <title>什么是客户满意度？</title>
-      <link>https://pengtech.net/product/customer_satisfaction.html</link>
-      <guid>https://pengtech.net/product/customer_satisfaction.html</guid>
-      <pubDate>Tue, 18 Jul 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
-&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/others/">others</category>
-      
-      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
-      
-      
-      <category domain="https://pengtech.net/tags/product/">product</category>
-      
-      
-      <comments>https://pengtech.net/product/customer_satisfaction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>买家决策过程详解</title>
       <link>https://pengtech.net/product/buyer_decision_process.html</link>
       <guid>https://pengtech.net/product/buyer_decision_process.html</guid>
@@ -5398,6 +5374,30 @@
       
       
       <comments>https://pengtech.net/product/buyer_decision_process.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>什么是客户满意度？</title>
+      <link>https://pengtech.net/product/customer_satisfaction.html</link>
+      <guid>https://pengtech.net/product/customer_satisfaction.html</guid>
+      <pubDate>Tue, 18 Jul 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;客户满意度（通常缩写为CSAT ）是营销中经常使用的术语。它衡量公司提供的产品和服务如何满足或超越客户期望。客户满意度被定义为“报告的对公司产品或服务（评级）的体验超过指定满意度目标的客户数量或客户总数的百分比”。客户发挥着重要作用，对于保持产品或服务的相关性至关重要；因此，确保客户满意度并建立客户忠诚度符合企业的最佳利益。&lt;/p&gt;
+&lt;p&gt;营销责任标准委员会 (MASB)认可营销指标中出现的定义、目的和衡量标准，作为其正在进行的营销项目通用语言的一部分。在一项针对近 200 名高级营销经理的调查中，71% 的受访者表示，他们发现客户满意度指标对于管理和监控其业务非常有用。客户满意度被视为企业内的关键绩效指标，并且通常是平衡计分卡的一部分。在企业争夺客户的竞争市场中，客户满意度被视为主要的差异化因素，并日益成为业务战略的重要组成部分。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      <category domain="https://pengtech.net/categories/others/marketing/">marketing</category>
+      
+      
+      <category domain="https://pengtech.net/tags/product/">product</category>
+      
+      
+      <comments>https://pengtech.net/product/customer_satisfaction.html#disqus_thread</comments>
       
     </item>
     
@@ -8071,9 +8071,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
       <category domain="https://pengtech.net/tags/gradle/">gradle</category>
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
