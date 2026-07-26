@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    
+    <lastmod>2026-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
     
     <lastmod>2026-07-26</lastmod>
@@ -32,15 +41,6 @@
     <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
     
     <lastmod>2026-07-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    
-    <lastmod>2026-07-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2243,7 +2243,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2252,7 +2252,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2396,7 +2396,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_auth.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2405,7 +2405,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_auth.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     

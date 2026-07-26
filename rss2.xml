@@ -1060,8 +1060,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#114;&amp;#x73;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1937,33 +1937,6 @@
     </item>
     
     <item>
-      <title>Helm 应用升级与回滚</title>
-      <link>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</link>
-      <guid>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</guid>
-      <pubDate>Mon, 02 Sep 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在本教程中，我们首先会使用helm部署一个mysql实例，然后尝试升级mysql到更高版本，并魔力升级出错后回滚该次升级。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
-      
-      <category domain="https://pengtech.net/tags/Helm/">Helm</category>
-      
-      
-      <comments>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Helm v3 命令详解</title>
       <link>https://pengtech.net/k8s/helm_v3_cli_explanation.html</link>
       <guid>https://pengtech.net/k8s/helm_v3_cli_explanation.html</guid>
@@ -1988,6 +1961,33 @@
       
       
       <comments>https://pengtech.net/k8s/helm_v3_cli_explanation.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Helm 应用升级与回滚</title>
+      <link>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</link>
+      <guid>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</guid>
+      <pubDate>Mon, 02 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在本教程中，我们首先会使用helm部署一个mysql实例，然后尝试升级mysql到更高版本，并魔力升级出错后回滚该次升级。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
+      
+      <category domain="https://pengtech.net/tags/Helm/">Helm</category>
+      
+      
+      <comments>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html#disqus_thread</comments>
       
     </item>
     
@@ -4095,6 +4095,31 @@
     </item>
     
     <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -4118,31 +4143,6 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -4314,33 +4314,6 @@
     </item>
     
     <item>
-      <title>Strapi的安装和使用</title>
-      <link>https://pengtech.net/strapi/install_strapi.html</link>
-      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
-      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
-      
-      
-      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Angular整合strapi CMS</title>
       <link>https://pengtech.net/strapi/angular_strapi_app.html</link>
       <guid>https://pengtech.net/strapi/angular_strapi_app.html</guid>
@@ -4370,6 +4343,33 @@
       
       
       <comments>https://pengtech.net/strapi/angular_strapi_app.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Strapi的安装和使用</title>
+      <link>https://pengtech.net/strapi/install_strapi.html</link>
+      <guid>https://pengtech.net/strapi/install_strapi.html</guid>
+      <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/CMS/">CMS</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/strapi/">strapi</category>
+      
+      
+      <comments>https://pengtech.net/strapi/install_strapi.html#disqus_thread</comments>
       
     </item>
     
@@ -8055,17 +8055,13 @@
     </item>
     
     <item>
-      <title>在fedora35上安装virtualbox</title>
-      <link>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</link>
-      <guid>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</guid>
+      <title>Linux下安装gradle</title>
+      <link>https://pengtech.net/linux/install_gradle_on_linux.html</link>
+      <guid>https://pengtech.net/linux/install_gradle_on_linux.html</guid>
       <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
       
-      <description>&lt;h2 id=&quot;1-安装-virtualBox&quot;&gt;&lt;a href=&quot;#1-安装-virtualBox&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 virtualBox&quot;&gt;&lt;/a&gt;1. 安装 virtualBox&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;首先下载oracle_vbox.asc文件到本地：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;wget -q &lt;a href=&quot;https://www.virtualbox.org/download/oracle_vbox.asc&quot;&gt;https://www.virtualbox.org/download/oracle_vbox.asc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;再执行import：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; rpm --import oracle_vbox.asc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
+&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</description>
       
       
       
@@ -8077,10 +8073,10 @@
       
       <category domain="https://pengtech.net/tags/linux/">linux</category>
       
-      <category domain="https://pengtech.net/tags/virualbox/">virualbox</category>
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
-      <comments>https://pengtech.net/linux/install_virtualbox_on_fedora35.html#disqus_thread</comments>
+      <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
       
     </item>
     
