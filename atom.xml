@@ -976,8 +976,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1064,7 +1064,7 @@
     <link href="https://pengtech.net/network/install_hiddifyApp_on_windows.html"/>
     <id>https://pengtech.net/network/install_hiddifyApp_on_windows.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2026-07-19T13:52:45.713Z</updated>
+    <updated>2026-07-26T18:49:08.823Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文是 HiddifyApp 系列教程之一，重点讲述如何在 Windows 上安装 HiddifyApp。&lt;/p&gt;</summary>
@@ -1212,25 +1212,6 @@
   </entry>
   
   <entry>
-    <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
-    <link href="https://pengtech.net/bitcoin/xmrig_setup.html"/>
-    <id>https://pengtech.net/bitcoin/xmrig_setup.html</id>
-    <published>2025-03-10T16:00:00.000Z</published>
-    <updated>2025-03-12T11:23:49.675Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="bitcoin" scheme="https://pengtech.net/categories/bitcoin/"/>
-    
-    
-    <category term="bitcoin" scheme="https://pengtech.net/tags/bitcoin/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何在 Linux 上运行 LolMiner 挖矿教程</title>
     <link href="https://pengtech.net/bitcoin/LolMiner_on_linux.html"/>
     <id>https://pengtech.net/bitcoin/LolMiner_on_linux.html</id>
@@ -1248,6 +1229,25 @@
     <category term="LolMiner" scheme="https://pengtech.net/tags/LolMiner/"/>
     
     <category term="Dogecoin" scheme="https://pengtech.net/tags/Dogecoin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
+    <link href="https://pengtech.net/bitcoin/xmrig_setup.html"/>
+    <id>https://pengtech.net/bitcoin/xmrig_setup.html</id>
+    <published>2025-03-10T16:00:00.000Z</published>
+    <updated>2025-03-12T11:23:49.675Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="bitcoin" scheme="https://pengtech.net/categories/bitcoin/"/>
+    
+    
+    <category term="bitcoin" scheme="https://pengtech.net/tags/bitcoin/"/>
     
   </entry>
   
@@ -2934,7 +2934,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2026-07-19T13:52:45.701Z</updated>
+    <updated>2026-07-26T15:32:11.747Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3988,6 +3988,31 @@
   </entry>
   
   <entry>
+    <title>Strapi的安装和使用</title>
+    <link href="https://pengtech.net/strapi/install_strapi.html"/>
+    <id>https://pengtech.net/strapi/install_strapi.html</id>
+    <published>2023-09-25T16:00:00.000Z</published>
+    <updated>2025-04-30T03:50:34.792Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
+    
+    
+    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    
+    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Angular整合strapi CMS</title>
     <link href="https://pengtech.net/strapi/angular_strapi_app.html"/>
     <id>https://pengtech.net/strapi/angular_strapi_app.html</id>
@@ -4004,31 +4029,6 @@
 &lt;/ul&gt;
 &lt;p&gt;因为现在所有的Javascript技术，如React、Angular和Vue，在构建Web应用程序时都非常流行，所以我们可以很快得到第一个问题的答案。&lt;br&gt;但是后端呢？我应该使用NodeJS还是.NET Core？&lt;br&gt;使用关系数据库还是非关系数据库更好？&lt;br&gt;后端解决方案Strapi已经找到了所有这些问题的答案。&lt;/p&gt;
 &lt;p&gt;在本文中，我们将使用Strapi和Angular构建一个简单的web应用程序。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
-    
-    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Strapi的安装和使用</title>
-    <link href="https://pengtech.net/strapi/install_strapi.html"/>
-    <id>https://pengtech.net/strapi/install_strapi.html</id>
-    <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2025-04-30T03:50:34.792Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
     
     
     
@@ -5246,7 +5246,7 @@
     <link href="https://pengtech.net/network/v2rayN_usage.html"/>
     <id>https://pengtech.net/network/v2rayN_usage.html</id>
     <published>2023-06-03T16:00:00.000Z</published>
-    <updated>2026-07-19T13:52:45.701Z</updated>
+    <updated>2026-07-24T09:39:24.488Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;v2rayN 是 Windows 平台上一款基于 v2ray 核心的简洁好用、功能强大的 v2ray 客户端，用于&lt;strong&gt;科学上网&lt;/strong&gt;和保护用户隐私。支持 Vmess、Socks5、VLESS、Trojan、Shadowsocks（不支持 ssr）等多种协议，也支持服务器订阅，支持规则分流。对于新手们来说使用非常的方便快捷，在本篇教程我们教大家如何配置使用 v2rayN，来快速实现代理上网的功能。&lt;/p&gt;</summary>
@@ -7455,15 +7455,19 @@
   </entry>
   
   <entry>
-    <title>Linux下安装gradle</title>
-    <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
-    <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
+    <title>在fedora35上安装virtualbox</title>
+    <link href="https://pengtech.net/linux/install_virtualbox_on_fedora35.html"/>
+    <id>https://pengtech.net/linux/install_virtualbox_on_fedora35.html</id>
     <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:17.171Z</updated>
+    <updated>2025-07-13T01:03:16.908Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-安装-virtualBox&quot;&gt;&lt;a href=&quot;#1-安装-virtualBox&quot; class=&quot;headerlink&quot; title=&quot;1. 安装 virtualBox&quot;&gt;&lt;/a&gt;1. 安装 virtualBox&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;首先下载oracle_vbox.asc文件到本地：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;wget -q &lt;a href=&quot;https://www.virtualbox.org/download/oracle_vbox.asc&quot;&gt;https://www.virtualbox.org/download/oracle_vbox.asc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再执行import：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; rpm --import oracle_vbox.asc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -7472,9 +7476,9 @@
     <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
     
     
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
-    
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="virualbox" scheme="https://pengtech.net/tags/virualbox/"/>
     
   </entry>
   
