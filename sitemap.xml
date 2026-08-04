@@ -2,54 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
-    
-    <lastmod>2026-07-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
-    
-    <lastmod>2026-07-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
-    
-    <lastmod>2026-07-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    
-    <lastmod>2026-07-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    
-    <lastmod>2026-07-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
     
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +13,7 @@
   <url>
     <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
     
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +22,16 @@
   <url>
     <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
     
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +40,25 @@
   <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
     
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    
+    <lastmod>2026-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayNG_install_and_config.html</loc>
+    
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +67,25 @@
   <url>
     <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    
+    <lastmod>2026-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
+    
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +94,7 @@
   <url>
     <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
     
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2936,7 +2936,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
+    <loc>https://pengtech.net/vscode/vscode_hotkey.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -2945,7 +2945,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/vscode/vscode_hotkey.html</loc>
+    <loc>https://pengtech.net/web/draw_pic_in_convas.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3161,7 +3161,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3170,7 +3170,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/database/postgresql_basics.html</loc>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3253,7 +3253,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -15,7 +15,7 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等.</description>
-    <pubDate>Mon, 27 Jul 2026 04:28:18 GMT</pubDate>
+    <pubDate>Tue, 04 Aug 2026 22:34:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -1087,8 +1087,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#99;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1343,27 +1343,6 @@
     </item>
     
     <item>
-      <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
-      <link>https://pengtech.net/bitcoin/xmrig_setup.html</link>
-      <guid>https://pengtech.net/bitcoin/xmrig_setup.html</guid>
-      <pubDate>Mon, 10 Mar 2025 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/bitcoin/">bitcoin</category>
-      
-      
-      <category domain="https://pengtech.net/tags/bitcoin/">bitcoin</category>
-      
-      
-      <comments>https://pengtech.net/bitcoin/xmrig_setup.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何在 Linux 上运行 LolMiner 挖矿教程</title>
       <link>https://pengtech.net/bitcoin/LolMiner_on_linux.html</link>
       <guid>https://pengtech.net/bitcoin/LolMiner_on_linux.html</guid>
@@ -1383,6 +1362,27 @@
       
       
       <comments>https://pengtech.net/bitcoin/LolMiner_on_linux.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何在 Linux 上运行 xmrig 进行 CPU 挖矿教程</title>
+      <link>https://pengtech.net/bitcoin/xmrig_setup.html</link>
+      <guid>https://pengtech.net/bitcoin/xmrig_setup.html</guid>
+      <pubDate>Mon, 10 Mar 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;XMRig 是一款广受欢迎的开源加密货币挖矿软件，主要用于挖掘基于 CryptoNight 算法的加密货币，如门罗币（Monero，XMR）。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/bitcoin/">bitcoin</category>
+      
+      
+      <category domain="https://pengtech.net/tags/bitcoin/">bitcoin</category>
+      
+      
+      <comments>https://pengtech.net/bitcoin/xmrig_setup.html#disqus_thread</comments>
       
     </item>
     
@@ -4122,31 +4122,6 @@
     </item>
     
     <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -4170,6 +4145,31 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
@@ -8071,9 +8071,9 @@
       <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
       
       
-      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
-      
       <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/gradle/">gradle</category>
       
       
       <comments>https://pengtech.net/linux/install_gradle_on_linux.html#disqus_thread</comments>
