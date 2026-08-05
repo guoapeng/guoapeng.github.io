@@ -1,3 +1,5 @@
+https://pengtech.net/linux/install_virtualbox_on_fedora40.html
+https://pengtech.net/linux/install_virtualbox_on_fedora43.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html
 https://pengtech.net/network/install_config_v2rayA_on_linux.html
@@ -46,5 +48,3 @@ https://pengtech.net/nodejs/upgrade_nodejs.html
 https://pengtech.net/linux/linux_install_libreoffice.html
 https://pengtech.net/sites/domain-service-providers.html
 https://pengtech.net/ai/install-dify.html
-https://pengtech.net/vps/hostinger-email-setup.html
-https://pengtech.net/linux/email_server_install.html

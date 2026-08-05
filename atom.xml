@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2026-08-04T22:34:06.417Z</updated>
+  <updated>2026-08-05T03:04:54.250Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 fedora43 上安装 virtualbox</title>
+    <link href="https://pengtech.net/linux/install_virtualbox_on_fedora43.html"/>
+    <id>https://pengtech.net/linux/install_virtualbox_on_fedora43.html</id>
+    <published>2026-08-03T16:00:00.000Z</published>
+    <updated>2026-08-05T03:04:54.250Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Oracle VirtualBox 是一款功能强大的虚拟化工具，可让您在一台计算机上运行多个操作系统。如果您是 Fedora 用户，并且想要安装 VirtualBox，那么您来对地方了。本指南将指导您在 Fedora Linux 上安装 VirtualBox 的过程。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
+    
+    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="virualbox" scheme="https://pengtech.net/tags/virualbox/"/>
+    
+  </entry>
   
   <entry>
     <title>v2rayN 安装与配置</title>
@@ -1001,8 +1024,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#112;&amp;#97;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#112;&amp;#x65;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#x6f;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#x6f;&amp;#x6d;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -7451,30 +7474,6 @@
     <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
     
     <category term="Ansible" scheme="https://pengtech.net/tags/Ansible/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下安装gradle</title>
-    <link href="https://pengtech.net/linux/install_gradle_on_linux.html"/>
-    <id>https://pengtech.net/linux/install_gradle_on_linux.html</id>
-    <published>2022-01-09T16:00:00.000Z</published>
-    <updated>2024-08-06T10:14:17.171Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具&lt;/p&gt;
-&lt;p&gt;下面就描述一下如何在linux环境下安装配置gradle环境.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OS" scheme="https://pengtech.net/categories/OS/"/>
-    
-    <category term="linux" scheme="https://pengtech.net/categories/OS/linux/"/>
-    
-    
-    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
-    
-    <category term="gradle" scheme="https://pengtech.net/tags/gradle/"/>
     
   </entry>
   
