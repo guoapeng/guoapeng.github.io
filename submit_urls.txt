@@ -1,5 +1,6 @@
-https://pengtech.net/network/install_v2rayA_on_Windows_2.html
+https://pengtech.net/mkdocs/mkdocs-create-site.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
+https://pengtech.net/network/install_v2rayA_on_Windows_2.html
 https://pengtech.net/network/v2rayA_install.html
 https://pengtech.net/network/install_hiddifyApp_on_windows.html
 https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html
@@ -47,4 +48,3 @@ https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/hexo/hexo_apply_stellar_theme.html
 https://pengtech.net/nodejs/upgrade_nodejs.html
 https://pengtech.net/linux/linux_install_libreoffice.html
-https://pengtech.net/sites/domain-service-providers.html
