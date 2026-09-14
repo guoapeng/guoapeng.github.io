@@ -861,27 +861,15 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/java/websocket_java_client.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/material/applying_density.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/component_behavior.html</loc>
+    <loc>https://pengtech.net/material/better_design_for_big_screen.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/better_design_for_big_screen.html</loc>
+    <loc>https://pengtech.net/material/component_behavior.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -897,15 +885,15 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
-    <lastmod>2024-08-06</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -918,6 +906,18 @@
   </url>
   <url>
     <loc>https://pengtech.net/material/spacing_methods.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/java/how_to_debug_with_maven_cli.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/java/how_to_get_columns_by_table_name.html</loc>
+    <lastmod>2024-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/java/websocket_java_client.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -949,11 +949,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design2.html</loc>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    <loc>https://pengtech.net/product/help_system_design2.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
