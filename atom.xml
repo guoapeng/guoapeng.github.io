@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2026-09-23T05:15:33.362Z</updated>
+  <updated>2026-09-23T06:34:39.847Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -17,11 +17,57 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>一个数据包的旅行？</title>
+    <title>输入一个网址后，DNS 到底做了什么？</title>
+    <link href="https://pengtech.net/network/packet-journey/dns-resolution.html"/>
+    <id>https://pengtech.net/network/packet-journey/dns-resolution.html</id>
+    <published>2026-09-22T16:00:00.000Z</published>
+    <updated>2026-09-23T06:34:39.847Z</updated>
+    
+    
+    <summary type="html">输入网址后，浏览器如何一步步通过 DNS 解析出可以用于通信的 IP 地址？从 Resolver、缓存、递归查询到根域名与权威服务器，跟着数据包一起把这一步真正弄清楚。</summary>
+    
+    
+    
+    <category term="others" scheme="https://pengtech.net/categories/others/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="dns" scheme="https://pengtech.net/tags/dns/"/>
+    
+    <category term="packet-journey" scheme="https://pengtech.net/tags/packet-journey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>输入一个网址后，DNS 到底做了什么？</title>
+    <link href="https://pengtech.net/network/packet-journey/dns-resolution%20copy.html"/>
+    <id>https://pengtech.net/network/packet-journey/dns-resolution%20copy.html</id>
+    <published>2026-09-22T16:00:00.000Z</published>
+    <updated>2026-09-23T06:19:35.015Z</updated>
+    
+    
+    <summary type="html">输入网址后，浏览器如何一步步通过 DNS 解析出可以用于通信的 IP 地址？从 Resolver、缓存、递归查询到根域名与权威服务器，跟着数据包一起把这一步真正弄清楚。</summary>
+    
+    
+    
+    <category term="others" scheme="https://pengtech.net/categories/others/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="dns" scheme="https://pengtech.net/tags/dns/"/>
+    
+    <category term="packet-journey" scheme="https://pengtech.net/tags/packet-journey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个数据包的旅行！</title>
     <link href="https://pengtech.net/network/packet-journey/first-departure.html"/>
     <id>https://pengtech.net/network/packet-journey/first-departure.html</id>
     <published>2026-09-22T16:00:00.000Z</published>
-    <updated>2026-09-23T05:15:33.362Z</updated>
+    <updated>2026-09-23T05:20:33.099Z</updated>
     
     
     <summary type="html">一个看似简单的网页请求，背后是一场真正的旅行。跟着数据包从浏览器出发，第一次看到它究竟要去哪里。</summary>
@@ -1067,8 +1113,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#x6e;&amp;#121;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#x65;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -7402,57 +7448,6 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;本项目使用的 angular, nodejs, npm, cnpm 版本如下&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Angular CLI 安装和使用</title>
-    <link href="https://pengtech.net/angular/angular2_installation.html"/>
-    <id>https://pengtech.net/angular/angular2_installation.html</id>
-    <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-08-26T10:22:20.250Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Angular-介绍&quot;&gt;&lt;a href=&quot;#1-Angular-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Angular 介绍&quot;&gt;&lt;/a&gt;1. Angular 介绍&lt;/h2&gt;&lt;p&gt;关于 Angular 版本，Angular 官方已经统一命名 Angular 1.x 同一为 Angular JS；Angular 2.x 及以上统称 Angular；&lt;/p&gt;
-&lt;p&gt;CLI 是 Command Line Interface 的简写，是一种命令行接口，实现自动化开发流程. 它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Angular2中的路由</title>
-    <link href="https://pengtech.net/angular/angular2_route.html"/>
-    <id>https://pengtech.net/angular/angular2_route.html</id>
-    <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Angular2-中的路由&quot;&gt;&lt;a href=&quot;#1-Angular2-中的路由&quot; class=&quot;headerlink&quot; title=&quot;1. Angular2 中的路由&quot;&gt;&lt;/a&gt;1. Angular2 中的路由&lt;/h2&gt;&lt;p&gt;Angular2 中建立路由的 5 个步骤.&lt;/p&gt;
-&lt;h2 id=&quot;2-安装-angular-router&quot;&gt;&lt;a href=&quot;#2-安装-angular-router&quot; class=&quot;headerlink&quot; title=&quot;2. 安装@angular&amp;#x2F;router&quot;&gt;&lt;/a&gt;2. 安装@angular&amp;#x2F;router&lt;/h2&gt;&lt;p&gt;首先第一件事，我们需要安装 Angular Router。你可以通过运行以下命令进行安装.&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm i --save @angular/router&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;以上命令执行后，将会自动下载 @angular&amp;#x2F;router 模块到 node_modules 文件夹中。&lt;/p&gt;</summary>
     
     
     

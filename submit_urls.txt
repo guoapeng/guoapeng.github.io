@@ -1,3 +1,5 @@
+https://pengtech.net/network/packet-journey/dns-resolution.html
+https://pengtech.net/network/packet-journey/dns-resolution%20copy.html
 https://pengtech.net/network/packet-journey/first-departure.html
 https://pengtech.net/network/detailed-iptables-guide.html
 https://pengtech.net/linux/tmux.html
@@ -46,5 +48,3 @@ https://pengtech.net/android/android_sdk_install.html
 https://pengtech.net/ai/mcp-resources.html
 https://pengtech.net/hexo/hexo_apply_webstack_theme.html
 https://pengtech.net/hexo/hexo_create_site.html
-https://pengtech.net/ai/vllm_install_qwen3.html
-https://pengtech.net/hexo/hexo_apply_icarus_theme.html

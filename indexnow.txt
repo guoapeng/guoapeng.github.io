@@ -1,3 +1,5 @@
+https://pengtech.net/network/packet-journey/dns-resolution.html
+https://pengtech.net/network/packet-journey/dns-resolution%20copy.html
 https://pengtech.net/network/packet-journey/first-departure.html
 https://pengtech.net/network/detailed-iptables-guide.html
 https://pengtech.net/linux/tmux.html
@@ -16,5 +18,3 @@ https://pengtech.net/network/v2rayNG_install_and_config.html
 https://pengtech.net/linux/email_server_install.html
 https://pengtech.net/hexo/hexo_theme_recommendation.html
 https://pengtech.net/linux/install_virtualbox_on_fedora40.html
-https://pengtech.net/linux/install_virtualbox_on_fedora43.html
-https://pengtech.net/github/selfhosted-github-runner.html
