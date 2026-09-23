@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
     
     <lastmod>2026-09-02</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
     
     <lastmod>2026-09-02</lastmod>
     
@@ -2144,7 +2144,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_typeahead.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2153,7 +2153,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_typeahead.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3152,7 +3152,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
+    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3161,7 +3161,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/golang/mocking_in_golang_using_testify.html</loc>
+    <loc>https://pengtech.net/golang/upgrade_golang.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     

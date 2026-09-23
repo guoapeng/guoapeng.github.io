@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2026-09-23T01:10:22.525Z</updated>
+  <updated>2026-09-23T01:29:07.800Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pengtech.net/network/detailed-iptables-guide.html"/>
     <id>https://pengtech.net/network/detailed-iptables-guide.html</id>
     <published>2026-09-18T16:00:00.000Z</published>
-    <updated>2026-09-23T01:10:22.525Z</updated>
+    <updated>2026-09-23T01:29:07.800Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是-iptables&quot;&gt;&lt;a href=&quot;#1-什么是-iptables&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 iptables&quot;&gt;&lt;/a&gt;1. 什么是 iptables&lt;/h2&gt;&lt;h3 id=&quot;1-1-iptables-是什么&quot;&gt;&lt;a href=&quot;#1-1-iptables-是什么&quot; class=&quot;headerlink&quot; title=&quot;1.1. iptables 是什么&quot;&gt;&lt;/a&gt;1.1. iptables 是什么&lt;/h3&gt;&lt;p&gt;iptables 是 Linux 系统中用于管理网络数据包过滤和处理规则的工具。它运行在用户空间，负责配置和维护防火墙规则，而真正对数据包进行检查和处理的是 Linux 内核中的 Netfilter 机制。通过 iptables，管理员可以告诉 Linux：&lt;strong&gt;哪些网络数据包允许通过，哪些需要拒绝或丢弃，以及某些数据包需要进行什么样的处理。&lt;/strong&gt;&lt;/p&gt;
@@ -1046,8 +1046,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#111;&amp;#x72;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#x6f;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#x6f;&amp;#110;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1066,6 +1066,39 @@
     
     
     <category term="git" scheme="https://pengtech.net/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 上安装与配置 Hiddify Next</title>
+    <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
+    <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
+    <published>2025-04-02T16:00:00.000Z</published>
+    <updated>2026-09-02T02:14:16.573Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="network" scheme="https://pengtech.net/categories/network/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/categories/network/Hiddify/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
+    
+    <category term="HiddifyApp" scheme="https://pengtech.net/tags/HiddifyApp/"/>
+    
+    <category term="Hiddify" scheme="https://pengtech.net/tags/Hiddify/"/>
+    
+    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
+    
+    <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
     
   </entry>
   
@@ -1093,39 +1126,6 @@
     <category term="Hiddify" scheme="https://pengtech.net/tags/Hiddify/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 上安装与配置 Hiddify Next</title>
-    <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
-    <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
-    <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2026-09-02T02:14:16.573Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="network" scheme="https://pengtech.net/categories/network/"/>
-    
-    <category term="Hiddify" scheme="https://pengtech.net/categories/network/Hiddify/"/>
-    
-    
-    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
-    
-    <category term="network" scheme="https://pengtech.net/tags/network/"/>
-    
-    <category term="HiddifyApp" scheme="https://pengtech.net/tags/HiddifyApp/"/>
-    
-    <category term="Hiddify" scheme="https://pengtech.net/tags/Hiddify/"/>
-    
-    <category term="Linux" scheme="https://pengtech.net/tags/Linux/"/>
-    
-    <category term="Ubuntu" scheme="https://pengtech.net/tags/Ubuntu/"/>
-    
-    <category term="Redhat" scheme="https://pengtech.net/tags/Redhat/"/>
     
   </entry>
   
@@ -1505,9 +1505,9 @@
     
     <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
-    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
-    
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
     <category term="HiddifyApp" scheme="https://pengtech.net/tags/HiddifyApp/"/>
     
@@ -1836,9 +1836,9 @@
     
     <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
-    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
-    
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
     <category term="Vultr" scheme="https://pengtech.net/tags/Vultr/"/>
     
@@ -3018,9 +3018,9 @@
     
     <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
-    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
-    
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
     
@@ -3445,9 +3445,9 @@
     
     <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
-    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
-    
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
     
@@ -3484,9 +3484,9 @@
     
     <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
-    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
-    
     <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="Fedora" scheme="https://pengtech.net/tags/Fedora/"/>
     
     <category term="Macos" scheme="https://pengtech.net/tags/Macos/"/>
     
@@ -3654,17 +3654,14 @@
   </entry>
   
   <entry>
-    <title>Angular 14 有哪些更新</title>
-    <link href="https://pengtech.net/angular/angular_14_update.html"/>
-    <id>https://pengtech.net/angular/angular_14_update.html</id>
+    <title>Angular 15 有哪些更新?</title>
+    <link href="https://pengtech.net/angular/angular_15_update.html"/>
+    <id>https://pengtech.net/angular/angular_15_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:17.067Z</updated>
+    <updated>2024-08-06T10:03:21.848Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
-&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
-&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
-&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
     
     
     
@@ -3682,14 +3679,17 @@
   </entry>
   
   <entry>
-    <title>Angular 15 有哪些更新?</title>
-    <link href="https://pengtech.net/angular/angular_15_update.html"/>
-    <id>https://pengtech.net/angular/angular_15_update.html</id>
+    <title>Angular 14 有哪些更新</title>
+    <link href="https://pengtech.net/angular/angular_14_update.html"/>
+    <id>https://pengtech.net/angular/angular_14_update.html</id>
     <published>2023-11-05T16:00:00.000Z</published>
-    <updated>2024-08-06T10:03:21.848Z</updated>
+    <updated>2024-08-06T10:03:17.067Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;我们很高兴地宣布 Angular v14 发布！从类型化表单和独立组件到 Angular CDK（组件开发工具包）中的新原语，我们很高兴分享每个功能如何使 Angular 变得更强大。&lt;/p&gt;
+&lt;p&gt;自上一个版本以来，我们完成了两项主要的征求意见请求搞 (RFC)，这为整个 Angular 社区提供了针对提议的更改提供设计反馈的机会。因此，我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/44513&quot;&gt;严格类型反应表单 RFC&lt;/a&gt;解决了我们的&lt;a href=&quot;https://github.com/angular/angular/issues/13721&quot;&gt;#1 GitHub 问题&lt;/a&gt;，并且我们的&lt;a href=&quot;https://github.com/angular/angular/discussions/45554&quot;&gt;独立 API RFC&lt;/a&gt;引入了一种更简单的方法来编写 Angular 应用程序。&lt;/p&gt;
+&lt;p&gt;我们还将 Angular 组织中存储库中的默认分支重命名为 main，以履行我们对包容性社区的承诺。&lt;/p&gt;
+&lt;p&gt;此外，此版本还包括由社区成员直接贡献的许多功能和错误修复，从添加路由器强类型到更多 tree-shakable 错误消息。我们很高兴强调 RFC 和社区如何继续使 Angular 成为更多开发人员的选择和拥有更好的开发人员体验！&lt;/p&gt;</summary>
     
     
     
@@ -4736,15 +4736,14 @@
   </entry>
   
   <entry>
-    <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
-    <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
-    <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
+    <title>Tauri开发环境配置</title>
+    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
+    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2025-03-08T00:23:40.438Z</updated>
+    <updated>2024-08-06T10:05:40.317Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
-&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本人希望搜索到能对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程都不理想。 网上关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
@@ -4762,14 +4761,15 @@
   </entry>
   
   <entry>
-    <title>Tauri开发环境配置</title>
-    <link href="https://pengtech.net/tauri/tauri_env_setup.html"/>
-    <id>https://pengtech.net/tauri/tauri_env_setup.html</id>
+    <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
+    <link href="https://pengtech.net/tauri/tauri_gitlab_pipeline.html"/>
+    <id>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</id>
     <published>2023-08-14T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
+    <updated>2025-03-08T00:23:40.438Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;关于如何对 Tauri 项目进行打包和发布, 在 Tauri 的官方网站实际上只做了基本的介绍. 而且由于 Tauri 或者说是 Rust 对跨平台编译以及打包支持得不是很好.&lt;/p&gt;
+&lt;p&gt;所以到底如何在 Github.com 以外得平台进行编译打包, 讲得不够详细. 本人希望搜索到能对这方面有所补充的博客文章, 但是也没有找到. 包括一些英文方面的资料以及视频教程都不理想。 网上关于 Tauri 的 devops 自动化编译打包部署方面都是照本宣科, 按照官方的介绍使用 github action 进行配置. 而这些内容对于企业开发或者非开源项目来说帮助非常有限.&lt;/p&gt;</summary>
     
     
     
