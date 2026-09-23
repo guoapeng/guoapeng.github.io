@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2026-09-23T01:29:07.800Z</updated>
+  <updated>2026-09-23T05:15:33.362Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个数据包的旅行？</title>
+    <link href="https://pengtech.net/network/packet-journey/first-departure.html"/>
+    <id>https://pengtech.net/network/packet-journey/first-departure.html</id>
+    <published>2026-09-22T16:00:00.000Z</published>
+    <updated>2026-09-23T05:15:33.362Z</updated>
+    
+    
+    <summary type="html">一个看似简单的网页请求，背后是一场真正的旅行。跟着数据包从浏览器出发，第一次看到它究竟要去哪里。</summary>
+    
+    
+    
+    <category term="others" scheme="https://pengtech.net/categories/others/"/>
+    
+    
+    <category term="network" scheme="https://pengtech.net/tags/network/"/>
+    
+    <category term="packet-journey" scheme="https://pengtech.net/tags/packet-journey/"/>
+    
+  </entry>
   
   <entry>
     <title>iptables 详解：从原理、规则到 NAT 与实战</title>
@@ -1046,8 +1067,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#97;&amp;#110;&amp;#121;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#x79;&amp;#x2e;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#x78;&amp;#97;&amp;#109;&amp;#x70;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -4058,31 +4079,6 @@
   </entry>
   
   <entry>
-    <title>Strapi的安装和使用</title>
-    <link href="https://pengtech.net/strapi/install_strapi.html"/>
-    <id>https://pengtech.net/strapi/install_strapi.html</id>
-    <published>2023-09-25T16:00:00.000Z</published>
-    <updated>2025-04-30T03:50:34.792Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
-&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
-&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
-    
-    
-    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
-    
-    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Angular整合strapi CMS</title>
     <link href="https://pengtech.net/strapi/angular_strapi_app.html"/>
     <id>https://pengtech.net/strapi/angular_strapi_app.html</id>
@@ -4099,6 +4095,31 @@
 &lt;/ul&gt;
 &lt;p&gt;因为现在所有的Javascript技术，如React、Angular和Vue，在构建Web应用程序时都非常流行，所以我们可以很快得到第一个问题的答案。&lt;br&gt;但是后端呢？我应该使用NodeJS还是.NET Core？&lt;br&gt;使用关系数据库还是非关系数据库更好？&lt;br&gt;后端解决方案Strapi已经找到了所有这些问题的答案。&lt;/p&gt;
 &lt;p&gt;在本文中，我们将使用Strapi和Angular构建一个简单的web应用程序。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://pengtech.net/categories/web/"/>
+    
+    <category term="CMS" scheme="https://pengtech.net/categories/web/CMS/"/>
+    
+    
+    <category term="javascript" scheme="https://pengtech.net/tags/javascript/"/>
+    
+    <category term="strapi" scheme="https://pengtech.net/tags/strapi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Strapi的安装和使用</title>
+    <link href="https://pengtech.net/strapi/install_strapi.html"/>
+    <id>https://pengtech.net/strapi/install_strapi.html</id>
+    <published>2023-09-25T16:00:00.000Z</published>
+    <updated>2025-04-30T03:50:34.792Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;strapi一款基于Node.js开发的headless, 接口优先（API-first）的内容管理系统.&lt;/p&gt;
+&lt;p&gt;Strapi 应用程序可以本地安装在计算机上，也可以安装在远程服务器上。以下安装指南提供了有关如何在本地计算机上安装和创建新Strapi项目的分步说明。&lt;/p&gt;
+&lt;p&gt;Strapi CLI（命令行界面）安装脚本是让 Strapi 在本地运行的最快方法, 也是官方推荐的安装方式。&lt;/p&gt;</summary>
     
     
     
@@ -5651,16 +5672,16 @@
   </entry>
   
   <entry>
-    <title>在Golang中使用Testify mock框架</title>
-    <link href="https://pengtech.net/golang/mocking_in_golang_using_testify.html"/>
-    <id>https://pengtech.net/golang/mocking_in_golang_using_testify.html</id>
+    <title>mockery v2的介绍和使用</title>
+    <link href="https://pengtech.net/golang/mockery_v2.html"/>
+    <id>https://pengtech.net/golang/mockery_v2.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.390Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
-&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
-&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
+&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
+&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</summary>
     
     
     
@@ -5674,16 +5695,16 @@
   </entry>
   
   <entry>
-    <title>mockery v2的介绍和使用</title>
-    <link href="https://pengtech.net/golang/mockery_v2.html"/>
-    <id>https://pengtech.net/golang/mockery_v2.html</id>
+    <title>在Golang中使用Testify mock框架</title>
+    <link href="https://pengtech.net/golang/mocking_in_golang_using_testify.html"/>
+    <id>https://pengtech.net/golang/mocking_in_golang_using_testify.html</id>
     <published>2023-04-26T16:00:00.000Z</published>
     <updated>2024-07-10T10:42:45.390Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;由于项目时间比较紧, 我本来是没有打算写一篇文章来介绍mockery的, 但是无奈网上介绍mockery的文章比数量上较少(截至2023-04-27), 而且很多文章都过期了.&lt;br&gt;一方面由于golang更新比较快, 网上解释使用&lt;code&gt;go get&lt;/code&gt; 安装mockery的, 到了go 1.6以后都安装不了. 另一方面mockery自身更新也比较快, 很多文章介绍的一些用法在新的版本中已经不灵了, 比如生成mock对象的命令选项&lt;code&gt;-name&lt;/code&gt;已经调整为&lt;code&gt;--name&lt;/code&gt;, &lt;code&gt;-dir&lt;/code&gt;的意义也发生了变化等等, 出现了很多差异的地方.&lt;/p&gt;
-&lt;p&gt;所以本着稳扎稳打的原则, 不得不放慢脚步, 停下来把golang mock这一块的知识库补充完整.&lt;/p&gt;
-&lt;h2 id=&quot;2-mockery介绍&quot;&gt;&lt;a href=&quot;#2-mockery介绍&quot; class=&quot;headerlink&quot; title=&quot;2. mockery介绍&quot;&gt;&lt;/a&gt;2. mockery介绍&lt;/h2&gt;&lt;p&gt;Mockery是一个用于生成Golang接口的Mock的工具. Mockery可以帮助您在测试期间模拟依赖, 以便更轻松地测试代码. Mockery v2是Mocker的最新版本.&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;我使用golang已经有一段时间了，但直到最近我才终于明白如何在golang测试中进行对象mocking。由于我来自Java，所以在golang中mock对象的方式对我来说并不清楚。这篇文章是我如何达到目前理解的自我记录。在这篇文章中，我使用了来自Testify的mock功能 在阅读这篇这篇文章之前, 读者需要有golang基础。&lt;/p&gt;
+&lt;p&gt;首先, 我们来创建一个非常简单的服务，如下所示：&lt;/p&gt;
+&lt;p&gt;GreeterService是一个向用户打招呼的服务。其由两种问候方式：&lt;br&gt;Greet（）根据设置的语言向用户打招呼&lt;br&gt;GreetDefaultMessage（）将使用默认消息向用户打招呼致意，不涉及到语言设置.&lt;br&gt;在GreeterService内部，Greet（）将调用db.FetchMessage（lang），GreetDefaultMessage（）将呼叫db.FetchDefaultMessage（）。我们可以在真实场景想象的样子，db类是调用真实数据库的类。因此，我们需要在测试中使用mock来避免测试调用实际的数据库。golang中没有class的概念，但我们可以认为struct行为与类是等效的。&lt;/p&gt;</summary>
     
     
     
@@ -6881,15 +6902,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 颜色</title>
-    <link href="https://pengtech.net/material/material_color.html"/>
-    <id>https://pengtech.net/material/material_color.html</id>
+    <title>Material Design 基础 - 导航</title>
+    <link href="https://pengtech.net/material/material_navigation.html"/>
+    <id>https://pengtech.net/material/material_navigation.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
     
     
     
@@ -6905,15 +6926,15 @@
   </entry>
   
   <entry>
-    <title>Material Design 基础 - 导航</title>
-    <link href="https://pengtech.net/material/material_navigation.html"/>
-    <id>https://pengtech.net/material/material_navigation.html</id>
+    <title>Material Design 基础 - 颜色</title>
+    <link href="https://pengtech.net/material/material_color.html"/>
+    <id>https://pengtech.net/material/material_color.html</id>
     <published>2022-05-02T16:00:00.000Z</published>
     <updated>2024-08-06T10:05:40.587Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-说明&quot;&gt;&lt;a href=&quot;#1-说明&quot; class=&quot;headerlink&quot; title=&quot;1. 说明&quot;&gt;&lt;/a&gt;1. 说明&lt;/h2&gt;&lt;p&gt;导航允许用户在应用程序中移动。&lt;/p&gt;
-&lt;h3 id=&quot;1-1-导航类型&quot;&gt;&lt;a href=&quot;#1-1-导航类型&quot; class=&quot;headerlink&quot; title=&quot;1.1. 导航类型&quot;&gt;&lt;/a&gt;1.1. 导航类型&lt;/h3&gt;&lt;p&gt;导航是在应用程序的屏幕之间移动以完成任务的行为。它是通过几种方式实现的：专用导航组件、将导航行为嵌入内容以及平台功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-颜色系统&quot;&gt;&lt;a href=&quot;#1-颜色系统&quot; class=&quot;headerlink&quot; title=&quot;1. 颜色系统&quot;&gt;&lt;/a&gt;1. 颜色系统&lt;/h2&gt;&lt;p&gt;Material设计颜色系统可以帮助您创建反映您的品牌或风格的颜色主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-1-颜色用法和调色板&quot;&gt;&lt;a href=&quot;#1-1-颜色用法和调色板&quot; class=&quot;headerlink&quot; title=&quot;1.1. 颜色用法和调色板&quot;&gt;&lt;/a&gt;1.1. 颜色用法和调色板&lt;/h3&gt;&lt;p&gt;Material设计颜色系统可帮助您以有意义的方式将颜色应用于 UI。在此系统中，您可以选择主要颜色和次要颜色来代表您的品牌。然后，每种颜色的深色和浅色变体可以以不同的方式应用于 UI。&lt;/p&gt;</summary>
     
     
     
@@ -7443,36 +7464,6 @@
     <category term="web" scheme="https://pengtech.net/tags/web/"/>
     
     <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows上安装git2.x</title>
-    <link href="https://pengtech.net/git/windows_install_git.html"/>
-    <id>https://pengtech.net/git/windows_install_git.html</id>
-    <published>2022-03-05T16:00:00.000Z</published>
-    <updated>2025-03-20T11:47:00.359Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Windows上安装git2-x&quot;&gt;&lt;a href=&quot;#1-Windows上安装git2-x&quot; class=&quot;headerlink&quot; title=&quot;1. Windows上安装git2.x&quot;&gt;&lt;/a&gt;1. Windows上安装git2.x&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;转到&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git download page&lt;/a&gt;并根据您的机器配置下载安装程序。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;执行安装程序。 如果要在任何备用位置上安装节点，请选择安装路径。 我建议使用默认选项。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;验证是否已使用此命令安装了节点。&lt;/p&gt;
-  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git version 2.17.1.windows.2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://pengtech.net/categories/tools/"/>
-    
-    <category term="git" scheme="https://pengtech.net/categories/tools/git/"/>
-    
-    
-    <category term="source_control" scheme="https://pengtech.net/tags/source-control/"/>
-    
-    <category term="Windows" scheme="https://pengtech.net/tags/Windows/"/>
     
   </entry>
   
