@@ -1,5 +1,5 @@
-https://pengtech.net/network/packet-journey/dns-resolution.html
 https://pengtech.net/network/packet-journey/first-departure.html
+https://pengtech.net/network/packet-journey/dns-resolution.html
 https://pengtech.net/network/detailed-iptables-guide.html
 https://pengtech.net/linux/tmux.html
 https://pengtech.net/mkdocs/mkdocs-create-site.html

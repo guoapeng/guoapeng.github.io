@@ -15,8 +15,33 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等。</description>
-    <pubDate>Wed, 23 Sep 2026 05:20:33 GMT</pubDate>
+    <pubDate>Wed, 23 Sep 2026 06:34:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>输入一个网址后，DNS 到底做了什么？</title>
+      <link>https://pengtech.net/network/packet-journey/dns-resolution.html</link>
+      <guid>https://pengtech.net/network/packet-journey/dns-resolution.html</guid>
+      <pubDate>Tue, 22 Sep 2026 16:00:00 GMT</pubDate>
+      
+      <description>输入网址后，浏览器如何一步步通过 DNS 解析出可以用于通信的 IP 地址？从 Resolver、缓存、递归查询到根域名与权威服务器，跟着数据包一起把这一步真正弄清楚。</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/others/">others</category>
+      
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/dns/">dns</category>
+      
+      <category domain="https://pengtech.net/tags/packet-journey/">packet-journey</category>
+      
+      
+      <comments>https://pengtech.net/network/packet-journey/dns-resolution.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>一个数据包的旅行！</title>
@@ -38,31 +63,6 @@
       
       
       <comments>https://pengtech.net/network/packet-journey/first-departure.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>输入一个网址后，DNS 到底做了什么？</title>
-      <link>https://pengtech.net/network/packet-journey/dns-resolution.html</link>
-      <guid>https://pengtech.net/network/packet-journey/dns-resolution.html</guid>
-      <pubDate>Tue, 22 Sep 2026 16:00:00 GMT</pubDate>
-      
-      <description>输入网址后，浏览器如何一步步通过 DNS 解析出可以用于通信的 IP 地址？从 Resolver、缓存、递归查询到根域名与权威服务器，跟着数据包一起把这一步真正弄清楚。</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/others/">others</category>
-      
-      
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/packet-journey/">packet-journey</category>
-      
-      <category domain="https://pengtech.net/tags/dns/">dns</category>
-      
-      
-      <comments>https://pengtech.net/network/packet-journey/dns-resolution.html#disqus_thread</comments>
       
     </item>
     
@@ -1184,8 +1184,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#107;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#112;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#x70;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#108;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#x6d;&amp;#x70;&amp;#108;&amp;#101;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#114;&amp;#107;&amp;#64;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#x6c;&amp;#x40;&amp;#101;&amp;#x78;&amp;#x61;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
