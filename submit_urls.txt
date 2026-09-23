@@ -1,3 +1,4 @@
+https://pengtech.net/network/detailed-iptables-guide.html
 https://pengtech.net/linux/tmux.html
 https://pengtech.net/mkdocs/mkdocs-create-site.html
 https://pengtech.net/network/install_config_v2rayA_on_macOS.html
@@ -47,4 +48,3 @@ https://pengtech.net/hexo/hexo_create_site.html
 https://pengtech.net/ai/vllm_install_qwen3.html
 https://pengtech.net/hexo/hexo_apply_icarus_theme.html
 https://pengtech.net/hexo/hexo_apply_stellar_theme.html
-https://pengtech.net/nodejs/upgrade_nodejs.html

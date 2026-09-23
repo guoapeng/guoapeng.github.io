@@ -15,8 +15,32 @@
     <atom:link href="https://pengtech.net/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>鹏叔的技术博客, 收集鹏叔在日常工作中整理的技术博客, 内容包括前端javascript, material design, typescript, css, html, 后端golang, java, 数据库等。</description>
-    <pubDate>Wed, 05 Aug 2026 03:04:54 GMT</pubDate>
+    <pubDate>Wed, 23 Sep 2026 01:10:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>iptables 详解：从原理、规则到 NAT 与实战</title>
+      <link>https://pengtech.net/network/detailed-iptables-guide.html</link>
+      <guid>https://pengtech.net/network/detailed-iptables-guide.html</guid>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-什么是-iptables&quot;&gt;&lt;a href=&quot;#1-什么是-iptables&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是 iptables&quot;&gt;&lt;/a&gt;1. 什么是 iptables&lt;/h2&gt;&lt;h3 id=&quot;1-1-iptables-是什么&quot;&gt;&lt;a href=&quot;#1-1-iptables-是什么&quot; class=&quot;headerlink&quot; title=&quot;1.1. iptables 是什么&quot;&gt;&lt;/a&gt;1.1. iptables 是什么&lt;/h3&gt;&lt;p&gt;iptables 是 Linux 系统中用于管理网络数据包过滤和处理规则的工具。它运行在用户空间，负责配置和维护防火墙规则，而真正对数据包进行检查和处理的是 Linux 内核中的 Netfilter 机制。通过 iptables，管理员可以告诉 Linux：&lt;strong&gt;哪些网络数据包允许通过，哪些需要拒绝或丢弃，以及某些数据包需要进行什么样的处理。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;简单来说，iptables 可以理解为 Linux 网络防火墙的一套&lt;strong&gt;规则管理工具&lt;/strong&gt;。管理员通过命令添加规则，Linux 内核根据这些规则检查经过网络协议栈的数据包，并按照规则指定的动作处理它们。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/network/">network</category>
+      
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/iptables/">iptables</category>
+      
+      
+      <comments>https://pengtech.net/network/detailed-iptables-guide.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>在 fedora43 上安装 virtualbox</title>
@@ -1112,8 +1136,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#x6f;&amp;#x72;&amp;#x6b;&amp;#x40;&amp;#99;&amp;#111;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#x6f;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#99;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#112;&amp;#x65;&amp;#114;&amp;#115;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#x40;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#x70;&amp;#x6c;&amp;#101;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1184,9 +1208,9 @@
       <category domain="https://pengtech.net/categories/network/Hiddify/">Hiddify</category>
       
       
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/HiddifyApp/">HiddifyApp</category>
       
@@ -1608,9 +1632,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/HiddifyApp/">HiddifyApp</category>
       
@@ -1965,9 +1989,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
       
@@ -3243,9 +3267,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
       
@@ -3704,9 +3728,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
       
@@ -3745,9 +3769,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
       <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
       
@@ -3960,6 +3984,33 @@
     </item>
     
     <item>
+      <title>Angular 15 有哪些更新?</title>
+      <link>https://pengtech.net/angular/angular_15_update.html</link>
+      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
+      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      
+      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Angular 16 有哪些更新?</title>
       <link>https://pengtech.net/angular/angular_16_update.html</link>
       <guid>https://pengtech.net/angular/angular_16_update.html</guid>
@@ -3984,33 +4035,6 @@
       
       
       <comments>https://pengtech.net/angular/angular_16_update.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Angular 15 有哪些更新?</title>
-      <link>https://pengtech.net/angular/angular_15_update.html</link>
-      <guid>https://pengtech.net/angular/angular_15_update.html</guid>
-      <pubDate>Sun, 05 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在过去的一年里，我们删除了 Angular 的旧版编译器和渲染管道，这使得在过去几个月内实现了一系列开发人员体验的改进。Angular v15 是这方面的巅峰之作，它进行了数十项改进，带来了更好的开发人员体验和性能。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/angular/">angular</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      
-      <comments>https://pengtech.net/angular/angular_15_update.html#disqus_thread</comments>
       
     </item>
     
@@ -5098,33 +5122,6 @@
     </item>
     
     <item>
-      <title>Tauri开发环境配置</title>
-      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
-      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
-      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
-      
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
-      
-      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
-      
-      
-      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>创建gitlab pipeline打包Tauri跨平台应用程序</title>
       <link>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</link>
       <guid>https://pengtech.net/tauri/tauri_gitlab_pipeline.html</guid>
@@ -5149,6 +5146,33 @@
       
       
       <comments>https://pengtech.net/tauri/tauri_gitlab_pipeline.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Tauri开发环境配置</title>
+      <link>https://pengtech.net/tauri/tauri_env_setup.html</link>
+      <guid>https://pengtech.net/tauri/tauri_env_setup.html</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文要介绍的Tauri，一个多语言工具链，可使用小型和快速的二进制文件构建安全的原生应用。官网地址：&lt;a href=&quot;https://tauri.app/&quot;&gt;https://tauri.app/&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/tauri/">tauri</category>
+      
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Angular/">Angular</category>
+      
+      <category domain="https://pengtech.net/tags/tauri/">tauri</category>
+      
+      
+      <comments>https://pengtech.net/tauri/tauri_env_setup.html#disqus_thread</comments>
       
     </item>
     
@@ -8051,31 +8075,6 @@
       
       
       <comments>https://pengtech.net/git/windows_install_git.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>安装ansible</title>
-      <link>https://pengtech.net/ansible/ansible_install.html</link>
-      <guid>https://pengtech.net/ansible/ansible_install.html</guid>
-      <pubDate>Wed, 26 Jan 2022 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Ansible 是一种基于 Python 开发的开源配置和自动化工具，专为类 Unix 系统设计。它使用 SSH 协议与节点进行通信，无需在节点上安装任何客户端。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/ansible/">ansible</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ansible/">Ansible</category>
-      
-      
-      <comments>https://pengtech.net/ansible/ansible_install.html#disqus_thread</comments>
       
     </item>
     
