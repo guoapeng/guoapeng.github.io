@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/packet-journey/arp-mac.html</loc>
+    
+    <lastmod>2026-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/packet-journey/next-hop.html</loc>
     
     <lastmod>2026-09-24</lastmod>
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
     
     <lastmod>2026-09-02</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
     
     <lastmod>2026-09-02</lastmod>
     
@@ -2198,7 +2207,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/spacing_methods.html</loc>
+    <loc>https://pengtech.net/material/responsive_layout_grid.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2207,7 +2216,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/material/responsive_layout_grid.html</loc>
+    <loc>https://pengtech.net/material/spacing_methods.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2279,15 +2288,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2298,6 +2298,15 @@
   
   <url>
     <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2711,7 +2720,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2720,7 +2729,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2765,7 +2774,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2774,7 +2783,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2792,7 +2801,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_mobile.html</loc>
+    <loc>https://pengtech.net/tauri/upgrade_to_tauri_2.0.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2801,7 +2810,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/upgrade_to_tauri_2.0.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_mobile.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3107,7 +3116,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
+    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3116,7 +3125,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
+    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
