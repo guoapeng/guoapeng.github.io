@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pengtech.net/network/detailed-iptables-guide.html</loc>
+    
+    <lastmod>2026-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/network/packet-journey/arp-mac.html</loc>
     
     <lastmod>2026-09-24</lastmod>
@@ -38,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/detailed-iptables-guide.html</loc>
-    
-    <lastmod>2026-09-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pengtech.net/linux/tmux.html</loc>
     
     <lastmod>2026-09-15</lastmod>
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
     
     <lastmod>2026-09-02</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
     
     <lastmod>2026-09-02</lastmod>
     
@@ -2288,6 +2288,15 @@
   </url>
   
   <url>
+    <loc>https://pengtech.net/product/help_system_design.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pengtech.net/product/help_system_design2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -2298,15 +2307,6 @@
   
   <url>
     <loc>https://pengtech.net/product/how_to_build_an_app.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengtech.net/product/help_system_design.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2459,7 +2459,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2468,7 +2468,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2720,7 +2720,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_route.html</loc>
+    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2729,7 +2729,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/angular/angular2_migration.html</loc>
+    <loc>https://pengtech.net/angular/angular2_route.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2774,7 +2774,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2783,7 +2783,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_cli.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_debug.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2801,7 +2801,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/upgrade_to_tauri_2.0.html</loc>
+    <loc>https://pengtech.net/tauri/tauri_mobile.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -2810,7 +2810,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/tauri/tauri_mobile.html</loc>
+    <loc>https://pengtech.net/tauri/upgrade_to_tauri_2.0.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -3116,7 +3116,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
+    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3125,7 +3125,7 @@
   </url>
   
   <url>
-    <loc>https://pengtech.net/linux/create_rpm_repository_on_linux.html</loc>
+    <loc>https://pengtech.net/linux/fedora_sound_issues.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -3307,7 +3307,7 @@
 
   <url>
     <loc>https://pengtech.net/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

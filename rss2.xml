@@ -82,9 +82,9 @@
       
       <category domain="https://pengtech.net/tags/network/">network</category>
       
-      <category domain="https://pengtech.net/tags/packet-journey/">packet-journey</category>
-      
       <category domain="https://pengtech.net/tags/dns/">dns</category>
+      
+      <category domain="https://pengtech.net/tags/packet-journey/">packet-journey</category>
       
       
       <comments>https://pengtech.net/network/packet-journey/dns-resolution.html#disqus_thread</comments>
@@ -461,29 +461,6 @@
     </item>
     
     <item>
-      <title>MkDocs 搭建的网站如何做 SEO 优化？</title>
-      <link>https://pengtech.net/mkdocs/mkdocs-seo.html</link>
-      <guid>https://pengtech.net/mkdocs/mkdocs-seo.html</guid>
-      <pubDate>Tue, 02 Sep 2025 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;MkDocs 本身只是一个 静态文档生成器，并没有内建 SEO 功能，但结合 MkDocs-Material 和一些插件&amp;#x2F;配置，可以做比较完整的 SEO 优化。下面给你一份系统的方案。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/tools/">tools</category>
-      
-      <category domain="https://pengtech.net/categories/tools/Mkdocs/">Mkdocs</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Mkdocs/">Mkdocs</category>
-      
-      
-      <comments>https://pengtech.net/mkdocs/mkdocs-seo.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>使用 Mkdocs 快速搭建自己的文档系统</title>
       <link>https://pengtech.net/mkdocs/mkdocs-create-site.html</link>
       <guid>https://pengtech.net/mkdocs/mkdocs-create-site.html</guid>
@@ -503,6 +480,29 @@
       
       
       <comments>https://pengtech.net/mkdocs/mkdocs-create-site.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>MkDocs 搭建的网站如何做 SEO 优化？</title>
+      <link>https://pengtech.net/mkdocs/mkdocs-seo.html</link>
+      <guid>https://pengtech.net/mkdocs/mkdocs-seo.html</guid>
+      <pubDate>Tue, 02 Sep 2025 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;MkDocs 本身只是一个 静态文档生成器，并没有内建 SEO 功能，但结合 MkDocs-Material 和一些插件&amp;#x2F;配置，可以做比较完整的 SEO 优化。下面给你一份系统的方案。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/tools/">tools</category>
+      
+      <category domain="https://pengtech.net/categories/tools/Mkdocs/">Mkdocs</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Mkdocs/">Mkdocs</category>
+      
+      
+      <comments>https://pengtech.net/mkdocs/mkdocs-seo.html#disqus_thread</comments>
       
     </item>
     
@@ -1232,8 +1232,8 @@
       <pubDate>Sun, 20 Apr 2025 16:00:00 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#111;&amp;#x72;&amp;#107;&amp;#x40;&amp;#x63;&amp;#111;&amp;#109;&amp;#x70;&amp;#x61;&amp;#x6e;&amp;#121;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#114;&amp;#115;&amp;#111;&amp;#110;&amp;#x61;&amp;#x6c;&amp;#64;&amp;#101;&amp;#x78;&amp;#97;&amp;#109;&amp;#112;&amp;#108;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1304,9 +1304,9 @@
       <category domain="https://pengtech.net/categories/network/Hiddify/">Hiddify</category>
       
       
-      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
-      
       <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
       <category domain="https://pengtech.net/tags/HiddifyApp/">HiddifyApp</category>
       
@@ -1728,9 +1728,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
-      
       <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
       <category domain="https://pengtech.net/tags/HiddifyApp/">HiddifyApp</category>
       
@@ -2085,9 +2085,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
-      
       <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
       <category domain="https://pengtech.net/tags/Vultr/">Vultr</category>
       
@@ -2105,6 +2105,33 @@
       
       
       <comments>https://pengtech.net/network/v2ray_server_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Helm 应用升级与回滚</title>
+      <link>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</link>
+      <guid>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</guid>
+      <pubDate>Mon, 02 Sep 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在本教程中，我们首先会使用helm部署一个mysql实例，然后尝试升级mysql到更高版本，并魔力升级出错后回滚该次升级。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/devops/">devops</category>
+      
+      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
+      
+      
+      <category domain="https://pengtech.net/tags/linux/">linux</category>
+      
+      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
+      
+      <category domain="https://pengtech.net/tags/Helm/">Helm</category>
+      
+      
+      <comments>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html#disqus_thread</comments>
       
     </item>
     
@@ -2133,33 +2160,6 @@
       
       
       <comments>https://pengtech.net/k8s/helm_v3_cli_explanation.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Helm 应用升级与回滚</title>
-      <link>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</link>
-      <guid>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html</guid>
-      <pubDate>Mon, 02 Sep 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;在本教程中，我们首先会使用helm部署一个mysql实例，然后尝试升级mysql到更高版本，并魔力升级出错后回滚该次升级。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/devops/">devops</category>
-      
-      <category domain="https://pengtech.net/categories/devops/k8s/">k8s</category>
-      
-      
-      <category domain="https://pengtech.net/tags/linux/">linux</category>
-      
-      <category domain="https://pengtech.net/tags/k8s/">k8s</category>
-      
-      <category domain="https://pengtech.net/tags/Helm/">Helm</category>
-      
-      
-      <comments>https://pengtech.net/k8s/helm_release_upgrade_and_rollback.html#disqus_thread</comments>
       
     </item>
     
@@ -2849,31 +2849,6 @@
     </item>
     
     <item>
-      <title>linux上安装vmware</title>
-      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
-      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
-      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
-      
-      
-      <category domain="https://pengtech.net/tags/java/">java</category>
-      
-      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
-      
-      
-      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>如何制作macOS Sonoma ISO 文件</title>
       <link>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</link>
       <guid>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html</guid>
@@ -2897,6 +2872,31 @@
       
       
       <comments>https://pengtech.net/vmware/how_to_create_macos_Sonoma_ISO.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux上安装vmware</title>
+      <link>https://pengtech.net/vmware/linux_install_vmware_player.html</link>
+      <guid>https://pengtech.net/vmware/linux_install_vmware_player.html</guid>
+      <pubDate>Thu, 25 Apr 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文主要讲述在 Linux 上如何安装 vmare 软件， 文章以 vmware player 为例，当然对 vmware pro 也同样适用。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/linux/">linux</category>
+      
+      
+      <category domain="https://pengtech.net/tags/java/">java</category>
+      
+      <category domain="https://pengtech.net/tags/vmware/">vmware</category>
+      
+      
+      <comments>https://pengtech.net/vmware/linux_install_vmware_player.html#disqus_thread</comments>
       
     </item>
     
@@ -3363,9 +3363,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
-      
       <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
       
@@ -3570,33 +3570,6 @@
     </item>
     
     <item>
-      <title>Fedora 上安装与配置 Android studio</title>
-      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
-      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
-      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;本文讲述如何在 Fedora 上安装 Android studio.&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/OS/">OS</category>
-      
-      <category domain="https://pengtech.net/categories/OS/android/">android</category>
-      
-      
-      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
-      
-      <category domain="https://pengtech.net/tags/web/">web</category>
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      
-      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Windows上安装与配置Android SDK</title>
       <link>https://pengtech.net/android/android_sdk_install.html</link>
       <guid>https://pengtech.net/android/android_sdk_install.html</guid>
@@ -3620,6 +3593,33 @@
       
       
       <comments>https://pengtech.net/android/android_sdk_install.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 上安装与配置 Android studio</title>
+      <link>https://pengtech.net/android/fedora_install_android_studio.html</link>
+      <guid>https://pengtech.net/android/fedora_install_android_studio.html</guid>
+      <pubDate>Thu, 21 Dec 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;本文讲述如何在 Fedora 上安装 Android studio.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/OS/">OS</category>
+      
+      <category domain="https://pengtech.net/categories/OS/android/">android</category>
+      
+      
+      <category domain="https://pengtech.net/tags/javascript/">javascript</category>
+      
+      <category domain="https://pengtech.net/tags/web/">web</category>
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      
+      <comments>https://pengtech.net/android/fedora_install_android_studio.html#disqus_thread</comments>
       
     </item>
     
@@ -3805,47 +3805,6 @@
     </item>
     
     <item>
-      <title>2026 科学上网教程：v2rayA 安装与使用</title>
-      <link>https://pengtech.net/network/v2rayA_install.html</link>
-      <guid>https://pengtech.net/network/v2rayA_install.html</guid>
-      <pubDate>Fri, 17 Nov 2023 16:00:00 GMT</pubDate>
-      
-      <description>全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/network/">network</category>
-      
-      <category domain="https://pengtech.net/categories/network/v2ray/">v2ray</category>
-      
-      
-      <category domain="https://pengtech.net/tags/Android/">Android</category>
-      
-      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
-      
-      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
-      
-      <category domain="https://pengtech.net/tags/network/">network</category>
-      
-      <category domain="https://pengtech.net/tags/Macos/">Macos</category>
-      
-      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
-      
-      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
-      
-      <category domain="https://pengtech.net/tags/Redhat/">Redhat</category>
-      
-      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
-      
-      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
-      
-      
-      <comments>https://pengtech.net/network/v2rayA_install.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>MacOS 上安装与配置v2rayA</title>
       <link>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</link>
       <guid>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</guid>
@@ -3865,9 +3824,9 @@
       
       <category domain="https://pengtech.net/tags/Windows/">Windows</category>
       
-      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
-      
       <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
       
       <category domain="https://pengtech.net/tags/Macos/">Macos</category>
       
@@ -3883,6 +3842,47 @@
       
       
       <comments>https://pengtech.net/network/install_config_v2rayA_on_macOS.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>2026 科学上网教程：v2rayA 安装与使用</title>
+      <link>https://pengtech.net/network/v2rayA_install.html</link>
+      <guid>https://pengtech.net/network/v2rayA_install.html</guid>
+      <pubDate>Fri, 17 Nov 2023 16:00:00 GMT</pubDate>
+      
+      <description>全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/network/">network</category>
+      
+      <category domain="https://pengtech.net/categories/network/v2ray/">v2ray</category>
+      
+      
+      <category domain="https://pengtech.net/tags/Android/">Android</category>
+      
+      <category domain="https://pengtech.net/tags/Windows/">Windows</category>
+      
+      <category domain="https://pengtech.net/tags/network/">network</category>
+      
+      <category domain="https://pengtech.net/tags/Fedora/">Fedora</category>
+      
+      <category domain="https://pengtech.net/tags/Macos/">Macos</category>
+      
+      <category domain="https://pengtech.net/tags/Linux/">Linux</category>
+      
+      <category domain="https://pengtech.net/tags/Ubuntu/">Ubuntu</category>
+      
+      <category domain="https://pengtech.net/tags/Redhat/">Redhat</category>
+      
+      <category domain="https://pengtech.net/tags/v2rayA/">v2rayA</category>
+      
+      <category domain="https://pengtech.net/tags/v2ray/">v2ray</category>
+      
+      
+      <comments>https://pengtech.net/network/v2rayA_install.html#disqus_thread</comments>
       
     </item>
     
@@ -4267,31 +4267,6 @@
     </item>
     
     <item>
-      <title>Material 3 基础</title>
-      <link>https://pengtech.net/material/material3_foundations.html</link>
-      <guid>https://pengtech.net/material/material3_foundations.html</guid>
-      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pengtech.net/categories/web/">web</category>
-      
-      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
-      
-      
-      <category domain="https://pengtech.net/tags/material-design/">material design</category>
-      
-      <category domain="https://pengtech.net/tags/design/">design</category>
-      
-      
-      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Material Design 3介绍</title>
       <link>https://pengtech.net/material/material3_introduction.html</link>
       <guid>https://pengtech.net/material/material3_introduction.html</guid>
@@ -4315,6 +4290,31 @@
       
       
       <comments>https://pengtech.net/material/material3_introduction.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Material 3 基础</title>
+      <link>https://pengtech.net/material/material3_foundations.html</link>
+      <guid>https://pengtech.net/material/material3_foundations.html</guid>
+      <pubDate>Wed, 11 Oct 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Material foundations是任何优秀用户界面的基础，从无障碍标准到布局和交互的基本模式。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pengtech.net/categories/web/">web</category>
+      
+      <category domain="https://pengtech.net/categories/web/material-design/">material design</category>
+      
+      
+      <category domain="https://pengtech.net/tags/material-design/">material design</category>
+      
+      <category domain="https://pengtech.net/tags/design/">design</category>
+      
+      
+      <comments>https://pengtech.net/material/material3_foundations.html#disqus_thread</comments>
       
     </item>
     
