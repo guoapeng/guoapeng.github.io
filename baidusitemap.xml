@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/product/sentry_install.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/vps/install-Nezha-Monitoring-V2.html</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker-nstall-on-debian.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker-install-on-linux.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker-compose-v2-install.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/network/detailed-iptables-guide.html</loc>
     <lastmod>2026-10-11</lastmod>
   </url>
@@ -29,15 +81,7 @@
     <lastmod>2026-09-14</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/v2rayA_install.html</loc>
     <lastmod>2026-09-02</lastmod>
   </url>
   <url>
@@ -49,23 +93,11 @@
     <lastmod>2026-09-02</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/network/v2rayN_usage.html</loc>
     <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_config_v2rayA_on_linux.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
     <lastmod>2026-09-02</lastmod>
   </url>
   <url>
@@ -178,10 +210,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/docker/docker-registry-mirrors.html</loc>
-    <lastmod>2026-02-22</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/docker/docker_install.html</loc>
     <lastmod>2026-02-22</lastmod>
   </url>
   <url>
@@ -301,10 +329,6 @@
     <lastmod>2025-08-26</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/vscode/cloud_ide_on_vultr.html</loc>
-    <lastmod>2025-08-26</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/linux/linux-setup-ipv4-preferrence.html</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
@@ -327,10 +351,6 @@
   <url>
     <loc>https://pengtech.net/chrome/cli_build_chrome_extension.html</loc>
     <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
-    <lastmod>2025-06-17</lastmod>
   </url>
   <url>
     <loc>https://pengtech.net/wordpress/wordpress-maximum-upload-size.html</loc>
@@ -769,10 +789,6 @@
     <lastmod>2024-08-15</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/product/sentry_install.html</loc>
-    <lastmod>2024-08-15</lastmod>
-  </url>
-  <url>
     <loc>https://pengtech.net/gitlab/gitlab_ee_crack.html</loc>
     <lastmod>2024-08-15</lastmod>
   </url>
@@ -1045,11 +1061,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
+    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/angular/angular2_create_project.html</loc>
+    <loc>https://pengtech.net/angular/angular2_guard.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
@@ -1378,10 +1394,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/database/postgresql_basics.html</loc>
-    <lastmod>2024-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/docker/docker_compose_install.html</loc>
     <lastmod>2024-07-10</lastmod>
   </url>
   <url>

@@ -6,7 +6,7 @@
   <link href="https://pengtech.net/atom.xml" rel="self"/>
   
   <link href="https://pengtech.net/"/>
-  <updated>2026-09-24T03:25:32.383Z</updated>
+  <updated>2026-10-19T06:35:02.229Z</updated>
   <id>https://pengtech.net/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux 安装 Docker Compose 教程</title>
+    <link href="https://pengtech.net/docker/docker-compose-v2-install.html"/>
+    <id>https://pengtech.net/docker/docker-compose-v2-install.html</id>
+    <published>2026-10-18T16:00:00.000Z</published>
+    <updated>2026-10-19T06:35:02.229Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-1-Docker-Compose-是什么？&quot;&gt;&lt;a href=&quot;#1-1-Docker-Compose-是什么？&quot; class=&quot;headerlink&quot; title=&quot;1.1 Docker Compose 是什么？&quot;&gt;&lt;/a&gt;1.1 Docker Compose 是什么？&lt;/h2&gt;&lt;p&gt;Docker Compose 是用于定义和运行多容器 Docker 应用的工具。它通过一个声明式的 YAML 文件（通常命名为 compose.yaml 或 docker-compose.yml），描述应用由哪些服务（services）、网络（networks）、卷（volumes）等组成，然后用一条命令即可创建、启动、停止或销毁整套环境。&lt;/p&gt;
+&lt;p&gt;它本身并不替代 Docker Engine，而是构建在 Docker Engine 之上，负责编排多个容器之间的依赖、网络连通性和生命周期管理。对于单机开发、测试和轻量运维场景，Compose 是最常见的多容器管理方式。&lt;/p&gt;
+&lt;p&gt;更完整的背景可参考官方文档：&lt;a href=&quot;https://docs.docker.com/compose/intro/history/&quot;&gt;History and development of Docker Compose&lt;/a&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/categories/devops/docker/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Debian 系列 linux 上安装并配置 docker?</title>
+    <link href="https://pengtech.net/docker/docker-nstall-on-debian.html"/>
+    <id>https://pengtech.net/docker/docker-nstall-on-debian.html</id>
+    <published>2026-10-18T16:00:00.000Z</published>
+    <updated>2026-10-19T08:01:10.644Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Docker 是现代软件开发和运维中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了一个轻量级、高效且灵活的解决方案。无论是构建、测试还是部署应用程序，Docker 都能显著简化流程并提升效率。在本篇文章中，我们将详细介绍如何在 RHEL 系列 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="devops" scheme="https://pengtech.net/categories/devops/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/categories/devops/docker/"/>
+    
+    
+    <category term="linux" scheme="https://pengtech.net/tags/linux/"/>
+    
+    <category term="docker" scheme="https://pengtech.net/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nezha 哪吒监控 v2 安装与配置教程：从零部署到服务器接入</title>
+    <link href="https://pengtech.net/vps/install-Nezha-Monitoring-V2.html"/>
+    <id>https://pengtech.net/vps/install-Nezha-Monitoring-V2.html</id>
+    <published>2026-10-17T16:00:00.000Z</published>
+    <updated>2026-10-20T05:35:13.671Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、前言&quot;&gt;&lt;a href=&quot;#一、前言&quot; class=&quot;headerlink&quot; title=&quot;一、前言&quot;&gt;&lt;/a&gt;一、前言&lt;/h2&gt;&lt;p&gt;如果你同时管理着几台、十几台甚至更多 VPS，最头疼的往往不是“机器挂了”，而是“挂了却不知道”。打开一堆终端、一个个</summary>
+        
+      
+    
+    
+    
+    <category term="VPS" scheme="https://pengtech.net/categories/VPS/"/>
+    
+    
+    <category term="VPS" scheme="https://pengtech.net/tags/VPS/"/>
+    
+    <category term="Monitoring" scheme="https://pengtech.net/tags/Monitoring/"/>
+    
+  </entry>
   
   <entry>
     <title>知道 IP 之后，为什么还需要 MAC？</title>
@@ -1134,8 +1209,8 @@
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对大多数开发者来说，有时候需要在同一台机器上管理多个 GitHub 账户。例如在以下场景中，我们就需要使用到 GitHub 多账户管理技巧。&lt;/p&gt;
-&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#119;&amp;#111;&amp;#114;&amp;#x6b;&amp;#64;&amp;#x63;&amp;#111;&amp;#x6d;&amp;#112;&amp;#x61;&amp;#110;&amp;#x79;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
-&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#x73;&amp;#111;&amp;#x6e;&amp;#97;&amp;#108;&amp;#64;&amp;#x65;&amp;#120;&amp;#97;&amp;#x6d;&amp;#112;&amp;#108;&amp;#x65;&amp;#46;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
+&lt;p&gt;白天作为一名员工，为您所在的公司工作，你所在的公司使用 GitHub 企业版或另一个 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x77;&amp;#111;&amp;#114;&amp;#x6b;&amp;#x40;&amp;#x63;&amp;#x6f;&amp;#109;&amp;#x70;&amp;#97;&amp;#110;&amp;#121;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;）管理内部私有仓库，你需要在此账号下提交代码。&lt;/p&gt;
+&lt;p&gt;晚上在个人账号下修复自己的开源项目。你拥有一个个人 GitHub 账号（例如&lt;a href=&quot;mailto:&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&quot;&gt;&amp;#x70;&amp;#101;&amp;#x72;&amp;#115;&amp;#111;&amp;#110;&amp;#97;&amp;#x6c;&amp;#64;&amp;#x65;&amp;#120;&amp;#x61;&amp;#x6d;&amp;#112;&amp;#108;&amp;#101;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;），用于托管自己的开源项目、学习实验或兼职项目。&lt;/p&gt;
 &lt;p&gt;此场景下，多账号管理是兼顾职业与个人开发的必要需求。并达到权限分离，隐私保护以及合规要求。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;权限分离：公司仓库可能需要严格的访问控制，禁止使用个人账号提交代码。&lt;/p&gt;
@@ -1189,7 +1264,7 @@
     <link href="https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html"/>
     <id>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</id>
     <published>2025-04-02T16:00:00.000Z</published>
-    <updated>2026-09-02T02:14:16.573Z</updated>
+    <updated>2026-11-11T15:04:46.128Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。本文主要讲述如何在 Linux 操作系统上安装并配置HiddifyApp。&lt;/p&gt;</summary>
@@ -1577,7 +1652,7 @@
     <link href="https://pengtech.net/network/hiddifyApp_install_and_config.html"/>
     <id>https://pengtech.net/network/hiddifyApp_install_and_config.html</id>
     <published>2024-12-22T16:00:00.000Z</published>
-    <updated>2026-09-02T02:14:16.308Z</updated>
+    <updated>2026-11-11T15:08:22.433Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hiddify Next 是一款开源的多平台通用代理客户端，旨在帮助用户在受互联网审查的地区自由访问网络服务。它基于 Sing-Box 构建，支持超过 20 种协议，兼容 Android、iOS、Windows、macOS 和 Linux 等操作系统。Hiddify Next 最近更名为 HiddifyApp 了，本文中 Hiddify Next 和 HiddifyApp 会交替使用，他们所指的都是同一个软件。&lt;/p&gt;</summary>
@@ -2125,7 +2200,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide_on_vultr.html"/>
     <id>https://pengtech.net/vscode/cloud_ide_on_vultr.html</id>
     <published>2024-08-27T16:00:00.000Z</published>
-    <updated>2025-08-26T04:52:47.543Z</updated>
+    <updated>2026-11-11T15:20:53.217Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -3092,7 +3167,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_linux.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_linux.html</id>
     <published>2024-01-17T16:00:00.000Z</published>
-    <updated>2026-09-02T02:14:16.357Z</updated>
+    <updated>2026-11-11T15:08:42.885Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 debian 系列和 redhat 系列 Linux 操作系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3517,7 +3592,7 @@
     <link href="https://pengtech.net/network/install_config_v2rayA_on_macOS.html"/>
     <id>https://pengtech.net/network/install_config_v2rayA_on_macOS.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2026-09-02T02:14:16.582Z</updated>
+    <updated>2026-11-11T15:10:15.398Z</updated>
     
     
     <summary type="html">&lt;p&gt;本教程详细讲解了如何在 Macos 系统上安装并配置 v2rayA 这款&lt;strong&gt;科学上网、魔法上网软件&lt;/strong&gt;。&lt;/p&gt;</summary>
@@ -3556,7 +3631,7 @@
     <link href="https://pengtech.net/network/v2rayA_install.html"/>
     <id>https://pengtech.net/network/v2rayA_install.html</id>
     <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2026-09-02T02:14:16.581Z</updated>
+    <updated>2026-11-11T15:11:03.067Z</updated>
     
     
     <summary type="html">全面讲解v2rara：2025年最新版v2rayA科学上网安装与配置指南，适用于Windows、Macos、Linux系统。</summary>
@@ -3612,15 +3687,15 @@
   </entry>
   
   <entry>
-    <title>安装并配置docker-compose</title>
+    <title>Linux 安装并配置 docker compose</title>
     <link href="https://pengtech.net/docker/docker_compose_install.html"/>
     <id>https://pengtech.net/docker/docker_compose_install.html</id>
     <published>2023-11-10T16:00:00.000Z</published>
-    <updated>2024-07-10T10:42:45.389Z</updated>
+    <updated>2026-10-19T06:34:23.095Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Compose 是用于定义和运行多容器 Docker 应用程序的工具。通过 Compose，您可以使用 YML 文件来配置应用程序需要的所有服务。然后，使用一个命令，就可以从 YML 文件配置中创建并启动所有服务。&lt;/p&gt;
-&lt;p&gt;本文主要讲述如何在 centos 7.9上安装docker compose,　当然此安装步骤也适用于 debian &amp;amp; readhat 系列的其他 linux 发行版.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Docker compose 是用于定义和运行多容器 Docker 应用程序的工具。通过 Docker compose，您可以使用 YML 文件来配置应用程序需要的所有服务。然后，使用一个命令，就可以从 YML 文件配置中创建并启动所有服务。&lt;/p&gt;
+&lt;p&gt;本文主要讲述如何在 centos 7.9 上安装 docker compose,　当然此安装步骤也适用于 debian &amp;amp; readhat 系列的其他 linux 发行版.&lt;/p&gt;</summary>
     
     
     
@@ -3995,7 +4070,7 @@
     <link href="https://pengtech.net/product/sentry_install.html"/>
     <id>https://pengtech.net/product/sentry_install.html</id>
     <published>2023-10-10T16:00:00.000Z</published>
-    <updated>2024-08-15T21:30:35.757Z</updated>
+    <updated>2026-11-11T15:20:36.021Z</updated>
     
     
     <summary type="html">&lt;p&gt;Sentry 是一个免费和开源的错误跟踪平台，可以实时监控和修复崩溃。它使软件开发人员能够看到重要的东西，更快地解决问题，并不断了解他们的应用程序。这个平台提供了对生产部署的实时洞察力，并提供了重现和修复崩溃的信息。Sentry 支持所有主要的语言和框架，并与你喜欢的应用程序和服务集成。&lt;/p&gt;</summary>
@@ -5807,10 +5882,10 @@
   
   <entry>
     <title>如何在 RHEL 系列 linux 上安装并配置 docker?</title>
-    <link href="https://pengtech.net/docker/docker_install.html"/>
-    <id>https://pengtech.net/docker/docker_install.html</id>
+    <link href="https://pengtech.net/docker/docker-install-on-linux.html"/>
+    <id>https://pengtech.net/docker/docker-install-on-linux.html</id>
     <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2026-02-22T22:34:50.437Z</updated>
+    <updated>2026-10-19T06:40:09.813Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 是现代软件开发和运维中不可或缺的工具之一。它通过容器化技术，为开发者和运维人员提供了一个轻量级、高效且灵活的解决方案。无论是构建、测试还是部署应用程序，Docker 都能显著简化流程并提升效率。在本篇文章中，我们将详细介绍如何在 RHEL 系列 系统上安装和配置 Docker，帮助您快速上手并充分利用其强大的功能。&lt;/p&gt;</summary>
@@ -6346,7 +6421,7 @@
     <link href="https://pengtech.net/vscode/cloud_ide.html"/>
     <id>https://pengtech.net/vscode/cloud_ide.html</id>
     <published>2022-12-20T16:00:00.000Z</published>
-    <updated>2025-06-17T08:09:50.914Z</updated>
+    <updated>2026-11-11T15:21:23.739Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;Web IDE，顾名思义就是云端开发环境，把 IDE 部署在云上。打开浏览器，连上云 IDE，就可以方便敲代码跑程序。想象一下，带上一台 iPad 或者华为、小米平板，配上蓝牙键盘，坐在阴凉下，或者沙滩上，吹着海风，面朝大海敲代码，多么惬意。&lt;/p&gt;
@@ -7373,79 +7448,6 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;本文会聊聊 JIT 与 AOT 之间的区别，及前端框架中 AOT 的应用。Angular 同时提供这两种编译方案，下面我们用 Angular 举例说明两者的区别。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>深度刨析@angular/platform-browser-dynamic</title>
-    <link href="https://pengtech.net/angular/angular_platformBrowserDynamic.html"/>
-    <id>https://pengtech.net/angular/angular_platformBrowserDynamic.html</id>
-    <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;作为 angular 应用的入口模块，了解他的重要性是显而易见的！&lt;/p&gt;
-&lt;h2 id=&quot;2-angular-之-main-ts&quot;&gt;&lt;a href=&quot;#2-angular-之-main-ts&quot; class=&quot;headerlink&quot; title=&quot;2. angular 之 main.ts&quot;&gt;&lt;/a&gt;2. angular 之 main.ts&lt;/h2&gt;&lt;p&gt;main.ts 是这个样子的，下面我就去解开 platformBrowserDynamic 神秘面纱！&lt;/p&gt;
-&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title function_&quot;&gt;platformBrowserDynamic&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;bootstrapModule&lt;/span&gt;(&lt;span class=&quot;title class_&quot;&gt;AppModule&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .&lt;span class=&quot;title function_&quot;&gt;catch&lt;/span&gt;(&lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;error&lt;/span&gt;(err));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Angular platform是什么?</title>
-    <link href="https://pengtech.net/angular/angular_platforms.html"/>
-    <id>https://pengtech.net/angular/angular_platforms.html</id>
-    <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.317Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-Angular-platform-是什么&quot;&gt;&lt;a href=&quot;#1-Angular-platform-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. Angular platform 是什么?&quot;&gt;&lt;/a&gt;1. Angular platform 是什么?&lt;/h2&gt;&lt;p&gt;原文: &lt;a href=&quot;https://indepth.dev/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms&quot;&gt;Angular Platforms in depth. Part 1. What are Angular Platforms?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2-前言&quot;&gt;&lt;a href=&quot;#2-前言&quot; class=&quot;headerlink&quot; title=&quot;2. 前言&quot;&gt;&lt;/a&gt;2. 前言&lt;/h2&gt;&lt;p&gt;在这一系列文章中，我将向你们揭示 Angular 应用程序如何跨不同环境执行。此外，我们还将学习如何构建自定义 Angular Platforms 使用 ASCII 图形呈现系统终端内的应用程序。&lt;/p&gt;
-&lt;p&gt;Angular 框架被设计成平台独立的。即允许在不同的环境中执行 Angular 应用程序  —  浏览器、服务器、web-worker，甚至移动设备。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://pengtech.net/categories/web/"/>
-    
-    <category term="angular" scheme="https://pengtech.net/categories/web/angular/"/>
-    
-    
-    <category term="web" scheme="https://pengtech.net/tags/web/"/>
-    
-    <category term="Angular" scheme="https://pengtech.net/tags/Angular/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Angular如何配置多套环境</title>
-    <link href="https://pengtech.net/angular/angular_setup_multiple_envs.html"/>
-    <id>https://pengtech.net/angular/angular_setup_multiple_envs.html</id>
-    <published>2022-04-02T16:00:00.000Z</published>
-    <updated>2024-08-06T10:05:40.360Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;在 Angular 应用程序中，默认情况下构建了两个环境文件 dev 和 prod。基于目标环境，您的应用程序可能具有不同的设置。您可以根据需要配置多个自定义环境。在这里，您将看到如何配置多个环境，如 staging、beta、QA、prod 等&lt;/p&gt;</summary>
     
     
     
