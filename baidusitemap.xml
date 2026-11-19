@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://pengtech.net/vscode/cloud_ide.html</loc>
     <lastmod>2026-11-11</lastmod>
   </url>
@@ -26,10 +38,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/hiddifyApp_install_and_config.html</loc>
-    <lastmod>2026-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-linux.html</loc>
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
@@ -82,14 +90,6 @@
   </url>
   <url>
     <loc>https://pengtech.net/network/install_v2rayA_on_Windows_2.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install_hiddifyApp_on_windows.html</loc>
-    <lastmod>2026-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://pengtech.net/network/install-and-config-HiddifyApp-on-MacOS.html</loc>
     <lastmod>2026-09-02</lastmod>
   </url>
   <url>
@@ -933,11 +933,11 @@
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_color.html</loc>
+    <loc>https://pengtech.net/material/material_navigation.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
-    <loc>https://pengtech.net/material/material_navigation.html</loc>
+    <loc>https://pengtech.net/material/material_color.html</loc>
     <lastmod>2024-08-06</lastmod>
   </url>
   <url>
